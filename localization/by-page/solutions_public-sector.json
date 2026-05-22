@@ -1,0 +1,265 @@
+{
+  "page": "solutions_public-sector",
+  "count": 37,
+  "strings": [
+    {
+      "id": "body.solutions_public-sector.h2.1",
+      "en": "Build Smart Cities with Sovereign Infrastructure",
+      "it": "",
+      "source": "solutions/public-sector.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.solutions_public-sector.h2.2",
+      "en": "Public Sector Infrastructure",
+      "it": "",
+      "source": "solutions/public-sector.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.solutions_public-sector.h2.3",
+      "en": "Related Resources",
+      "it": "",
+      "source": "solutions/public-sector.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.solutions_public-sector.h3.1",
+      "en": "Data Sovereignty",
+      "it": "",
+      "source": "solutions/public-sector.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_public-sector.h3.10",
+      "en": "Data Spaces: The Value of Connected Data",
+      "it": "",
+      "source": "solutions/public-sector.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_public-sector.h3.2",
+      "en": "Citizen Services",
+      "it": "",
+      "source": "solutions/public-sector.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_public-sector.h3.3",
+      "en": "Smart City Integration",
+      "it": "",
+      "source": "solutions/public-sector.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_public-sector.h3.4",
+      "en": "Compliance & Security",
+      "it": "",
+      "source": "solutions/public-sector.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_public-sector.h3.5",
+      "en": "AtomOS",
+      "it": "",
+      "source": "solutions/public-sector.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_public-sector.h3.6",
+      "en": "Electros",
+      "it": "",
+      "source": "solutions/public-sector.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_public-sector.h3.7",
+      "en": "Atomosphere",
+      "it": "",
+      "source": "solutions/public-sector.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_public-sector.h3.8",
+      "en": "Italy's National Cloud",
+      "it": "",
+      "source": "solutions/public-sector.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_public-sector.h3.9",
+      "en": "The European Open Science Cloud",
+      "it": "",
+      "source": "solutions/public-sector.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_public-sector.h4.1",
+      "en": "Sovereign Hypervisor",
+      "it": "",
+      "source": "solutions/public-sector.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.solutions_public-sector.h4.2",
+      "en": "Government Services Dashboard",
+      "it": "",
+      "source": "solutions/public-sector.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.solutions_public-sector.h4.3",
+      "en": "Government Integration API",
+      "it": "",
+      "source": "solutions/public-sector.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.solutions_public-sector.p.1",
+      "en": "Transform your city's digital infrastructure with sovereign cloud platforms that ensure data sovereignty, citizen privacy, and regulatory compliance. Elemento provides the foundation for smart city initiatives, eGovernment services, and public sector digital transformation.",
+      "it": "",
+      "source": "solutions/public-sector.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_public-sector.p.10",
+      "en": "Discover insights on government cloud sovereignty, smart city initiatives, and public sector digital transformation.",
+      "it": "",
+      "source": "solutions/public-sector.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_public-sector.p.11",
+      "en": "Learn about sovereign cloud initiatives and how governments are building national digital infrastructure.",
+      "it": "",
+      "source": "solutions/public-sector.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_public-sector.p.12",
+      "en": "Explore how public sector data spaces are enabling research and innovation across government institutions.",
+      "it": "",
+      "source": "solutions/public-sector.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_public-sector.p.13",
+      "en": "Understand how smart cities leverage connected data for better citizen services and urban planning.",
+      "it": "",
+      "source": "solutions/public-sector.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_public-sector.p.2",
+      "en": "Complete control over citizen data with local processing and storage to meet government requirements",
+      "it": "",
+      "source": "solutions/public-sector.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_public-sector.p.3",
+      "en": "Digital government services with high availability, security, and accessibility for all citizens",
+      "it": "",
+      "source": "solutions/public-sector.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_public-sector.p.4",
+      "en": "Seamless integration with IoT sensors, traffic systems, and urban monitoring infrastructure",
+      "it": "",
+      "source": "solutions/public-sector.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_public-sector.p.5",
+      "en": "Government-grade security with audit trails and compliance reporting for public sector requirements",
+      "it": "",
+      "source": "solutions/public-sector.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_public-sector.p.6",
+      "en": "Sovereign cloud platform designed for government and smart city initiatives with data sovereignty, compliance, and citizen service optimization.",
+      "it": "",
+      "source": "solutions/public-sector.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_public-sector.p.7",
+      "en": "Government-grade hypervisor with air-gapped deployment capabilities, encryption at rest, and compliance-ready architecture. Deploy in secure government data centers with full audit trail support.",
+      "it": "",
+      "source": "solutions/public-sector.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_public-sector.p.8",
+      "en": "Unified dashboard for managing citizen services, eGovernment applications, and smart city infrastructure. Real-time monitoring, compliance reporting, and citizen service optimization.",
+      "it": "",
+      "source": "solutions/public-sector.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_public-sector.p.9",
+      "en": "Secure API layer for integrating government systems, IoT sensors, and citizen services. End-to-end encryption, data sovereignty controls, and compliance monitoring for public sector requirements.",
+      "it": "",
+      "source": "solutions/public-sector.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_public-sector.ui.1",
+      "en": "Learn More",
+      "it": "",
+      "source": "solutions/public-sector.html",
+      "context": "class"
+    },
+    {
+      "id": "body.solutions_public-sector.ui.2",
+      "en": "Learn More",
+      "it": "",
+      "source": "solutions/public-sector.html",
+      "context": "class"
+    },
+    {
+      "id": "body.solutions_public-sector.ui.3",
+      "en": "Learn More",
+      "it": "",
+      "source": "solutions/public-sector.html",
+      "context": "class"
+    },
+    {
+      "id": "body.solutions_public-sector.ui.4",
+      "en": "Read More",
+      "it": "",
+      "source": "solutions/public-sector.html",
+      "context": "class"
+    },
+    {
+      "id": "body.solutions_public-sector.ui.5",
+      "en": "Read More",
+      "it": "",
+      "source": "solutions/public-sector.html",
+      "context": "class"
+    },
+    {
+      "id": "body.solutions_public-sector.ui.6",
+      "en": "Read More",
+      "it": "",
+      "source": "solutions/public-sector.html",
+      "context": "class"
+    },
+    {
+      "id": "meta.solutions_public-sector.description",
+      "en": "Empowering public institutions with sovereign, interoperable, and auditable cloud infrastructure. Elemento provides compliance-ready infrastructure for government and smart city initiatives.",
+      "it": "",
+      "source": "solutions/public-sector.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.solutions_public-sector.title",
+      "en": "Public Sector & Smart City Infrastructure | Elemento",
+      "it": "",
+      "source": "solutions/public-sector.html",
+      "context": "meta title"
+    }
+  ]
+}

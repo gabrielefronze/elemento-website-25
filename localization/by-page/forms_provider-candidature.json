@@ -1,0 +1,475 @@
+{
+  "page": "forms_provider-candidature",
+  "count": 67,
+  "strings": [
+    {
+      "id": "body.forms_provider-candidature.button.1",
+      "en": "Submit Candidature",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<button>"
+    },
+    {
+      "id": "body.forms_provider-candidature.h1.1",
+      "en": "Join the Atomosphere",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<h1>"
+    },
+    {
+      "id": "body.forms_provider-candidature.h3.1",
+      "en": "Company Information",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.forms_provider-candidature.h3.2",
+      "en": "Primary Contact",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.forms_provider-candidature.h3.3",
+      "en": "Cloud Services Offered",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.forms_provider-candidature.h3.4",
+      "en": "Technical Capabilities",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.forms_provider-candidature.h3.5",
+      "en": "Business Information",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.forms_provider-candidature.h3.6",
+      "en": "Integration Readiness",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.forms_provider-candidature.h3.7",
+      "en": "Additional Information",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.forms_provider-candidature.h4.1",
+      "en": "Virtual Machine Management",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.forms_provider-candidature.h4.2",
+      "en": "Storage Services",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.forms_provider-candidature.h4.3",
+      "en": "Networking Services",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.forms_provider-candidature.h4.4",
+      "en": "Container & Orchestration",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.1",
+      "en": "Company Name *",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.10",
+      "en": "Compute Instances",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.11",
+      "en": "Auto Scaling",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.12",
+      "en": "Load Balancing",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.13",
+      "en": "Backup & Recovery",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.14",
+      "en": "Object Storage",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.15",
+      "en": "Block Storage",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.16",
+      "en": "File Storage",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.17",
+      "en": "CDN Services",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.18",
+      "en": "Virtual Private Cloud",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.19",
+      "en": "VPN Services",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.2",
+      "en": "Company Website *",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.20",
+      "en": "DNS Services",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.21",
+      "en": "Firewall Services",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.22",
+      "en": "Kubernetes (K8s)",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.23",
+      "en": "Docker Support",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.24",
+      "en": "Container Registry",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.25",
+      "en": "Serverless Containers",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.26",
+      "en": "Number of Data Centers",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.27",
+      "en": "Number of Regions",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.28",
+      "en": "API Availability",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.29",
+      "en": "Compliance Standards",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.3",
+      "en": "Founded Year",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.30",
+      "en": "ISO 27001",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.31",
+      "en": "SOC 2",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.32",
+      "en": "GDPR",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.33",
+      "en": "HIPAA",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.34",
+      "en": "PCI DSS",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.35",
+      "en": "Target Markets",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.36",
+      "en": "Enterprise",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.37",
+      "en": "Small & Medium Business",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.38",
+      "en": "Startups",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.39",
+      "en": "Government",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.4",
+      "en": "Number of Employees",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.40",
+      "en": "Education",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.41",
+      "en": "Geographic Coverage",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.42",
+      "en": "Pricing Model",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.43",
+      "en": "Expected Integration Timeline",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.44",
+      "en": "Technical Team Size",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.45",
+      "en": "API Documentation Quality",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.46",
+      "en": "Unique Value Proposition",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.47",
+      "en": "Success Stories",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.48",
+      "en": "Integration Challenges",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.49",
+      "en": "I agree to the Terms and Conditions (IT) , Privacy Policy , and Cookie Policy *",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.5",
+      "en": "Company Description *",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.50",
+      "en": "Subscribe to Elemento updates and integration news",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.6",
+      "en": "Contact Name *",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.7",
+      "en": "Job Title *",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.8",
+      "en": "Email Address *",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.label.9",
+      "en": "Phone Number",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_provider-candidature.p.1",
+      "en": "Submit your candidature to become a certified Elemento cloud provider",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.forms_provider-candidature.p.2",
+      "en": "Please complete all required fields.",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.forms_provider-candidature.p.3",
+      "en": "${message}",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "<p>"
+    },
+    {
+      "id": "meta.forms_provider-candidature.title",
+      "en": "Cloud Provider Candidature - Elemento",
+      "it": "",
+      "source": "forms/provider-candidature.html",
+      "context": "meta title"
+    }
+  ]
+}

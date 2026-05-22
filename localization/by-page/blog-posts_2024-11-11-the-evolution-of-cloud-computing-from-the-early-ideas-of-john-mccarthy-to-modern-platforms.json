@@ -1,0 +1,118 @@
+{
+  "page": "blog-posts_2024-11-11-the-evolution-of-cloud-computing-from-the-early-ideas-of-john-mccarthy-to-modern-platforms",
+  "count": 16,
+  "strings": [
+    {
+      "id": "body.blog-posts_2024-11-11-the-evolution-of-cloud-computing-from-the-early-ideas-of-john-mccarthy-to-modern-platforms.h1.1",
+      "en": "The Evolution of Cloud Computing: From the Early Ideas of John McCarthy to Modern Platforms",
+      "it": "",
+      "source": "blog-posts/2024-11-11-the-evolution-of-cloud-computing-from-the-early-ideas-of-john-mccarthy-to-modern-platforms.html",
+      "context": "<h1>"
+    },
+    {
+      "id": "body.blog-posts_2024-11-11-the-evolution-of-cloud-computing-from-the-early-ideas-of-john-mccarthy-to-modern-platforms.h3.1",
+      "en": "References",
+      "it": "",
+      "source": "blog-posts/2024-11-11-the-evolution-of-cloud-computing-from-the-early-ideas-of-john-mccarthy-to-modern-platforms.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.blog-posts_2024-11-11-the-evolution-of-cloud-computing-from-the-early-ideas-of-john-mccarthy-to-modern-platforms.p.1",
+      "en": "By giulia-borgoni &mdash; 2025-06-24",
+      "it": "",
+      "source": "blog-posts/2024-11-11-the-evolution-of-cloud-computing-from-the-early-ideas-of-john-mccarthy-to-modern-platforms.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-11-11-the-evolution-of-cloud-computing-from-the-early-ideas-of-john-mccarthy-to-modern-platforms.p.10",
+      "en": "Cloud Computing: History and Overview",
+      "it": "",
+      "source": "blog-posts/2024-11-11-the-evolution-of-cloud-computing-from-the-early-ideas-of-john-mccarthy-to-modern-platforms.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-11-11-the-evolution-of-cloud-computing-from-the-early-ideas-of-john-mccarthy-to-modern-platforms.p.11",
+      "en": "Cloud Computing: History, Architecture, Security Issues",
+      "it": "",
+      "source": "blog-posts/2024-11-11-the-evolution-of-cloud-computing-from-the-early-ideas-of-john-mccarthy-to-modern-platforms.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-11-11-the-evolution-of-cloud-computing-from-the-early-ideas-of-john-mccarthy-to-modern-platforms.p.12",
+      "en": "A Brief History of Cloud Computing",
+      "it": "",
+      "source": "blog-posts/2024-11-11-the-evolution-of-cloud-computing-from-the-early-ideas-of-john-mccarthy-to-modern-platforms.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-11-11-the-evolution-of-cloud-computing-from-the-early-ideas-of-john-mccarthy-to-modern-platforms.p.2",
+      "en": "The evolution of cloud computing can be traced back to real-time systems predating its existence...",
+      "it": "",
+      "source": "blog-posts/2024-11-11-the-evolution-of-cloud-computing-from-the-early-ideas-of-john-mccarthy-to-modern-platforms.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-11-11-the-evolution-of-cloud-computing-from-the-early-ideas-of-john-mccarthy-to-modern-platforms.p.3",
+      "en": "The evolution of cloud computing can be traced back to older real-time systems that were used long before cloud computing came into existence. In the term 'cloud computing,' the word 'cloud' refers to the provider or the service provider that offers services over the Internet, while 'computing' refers to the processing, calculations, or various resources provided by the computer.",
+      "it": "",
+      "source": "blog-posts/2024-11-11-the-evolution-of-cloud-computing-from-the-early-ideas-of-john-mccarthy-to-modern-platforms.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-11-11-the-evolution-of-cloud-computing-from-the-early-ideas-of-john-mccarthy-to-modern-platforms.p.4",
+      "en": "The concept of cloud computing dates back to 1961 when John McCarthy at MIT proposed that computing could be organized as a public utility, just like the telephone system is a public utility. This pioneering vision laid the groundwork for the evolution of cloud computing.",
+      "it": "",
+      "source": "blog-posts/2024-11-11-the-evolution-of-cloud-computing-from-the-early-ideas-of-john-mccarthy-to-modern-platforms.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-11-11-the-evolution-of-cloud-computing-from-the-early-ideas-of-john-mccarthy-to-modern-platforms.p.5",
+      "en": "One of the first companies to work with the concept of cloud computing was Salesforce in the late 1990s. The company began providing their software as a service (SaaS), offering customer relationship management for their users. Salesforce's model is one of the typical models of cloud computing, along with Platform as a Service (PaaS) and Infrastructure as a Service (IaaS).",
+      "it": "",
+      "source": "blog-posts/2024-11-11-the-evolution-of-cloud-computing-from-the-early-ideas-of-john-mccarthy-to-modern-platforms.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-11-11-the-evolution-of-cloud-computing-from-the-early-ideas-of-john-mccarthy-to-modern-platforms.p.6",
+      "en": "In the following years, many universities worldwide started collaborating with Google and IBM to promote cloud computing programs. This helped reduce costs for academic research and created significant computing power accessible via the Internet.",
+      "it": "",
+      "source": "blog-posts/2024-11-11-the-evolution-of-cloud-computing-from-the-early-ideas-of-john-mccarthy-to-modern-platforms.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-11-11-the-evolution-of-cloud-computing-from-the-early-ideas-of-john-mccarthy-to-modern-platforms.p.7",
+      "en": "In 2006, Amazon launched Amazon Elastic Compute Cloud (EC2), introducing the Infrastructure as a Service (IaaS) model that revolutionized how businesses could access computing resources. Subsequently, many other organizations joined the OpenStack project, which contributed to the development of cloud computing.",
+      "it": "",
+      "source": "blog-posts/2024-11-11-the-evolution-of-cloud-computing-from-the-early-ideas-of-john-mccarthy-to-modern-platforms.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-11-11-the-evolution-of-cloud-computing-from-the-early-ideas-of-john-mccarthy-to-modern-platforms.p.8",
+      "en": "Today, cloud computing has reached a high degree of technological maturity and has transformed how businesses and individuals use and manage their data and applications. It has become an essential tool for the scalability, accessibility, and efficiency of computing services.",
+      "it": "",
+      "source": "blog-posts/2024-11-11-the-evolution-of-cloud-computing-from-the-early-ideas-of-john-mccarthy-to-modern-platforms.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-11-11-the-evolution-of-cloud-computing-from-the-early-ideas-of-john-mccarthy-to-modern-platforms.p.9",
+      "en": "A History of the Cloud",
+      "it": "",
+      "source": "blog-posts/2024-11-11-the-evolution-of-cloud-computing-from-the-early-ideas-of-john-mccarthy-to-modern-platforms.html",
+      "context": "<p>"
+    },
+    {
+      "id": "meta.blog-posts_2024-11-11-the-evolution-of-cloud-computing-from-the-early-ideas-of-john-mccarthy-to-modern-platforms.description",
+      "en": "The evolution of cloud computing can be traced back to real-time systems predating its existence...",
+      "it": "",
+      "source": "blog-posts/2024-11-11-the-evolution-of-cloud-computing-from-the-early-ideas-of-john-mccarthy-to-modern-platforms.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.blog-posts_2024-11-11-the-evolution-of-cloud-computing-from-the-early-ideas-of-john-mccarthy-to-modern-platforms.title",
+      "en": "The Evolution of Cloud Computing: From the Early Ideas of John McCarthy to Modern Platforms | Elemento Blog",
+      "it": "",
+      "source": "blog-posts/2024-11-11-the-evolution-of-cloud-computing-from-the-early-ideas-of-john-mccarthy-to-modern-platforms.html",
+      "context": "meta title"
+    }
+  ]
+}

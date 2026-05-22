@@ -1,0 +1,55 @@
+{
+  "page": "thank-you_partnership-dev",
+  "count": 7,
+  "strings": [
+    {
+      "id": "body.thank-you_partnership-dev.h1.1",
+      "en": "Thank you for reaching out!",
+      "it": "",
+      "source": "thank-you/partnership-dev/index.html",
+      "context": "<h1>"
+    },
+    {
+      "id": "body.thank-you_partnership-dev.p.1",
+      "en": "We've received your proposal and scheduled our introductory chat.",
+      "it": "",
+      "source": "thank-you/partnership-dev/index.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.thank-you_partnership-dev.p.2",
+      "en": "🤝 Next Step: Please verify your email and accept the calendar invitation. This ensures both our teams are aligned for the call. We're excited to explore a potential collaboration with you.",
+      "it": "",
+      "source": "thank-you/partnership-dev/index.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.thank-you_partnership-dev.ui.1",
+      "en": "Explore Atomosphere",
+      "it": "",
+      "source": "thank-you/partnership-dev/index.html",
+      "context": "class"
+    },
+    {
+      "id": "body.thank-you_partnership-dev.ui.2",
+      "en": "Back to homepage",
+      "it": "",
+      "source": "thank-you/partnership-dev/index.html",
+      "context": "class"
+    },
+    {
+      "id": "meta.thank-you_partnership-dev.description",
+      "en": "Your partnership intro call is scheduled. Accept the calendar invitation so both teams are aligned for the conversation.",
+      "it": "",
+      "source": "thank-you/partnership-dev/index.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.thank-you_partnership-dev.title",
+      "en": "Thank you — Partnership &amp; business development | Elemento",
+      "it": "",
+      "source": "thank-you/partnership-dev/index.html",
+      "context": "meta title"
+    }
+  ]
+}

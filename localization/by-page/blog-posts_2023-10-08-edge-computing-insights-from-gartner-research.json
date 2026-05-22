@@ -1,0 +1,97 @@
+{
+  "page": "blog-posts_2023-10-08-edge-computing-insights-from-gartner-research",
+  "count": 13,
+  "strings": [
+    {
+      "id": "body.blog-posts_2023-10-08-edge-computing-insights-from-gartner-research.h1.1",
+      "en": "Edge computing: insights from Gartner research",
+      "it": "",
+      "source": "blog-posts/2023-10-08-edge-computing-insights-from-gartner-research.html",
+      "context": "<h1>"
+    },
+    {
+      "id": "body.blog-posts_2023-10-08-edge-computing-insights-from-gartner-research.h3.1",
+      "en": "References",
+      "it": "",
+      "source": "blog-posts/2023-10-08-edge-computing-insights-from-gartner-research.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.blog-posts_2023-10-08-edge-computing-insights-from-gartner-research.p.1",
+      "en": "By giulia-borgoni &mdash; 2025-06-24",
+      "it": "",
+      "source": "blog-posts/2023-10-08-edge-computing-insights-from-gartner-research.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-10-08-edge-computing-insights-from-gartner-research.p.2",
+      "en": "Edge computing is a revolutionary approach in enterprise IT architecture, offering new...",
+      "it": "",
+      "source": "blog-posts/2023-10-08-edge-computing-insights-from-gartner-research.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-10-08-edge-computing-insights-from-gartner-research.p.3",
+      "en": "Edge computing represents a revolutionary breakthrough in enterprise IT architecture, opening up new perspectives and opportunities. According to a prominent study conducted by Gartner, companies that have successfully adopted edge computing have followed a set of best practices that guided their implementation.",
+      "it": "",
+      "source": "blog-posts/2023-10-08-edge-computing-insights-from-gartner-research.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-10-08-edge-computing-insights-from-gartner-research.p.4",
+      "en": "Among these, a key aspect is the adoption of a platform approach, which allows leveraging a versatile technological foundation capable of offering a wide range of functionalities for different needs. Instead of standardizing the entire infrastructure for edge computing, it is recommended to tailor it to the specific requirements of the organization.",
+      "it": "",
+      "source": "blog-posts/2023-10-08-edge-computing-insights-from-gartner-research.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-10-08-edge-computing-insights-from-gartner-research.p.5",
+      "en": "Planning and implementing edge solutions can be complex due to the lack of established standards and technologies in the field. However, this challenge can be addressed by creating a reference framework through a central team that brings together IT and OT expertise. This way, the expectations of both groups can be reconciled, ensuring effective project management for edge initiatives.",
+      "it": "",
+      "source": "blog-posts/2023-10-08-edge-computing-insights-from-gartner-research.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-10-08-edge-computing-insights-from-gartner-research.p.6",
+      "en": "Another key point highlighted in the research is the importance of positioning edge projects as strategic initiatives to drive business growth. Even during periods of economic uncertainty, it may be tempting to reduce budgets or suspend funding. However, a recession can present an opportunity to accelerate innovation and push companies to invest in edge projects that deliver short-term value and can be further developed in the future.",
+      "it": "",
+      "source": "blog-posts/2023-10-08-edge-computing-insights-from-gartner-research.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-10-08-edge-computing-insights-from-gartner-research.p.7",
+      "en": "Lastly, automating networks at the edge connection points is a crucial aspect of edge computing. The fusion of edge computing and 5G connectivity enables near-real-time automation, opening up exciting possibilities to enhance digital experiences. Simplifying network management and optimizing performance are just a few of the significant benefits derived from network automation.",
+      "it": "",
+      "source": "blog-posts/2023-10-08-edge-computing-insights-from-gartner-research.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-10-08-edge-computing-insights-from-gartner-research.p.8",
+      "en": "Edge computing revolutionizes how companies tackle business challenges by providing innovative solutions and tangible advantages. Following the best practices and recommendations from Gartner's research enables successful implementation of edge computing, leading to meaningful results for businesses.",
+      "it": "",
+      "source": "blog-posts/2023-10-08-edge-computing-insights-from-gartner-research.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-10-08-edge-computing-insights-from-gartner-research.p.9",
+      "en": "Gartner, 5 Top Practices of Successful Edge Computing Implementers",
+      "it": "",
+      "source": "blog-posts/2023-10-08-edge-computing-insights-from-gartner-research.html",
+      "context": "<p>"
+    },
+    {
+      "id": "meta.blog-posts_2023-10-08-edge-computing-insights-from-gartner-research.description",
+      "en": "Edge computing is a revolutionary approach in enterprise IT architecture, offering new...",
+      "it": "",
+      "source": "blog-posts/2023-10-08-edge-computing-insights-from-gartner-research.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.blog-posts_2023-10-08-edge-computing-insights-from-gartner-research.title",
+      "en": "Edge computing: insights from Gartner research | Elemento Blog",
+      "it": "",
+      "source": "blog-posts/2023-10-08-edge-computing-insights-from-gartner-research.html",
+      "context": "meta title"
+    }
+  ]
+}

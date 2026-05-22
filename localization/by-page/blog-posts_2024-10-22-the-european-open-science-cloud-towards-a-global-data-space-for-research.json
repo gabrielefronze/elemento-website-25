@@ -1,0 +1,111 @@
+{
+  "page": "blog-posts_2024-10-22-the-european-open-science-cloud-towards-a-global-data-space-for-research",
+  "count": 15,
+  "strings": [
+    {
+      "id": "body.blog-posts_2024-10-22-the-european-open-science-cloud-towards-a-global-data-space-for-research.h1.1",
+      "en": "The European Open Science Cloud: towards a global data space for research",
+      "it": "",
+      "source": "blog-posts/2024-10-22-the-european-open-science-cloud-towards-a-global-data-space-for-research.html",
+      "context": "<h1>"
+    },
+    {
+      "id": "body.blog-posts_2024-10-22-the-european-open-science-cloud-towards-a-global-data-space-for-research.h3.1",
+      "en": "EOSC: A Bridge to the Future EOSC represents a bold vision that promises to make access and reuse of publicly funded research data easily available across Europe and in all scientific disciplines. This global data space will facilitate the frictionless cross-border circulation of various types of data, paving the way for new discoveries and innovations. One of the most significant advantages of EOSC is the creation of a unified European digital market. By enabling researchers to share and reuse data, EOSC fosters open collaboration among European nations. This will stimulate innovation and provide a boost to the economy and society as a whole. Italy's Key Role in EOSC The European Union has allocated one billion euros to support the implementation of EOSC, facilitating the development of the necessary skills to bring scientific data to the cloud. In Italy, this ambitious project falls under the Digital Agenda, a government initiative aimed at promoting innovation and economic growth through the use of information technologies. Maria Chiara Carrozza, president of the National Research Council (CNR), emphasizes the importance of open science and highlights Italy's efforts in tackling this cultural challenge. Through collaboration with CNR and other public research institutions, Italy is embracing open science, opening new perspectives for scientific advancement in the country. The Journey Towards an Internet of Data and Scientific Services One of the main goals of EOSC is to create an Internet of data and scientific services that promotes open and transparent collaboration among researchers. However, as pointed out by Javier Lopez Albacete, from the European Commission's Research Directorate, there is still much work to be done. Currently, only 40% of researchers utilize the cloud, and over a third have never heard of the Fair principles (Findable, Accessible, Interoperable, Reusable) that form the basis of EOSC. The path towards a global data space is an evolving process that starts from research entities. The goal is to develop a cloud platform for data and scientific information at the national level and subsequently expand it to a European level. However, a key challenge to overcome is ensuring the cybersecurity of cloud data, with success depending on the proper management of digital resources. The journey towards a global data space for European research still presents challenges, such as increasing cloud adoption and ensuring data security. Yet, with a collaborative approach and an open culture of knowledge sharing, EOSC can realize its vision of an Internet of data and scientific services, supporting research and innovation for a better future. References",
+      "it": "",
+      "source": "blog-posts/2024-10-22-the-european-open-science-cloud-towards-a-global-data-space-for-research.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.blog-posts_2024-10-22-the-european-open-science-cloud-towards-a-global-data-space-for-research.p.1",
+      "en": "By giulia-borgoni &mdash; 2025-06-24",
+      "it": "",
+      "source": "blog-posts/2024-10-22-the-european-open-science-cloud-towards-a-global-data-space-for-research.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-10-22-the-european-open-science-cloud-towards-a-global-data-space-for-research.p.10",
+      "en": "The journey towards a global data space for European research still presents challenges, such as increasing cloud adoption and ensuring data security. Yet, with a collaborative approach and an open culture of knowledge sharing, EOSC can realize its vision of an Internet of data and scientific services, supporting research and innovation for a better future.",
+      "it": "",
+      "source": "blog-posts/2024-10-22-the-european-open-science-cloud-towards-a-global-data-space-for-research.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-10-22-the-european-open-science-cloud-towards-a-global-data-space-for-research.p.11",
+      "en": "La scienza italiana si prepara a entrare nel cloud",
+      "it": "",
+      "source": "blog-posts/2024-10-22-the-european-open-science-cloud-towards-a-global-data-space-for-research.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-10-22-the-european-open-science-cloud-towards-a-global-data-space-for-research.p.2",
+      "en": "The European Open Science Cloud (EOSC) aims to revolutionize research in Europe by...",
+      "it": "",
+      "source": "blog-posts/2024-10-22-the-european-open-science-cloud-towards-a-global-data-space-for-research.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-10-22-the-european-open-science-cloud-towards-a-global-data-space-for-research.p.3",
+      "en": "The European Open Science Cloud (EOSC) is an ambitious project aimed at revolutionizing scientific research in Europe by bringing together current and future data infrastructures. Aligned with the European data management strategy, EOSC's objective is to position the European Union as a global leader in data-driven science, providing European scientists with full access to the benefits of open science. In this article, we will explore the advantages of EOSC, its crucial role in creating a unified digital market, and Italy's commitment to the project.",
+      "it": "",
+      "source": "blog-posts/2024-10-22-the-european-open-science-cloud-towards-a-global-data-space-for-research.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-10-22-the-european-open-science-cloud-towards-a-global-data-space-for-research.p.4",
+      "en": "EOSC represents a bold vision that promises to make access and reuse of publicly funded research data easily available across Europe and in all scientific disciplines. This global data space will facilitate the frictionless cross-border circulation of various types of data, paving the way for new discoveries and innovations.",
+      "it": "",
+      "source": "blog-posts/2024-10-22-the-european-open-science-cloud-towards-a-global-data-space-for-research.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-10-22-the-european-open-science-cloud-towards-a-global-data-space-for-research.p.5",
+      "en": "One of the most significant advantages of EOSC is the creation of a unified European digital market. By enabling researchers to share and reuse data, EOSC fosters open collaboration among European nations. This will stimulate innovation and provide a boost to the economy and society as a whole.",
+      "it": "",
+      "source": "blog-posts/2024-10-22-the-european-open-science-cloud-towards-a-global-data-space-for-research.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-10-22-the-european-open-science-cloud-towards-a-global-data-space-for-research.p.6",
+      "en": "The European Union has allocated one billion euros to support the implementation of EOSC, facilitating the development of the necessary skills to bring scientific data to the cloud. In Italy, this ambitious project falls under the Digital Agenda, a government initiative aimed at promoting innovation and economic growth through the use of information technologies.",
+      "it": "",
+      "source": "blog-posts/2024-10-22-the-european-open-science-cloud-towards-a-global-data-space-for-research.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-10-22-the-european-open-science-cloud-towards-a-global-data-space-for-research.p.7",
+      "en": "Maria Chiara Carrozza, president of the National Research Council (CNR), emphasizes the importance of open science and highlights Italy's efforts in tackling this cultural challenge. Through collaboration with CNR and other public research institutions, Italy is embracing open science, opening new perspectives for scientific advancement in the country.",
+      "it": "",
+      "source": "blog-posts/2024-10-22-the-european-open-science-cloud-towards-a-global-data-space-for-research.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-10-22-the-european-open-science-cloud-towards-a-global-data-space-for-research.p.8",
+      "en": "One of the main goals of EOSC is to create an Internet of data and scientific services that promotes open and transparent collaboration among researchers. However, as pointed out by Javier Lopez Albacete, from the European Commission's Research Directorate, there is still much work to be done. Currently, only 40% of researchers utilize the cloud, and over a third have never heard of the Fair principles (Findable, Accessible, Interoperable, Reusable) that form the basis of EOSC.",
+      "it": "",
+      "source": "blog-posts/2024-10-22-the-european-open-science-cloud-towards-a-global-data-space-for-research.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-10-22-the-european-open-science-cloud-towards-a-global-data-space-for-research.p.9",
+      "en": "The path towards a global data space is an evolving process that starts from research entities. The goal is to develop a cloud platform for data and scientific information at the national level and subsequently expand it to a European level. However, a key challenge to overcome is ensuring the cybersecurity of cloud data, with success depending on the proper management of digital resources.",
+      "it": "",
+      "source": "blog-posts/2024-10-22-the-european-open-science-cloud-towards-a-global-data-space-for-research.html",
+      "context": "<p>"
+    },
+    {
+      "id": "meta.blog-posts_2024-10-22-the-european-open-science-cloud-towards-a-global-data-space-for-research.description",
+      "en": "The European Open Science Cloud (EOSC) aims to revolutionize research in Europe by...",
+      "it": "",
+      "source": "blog-posts/2024-10-22-the-european-open-science-cloud-towards-a-global-data-space-for-research.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.blog-posts_2024-10-22-the-european-open-science-cloud-towards-a-global-data-space-for-research.title",
+      "en": "The European Open Science Cloud: towards a global data space for research | Elemento Blog",
+      "it": "",
+      "source": "blog-posts/2024-10-22-the-european-open-science-cloud-towards-a-global-data-space-for-research.html",
+      "context": "meta title"
+    }
+  ]
+}

@@ -1,0 +1,4682 @@
+{
+  "page": "_cms",
+  "count": 668,
+  "strings": [
+    {
+      "id": "CMS.orbital.0.description",
+      "en": "Entry-level server configuration for small deployments and development environments",
+      "it": "Entry-level server configuration for small deployments and development environments",
+      "source": "CMS/orbital.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.orbital.1.description",
+      "en": "Mid-range server configuration for production workloads and medium-scale deployments",
+      "it": "Mid-range server configuration for production workloads and medium-scale deployments",
+      "source": "CMS/orbital.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.orbital.2.description",
+      "en": "High-performance server configuration for enterprise workloads and large-scale deployments",
+      "it": "High-performance server configuration for enterprise workloads and large-scale deployments",
+      "source": "CMS/orbital.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.orbital.3.description",
+      "en": "Compact server configuration optimized for edge computing and remote locations",
+      "it": "Compact server configuration optimized for edge computing and remote locations",
+      "source": "CMS/orbital.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.orbital.4.description",
+      "en": "High-capacity server configuration optimized for storage and backup workloads",
+      "it": "High-capacity server configuration optimized for storage and backup workloads",
+      "source": "CMS/orbital.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.orbital.5.description",
+      "en": "Fully customizable server configuration tailored to your specific requirements",
+      "it": "Fully customizable server configuration tailored to your specific requirements",
+      "source": "CMS/orbital.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.partners.0.description",
+      "en": "Global technology leader providing infrastructure solutions for enterprise environments",
+      "it": "",
+      "source": "CMS/partners.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.partners.0.description_short",
+      "en": "Enterprise infrastructure solutions",
+      "it": "",
+      "source": "CMS/partners.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.partners.1.description",
+      "en": "Specialized data management and analytics solutions provider",
+      "it": "",
+      "source": "CMS/partners.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.partners.1.description_short",
+      "en": "Data management and analytics",
+      "it": "",
+      "source": "CMS/partners.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.aruba.display_name",
+      "en": "Aruba",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.aruba.services.0.display_name",
+      "en": "VM Management",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.aruba.services.1.display_name",
+      "en": "Storage as a Service",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.aruba.services.2.display_name",
+      "en": "Block Storage",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.aruba.services.3.display_name",
+      "en": "Networking",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.aruba.services.4.display_name",
+      "en": "Kubernetes",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.aruba.services.5.display_name",
+      "en": "Cost API",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.aruba.services.6.display_name",
+      "en": "Bare metal",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.aruba.svg_filename",
+      "en": "aruba_icon.svg",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.arubacloud.display_name",
+      "en": "Aruba Cloud",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.arubacloud.services.0.display_name",
+      "en": "VM Management",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.arubacloud.services.1.display_name",
+      "en": "Storage as a Service",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.arubacloud.services.2.display_name",
+      "en": "Block Storage",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.arubacloud.services.3.display_name",
+      "en": "Networking",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.arubacloud.services.4.display_name",
+      "en": "Kubernetes",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.arubacloud.services.5.display_name",
+      "en": "Cost API",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.arubacloud.services.6.display_name",
+      "en": "Bare metal",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.arubacloud.svg_filename",
+      "en": "arubacloud_icon.svg",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.aws.display_name",
+      "en": "AWS",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.aws.services.0.display_name",
+      "en": "VM Management",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.aws.services.1.display_name",
+      "en": "Storage as a Service",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.aws.services.2.display_name",
+      "en": "Block Storage",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.aws.services.3.display_name",
+      "en": "Networking",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.aws.services.4.display_name",
+      "en": "Kubernetes",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.aws.services.5.display_name",
+      "en": "Cost API",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.aws.services.6.display_name",
+      "en": "Bare metal",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.aws.svg_filename",
+      "en": "aws_icon.svg",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.azure.display_name",
+      "en": "Azure",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.azure.services.0.display_name",
+      "en": "VM Management",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.azure.services.1.display_name",
+      "en": "Storage as a Service",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.azure.services.2.display_name",
+      "en": "Block Storage",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.azure.services.3.display_name",
+      "en": "Networking",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.azure.services.4.display_name",
+      "en": "Kubernetes",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.azure.services.5.display_name",
+      "en": "Cost API",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.azure.services.6.display_name",
+      "en": "Bare metal",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.azure.svg_filename",
+      "en": "azure_icon.svg",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.clastix.display_name",
+      "en": "Clastix",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.clastix.services.0.display_name",
+      "en": "VM Management",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.clastix.services.1.display_name",
+      "en": "Storage as a Service",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.clastix.services.2.display_name",
+      "en": "Block Storage",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.clastix.services.3.display_name",
+      "en": "Networking",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.clastix.services.4.display_name",
+      "en": "Kubernetes",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.clastix.services.4.ui_request.capabilities.autoscale.user_label",
+      "en": "Enable Autoscaling",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.clastix.services.4.ui_request.capabilities.cluster_name.user_label",
+      "en": "Cluster Name",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.clastix.services.4.ui_request.capabilities.desired_number_of_nodes.user_label",
+      "en": "Desired Number of Nodes",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.clastix.services.4.ui_request.capabilities.kubernetes_cluster_number.user_label",
+      "en": "Number of clusters",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.clastix.services.4.ui_request.capabilities.kubernetes_version.user_label",
+      "en": "Kubernetes Version",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.clastix.services.4.ui_request.capabilities.max_number_of_nodes.user_label",
+      "en": "Max Number of Nodes",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.clastix.services.4.ui_request.capabilities.min_number_of_nodes.user_label",
+      "en": "Min Number of Nodes",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.clastix.services.4.ui_request.capabilities.pool_name.user_label",
+      "en": "Pool Name",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.clastix.services.5.display_name",
+      "en": "Cost API",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.clastix.services.6.display_name",
+      "en": "Bare metal",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.clastix.svg_filename",
+      "en": "clastix_icon.svg",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.cubbit.display_name",
+      "en": "Cubbit",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.cubbit.services.0.display_name",
+      "en": "VM Management",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.cubbit.services.1.display_name",
+      "en": "Storage as a Service",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.cubbit.services.2.display_name",
+      "en": "Block Storage",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.cubbit.services.3.display_name",
+      "en": "Networking",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.cubbit.services.4.display_name",
+      "en": "Kubernetes",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.cubbit.services.5.display_name",
+      "en": "Cost API",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.cubbit.services.6.display_name",
+      "en": "Bare metal",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.cubbit.svg_filename",
+      "en": "cubbit_icon.svg",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.gigas.display_name",
+      "en": "Gigas",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.gigas.services.0.display_name",
+      "en": "VM Management",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.gigas.services.1.display_name",
+      "en": "Storage as a Service",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.gigas.services.2.display_name",
+      "en": "Block Storage",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.gigas.services.3.display_name",
+      "en": "Networking",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.gigas.services.4.display_name",
+      "en": "Kubernetes",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.gigas.services.5.display_name",
+      "en": "Cost API",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.gigas.services.6.display_name",
+      "en": "Bare metal",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.gigas.svg_filename",
+      "en": "gigas_icon.svg",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.google.display_name",
+      "en": "Google",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.google.services.0.display_name",
+      "en": "VM Management",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.google.services.1.display_name",
+      "en": "Storage as a Service",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.google.services.2.display_name",
+      "en": "Block Storage",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.google.services.3.display_name",
+      "en": "Networking",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.google.services.4.display_name",
+      "en": "Kubernetes",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.google.services.5.display_name",
+      "en": "Cost API",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.google.services.6.display_name",
+      "en": "Bare metal",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.google.svg_filename",
+      "en": "google_icon.svg",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.hetzner.display_name",
+      "en": "Hetzner",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.hetzner.services.0.display_name",
+      "en": "VM Management",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.hetzner.services.1.display_name",
+      "en": "Storage as a Service",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.hetzner.services.2.display_name",
+      "en": "Block Storage",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.hetzner.services.3.display_name",
+      "en": "Networking",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.hetzner.services.4.display_name",
+      "en": "Kubernetes",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.hetzner.services.5.display_name",
+      "en": "Cost API",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.hetzner.services.6.display_name",
+      "en": "Bare metal",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.hetzner.svg_filename",
+      "en": "hetzner_icon.svg",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.ibm.display_name",
+      "en": "IBM Cloud",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.ibm.services.0.display_name",
+      "en": "VM Management",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.ibm.services.1.display_name",
+      "en": "Storage as a Service",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.ibm.services.2.display_name",
+      "en": "Block Storage",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.ibm.services.3.display_name",
+      "en": "Networking",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.ibm.services.4.display_name",
+      "en": "Kubernetes",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.ibm.services.5.display_name",
+      "en": "Cost API",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.ibm.services.6.display_name",
+      "en": "Bare metal",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.ibm.svg_filename",
+      "en": "ibm_icon.svg",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.impossiblecloud.display_name",
+      "en": "Impossible Cloud",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.impossiblecloud.services.0.display_name",
+      "en": "VM Management",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.impossiblecloud.services.1.display_name",
+      "en": "Storage as a Service",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.impossiblecloud.services.2.display_name",
+      "en": "Block Storage",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.impossiblecloud.services.3.display_name",
+      "en": "Networking",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.impossiblecloud.services.4.display_name",
+      "en": "Kubernetes",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.impossiblecloud.services.5.display_name",
+      "en": "Cost API",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.impossiblecloud.services.6.display_name",
+      "en": "Bare metal",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.impossiblecloud.svg_filename",
+      "en": "impossiblecloud_icon.svg",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.ionos.display_name",
+      "en": "IONOS",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.ionos.services.0.display_name",
+      "en": "VM Management",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.ionos.services.1.display_name",
+      "en": "Storage as a Service",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.ionos.services.2.display_name",
+      "en": "Block Storage",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.ionos.services.3.display_name",
+      "en": "Networking",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.ionos.services.4.display_name",
+      "en": "Kubernetes",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.ionos.services.5.display_name",
+      "en": "Cost API",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.ionos.services.6.display_name",
+      "en": "Bare metal",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.ionos.svg_filename",
+      "en": "ionos_icon.svg",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.linode.display_name",
+      "en": "Linode",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.linode.services.0.display_name",
+      "en": "VM Management",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.linode.services.1.display_name",
+      "en": "Storage as a Service",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.linode.services.2.display_name",
+      "en": "Block Storage",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.linode.services.3.display_name",
+      "en": "Networking",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.linode.services.4.display_name",
+      "en": "Kubernetes",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.linode.services.5.display_name",
+      "en": "Cost API",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.linode.services.6.display_name",
+      "en": "Bare metal",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.linode.svg_filename",
+      "en": "linode_icon.svg",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.oracle.display_name",
+      "en": "Oracle Cloud",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.oracle.services.0.display_name",
+      "en": "VM Management",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.oracle.services.1.display_name",
+      "en": "Storage as a Service",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.oracle.services.2.display_name",
+      "en": "Block Storage",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.oracle.services.3.display_name",
+      "en": "Networking",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.oracle.services.4.display_name",
+      "en": "Kubernetes",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.oracle.services.5.display_name",
+      "en": "Cost API",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.oracle.services.6.display_name",
+      "en": "Bare metal",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.oracle.svg_filename",
+      "en": "oracle_icon.svg",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.ovh.display_name",
+      "en": "OVH",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.ovh.services.0.display_name",
+      "en": "VM Management",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.ovh.services.1.display_name",
+      "en": "Storage as a Service",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.ovh.services.2.display_name",
+      "en": "Block Storage",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.ovh.services.3.display_name",
+      "en": "Networking",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.ovh.services.4.display_name",
+      "en": "Kubernetes",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.ovh.services.5.display_name",
+      "en": "Cost API",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.ovh.services.6.display_name",
+      "en": "Bare metal",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.ovh.svg_filename",
+      "en": "ovh_icon.svg",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.scaleway.display_name",
+      "en": "Scaleway",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.scaleway.services.0.display_name",
+      "en": "VM Management",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.scaleway.services.1.display_name",
+      "en": "Storage as a Service",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.scaleway.services.2.display_name",
+      "en": "Block Storage",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.scaleway.services.3.display_name",
+      "en": "Networking",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.scaleway.services.4.display_name",
+      "en": "Kubernetes",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.scaleway.services.5.display_name",
+      "en": "Cost API",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.scaleway.services.6.display_name",
+      "en": "Bare metal",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.scaleway.svg_filename",
+      "en": "scaleway_icon.svg",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.upcloud.display_name",
+      "en": "UpCloud",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.upcloud.services.0.display_name",
+      "en": "VM Management",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.upcloud.services.1.display_name",
+      "en": "Storage as a Service",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.upcloud.services.2.display_name",
+      "en": "Block Storage",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.upcloud.services.3.display_name",
+      "en": "Networking",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.upcloud.services.4.display_name",
+      "en": "Kubernetes",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.upcloud.services.5.display_name",
+      "en": "Cost API",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.upcloud.services.6.display_name",
+      "en": "Bare metal",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.upcloud.svg_filename",
+      "en": "upcloud_icon.svg",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.wasabi.display_name",
+      "en": "Wasabi",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.wasabi.services.0.display_name",
+      "en": "VM Management",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.wasabi.services.1.display_name",
+      "en": "Storage as a Service",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.wasabi.services.2.display_name",
+      "en": "Block Storage",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.wasabi.services.3.display_name",
+      "en": "Networking",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.wasabi.services.4.display_name",
+      "en": "Kubernetes",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.wasabi.services.5.display_name",
+      "en": "Cost API",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.wasabi.services.6.display_name",
+      "en": "Bare metal",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.wasabi.svg_filename",
+      "en": "wasabi_icon.svg",
+      "it": "",
+      "source": "CMS/provider-integrations.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.codeExample.cta.text",
+      "en": "View AI Configuration",
+      "it": "View AI Configuration",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.codeExample.subtitle",
+      "en": "Define your AI/ML infrastructure with simple, declarative configuration",
+      "it": "Define your AI/ML infrastructure with simple, declarative configuration",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.codeExample.title",
+      "en": "AI/ML Configuration",
+      "it": "AI/ML Configuration",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.ctaFinal.primaryCTA.text",
+      "en": "Launch AI Environment",
+      "it": "Avvia AI Environment",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.ctaFinal.secondaryCTA.text",
+      "en": "Explore GPU Solutions",
+      "it": "Esplora GPU Soluziones",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.ctaFinal.subtitle",
+      "en": "Join leading AI startups and research labs already using Elemento to accelerate their AI/ML workloads and research.",
+      "it": "Join leading AI startups and research labs already using Elemento to accelerate their AI/ML workloads and research.",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.ctaFinal.title",
+      "en": "Ready to Scale Your AI Research?",
+      "it": "Pronto per Scale Your AI Research?",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.faq.subtitle",
+      "en": "Common questions about using Elemento for AI/ML workloads",
+      "it": "Common questions about using Elemento for AI/ML workloads",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.faq.title",
+      "en": "AI/ML FAQ",
+      "it": "AI/ML FAQ",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.features.items.0.description",
+      "en": "Deploy and manage GPU clusters across multiple cloud providers and on-premise infrastructure",
+      "it": "",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.features.items.0.title",
+      "en": "GPU Cluster Management",
+      "it": "",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.features.items.1.description",
+      "en": "Native support for TensorFlow, PyTorch, Kubernetes, and other popular AI/ML frameworks",
+      "it": "",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.features.items.1.title",
+      "en": "Framework Integration",
+      "it": "",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.features.items.2.description",
+      "en": "Seamless data integration between private datasets and cloud AI services",
+      "it": "",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.features.items.2.title",
+      "en": "Data Pipeline",
+      "it": "",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.features.items.3.description",
+      "en": "Automatically scale resources based on workload demands and training requirements",
+      "it": "",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.features.items.3.title",
+      "en": "Auto-Scaling",
+      "it": "",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.features.items.4.description",
+      "en": "Intelligent resource allocation to minimize costs while maximizing performance",
+      "it": "",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.features.items.4.title",
+      "en": "Cost Optimization",
+      "it": "",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.features.items.5.description",
+      "en": "Complete control over compute environments and dependencies for reproducible research",
+      "it": "",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.features.items.5.title",
+      "en": "Environment Control",
+      "it": "",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.features.subtitle",
+      "en": "Everything you need to build, train, and deploy AI models at scale",
+      "it": "Everything you need to build, train, and deploy AI models at scale",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.features.title",
+      "en": "AI/ML Features",
+      "it": "AI/ML Funzionalità",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.hero.primaryCTA.text",
+      "en": "Start Now",
+      "it": "Inizia ora",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.hero.secondaryCTA.text",
+      "en": "Explore GPU Platform",
+      "it": "Esplora GPU Platform",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.hero.subtitle",
+      "en": "Seamlessly run AI workloads across clouds and on-prem nodes with GPU cluster management and multi-cloud AI environments.",
+      "it": "Esegui carichi AI senza attriti across clouds and on-prem nodes with GPU cluster management and multi-cloud AI environments.",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.hero.tagline",
+      "en": "AI & Data Science",
+      "it": "AI & Data Science",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.hero.title",
+      "en": "Train, Deploy, and Scale AI Workloads",
+      "it": "Addestra, distribuisci e scala carichi AI",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.painPoints.items.0.description",
+      "en": "Limited access to GPU resources and high costs for training large models",
+      "it": "",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.painPoints.items.0.title",
+      "en": "GPU Resource Scarcity",
+      "it": "",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.painPoints.items.1.description",
+      "en": "Data silos between private datasets and cloud AI services limiting research capabilities",
+      "it": "",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.painPoints.items.1.title",
+      "en": "Data Silos",
+      "it": "",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.painPoints.items.2.description",
+      "en": "Lack of control over compute environments and dependencies for reproducible research",
+      "it": "",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.painPoints.items.2.title",
+      "en": "Environment Control",
+      "it": "",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.painPoints.items.3.description",
+      "en": "Difficulty managing costs across multiple cloud providers and on-premise resources",
+      "it": "",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.painPoints.items.3.title",
+      "en": "Cost Management",
+      "it": "",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.painPoints.subtitle",
+      "en": "Common pain points that limit your ability to scale AI workloads and research",
+      "it": "Common pain points that limit your ability to scale AI workloads and research",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.painPoints.title",
+      "en": "AI/ML Challenges You Face",
+      "it": "AI/ML Sfide che affronti",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.solution.cta.text",
+      "en": "See AI Infrastructure",
+      "it": "Vedi AI Infrastructure",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.solution.description",
+      "en": "Complete infrastructure platform designed for AI/ML workloads with GPU cluster management",
+      "it": "Complete infrastructure platform designed for AI/ML workloads with GPU cluster management",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.solution.items.0.description",
+      "en": "GPU-optimized hypervisor for consistent AI/ML environments",
+      "it": "",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.solution.items.1.description",
+      "en": "Unified dashboard for managing GPU clusters and AI workloads",
+      "it": "",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.solution.items.2.description",
+      "en": "API layer for seamless integration with AI/ML frameworks and tools",
+      "it": "",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.solution.title",
+      "en": "Elemento's AI Solution",
+      "it": "Elemento's AI Soluzione",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.stats.items.0.label",
+      "en": "Faster Training",
+      "it": "",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.stats.items.1.label",
+      "en": "Cost Reduction",
+      "it": "",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.stats.items.2.label",
+      "en": "GPU Utilization",
+      "it": "",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.stats.subtitle",
+      "en": "Real results from AI startups and research labs using Elemento",
+      "it": "Real results from AI startups and research labs using Elemento",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.stats.title",
+      "en": "AI/ML Impact",
+      "it": "AI/ML Impatto",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.useCase.items.0.description",
+      "en": "Ingest and preprocess data from multiple sources with GPU acceleration",
+      "it": "",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.useCase.items.0.title",
+      "en": "Data Preparation",
+      "it": "",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.useCase.items.1.description",
+      "en": "Train models with distributed GPU clusters across multiple cloud providers",
+      "it": "",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.useCase.items.1.title",
+      "en": "Model Training",
+      "it": "",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.useCase.items.2.description",
+      "en": "Optimize models for production deployment with automated scaling",
+      "it": "",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.useCase.items.2.title",
+      "en": "Model Optimization",
+      "it": "",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.useCase.items.3.description",
+      "en": "Deploy models with auto-scaling and monitoring across hybrid infrastructure",
+      "it": "",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.useCase.items.3.title",
+      "en": "Model Deployment",
+      "it": "",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.useCase.subtitle",
+      "en": "From data preparation to model deployment with seamless GPU cluster management",
+      "it": "From data preparation to model deployment with seamless GPU cluster management",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.useCase.title",
+      "en": "AI/ML Workflow",
+      "it": "AI/ML Flusso di lavoro",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.codeExample.cta.text",
+      "en": "View Infrastructure Code",
+      "it": "View Infrastructure Code",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.codeExample.subtitle",
+      "en": "Define your infrastructure with simple, declarative configuration",
+      "it": "Define your infrastructure with simple, declarative configuration",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.codeExample.title",
+      "en": "Infrastructure as Code",
+      "it": "Infrastructure as Code",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.ctaFinal.primaryCTA.text",
+      "en": "Deploy First Pipeline",
+      "it": "Deploy First Pipeline",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.ctaFinal.secondaryCTA.text",
+      "en": "Schedule DevOps Demo",
+      "it": "Schedule DevOps Demo",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.ctaFinal.subtitle",
+      "en": "Join thousands of teams already using Elemento to streamline their CI/CD pipelines and accelerate development.",
+      "it": "Join thousands of teams already using Elemento to streamline their CI/CD pipelines and accelerate development.",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.ctaFinal.title",
+      "en": "Ready to Transform Your DevOps?",
+      "it": "Pronto per Transform Your DevOps?",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.faq.subtitle",
+      "en": "Common questions about using Elemento for DevOps",
+      "it": "Common questions about using Elemento for DevOps",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.faq.title",
+      "en": "DevOps FAQ",
+      "it": "DevOps FAQ",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.features.items.0.description",
+      "en": "Define and version your infrastructure alongside your application code",
+      "it": "",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.features.items.0.title",
+      "en": "Infrastructure as Code",
+      "it": "",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.features.items.1.description",
+      "en": "Deploy to any cloud provider with consistent, repeatable processes",
+      "it": "",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.features.items.1.title",
+      "en": "Automated Deployments",
+      "it": "",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.features.items.2.description",
+      "en": "Identical environments from development to production",
+      "it": "",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.features.items.2.title",
+      "en": "Environment Consistency",
+      "it": "",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.features.items.3.description",
+      "en": "Automatically scale resources based on demand and performance metrics",
+      "it": "",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.features.items.3.title",
+      "en": "Auto-scaling",
+      "it": "",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.features.items.4.description",
+      "en": "Comprehensive monitoring and logging across all environments",
+      "it": "",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.features.items.4.title",
+      "en": "Real-time Monitoring",
+      "it": "",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.features.items.5.description",
+      "en": "Built-in security features and compliance-ready architecture",
+      "it": "",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.features.items.5.title",
+      "en": "Security & Compliance",
+      "it": "",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.features.subtitle",
+      "en": "Everything you need to streamline your development and deployment processes",
+      "it": "Everything you need to streamline your development and deployment processes",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.features.title",
+      "en": "DevOps Features",
+      "it": "DevOps Funzionalità",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.hero.primaryCTA.text",
+      "en": "Start Now",
+      "it": "Inizia ora",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.hero.secondaryCTA.text",
+      "en": "Explore DevOps Platform",
+      "it": "Esplora DevOps Platform",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.hero.subtitle",
+      "en": "Deploy faster, scale efficiently, and maintain consistency across all environments with our unified platform.",
+      "it": "Deploy faster, scale efficiently, and maintain consistency across all environments with our unified platform.",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.hero.tagline",
+      "en": "DevOps Infrastructure",
+      "it": "DevOps Infrastructure",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.hero.title",
+      "en": "Build Cloud-Agnostic CI/CD Pipelines",
+      "it": "Build Cloud-Agnostic CI/CD Pipelines",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.painPoints.items.0.description",
+      "en": "Manual processes and environment inconsistencies causing delays in releases",
+      "it": "",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.painPoints.items.0.title",
+      "en": "Slow Deployment Cycles",
+      "it": "",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.painPoints.items.1.description",
+      "en": "Production issues due to differences between dev, staging, and production environments",
+      "it": "",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.painPoints.items.1.title",
+      "en": "Environment Drift",
+      "it": "",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.painPoints.items.2.description",
+      "en": "Tied to specific cloud providers, limiting flexibility and increasing costs",
+      "it": "",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.painPoints.items.2.title",
+      "en": "Vendor Lock-in",
+      "it": "",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.painPoints.items.3.description",
+      "en": "Difficulty scaling infrastructure and managing resources across multiple environments",
+      "it": "",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.painPoints.items.3.title",
+      "en": "Scaling Complexity",
+      "it": "",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.painPoints.subtitle",
+      "en": "Common pain points that slow down your development and deployment processes",
+      "it": "Common pain points that slow down your development and deployment processes",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.painPoints.title",
+      "en": "DevOps Challenges You Face",
+      "it": "DevOps Sfide che affronti",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.products.items.0.description",
+      "en": "Production-grade hypervisor for consistent environments",
+      "it": "",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.products.items.1.description",
+      "en": "Unified dashboard for infrastructure management",
+      "it": "",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.products.items.2.description",
+      "en": "API layer for multi-cloud orchestration",
+      "it": "",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.products.subtitle",
+      "en": "Everything you need for modern DevOps workflows",
+      "it": "Everything you need for modern DevOps workflows",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.products.title",
+      "en": "Complete DevOps Stack",
+      "it": "Complete DevOps Stack",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.solution.cta.text",
+      "en": "See DevOps Stack",
+      "it": "Vedi DevOps Stack",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.solution.description",
+      "en": "Unified infrastructure management that eliminates environment drift and accelerates your CI/CD pipelines",
+      "it": "Unified infrastructure management that eliminates environment drift and accelerates your CI/CD pipelines",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.solution.items.0.description",
+      "en": "Consistent hypervisor environment across all deployments",
+      "it": "",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.solution.items.1.description",
+      "en": "Unified dashboard for managing all your infrastructure",
+      "it": "",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.solution.items.2.description",
+      "en": "API layer for seamless cloud provider integration",
+      "it": "",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.solution.title",
+      "en": "Elemento's DevOps Solution",
+      "it": "Elemento's DevOps Soluzione",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.stats.items.0.label",
+      "en": "Faster Deployments",
+      "it": "",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.stats.items.1.label",
+      "en": "Reduced Downtime",
+      "it": "",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.stats.items.2.label",
+      "en": "Cost Savings",
+      "it": "",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.stats.subtitle",
+      "en": "Real results from teams using Elemento for CI/CD",
+      "it": "Real results from teams using Elemento for CI/CD",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.stats.title",
+      "en": "DevOps Impact",
+      "it": "DevOps Impatto",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.useCase.items.0.description",
+      "en": "Developers commit code to your repository, triggering the CI/CD pipeline",
+      "it": "",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.useCase.items.0.title",
+      "en": "Code Commit",
+      "it": "",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.useCase.items.1.description",
+      "en": "Elemento automatically builds your application and runs tests in a consistent environment",
+      "it": "",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.useCase.items.1.title",
+      "en": "Build & Test",
+      "it": "",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.useCase.items.2.description",
+      "en": "Deploy to staging and production environments with identical infrastructure",
+      "it": "",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.useCase.items.2.title",
+      "en": "Deploy",
+      "it": "",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.useCase.items.3.description",
+      "en": "Monitor performance and scale resources automatically based on demand",
+      "it": "",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.useCase.items.3.title",
+      "en": "Monitor",
+      "it": "",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.useCase.subtitle",
+      "en": "From code commit to production deployment in minutes",
+      "it": "From code commit to production deployment in minutes",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.useCase.title",
+      "en": "How It Works",
+      "it": "How It Works",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.codeExample.cta.text",
+      "en": "View Data Pipeline",
+      "it": "View Data Pipeline",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.codeExample.subtitle",
+      "en": "Define your industrial data flows with simple, declarative configuration",
+      "it": "Define your industrial data flows with simple, declarative configuration",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.codeExample.title",
+      "en": "Manufacturing Data Pipeline",
+      "it": "Manufacturing Data Pipeline",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.ctaFinal.primaryCTA.text",
+      "en": "Start Digital Transformation",
+      "it": "Start Digital Transformation",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.ctaFinal.secondaryCTA.text",
+      "en": "Explore Industrial Solutions",
+      "it": "Esplora Industrial Soluziones",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.ctaFinal.subtitle",
+      "en": "Join leading manufacturers already using Elemento to modernize their operations and unlock the power of industrial data.",
+      "it": "Join leading manufacturers already using Elemento to modernize their operations and unlock the power of industrial data.",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.ctaFinal.title",
+      "en": "Ready to Transform Your Manufacturing?",
+      "it": "Pronto per Transform Your Manufacturing?",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.faq.subtitle",
+      "en": "Common questions about using Elemento for industrial operations",
+      "it": "Common questions about using Elemento for industrial operations",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.faq.title",
+      "en": "Manufacturing FAQ",
+      "it": "Manufacturing FAQ",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.features.items.0.description",
+      "en": "Connect existing PLCs, SCADA, and MES systems without disruption",
+      "it": "",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.features.items.0.title",
+      "en": "Legacy System Integration",
+      "it": "",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.features.items.1.description",
+      "en": "End-to-end encryption and secure data transmission from shop floor to cloud",
+      "it": "",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.features.items.1.title",
+      "en": "Industrial Security",
+      "it": "",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.features.items.2.description",
+      "en": "Process telemetry data in real-time for immediate insights and optimization",
+      "it": "",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.features.items.2.title",
+      "en": "Real-time Analytics",
+      "it": "",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.features.items.3.description",
+      "en": "AI-powered maintenance scheduling to reduce downtime and costs",
+      "it": "",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.features.items.3.title",
+      "en": "Predictive Maintenance",
+      "it": "",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.features.items.4.description",
+      "en": "Seamlessly bridge on-premise and cloud infrastructure",
+      "it": "",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.features.items.4.title",
+      "en": "Hybrid Cloud Architecture",
+      "it": "",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.features.items.5.description",
+      "en": "Keep sensitive manufacturing data within your control and compliance requirements",
+      "it": "",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.features.items.5.title",
+      "en": "Data Sovereignty",
+      "it": "",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.features.subtitle",
+      "en": "Everything you need to modernize your industrial operations",
+      "it": "Everything you need to modernize your industrial operations",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.features.title",
+      "en": "Manufacturing Features",
+      "it": "Manufacturing Funzionalità",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.hero.primaryCTA.text",
+      "en": "Start Now",
+      "it": "Inizia ora",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.hero.secondaryCTA.text",
+      "en": "Explore Industrial Platform",
+      "it": "Esplora Industrial Platform",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.hero.subtitle",
+      "en": "Transform legacy MES/ERP systems with modern analytics and AI pipelines in one secure, vendor-free cloud ecosystem.",
+      "it": "Transform legacy MES/ERP systems with modern analytics and AI pipelines in one secure, vendor-free cloud ecosystem.",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.hero.tagline",
+      "en": "Manufacturing Innovation",
+      "it": "Manufacturing Innovation",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.hero.title",
+      "en": "Integrate Your Factory Data, From PLCs to ERP",
+      "it": "Integrate Your Factory Data, From PLCs to ERP",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.painPoints.items.0.description",
+      "en": "Poor integration between legacy MES/ERP systems and modern analytics or AI pipelines",
+      "it": "",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.painPoints.items.0.title",
+      "en": "Legacy System Integration",
+      "it": "",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.painPoints.items.1.description",
+      "en": "Expensive private cloud setups due to on-premise machinery data gravity and vendor lock-in",
+      "it": "",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.painPoints.items.1.title",
+      "en": "High Cloud Costs",
+      "it": "",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.painPoints.items.2.description",
+      "en": "Interoperability issues with IoT platforms and limited flexibility in cloud providers",
+      "it": "",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.painPoints.items.2.title",
+      "en": "Vendor Lock-in",
+      "it": "",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.painPoints.items.3.description",
+      "en": "Isolated data streams preventing real-time insights and predictive analytics",
+      "it": "",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.painPoints.items.3.title",
+      "en": "Data Silos",
+      "it": "",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.painPoints.subtitle",
+      "en": "Common pain points that slow down your digital transformation and operational efficiency",
+      "it": "Common pain points that slow down your digital transformation and operational efficiency",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.painPoints.title",
+      "en": "Manufacturing Challenges You Face",
+      "it": "Manufacturing Sfide che affronti",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.solution.cta.text",
+      "en": "See Manufacturing Stack",
+      "it": "Vedi Manufacturing Stack",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.solution.description",
+      "en": "Unified infrastructure that bridges legacy systems with modern cloud analytics",
+      "it": "Unified infrastructure that bridges legacy systems with modern cloud analytics",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.solution.items.0.description",
+      "en": "Consistent hypervisor environment for edge and cloud processing",
+      "it": "",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.solution.items.1.description",
+      "en": "Unified dashboard for monitoring all manufacturing systems",
+      "it": "",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.solution.items.2.description",
+      "en": "API layer for seamless integration with existing MES/ERP systems",
+      "it": "",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.solution.title",
+      "en": "Elemento's Manufacturing Solution",
+      "it": "Elemento's Manufacturing Soluzione",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.stats.items.0.label",
+      "en": "Faster Integration",
+      "it": "",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.stats.items.1.label",
+      "en": "Cost Reduction",
+      "it": "",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.stats.items.2.label",
+      "en": "Uptime Improvement",
+      "it": "",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.stats.subtitle",
+      "en": "Real results from manufacturers using Elemento for digital transformation",
+      "it": "Real results from manufacturers using Elemento for digital transformation",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.stats.title",
+      "en": "Manufacturing Impact",
+      "it": "Manufacturing Impatto",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.useCase.items.0.description",
+      "en": "Collect data from PLCs, SCADA systems, and IoT sensors in real-time",
+      "it": "",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.useCase.items.0.title",
+      "en": "Shop Floor Data",
+      "it": "",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.useCase.items.1.description",
+      "en": "Process data at the edge for immediate insights and local control",
+      "it": "",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.useCase.items.1.title",
+      "en": "Edge Processing",
+      "it": "",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.useCase.items.2.description",
+      "en": "Transmit processed data to cloud for advanced analytics and AI processing",
+      "it": "",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.useCase.items.2.title",
+      "en": "Cloud Analytics",
+      "it": "",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.useCase.items.3.description",
+      "en": "Generate predictive insights and optimization recommendations for operations",
+      "it": "",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.useCase.items.3.title",
+      "en": "Optimization",
+      "it": "",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.useCase.subtitle",
+      "en": "Real-time telemetry flows seamlessly from PLCs to analytics and optimization",
+      "it": "Real-time telemetry flows seamlessly from PLCs to analytics and optimization",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.useCase.title",
+      "en": "From Shop Floor to Cloud",
+      "it": "From Shop Floor to Cloud",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.codeExample.cta.text",
+      "en": "View Smart City Config",
+      "it": "View Smart City Config",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.codeExample.subtitle",
+      "en": "Define your smart city infrastructure with simple, declarative configuration",
+      "it": "Define your smart city infrastructure with simple, declarative configuration",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.codeExample.title",
+      "en": "Smart City Configuration",
+      "it": "Smart City Configuration",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.ctaFinal.primaryCTA.text",
+      "en": "Deploy Government Cloud",
+      "it": "Deploy Government Cloud",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.ctaFinal.secondaryCTA.text",
+      "en": "Explore Public Solutions",
+      "it": "Esplora Public Soluziones",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.ctaFinal.subtitle",
+      "en": "Join leading government organizations already using Elemento to modernize their infrastructure and deliver better citizen services.",
+      "it": "Join leading government organizations already using Elemento to modernize their infrastructure and deliver better citizen services.",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.ctaFinal.title",
+      "en": "Ready to Transform Your Public Infrastructure?",
+      "it": "Pronto per Transform Your Public Infrastructure?",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.faq.subtitle",
+      "en": "Common questions about using Elemento for government and smart city initiatives",
+      "it": "Common questions about using Elemento for government and smart city initiatives",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.faq.title",
+      "en": "Public Sector FAQ",
+      "it": "Public Sector FAQ",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.features.items.0.description",
+      "en": "Complete control over data and infrastructure with sovereignty guarantees",
+      "it": "",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.features.items.0.title",
+      "en": "Sovereign Infrastructure",
+      "it": "",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.features.items.1.description",
+      "en": "Government-grade security with comprehensive audit trails and compliance",
+      "it": "",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.features.items.1.title",
+      "en": "Government Security",
+      "it": "",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.features.items.2.description",
+      "en": "Seamless integration with smart city infrastructure and IoT devices",
+      "it": "",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.features.items.2.title",
+      "en": "Smart City Integration",
+      "it": "",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.features.items.3.description",
+      "en": "Digital government services and citizen portals with high availability",
+      "it": "",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.features.items.3.title",
+      "en": "Citizen Services",
+      "it": "",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.features.items.4.description",
+      "en": "Real-time analytics for urban planning and citizen service optimization",
+      "it": "",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.features.items.4.title",
+      "en": "Urban Analytics",
+      "it": "",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.features.items.5.description",
+      "en": "Seamless integration with existing government systems and standards",
+      "it": "",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.features.items.5.title",
+      "en": "Interoperability",
+      "it": "",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.features.subtitle",
+      "en": "Everything you need for modern government infrastructure and smart city initiatives",
+      "it": "Everything you need for modern government infrastructure and smart city initiatives",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.features.title",
+      "en": "Public Sector Features",
+      "it": "Public Sector Funzionalità",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.hero.primaryCTA.text",
+      "en": "Start Now",
+      "it": "Inizia ora",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.hero.secondaryCTA.text",
+      "en": "Explore Government Platform",
+      "it": "Esplora Government Platform",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.hero.subtitle",
+      "en": "Elemento provides compliance-ready infrastructure for government and smart city initiatives with full sovereignty and audit capabilities.",
+      "it": "Elemento provides compliance-ready infrastructure for government and smart city initiatives with full sovereignty and audit capabilities.",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.hero.tagline",
+      "en": "Public Sector",
+      "it": "Public Sector",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.hero.title",
+      "en": "Empowering Public Institutions with Sovereign Cloud Infrastructure",
+      "it": "Empowering Public Institutions with Sovereign Cloud Infrastructure",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.painPoints.items.0.description",
+      "en": "Complex requirements for data sovereignty and control over critical infrastructure",
+      "it": "",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.painPoints.items.0.title",
+      "en": "Sovereignty Requirements",
+      "it": "",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.painPoints.items.1.description",
+      "en": "High compliance requirements for government data and citizen information",
+      "it": "",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.painPoints.items.1.title",
+      "en": "Compliance Complexity",
+      "it": "",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.painPoints.items.2.description",
+      "en": "Need for hybrid infrastructure for critical services and citizen-facing applications",
+      "it": "",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.painPoints.items.2.title",
+      "en": "Hybrid Infrastructure",
+      "it": "",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.painPoints.items.3.description",
+      "en": "Lack of unified observability and automation across government systems",
+      "it": "",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.painPoints.items.3.title",
+      "en": "Observability Gaps",
+      "it": "",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.painPoints.subtitle",
+      "en": "Common pain points that limit your ability to leverage cloud technology while maintaining sovereignty",
+      "it": "Common pain points that limit your ability to leverage cloud technology while maintaining sovereignty",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.painPoints.title",
+      "en": "Public Sector Challenges",
+      "it": "Public Sector Challenges",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.solution.cta.text",
+      "en": "See Government Stack",
+      "it": "Vedi Government Stack",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.solution.description",
+      "en": "Complete infrastructure platform designed for government and smart city initiatives",
+      "it": "Complete infrastructure platform designed for government and smart city initiatives",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.solution.items.0.description",
+      "en": "Sovereign hypervisor environment with government-grade security",
+      "it": "",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.solution.items.1.description",
+      "en": "Government dashboard with audit trails and compliance reporting",
+      "it": "",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.solution.items.2.description",
+      "en": "Secure API layer for government system integration",
+      "it": "",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.solution.title",
+      "en": "Elemento's Public Sector Solution",
+      "it": "Elemento's Public Sector Soluzione",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.stats.items.0.label",
+      "en": "Service Efficiency",
+      "it": "",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.stats.items.1.label",
+      "en": "Cost Savings",
+      "it": "",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.stats.items.2.label",
+      "en": "Citizen Satisfaction",
+      "it": "",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.stats.subtitle",
+      "en": "Real results from government organizations using Elemento",
+      "it": "Real results from government organizations using Elemento",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.stats.title",
+      "en": "Public Sector Impact",
+      "it": "Public Sector Impatto",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.useCase.items.0.description",
+      "en": "Collect data from IoT sensors, citizen services, and infrastructure monitoring",
+      "it": "",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.useCase.items.0.title",
+      "en": "Data Collection",
+      "it": "",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.useCase.items.1.description",
+      "en": "Process and analyze data in real-time for city operations and decision making",
+      "it": "",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.useCase.items.1.title",
+      "en": "Data Processing",
+      "it": "",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.useCase.items.2.description",
+      "en": "Deliver digital services to citizens through eGovernment and mobile applications",
+      "it": "",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.useCase.items.2.title",
+      "en": "Service Delivery",
+      "it": "",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.useCase.items.3.description",
+      "en": "Monitor city operations and respond to emergencies with integrated systems",
+      "it": "",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.useCase.items.3.title",
+      "en": "Monitoring & Response",
+      "it": "",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.useCase.subtitle",
+      "en": "From data collection to citizen services with comprehensive digital infrastructure",
+      "it": "From data collection to citizen services with comprehensive digital infrastructure",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.useCase.title",
+      "en": "Smart City Workflow",
+      "it": "Smart City Flusso di lavoro",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.codeExample.cta.text",
+      "en": "View Security Configuration",
+      "it": "View Security Configuration",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.codeExample.subtitle",
+      "en": "Define your compliance requirements with simple, declarative configuration",
+      "it": "Define your compliance requirements with simple, declarative configuration",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.codeExample.title",
+      "en": "Compliance Configuration",
+      "it": "Compliance Configuration",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.ctaFinal.primaryCTA.text",
+      "en": "Start Secure Deployment",
+      "it": "Start Secure Deployment",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.ctaFinal.secondaryCTA.text",
+      "en": "Explore Compliance Solutions",
+      "it": "Esplora Compliance Soluziones",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.ctaFinal.subtitle",
+      "en": "Join leading healthcare, finance, and government organizations already using Elemento to meet compliance requirements while leveraging cloud technology.",
+      "it": "Join leading healthcare, finance, and government organizations already using Elemento to meet compliance requirements while leveraging cloud technology.",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.ctaFinal.title",
+      "en": "Ready to Secure Your Regulated Workloads?",
+      "it": "Pronto per Secure Your Regulated Workloads?",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.faq.subtitle",
+      "en": "Common questions about using Elemento in regulated environments",
+      "it": "Common questions about using Elemento in regulated environments",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.faq.title",
+      "en": "Compliance FAQ",
+      "it": "Compliance FAQ",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.features.items.0.description",
+      "en": "Complete control over data location and processing with regional compliance",
+      "it": "",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.features.items.0.title",
+      "en": "Data Sovereignty",
+      "it": "",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.features.items.1.description",
+      "en": "Built-in support for GDPR, HIPAA, SOC 2, ISO 27001, and other standards",
+      "it": "",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.features.items.1.title",
+      "en": "Compliance Certifications",
+      "it": "",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.features.items.2.description",
+      "en": "End-to-end encryption with secure key management and access controls",
+      "it": "",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.features.items.2.title",
+      "en": "Encryption & Security",
+      "it": "",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.features.items.3.description",
+      "en": "Comprehensive audit trails and compliance reporting for regulatory requirements",
+      "it": "",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.features.items.3.title",
+      "en": "Audit & Reporting",
+      "it": "",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.features.items.4.description",
+      "en": "Role-based access control with multi-factor authentication and identity management",
+      "it": "",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.features.items.4.title",
+      "en": "Access Controls",
+      "it": "",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.features.items.5.description",
+      "en": "Secure hybrid cloud deployment with on-premise and cloud integration",
+      "it": "",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.features.items.5.title",
+      "en": "Hybrid Deployment",
+      "it": "",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.features.subtitle",
+      "en": "Everything you need to meet regulatory requirements and maintain data sovereignty",
+      "it": "Everything you need to meet regulatory requirements and maintain data sovereignty",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.features.title",
+      "en": "Compliance Features",
+      "it": "Compliance Funzionalità",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.hero.primaryCTA.text",
+      "en": "Start Now",
+      "it": "Inizia ora",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.hero.secondaryCTA.text",
+      "en": "Explore Security Platform",
+      "it": "Esplora Security Platform",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.hero.subtitle",
+      "en": "Elemento provides enterprise-grade security with built-in compliance for healthcare, finance, and other regulated industries.",
+      "it": "Elemento provides enterprise-grade security with built-in compliance for healthcare, finance, and other regulated industries.",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.hero.tagline",
+      "en": "Regulated Environments",
+      "it": "Regulated Environments",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.hero.title",
+      "en": "Run Sensitive Workloads with Full Data Governance",
+      "it": "Run Sensitive Workloads with Full Data Governance",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.painPoints.items.0.description",
+      "en": "Complex requirements for data residency and sovereignty across different jurisdictions",
+      "it": "",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.painPoints.items.0.title",
+      "en": "Data Sovereignty",
+      "it": "",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.painPoints.items.1.description",
+      "en": "High risk of lock-in when using hyperscalers with unclear data residency and compliance requirements",
+      "it": "",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.painPoints.items.1.title",
+      "en": "Compliance Complexity",
+      "it": "",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.painPoints.items.2.description",
+      "en": "Complex hybrid setups for sensitive workloads that are difficult to manage and secure",
+      "it": "",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.painPoints.items.2.title",
+      "en": "Hybrid Complexity",
+      "it": "",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.painPoints.items.3.description",
+      "en": "Need for comprehensive audit trails and compliance reporting across all environments",
+      "it": "",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.painPoints.items.3.title",
+      "en": "Audit Requirements",
+      "it": "",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.painPoints.subtitle",
+      "en": "Common pain points that limit your ability to leverage cloud technology while maintaining compliance",
+      "it": "Common pain points that limit your ability to leverage cloud technology while maintaining compliance",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.painPoints.title",
+      "en": "Regulated Environment Challenges",
+      "it": "Regulated Environment Challenges",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.solution.cta.text",
+      "en": "See Compliance Stack",
+      "it": "Vedi Compliance Stack",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.solution.description",
+      "en": "Complete infrastructure platform designed for regulated environments with built-in compliance and security",
+      "it": "Complete infrastructure platform designed for regulated environments with built-in compliance and security",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.solution.items.0.description",
+      "en": "Secure hypervisor environment with built-in compliance controls",
+      "it": "",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.solution.items.1.description",
+      "en": "Compliance-ready dashboard with audit and reporting capabilities",
+      "it": "",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.solution.items.2.description",
+      "en": "Secure API layer with encryption and access controls",
+      "it": "",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.solution.title",
+      "en": "Elemento's Compliance Solution",
+      "it": "Elemento's Compliance Soluzione",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.stats.items.0.label",
+      "en": "Faster Compliance",
+      "it": "",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.stats.items.1.label",
+      "en": "Security Improvement",
+      "it": "",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.stats.items.2.label",
+      "en": "Cost Reduction",
+      "it": "",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.stats.subtitle",
+      "en": "Real results from regulated organizations using Elemento",
+      "it": "Real results from regulated organizations using Elemento",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.stats.title",
+      "en": "Compliance Impact",
+      "it": "Compliance Impatto",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.useCase.items.0.description",
+      "en": "Secure collection of sensitive data with encryption and access controls",
+      "it": "",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.useCase.items.0.title",
+      "en": "Data Collection",
+      "it": "",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.useCase.items.1.description",
+      "en": "Process data in compliant environments with audit trails and monitoring",
+      "it": "",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.useCase.items.1.title",
+      "en": "Processing & Storage",
+      "it": "",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.useCase.items.2.description",
+      "en": "Role-based access control with multi-factor authentication and monitoring",
+      "it": "",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.useCase.items.2.title",
+      "en": "Access Control",
+      "it": "",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.useCase.items.3.description",
+      "en": "Generate compliance reports and audit trails for regulatory requirements",
+      "it": "",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.useCase.items.3.title",
+      "en": "Audit & Reporting",
+      "it": "",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.useCase.subtitle",
+      "en": "From data collection to audit reporting with full compliance and security",
+      "it": "From data collection to audit reporting with full compliance and security",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.useCase.title",
+      "en": "Compliance Workflow",
+      "it": "Compliance Flusso di lavoro",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.codeExample.cta.text",
+      "en": "View Multi-Tenant Config",
+      "it": "View Multi-Tenant Config",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.codeExample.subtitle",
+      "en": "Define your white-label infrastructure with simple, declarative configuration",
+      "it": "Define your white-label infrastructure with simple, declarative configuration",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.codeExample.title",
+      "en": "Multi-Tenant Configuration",
+      "it": "Multi-Tenant Configuration",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.ctaFinal.primaryCTA.text",
+      "en": "Launch Partner Business",
+      "it": "Avvia Partner Business",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.ctaFinal.secondaryCTA.text",
+      "en": "Explore Integration Solutions",
+      "it": "Esplora Integration Soluziones",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.ctaFinal.subtitle",
+      "en": "Join leading system integrators already using Elemento to build recurring revenue models and deliver sovereign cloud environments.",
+      "it": "Join leading system integrators already using Elemento to build recurring revenue models and deliver sovereign cloud environments.",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.ctaFinal.title",
+      "en": "Ready to Transform Your Integration Business?",
+      "it": "Pronto per Transform Your Integration Business?",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.faq.subtitle",
+      "en": "Common questions about using Elemento for system integration",
+      "it": "Common questions about using Elemento for system integration",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.faq.title",
+      "en": "Partner FAQ",
+      "it": "Partner FAQ",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.features.items.0.description",
+      "en": "Complete white-label experience with your branding and customization",
+      "it": "",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.features.items.0.title",
+      "en": "White-Label Platform",
+      "it": "",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.features.items.1.description",
+      "en": "Secure, isolated environments for each client with shared infrastructure",
+      "it": "",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.features.items.1.title",
+      "en": "Multi-Tenant Architecture",
+      "it": "",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.features.items.2.description",
+      "en": "Comprehensive analytics and reporting for client billing and optimization",
+      "it": "",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.features.items.2.title",
+      "en": "Usage Analytics",
+      "it": "",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.features.items.3.description",
+      "en": "Enterprise-grade security with built-in compliance and audit capabilities",
+      "it": "",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.features.items.3.title",
+      "en": "Security & Compliance",
+      "it": "",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.features.items.4.description",
+      "en": "RESTful APIs for seamless integration with existing tools and workflows",
+      "it": "",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.features.items.4.title",
+      "en": "API Integration",
+      "it": "",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.features.items.5.description",
+      "en": "Built-in billing and cost management tools for recurring revenue models",
+      "it": "",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.features.items.5.title",
+      "en": "Revenue Optimization",
+      "it": "",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.features.subtitle",
+      "en": "Everything you need to build a successful cloud services business",
+      "it": "Everything you need to build a successful cloud services business",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.features.title",
+      "en": "Partner Features",
+      "it": "Partner Funzionalità",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.hero.primaryCTA.text",
+      "en": "Start Now",
+      "it": "Inizia ora",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.hero.secondaryCTA.text",
+      "en": "Explore White-Label Platform",
+      "it": "Esplora White-Label Platform",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.hero.subtitle",
+      "en": "Elemento Cloud empowers system integrators to deliver white-label, scalable cloud layers under their own brand without hyperscaler dependency.",
+      "it": "Elemento Cloud empowers system integrators to deliver white-label, scalable cloud layers under their own brand without hyperscaler dependency.",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.hero.tagline",
+      "en": "System Integrators",
+      "it": "System Integrators",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.hero.title",
+      "en": "Deliver Sovereign, Elastic Cloud Environments",
+      "it": "Deliver Sovereign, Elastic Cloud Environments",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.painPoints.items.0.description",
+      "en": "Need for white-label, scalable cloud layers without hyperscaler dependency and vendor lock-in",
+      "it": "",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.painPoints.items.0.title",
+      "en": "White-label Limitations",
+      "it": "",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.painPoints.items.1.description",
+      "en": "Expensive total cost of ownership when managing multi-cloud integrations manually",
+      "it": "",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.painPoints.items.1.title",
+      "en": "High TCO Management",
+      "it": "",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.painPoints.items.2.description",
+      "en": "Difficulty building recurring-revenue models around infrastructure and services",
+      "it": "",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.painPoints.items.2.title",
+      "en": "Revenue Model Challenges",
+      "it": "",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.painPoints.items.3.description",
+      "en": "Complex multi-cloud setups that are difficult to manage and scale for clients",
+      "it": "",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.painPoints.items.3.title",
+      "en": "Integration Complexity",
+      "it": "",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.painPoints.subtitle",
+      "en": "Common pain points that limit your ability to deliver value and build recurring revenue",
+      "it": "Common pain points that limit your ability to deliver value and build recurring revenue",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.painPoints.title",
+      "en": "System Integrator Challenges",
+      "it": "System Integrator Challenges",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.solution.cta.text",
+      "en": "See Partner Stack",
+      "it": "Vedi Partner Stack",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.solution.description",
+      "en": "Complete infrastructure platform that enables system integrators to deliver sovereign cloud environments",
+      "it": "Complete infrastructure platform that enables system integrators to deliver sovereign cloud environments",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.solution.items.0.description",
+      "en": "Production-grade hypervisor for consistent multi-tenant environments",
+      "it": "",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.solution.items.1.description",
+      "en": "White-label dashboard for managing client infrastructure",
+      "it": "",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.solution.items.2.description",
+      "en": "API layer for seamless multi-cloud orchestration and management",
+      "it": "",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.solution.title",
+      "en": "Elemento's Partner Solution",
+      "it": "Elemento's Partner Soluzione",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.stats.items.0.label",
+      "en": "Faster Deployment",
+      "it": "",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.stats.items.1.label",
+      "en": "Cost Reduction",
+      "it": "",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.stats.items.2.label",
+      "en": "Revenue Growth",
+      "it": "",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.stats.subtitle",
+      "en": "Real results from system integrators using Elemento",
+      "it": "Real results from system integrators using Elemento",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.stats.title",
+      "en": "Partner Success",
+      "it": "Partner Success",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.useCase.items.0.description",
+      "en": "Deploy branded cloud environments for new clients in minutes",
+      "it": "",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.useCase.items.0.title",
+      "en": "Client Onboarding",
+      "it": "",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.useCase.items.1.description",
+      "en": "Manage multiple client environments from a single dashboard",
+      "it": "",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.useCase.items.1.title",
+      "en": "Multi-Tenant Management",
+      "it": "",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.useCase.items.2.description",
+      "en": "Track resource usage and generate billing reports automatically",
+      "it": "",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.useCase.items.2.title",
+      "en": "Usage Monitoring",
+      "it": "",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.useCase.items.3.description",
+      "en": "Scale your business with recurring revenue from infrastructure services",
+      "it": "",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.useCase.items.3.title",
+      "en": "Revenue Growth",
+      "it": "",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.useCase.subtitle",
+      "en": "From client onboarding to recurring revenue with white-label infrastructure",
+      "it": "From client onboarding to recurring revenue with white-label infrastructure",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.useCase.title",
+      "en": "Partner Success Workflow",
+      "it": "Partner Success Flusso di lavoro",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.ctaFinal.primaryCTA.text",
+      "en": "Start Migration",
+      "it": "Start Migration",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.ctaFinal.secondaryCTA.text",
+      "en": "Schedule Migration Demo",
+      "it": "Schedule Migration Demo",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.ctaFinal.subtitle",
+      "en": "Join organizations already using Elemento to modernize their infrastructure and reduce costs.",
+      "it": "Join organizations already using Elemento to modernize their infrastructure and reduce costs.",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.ctaFinal.title",
+      "en": "Ready to Replace VMware?",
+      "it": "Pronto per Replace VMware?",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.faq.subtitle",
+      "en": "Common questions about migrating from VMware to Elemento",
+      "it": "Common questions about migrating from VMware to Elemento",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.faq.title",
+      "en": "VMware Alternative FAQ",
+      "it": "VMware Alternative FAQ",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.features.items.0.description",
+      "en": "Production-grade hypervisor with better performance than VMware vSphere",
+      "it": "",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.features.items.0.title",
+      "en": "Modern Hypervisor",
+      "it": "",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.features.items.1.description",
+      "en": "Significantly lower costs compared to VMware licensing and better resource utilization",
+      "it": "",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.features.items.1.title",
+      "en": "Cost Optimization",
+      "it": "",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.features.items.2.description",
+      "en": "Native integration with AWS, Azure, GCP, and other cloud providers",
+      "it": "",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.features.items.2.title",
+      "en": "Cloud Integration",
+      "it": "",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.features.items.3.description",
+      "en": "API-first approach with infrastructure as code and automated operations",
+      "it": "",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.features.items.3.title",
+      "en": "Automated Management",
+      "it": "",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.features.items.4.description",
+      "en": "Enterprise-grade security with built-in compliance and audit capabilities",
+      "it": "",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.features.items.4.title",
+      "en": "Security & Compliance",
+      "it": "",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.features.items.5.description",
+      "en": "Auto-scaling and resource optimization for dynamic workloads",
+      "it": "",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.features.items.5.title",
+      "en": "Scalability",
+      "it": "",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.features.subtitle",
+      "en": "Everything you need to replace VMware with modern infrastructure",
+      "it": "Everything you need to replace VMware with modern infrastructure",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.features.title",
+      "en": "VMware Alternative Features",
+      "it": "VMware Alternative Funzionalità",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.hero.primaryCTA.text",
+      "en": "Start Migration",
+      "it": "Start Migration",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.hero.secondaryCTA.text",
+      "en": "Compare Solutions",
+      "it": "Compare Soluziones",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.hero.subtitle",
+      "en": "Upgrade from legacy VMware to Elemento's cloud-native platform. Get better performance, lower costs, and seamless cloud integration.",
+      "it": "Upgrade from legacy VMware to Elemento's cloud-native platform. Get better performance, lower costs, and seamless cloud integration.",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.hero.tagline",
+      "en": "VMware Alternative",
+      "it": "VMware Alternative",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.hero.title",
+      "en": "Replace VMware with Modern Infrastructure",
+      "it": "Replace VMware with Modern Infrastructure",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.painPoints.items.0.description",
+      "en": "Expensive VMware licensing fees and complex pricing models that increase operational costs",
+      "it": "",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.painPoints.items.0.title",
+      "en": "High Licensing Costs",
+      "it": "",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.painPoints.items.1.description",
+      "en": "Difficulty integrating VMware infrastructure with modern cloud services and APIs",
+      "it": "",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.painPoints.items.1.title",
+      "en": "Limited Cloud Integration",
+      "it": "",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.painPoints.items.2.description",
+      "en": "Complex VMware management tools and limited automation capabilities for modern workflows",
+      "it": "",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.painPoints.items.2.title",
+      "en": "Complex Management",
+      "it": "",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.painPoints.items.3.description",
+      "en": "Tied to VMware ecosystem with limited flexibility for multi-cloud and hybrid deployments",
+      "it": "",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.painPoints.items.3.title",
+      "en": "Vendor Lock-in",
+      "it": "",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.painPoints.subtitle",
+      "en": "Common pain points with legacy VMware infrastructure that limit your modernization efforts",
+      "it": "Common pain points with legacy VMware infrastructure that limit your modernization efforts",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.painPoints.title",
+      "en": "VMware Challenges You Face",
+      "it": "VMware Sfide che affronti",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.solution.cta.text",
+      "en": "Get AtomOS now!",
+      "it": "Get AtomOS now!",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.solution.description",
+      "en": "Complete platform designed to replace VMware with modern, cloud-native infrastructure",
+      "it": "Complete platform designed to replace VMware with modern, cloud-native infrastructure",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.solution.items.0.description",
+      "en": "Modern hypervisor replacing VMware vSphere with better performance",
+      "it": "",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.solution.items.1.description",
+      "en": "Unified management console replacing VMware vCenter",
+      "it": "",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.solution.title",
+      "en": "Elemento's VMware Alternative",
+      "it": "Elemento's VMware Alternative",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.stats.items.0.label",
+      "en": "Cost Reduction",
+      "it": "",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.stats.items.1.label",
+      "en": "Performance Gain",
+      "it": "",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.stats.items.2.label",
+      "en": "Migration Time",
+      "it": "",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.stats.subtitle",
+      "en": "Real results from organizations migrating from VMware to Elemento",
+      "it": "Real results from organizations migrating from VMware to Elemento",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.stats.title",
+      "en": "VMware Alternative Impact",
+      "it": "VMware Alternative Impatto",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.useCase.items.0.description",
+      "en": "Analyze existing VMware infrastructure and identify migration opportunities",
+      "it": "",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.useCase.items.0.title",
+      "en": "Assessment",
+      "it": "",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.useCase.items.1.description",
+      "en": "Create migration plan with Elemento's modern infrastructure components",
+      "it": "",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.useCase.items.1.title",
+      "en": "Planning",
+      "it": "",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.useCase.items.2.description",
+      "en": "Migrate VMs and workloads to Elemento's cloud-native platform",
+      "it": "",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.useCase.items.2.title",
+      "en": "Migration",
+      "it": "",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.useCase.items.3.description",
+      "en": "Optimize performance and costs with modern management and automation",
+      "it": "",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.useCase.items.3.title",
+      "en": "Optimization",
+      "it": "",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.useCase.subtitle",
+      "en": "From legacy VMware infrastructure to modern cloud-native platform",
+      "it": "From legacy VMware infrastructure to modern cloud-native platform",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.useCase.title",
+      "en": "VMware Migration Process",
+      "it": "VMware Migration Process",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.success-stories.0.author",
+      "en": "Marco Brussino",
+      "it": "Marco Brussino",
+      "source": "CMS/success-stories.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.success-stories.0.company",
+      "en": "OLCI Engineering",
+      "it": "OLCI Engineering",
+      "source": "CMS/success-stories.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.success-stories.0.quote",
+      "en": "Elemento allowed us to move away from a rigid appliance-based system to a flexible Linux and hybrid cloud architecture. We now have disaster recovery without vendor lock-in.",
+      "it": "Elemento allowed us to move away from a rigid appliance-based system to a flexible Linux and hybrid cloud architecture. We now have disaster recovery without vendor lock-in.",
+      "source": "CMS/success-stories.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.success-stories.0.role",
+      "en": "IT Manager",
+      "it": "IT Manager",
+      "source": "CMS/success-stories.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.success-stories.1.author",
+      "en": "Alessandra Rostagno",
+      "it": "Alessandra Rostagno",
+      "source": "CMS/success-stories.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.success-stories.1.company",
+      "en": "Marcopolo Spa",
+      "it": "Marcopolo Spa",
+      "source": "CMS/success-stories.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.success-stories.1.quote",
+      "en": "With Elemento, we achieved a redundant local cluster and a fully automated off-site disaster recovery system. This ensures uninterrupted operations for our mission-critical workloads.",
+      "it": "With Elemento, we achieved a redundant local cluster and a fully automated off-site disaster recovery system. This ensures uninterrupted operations for our mission-critical workloads.",
+      "source": "CMS/success-stories.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.success-stories.1.role",
+      "en": "IT Director",
+      "it": "IT Director",
+      "source": "CMS/success-stories.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.success-stories.2.author",
+      "en": "Denise Lupani",
+      "it": "Denise Lupani",
+      "source": "CMS/success-stories.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.success-stories.2.company",
+      "en": "Brandsider Srl",
+      "it": "Brandsider Srl",
+      "source": "CMS/success-stories.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.success-stories.2.quote",
+      "en": "Elemento gave us enterprise-grade resilience with a redundant NAS locally and secure backups in the cloud. We maintain full data sovereignty while ensuring business continuity.",
+      "it": "Elemento gave us enterprise-grade resilience with a redundant NAS locally and secure backups in the cloud. We maintain full data sovereignty while ensuring business continuity.",
+      "source": "CMS/success-stories.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.success-stories.2.role",
+      "en": "CEO",
+      "it": "CEO",
+      "source": "CMS/success-stories.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.success-stories.3.author",
+      "en": "Matteo Reverdito",
+      "it": "Matteo Reverdito",
+      "source": "CMS/success-stories.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.success-stories.3.company",
+      "en": "360 Aligners Academy",
+      "it": "360 Aligners Academy",
+      "source": "CMS/success-stories.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.success-stories.3.quote",
+      "en": "Our multiple dental practices now run on a unified, secure data center for ERP, CRM, and x-ray management. This provides consistent uptime and scalability across all our clinics.",
+      "it": "Our multiple dental practices now run on a unified, secure data center for ERP, CRM, and x-ray management. This provides consistent uptime and scalability across all our clinics.",
+      "source": "CMS/success-stories.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.success-stories.3.role",
+      "en": "Dentist",
+      "it": "Dentist",
+      "source": "CMS/success-stories.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.success-stories.4.author",
+      "en": "Edoardo Tomatis",
+      "it": "Edoardo Tomatis",
+      "source": "CMS/success-stories.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.success-stories.4.company",
+      "en": "Giacomo Tomatis Srl",
+      "it": "Giacomo Tomatis Srl",
+      "source": "CMS/success-stories.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.success-stories.4.quote",
+      "en": "Elemento's redundant cluster keeps our ERP always online, even in a rural area with limited connectivity. The automatic failover ensures we never lose critical business operations.",
+      "it": "Elemento's redundant cluster keeps our ERP always online, even in a rural area with limited connectivity. The automatic failover ensures we never lose critical business operations.",
+      "source": "CMS/success-stories.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.success-stories.4.role",
+      "en": "CEO",
+      "it": "CEO",
+      "source": "CMS/success-stories.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.success-stories.5.author",
+      "en": "Francesco Bonfiglio",
+      "it": "Francesco Bonfiglio",
+      "source": "CMS/success-stories.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.success-stories.5.company",
+      "en": "Dynamo Spa",
+      "it": "Dynamo Spa",
+      "source": "CMS/success-stories.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.success-stories.5.quote",
+      "en": "Elemento is the backbone technology enabling the first true federation of European Cloud Providers. It unlocks cross-border interoperability without sacrificing sovereignty.",
+      "it": "Elemento is the backbone technology enabling the first true federation of European Cloud Providers. It unlocks cross-border interoperability without sacrificing sovereignty.",
+      "source": "CMS/success-stories.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.success-stories.5.role",
+      "en": "CEO",
+      "it": "CEO",
+      "source": "CMS/success-stories.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.0.bio",
+      "en": "With a foundation in Nuclear and Subnuclear Physics, I've channeled my scientific rigor into creating robust, scalable cloud solutions.",
+      "it": "With a foundation in Nuclear and Subnuclear Physics, I've channeled my scientific rigor into creating robust, scalable cloud solutions.",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.0.highlight",
+      "en": "Nuclear Physicist, Ph.D. in Physics",
+      "it": "Nuclear Physicist, Ph.D. in Physics",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.0.role",
+      "en": "CEO – Chief Executive Officer",
+      "it": "CEO – Amministratore delegato",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.1.bio",
+      "en": "Curious by nature, I Love coding and data mining. | I studied Complex Systems and now I am leading the tech team to simplify the clouds.",
+      "it": "Curious by nature, I Love coding and data mining. | I studied Complex Systems and now I am leading the tech team to simplify the clouds.",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.1.highlight",
+      "en": "Physicist, Ph.D. in Complex Systems for Life Sciences",
+      "it": "Physicist, Ph.D. in Complex Systems for Life Sciences",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.1.role",
+      "en": "CTO – Chief Technical Officer",
+      "it": "CTO – Direttore tecnico",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.10.bio",
+      "en": "R&D Developer at Elemento Cloud and Computer Science student passionate about Linux systems and virtualization technologies. Always eager to explore new tech challenges and learn as much as possible!",
+      "it": "R&D Developer at Elemento Cloud and Computer Science student passionate about Linux systems and virtualization technologies. Always eager to explore new tech challenges and learn as much as possible!",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.10.highlight",
+      "en": "MSc Cybersecurity student @ PoliTO",
+      "it": "MSc Cybersecurity student @ PoliTO",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.10.role",
+      "en": "Software Developer",
+      "it": "Sviluppatore software",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.11.bio",
+      "en": "MSc Cloud Engineer @PoliTO, passionate about computer science, innovation, and economics. Always seeking new challenges and growth opportunities.",
+      "it": "MSc Cloud Engineer @PoliTO, passionate about computer science, innovation, and economics. Always seeking new challenges and growth opportunities.",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.11.highlight",
+      "en": "MSc Cloud Engineering",
+      "it": "MSc Cloud Engineering",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.11.role",
+      "en": "Cloud Software Developer",
+      "it": "Sviluppatore cloud",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.12.bio",
+      "en": "Engineer and computer science teacher. Passionate about mountains, travel and innovation. Always curious, always learning",
+      "it": "Engineer and computer science teacher. Passionate about mountains, travel and innovation. Always curious, always learning",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.12.highlight",
+      "en": "PoliTo Master's Student",
+      "it": "PoliTo Master's Student",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.12.role",
+      "en": "Business Analyst",
+      "it": "Business analyst",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.13.bio",
+      "en": "I am a computer science student who loves music and low-level programming. I've been fortunate to work with Elemento since 2023.",
+      "it": "I am a computer science student who loves music and low-level programming. I've been fortunate to work with Elemento since 2023.",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.13.highlight",
+      "en": "Computer Science Student",
+      "it": "Computer Science Student",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.13.role",
+      "en": "Cloud Software Developer",
+      "it": "Sviluppatore cloud",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.14.bio",
+      "en": "IT Student and programmer that enjoys photography in his free time.",
+      "it": "IT Student and programmer that enjoys photography in his free time.",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.14.highlight",
+      "en": "Software Developer",
+      "it": "Software Developer",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.14.role",
+      "en": "Cloud Software Developer",
+      "it": "Sviluppatore cloud",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.15.bio",
+      "en": "Passionate about books and everything related to computer science. I particularly enjoy studying algorithms, multimedia formats, and network protocols.",
+      "it": "Passionate about books and everything related to computer science. I particularly enjoy studying algorithms, multimedia formats, and network protocols.",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.15.highlight",
+      "en": "Computer Science Student",
+      "it": "Computer Science Student",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.15.role",
+      "en": "Software Developer",
+      "it": "Sviluppatore software",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.16.bio",
+      "en": "MSc Cybersecurity student @PoliTO, passionate about anything that works autonomously. If I don't understand how it works, I simply take it apart. Yes, I'm curious too!",
+      "it": "MSc Cybersecurity student @PoliTO, passionate about anything that works autonomously. If I don't understand how it works, I simply take it apart. Yes, I'm curious too!",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.16.highlight",
+      "en": "MSc Cybersecurity student",
+      "it": "MSc Cybersecurity student",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.16.role",
+      "en": "Cloud Software Developer",
+      "it": "Sviluppatore cloud",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.17.bio",
+      "en": "Imaginative and curious about how things work and how they’re thought, I’m passionate about nature, video games and photography.",
+      "it": "Imaginative and curious about how things work and how they’re thought, I’m passionate about nature, video games and photography.",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.17.role",
+      "en": "Support Specialist",
+      "it": "Specialist supporto",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.2.bio",
+      "en": "I'm one of the lucky few who turned their passion into a career. I started out as a software developer, and along the way, I fell in love with the more tangible side of IT: hardware infrastructure.",
+      "it": "I'm one of the lucky few who turned their passion into a career. I started out as a software developer, and along the way, I fell in love with the more tangible side of IT: hardware infrastructure.",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.2.role",
+      "en": "CSO – Chief Sales Officer",
+      "it": "CSO – Direttore vendite",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.3.bio",
+      "en": "With experience in M&A, corporate strategy and venture building, and a background in economics, entrepreneurship and innovation. I bridge finance and tech at Elemento.",
+      "it": "With experience in M&A, corporate strategy and venture building, and a background in economics, entrepreneurship and innovation. I bridge finance and tech at Elemento.",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.3.highlight",
+      "en": "MSc Economics and Management of Innovation and Technology @ Bocconi University",
+      "it": "MSc Economics and Management of Innovation and Technology @ Bocconi University",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.3.role",
+      "en": "CFO – Chief Financial Officer",
+      "it": "CFO – Direttore finanziario",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.4.bio",
+      "en": "CMO at Elemento Cloud, bridging strategy, technology, and creativity. I am always looking for the next big thing in digital communication. I focus on humanizing and translating our tech, into impactful communication. My mission is to make our cloud solutions feel as intuitive and accessible as they are powerful.",
+      "it": "CMO at Elemento Cloud, bridging strategy, technology, and creativity. I am always looking for the next big thing in digital communication. I focus on humanizing and translating our tech, into impactful communication. My mission is to make our cloud solutions feel as intuitive and accessible as they are powerful.",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.4.highlight",
+      "en": "Digital Communication Expert",
+      "it": "Digital Communication Expert",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.4.role",
+      "en": "CMO – Chief Marketing Officer",
+      "it": "CMO – Direttore marketing",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.5.bio",
+      "en": "Started with chemistry, ventured into physics, now a developer. Turns out, I was just moving from one puzzle to the next. Always curious, always building, always learning.",
+      "it": "Started with chemistry, ventured into physics, now a developer. Turns out, I was just moving from one puzzle to the next. Always curious, always building, always learning.",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.5.highlight",
+      "en": "Dev & Maker",
+      "it": "Dev & Maker",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.5.role",
+      "en": "R&D Leader - #1 Employee",
+      "it": "Responsabile R&S - primo dipendente",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.6.bio",
+      "en": "Shaping visuals and identities always seeking the key to reinterpreting the ordinary",
+      "it": "Shaping visuals and identities always seeking the key to reinterpreting the ordinary",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.6.highlight",
+      "en": "Graphic Design Degree",
+      "it": "Graphic Design Degree",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.6.role",
+      "en": "Art Director",
+      "it": "Direttore artistico",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.7.bio",
+      "en": "Event Manager at Elemento Cloud, I am responsible for the organization and execution of our events. I am a musicologist, musician, and educator with a passion for bold ideas, social media, and all things fuchsia.",
+      "it": "Event Manager at Elemento Cloud, I am responsible for the organization and execution of our events. I am a musicologist, musician, and educator with a passion for bold ideas, social media, and all things fuchsia.",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.7.highlight",
+      "en": "Musicologist & Communication Expert",
+      "it": "Musicologist & Communication Expert",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.7.role",
+      "en": "Event Manager",
+      "it": "Event Manager",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.8.bio",
+      "en": "Passionate programmer with a love for computer science and video games, driven by the desire to understand how things work",
+      "it": "Passionate programmer with a love for computer science and video games, driven by the desire to understand how things work",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.8.role",
+      "en": "Cloud Software Developer",
+      "it": "Sviluppatore cloud",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.9.bio",
+      "en": "Software Engineer specialized in artificial intelligence and data. Interested in data processing and acquisition, model optimization, and AI integration.",
+      "it": "Software Engineer specialized in artificial intelligence and data. Interested in data processing and acquisition, model optimization, and AI integration.",
+      "source": "CMS/team.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.team.9.role",
+      "en": "Cloud Software Developer",
+      "it": "Sviluppatore cloud",
+      "source": "CMS/team.json",
+      "context": ""
+    }
+  ]
+}

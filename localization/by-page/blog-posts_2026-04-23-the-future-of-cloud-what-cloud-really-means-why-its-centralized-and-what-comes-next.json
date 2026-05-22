@@ -1,0 +1,755 @@
+{
+  "page": "blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next",
+  "count": 107,
+  "strings": [
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.h1.1",
+      "en": "The Future of Cloud: What &quot;Cloud&quot; Really Means, Why It&#x27;s Centralized, and What Comes Next",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<h1>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.h2.1",
+      "en": "What do we mean by “cloud”? Two definitions that change everything",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.h2.10",
+      "en": "A practical checklist for evaluating “cloud future” options",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.h2.11",
+      "en": "Takeaways",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.h2.12",
+      "en": "Next steps",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.h2.2",
+      "en": "Why today’s cloud feels less like “cloud” and more like a mainframe",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.h2.3",
+      "en": "The goal: a cloud that is accessible, universal, and complete",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.h2.4",
+      "en": "Planned escape from lock-in: freedom to switch providers",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.h2.5",
+      "en": "Interoperability: using more than one provider together",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.h2.6",
+      "en": "Building a multi-provider architecture: neutrality, governance, and partnerships",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.h2.7",
+      "en": "How a “neutral access” platform can help",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.h2.8",
+      "en": "What comes next: the cloud and the energy problem",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.h2.9",
+      "en": "Common mistakes when planning for multi-cloud or “universal” cloud",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.h3.1",
+      "en": "1) Cloud as a cost model (Capex vs Opex)",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.h3.10",
+      "en": "Different provider types can be part of the same solution",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.h3.11",
+      "en": "Governance and data sovereignty considerations",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.h3.12",
+      "en": "Core capabilities such as “resource retrieval”",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.h3.13",
+      "en": "Transparency as a design principle",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.h3.14",
+      "en": "Why energy becomes a strategic bottleneck",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.h3.15",
+      "en": "A proposed direction: “more honest” infrastructure sharing",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.h3.16",
+      "en": "1) Treating portability as automatic",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.h3.17",
+      "en": "2) Assuming centralization is the only “enterprise” option",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.h3.18",
+      "en": "3) Ignoring governance early",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.h3.19",
+      "en": "4) Overlooking storage specialization",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.h3.2",
+      "en": "2) Cloud as a technical model (build vs compose)",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.h3.3",
+      "en": "Centralization creates a “single point of failure” feeling",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.h3.4",
+      "en": "Security, stability, and reliability are not guaranteed by default",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.h3.5",
+      "en": "Accessibility",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.h3.6",
+      "en": "Universality",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.h3.7",
+      "en": "Completeness",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.h3.8",
+      "en": "What “freedom” looks like in practice",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.h3.9",
+      "en": "Why partnerships matter",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.li.1",
+      "en": "On-prem : you invest up front and operate internally.",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.li.10",
+      "en": "enterprise management systems",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.li.11",
+      "en": "AI workloads",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.li.12",
+      "en": "Choosing not to depend exclusively on one hyperscaler or single vendor contract structure.",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.li.13",
+      "en": "Maintaining the ability to continue operations if a pricing model changes.",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.li.14",
+      "en": "Reducing friction when compliance requirements or certification needs evolve.",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.li.15",
+      "en": "If one provider meets availability goals, combining providers can push overall resilience closer to “near-continuous” operation for critical workloads.",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.li.16",
+      "en": "For mission-critical systems, teams often treat distribution and redundancy as a requirement, not an “extra.”",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.li.17",
+      "en": "Hyperscalers : large global providers that cover a major share of the market.",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.li.18",
+      "en": "European providers : smaller than hyperscalers but still capable of supporting production-grade cloud services.",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.li.19",
+      "en": "Purpose-built storage providers : providers specialized in storage rather than general-purpose infrastructure.",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.li.2",
+      "en": "Cloud services : you pay for what you use and avoid large upfront purchases.",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.li.20",
+      "en": "Additional major providers : integration efforts may expand over time to include well-known platforms.",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.li.21",
+      "en": "more stable and universal access to the required compute and services",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.li.22",
+      "en": "less reliance on hidden bottlenecks",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.li.23",
+      "en": "partnership-based infrastructure utilization that can adapt as demand shifts",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.li.24",
+      "en": "Accessibility : Can your workloads run without excessive adaptation for each provider?",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.li.25",
+      "en": "Universality : Is there a path to keep the application portable across environments?",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.li.26",
+      "en": "Completeness : Does the solution cover the necessary infrastructure components beyond compute?",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.li.27",
+      "en": "Provider freedom : Can you change providers when pricing, certifications, or needs change?",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.li.28",
+      "en": "Interoperability : Can you coordinate multiple providers for redundancy and availability?",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.li.29",
+      "en": "Governance : Are data sovereignty and governance requirements supported by design?",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.li.3",
+      "en": "Plasm (create everything from scratch): build and maintain much more of the stack yourself.",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.li.30",
+      "en": "Resilience model : How does the architecture behave when one provider has an incident?",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.li.31",
+      "en": "Cloud has two meanings: a cost model and a technical model. Clarify which one you are solving for.",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.li.32",
+      "en": "Many real-world cloud implementations feel centralized, creating potential concentration risks.",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.li.33",
+      "en": "A future-oriented approach emphasizes accessibility, universality, and completeness , aiming to reduce lock-in.",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.li.34",
+      "en": "Interoperability and multi-provider capability can improve resilience for critical workloads.",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.li.35",
+      "en": "Energy and AI demand will intensify pressure on cloud infrastructure, making “honest” and adaptable resource management increasingly important.",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.li.4",
+      "en": "Compose (assemble from existing components): combine market components (often managed) into workable infrastructure.",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.li.5",
+      "en": "Security is not simply a function of “being in the cloud.” It depends on actual controls, governance, and incident resilience.",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.li.6",
+      "en": "Stability can be challenged by outages and operational disruptions.",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.li.7",
+      "en": "Reliability is often discussed as a percentage target, but business impact is determined by dependencies and how workloads are designed.",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.li.8",
+      "en": "mobile applications",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.li.9",
+      "en": "web services",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.p.1",
+      "en": "By Elemento Team &mdash; 2026-04-23",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.p.10",
+      "en": "Centralization can produce an illusion of security because the complexity and scale of large providers can look reassuring. But concentration also means:",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.p.11",
+      "en": "Incidents across multiple cloud providers over recent years have demonstrated that these risks are not limited to one geography or one company type.",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.p.12",
+      "en": "Instead of treating “cloud” as a fixed destination, a more modern aim is to define what the cloud should enable. A framework often described in this context uses three attributes:",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.p.13",
+      "en": "Accessibility means organizations should be able to use cloud resources without requiring heavy custom adaptation. The intent is that cloud becomes a usable reservoir of infrastructure for digital products, whether those products are:",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.p.14",
+      "en": "Universality means workloads should be able to run on cloud resources without being forced to change the application architecture just to fit one vendor’s environment. The cloud should not require the application to be continually reshaped to match each provider.",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.p.15",
+      "en": "Completeness implies cloud should cover more than compute. It should support the full set of needs involved in running real production workloads, not only “one kind” of infrastructure element.",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.p.16",
+      "en": "One of the clearest motivations behind a more interoperable cloud approach is provider independence . Teams often want the freedom to change providers because preferences, performance, cost, and certifications can shift over time.",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.p.17",
+      "en": "Provider independence is closely related to interoperability , which means using multiple cloud providers in combination rather than choosing only one. The reasoning is straightforward:",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.p.18",
+      "en": "A practical challenge is that “interoperability” is not only a philosophical goal. It requires a platform and an ecosystem that can bridge the differences between cloud offerings.",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.p.19",
+      "en": "One approach described here involves assembling a network of cloud providers and connecting them with a unifying technology layer. The purpose is to combine the strengths of different ecosystems rather than forcing customers into a single proprietary path.",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.p.2",
+      "en": "A practical guide to what cloud really means, why current cloud models are centralized, and how interoperability, portability, and governance shape what comes next.",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.p.20",
+      "en": "Rather than focusing only on a single class of vendor, this model categorizes providers by role:",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.p.21",
+      "en": "When workloads include sensitive data or regulatory constraints, governance and data sovereignty become central. A multi-provider architecture is often designed to keep control over where and how data is governed while still allowing flexible workload placement.",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.p.22",
+      "en": "A recurring concept in this space is a platform that acts as a gateway between users and multiple cloud providers. Instead of users learning and managing provider-specific complexity everywhere, the platform aims to provide consistent access to resources across ecosystems.",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.p.23",
+      "en": "The intended outcome is that teams can obtain the resources they need to run different kinds of workloads in cloud environments, including changing what provider supplies the underlying resources when requirements shift.",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.p.24",
+      "en": "“Neutral and transparent” here means the platform should connect consumers and providers without locking the user into a single interpretation of how the cloud must be consumed. That transparency is positioned as a value because it helps organizations make informed decisions about infrastructure choices.",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.p.25",
+      "en": "Cloud computing does not exist in a vacuum. It depends on electricity and the energy cost of running compute and data services. As AI workloads accelerate, the energy implications grow.",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.p.26",
+      "en": "Cloud consumption is described as driven by general electricity production and especially by increasing demand associated with AI. In this context, cloud becomes one of the largest industrial-scale consumers of energy, and the expectation is that this pressure will intensify by the early 2030s.",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.p.27",
+      "en": "A future-facing goal described here is to make the relationship between cloud and compute resources more “honest,” meaning:",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.p.28",
+      "en": "Even with a strong vision, implementation can fail if teams make predictable planning errors.",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.p.29",
+      "en": "Universality requires design effort. If an application is tightly coupled to one provider’s proprietary services, changing environments becomes expensive and risky.",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.p.3",
+      "en": "People say “cloud” as if it were one clear thing. In practice, cloud computing has been shaped by two different meanings, by decades of infrastructure tradeoffs, and by the reality that today’s “cloud” is heavily centralized. This guide explains what cloud is from both business and technical angles, why many teams see it as an illusion of safety and stability, and what “accessibility, universality, and completeness” could look like in a more modern approach.",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.p.30",
+      "en": "Centralized patterns may be familiar, but they do not automatically deliver resilience or security. The architecture must be evaluated based on dependencies and incident scenarios.",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.p.31",
+      "en": "Data sovereignty and compliance need to be part of architecture decisions from the start, not bolted on later.",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.p.32",
+      "en": "Not all cloud services are the same. Storage and data services may be better handled by purpose-built providers depending on requirements and workload characteristics.",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.p.33",
+      "en": "If your goal is to reduce lock-in and improve resilience, use this checklist to compare approaches:",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.p.34",
+      "en": "If you are evaluating cloud modernization, start by mapping which parts of your stack are bound to a single provider, then define what “universal” means for your workloads. From there, assess governance needs, storage requirements, and how you would maintain availability if a provider’s environment changes.",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.p.35",
+      "en": "This is where Elemento bridges the gap between vision and reality. Our Cloud Unification model was specifically engineered to solve the fragmentation and centralization challenges outlined in this article.",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.p.36",
+      "en": "By leveraging our integrated stack— AtomOS for infrastructure portability and GPU orchestration, Electros for unified governance across hybrid environments, and Atomosphere for true sovereign cloud federation—we transform disparate cloud resources into a single, coherent operating system. Elemento empowers your organization to reclaim control over data, optimize CAPEX/OPEX models, and eliminate vendor lock-in for good. We don’t just offer \"another cloud\"; we provide the interoperable foundation your business needs to remain independent, secure, and future-proof.",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.p.37",
+      "en": "Ready to unify your infrastructure and secure your digital sovereignty?",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.p.38",
+      "en": "Book a discovery call with our Sales Team today to see how Elemento can transform your cloud strategy.",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.p.4",
+      "en": "The word cloud is used in at least two major ways, and confusing them leads to wrong expectations.",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.p.5",
+      "en": "From a financial viewpoint, cloud often means whether you buy infrastructure (Capex) or rent it as a service (Opex). In simple terms:",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.p.6",
+      "en": "From a technology viewpoint, the cloud is not just “servers somewhere else.” The core distinction is whether you:",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.p.7",
+      "en": "This is why modern cloud products and platforms are closely tied to composition and automation, rather than writing every component from zero.",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.p.8",
+      "en": "Under the hood, many practical implementations of cloud services are still built on a central pattern: a third party’s data center delivers compute and services to many customers. That centralization has consequences.",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.p.9",
+      "en": "When most of an organization’s critical infrastructure depends on one provider or one dominant location, the environment starts to resemble the historical mainframe model: one expensive and powerful center serving many users. If something goes wrong, the blast radius can be large.",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "<p>"
+    },
+    {
+      "id": "meta.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.description",
+      "en": "A practical guide to what cloud really means, why current cloud models are centralized, and how interoperability, portability, and governance shape what comes next.",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.title",
+      "en": "The Future of Cloud: What &quot;Cloud&quot; Really Means, Why It&#x27;s Centralized, and What Comes Next | Elemento Blog",
+      "it": "",
+      "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+      "context": "meta title"
+    }
+  ]
+}

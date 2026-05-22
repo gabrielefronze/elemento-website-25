@@ -1,0 +1,111 @@
+{
+  "page": "forms_provider-success",
+  "count": 15,
+  "strings": [
+    {
+      "id": "body.forms_provider-success.h1.1",
+      "en": "Candidature Submitted",
+      "it": "",
+      "source": "forms/provider-success.html",
+      "context": "<h1>"
+    },
+    {
+      "id": "body.forms_provider-success.h3.1",
+      "en": "What happens next?",
+      "it": "",
+      "source": "forms/provider-success.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.forms_provider-success.h4.1",
+      "en": "Questions?",
+      "it": "",
+      "source": "forms/provider-success.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.forms_provider-success.li.1",
+      "en": "Review Process: Our team will review your candidature within 5-7 business days",
+      "it": "",
+      "source": "forms/provider-success.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.forms_provider-success.li.2",
+      "en": "Technical Assessment: We'll evaluate your cloud services and technical capabilities",
+      "it": "",
+      "source": "forms/provider-success.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.forms_provider-success.li.3",
+      "en": "Integration Planning: If approved, we'll work together on integration requirements",
+      "it": "",
+      "source": "forms/provider-success.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.forms_provider-success.li.4",
+      "en": "Certification: Complete the Elemento provider certification process",
+      "it": "",
+      "source": "forms/provider-success.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.forms_provider-success.li.5",
+      "en": "Go Live: Launch your services on the Elemento Atomosphere",
+      "it": "",
+      "source": "forms/provider-success.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.forms_provider-success.p.1",
+      "en": "Thank you for your interest in joining the Elemento Atomosphere",
+      "it": "",
+      "source": "forms/provider-success.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.forms_provider-success.p.2",
+      "en": "If you have any questions about the process, please contact our partnership team:",
+      "it": "",
+      "source": "forms/provider-success.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.forms_provider-success.p.3",
+      "en": "Email: partnerships@elemento.cloud",
+      "it": "",
+      "source": "forms/provider-success.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.forms_provider-success.p.4",
+      "en": "Response Time: Within 24 hours",
+      "it": "",
+      "source": "forms/provider-success.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.forms_provider-success.ui.1",
+      "en": "Return to Homepage",
+      "it": "",
+      "source": "forms/provider-success.html",
+      "context": "class"
+    },
+    {
+      "id": "body.forms_provider-success.ui.2",
+      "en": "Learn More About Atomosphere",
+      "it": "",
+      "source": "forms/provider-success.html",
+      "context": "class"
+    },
+    {
+      "id": "meta.forms_provider-success.title",
+      "en": "Candidature Submitted - Elemento",
+      "it": "",
+      "source": "forms/provider-success.html",
+      "context": "meta title"
+    }
+  ]
+}

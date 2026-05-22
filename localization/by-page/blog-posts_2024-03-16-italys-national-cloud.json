@@ -1,0 +1,118 @@
+{
+  "page": "blog-posts_2024-03-16-italys-national-cloud",
+  "count": 16,
+  "strings": [
+    {
+      "id": "body.blog-posts_2024-03-16-italys-national-cloud.h1.1",
+      "en": "Italy's National Cloud",
+      "it": "",
+      "source": "blog-posts/2024-03-16-italys-national-cloud.html",
+      "context": "<h1>"
+    },
+    {
+      "id": "body.blog-posts_2024-03-16-italys-national-cloud.h3.1",
+      "en": "References",
+      "it": "",
+      "source": "blog-posts/2024-03-16-italys-national-cloud.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.blog-posts_2024-03-16-italys-national-cloud.p.1",
+      "en": "By giulia-borgoni &mdash; 2025-06-24",
+      "it": "",
+      "source": "blog-posts/2024-03-16-italys-national-cloud.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-03-16-italys-national-cloud.p.10",
+      "en": "Italy thus demonstrates its awareness of the importance of digital transformation and innovation in the field of cybersecurity. With the Italian National Cloud, the country takes a significant step forward in modernizing public services and enhancing the protection of sensitive data. This achievement, to be realized by 2026, will allow all involved institutions to operate more efficiently, quickly, and securely, ultimately ensuring a better quality of life for Italian citizens.",
+      "it": "",
+      "source": "blog-posts/2024-03-16-italys-national-cloud.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-03-16-italys-national-cloud.p.11",
+      "en": "A cosa serve il cloud nazionale appena acceso",
+      "it": "",
+      "source": "blog-posts/2024-03-16-italys-national-cloud.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-03-16-italys-national-cloud.p.12",
+      "en": "A che punto è il cloud nazionale",
+      "it": "",
+      "source": "blog-posts/2024-03-16-italys-national-cloud.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-03-16-italys-national-cloud.p.2",
+      "en": "Italy launched the \"Italian National Cloud\" on December 22, 2022, introducing four modern data...",
+      "it": "",
+      "source": "blog-posts/2024-03-16-italys-national-cloud.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-03-16-italys-national-cloud.p.3",
+      "en": "On December 22, 2022, Italy took a significant step in the field of digital transformation with the activation of the \"Italian National Cloud,\" a new and innovative way to manage the country's data. This new system is organized into four modern data centers strategically distributed across different areas of the Peninsula, marking the beginning of an era of increased security and continuity of essential public services.",
+      "it": "",
+      "source": "blog-posts/2024-03-16-italys-national-cloud.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-03-16-italys-national-cloud.p.4",
+      "en": "The importance of this news lies in the evident interest shown by Italian institutions in replacing the old, scattered, and often outdated and vulnerable servers in thousands of local data centers with a more centralized and secure approach. This innovative strategy was adopted with the clear objective of optimizing the management of public data, making it rapidly accessible to all institutions, from major cities to small municipalities, and disseminating public services that are not yet digitalized.",
+      "it": "",
+      "source": "blog-posts/2024-03-16-italys-national-cloud.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-03-16-italys-national-cloud.p.5",
+      "en": "One of the key advantages of this new system is its unparalleled security. The new data centers are designed to be \"twinned,\" meaning they are replicated to ensure a backup of applications and infrastructure. This approach ensures that in case of issues with one data center, services and data access will not be interrupted, as they will automatically be managed by the twin data center. Additionally, this new model will enable the creation of a single national electronic health record, overcoming the fragmented system currently managed by regional entities.",
+      "it": "",
+      "source": "blog-posts/2024-03-16-italys-national-cloud.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-03-16-italys-national-cloud.p.6",
+      "en": "With the activation of the data centers, the operational phase of transferring data from the infrastructures of public administrations to the \"Italian National Cloud\" has begun. The ambitious goal is to migrate the data of over 280 administrations by the third quarter of 2026, in line with the National Recovery and Resilience Plan (PNRR). Among the first institutions involved are ministries, INPS, INAIL, local health companies, and major regional and local administrations.",
+      "it": "",
+      "source": "blog-posts/2024-03-16-italys-national-cloud.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-03-16-italys-national-cloud.p.7",
+      "en": "This project is an integral part of the National Cloud Strategy, articulated in three fundamental phases. First, data will be classified based on their sensitivity level: ordinary, critical, and strategic. Next, cloud services and security measures will be developed and utilized. Finally, data migration to the cloud will take place.",
+      "it": "",
+      "source": "blog-posts/2024-03-16-italys-national-cloud.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-03-16-italys-national-cloud.p.8",
+      "en": "Based on four modern data centers located in Acilia and Pomezia in Lazio, along with Rozzano and Santo Stefano Ticino in Lombardy, the \"Italian National Cloud\" offers a wide range of services, including data housing and hosting, private cloud, and adaptation of components to advanced cloud technology.",
+      "it": "",
+      "source": "blog-posts/2024-03-16-italys-national-cloud.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-03-16-italys-national-cloud.p.9",
+      "en": "The success of this initiative is evident from the results achieved so far. The National Recovery and Resilience Plan initially aimed to achieve 75% participation from public entities by 2026. However, expectations were exceeded with a remarkable 14,000 requests, demonstrating strong interest from municipalities (90%) and national schools (80%).",
+      "it": "",
+      "source": "blog-posts/2024-03-16-italys-national-cloud.html",
+      "context": "<p>"
+    },
+    {
+      "id": "meta.blog-posts_2024-03-16-italys-national-cloud.description",
+      "en": "Italy launched the",
+      "it": "",
+      "source": "blog-posts/2024-03-16-italys-national-cloud.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.blog-posts_2024-03-16-italys-national-cloud.title",
+      "en": "Italy's National Cloud | Elemento Blog",
+      "it": "",
+      "source": "blog-posts/2024-03-16-italys-national-cloud.html",
+      "context": "meta title"
+    }
+  ]
+}

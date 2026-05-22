@@ -1,0 +1,97 @@
+{
+  "page": "solutions_devops",
+  "count": 13,
+  "strings": [
+    {
+      "id": "body.solutions_devops.h2.1",
+      "en": "Related Resources",
+      "it": "",
+      "source": "solutions/devops.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.solutions_devops.h3.1",
+      "en": "Cloud Zero-Touch Operations",
+      "it": "",
+      "source": "solutions/devops.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_devops.h3.2",
+      "en": "The 5Rs: Powerful Cloud Migration Strategies",
+      "it": "",
+      "source": "solutions/devops.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_devops.h3.3",
+      "en": "Cloud Migration: Challenge or Opportunity",
+      "it": "",
+      "source": "solutions/devops.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_devops.p.1",
+      "en": "Discover best practices for DevOps automation, cloud migration, and infrastructure transformation.",
+      "it": "",
+      "source": "solutions/devops.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_devops.p.2",
+      "en": "Explore the perspectives and challenges of full automation in CloudOps for modern DevOps teams.",
+      "it": "",
+      "source": "solutions/devops.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_devops.p.3",
+      "en": "Learn the essential strategies for successful cloud migration and DevOps transformation.",
+      "it": "",
+      "source": "solutions/devops.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_devops.p.4",
+      "en": "Understand how to turn cloud migration challenges into opportunities for DevOps excellence.",
+      "it": "",
+      "source": "solutions/devops.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_devops.ui.1",
+      "en": "Read More",
+      "it": "",
+      "source": "solutions/devops.html",
+      "context": "class"
+    },
+    {
+      "id": "body.solutions_devops.ui.2",
+      "en": "Read More",
+      "it": "",
+      "source": "solutions/devops.html",
+      "context": "class"
+    },
+    {
+      "id": "body.solutions_devops.ui.3",
+      "en": "Read More",
+      "it": "",
+      "source": "solutions/devops.html",
+      "context": "class"
+    },
+    {
+      "id": "meta.solutions_devops.description",
+      "en": "Build cloud-agnostic CI/CD pipelines with Elemento. Deploy faster, scale efficiently, and maintain consistency across all environments with our unified platform.",
+      "it": "",
+      "source": "solutions/devops.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.solutions_devops.title",
+      "en": "DevOps Infrastructure for CI/CD Pipelines | Elemento",
+      "it": "",
+      "source": "solutions/devops.html",
+      "context": "meta title"
+    }
+  ]
+}

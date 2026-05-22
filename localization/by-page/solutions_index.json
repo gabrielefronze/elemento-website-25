@@ -1,0 +1,216 @@
+{
+  "page": "solutions_index",
+  "count": 30,
+  "strings": [
+    {
+      "id": "body.solutions_index.h2.1",
+      "en": "Explore Our Solutions",
+      "it": "",
+      "source": "solutions/index.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.solutions_index.h2.2",
+      "en": "Powered by Elemento's Unified Platform",
+      "it": "",
+      "source": "solutions/index.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.solutions_index.h2.3",
+      "en": "Ready to Transform Your Infrastructure?",
+      "it": "",
+      "source": "solutions/index.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.solutions_index.h3.1",
+      "en": "AI/Data Science",
+      "it": "",
+      "source": "solutions/index.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_index.h3.10",
+      "en": "Atomosphere",
+      "it": "",
+      "source": "solutions/index.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_index.h3.2",
+      "en": "DevOps & CI/CD",
+      "it": "",
+      "source": "solutions/index.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_index.h3.3",
+      "en": "Manufacturing & Industrial",
+      "it": "",
+      "source": "solutions/index.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_index.h3.4",
+      "en": "Public Sector",
+      "it": "",
+      "source": "solutions/index.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_index.h3.5",
+      "en": "Regulated Industries",
+      "it": "",
+      "source": "solutions/index.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_index.h3.6",
+      "en": "System Integrators",
+      "it": "",
+      "source": "solutions/index.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_index.h3.7",
+      "en": "VMware Alternative",
+      "it": "",
+      "source": "solutions/index.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_index.h3.8",
+      "en": "AtomOS",
+      "it": "",
+      "source": "solutions/index.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_index.h3.9",
+      "en": "Electros",
+      "it": "",
+      "source": "solutions/index.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_index.p.1",
+      "en": "Tailored solutions for different industries, roles, and business scenarios",
+      "it": "",
+      "source": "solutions/index.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_index.p.10",
+      "en": "The operating system for your cloud infrastructure. Unified management across all environments.",
+      "it": "",
+      "source": "solutions/index.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_index.p.11",
+      "en": "High-performance computing and GPU management. Perfect for AI/ML and scientific workloads.",
+      "it": "",
+      "source": "solutions/index.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_index.p.12",
+      "en": "Multi-cloud orchestration and management. Seamlessly connect and manage across providers.",
+      "it": "",
+      "source": "solutions/index.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_index.p.13",
+      "en": "Join thousands of organizations already using Elemento to build more efficient, secure, and scalable cloud environments.",
+      "it": "",
+      "source": "solutions/index.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_index.p.2",
+      "en": "Train, deploy, and scale AI workloads seamlessly across clouds and on-prem nodes. GPU cluster management and multi-cloud AI environments.",
+      "it": "",
+      "source": "solutions/index.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_index.p.3",
+      "en": "Build cloud-agnostic CI/CD pipelines. Deploy faster, scale efficiently, and maintain consistency across all environments.",
+      "it": "",
+      "source": "solutions/index.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_index.p.4",
+      "en": "Integrate factory data from PLCs to ERP in one secure, vendor-free cloud ecosystem. Transform legacy MES/ERP systems with modern analytics.",
+      "it": "",
+      "source": "solutions/index.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_index.p.5",
+      "en": "Empowering public institutions with sovereign, interoperable, and auditable cloud infrastructure for government and smart city initiatives.",
+      "it": "",
+      "source": "solutions/index.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_index.p.6",
+      "en": "Run sensitive workloads across private and public clouds with full data governance. Enterprise-grade security with built-in compliance.",
+      "it": "",
+      "source": "solutions/index.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_index.p.7",
+      "en": "Empower system integrators to deliver sovereign, elastic cloud environments under their own brand. Build recurring-revenue models around infrastructure.",
+      "it": "",
+      "source": "solutions/index.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_index.p.8",
+      "en": "Replace VMware with modern virtualization platform. Get better performance, lower costs, and cloud-native architecture with our unified infrastructure solution.",
+      "it": "",
+      "source": "solutions/index.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_index.p.9",
+      "en": "All solutions are built on our core products: AtomOS, Electros, and Atomosphere",
+      "it": "",
+      "source": "solutions/index.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_index.ui.1",
+      "en": "Start Free Trial",
+      "it": "",
+      "source": "solutions/index.html",
+      "context": "class"
+    },
+    {
+      "id": "body.solutions_index.ui.2",
+      "en": "Schedule Demo",
+      "it": "",
+      "source": "solutions/index.html",
+      "context": "class"
+    },
+    {
+      "id": "meta.solutions_index.description",
+      "en": "Discover how Elemento's unified cloud platform serves different industries and use cases. From AI/ML workloads to regulated environments, find your perfect solution.",
+      "it": "",
+      "source": "solutions/index.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.solutions_index.title",
+      "en": "Solutions Hub | Elemento Cloud Platform",
+      "it": "",
+      "source": "solutions/index.html",
+      "context": "meta title"
+    }
+  ]
+}

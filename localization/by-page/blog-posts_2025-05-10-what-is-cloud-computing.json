@@ -1,0 +1,97 @@
+{
+  "page": "blog-posts_2025-05-10-what-is-cloud-computing",
+  "count": 13,
+  "strings": [
+    {
+      "id": "body.blog-posts_2025-05-10-what-is-cloud-computing.h1.1",
+      "en": "What is cloud computing?",
+      "it": "",
+      "source": "blog-posts/2025-05-10-what-is-cloud-computing.html",
+      "context": "<h1>"
+    },
+    {
+      "id": "body.blog-posts_2025-05-10-what-is-cloud-computing.h3.1",
+      "en": "Definition and Fundamental Concept: Cloud computing can be defined as a computing paradigm that enables access to computing resources, such as servers, storage, databases, and software, over the Internet. These resources are hosted in remote data centers managed by cloud service providers, who make them available to users through an Internet connection. Functioning of Cloud Computing: The functioning of cloud computing is based on the concept of centrally distributing computing resources, allowing users to access them from anywhere and through any device via an Internet connection. Computing resources, such as servers and storage, are virtualized and dynamically allocated based on users' needs. Cloud computing has transformed how businesses manage computing resources, offering significant advantages in terms of flexibility, scalability, and cost reduction. On-demand access to computing resources via the Internet is opening up new opportunities for innovation and business agility. References",
+      "it": "",
+      "source": "blog-posts/2025-05-10-what-is-cloud-computing.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.blog-posts_2025-05-10-what-is-cloud-computing.p.1",
+      "en": "By giulia-borgoni &mdash; 2025-06-24",
+      "it": "",
+      "source": "blog-posts/2025-05-10-what-is-cloud-computing.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2025-05-10-what-is-cloud-computing.p.2",
+      "en": "Cloud computing enables...",
+      "it": "",
+      "source": "blog-posts/2025-05-10-what-is-cloud-computing.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2025-05-10-what-is-cloud-computing.p.3",
+      "en": "Cloud computing has revolutionized how businesses manage computing resources, ushering in a new era of innovation, flexibility, and efficiency. In this article, we will delve into the concept of cloud computing and its definition, drawing from the provided research, to fully understand its workings and its impact in the digital age.",
+      "it": "",
+      "source": "blog-posts/2025-05-10-what-is-cloud-computing.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2025-05-10-what-is-cloud-computing.p.4",
+      "en": "Cloud computing can be defined as a computing paradigm that enables access to computing resources, such as servers, storage, databases, and software, over the Internet. These resources are hosted in remote data centers managed by cloud service providers, who make them available to users through an Internet connection.",
+      "it": "",
+      "source": "blog-posts/2025-05-10-what-is-cloud-computing.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2025-05-10-what-is-cloud-computing.p.5",
+      "en": "The functioning of cloud computing is based on the concept of centrally distributing computing resources, allowing users to access them from anywhere and through any device via an Internet connection. Computing resources, such as servers and storage, are virtualized and dynamically allocated based on users' needs.",
+      "it": "",
+      "source": "blog-posts/2025-05-10-what-is-cloud-computing.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2025-05-10-what-is-cloud-computing.p.6",
+      "en": "Cloud computing has transformed how businesses manage computing resources, offering significant advantages in terms of flexibility, scalability, and cost reduction. On-demand access to computing resources via the Internet is opening up new opportunities for innovation and business agility.",
+      "it": "",
+      "source": "blog-posts/2025-05-10-what-is-cloud-computing.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2025-05-10-what-is-cloud-computing.p.7",
+      "en": "Cos'è il Cloud Computing?",
+      "it": "",
+      "source": "blog-posts/2025-05-10-what-is-cloud-computing.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2025-05-10-what-is-cloud-computing.p.8",
+      "en": "Cos'è il cloud computing?",
+      "it": "",
+      "source": "blog-posts/2025-05-10-what-is-cloud-computing.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2025-05-10-what-is-cloud-computing.p.9",
+      "en": "Che cos'è il cloud computing?",
+      "it": "",
+      "source": "blog-posts/2025-05-10-what-is-cloud-computing.html",
+      "context": "<p>"
+    },
+    {
+      "id": "meta.blog-posts_2025-05-10-what-is-cloud-computing.description",
+      "en": "Cloud computing enables...",
+      "it": "",
+      "source": "blog-posts/2025-05-10-what-is-cloud-computing.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.blog-posts_2025-05-10-what-is-cloud-computing.title",
+      "en": "What is cloud computing? | Elemento Blog",
+      "it": "",
+      "source": "blog-posts/2025-05-10-what-is-cloud-computing.html",
+      "context": "meta title"
+    }
+  ]
+}

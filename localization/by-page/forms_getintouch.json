@@ -1,0 +1,118 @@
+{
+  "page": "forms_getintouch",
+  "count": 16,
+  "strings": [
+    {
+      "id": "body.forms_getintouch.button.1",
+      "en": "Send Message",
+      "it": "",
+      "source": "forms/getintouch.html",
+      "context": "<button>"
+    },
+    {
+      "id": "body.forms_getintouch.h1.1",
+      "en": "Get in Touch",
+      "it": "",
+      "source": "forms/getintouch.html",
+      "context": "<h1>"
+    },
+    {
+      "id": "body.forms_getintouch.h4.1",
+      "en": "📧 Message Sent!",
+      "it": "",
+      "source": "forms/getintouch.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.forms_getintouch.label.1",
+      "en": "First Name *",
+      "it": "",
+      "source": "forms/getintouch.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_getintouch.label.2",
+      "en": "Last Name *",
+      "it": "",
+      "source": "forms/getintouch.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_getintouch.label.3",
+      "en": "Email Address *",
+      "it": "",
+      "source": "forms/getintouch.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_getintouch.label.4",
+      "en": "Company",
+      "it": "",
+      "source": "forms/getintouch.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_getintouch.label.5",
+      "en": "Subject *",
+      "it": "",
+      "source": "forms/getintouch.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_getintouch.label.6",
+      "en": "Message *",
+      "it": "",
+      "source": "forms/getintouch.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_getintouch.label.7",
+      "en": "Subscribe to our newsletter for updates and insights",
+      "it": "",
+      "source": "forms/getintouch.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_getintouch.label.8",
+      "en": "I agree to the Terms and Conditions (IT) , Privacy Policy , and Cookie Policy *",
+      "it": "",
+      "source": "forms/getintouch.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.forms_getintouch.p.1",
+      "en": "We'd love to hear from you",
+      "it": "",
+      "source": "forms/getintouch.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.forms_getintouch.p.2",
+      "en": "Thank you for reaching out. We'll get back to you within 24 hours.",
+      "it": "",
+      "source": "forms/getintouch.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.forms_getintouch.p.3",
+      "en": "Please complete all required fields and the security challenge.",
+      "it": "",
+      "source": "forms/getintouch.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.forms_getintouch.p.4",
+      "en": "${message}",
+      "it": "",
+      "source": "forms/getintouch.html",
+      "context": "<p>"
+    },
+    {
+      "id": "meta.forms_getintouch.title",
+      "en": "Get in Touch - Elemento",
+      "it": "",
+      "source": "forms/getintouch.html",
+      "context": "meta title"
+    }
+  ]
+}

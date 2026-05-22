@@ -1,0 +1,174 @@
+{
+  "page": "blog-posts_2023-06-30-cloud-migration-challenge-or-opportunity",
+  "count": 24,
+  "strings": [
+    {
+      "id": "body.blog-posts_2023-06-30-cloud-migration-challenge-or-opportunity.h1.1",
+      "en": "Cloud migration: challenge or opportunity?",
+      "it": "",
+      "source": "blog-posts/2023-06-30-cloud-migration-challenge-or-opportunity.html",
+      "context": "<h1>"
+    },
+    {
+      "id": "body.blog-posts_2023-06-30-cloud-migration-challenge-or-opportunity.h3.1",
+      "en": "References",
+      "it": "",
+      "source": "blog-posts/2023-06-30-cloud-migration-challenge-or-opportunity.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.blog-posts_2023-06-30-cloud-migration-challenge-or-opportunity.li.1",
+      "en": "Only 15% of applications transition effortlessly to the cloud.",
+      "it": "",
+      "source": "blog-posts/2023-06-30-cloud-migration-challenge-or-opportunity.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2023-06-30-cloud-migration-challenge-or-opportunity.li.2",
+      "en": "25% of apps require complete rewrites.",
+      "it": "",
+      "source": "blog-posts/2023-06-30-cloud-migration-challenge-or-opportunity.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2023-06-30-cloud-migration-challenge-or-opportunity.li.3",
+      "en": "The majority (60%) demand significant refactoring.",
+      "it": "",
+      "source": "blog-posts/2023-06-30-cloud-migration-challenge-or-opportunity.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2023-06-30-cloud-migration-challenge-or-opportunity.li.4",
+      "en": "Dynamic and user-friendly private clouds: start your migration journey without abandoning control. Our solution ensures compatibility between private and public clouds allowing gradual and modular transitions.",
+      "it": "",
+      "source": "blog-posts/2023-06-30-cloud-migration-challenge-or-opportunity.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2023-06-30-cloud-migration-challenge-or-opportunity.li.5",
+      "en": "Interoperability: our technology bridges the gap enabling seamless movement between cloud environments. No vendor lock-ins. No surprises.",
+      "it": "",
+      "source": "blog-posts/2023-06-30-cloud-migration-challenge-or-opportunity.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2023-06-30-cloud-migration-challenge-or-opportunity.li.6",
+      "en": "Cost-effectiveness: traditional migrations can cost millions and span years. With Elemento, you’re looking at days and a fraction of the cost.",
+      "it": "",
+      "source": "blog-posts/2023-06-30-cloud-migration-challenge-or-opportunity.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2023-06-30-cloud-migration-challenge-or-opportunity.p.1",
+      "en": "By giulia-borgoni &mdash; 2025-06-24",
+      "it": "",
+      "source": "blog-posts/2023-06-30-cloud-migration-challenge-or-opportunity.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-06-30-cloud-migration-challenge-or-opportunity.p.10",
+      "en": "Our mission isn’t to sell you the cloud. It’s to simplify your journey .",
+      "it": "",
+      "source": "blog-posts/2023-06-30-cloud-migration-challenge-or-opportunity.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-06-30-cloud-migration-challenge-or-opportunity.p.11",
+      "en": "Here's what makes us different:",
+      "it": "",
+      "source": "blog-posts/2023-06-30-cloud-migration-challenge-or-opportunity.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-06-30-cloud-migration-challenge-or-opportunity.p.12",
+      "en": "Ready to take off?",
+      "it": "",
+      "source": "blog-posts/2023-06-30-cloud-migration-challenge-or-opportunity.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-06-30-cloud-migration-challenge-or-opportunity.p.13",
+      "en": "Elemento is your co-pilot for a smoother, smarter cloud migration. Whether you're dealing with private servers or multiple providers, we ensure your journey is efficient and future-proof.",
+      "it": "",
+      "source": "blog-posts/2023-06-30-cloud-migration-challenge-or-opportunity.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-06-30-cloud-migration-challenge-or-opportunity.p.14",
+      "en": "Want to learn more? Dive into the details on our website!",
+      "it": "",
+      "source": "blog-posts/2023-06-30-cloud-migration-challenge-or-opportunity.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-06-30-cloud-migration-challenge-or-opportunity.p.2",
+      "en": "Migrating to the cloud is no longer a question of \"if\" but \"how.\" Elemento simplifies this...",
+      "it": "",
+      "source": "blog-posts/2023-06-30-cloud-migration-challenge-or-opportunity.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-06-30-cloud-migration-challenge-or-opportunity.p.3",
+      "en": "Migrating to the cloud has become a necessity for businesses seeking agility, scalability and innovation. Yet, for many organizations, the journey feels like an uphill battle. With 90% of corporates already adopting the cloud , it’s no longer about deciding whether to migrate! It's about doing it right.",
+      "it": "",
+      "source": "blog-posts/2023-06-30-cloud-migration-challenge-or-opportunity.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-06-30-cloud-migration-challenge-or-opportunity.p.4",
+      "en": "At Elemento we specialize in turning this daunting process into a seamless experience . Here's how we redefine the cloud migration journey to save you time, money and headaches .",
+      "it": "",
+      "source": "blog-posts/2023-06-30-cloud-migration-challenge-or-opportunity.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-06-30-cloud-migration-challenge-or-opportunity.p.5",
+      "en": "The challenges of cloud migration",
+      "it": "",
+      "source": "blog-posts/2023-06-30-cloud-migration-challenge-or-opportunity.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-06-30-cloud-migration-challenge-or-opportunity.p.6",
+      "en": "Let’s face it: the path to the cloud is complex.",
+      "it": "",
+      "source": "blog-posts/2023-06-30-cloud-migration-challenge-or-opportunity.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-06-30-cloud-migration-challenge-or-opportunity.p.7",
+      "en": "Studies reveal:",
+      "it": "",
+      "source": "blog-posts/2023-06-30-cloud-migration-challenge-or-opportunity.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-06-30-cloud-migration-challenge-or-opportunity.p.8",
+      "en": "These figures highlight the technical and strategic hurdles businesses face. Without the right partner cloud migration risks becoming a costly, time-consuming endeavor.",
+      "it": "",
+      "source": "blog-posts/2023-06-30-cloud-migration-challenge-or-opportunity.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-06-30-cloud-migration-challenge-or-opportunity.p.9",
+      "en": "How Elemento simplifies the process",
+      "it": "",
+      "source": "blog-posts/2023-06-30-cloud-migration-challenge-or-opportunity.html",
+      "context": "<p>"
+    },
+    {
+      "id": "meta.blog-posts_2023-06-30-cloud-migration-challenge-or-opportunity.description",
+      "en": "Migrating to the cloud is no longer a question of",
+      "it": "",
+      "source": "blog-posts/2023-06-30-cloud-migration-challenge-or-opportunity.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.blog-posts_2023-06-30-cloud-migration-challenge-or-opportunity.title",
+      "en": "Cloud migration: challenge or opportunity? | Elemento Blog",
+      "it": "",
+      "source": "blog-posts/2023-06-30-cloud-migration-challenge-or-opportunity.html",
+      "context": "meta title"
+    }
+  ]
+}

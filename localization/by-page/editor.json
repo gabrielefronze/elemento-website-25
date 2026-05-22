@@ -1,0 +1,104 @@
+{
+  "page": "editor",
+  "count": 14,
+  "strings": [
+    {
+      "id": "body.editor.button.1",
+      "en": "Export Post",
+      "it": "",
+      "source": "editor.html",
+      "context": "<button>"
+    },
+    {
+      "id": "body.editor.h1.1",
+      "en": "Blog Post Editor",
+      "it": "",
+      "source": "editor.html",
+      "context": "<h1>"
+    },
+    {
+      "id": "body.editor.label.1",
+      "en": "Title",
+      "it": "",
+      "source": "editor.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.editor.label.2",
+      "en": "Author",
+      "it": "",
+      "source": "editor.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.editor.label.3",
+      "en": "Date",
+      "it": "",
+      "source": "editor.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.editor.label.4",
+      "en": "Summary",
+      "it": "",
+      "source": "editor.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.editor.label.5",
+      "en": "Content",
+      "it": "",
+      "source": "editor.html",
+      "context": "<label>"
+    },
+    {
+      "id": "body.editor.li.1",
+      "en": "Home",
+      "it": "",
+      "source": "editor.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.editor.li.2",
+      "en": "Editor",
+      "it": "",
+      "source": "editor.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.editor.p.1",
+      "en": "Create and publish engaging blog posts for the Elemento community with our intuitive editor.",
+      "it": "",
+      "source": "editor.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.editor.ui.1",
+      "en": "Write. Create. Publish.",
+      "it": "",
+      "source": "editor.html",
+      "context": "class"
+    },
+    {
+      "id": "body.editor.ui.2",
+      "en": "Create and publish engaging",
+      "it": "",
+      "source": "editor.html",
+      "context": "class"
+    },
+    {
+      "id": "meta.editor.description",
+      "en": "Create and edit blog posts for the Elemento website with our intuitive editor interface.",
+      "it": "",
+      "source": "editor.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.editor.title",
+      "en": "Blog Post Editor - Elemento",
+      "it": "",
+      "source": "editor.html",
+      "context": "meta title"
+    }
+  ]
+}

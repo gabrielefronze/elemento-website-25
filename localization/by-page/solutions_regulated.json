@@ -1,0 +1,265 @@
+{
+  "page": "solutions_regulated",
+  "count": 37,
+  "strings": [
+    {
+      "id": "body.solutions_regulated.h2.1",
+      "en": "Enterprise Compliance & Data Sovereignty",
+      "it": "",
+      "source": "solutions/regulated.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.solutions_regulated.h2.2",
+      "en": "Compliance-Ready Infrastructure",
+      "it": "",
+      "source": "solutions/regulated.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.solutions_regulated.h2.3",
+      "en": "Related Resources",
+      "it": "",
+      "source": "solutions/regulated.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.solutions_regulated.h3.1",
+      "en": "Regulatory Compliance",
+      "it": "",
+      "source": "solutions/regulated.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_regulated.h3.10",
+      "en": "Keep Your Business Secure: The Importance of Cloud Backup",
+      "it": "",
+      "source": "solutions/regulated.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_regulated.h3.2",
+      "en": "Data Sovereignty",
+      "it": "",
+      "source": "solutions/regulated.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_regulated.h3.3",
+      "en": "Audit Trails",
+      "it": "",
+      "source": "solutions/regulated.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_regulated.h3.4",
+      "en": "Zero-Trust Security",
+      "it": "",
+      "source": "solutions/regulated.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_regulated.h3.5",
+      "en": "AtomOS",
+      "it": "",
+      "source": "solutions/regulated.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_regulated.h3.6",
+      "en": "Electros",
+      "it": "",
+      "source": "solutions/regulated.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_regulated.h3.7",
+      "en": "Atomosphere",
+      "it": "",
+      "source": "solutions/regulated.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_regulated.h3.8",
+      "en": "Thales Annual Report: Escalating Ransomware Attacks",
+      "it": "",
+      "source": "solutions/regulated.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_regulated.h3.9",
+      "en": "The Importance of Cybersecurity in the Digital Age",
+      "it": "",
+      "source": "solutions/regulated.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_regulated.h4.1",
+      "en": "Secure Hypervisor",
+      "it": "",
+      "source": "solutions/regulated.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.solutions_regulated.h4.2",
+      "en": "Compliance Dashboard",
+      "it": "",
+      "source": "solutions/regulated.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.solutions_regulated.h4.3",
+      "en": "Secure Data Gateway",
+      "it": "",
+      "source": "solutions/regulated.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.solutions_regulated.p.1",
+      "en": "Meet the most stringent regulatory requirements with enterprise-grade security and built-in compliance controls. Elemento provides complete data sovereignty, audit trails, and regulatory compliance for healthcare, finance, and government organizations.",
+      "it": "",
+      "source": "solutions/regulated.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_regulated.p.10",
+      "en": "Explore security best practices, compliance strategies, and data protection for regulated environments.",
+      "it": "",
+      "source": "solutions/regulated.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_regulated.p.11",
+      "en": "Understand the growing security threats and digital sovereignty requirements for regulated industries.",
+      "it": "",
+      "source": "solutions/regulated.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_regulated.p.12",
+      "en": "Learn about critical cybersecurity measures and compliance requirements for sensitive data protection.",
+      "it": "",
+      "source": "solutions/regulated.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_regulated.p.13",
+      "en": "Discover essential data protection strategies and secure backup solutions for regulated environments.",
+      "it": "",
+      "source": "solutions/regulated.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_regulated.p.2",
+      "en": "Built-in support for HIPAA, GDPR, SOC 2, ISO 27001, and other major regulatory frameworks",
+      "it": "",
+      "source": "solutions/regulated.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_regulated.p.3",
+      "en": "Complete control over data residency with encryption and access controls for sensitive workloads",
+      "it": "",
+      "source": "solutions/regulated.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_regulated.p.4",
+      "en": "Comprehensive logging and monitoring for compliance reporting and regulatory audits",
+      "it": "",
+      "source": "solutions/regulated.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_regulated.p.5",
+      "en": "Identity-based access control with multi-factor authentication and network segmentation",
+      "it": "",
+      "source": "solutions/regulated.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_regulated.p.6",
+      "en": "Enterprise-grade platform designed for regulated environments with built-in security, compliance controls, and audit capabilities.",
+      "it": "",
+      "source": "solutions/regulated.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_regulated.p.7",
+      "en": "Production-grade hypervisor with enterprise security features, encryption at rest, and compliance-ready architecture. Deploy in air-gapped environments with full audit trail support.",
+      "it": "",
+      "source": "solutions/regulated.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_regulated.p.8",
+      "en": "Unified dashboard with compliance monitoring, audit reporting, and security controls. Real-time alerts, access logging, and automated compliance reporting for regulatory requirements.",
+      "it": "",
+      "source": "solutions/regulated.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_regulated.p.9",
+      "en": "Encrypted API layer with data sovereignty controls and compliance reporting. Secure data transmission with end-to-end encryption and regulatory compliance monitoring.",
+      "it": "",
+      "source": "solutions/regulated.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_regulated.ui.1",
+      "en": "Learn More",
+      "it": "",
+      "source": "solutions/regulated.html",
+      "context": "class"
+    },
+    {
+      "id": "body.solutions_regulated.ui.2",
+      "en": "Learn More",
+      "it": "",
+      "source": "solutions/regulated.html",
+      "context": "class"
+    },
+    {
+      "id": "body.solutions_regulated.ui.3",
+      "en": "Learn More",
+      "it": "",
+      "source": "solutions/regulated.html",
+      "context": "class"
+    },
+    {
+      "id": "body.solutions_regulated.ui.4",
+      "en": "Read More",
+      "it": "",
+      "source": "solutions/regulated.html",
+      "context": "class"
+    },
+    {
+      "id": "body.solutions_regulated.ui.5",
+      "en": "Read More",
+      "it": "",
+      "source": "solutions/regulated.html",
+      "context": "class"
+    },
+    {
+      "id": "body.solutions_regulated.ui.6",
+      "en": "Read More",
+      "it": "",
+      "source": "solutions/regulated.html",
+      "context": "class"
+    },
+    {
+      "id": "meta.solutions_regulated.description",
+      "en": "Run sensitive workloads across private and public clouds with full data governance. Elemento provides enterprise-grade security with built-in compliance for regulated industries.",
+      "it": "",
+      "source": "solutions/regulated.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.solutions_regulated.title",
+      "en": "Healthcare, Finance & Regulated Environments | Elemento",
+      "it": "",
+      "source": "solutions/regulated.html",
+      "context": "meta title"
+    }
+  ]
+}

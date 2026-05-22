@@ -1,0 +1,118 @@
+{
+  "page": "blog-posts_2024-10-02-the-era-of-big-data",
+  "count": 16,
+  "strings": [
+    {
+      "id": "body.blog-posts_2024-10-02-the-era-of-big-data.h1.1",
+      "en": "The Era of Big Data",
+      "it": "",
+      "source": "blog-posts/2024-10-02-the-era-of-big-data.html",
+      "context": "<h1>"
+    },
+    {
+      "id": "body.blog-posts_2024-10-02-the-era-of-big-data.h3.1",
+      "en": "References",
+      "it": "",
+      "source": "blog-posts/2024-10-02-the-era-of-big-data.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.blog-posts_2024-10-02-the-era-of-big-data.li.1",
+      "en": "‍ Volume refers to the quantity of data being generated. With Big Data, it is necessary to process massive volumes of unstructured data that can come from various sources. Depending on the organization, these volumes can range from tens of terabytes to hundreds of petabytes.",
+      "it": "",
+      "source": "blog-posts/2024-10-02-the-era-of-big-data.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2024-10-02-the-era-of-big-data.li.2",
+      "en": "‍ Velocity denotes the speed at which data is generated and requires immediate action. Often, data is processed in real-time, enabling instant decisions and actions. This is particularly evident in Internet-enabled smart products that necessitate real-time evaluations and responses.",
+      "it": "",
+      "source": "blog-posts/2024-10-02-the-era-of-big-data.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2024-10-02-the-era-of-big-data.li.3",
+      "en": "‍ Variety pertains to the diversity of data types available. In the past, data was predominantly structured and suited for relational databases. However, with the advent of Big Data, new forms of unstructured data, such as texts, audio, video, and other formats, have come into play. These non-structured data types require preprocessing to be understood and supported by metadata.",
+      "it": "",
+      "source": "blog-posts/2024-10-02-the-era-of-big-data.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2024-10-02-the-era-of-big-data.p.1",
+      "en": "By giulia-borgoni &mdash; 2025-06-24",
+      "it": "",
+      "source": "blog-posts/2024-10-02-the-era-of-big-data.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-10-02-the-era-of-big-data.p.2",
+      "en": "The Era of Big Data has ushered in a digital landscape where vast amounts of data are generated...",
+      "it": "",
+      "source": "blog-posts/2024-10-02-the-era-of-big-data.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-10-02-the-era-of-big-data.p.3",
+      "en": "Data serves as our digital footprint. Nearly every action we take today leaves a digital trace. Whether we use our smartphones, conduct online searches, engage on social media, or make purchases, we generate vast amounts of data . In many cases, we leave a digital footprint, sometimes unknowingly or unintentionally.",
+      "it": "",
+      "source": "blog-posts/2024-10-02-the-era-of-big-data.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-10-02-the-era-of-big-data.p.4",
+      "en": "The growing trend of digital connectivity became evident in 2020 when we had to move virtually every aspect of our lives online. Studying, communicating, shopping, socializing, and even watching movies became activities primarily conducted through the internet. This shift led to a profound digitization of the world, paving the way for a phenomenon known as Big Data .",
+      "it": "",
+      "source": "blog-posts/2024-10-02-the-era-of-big-data.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-10-02-the-era-of-big-data.p.5",
+      "en": "The concept of Big Data emerged alongside the exponential growth of data and the availability of advanced technologies. It refers to data that exceeds the processing capabilities of traditional database systems. Big Data can be defined as a \" large amount of data produced rapidly from a multitude of diverse sources. \" These datasets are so voluminous that traditional data processing software struggles to handle them effectively.",
+      "it": "",
+      "source": "blog-posts/2024-10-02-the-era-of-big-data.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-10-02-the-era-of-big-data.p.6",
+      "en": "The unique nature of Big Data is characterized by its three Vs: volume, velocity, and variety .",
+      "it": "",
+      "source": "blog-posts/2024-10-02-the-era-of-big-data.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-10-02-the-era-of-big-data.p.7",
+      "en": "Leveraging Big Data offers numerous advantages . The wealth of information available enables us to obtain more comprehensive insights compared to traditional data sources. This fosters increased trust in the data itself and paves the way for entirely novel approaches to problem-solving.",
+      "it": "",
+      "source": "blog-posts/2024-10-02-the-era-of-big-data.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-10-02-the-era-of-big-data.p.8",
+      "en": "The era of Big Data presents a tremendous opportunity to harness the inherent potential of digital data. Its impact permeates all spheres of our lives, empowering us to make more informed decisions and tackle complex challenges with innovative solutions. However, it is crucial to address the challenges associated with data management and security to ensure responsible and beneficial utilization of Big Data for the betterment of society as a whole.",
+      "it": "",
+      "source": "blog-posts/2024-10-02-the-era-of-big-data.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-10-02-the-era-of-big-data.p.9",
+      "en": "Cosa sono i Big Data?",
+      "it": "",
+      "source": "blog-posts/2024-10-02-the-era-of-big-data.html",
+      "context": "<p>"
+    },
+    {
+      "id": "meta.blog-posts_2024-10-02-the-era-of-big-data.description",
+      "en": "The Era of Big Data has ushered in a digital landscape where vast amounts of data are generated...",
+      "it": "",
+      "source": "blog-posts/2024-10-02-the-era-of-big-data.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.blog-posts_2024-10-02-the-era-of-big-data.title",
+      "en": "The Era of Big Data | Elemento Blog",
+      "it": "",
+      "source": "blog-posts/2024-10-02-the-era-of-big-data.html",
+      "context": "meta title"
+    }
+  ]
+}

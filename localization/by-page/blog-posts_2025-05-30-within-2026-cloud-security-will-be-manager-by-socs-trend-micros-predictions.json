@@ -1,0 +1,125 @@
+{
+  "page": "blog-posts_2025-05-30-within-2026-cloud-security-will-be-manager-by-socs-trend-micros-predictions",
+  "count": 17,
+  "strings": [
+    {
+      "id": "body.blog-posts_2025-05-30-within-2026-cloud-security-will-be-manager-by-socs-trend-micros-predictions.h1.1",
+      "en": "Within 2026, cloud security will be manager by SOCs: Trend Micro's predictions",
+      "it": "",
+      "source": "blog-posts/2025-05-30-within-2026-cloud-security-will-be-manager-by-socs-trend-micros-predictions.html",
+      "context": "<h1>"
+    },
+    {
+      "id": "body.blog-posts_2025-05-30-within-2026-cloud-security-will-be-manager-by-socs-trend-micros-predictions.h3.1",
+      "en": "References",
+      "it": "",
+      "source": "blog-posts/2025-05-30-within-2026-cloud-security-will-be-manager-by-socs-trend-micros-predictions.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.blog-posts_2025-05-30-within-2026-cloud-security-will-be-manager-by-socs-trend-micros-predictions.li.1",
+      "en": "preparation, planning, and prevention",
+      "it": "",
+      "source": "blog-posts/2025-05-30-within-2026-cloud-security-will-be-manager-by-socs-trend-micros-predictions.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2025-05-30-within-2026-cloud-security-will-be-manager-by-socs-trend-micros-predictions.li.2",
+      "en": "monitoring, detection, and response",
+      "it": "",
+      "source": "blog-posts/2025-05-30-within-2026-cloud-security-will-be-manager-by-socs-trend-micros-predictions.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2025-05-30-within-2026-cloud-security-will-be-manager-by-socs-trend-micros-predictions.li.3",
+      "en": "recovery, improvement, and compliance",
+      "it": "",
+      "source": "blog-posts/2025-05-30-within-2026-cloud-security-will-be-manager-by-socs-trend-micros-predictions.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2025-05-30-within-2026-cloud-security-will-be-manager-by-socs-trend-micros-predictions.p.1",
+      "en": "By giulia-borgoni &mdash; 2025-06-24",
+      "it": "",
+      "source": "blog-posts/2025-05-30-within-2026-cloud-security-will-be-manager-by-socs-trend-micros-predictions.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2025-05-30-within-2026-cloud-security-will-be-manager-by-socs-trend-micros-predictions.p.10",
+      "en": "Entro il 2026 la cloud security sarà gestita dai SOC",
+      "it": "",
+      "source": "blog-posts/2025-05-30-within-2026-cloud-security-will-be-manager-by-socs-trend-micros-predictions.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2025-05-30-within-2026-cloud-security-will-be-manager-by-socs-trend-micros-predictions.p.2",
+      "en": "The growing number..",
+      "it": "",
+      "source": "blog-posts/2025-05-30-within-2026-cloud-security-will-be-manager-by-socs-trend-micros-predictions.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2025-05-30-within-2026-cloud-security-will-be-manager-by-socs-trend-micros-predictions.p.3",
+      "en": "In an era where an increasing number of companies are migrating to the cloud, ensuring the security of data and resources has become paramount. According to Trend Micro, a renowned global cybersecurity specialist, by 2026, cloud security will primarily be managed by Security Operation Centers (SOCs). But what does this exactly mean?",
+      "it": "",
+      "source": "blog-posts/2025-05-30-within-2026-cloud-security-will-be-manager-by-socs-trend-micros-predictions.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2025-05-30-within-2026-cloud-security-will-be-manager-by-socs-trend-micros-predictions.p.4",
+      "en": "A SOC is a team of IT security professionals responsible for monitoring an organization's entire IT infrastructure. Their main objective is to detect cybersecurity events in real-time and address them as quickly and efficiently as possible. The SOC acts as a central operations hub, ready to respond to any security threat or breach.",
+      "it": "",
+      "source": "blog-posts/2025-05-30-within-2026-cloud-security-will-be-manager-by-socs-trend-micros-predictions.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2025-05-30-within-2026-cloud-security-will-be-manager-by-socs-trend-micros-predictions.p.5",
+      "en": "The activities and responsibilities of a SOC can be broadly categorized into three areas:",
+      "it": "",
+      "source": "blog-posts/2025-05-30-within-2026-cloud-security-will-be-manager-by-socs-trend-micros-predictions.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2025-05-30-within-2026-cloud-security-will-be-manager-by-socs-trend-micros-predictions.p.6",
+      "en": "This structure creates a continuous cycle of security management, safeguarding the company at every stage of the process.",
+      "it": "",
+      "source": "blog-posts/2025-05-30-within-2026-cloud-security-will-be-manager-by-socs-trend-micros-predictions.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2025-05-30-within-2026-cloud-security-will-be-manager-by-socs-trend-micros-predictions.p.7",
+      "en": "But why are an increasing number of companies migrating to SOCs for cloud security management? Recent estimates indicate that 87% of companies have already adopted multi-cloud solutions, while 72% utilize hybrid cloud environments. In a context where flexibility and efficiency offered by the cloud are in high demand, having an equally advanced security system becomes essential.",
+      "it": "",
+      "source": "blog-posts/2025-05-30-within-2026-cloud-security-will-be-manager-by-socs-trend-micros-predictions.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2025-05-30-within-2026-cloud-security-will-be-manager-by-socs-trend-micros-predictions.p.8",
+      "en": "Organizations looking to fully leverage the benefits of the cloud should, therefore, turn to experienced security partners who possess expertise in both cloud security and SOC tools. These partners can provide the necessary skills and resources to facilitate the transition to modern security management.",
+      "it": "",
+      "source": "blog-posts/2025-05-30-within-2026-cloud-security-will-be-manager-by-socs-trend-micros-predictions.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2025-05-30-within-2026-cloud-security-will-be-manager-by-socs-trend-micros-predictions.p.9",
+      "en": "Migrating to a SOC means having a dedicated team of experts constantly monitoring the security of data and corporate assets. Through continuous monitoring, threats can be identified and addressed promptly, minimizing the risk of breaches and harm to the organization. Furthermore, the SOC also handles system recovery and restoration in case of incidents, ensuring operational continuity and compliance with regulations.",
+      "it": "",
+      "source": "blog-posts/2025-05-30-within-2026-cloud-security-will-be-manager-by-socs-trend-micros-predictions.html",
+      "context": "<p>"
+    },
+    {
+      "id": "meta.blog-posts_2025-05-30-within-2026-cloud-security-will-be-manager-by-socs-trend-micros-predictions.description",
+      "en": "The growing number..",
+      "it": "",
+      "source": "blog-posts/2025-05-30-within-2026-cloud-security-will-be-manager-by-socs-trend-micros-predictions.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.blog-posts_2025-05-30-within-2026-cloud-security-will-be-manager-by-socs-trend-micros-predictions.title",
+      "en": "Within 2026, cloud security will be manager by SOCs: Trend Micro's predictions | Elemento Blog",
+      "it": "",
+      "source": "blog-posts/2025-05-30-within-2026-cloud-security-will-be-manager-by-socs-trend-micros-predictions.html",
+      "context": "meta title"
+    }
+  ]
+}

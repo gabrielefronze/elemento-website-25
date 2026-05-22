@@ -1,0 +1,13 @@
+{
+  "page": "solutions_products",
+  "count": 1,
+  "strings": [
+    {
+      "id": "meta.solutions_products.title",
+      "en": "Elemento",
+      "it": "",
+      "source": "solutions/products.html",
+      "context": "meta title"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "page": "signup",
+  "count": 6,
+  "strings": [
+    {
+      "id": "body.signup.button.1",
+      "en": "Refresh Page",
+      "it": "",
+      "source": "signup.html",
+      "context": "<button>"
+    },
+    {
+      "id": "body.signup.li.1",
+      "en": "Home",
+      "it": "",
+      "source": "signup.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.signup.li.2",
+      "en": "Sign Up",
+      "it": "",
+      "source": "signup.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.signup.p.1",
+      "en": "Failed to load signup form. Please refresh the page or try again later.",
+      "it": "",
+      "source": "signup.html",
+      "context": "<p>"
+    },
+    {
+      "id": "meta.signup.description",
+      "en": "Join Elemento and get started with the future of cloud computing. Sign up for free and start building your cloud infrastructure.",
+      "it": "",
+      "source": "signup.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.signup.title",
+      "en": "Sign Up - Elemento Cloud Platform",
+      "it": "",
+      "source": "signup.html",
+      "context": "meta title"
+    }
+  ]
+}

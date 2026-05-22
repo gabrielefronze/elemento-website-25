@@ -1,0 +1,181 @@
+{
+  "page": "blog-posts_2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment",
+  "count": 25,
+  "strings": [
+    {
+      "id": "body.blog-posts_2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.h1.1",
+      "en": "Cloud computing and smart working: revolutioning the work environment",
+      "it": "",
+      "source": "blog-posts/2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.html",
+      "context": "<h1>"
+    },
+    {
+      "id": "body.blog-posts_2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.h3.1",
+      "en": "References",
+      "it": "",
+      "source": "blog-posts/2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.blog-posts_2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.li.1",
+      "en": "Cloud storage working leads to cost savings, eliminating the need for creating, maintaining, and updating on-site IT infrastructure.",
+      "it": "",
+      "source": "blog-posts/2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.li.2",
+      "en": "It allows companies to allocate internal resources more effectively.",
+      "it": "",
+      "source": "blog-posts/2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.li.3",
+      "en": "Cloud working offers scalability, enabling businesses to adjust their services according to their evolving needs.",
+      "it": "",
+      "source": "blog-posts/2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.li.4",
+      "en": "It removes physical constraints and reduces hardware dependencies.",
+      "it": "",
+      "source": "blog-posts/2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.li.5",
+      "en": "Cloud computing enhances employee productivity by simplifying communication, file search, and sharing when working from home.",
+      "it": "",
+      "source": "blog-posts/2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.li.6",
+      "en": "Cloud security is handled by the service provider, ensuring robust protection.",
+      "it": "",
+      "source": "blog-posts/2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.li.7",
+      "en": "It is suitable for businesses of all sizes, from startups to large enterprises.",
+      "it": "",
+      "source": "blog-posts/2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.li.8",
+      "en": "Cloud computing facilitates digitalization and enables business growth.",
+      "it": "",
+      "source": "blog-posts/2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.p.1",
+      "en": "By giulia-borgoni &mdash; 2025-06-24",
+      "it": "",
+      "source": "blog-posts/2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.p.10",
+      "en": "Benefits of integrating cloud computing into smart working:",
+      "it": "",
+      "source": "blog-posts/2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.p.11",
+      "en": "The fusion of smart working and cloud computing is catalyzing a profound transformation within the work landscape, ushering in an era of unparalleled flexibility, heightened efficiency, and enhanced collaboration in the digital realm. This symbiotic alliance empowers individuals and organizations to leverage cutting-edge technologies, transcending the boundaries of traditional office spaces and embracing a more agile and interconnected approach to work.",
+      "it": "",
+      "source": "blog-posts/2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.p.12",
+      "en": "Smart working e cloud computing: un connubio vantaggioso?",
+      "it": "",
+      "source": "blog-posts/2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.p.13",
+      "en": "Perchè per lo smart working il cloud è indispensabile",
+      "it": "",
+      "source": "blog-posts/2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.p.2",
+      "en": "This article explores the intersection of smart working and cloud computing, highlighting...",
+      "it": "",
+      "source": "blog-posts/2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.p.3",
+      "en": "In recent years, smart working has radically changed the approach to work of many companies, leading to an increasingly massive use of cutting-edge software and technological solutions, such as cloud computing for example. Smart working and cloud computing are two closely related concepts that have allowed many companies to abandon traditional office work, potentially transferring it anywhere.",
+      "it": "",
+      "source": "blog-posts/2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.p.4",
+      "en": "Cloud computing is a vital solution that allows a company's employees to access specific programs and company software over a network. These cloud-based applications include both business management tools and customer relationship management systems, facilitating remote operations.",
+      "it": "",
+      "source": "blog-posts/2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.p.5",
+      "en": "Usage is simple: through their account, employees can easily access the programs and files they need, eliminating the need for local installations and storage on devices.",
+      "it": "",
+      "source": "blog-posts/2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.p.6",
+      "en": "During the last few years, smart working has become a widely used term, entering our daily vocabulary. The pandemic has accelerated this transition, as some businesses had already embraced remote working, while others seized the opportunity to recognize the importance of operating in the cloud.",
+      "it": "",
+      "source": "blog-posts/2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.p.7",
+      "en": "According to a study conducted by the Smart Working Observatory, during the peak of the health crisis, remote working was adopted by 97% of large companies, 94% of public administrations and 58% of small and medium-sized enterprises in Italy. About 6.58 million Italians, corresponding to about a third of the workforce, have experimented with remote work. Today smart working has become a consolidated reality for Italian public administrations and companies.",
+      "it": "",
+      "source": "blog-posts/2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.p.8",
+      "en": "Smart working represents a working model aimed at improving performance by exploiting modern technologies. However, the definition of smart working can vary depending on the corporate culture and, more broadly, on the culture of the country. While some Italian companies may still show reservations, smart working has become widely accepted across much of Europe. The European Parliament supports \"agile working\" and recognizes the importance of work-life balance in promoting individual and social well-being and development.",
+      "it": "",
+      "source": "blog-posts/2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.p.9",
+      "en": "Moreover, the work itself has undergone significant changes. Technology has become an indispensable tool in the workplace, and many companies have placed an emphasis on digital systems and IT solutions as central elements of their operations.",
+      "it": "",
+      "source": "blog-posts/2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.html",
+      "context": "<p>"
+    },
+    {
+      "id": "meta.blog-posts_2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.description",
+      "en": "This article explores the intersection of smart working and cloud computing, highlighting...",
+      "it": "",
+      "source": "blog-posts/2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.blog-posts_2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.title",
+      "en": "Cloud computing and smart working: revolutioning the work environment | Elemento Blog",
+      "it": "",
+      "source": "blog-posts/2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.html",
+      "context": "meta title"
+    }
+  ]
+}

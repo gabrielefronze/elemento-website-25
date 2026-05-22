@@ -1,0 +1,97 @@
+{
+  "page": "blog-posts_2024-08-03-thales-annual-report-escalating-ransomware-attacks-and-cloud-data-risks-sound-digital-sovereignty-alarm",
+  "count": 13,
+  "strings": [
+    {
+      "id": "body.blog-posts_2024-08-03-thales-annual-report-escalating-ransomware-attacks-and-cloud-data-risks-sound-digital-sovereignty-alarm.h1.1",
+      "en": "Thales' Annual Report: escalating ransomware attacks and cloud data risks sound digital sovereignty alarm",
+      "it": "",
+      "source": "blog-posts/2024-08-03-thales-annual-report-escalating-ransomware-attacks-and-cloud-data-risks-sound-digital-sovereignty-alarm.html",
+      "context": "<h1>"
+    },
+    {
+      "id": "body.blog-posts_2024-08-03-thales-annual-report-escalating-ransomware-attacks-and-cloud-data-risks-sound-digital-sovereignty-alarm.h3.1",
+      "en": "Rise in Ransomware Attacks: According to the report, 47% of the interviewed professionals reported an increase in security threats, both in terms of volume and severity. Globally, 37% of respondents stated that they experienced a data breach in the past 12 months, with the figure rising to 46% in Italy. Ransomware attacks, which block organizations' access to their data and demand a ransom for its restoration, have emerged as one of the primary threats. Risks Associated with Sensitive Data in the Cloud: Cloud storage has been identified as the primary target of attacks by 28% of the survey participants, followed by end-user devices. This increase in cloud data breaches is primarily attributed to the growing adoption of cloud-based work environments by businesses. Specifically, 75% of the interviewed professionals stated that nearly half of the data stored in the cloud is now classified as sensitive as of 2022. Human errors, such as configuration mistakes or the omission of multi-factor authentication (MFA), were identified as the main causes of vulnerability. The Challenge of Digital Sovereignty: Sergio Sironi, the Commercial Director for Thales' Cloud Protection & Licensing business line, emphasized the importance of digital sovereignty as a crucial element for IT decision-makers in companies. According to Sironi, the report's findings indicate that progress is being made, but data sovereignty remains a short- and long-term challenge. IT leaders in organizations increasingly need to understand how data is stored and protected. Thales' annual report on cyber threats serves as a wake-up call to organizations worldwide. The alarming increase in ransomware attacks and the vulnerability of sensitive data stored in the cloud highlight the urgent need for robust cybersecurity measures. As businesses continue to navigate the evolving threat landscape, digital sovereignty emerges as a critical challenge. IT decision-makers must prioritize understanding how data is stored and protected to ensure the resilience of their organizations. By proactively addressing these issues and implementing comprehensive security strategies, companies can mitigate risks and safeguard their valuable assets in the face of ever-growing cyber threats. References",
+      "it": "",
+      "source": "blog-posts/2024-08-03-thales-annual-report-escalating-ransomware-attacks-and-cloud-data-risks-sound-digital-sovereignty-alarm.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.blog-posts_2024-08-03-thales-annual-report-escalating-ransomware-attacks-and-cloud-data-risks-sound-digital-sovereignty-alarm.p.1",
+      "en": "By giulia-borgoni &mdash; 2025-06-24",
+      "it": "",
+      "source": "blog-posts/2024-08-03-thales-annual-report-escalating-ransomware-attacks-and-cloud-data-risks-sound-digital-sovereignty-alarm.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-08-03-thales-annual-report-escalating-ransomware-attacks-and-cloud-data-risks-sound-digital-sovereignty-alarm.p.2",
+      "en": "Thales' annual report on cyber threats has highlighted a worrying increase in ransomware attacks...",
+      "it": "",
+      "source": "blog-posts/2024-08-03-thales-annual-report-escalating-ransomware-attacks-and-cloud-data-risks-sound-digital-sovereignty-alarm.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-08-03-thales-annual-report-escalating-ransomware-attacks-and-cloud-data-risks-sound-digital-sovereignty-alarm.p.3",
+      "en": "Thales' annual report on cyber threats has revealed a concerning increase in ransomware attacks and risks associated with sensitive data stored in the cloud. The survey, conducted among approximately 3,000 IT professionals from public and private organizations across 18 different countries, highlights the strategies implemented by companies to protect their data in a continuously evolving cyber threat landscape.",
+      "it": "",
+      "source": "blog-posts/2024-08-03-thales-annual-report-escalating-ransomware-attacks-and-cloud-data-risks-sound-digital-sovereignty-alarm.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-08-03-thales-annual-report-escalating-ransomware-attacks-and-cloud-data-risks-sound-digital-sovereignty-alarm.p.4",
+      "en": "According to the report, 47% of the interviewed professionals reported an increase in security threats, both in terms of volume and severity. Globally, 37% of respondents stated that they experienced a data breach in the past 12 months, with the figure rising to 46% in Italy. Ransomware attacks, which block organizations' access to their data and demand a ransom for its restoration, have emerged as one of the primary threats.",
+      "it": "",
+      "source": "blog-posts/2024-08-03-thales-annual-report-escalating-ransomware-attacks-and-cloud-data-risks-sound-digital-sovereignty-alarm.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-08-03-thales-annual-report-escalating-ransomware-attacks-and-cloud-data-risks-sound-digital-sovereignty-alarm.p.5",
+      "en": "Cloud storage has been identified as the primary target of attacks by 28% of the survey participants, followed by end-user devices. This increase in cloud data breaches is primarily attributed to the growing adoption of cloud-based work environments by businesses. Specifically, 75% of the interviewed professionals stated that nearly half of the data stored in the cloud is now classified as sensitive as of 2022. Human errors, such as configuration mistakes or the omission of multi-factor authentication (MFA), were identified as the main causes of vulnerability.",
+      "it": "",
+      "source": "blog-posts/2024-08-03-thales-annual-report-escalating-ransomware-attacks-and-cloud-data-risks-sound-digital-sovereignty-alarm.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-08-03-thales-annual-report-escalating-ransomware-attacks-and-cloud-data-risks-sound-digital-sovereignty-alarm.p.6",
+      "en": "Sergio Sironi, the Commercial Director for Thales' Cloud Protection & Licensing business line, emphasized the importance of digital sovereignty as a crucial element for IT decision-makers in companies. According to Sironi, the report's findings indicate that progress is being made, but data sovereignty remains a short- and long-term challenge. IT leaders in organizations increasingly need to understand how data is stored and protected.",
+      "it": "",
+      "source": "blog-posts/2024-08-03-thales-annual-report-escalating-ransomware-attacks-and-cloud-data-risks-sound-digital-sovereignty-alarm.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-08-03-thales-annual-report-escalating-ransomware-attacks-and-cloud-data-risks-sound-digital-sovereignty-alarm.p.7",
+      "en": "Thales' annual report on cyber threats serves as a wake-up call to organizations worldwide. The alarming increase in ransomware attacks and the vulnerability of sensitive data stored in the cloud highlight the urgent need for robust cybersecurity measures. As businesses continue to navigate the evolving threat landscape, digital sovereignty emerges as a critical challenge. IT decision-makers must prioritize understanding how data is stored and protected to ensure the resilience of their organizations. By proactively addressing these issues and implementing comprehensive security strategies, companies can mitigate risks and safeguard their valuable assets in the face of ever-growing cyber threats.",
+      "it": "",
+      "source": "blog-posts/2024-08-03-thales-annual-report-escalating-ransomware-attacks-and-cloud-data-risks-sound-digital-sovereignty-alarm.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-08-03-thales-annual-report-escalating-ransomware-attacks-and-cloud-data-risks-sound-digital-sovereignty-alarm.p.8",
+      "en": "2023 THALES DATA THREAT REPORT",
+      "it": "",
+      "source": "blog-posts/2024-08-03-thales-annual-report-escalating-ransomware-attacks-and-cloud-data-risks-sound-digital-sovereignty-alarm.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-08-03-thales-annual-report-escalating-ransomware-attacks-and-cloud-data-risks-sound-digital-sovereignty-alarm.p.9",
+      "en": "Cybersecurity: il rapporto annuale di Thales sulle minacce informatiche",
+      "it": "",
+      "source": "blog-posts/2024-08-03-thales-annual-report-escalating-ransomware-attacks-and-cloud-data-risks-sound-digital-sovereignty-alarm.html",
+      "context": "<p>"
+    },
+    {
+      "id": "meta.blog-posts_2024-08-03-thales-annual-report-escalating-ransomware-attacks-and-cloud-data-risks-sound-digital-sovereignty-alarm.description",
+      "en": "Thales' annual report on cyber threats has highlighted a worrying increase in ransomware attacks...",
+      "it": "",
+      "source": "blog-posts/2024-08-03-thales-annual-report-escalating-ransomware-attacks-and-cloud-data-risks-sound-digital-sovereignty-alarm.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.blog-posts_2024-08-03-thales-annual-report-escalating-ransomware-attacks-and-cloud-data-risks-sound-digital-sovereignty-alarm.title",
+      "en": "Thales' Annual Report: escalating ransomware attacks and cloud data risks sound digital sovereignty alarm | Elemento Blog",
+      "it": "",
+      "source": "blog-posts/2024-08-03-thales-annual-report-escalating-ransomware-attacks-and-cloud-data-risks-sound-digital-sovereignty-alarm.html",
+      "context": "meta title"
+    }
+  ]
+}

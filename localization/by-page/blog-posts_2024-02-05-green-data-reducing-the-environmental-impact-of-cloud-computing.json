@@ -1,0 +1,118 @@
+{
+  "page": "blog-posts_2024-02-05-green-data-reducing-the-environmental-impact-of-cloud-computing",
+  "count": 16,
+  "strings": [
+    {
+      "id": "body.blog-posts_2024-02-05-green-data-reducing-the-environmental-impact-of-cloud-computing.h1.1",
+      "en": "Green Data: Reducing the Environmental Impact of Cloud Computing",
+      "it": "",
+      "source": "blog-posts/2024-02-05-green-data-reducing-the-environmental-impact-of-cloud-computing.html",
+      "context": "<h1>"
+    },
+    {
+      "id": "body.blog-posts_2024-02-05-green-data-reducing-the-environmental-impact-of-cloud-computing.h3.1",
+      "en": "Dark Data: A Massive Environmental Challenge \"Dark data\" refers to data accumulated and stored by organizations during their business activities but is limitedly used or not used at all . These dark data represent a significant portion of the total data produced and require computing infrastructures for storage, resulting in energy consumption. It is estimated that by 2025, the IT sector will consume around 20% of the globally produced energy and be responsible for 5% of the total carbon dioxide emissions. The Impact of Data Centers and End-User Devices: Contrary to what one might think, the primary carbon emissions responsibility in the business context lies with end-user devices (such as laptops, tablets, smartphones, and printers) rather than on-premise data centers. End-user devices generate 1.5-2.0 times more carbon emissions than data centers. However, there are several strategies that companies can adopt to reduce these emissions, such as purchasing more eco-friendly devices, reducing the number of devices per person, and extending the lifecycle of each device. The Role of Cloud Computing in Sustainability: Cloud Computing offers a significant opportunity to reduce the environmental impact of digital activities . Through the virtualization of computing resources, it is possible to implement multiple virtual machines on a single physical server, thereby reducing hardware usage and the related maintenance and cooling requirements of physical data centers. According to a study by the World Economic Forum, cloud computing could contribute to reducing up to 15% of global CO 2 emissions within ten years. Low-Cost, High-Impact Approaches to Emission Reduction: Chief Information Officers (CIOs) can adopt various strategies to reduce carbon dioxide emissions without significant investments. For example, purchasing more eco-friendly devices, device recycling, optimized cloud utilization, and calculating Green ROI (Return on Investment) are all options that can lead to a significant reduction in carbon emissions. The Importance of Green Data Strategy: To achieve effective environmental sustainability, companies must adopt a Green Data strategy that aims to reduce the carbon footprint of the entire digital infrastructure. This includes implementing energy-efficient practices, using renewable energy to power data centers, adopting more efficient cooling solutions, and actively managing dark data. Cloud Computing has transformed the management of corporate data, but it has also led to a significant environmental impact. To reduce carbon dioxide emissions associated with Cloud Computing, it is essential to adopt a Green Data strategy that includes energy-efficient practices, the use of renewable energy, and active management of dark data. Companies have the potential to make a significant contribution to digital decarbonization and the goal of a more environmentally sustainable future. References",
+      "it": "",
+      "source": "blog-posts/2024-02-05-green-data-reducing-the-environmental-impact-of-cloud-computing.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.blog-posts_2024-02-05-green-data-reducing-the-environmental-impact-of-cloud-computing.p.1",
+      "en": "By giulia-borgoni &mdash; 2025-06-24",
+      "it": "",
+      "source": "blog-posts/2024-02-05-green-data-reducing-the-environmental-impact-of-cloud-computing.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-02-05-green-data-reducing-the-environmental-impact-of-cloud-computing.p.10",
+      "en": "Green Data, ecco perché sono un fattore chiave per la sostenibilità",
+      "it": "",
+      "source": "blog-posts/2024-02-05-green-data-reducing-the-environmental-impact-of-cloud-computing.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-02-05-green-data-reducing-the-environmental-impact-of-cloud-computing.p.11",
+      "en": "L'impronta ecologica del cloud? Emissioni globali pari a 3 milioni di voli Londra-Ny al giorno",
+      "it": "",
+      "source": "blog-posts/2024-02-05-green-data-reducing-the-environmental-impact-of-cloud-computing.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-02-05-green-data-reducing-the-environmental-impact-of-cloud-computing.p.12",
+      "en": "‍ Emissioni di CO 2 : i device aziendali inquinano il doppio dei data center",
+      "it": "",
+      "source": "blog-posts/2024-02-05-green-data-reducing-the-environmental-impact-of-cloud-computing.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-02-05-green-data-reducing-the-environmental-impact-of-cloud-computing.p.2",
+      "en": "In the digital era, Cloud Computing has revolutionized data management but has also contributed...",
+      "it": "",
+      "source": "blog-posts/2024-02-05-green-data-reducing-the-environmental-impact-of-cloud-computing.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-02-05-green-data-reducing-the-environmental-impact-of-cloud-computing.p.3",
+      "en": "In the digital era we live in, Cloud Computing has revolutionized the management and processing of corporate data. However, the exponential increase in data and inefficient use of digital resources have led to a significant environmental impact. In this article, we will explore the importance of digital decarbonization and Green Data practices in reducing carbon dioxide emissions associated with cloud computing .",
+      "it": "",
+      "source": "blog-posts/2024-02-05-green-data-reducing-the-environmental-impact-of-cloud-computing.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-02-05-green-data-reducing-the-environmental-impact-of-cloud-computing.p.4",
+      "en": "\"Dark data\" refers to data accumulated and stored by organizations during their business activities but is limitedly used or not used at all . These dark data represent a significant portion of the total data produced and require computing infrastructures for storage, resulting in energy consumption. It is estimated that by 2025, the IT sector will consume around 20% of the globally produced energy and be responsible for 5% of the total carbon dioxide emissions.",
+      "it": "",
+      "source": "blog-posts/2024-02-05-green-data-reducing-the-environmental-impact-of-cloud-computing.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-02-05-green-data-reducing-the-environmental-impact-of-cloud-computing.p.5",
+      "en": "Contrary to what one might think, the primary carbon emissions responsibility in the business context lies with end-user devices (such as laptops, tablets, smartphones, and printers) rather than on-premise data centers. End-user devices generate 1.5-2.0 times more carbon emissions than data centers. However, there are several strategies that companies can adopt to reduce these emissions, such as purchasing more eco-friendly devices, reducing the number of devices per person, and extending the lifecycle of each device.",
+      "it": "",
+      "source": "blog-posts/2024-02-05-green-data-reducing-the-environmental-impact-of-cloud-computing.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-02-05-green-data-reducing-the-environmental-impact-of-cloud-computing.p.6",
+      "en": "Cloud Computing offers a significant opportunity to reduce the environmental impact of digital activities . Through the virtualization of computing resources, it is possible to implement multiple virtual machines on a single physical server, thereby reducing hardware usage and the related maintenance and cooling requirements of physical data centers. According to a study by the World Economic Forum, cloud computing could contribute to reducing up to 15% of global CO 2 emissions within ten years.",
+      "it": "",
+      "source": "blog-posts/2024-02-05-green-data-reducing-the-environmental-impact-of-cloud-computing.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-02-05-green-data-reducing-the-environmental-impact-of-cloud-computing.p.7",
+      "en": "Chief Information Officers (CIOs) can adopt various strategies to reduce carbon dioxide emissions without significant investments. For example, purchasing more eco-friendly devices, device recycling, optimized cloud utilization, and calculating Green ROI (Return on Investment) are all options that can lead to a significant reduction in carbon emissions.",
+      "it": "",
+      "source": "blog-posts/2024-02-05-green-data-reducing-the-environmental-impact-of-cloud-computing.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-02-05-green-data-reducing-the-environmental-impact-of-cloud-computing.p.8",
+      "en": "To achieve effective environmental sustainability, companies must adopt a Green Data strategy that aims to reduce the carbon footprint of the entire digital infrastructure. This includes implementing energy-efficient practices, using renewable energy to power data centers, adopting more efficient cooling solutions, and actively managing dark data.",
+      "it": "",
+      "source": "blog-posts/2024-02-05-green-data-reducing-the-environmental-impact-of-cloud-computing.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-02-05-green-data-reducing-the-environmental-impact-of-cloud-computing.p.9",
+      "en": "Cloud Computing has transformed the management of corporate data, but it has also led to a significant environmental impact. To reduce carbon dioxide emissions associated with Cloud Computing, it is essential to adopt a Green Data strategy that includes energy-efficient practices, the use of renewable energy, and active management of dark data. Companies have the potential to make a significant contribution to digital decarbonization and the goal of a more environmentally sustainable future.",
+      "it": "",
+      "source": "blog-posts/2024-02-05-green-data-reducing-the-environmental-impact-of-cloud-computing.html",
+      "context": "<p>"
+    },
+    {
+      "id": "meta.blog-posts_2024-02-05-green-data-reducing-the-environmental-impact-of-cloud-computing.description",
+      "en": "In the digital era, Cloud Computing has revolutionized data management but has also contributed...",
+      "it": "",
+      "source": "blog-posts/2024-02-05-green-data-reducing-the-environmental-impact-of-cloud-computing.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.blog-posts_2024-02-05-green-data-reducing-the-environmental-impact-of-cloud-computing.title",
+      "en": "Green Data: Reducing the Environmental Impact of Cloud Computing | Elemento Blog",
+      "it": "",
+      "source": "blog-posts/2024-02-05-green-data-reducing-the-environmental-impact-of-cloud-computing.html",
+      "context": "meta title"
+    }
+  ]
+}

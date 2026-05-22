@@ -1,0 +1,1308 @@
+{
+  "page": "atomos",
+  "count": 186,
+  "strings": [
+    {
+      "id": "body.atomos.h1.1",
+      "en": "AtomOS: The Hypervisor for your infrastructure",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<h1>"
+    },
+    {
+      "id": "body.atomos.h2.1",
+      "en": "The Next-gen Linux Hypervisor you were waiting for",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.atomos.h2.10",
+      "en": "Choose Your AtomOS Edition",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.atomos.h2.11",
+      "en": "Server-Based Pricing Drives Green Economy",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.atomos.h2.12",
+      "en": "Frequently Asked Questions",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.atomos.h2.13",
+      "en": "Complete Your Cloud Infrastructure",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.atomos.h2.14",
+      "en": "Transform any machine into a production-ready hypervisor with AtomOS.",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.atomos.h2.2",
+      "en": "Built on RHEL-Compliant Foundation",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.atomos.h2.3",
+      "en": "Quickstart Install in 3 Minutes",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.atomos.h2.4",
+      "en": "Advanced Hypervisor Features for Private Cloud Deployments",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.atomos.h2.5",
+      "en": "You-Know-Who vs AtomOS — Hypervisor Showdown",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.atomos.h2.6",
+      "en": "Compare Costs — AtomOS vs VMware",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.atomos.h2.7",
+      "en": "Compatible Guest Operating Systems",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.atomos.h2.8",
+      "en": "Filesystem & Disk Format Compatibility",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.atomos.h2.9",
+      "en": "Self-Healing Clusters with C4 Protocol",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.atomos.h3.1",
+      "en": "KVM-Based Hypervisor",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.atomos.h3.10",
+      "en": "Thin Provisioning",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.atomos.h3.11",
+      "en": "Live VM Migration",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.atomos.h3.12",
+      "en": "Secure Boot + vTPM",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.atomos.h3.13",
+      "en": "Command Line Tools",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.atomos.h3.14",
+      "en": "Load Balancing",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.atomos.h3.15",
+      "en": "Storage Backends",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.atomos.h3.16",
+      "en": "Linux Distributions",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.atomos.h3.17",
+      "en": "Windows Support",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.atomos.h3.18",
+      "en": "MacOS Support",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.atomos.h3.19",
+      "en": "Autonomous Clustering",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.atomos.h3.2",
+      "en": "Enterprise Security",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.atomos.h3.20",
+      "en": "AtomOS Community Edition — Free Forever",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.atomos.h3.21",
+      "en": "AtomOS Enterprise — For Private Cloud Production",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.atomos.h3.22",
+      "en": "Efficient Resource Utilization",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.atomos.h3.23",
+      "en": "Sustainable Infrastructure",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.atomos.h3.24",
+      "en": "Electros",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.atomos.h3.25",
+      "en": "Atomosphere",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.atomos.h3.26",
+      "en": "Orbital",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.atomos.h3.3",
+      "en": "Cloud Integration",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.atomos.h3.4",
+      "en": "Upstream & Fast",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.atomos.h3.5",
+      "en": "Broad Hardware Support",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.atomos.h3.6",
+      "en": "GPU",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.atomos.h3.9",
+      "en": "10x",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.atomos.h4.1",
+      "en": "Key Benefits:",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.atomos.h4.2",
+      "en": "Green Economy Benefits:",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.atomos.h4.3",
+      "en": "What platforms support AtomOS?",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.atomos.h4.4",
+      "en": "Can I use AtomOS for gaming or AI workloads?",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.atomos.h4.5",
+      "en": "Does AtomOS require a central manager?",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.atomos.h4.6",
+      "en": "Is AtomOS open-source?",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.atomos.li.1",
+      "en": "Home",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomos.li.10",
+      "en": "RHEL-compliant base — no customisation, no forks",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomos.li.11",
+      "en": "Mainline Linux kernel",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomos.li.12",
+      "en": "Incredible hardware support from upstream",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomos.li.13",
+      "en": "Super fast security updates and patches",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomos.li.14",
+      "en": "compute-only node: AlmaLinux 9, Rocky Linux 9",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomos.li.15",
+      "en": "storage-only node: AlmaLinux 9, Rocky Linux 9, Ubuntu ≥24",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomos.li.16",
+      "en": "complete installation (compute + storage): AlmaLinux 9",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomos.li.17",
+      "en": "Install additiona modules (ZFS, GlusterFS)",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomos.li.18",
+      "en": "Setup the storage",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomos.li.19",
+      "en": "Setup the network",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomos.li.2",
+      "en": "Products",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomos.li.20",
+      "en": "Automatic node discovery and trust establishment",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomos.li.21",
+      "en": "No centralized management or single points of failure",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomos.li.22",
+      "en": "Self-healing cluster topology with automatic failover",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomos.li.23",
+      "en": "Distributed control plane with peer-to-peer communication",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomos.li.24",
+      "en": "✓ Run up to 2 virtual machines per server",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomos.li.25",
+      "en": "✓ CLI control only (virsh, qemu-img)",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomos.li.26",
+      "en": "✓ Perfect for labs, makers, DevOps hobbyists",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomos.li.27",
+      "en": "✓ Unlimited VMs and nested virt",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomos.li.28",
+      "en": "✓ Web GUI (Cockpit + Electros orchestration dashboard)",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomos.li.29",
+      "en": "✓ Monitoring + Alerts (Grafana stack)",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomos.li.3",
+      "en": "AtomOS",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomos.li.30",
+      "en": "✓ Live migration",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomos.li.31",
+      "en": "✓ Guaranteed upgrade path and support",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomos.li.32",
+      "en": "Incentivizes high-density, energy-efficient servers",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomos.li.33",
+      "en": "Reduces power consumption through consolidation",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomos.li.34",
+      "en": "Lower total cost of ownership and operational expenses",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomos.li.35",
+      "en": "Extends hardware lifecycle through better utilization",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomos.li.4",
+      "en": "RHEL-compatible, KVM-based virtualization platform",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomos.li.5",
+      "en": "No vendor lock-in: upstream Linux and open standards",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomos.li.6",
+      "en": "Secure boot, ECC memory, GPU passthrough",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomos.li.7",
+      "en": "Zero centralized services — autonomous clustering with C4 protocol",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomos.li.8",
+      "en": "Nested virtualization-ready (GCP, AWS, Azure)",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomos.li.9",
+      "en": "Ideal for hybrid, on-premise, and edge computing",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomos.p.1",
+      "en": "AtomOS is a next-gen Linux hypervisor built for bare-metal, GPU-enabled, and autonomous infrastructure. RHEL-compatible, lightweight, and clustering-native — no central controller required.",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomos.p.10",
+      "en": "Mainline kernel and RHEL-compliant userspace mean you get security fixes and updates as soon as they're available — no waiting for vendor backports or custom patches.",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomos.p.11",
+      "en": "Leverage the full breadth of Linux hardware support. New devices, GPUs, and NICs work out of the box with upstream drivers.",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomos.p.12",
+      "en": "Automatic passthrough",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomos.p.13",
+      "en": "VM CPU performance",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomos.p.14",
+      "en": "VMs per Host",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomos.p.15",
+      "en": "Faster Deployments",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomos.p.16",
+      "en": "Get AtomOS running on your infrastructure quickly and easily",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomos.p.17",
+      "en": "Enterprise-grade features designed for production workloads",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomos.p.18",
+      "en": "Supported via qcow2 format for efficient storage utilization and dynamic disk allocation.",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomos.p.19",
+      "en": "Over fast LAN + shared FS for zero-downtime workload mobility.",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomos.p.2",
+      "en": "Built on proven KVM and QEMU technology with RHEL compatibility and no vendor lock-in",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomos.p.20",
+      "en": "Full support for secure boot and Virtual Trusted Platform Module for enhanced security.",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomos.p.21",
+      "en": "Native Electros CLI for automation and scripting, plus standard Linux virtualization tools.",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomos.p.22",
+      "en": "Automatically distributes workloads across nodes without needing a central controller. Each server makes local decisions to balance traffic, ensuring high performance, resilience, and seamless scalability.",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomos.p.23",
+      "en": "Any shared FS: GlusterFS, Ceph, NFS, iSCSI, etc. - flexible storage options for your infrastructure.",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomos.p.24",
+      "en": "How AtomOS compares to the industry-leading virtualization platform",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomos.p.25",
+      "en": "Calculate how much you could save with AtomOS compared to VMware. Discover how our virtualization solution helps you escape rising costs, without compromising enterprise-level reliability.",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomos.p.26",
+      "en": "Standalone calculator page →",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomos.p.27",
+      "en": "AtomOS supports a wide range of Linux and Windows guest OSes for flexible deployment scenarios",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomos.p.28",
+      "en": "For performance, use raw or qcow2 on stable Linux-native FS (EXT4, XFS). Avoid BTRFS/ReFS stacking with qcow2.",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomos.p.29",
+      "en": "Autonomous clustering without centralized management",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomos.p.3",
+      "en": "Secure boot, ECC memory support, and advanced GPU passthrough for production workloads",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomos.p.30",
+      "en": "AtomOS implements Elemento's C4 protocol for automatic peer discovery and trust-based node linking. No need for orchestrators, matchmaker services, or controller VMs.",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomos.p.31",
+      "en": "Every host participates in its own discovery and control fabric without external dependencies.",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomos.p.32",
+      "en": "From free community use to enterprise production deployments",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomos.p.33",
+      "en": "Per server, regardless of CPU cores or VM count",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomos.p.34",
+      "en": "Per server, regardless of CPU cores or VM count",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomos.p.35",
+      "en": "Our pricing model incentivizes efficient resource utilization and sustainable infrastructure choices",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomos.p.36",
+      "en": "Unlike CPU-core or VM-count based licensing, AtomOS's server-based pricing encourages organizations to maximize the value of each physical server. This drives investment in larger, more efficient hardware that can host more workloads with better performance per watt.",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomos.p.37",
+      "en": "By charging per server rather than per CPU core or VM, we encourage organizations to choose powerful, efficient hardware that can handle more workloads with less energy consumption.",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomos.p.38",
+      "en": "Common questions about AtomOS deployment and usage",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomos.p.39",
+      "en": "Runs on x86_64 servers (Intel/AMD) with virtualization support. Also runs as nested guest in AWS/GCP/Azure metal VMs.",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomos.p.4",
+      "en": "Seamless integration with public clouds and hybrid infrastructure management",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomos.p.40",
+      "en": "Yes. GPU passthrough is supported for NVIDIA (GTX960+) and AMD cards, tested for gaming, 3D rendering, and inference engines.",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomos.p.41",
+      "en": "No. Unlike vSphere or Proxmox, clustering is embedded — every host participates in its own discovery and control fabric.",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomos.p.42",
+      "en": "Core hypervisor is open. Electros and C4 protocol orchestration layers are licensed with commercial support options.",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomos.p.43",
+      "en": "AtomOS works seamlessly with other Elemento products to create a complete cloud platform",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomos.p.44",
+      "en": "Orchestration dashboard and CLI for managing VMs across public clouds and on-prem infrastructure from a single interface.",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomos.p.45",
+      "en": "Unified API that maps every cloud provider into a single programmable interface for seamless orchestration.",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomos.p.46",
+      "en": "Pre-configured hardware servers with AtomOS included and perpetual licensing for development and production workloads.",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomos.p.47",
+      "en": "Experience the power of Linux-native virtualization for your infrastructure",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomos.p.5",
+      "en": "No need to be fancy to be just right. At Elemento, we believe in the Linux paradigm. We didn't want to reinvent virtualization from scratch, forgetting all the great work behind KVM and QEMU over the past 30 years.",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomos.p.6",
+      "en": "Instead, we built on top of KVM and QEMU to create AtomOS , a hypervisor that is open , portable , and secure .",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomos.p.7",
+      "en": "No customisation. No forks. Just a rock-solid, upstream-aligned base that powers enterprise-grade reliability.",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomos.p.8",
+      "en": "AtomOS runs on top of a RHEL-compliant underlying OS — without customisation or forks. This means you get the full benefit of Red Hat's ecosystem: battle-tested stability, enterprise-grade support, and complete compatibility with the RHEL ecosystem.",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomos.p.9",
+      "en": "The kernel is mainline Linux — no vendor patches or proprietary extensions. This empowers incredible hardware support and super fast security updates (and updates in general).",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomos.td.1",
+      "en": "Hypervisor Class",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.atomos.td.10",
+      "en": "Management",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.atomos.td.11",
+      "en": "vCenter Server VM",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.atomos.td.12",
+      "en": "Electros (Web UI + CLI) & REST API",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.atomos.td.13",
+      "en": "Licensing",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.atomos.td.14",
+      "en": "Commercial, CPU-based",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.atomos.td.15",
+      "en": "Server-based (not CPU cores or VM count)",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.atomos.td.16",
+      "en": "Cluster Setup",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.atomos.td.17",
+      "en": "Manual w/ License",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.atomos.td.18",
+      "en": "Auto-discovery w/ License (C4 protocol)",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.atomos.td.19",
+      "en": "NTFS",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.atomos.td.2",
+      "en": "Type 1",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.atomos.td.20",
+      "en": "Stable",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.atomos.td.21",
+      "en": "Stable",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.atomos.td.22",
+      "en": "ReFS",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.atomos.td.23",
+      "en": "Avoid CoW-on-CoW",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.atomos.td.24",
+      "en": "Not recommended",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.atomos.td.25",
+      "en": "EXT4",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.atomos.td.26",
+      "en": "Recommended",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.atomos.td.27",
+      "en": "Full support",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.atomos.td.28",
+      "en": "XFS",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.atomos.td.29",
+      "en": "Recommended",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.atomos.td.3",
+      "en": "Type 1",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.atomos.td.30",
+      "en": "Full support",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.atomos.td.31",
+      "en": "BTRFS",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.atomos.td.32",
+      "en": "Avoid CoW-on-CoW",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.atomos.td.33",
+      "en": "Not recommended",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.atomos.td.34",
+      "en": "ZFS",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.atomos.td.35",
+      "en": "Avoid CoW-on-CoW",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.atomos.td.36",
+      "en": "Not recommended",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.atomos.td.4",
+      "en": "Operating System",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.atomos.td.5",
+      "en": "Proprietary Kernel",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.atomos.td.6",
+      "en": "Almalinux (RHEL binary compatible)",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.atomos.td.7",
+      "en": "Virtualization Engine",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.atomos.td.8",
+      "en": "Proprietary Closed-Source",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.atomos.td.9",
+      "en": "Upstream \"Vanilla\" KVM/QEMU",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.atomos.th.1",
+      "en": "Feature",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<th>"
+    },
+    {
+      "id": "body.atomos.th.2",
+      "en": "Vmware VSphere",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<th>"
+    },
+    {
+      "id": "body.atomos.th.3",
+      "en": "Elemento AtomOS",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<th>"
+    },
+    {
+      "id": "body.atomos.th.4",
+      "en": "Filesystem",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<th>"
+    },
+    {
+      "id": "body.atomos.th.5",
+      "en": "qcow2",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<th>"
+    },
+    {
+      "id": "body.atomos.th.6",
+      "en": "raw",
+      "it": "",
+      "source": "atomos.html",
+      "context": "<th>"
+    },
+    {
+      "id": "body.atomos.ui.1",
+      "en": "Deploy. Virtualize. Scale.",
+      "it": "",
+      "source": "atomos.html",
+      "context": "class"
+    },
+    {
+      "id": "body.atomos.ui.10",
+      "en": "Learn About Electros",
+      "it": "",
+      "source": "atomos.html",
+      "context": "class"
+    },
+    {
+      "id": "body.atomos.ui.11",
+      "en": "Learn About Atomosphere",
+      "it": "",
+      "source": "atomos.html",
+      "context": "class"
+    },
+    {
+      "id": "body.atomos.ui.12",
+      "en": "Learn About Orbital",
+      "it": "",
+      "source": "atomos.html",
+      "context": "class"
+    },
+    {
+      "id": "body.atomos.ui.13",
+      "en": "Buy AtomOS",
+      "it": "",
+      "source": "atomos.html",
+      "context": "class"
+    },
+    {
+      "id": "body.atomos.ui.14",
+      "en": "Download Free Edition",
+      "it": "",
+      "source": "atomos.html",
+      "context": "class"
+    },
+    {
+      "id": "body.atomos.ui.15",
+      "en": "Book a call",
+      "it": "",
+      "source": "atomos.html",
+      "context": "class"
+    },
+    {
+      "id": "body.atomos.ui.2",
+      "en": "AtomOS is a next-gen Linux hypervisor built for bare-metal, GPU-enabled, and autonomous infrastructure. RHEL-compatible, lightweight, and clustering-native — no central controller required.",
+      "it": "",
+      "source": "atomos.html",
+      "context": "class"
+    },
+    {
+      "id": "body.atomos.ui.3",
+      "en": "Deploy in Minutes",
+      "it": "",
+      "source": "atomos.html",
+      "context": "class"
+    },
+    {
+      "id": "body.atomos.ui.4",
+      "en": "Buy Now",
+      "it": "",
+      "source": "atomos.html",
+      "context": "class"
+    },
+    {
+      "id": "body.atomos.ui.5",
+      "en": "Get Started",
+      "it": "",
+      "source": "atomos.html",
+      "context": "class"
+    },
+    {
+      "id": "body.atomos.ui.6",
+      "en": "Book a call",
+      "it": "",
+      "source": "atomos.html",
+      "context": "class"
+    },
+    {
+      "id": "body.atomos.ui.7",
+      "en": "Learn More About Technology",
+      "it": "",
+      "source": "atomos.html",
+      "context": "class"
+    },
+    {
+      "id": "body.atomos.ui.8",
+      "en": "Download Now",
+      "it": "",
+      "source": "atomos.html",
+      "context": "class"
+    },
+    {
+      "id": "body.atomos.ui.9",
+      "en": "Get Enterprise License",
+      "it": "",
+      "source": "atomos.html",
+      "context": "class"
+    },
+    {
+      "id": "meta.atomos.description",
+      "en": "AtomOS is a lightweight, high-performance Linux hypervisor for bare metal and on-premise clouds. RHEL-compatible, GPU-ready, and clustering-enabled.",
+      "it": "",
+      "source": "atomos.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.atomos.title",
+      "en": "AtomOS — Powering Your Cloud with Linux Hypervisor | Elemento Cloud",
+      "it": "",
+      "source": "atomos.html",
+      "context": "meta title"
+    }
+  ]
+}

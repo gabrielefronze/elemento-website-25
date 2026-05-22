@@ -1,0 +1,55 @@
+{
+  "page": "thank-you_full-solution-demo-en",
+  "count": 7,
+  "strings": [
+    {
+      "id": "body.thank-you_full-solution-demo-en.h1.1",
+      "en": "Success! Your Demo is Scheduled.",
+      "it": "",
+      "source": "thank-you/full-solution-demo-en/index.html",
+      "context": "<h1>"
+    },
+    {
+      "id": "body.thank-you_full-solution-demo-en.p.1",
+      "en": "Get ready to discover the full synergy of AtomOS, Electros, and Atomosphere. A confirmation has been sent to your email address.",
+      "it": "",
+      "source": "thank-you/full-solution-demo-en/index.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.thank-you_full-solution-demo-en.p.2",
+      "en": "🗓️ Please Note: Check your email and accept the calendar invite now to confirm your attendance. We look forward to building your sovereign AI infrastructure together.",
+      "it": "",
+      "source": "thank-you/full-solution-demo-en/index.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.thank-you_full-solution-demo-en.ui.1",
+      "en": "Explore the platform",
+      "it": "",
+      "source": "thank-you/full-solution-demo-en/index.html",
+      "context": "class"
+    },
+    {
+      "id": "body.thank-you_full-solution-demo-en.ui.2",
+      "en": "Back to homepage",
+      "it": "",
+      "source": "thank-you/full-solution-demo-en/index.html",
+      "context": "class"
+    },
+    {
+      "id": "meta.thank-you_full-solution-demo-en.description",
+      "en": "Your full solution demo is booked. Check your email and accept the calendar invite to confirm your attendance.",
+      "it": "",
+      "source": "thank-you/full-solution-demo-en/index.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.thank-you_full-solution-demo-en.title",
+      "en": "Demo scheduled — AtomOS, Electros &amp; Atomosphere | Elemento",
+      "it": "",
+      "source": "thank-you/full-solution-demo-en/index.html",
+      "context": "meta title"
+    }
+  ]
+}

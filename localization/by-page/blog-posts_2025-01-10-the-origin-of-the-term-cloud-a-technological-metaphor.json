@@ -1,0 +1,139 @@
+{
+  "page": "blog-posts_2025-01-10-the-origin-of-the-term-cloud-a-technological-metaphor",
+  "count": 19,
+  "strings": [
+    {
+      "id": "body.blog-posts_2025-01-10-the-origin-of-the-term-cloud-a-technological-metaphor.h1.1",
+      "en": "The Origin of the Term \"Cloud\": A Technological Metaphor",
+      "it": "",
+      "source": "blog-posts/2025-01-10-the-origin-of-the-term-cloud-a-technological-metaphor.html",
+      "context": "<h1>"
+    },
+    {
+      "id": "body.blog-posts_2025-01-10-the-origin-of-the-term-cloud-a-technological-metaphor.h3.1",
+      "en": "References",
+      "it": "",
+      "source": "blog-posts/2025-01-10-the-origin-of-the-term-cloud-a-technological-metaphor.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.blog-posts_2025-01-10-the-origin-of-the-term-cloud-a-technological-metaphor.p.1",
+      "en": "By giulia-borgoni &mdash; 2025-06-24",
+      "it": "",
+      "source": "blog-posts/2025-01-10-the-origin-of-the-term-cloud-a-technological-metaphor.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2025-01-10-the-origin-of-the-term-cloud-a-technological-metaphor.p.10",
+      "en": "Developments and Adoption of the Term:",
+      "it": "",
+      "source": "blog-posts/2025-01-10-the-origin-of-the-term-cloud-a-technological-metaphor.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2025-01-10-the-origin-of-the-term-cloud-a-technological-metaphor.p.11",
+      "en": "Over the years, the term \"Cloud Computing\" has become widely used in the technology industry. Major industry players such as Amazon with Amazon Web Services (AWS), Google, and IBM have played a significant role in promoting and implementing Cloud Computing.",
+      "it": "",
+      "source": "blog-posts/2025-01-10-the-origin-of-the-term-cloud-a-technological-metaphor.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2025-01-10-the-origin-of-the-term-cloud-a-technological-metaphor.p.12",
+      "en": "Furthermore, the emergence of open-source platforms like Eucalyptus has contributed to making the concept of the \"cloud\" accessible even to individual users and organizations interested in implementing private clouds.",
+      "it": "",
+      "source": "blog-posts/2025-01-10-the-origin-of-the-term-cloud-a-technological-metaphor.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2025-01-10-the-origin-of-the-term-cloud-a-technological-metaphor.p.13",
+      "en": "The adoption of the term \"cloud computing\" in the field of technology has paved the way for a new era of accessibility, scalability, and flexibility of computing resources. The popularity of Cloud Computing continues to grow, driving innovation and enabling individuals and businesses to harness the potential of the \"cloud\" to enhance productivity and efficiency.",
+      "it": "",
+      "source": "blog-posts/2025-01-10-the-origin-of-the-term-cloud-a-technological-metaphor.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2025-01-10-the-origin-of-the-term-cloud-a-technological-metaphor.p.14",
+      "en": "Cloud Computing: History and Overview",
+      "it": "",
+      "source": "blog-posts/2025-01-10-the-origin-of-the-term-cloud-a-technological-metaphor.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2025-01-10-the-origin-of-the-term-cloud-a-technological-metaphor.p.15",
+      "en": "Cloud computing: evoluzionario e rivoluzionario",
+      "it": "",
+      "source": "blog-posts/2025-01-10-the-origin-of-the-term-cloud-a-technological-metaphor.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2025-01-10-the-origin-of-the-term-cloud-a-technological-metaphor.p.2",
+      "en": "The term \"Cloud Computing\" has gained widespread popularity in recent years, becoming an integral...",
+      "it": "",
+      "source": "blog-posts/2025-01-10-the-origin-of-the-term-cloud-a-technological-metaphor.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2025-01-10-the-origin-of-the-term-cloud-a-technological-metaphor.p.3",
+      "en": "The term \"Cloud Computing\" has gained widespread popularity in recent years, becoming an integral part of the modern technological language. However, the origin of the term dates back to an intuitive metaphor representing the interconnection and accessibility of computing resources. In this article, we will explore the origin of the term \"Cloud\" and how it has been adopted in the context of Cloud Computing.",
+      "it": "",
+      "source": "blog-posts/2025-01-10-the-origin-of-the-term-cloud-a-technological-metaphor.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2025-01-10-the-origin-of-the-term-cloud-a-technological-metaphor.p.4",
+      "en": "The Metaphorical Origin of the Term:",
+      "it": "",
+      "source": "blog-posts/2025-01-10-the-origin-of-the-term-cloud-a-technological-metaphor.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2025-01-10-the-origin-of-the-term-cloud-a-technological-metaphor.p.5",
+      "en": "The term \"Cloud\" in the technological context derives from its association with the clouds in the sky. The depiction of the Internet as a \"cloud\" was initially used in the field of Information Engineering to describe the concept of network connection and interconnection.",
+      "it": "",
+      "source": "blog-posts/2025-01-10-the-origin-of-the-term-cloud-a-technological-metaphor.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2025-01-10-the-origin-of-the-term-cloud-a-technological-metaphor.p.6",
+      "en": "The common use of \"cloud\" to represent the Internet emphasizes the fact that the connections between devices and networks are hidden and invisible to end users. In other words, users do not need to worry about the technical details and underlying infrastructure complexities but can simply access the services and resources available.",
+      "it": "",
+      "source": "blog-posts/2025-01-10-the-origin-of-the-term-cloud-a-technological-metaphor.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2025-01-10-the-origin-of-the-term-cloud-a-technological-metaphor.p.7",
+      "en": "Application of the Term in Cloud Computing:",
+      "it": "",
+      "source": "blog-posts/2025-01-10-the-origin-of-the-term-cloud-a-technological-metaphor.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2025-01-10-the-origin-of-the-term-cloud-a-technological-metaphor.p.8",
+      "en": "The metaphor of clouds has been adopted in the context of Cloud Computing to describe the concept of delivering computing resources over the Internet. Like a cloud, Cloud Computing represents a flexible and scalable platform where users can access services and resources without directly managing the underlying infrastructure.",
+      "it": "",
+      "source": "blog-posts/2025-01-10-the-origin-of-the-term-cloud-a-technological-metaphor.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2025-01-10-the-origin-of-the-term-cloud-a-technological-metaphor.p.9",
+      "en": "The term \"Cloud Computing\" implies the concept of shifting the main mechanism of providing computational services from user-controlled periphery to an \"unknown land\" managed by different service providers. This \"unknown land\" is represented by \"mist\" or \"clouds\" and becomes accessible to users through a standardized interface.",
+      "it": "",
+      "source": "blog-posts/2025-01-10-the-origin-of-the-term-cloud-a-technological-metaphor.html",
+      "context": "<p>"
+    },
+    {
+      "id": "meta.blog-posts_2025-01-10-the-origin-of-the-term-cloud-a-technological-metaphor.description",
+      "en": "The term",
+      "it": "",
+      "source": "blog-posts/2025-01-10-the-origin-of-the-term-cloud-a-technological-metaphor.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.blog-posts_2025-01-10-the-origin-of-the-term-cloud-a-technological-metaphor.title",
+      "en": "The Origin of the Term \"Cloud\": A Technological Metaphor | Elemento Blog",
+      "it": "",
+      "source": "blog-posts/2025-01-10-the-origin-of-the-term-cloud-a-technological-metaphor.html",
+      "context": "meta title"
+    }
+  ]
+}

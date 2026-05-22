@@ -1,0 +1,118 @@
+{
+  "page": "blog-posts_2024-04-25-kyndryl-guiding-innovation-and-business-transformation-through-cloud",
+  "count": 16,
+  "strings": [
+    {
+      "id": "body.blog-posts_2024-04-25-kyndryl-guiding-innovation-and-business-transformation-through-cloud.h1.1",
+      "en": "Kyndryl: guiding innovation and business transformation through cloud",
+      "it": "",
+      "source": "blog-posts/2024-04-25-kyndryl-guiding-innovation-and-business-transformation-through-cloud.html",
+      "context": "<h1>"
+    },
+    {
+      "id": "body.blog-posts_2024-04-25-kyndryl-guiding-innovation-and-business-transformation-through-cloud.h3.1",
+      "en": "The era of cloud-native applications A cornerstone of Kyndryl's report revolves around cloud-native applications, emerging as the engine of business innovation. Pre-pandemic adoption of cloud technology has proven to be a decisive factor in successfully transforming business models and identifying new opportunities. With an economic recession on the horizon, the cloud emerges as the fastest and most flexible path to innovation, enabling businesses to manage challenges adeptly in uncertain times. Cloud-native platforms are set to become the backbone of new digital initiatives, with projections indicating that over 95% of these initiatives will be based on cloud-native technology by 2025. This trend will lead to accelerated innovation, opening doors to cutting-edge technologies such as Artificial Intelligence and fostering the development of more robust and resilient applications. Additionally, cloud-native applications will support businesses in their commitment to ESG goals, reducing resource usage through serverless technology and enabling more sustainable IT resource management. The path towards distributed and industry-specific cloud Another significant aspect highlighted in Kyndryl's report is the shift towards distributed and industry-specific cloud models. This approach allows companies to align workloads with specific resources to meet compliance, performance, and efficiency requirements, while also supporting edge computing. According to Gartner's estimates, by 2025, 75% of data will be generated outside data centers, underscoring the urgent need for a distributed cloud infrastructure to handle this exponential growth. This approach offers significant advantages to businesses, enabling more optimal management of internal data to drive business value. Simultaneously, the concept of \"industry cloud,\" already successfully implemented in some sectors such as retail, will extend to new industries. Sectors like manufacturing have already embraced this approach successfully, while telecommunications and healthcare industries are cautiously but increasingly showing interest in adopting this model. Cloud networking: meeting growing connectivity demands With the advent of the cloud, connectivity undergoes a revolution. Kyndryl's report highlights the growing demand for integrating connectivity with managed services. This evolution is essential to support businesses in optimizing multiple networks, allowing them to manage data flow more efficiently and reliably. The virtualization of network infrastructure offered as managed services will be increasingly crucial for business efficiency. While many organizations are still in the process of implementing these solutions, it is essential to consider them as a strategic investment to enable seamless and fast connections to cloud resources. Edge computing and end-to-end capabilities Another critical aspect that emerges from Kyndryl's report is the importance of edge computing and end-to-end capabilities along the \"core to edge\" transformation journey. Edge computing becomes a vital solution to improve business efficiency and reduce costs, especially in key sectors like manufacturing, retail, and energy. The ability to process data and information close to their point of origin allows businesses to maximize data value and fully leverage the potential of Industry 4.0. Additionally, the adoption of end-to-end capabilities will empower businesses to manage manufacturing processes and offered services more efficiently, optimizing the entire business value chain. References",
+      "it": "",
+      "source": "blog-posts/2024-04-25-kyndryl-guiding-innovation-and-business-transformation-through-cloud.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.blog-posts_2024-04-25-kyndryl-guiding-innovation-and-business-transformation-through-cloud.p.1",
+      "en": "By giulia-borgoni &mdash; 2025-06-24",
+      "it": "",
+      "source": "blog-posts/2024-04-25-kyndryl-guiding-innovation-and-business-transformation-through-cloud.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-04-25-kyndryl-guiding-innovation-and-business-transformation-through-cloud.p.10",
+      "en": "Another critical aspect that emerges from Kyndryl's report is the importance of edge computing and end-to-end capabilities along the \"core to edge\" transformation journey. Edge computing becomes a vital solution to improve business efficiency and reduce costs, especially in key sectors like manufacturing, retail, and energy.",
+      "it": "",
+      "source": "blog-posts/2024-04-25-kyndryl-guiding-innovation-and-business-transformation-through-cloud.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-04-25-kyndryl-guiding-innovation-and-business-transformation-through-cloud.p.11",
+      "en": "The ability to process data and information close to their point of origin allows businesses to maximize data value and fully leverage the potential of Industry 4.0. Additionally, the adoption of end-to-end capabilities will empower businesses to manage manufacturing processes and offered services more efficiently, optimizing the entire business value chain.",
+      "it": "",
+      "source": "blog-posts/2024-04-25-kyndryl-guiding-innovation-and-business-transformation-through-cloud.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-04-25-kyndryl-guiding-innovation-and-business-transformation-through-cloud.p.12",
+      "en": "I 10 trend tecnologici per il 2023 secondo Kyndryl",
+      "it": "",
+      "source": "blog-posts/2024-04-25-kyndryl-guiding-innovation-and-business-transformation-through-cloud.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-04-25-kyndryl-guiding-innovation-and-business-transformation-through-cloud.p.2",
+      "en": "Kyndryl's annual report offers an illuminating glimpse into the future of technological...",
+      "it": "",
+      "source": "blog-posts/2024-04-25-kyndryl-guiding-innovation-and-business-transformation-through-cloud.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-04-25-kyndryl-guiding-innovation-and-business-transformation-through-cloud.p.3",
+      "en": "Kyndryl, the world's largest IT infrastructure provider, takes center stage in technological innovation with the release of its highly anticipated annual report on the trends that will shape 2023. This renowned company offers a forward-looking perspective on the future, focusing on three crucial areas: cloud-native applications, distributed and/or industry-specific cloud, and cloud networking. Kyndryl's projections outline a key pathway to growth and business success, emphasizing the importance of fully embracing the cloud revolution.",
+      "it": "",
+      "source": "blog-posts/2024-04-25-kyndryl-guiding-innovation-and-business-transformation-through-cloud.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-04-25-kyndryl-guiding-innovation-and-business-transformation-through-cloud.p.4",
+      "en": "A cornerstone of Kyndryl's report revolves around cloud-native applications, emerging as the engine of business innovation. Pre-pandemic adoption of cloud technology has proven to be a decisive factor in successfully transforming business models and identifying new opportunities. With an economic recession on the horizon, the cloud emerges as the fastest and most flexible path to innovation, enabling businesses to manage challenges adeptly in uncertain times.",
+      "it": "",
+      "source": "blog-posts/2024-04-25-kyndryl-guiding-innovation-and-business-transformation-through-cloud.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-04-25-kyndryl-guiding-innovation-and-business-transformation-through-cloud.p.5",
+      "en": "Cloud-native platforms are set to become the backbone of new digital initiatives, with projections indicating that over 95% of these initiatives will be based on cloud-native technology by 2025. This trend will lead to accelerated innovation, opening doors to cutting-edge technologies such as Artificial Intelligence and fostering the development of more robust and resilient applications. Additionally, cloud-native applications will support businesses in their commitment to ESG goals, reducing resource usage through serverless technology and enabling more sustainable IT resource management.",
+      "it": "",
+      "source": "blog-posts/2024-04-25-kyndryl-guiding-innovation-and-business-transformation-through-cloud.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-04-25-kyndryl-guiding-innovation-and-business-transformation-through-cloud.p.6",
+      "en": "Another significant aspect highlighted in Kyndryl's report is the shift towards distributed and industry-specific cloud models. This approach allows companies to align workloads with specific resources to meet compliance, performance, and efficiency requirements, while also supporting edge computing. According to Gartner's estimates, by 2025, 75% of data will be generated outside data centers, underscoring the urgent need for a distributed cloud infrastructure to handle this exponential growth.",
+      "it": "",
+      "source": "blog-posts/2024-04-25-kyndryl-guiding-innovation-and-business-transformation-through-cloud.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-04-25-kyndryl-guiding-innovation-and-business-transformation-through-cloud.p.7",
+      "en": "This approach offers significant advantages to businesses, enabling more optimal management of internal data to drive business value. Simultaneously, the concept of \"industry cloud,\" already successfully implemented in some sectors such as retail, will extend to new industries. Sectors like manufacturing have already embraced this approach successfully, while telecommunications and healthcare industries are cautiously but increasingly showing interest in adopting this model.",
+      "it": "",
+      "source": "blog-posts/2024-04-25-kyndryl-guiding-innovation-and-business-transformation-through-cloud.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-04-25-kyndryl-guiding-innovation-and-business-transformation-through-cloud.p.8",
+      "en": "With the advent of the cloud, connectivity undergoes a revolution. Kyndryl's report highlights the growing demand for integrating connectivity with managed services. This evolution is essential to support businesses in optimizing multiple networks, allowing them to manage data flow more efficiently and reliably.",
+      "it": "",
+      "source": "blog-posts/2024-04-25-kyndryl-guiding-innovation-and-business-transformation-through-cloud.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-04-25-kyndryl-guiding-innovation-and-business-transformation-through-cloud.p.9",
+      "en": "The virtualization of network infrastructure offered as managed services will be increasingly crucial for business efficiency. While many organizations are still in the process of implementing these solutions, it is essential to consider them as a strategic investment to enable seamless and fast connections to cloud resources.",
+      "it": "",
+      "source": "blog-posts/2024-04-25-kyndryl-guiding-innovation-and-business-transformation-through-cloud.html",
+      "context": "<p>"
+    },
+    {
+      "id": "meta.blog-posts_2024-04-25-kyndryl-guiding-innovation-and-business-transformation-through-cloud.description",
+      "en": "Kyndryl's annual report offers an illuminating glimpse into the future of technological...",
+      "it": "",
+      "source": "blog-posts/2024-04-25-kyndryl-guiding-innovation-and-business-transformation-through-cloud.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.blog-posts_2024-04-25-kyndryl-guiding-innovation-and-business-transformation-through-cloud.title",
+      "en": "Kyndryl: guiding innovation and business transformation through cloud | Elemento Blog",
+      "it": "",
+      "source": "blog-posts/2024-04-25-kyndryl-guiding-innovation-and-business-transformation-through-cloud.html",
+      "context": "meta title"
+    }
+  ]
+}

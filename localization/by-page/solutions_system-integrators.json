@@ -1,0 +1,265 @@
+{
+  "page": "solutions_system-integrators",
+  "count": 37,
+  "strings": [
+    {
+      "id": "body.solutions_system-integrators.h2.1",
+      "en": "Build Your White-Label Cloud Empire",
+      "it": "",
+      "source": "solutions/system-integrators.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.solutions_system-integrators.h2.2",
+      "en": "Partner-Ready Infrastructure",
+      "it": "",
+      "source": "solutions/system-integrators.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.solutions_system-integrators.h2.3",
+      "en": "Related Resources",
+      "it": "",
+      "source": "solutions/system-integrators.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.solutions_system-integrators.h3.1",
+      "en": "White-Label Platform",
+      "it": "",
+      "source": "solutions/system-integrators.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_system-integrators.h3.10",
+      "en": "Kyndryl: Guiding Innovation and Business Transformation",
+      "it": "",
+      "source": "solutions/system-integrators.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_system-integrators.h3.2",
+      "en": "Multi-Tenant Management",
+      "it": "",
+      "source": "solutions/system-integrators.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_system-integrators.h3.3",
+      "en": "Recurring Revenue",
+      "it": "",
+      "source": "solutions/system-integrators.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_system-integrators.h3.4",
+      "en": "Vendor Independence",
+      "it": "",
+      "source": "solutions/system-integrators.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_system-integrators.h3.5",
+      "en": "AtomOS",
+      "it": "",
+      "source": "solutions/system-integrators.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_system-integrators.h3.6",
+      "en": "Electros",
+      "it": "",
+      "source": "solutions/system-integrators.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_system-integrators.h3.7",
+      "en": "Atomosphere",
+      "it": "",
+      "source": "solutions/system-integrators.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_system-integrators.h3.8",
+      "en": "The Multi-Cloud Conundrum: Is It Really That Difficult",
+      "it": "",
+      "source": "solutions/system-integrators.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_system-integrators.h3.9",
+      "en": "Public, Private, Hybrid and Multicloud",
+      "it": "",
+      "source": "solutions/system-integrators.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_system-integrators.h4.1",
+      "en": "White-Label Hypervisor",
+      "it": "",
+      "source": "solutions/system-integrators.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.solutions_system-integrators.h4.2",
+      "en": "Partner Management Console",
+      "it": "",
+      "source": "solutions/system-integrators.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.solutions_system-integrators.h4.3",
+      "en": "Partner Integration API",
+      "it": "",
+      "source": "solutions/system-integrators.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.solutions_system-integrators.p.1",
+      "en": "Transform your consulting business with sovereign cloud infrastructure that you can brand, customize, and scale. Elemento empowers system integrators to deliver enterprise-grade cloud environments under their own brand while maintaining complete control and recurring revenue.",
+      "it": "",
+      "source": "solutions/system-integrators.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_system-integrators.p.10",
+      "en": "Explore multi-cloud strategies, deployment options, and partner success stories for system integrators.",
+      "it": "",
+      "source": "solutions/system-integrators.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_system-integrators.p.11",
+      "en": "Navigate the complexities of multi-cloud management and learn strategies for successful integration.",
+      "it": "",
+      "source": "solutions/system-integrators.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_system-integrators.p.12",
+      "en": "Understand the different cloud deployment models and how to choose the right approach for your clients.",
+      "it": "",
+      "source": "solutions/system-integrators.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_system-integrators.p.13",
+      "en": "Learn from a leading system integrator's success story in guiding business transformation through cloud.",
+      "it": "",
+      "source": "solutions/system-integrators.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_system-integrators.p.2",
+      "en": "Complete branding control with your logo, colors, and domain for client-facing environments",
+      "it": "",
+      "source": "solutions/system-integrators.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_system-integrators.p.3",
+      "en": "Manage multiple client environments from a single dashboard with automated provisioning",
+      "it": "",
+      "source": "solutions/system-integrators.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_system-integrators.p.4",
+      "en": "Built-in billing and usage tracking to scale your business with predictable recurring income",
+      "it": "",
+      "source": "solutions/system-integrators.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_system-integrators.p.5",
+      "en": "Eliminate hyperscaler dependency and offer truly sovereign cloud solutions to your clients",
+      "it": "",
+      "source": "solutions/system-integrators.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_system-integrators.p.6",
+      "en": "Complete white-label platform designed for system integrators and cloud consultants with multi-tenant management and revenue optimization.",
+      "it": "",
+      "source": "solutions/system-integrators.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_system-integrators.p.7",
+      "en": "Deploy branded hypervisor environments for your clients with complete customization control. Multi-tenant architecture with isolated client environments and automated provisioning.",
+      "it": "",
+      "source": "solutions/system-integrators.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_system-integrators.p.8",
+      "en": "Unified dashboard for managing all client environments, billing, and usage tracking. Real-time monitoring, automated scaling, and comprehensive reporting for your consulting business.",
+      "it": "",
+      "source": "solutions/system-integrators.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_system-integrators.p.9",
+      "en": "Comprehensive API for integrating with your existing tools and workflows. Support for custom integrations, third-party services, and automated client onboarding processes.",
+      "it": "",
+      "source": "solutions/system-integrators.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_system-integrators.ui.1",
+      "en": "Learn More",
+      "it": "",
+      "source": "solutions/system-integrators.html",
+      "context": "class"
+    },
+    {
+      "id": "body.solutions_system-integrators.ui.2",
+      "en": "Learn More",
+      "it": "",
+      "source": "solutions/system-integrators.html",
+      "context": "class"
+    },
+    {
+      "id": "body.solutions_system-integrators.ui.3",
+      "en": "Learn More",
+      "it": "",
+      "source": "solutions/system-integrators.html",
+      "context": "class"
+    },
+    {
+      "id": "body.solutions_system-integrators.ui.4",
+      "en": "Read More",
+      "it": "",
+      "source": "solutions/system-integrators.html",
+      "context": "class"
+    },
+    {
+      "id": "body.solutions_system-integrators.ui.5",
+      "en": "Read More",
+      "it": "",
+      "source": "solutions/system-integrators.html",
+      "context": "class"
+    },
+    {
+      "id": "body.solutions_system-integrators.ui.6",
+      "en": "Read More",
+      "it": "",
+      "source": "solutions/system-integrators.html",
+      "context": "class"
+    },
+    {
+      "id": "meta.solutions_system-integrators.description",
+      "en": "Elemento Cloud empowers system integrators to deliver sovereign, elastic cloud environments under their own brand. Build recurring-revenue models around infrastructure.",
+      "it": "",
+      "source": "solutions/system-integrators.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.solutions_system-integrators.title",
+      "en": "System Integrators & Cloud Consultants | Elemento",
+      "it": "",
+      "source": "solutions/system-integrators.html",
+      "context": "meta title"
+    }
+  ]
+}

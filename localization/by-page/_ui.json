@@ -1,0 +1,440 @@
+{
+  "page": "_ui",
+  "count": 62,
+  "strings": [
+    {
+      "id": "ui.blog.description",
+      "en": "Expert insights, industry news, and innovative stories from the Elemento team and cloud computing community.",
+      "it": "Approfondimenti, notizie e storie dal team Elemento e dalla community del cloud computing.",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.blog.englishPostsNote",
+      "en": "Articles are published in English. Italian interface; post content remains in English until translated.",
+      "it": "Gli articoli sono pubblicati in inglese. Interfaccia in italiano; i contenuti degli articoli restano in inglese fino a traduzione dedicata.",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.blog.heading",
+      "en": "Blog",
+      "it": "Blog",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.blog.noPosts",
+      "en": "No blog posts found.",
+      "it": "Nessun articolo trovato.",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.blog.readMore",
+      "en": "Read more",
+      "it": "Leggi tutto",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.blog.rssTitle",
+      "en": "Elemento Blog RSS Feed",
+      "it": "Feed RSS Blog Elemento",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.blog.subtitle",
+      "en": "Expert insights, industry news, and innovative stories from the Elemento team and cloud computing community.",
+      "it": "Approfondimenti, notizie e storie dal team Elemento e dalla community del cloud computing.",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.blog.title",
+      "en": "Elemento | Blog | Cloud Computing Insights & Technology News",
+      "it": "Elemento | Blog | Cloud computing e innovazione",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.cms.loadingOrbital",
+      "en": "Loading configurations…",
+      "it": "Caricamento configurazioni…",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.cms.loadingTeam",
+      "en": "Loading team…",
+      "it": "Caricamento team…",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.cms.providerColumn",
+      "en": "Provider",
+      "it": "Provider",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.cms.providerPartial",
+      "en": "Partial support",
+      "it": "Supporto parziale",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.cms.providerPlanned",
+      "en": "Planned",
+      "it": "In roadmap",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.cms.providerSupported",
+      "en": "Supported",
+      "it": "Supportato",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.cms.supportColumn",
+      "en": "Support level",
+      "it": "Livello di supporto",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.footer.aboutUs",
+      "en": "About Us",
+      "it": "Chi siamo",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.footer.allProducts",
+      "en": "All Products",
+      "it": "Tutti i prodotti",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.footer.brandGuidelines",
+      "en": "Brand guidelines",
+      "it": "Brand guidelines",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.footer.careers",
+      "en": "Careers",
+      "it": "Lavora con noi",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.footer.company",
+      "en": "Company",
+      "it": "Azienda",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.footer.connect",
+      "en": "Connect",
+      "it": "Seguici",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.footer.cookies",
+      "en": "Cookie Policy",
+      "it": "Cookie Policy",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.footer.copyright",
+      "en": "© 2026 Elemento. All rights reserved.",
+      "it": "© 2026 Elemento. Tutti i diritti riservati.",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.footer.documentation",
+      "en": "Documentation",
+      "it": "Documentazione",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.footer.legal",
+      "en": "Elemento Srl - VAT IT03959360045 - Registro Produttori AEE n° IT24120000016642 - Fully paid-up share capital 14.341,58€",
+      "it": "Elemento Srl - P.IVA IT03959360045 - Registro Produttori AEE n° IT24120000016642 - Capitale sociale interamente versato 14.341,58€",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.footer.privacy",
+      "en": "Privacy Policy",
+      "it": "Privacy Policy",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.footer.products",
+      "en": "Products",
+      "it": "Prodotti",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.footer.resources",
+      "en": "Resources",
+      "it": "Risorse",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.footer.tagline",
+      "en": "Vendor-neutral, high-performance cloud platform that's cost-effective, green, and self-hostable.",
+      "it": "Piattaforma cloud ad alte prestazioni, vendor-neutral, economica, green e self-hostable.",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.langSwitcher.en",
+      "en": "EN",
+      "it": "EN",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.langSwitcher.it",
+      "en": "IT",
+      "it": "IT",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.langSwitcher.label",
+      "en": "Language",
+      "it": "Lingua",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.nav.about",
+      "en": "About",
+      "it": "Chi siamo",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.nav.blog",
+      "en": "Blog",
+      "it": "Blog",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.nav.bookCall",
+      "en": "Book a Call",
+      "it": "Prenota una call",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.nav.contact",
+      "en": "Contact",
+      "it": "Contatti",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.nav.homeAria",
+      "en": "Elemento home",
+      "it": "Home Elemento",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.nav.products",
+      "en": "Products",
+      "it": "Prodotti",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.nav.signup",
+      "en": "Signup",
+      "it": "Registrati",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.nav.technology",
+      "en": "Technology",
+      "it": "Tecnologia",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.pages.about.description",
+      "en": "Learn about Elemento's mission to transform cloud infrastructure with vendor-neutral, cost-effective, and green computing solutions.",
+      "it": "Scopri la missione di Elemento: infrastruttura cloud vendor-neutral, sostenibile e conveniente.",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.pages.about.heroSubtitle",
+      "en": "Transforming cloud infrastructure with vendor-neutral, cost-effective, and sustainable computing.",
+      "it": "Trasformiamo l'infrastruttura cloud con soluzioni vendor-neutral, sostenibili e convenienti.",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.pages.about.heroTitle",
+      "en": "About Elemento",
+      "it": "Chi siamo",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.pages.about.title",
+      "en": "Elemento | About | Cloud Platform Mission & Team",
+      "it": "Elemento | Chi siamo | Missione e team",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.pages.contact.description",
+      "en": "Get in touch with Elemento for cloud infrastructure solutions, support, sales inquiries, or partnership opportunities.",
+      "it": "Contatta Elemento per soluzioni cloud, supporto, vendite o partnership.",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.pages.contact.heroSubtitle",
+      "en": "We're here to help with sales, support, and partnerships.",
+      "it": "Siamo qui per vendite, supporto e partnership.",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.pages.contact.heroTitle",
+      "en": "Contact us",
+      "it": "Contattaci",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.pages.contact.title",
+      "en": "Elemento | Contact | Get Support for Your Cloud Platform",
+      "it": "Elemento | Contatti | Supporto per la tua piattaforma cloud",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.pages.index.description",
+      "en": "Elemento is a vendor-neutral, cost-saving, green, high-performance, self-hostable cloud platform with infrastructure-as-code readiness.",
+      "it": "Elemento è una piattaforma cloud vendor-neutral, economica, green, ad alte prestazioni e self-hostable, pronta per l'infrastructure-as-code.",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.pages.index.heroSubtitle",
+      "en": "Vendor-neutral, cost-saving, green, high-performance, self-hostable cloud with infrastructure-as-code readiness.",
+      "it": "Cloud vendor-neutral, economico, green, ad alte prestazioni e self-hostable, pronto per l'infrastructure-as-code.",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.pages.index.heroTitle",
+      "en": "Unified private and public Cloud platform",
+      "it": "Piattaforma cloud privata e pubblica unificata",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.pages.index.title",
+      "en": "Elemento | Unified private and public Cloud platform",
+      "it": "Elemento | Piattaforma cloud privata e pubblica unificata",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.pages.products.description",
+      "en": "Explore Elemento's modular cloud products: AtomOS hypervisor, Electros orchestration, and Atomosphere API layer.",
+      "it": "Scopri i prodotti modulari Elemento: hypervisor AtomOS, orchestrazione Electros e API Atomosphere.",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.pages.products.heroSubtitle",
+      "en": "Modular building blocks for a unified multi-cloud platform.",
+      "it": "Componenti modulari per una piattaforma multi-cloud unificata.",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.pages.products.heroTitle",
+      "en": "Our products",
+      "it": "I nostri prodotti",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.pages.products.title",
+      "en": "Elemento | Products | AtomOS, Electros & Atomosphere",
+      "it": "Elemento | Prodotti | AtomOS, Electros e Atomosphere",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.pages.signup.description",
+      "en": "Sign up for Elemento to access AtomOS, Electros, and Atomosphere. Start with our free tier or contact sales.",
+      "it": "Registrati su Elemento per AtomOS, Electros e Atomosphere. Inizia dal piano gratuito o contatta il commerciale.",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.pages.signup.heroSubtitle",
+      "en": "Start building on Elemento today.",
+      "it": "Inizia oggi a costruire su Elemento.",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.pages.signup.heroTitle",
+      "en": "Sign up",
+      "it": "Registrati",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.pages.signup.title",
+      "en": "Elemento | Sign up | Start your cloud platform journey",
+      "it": "Elemento | Registrati | Inizia con la piattaforma cloud",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.thankYou.atomosDemo",
+      "en": "Thank you for booking your AtomOS demo!",
+      "it": "Grazie per aver prenotato la demo AtomOS!",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.thankYou.fullSolutionDemo",
+      "en": "Thank you for scheduling your full solution demo!",
+      "it": "Grazie per aver prenotato la demo della soluzione completa!",
+      "source": "src/i18n/ui",
+      "context": ""
+    }
+  ]
+}

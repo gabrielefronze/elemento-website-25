@@ -1,0 +1,195 @@
+{
+  "page": "blog-posts_2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations",
+  "count": 27,
+  "strings": [
+    {
+      "id": "body.blog-posts_2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.h1.1",
+      "en": "Common mistakes (and how to avoid them) in creating a cloud strategy: Gartner's recommendations",
+      "it": "",
+      "source": "blog-posts/2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.html",
+      "context": "<h1>"
+    },
+    {
+      "id": "body.blog-posts_2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.h3.1",
+      "en": "References",
+      "it": "",
+      "source": "blog-posts/2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.blog-posts_2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.li.1",
+      "en": "Assuming it's only an IT strategy:",
+      "it": "",
+      "source": "blog-posts/2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.li.2",
+      "en": "Confusing a cloud strategy with an implementation plan:",
+      "it": "",
+      "source": "blog-posts/2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.li.3",
+      "en": "Believing it's too late:",
+      "it": "",
+      "source": "blog-posts/2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.li.4",
+      "en": "Equating a cloud strategy with \"moving everything to the cloud\":",
+      "it": "",
+      "source": "blog-posts/2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.li.5",
+      "en": "Believing an executive mandate is a strategy:",
+      "it": "",
+      "source": "blog-posts/2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.li.6",
+      "en": "Limiting to a few cloud services and providers:",
+      "it": "",
+      "source": "blog-posts/2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.li.7",
+      "en": "Outsourcing the development of the cloud strategy:",
+      "it": "",
+      "source": "blog-posts/2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.li.8",
+      "en": "Ignoring security and governance:",
+      "it": "",
+      "source": "blog-posts/2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.li.9",
+      "en": "Lack of training and support:",
+      "it": "",
+      "source": "blog-posts/2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.p.1",
+      "en": "By giulia-borgoni &mdash; 2025-06-24",
+      "it": "",
+      "source": "blog-posts/2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.p.10",
+      "en": "Completely outsourcing the development of the cloud strategy is another mistake to avoid. While it may seem convenient to rely on third parties to create the strategy, business and IT leaders should have direct and active involvement in defining the cloud strategy. This will ensure that the strategy aligns with the organization's goals and is developed considering specific business needs.",
+      "it": "",
+      "source": "blog-posts/2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.p.11",
+      "en": "Security and governance are crucial in the context of a cloud strategy. Ignoring these considerations can lead to serious risks to the security of business data and compliance with regulations. Leaders should ensure that the strategy includes robust security measures and governance policies to protect sensitive data, ensure appropriate access to cloud resources, and comply with existing regulations.",
+      "it": "",
+      "source": "blog-posts/2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.p.12",
+      "en": "Introducing a cloud strategy requires a cultural shift within the organization. Adequate training and support are essential to help employees understand the benefits of cloud computing, adopt new processes and tools, and overcome any resistance. Investing in cloud skills and awareness is crucial for the success of implementation.",
+      "it": "",
+      "source": "blog-posts/2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.p.13",
+      "en": "So a well-defined cloud strategy is a key element for the success of an organization in harnessing the benefits of cloud computing. Avoiding the aforementioned errors can assist business and IT leaders in creating an effective cloud strategy that aligns with business objectives, is flexible, and prioritizes security. Ensuring that the strategy serves as a guide throughout the cloud adoption process and involving all key stakeholders maximizes the benefits gained from transitioning to cloud computing.",
+      "it": "",
+      "source": "blog-posts/2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.p.14",
+      "en": "Gli errori più comuni da evitare quando si adotta una strategia cloud",
+      "it": "",
+      "source": "blog-posts/2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.p.2",
+      "en": "Gartner's report highlights common mistakes in creating a cloud strategy. These include...",
+      "it": "",
+      "source": "blog-posts/2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.p.3",
+      "en": "The implementation of a cloud strategy has become a priority for many companies worldwide, as it offers a range of benefits, including increased flexibility, scalability, and reduced operational costs. However, according to a report by Gartner, several common mistakes can hinder the success of these strategies. Here are the most common errors that business and IT leaders should avoid, along with their corresponding advice for effective cloud strategy implementation.",
+      "it": "",
+      "source": "blog-posts/2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.p.4",
+      "en": "One of the biggest mistakes that business and IT leaders can make is considering the cloud strategy as a mere IT project. Cloud computing goes beyond technology; it also involves critical business and decision-making aspects. Instead of relegating the cloud strategy to a specific department, business and IT should collaborate as equal partners to define a cloud strategy that meets the needs of the entire organization.",
+      "it": "",
+      "source": "blog-posts/2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.p.5",
+      "en": "A cloud strategy and an implementation plan are two distinct concepts that should not be confused. The cloud strategy is the decision-making phase where the role of cloud computing in the organization is defined, while the implementation plan puts the defined strategy into action. Ensure a comprehensive strategy is developed before moving on to implementation, providing a clear vision of objectives and directions to follow.",
+      "it": "",
+      "source": "blog-posts/2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.p.6",
+      "en": "Some organizations might feel discouraged about implementing a cloud strategy if they think they are already lagging behind competitors. However, it's never too late to start. Driving cloud adoption without a clear strategy can lead to internal resistance and delays in the adoption process. Instead of focusing on past mistakes, concentrate on future opportunities and optimizing the benefits of cloud computing.",
+      "it": "",
+      "source": "blog-posts/2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.p.7",
+      "en": "Another common mistake is assuming that a cloud strategy involves moving all company resources to the cloud. This approach may intimidate business and IT leaders, who may be reluctant to embrace large-scale cloud computing. On the contrary, a cloud strategy should be flexible and adaptable, allowing the utilization of cloud services only where necessary and maintaining a combination of cloud and on-premise solutions if appropriate for the organization's needs.",
+      "it": "",
+      "source": "blog-posts/2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.p.8",
+      "en": "Many leaders may be tempted to adopt cloud computing solely because high-level executives demand it, hoping for cost savings. However, this does not constitute a cloud strategy. Executive mandates can serve as a catalyst to initiate the strategy development process, but they cannot be considered complete strategies on their own. It is essential to create a detailed cloud strategy, supported by executives, with a holistic approach that considers all business and technological aspects involved.",
+      "it": "",
+      "source": "blog-posts/2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.p.9",
+      "en": "Organizations should avoid focusing on a single cloud service or provider. Cloud computing offers a wide range of options and solutions, and the business context may require the use of multiple providers or types of cloud services. A broader and diversified approach can ensure greater flexibility, scalability, and resilience of the cloud environment, reducing the risk of excessive dependence on a single provider.",
+      "it": "",
+      "source": "blog-posts/2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.html",
+      "context": "<p>"
+    },
+    {
+      "id": "meta.blog-posts_2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.description",
+      "en": "Gartner's report highlights common mistakes in creating a cloud strategy. These include...",
+      "it": "",
+      "source": "blog-posts/2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.blog-posts_2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.title",
+      "en": "Common mistakes (and how to avoid them) in creating a cloud strategy: Gartner's recommendations | Elemento Blog",
+      "it": "",
+      "source": "blog-posts/2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.html",
+      "context": "meta title"
+    }
+  ]
+}

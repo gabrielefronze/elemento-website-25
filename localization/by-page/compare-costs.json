@@ -1,0 +1,83 @@
+{
+  "page": "compare-costs",
+  "count": 11,
+  "strings": [
+    {
+      "id": "body.compare-costs.h2.1",
+      "en": "Compare Costs — AtomOS vs VMware",
+      "it": "",
+      "source": "compare-costs.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.compare-costs.h2.2",
+      "en": "Ready to switch?",
+      "it": "",
+      "source": "compare-costs.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.compare-costs.li.1",
+      "en": "Home",
+      "it": "",
+      "source": "compare-costs.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.compare-costs.li.2",
+      "en": "AtomOS",
+      "it": "",
+      "source": "compare-costs.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.compare-costs.li.3",
+      "en": "Compare Costs",
+      "it": "",
+      "source": "compare-costs.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.compare-costs.p.1",
+      "en": "Calculate how much you could save with AtomOS compared to VMware. Discover how our virtualization solution helps you escape rising costs, without compromising enterprise-level reliability.",
+      "it": "",
+      "source": "compare-costs.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.compare-costs.p.2",
+      "en": "Get AtomOS for your infrastructure and start saving today.",
+      "it": "",
+      "source": "compare-costs.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.compare-costs.ui.1",
+      "en": "Buy AtomOS",
+      "it": "",
+      "source": "compare-costs.html",
+      "context": "class"
+    },
+    {
+      "id": "body.compare-costs.ui.2",
+      "en": "Learn More",
+      "it": "",
+      "source": "compare-costs.html",
+      "context": "class"
+    },
+    {
+      "id": "meta.compare-costs.description",
+      "en": "Calculate how much you could save with AtomOS compared to VMware. Compare virtualization costs and discover enterprise-level reliability at a fraction of the price.",
+      "it": "",
+      "source": "compare-costs.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.compare-costs.title",
+      "en": "Compare Costs — AtomOS vs VMware | Elemento Cloud",
+      "it": "",
+      "source": "compare-costs.html",
+      "context": "meta title"
+    }
+  ]
+}

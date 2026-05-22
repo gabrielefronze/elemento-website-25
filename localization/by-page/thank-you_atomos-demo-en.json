@@ -1,0 +1,55 @@
+{
+  "page": "thank-you_atomos-demo-en",
+  "count": 7,
+  "strings": [
+    {
+      "id": "body.thank-you_atomos-demo-en.h1.1",
+      "en": "Booking Confirmed!",
+      "it": "",
+      "source": "thank-you/atomos-demo-en/index.html",
+      "context": "<h1>"
+    },
+    {
+      "id": "body.thank-you_atomos-demo-en.p.1",
+      "en": "You are all set for your deep dive into AtomOS. We’ve sent a confirmation email with all the details.",
+      "it": "",
+      "source": "thank-you/atomos-demo-en/index.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.thank-you_atomos-demo-en.p.2",
+      "en": "🔔 Action Required: Please check your inbox and accept the calendar invitation to ensure the meeting is locked in your schedule. See you soon!",
+      "it": "",
+      "source": "thank-you/atomos-demo-en/index.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.thank-you_atomos-demo-en.ui.1",
+      "en": "Explore AtomOS",
+      "it": "",
+      "source": "thank-you/atomos-demo-en/index.html",
+      "context": "class"
+    },
+    {
+      "id": "body.thank-you_atomos-demo-en.ui.2",
+      "en": "Back to homepage",
+      "it": "",
+      "source": "thank-you/atomos-demo-en/index.html",
+      "context": "class"
+    },
+    {
+      "id": "meta.thank-you_atomos-demo-en.description",
+      "en": "Your AtomOS demo is booked. Check your email and accept the calendar invitation to confirm your slot.",
+      "it": "",
+      "source": "thank-you/atomos-demo-en/index.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.thank-you_atomos-demo-en.title",
+      "en": "Booking confirmed — AtomOS demo | Elemento",
+      "it": "",
+      "source": "thank-you/atomos-demo-en/index.html",
+      "context": "meta title"
+    }
+  ]
+}

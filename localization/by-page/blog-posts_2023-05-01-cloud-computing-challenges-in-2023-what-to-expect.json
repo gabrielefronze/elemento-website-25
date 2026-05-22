@@ -1,0 +1,111 @@
+{
+  "page": "blog-posts_2023-05-01-cloud-computing-challenges-in-2023-what-to-expect",
+  "count": 15,
+  "strings": [
+    {
+      "id": "body.blog-posts_2023-05-01-cloud-computing-challenges-in-2023-what-to-expect.h1.1",
+      "en": "Cloud computing challenges in 2023: what to expect",
+      "it": "",
+      "source": "blog-posts/2023-05-01-cloud-computing-challenges-in-2023-what-to-expect.html",
+      "context": "<h1>"
+    },
+    {
+      "id": "body.blog-posts_2023-05-01-cloud-computing-challenges-in-2023-what-to-expect.h3.1",
+      "en": "References",
+      "it": "",
+      "source": "blog-posts/2023-05-01-cloud-computing-challenges-in-2023-what-to-expect.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.blog-posts_2023-05-01-cloud-computing-challenges-in-2023-what-to-expect.p.1",
+      "en": "By giulia-borgoni &mdash; 2025-06-24",
+      "it": "",
+      "source": "blog-posts/2023-05-01-cloud-computing-challenges-in-2023-what-to-expect.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-05-01-cloud-computing-challenges-in-2023-what-to-expect.p.10",
+      "en": "2023 is shaping up to be a crucial one for the cloud industry, characterized by unprecedented challenges and opportunities. The explosion of cloud platforms will lead to a series of complexities that will demand careful attention from industry operators. However, successfully addressing these challenges will enable companies to maximize the benefits of the cloud and stay at the forefront of the ever-evolving technological landscape.",
+      "it": "",
+      "source": "blog-posts/2023-05-01-cloud-computing-challenges-in-2023-what-to-expect.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-05-01-cloud-computing-challenges-in-2023-what-to-expect.p.11",
+      "en": "Cloud, caos alle porte?",
+      "it": "",
+      "source": "blog-posts/2023-05-01-cloud-computing-challenges-in-2023-what-to-expect.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-05-01-cloud-computing-challenges-in-2023-what-to-expect.p.2",
+      "en": "2023 represents a year of challenges and opportunities in the cloud computing industry...",
+      "it": "",
+      "source": "blog-posts/2023-05-01-cloud-computing-challenges-in-2023-what-to-expect.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-05-01-cloud-computing-challenges-in-2023-what-to-expect.p.3",
+      "en": "2023 is poised to be a turbulent year for cloud operators as the exponential growth of cloud platforms will put both customers and providers to the test. In this era of rapid cloud adoption, there are critical aspects that should not be underestimated. This article will explore the key challenges that may arise in 2023 and how to successfully address them.",
+      "it": "",
+      "source": "blog-posts/2023-05-01-cloud-computing-challenges-in-2023-what-to-expect.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-05-01-cloud-computing-challenges-in-2023-what-to-expect.p.4",
+      "en": "The Chaos of Multiplatform:",
+      "it": "",
+      "source": "blog-posts/2023-05-01-cloud-computing-challenges-in-2023-what-to-expect.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-05-01-cloud-computing-challenges-in-2023-what-to-expect.p.5",
+      "en": "While multicloud has been promoted as a winning strategy, it is crucial to implement cloud platforms with operational models that avoid technology sprawl and duplication of efforts. In 2023, the focus will be on harmonizing and efficiently managing the various cloud platforms in use. IT teams will need to work towards ensuring interoperability, data security, and governance across different platforms, thereby avoiding chaos and maximizing the benefits of multicloud.",
+      "it": "",
+      "source": "blog-posts/2023-05-01-cloud-computing-challenges-in-2023-what-to-expect.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-05-01-cloud-computing-challenges-in-2023-what-to-expect.p.6",
+      "en": "Technology Debt:",
+      "it": "",
+      "source": "blog-posts/2023-05-01-cloud-computing-challenges-in-2023-what-to-expect.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-05-01-cloud-computing-challenges-in-2023-what-to-expect.p.7",
+      "en": "Extended use of the cloud also entails the need to invest in system maintenance and modernization. In 2023, organizations will have to address the accumulated technology debt by transitioning from outdated platforms to more modern solutions. Outdated platforms can expose businesses to greater risks, slow down development timelines, and increase management costs. Therefore, carefully evaluating cloud infrastructures and planning necessary investments to stay ahead will be crucial.",
+      "it": "",
+      "source": "blog-posts/2023-05-01-cloud-computing-challenges-in-2023-what-to-expect.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-05-01-cloud-computing-challenges-in-2023-what-to-expect.p.8",
+      "en": "Sustainability:",
+      "it": "",
+      "source": "blog-posts/2023-05-01-cloud-computing-challenges-in-2023-what-to-expect.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-05-01-cloud-computing-challenges-in-2023-what-to-expect.p.9",
+      "en": "Sustainability has become one of the most relevant topics across economic sectors, and cloud computing is no exception. In 2023, both governments and consumers will expect cloud services to take concrete measures to reduce carbon footprint. Service providers will need to demonstrate their commitment to sustainability by adopting energy-efficient policies, utilizing renewable energy sources, and implementing responsible data management strategies. Cloud users, on the other hand, will need to consider sustainability as a key criterion when selecting cloud service providers.",
+      "it": "",
+      "source": "blog-posts/2023-05-01-cloud-computing-challenges-in-2023-what-to-expect.html",
+      "context": "<p>"
+    },
+    {
+      "id": "meta.blog-posts_2023-05-01-cloud-computing-challenges-in-2023-what-to-expect.description",
+      "en": "2023 represents a year of challenges and opportunities in the cloud computing industry...",
+      "it": "",
+      "source": "blog-posts/2023-05-01-cloud-computing-challenges-in-2023-what-to-expect.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.blog-posts_2023-05-01-cloud-computing-challenges-in-2023-what-to-expect.title",
+      "en": "Cloud computing challenges in 2023: what to expect | Elemento Blog",
+      "it": "",
+      "source": "blog-posts/2023-05-01-cloud-computing-challenges-in-2023-what-to-expect.html",
+      "context": "meta title"
+    }
+  ]
+}

@@ -1,0 +1,356 @@
+{
+  "page": "install-atomos",
+  "count": 50,
+  "strings": [
+    {
+      "id": "body.install-atomos.button.1",
+      "en": "AtomOS Hypervisor",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "<button>"
+    },
+    {
+      "id": "body.install-atomos.button.2",
+      "en": "Electros Dashboard",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "<button>"
+    },
+    {
+      "id": "body.install-atomos.h2.1",
+      "en": "Install AtomOS and Electros with a few easy steps",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.install-atomos.h2.2",
+      "en": "AtomOS Installation Guide",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.install-atomos.h2.3",
+      "en": "Electros Installation Guide",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.install-atomos.h3.1",
+      "en": "Desktop Application Installation",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.install-atomos.h4.1",
+      "en": "Hardware Requirements",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.install-atomos.h4.2",
+      "en": "Supported Operating Systems",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.install-atomos.h4.3",
+      "en": "Desktop Application",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.install-atomos.h4.4",
+      "en": "CLI Installation",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.install-atomos.h4.5",
+      "en": "Linux",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.install-atomos.h4.6",
+      "en": "macOS",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.install-atomos.h4.7",
+      "en": "Windows",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.install-atomos.h4.8",
+      "en": "Ubuntu/Debian",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.install-atomos.li.1",
+      "en": "Home",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.install-atomos.li.10",
+      "en": "Cloud: AWS, GCP, Azure bare metal instances",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.install-atomos.li.11",
+      "en": "compute-only node: AlmaLinux 9",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.install-atomos.li.12",
+      "en": "storage-only node: AlmaLinux 9, Ubuntu ≥24",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.install-atomos.li.13",
+      "en": "complete installation (compute + storage): AlmaLinux 9",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.install-atomos.li.14",
+      "en": "Install additional modules (ZFS, GlusterFS)",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.install-atomos.li.15",
+      "en": "Setup the storage",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.install-atomos.li.16",
+      "en": "Setup the network",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.install-atomos.li.17",
+      "en": "Linux: Any modern distribution with AppImage support",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.install-atomos.li.18",
+      "en": "macOS: macOS 10.14+ (Intel) or macOS 11+ (Apple Silicon)",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.install-atomos.li.19",
+      "en": "Windows: Windows 10/11 (x64)",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.install-atomos.li.2",
+      "en": "Technology",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.install-atomos.li.20",
+      "en": "Minimum 2GB RAM, 100MB disk space",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.install-atomos.li.21",
+      "en": "Python 3.9 or higher",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.install-atomos.li.22",
+      "en": "pip package manager",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.install-atomos.li.23",
+      "en": "Network access to cloud providers",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.install-atomos.li.24",
+      "en": "SSH client for remote access",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.install-atomos.li.3",
+      "en": "Installation Guide",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.install-atomos.li.4",
+      "en": "64-bit x86_64 processor with virtualization support (Intel VT-x or AMD-V)",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.install-atomos.li.5",
+      "en": "Minimum 4GB RAM (8GB+ recommended)",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.install-atomos.li.6",
+      "en": "20GB+ free disk space",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.install-atomos.li.7",
+      "en": "Network interface for cluster communication",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.install-atomos.li.8",
+      "en": "Recommended: AlmaLinux 9, Rocky Linux 9",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.install-atomos.li.9",
+      "en": "Storage nodes: AlmaLinux 9, Rocky Linux 9, Ubuntu ≥24",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.install-atomos.p.1",
+      "en": "Deploy the Linux hypervisor for your infrastructure in 3 minutes",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.install-atomos.p.2",
+      "en": "Get the Electros orchestration dashboard running on your system",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.install-atomos.p.3",
+      "en": "Download native applications for your operating system with full GUI capabilities.",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.install-atomos.ui.1",
+      "en": "x64 AppImage",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "class"
+    },
+    {
+      "id": "body.install-atomos.ui.2",
+      "en": "ARM64 AppImage",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "class"
+    },
+    {
+      "id": "body.install-atomos.ui.3",
+      "en": "Intel (x64)",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "class"
+    },
+    {
+      "id": "body.install-atomos.ui.4",
+      "en": "Apple Silicon (ARM64)",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "class"
+    },
+    {
+      "id": "body.install-atomos.ui.5",
+      "en": "x64",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "class"
+    },
+    {
+      "id": "body.install-atomos.ui.6",
+      "en": "x64 Package",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "class"
+    },
+    {
+      "id": "body.install-atomos.ui.7",
+      "en": "ARM64 Package",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "class"
+    },
+    {
+      "id": "meta.install-atomos.description",
+      "en": "Complete installation guide for AtomOS hypervisor and Electros orchestration dashboard. Get both products running in minutes with step-by-step instructions.",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.install-atomos.title",
+      "en": "Installation Guide — AtomOS & Electros | Elemento Cloud",
+      "it": "",
+      "source": "install-atomos.html",
+      "context": "meta title"
+    }
+  ]
+}

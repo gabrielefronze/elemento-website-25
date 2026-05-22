@@ -1,0 +1,90 @@
+{
+  "page": "blog-posts_2024-06-24-sustainability-and-telecommunications-environmental-impact-and-the-role-of-cloud",
+  "count": 12,
+  "strings": [
+    {
+      "id": "body.blog-posts_2024-06-24-sustainability-and-telecommunications-environmental-impact-and-the-role-of-cloud.h1.1",
+      "en": "Sustainability and telecommunications: environmental impact and the role of cloud",
+      "it": "",
+      "source": "blog-posts/2024-06-24-sustainability-and-telecommunications-environmental-impact-and-the-role-of-cloud.html",
+      "context": "<h1>"
+    },
+    {
+      "id": "body.blog-posts_2024-06-24-sustainability-and-telecommunications-environmental-impact-and-the-role-of-cloud.h3.1",
+      "en": "The role of cloud computing in sustainability: Companies such as Vilma in Sweden, Spark New Zealand, and Dish are already transitioning to the cloud. Cloud computing represents a promising solution to reduce the ecological footprint of the telecommunications sector. Migrating workloads to the cloud can reduce energy consumption by almost 80% and the use of physical resources. Furthermore, the efficiency of cloud data centers can be further improved through the adoption of sustainable energy technologies, such as the use of renewable energy sources and the implementation of responsible data management strategies. Net-zero emissions goal by 2050: To address the environmental impact challenge of telecommunications, the International Telecommunication Union has set the goal of achieving net-zero emissions by 2050. This goal requires a collective commitment from Telcos to take concrete measures, such as energy efficiency, transitioning to renewable energy, and promoting sustainability practices across the industry. Embracing cloud technology, renewable energy, optimizing network expansions, and transforming operations with artificial intelligence and machine learning, telecommunications companies can play a fundamental role in achieving emission reduction goals and contributing to a sustainable future. Considering the current economic climate, there is no better time to prioritize these initiatives, generating a positive impact on both the environment and business activities. References",
+      "it": "",
+      "source": "blog-posts/2024-06-24-sustainability-and-telecommunications-environmental-impact-and-the-role-of-cloud.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.blog-posts_2024-06-24-sustainability-and-telecommunications-environmental-impact-and-the-role-of-cloud.p.1",
+      "en": "By giulia-borgoni &mdash; 2025-06-24",
+      "it": "",
+      "source": "blog-posts/2024-06-24-sustainability-and-telecommunications-environmental-impact-and-the-role-of-cloud.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-06-24-sustainability-and-telecommunications-environmental-impact-and-the-role-of-cloud.p.2",
+      "en": "Sustainability emerged as a central theme at the annual meeting of the World Economic Forum...",
+      "it": "",
+      "source": "blog-posts/2024-06-24-sustainability-and-telecommunications-environmental-impact-and-the-role-of-cloud.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-06-24-sustainability-and-telecommunications-environmental-impact-and-the-role-of-cloud.p.3",
+      "en": "In recent times, an extraordinary opportunity has emerged for telecommunications companies to make a significant impact on reducing their ecological footprint, potentially achieving a remarkable 80% decrease by 2025. This endeavor involves harnessing the power of spatial data analysis, artificial intelligence, and machine learning to efficiently construct and manage networks while accurately estimating end-user demand.",
+      "it": "",
+      "source": "blog-posts/2024-06-24-sustainability-and-telecommunications-environmental-impact-and-the-role-of-cloud.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-06-24-sustainability-and-telecommunications-environmental-impact-and-the-role-of-cloud.p.4",
+      "en": "The annual meeting of the World Economic Forum, which brings together political, economic, civil society, and media leaders, has placed particular emphasis on sustainability as a prominent theme. One of the sectors that has garnered attention is telecommunications, with its polluting impact accounting for 3-4% of global CO 2 emissions, according to the Boston Consulting Group. With the exponential growth of data and the increasing energy needs of data centers, the sector could consume up to 20% of the world's energy supply by 2030.",
+      "it": "",
+      "source": "blog-posts/2024-06-24-sustainability-and-telecommunications-environmental-impact-and-the-role-of-cloud.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-06-24-sustainability-and-telecommunications-environmental-impact-and-the-role-of-cloud.p.5",
+      "en": "Companies such as Vilma in Sweden, Spark New Zealand, and Dish are already transitioning to the cloud. Cloud computing represents a promising solution to reduce the ecological footprint of the telecommunications sector. Migrating workloads to the cloud can reduce energy consumption by almost 80% and the use of physical resources. Furthermore, the efficiency of cloud data centers can be further improved through the adoption of sustainable energy technologies, such as the use of renewable energy sources and the implementation of responsible data management strategies.",
+      "it": "",
+      "source": "blog-posts/2024-06-24-sustainability-and-telecommunications-environmental-impact-and-the-role-of-cloud.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-06-24-sustainability-and-telecommunications-environmental-impact-and-the-role-of-cloud.p.6",
+      "en": "To address the environmental impact challenge of telecommunications, the International Telecommunication Union has set the goal of achieving net-zero emissions by 2050. This goal requires a collective commitment from Telcos to take concrete measures, such as energy efficiency, transitioning to renewable energy, and promoting sustainability practices across the industry.",
+      "it": "",
+      "source": "blog-posts/2024-06-24-sustainability-and-telecommunications-environmental-impact-and-the-role-of-cloud.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-06-24-sustainability-and-telecommunications-environmental-impact-and-the-role-of-cloud.p.7",
+      "en": "Embracing cloud technology, renewable energy, optimizing network expansions, and transforming operations with artificial intelligence and machine learning, telecommunications companies can play a fundamental role in achieving emission reduction goals and contributing to a sustainable future. Considering the current economic climate, there is no better time to prioritize these initiatives, generating a positive impact on both the environment and business activities.",
+      "it": "",
+      "source": "blog-posts/2024-06-24-sustainability-and-telecommunications-environmental-impact-and-the-role-of-cloud.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-06-24-sustainability-and-telecommunications-environmental-impact-and-the-role-of-cloud.p.8",
+      "en": "Aws, Cerone: \"il cloud fondamentale per la decarbonizzazione delle telco\"",
+      "it": "",
+      "source": "blog-posts/2024-06-24-sustainability-and-telecommunications-environmental-impact-and-the-role-of-cloud.html",
+      "context": "<p>"
+    },
+    {
+      "id": "meta.blog-posts_2024-06-24-sustainability-and-telecommunications-environmental-impact-and-the-role-of-cloud.description",
+      "en": "Sustainability emerged as a central theme at the annual meeting of the World Economic Forum...",
+      "it": "",
+      "source": "blog-posts/2024-06-24-sustainability-and-telecommunications-environmental-impact-and-the-role-of-cloud.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.blog-posts_2024-06-24-sustainability-and-telecommunications-environmental-impact-and-the-role-of-cloud.title",
+      "en": "Sustainability and telecommunications: environmental impact and the role of cloud | Elemento Blog",
+      "it": "",
+      "source": "blog-posts/2024-06-24-sustainability-and-telecommunications-environmental-impact-and-the-role-of-cloud.html",
+      "context": "meta title"
+    }
+  ]
+}

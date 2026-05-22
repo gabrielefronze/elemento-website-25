@@ -1,0 +1,90 @@
+{
+  "page": "404",
+  "count": 12,
+  "strings": [
+    {
+      "id": "body.404.button.1",
+      "en": "Search",
+      "it": "",
+      "source": "404.html",
+      "context": "<button>"
+    },
+    {
+      "id": "body.404.h1.1",
+      "en": "Oops! Page Not Found",
+      "it": "",
+      "source": "404.html",
+      "context": "<h1>"
+    },
+    {
+      "id": "body.404.h3.1",
+      "en": "Can't find what you're looking for?",
+      "it": "",
+      "source": "404.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.404.h3.2",
+      "en": "Popular Destinations",
+      "it": "",
+      "source": "404.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.404.h4.1",
+      "en": "Products",
+      "it": "",
+      "source": "404.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.404.h4.2",
+      "en": "Resources",
+      "it": "",
+      "source": "404.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.404.p.1",
+      "en": "Looks like this page got lost in the cloud! Don't worry though - our platform is still here to help you build amazing things.",
+      "it": "",
+      "source": "404.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.404.ui.1",
+      "en": "Go Home",
+      "it": "",
+      "source": "404.html",
+      "context": "class"
+    },
+    {
+      "id": "body.404.ui.2",
+      "en": "Explore Products",
+      "it": "",
+      "source": "404.html",
+      "context": "class"
+    },
+    {
+      "id": "body.404.ui.3",
+      "en": "Get Help",
+      "it": "",
+      "source": "404.html",
+      "context": "class"
+    },
+    {
+      "id": "meta.404.description",
+      "en": "The page you're looking for doesn't exist. Explore Elemento's cloud platform solutions or return to our homepage.",
+      "it": "",
+      "source": "404.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.404.title",
+      "en": "Page Not Found - 404 | Elemento Cloud Platform",
+      "it": "",
+      "source": "404.html",
+      "context": "meta title"
+    }
+  ]
+}

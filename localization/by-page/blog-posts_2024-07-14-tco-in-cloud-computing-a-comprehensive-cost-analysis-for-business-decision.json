@@ -1,0 +1,153 @@
+{
+  "page": "blog-posts_2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision",
+  "count": 21,
+  "strings": [
+    {
+      "id": "body.blog-posts_2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision.h1.1",
+      "en": "TCO in cloud computing: a comprehensive cost analysis for business decision",
+      "it": "",
+      "source": "blog-posts/2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision.html",
+      "context": "<h1>"
+    },
+    {
+      "id": "body.blog-posts_2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision.h3.1",
+      "en": "References",
+      "it": "",
+      "source": "blog-posts/2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.blog-posts_2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision.li.1",
+      "en": "Actual cost of cloud services based on demand and workload.",
+      "it": "",
+      "source": "blog-posts/2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision.li.2",
+      "en": "Costs of application migration, including code modifications and refactoring to support cloud or hybrid environments.",
+      "it": "",
+      "source": "blog-posts/2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision.li.3",
+      "en": "Irrecoverable costs associated with retiring local infrastructure, including facility costs.",
+      "it": "",
+      "source": "blog-posts/2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision.li.4",
+      "en": "Costs to address compliance risks, such as potential penalties or regulatory violations.",
+      "it": "",
+      "source": "blog-posts/2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision.li.5",
+      "en": "Human costs for staff training and hiring new skills.",
+      "it": "",
+      "source": "blog-posts/2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision.li.6",
+      "en": "Potential value derived from reducing capital expenses.",
+      "it": "",
+      "source": "blog-posts/2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision.li.7",
+      "en": "Potential value-added in terms of increased agility, faster time-to-market, and development of new applications.",
+      "it": "",
+      "source": "blog-posts/2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision.p.1",
+      "en": "By giulia-borgoni &mdash; 2025-06-24",
+      "it": "",
+      "source": "blog-posts/2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision.p.10",
+      "en": "Cloud TCO: how to calculate cloud total cost of ownership",
+      "it": "",
+      "source": "blog-posts/2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision.p.2",
+      "en": "Total Cost of Ownership (TCO) in cloud computing involves considering all costs throughout...",
+      "it": "",
+      "source": "blog-posts/2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision.p.3",
+      "en": "In recent decades, the concept of Total Cost of Ownership (TCO) has emerged as a crucial approach to calculating all the costs associated with the entire lifecycle of an IT equipment. Originally developed by Gartner in 1987, TCO goes beyond simple purchase costs and considers key aspects such as installation, management, maintenance, and even disposal of such equipment. This approach enables businesses to gain a clear and comprehensive understanding of the actual costs, taking into account both fixed and variable costs.",
+      "it": "",
+      "source": "blog-posts/2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision.p.4",
+      "en": "TCO analysis requires the consideration of various factors that can impact the overall costs. These include the costs of purchasing hardware and software components, costs of services related to installation and setup, costs associated with the development of internal customizations, operational costs for software upgrades and maintenance, and costs related to system decommissioning. Additionally, TCO analysis also takes into account expenses for IT staff and end-user training, technical support to address any issues, and costs resulting from system downtime.",
+      "it": "",
+      "source": "blog-posts/2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision.p.5",
+      "en": "Elements of a TCO model in Cloud Computing:",
+      "it": "",
+      "source": "blog-posts/2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision.p.6",
+      "en": "A TCO model in cloud computing needs to consider both the existing and future infrastructure. Some key elements to consider include:",
+      "it": "",
+      "source": "blog-posts/2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision.p.7",
+      "en": "Accurate analysis of Total Cost of Ownership (TCO) in cloud computing enables businesses to make cost-based decisions and maximize the value of cloud adoption. It is also important to highlight that migrating to the cloud can lead to a significant reduction in total costs over time. Studies have shown that companies can achieve up to a 20% reduction in TCO over a 3-year period. This economic advantage increases year after year, allowing businesses to optimize costs, improve operational efficiency, and fully leverage the benefits of cloud computing. Therefore, TCO in cloud computing is an essential tool for effective financial management and strategic planning in the realm of cloud technologies.",
+      "it": "",
+      "source": "blog-posts/2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision.p.8",
+      "en": "What is Cloud TCO?",
+      "it": "",
+      "source": "blog-posts/2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision.p.9",
+      "en": "Total Cost of Ownership (TCO) in Cloud Computing",
+      "it": "",
+      "source": "blog-posts/2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision.html",
+      "context": "<p>"
+    },
+    {
+      "id": "meta.blog-posts_2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision.description",
+      "en": "Total Cost of Ownership (TCO) in cloud computing involves considering all costs throughout...",
+      "it": "",
+      "source": "blog-posts/2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.blog-posts_2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision.title",
+      "en": "TCO in cloud computing: a comprehensive cost analysis for business decision | Elemento Blog",
+      "it": "",
+      "source": "blog-posts/2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision.html",
+      "context": "meta title"
+    }
+  ]
+}

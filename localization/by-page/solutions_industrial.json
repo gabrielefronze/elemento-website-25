@@ -1,0 +1,265 @@
+{
+  "page": "solutions_industrial",
+  "count": 37,
+  "strings": [
+    {
+      "id": "body.solutions_industrial.h2.1",
+      "en": "From Shop Floor to Cloud Analytics",
+      "it": "",
+      "source": "solutions/industrial.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.solutions_industrial.h2.2",
+      "en": "Manufacturing-Ready Infrastructure",
+      "it": "",
+      "source": "solutions/industrial.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.solutions_industrial.h2.3",
+      "en": "Related Resources",
+      "it": "",
+      "source": "solutions/industrial.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.solutions_industrial.h3.1",
+      "en": "Legacy Integration",
+      "it": "",
+      "source": "solutions/industrial.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_industrial.h3.10",
+      "en": "Optimizing Storage Space in Cloud Computing",
+      "it": "",
+      "source": "solutions/industrial.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_industrial.h3.2",
+      "en": "Real-time Analytics",
+      "it": "",
+      "source": "solutions/industrial.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_industrial.h3.3",
+      "en": "Predictive Maintenance",
+      "it": "",
+      "source": "solutions/industrial.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_industrial.h3.4",
+      "en": "Cost Optimization",
+      "it": "",
+      "source": "solutions/industrial.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_industrial.h3.5",
+      "en": "AtomOS",
+      "it": "",
+      "source": "solutions/industrial.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_industrial.h3.6",
+      "en": "Electros",
+      "it": "",
+      "source": "solutions/industrial.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_industrial.h3.7",
+      "en": "Atomosphere",
+      "it": "",
+      "source": "solutions/industrial.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_industrial.h3.8",
+      "en": "Datacenters: An Inevitable Transformation",
+      "it": "",
+      "source": "solutions/industrial.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_industrial.h3.9",
+      "en": "Edge Computing: Insights from Gartner Research",
+      "it": "",
+      "source": "solutions/industrial.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_industrial.h4.1",
+      "en": "Industrial-Grade Hypervisor",
+      "it": "",
+      "source": "solutions/industrial.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.solutions_industrial.h4.2",
+      "en": "Manufacturing Control Center",
+      "it": "",
+      "source": "solutions/industrial.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.solutions_industrial.h4.3",
+      "en": "Industrial Data Gateway",
+      "it": "",
+      "source": "solutions/industrial.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.solutions_industrial.p.1",
+      "en": "Transform your manufacturing operations with unified data integration that connects legacy PLCs, SCADA systems, and IoT sensors to modern cloud analytics. Elemento bridges the gap between your existing industrial infrastructure and cutting-edge AI-powered optimization.",
+      "it": "",
+      "source": "solutions/industrial.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_industrial.p.10",
+      "en": "Learn about industrial infrastructure transformation, edge computing, and data optimization for manufacturing.",
+      "it": "",
+      "source": "solutions/industrial.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_industrial.p.11",
+      "en": "Discover how industrial datacenters are evolving to support modern manufacturing and IoT infrastructure.",
+      "it": "",
+      "source": "solutions/industrial.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_industrial.p.12",
+      "en": "Learn how edge computing is revolutionizing manufacturing with real-time processing and local data analytics.",
+      "it": "",
+      "source": "solutions/industrial.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_industrial.p.13",
+      "en": "Reduce costs and carbon emissions while optimizing industrial data storage and processing infrastructure.",
+      "it": "",
+      "source": "solutions/industrial.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_industrial.p.2",
+      "en": "Connect existing PLCs, SCADA, and MES systems without costly replacements",
+      "it": "",
+      "source": "solutions/industrial.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_industrial.p.3",
+      "en": "Process industrial data in real-time for immediate insights and control",
+      "it": "",
+      "source": "solutions/industrial.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_industrial.p.4",
+      "en": "AI-powered maintenance scheduling to reduce downtime and optimize equipment life",
+      "it": "",
+      "source": "solutions/industrial.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_industrial.p.5",
+      "en": "Reduce cloud costs with intelligent data processing and storage optimization",
+      "it": "",
+      "source": "solutions/industrial.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_industrial.p.6",
+      "en": "Complete cloud platform designed for industrial environments with legacy system integration and real-time analytics.",
+      "it": "",
+      "source": "solutions/industrial.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_industrial.p.7",
+      "en": "Production-ready hypervisor with real-time capabilities, PLC integration, and edge computing support. Deploy on-premise or in hybrid cloud environments with full industrial protocol support.",
+      "it": "",
+      "source": "solutions/industrial.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_industrial.p.8",
+      "en": "Unified dashboard for monitoring production lines, equipment status, and data flows. Real-time alerts, predictive analytics, and integration with existing MES/ERP systems.",
+      "it": "",
+      "source": "solutions/industrial.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_industrial.p.9",
+      "en": "Secure API layer connecting shop floor systems to cloud analytics. Supports Modbus, OPC-UA, and industrial protocols with data transformation and routing capabilities.",
+      "it": "",
+      "source": "solutions/industrial.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_industrial.ui.1",
+      "en": "Learn More",
+      "it": "",
+      "source": "solutions/industrial.html",
+      "context": "class"
+    },
+    {
+      "id": "body.solutions_industrial.ui.2",
+      "en": "Learn More",
+      "it": "",
+      "source": "solutions/industrial.html",
+      "context": "class"
+    },
+    {
+      "id": "body.solutions_industrial.ui.3",
+      "en": "Learn More",
+      "it": "",
+      "source": "solutions/industrial.html",
+      "context": "class"
+    },
+    {
+      "id": "body.solutions_industrial.ui.4",
+      "en": "Read More",
+      "it": "",
+      "source": "solutions/industrial.html",
+      "context": "class"
+    },
+    {
+      "id": "body.solutions_industrial.ui.5",
+      "en": "Read More",
+      "it": "",
+      "source": "solutions/industrial.html",
+      "context": "class"
+    },
+    {
+      "id": "body.solutions_industrial.ui.6",
+      "en": "Read More",
+      "it": "",
+      "source": "solutions/industrial.html",
+      "context": "class"
+    },
+    {
+      "id": "meta.solutions_industrial.description",
+      "en": "Integrate your factory data from PLCs to ERP in one secure, vendor-free cloud ecosystem. Transform legacy MES/ERP systems with modern analytics and AI pipelines.",
+      "it": "",
+      "source": "solutions/industrial.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.solutions_industrial.title",
+      "en": "Manufacturing & Industrial Innovation | Elemento",
+      "it": "",
+      "source": "solutions/industrial.html",
+      "context": "meta title"
+    }
+  ]
+}

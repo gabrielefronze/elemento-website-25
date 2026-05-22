@@ -1,0 +1,55 @@
+{
+  "page": "grazie_full-solution-demo",
+  "count": 7,
+  "strings": [
+    {
+      "id": "body.grazie_full-solution-demo.h1.1",
+      "en": "Ottimo! La tua Demo è confermata.",
+      "it": "",
+      "source": "grazie/full-solution-demo-it/index.html",
+      "context": "<h1>"
+    },
+    {
+      "id": "body.grazie_full-solution-demo.p.1",
+      "en": "Preparati a scoprire la sinergia tra AtomOS, Electros e Atomosphere. Riceverai a breve un'email con il riepilogo dell'appuntamento.",
+      "it": "",
+      "source": "grazie/full-solution-demo-it/index.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.grazie_full-solution-demo.p.2",
+      "en": "🗓️ Nota importante: Controlla subito la tua email e clicca su \"Accetta\" nell'invito in calendario per bloccare lo slot. Non vediamo l'ora di mostrarti il futuro dell'AI sovrana.",
+      "it": "",
+      "source": "grazie/full-solution-demo-it/index.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.grazie_full-solution-demo.ui.1",
+      "en": "Scopri la piattaforma",
+      "it": "",
+      "source": "grazie/full-solution-demo-it/index.html",
+      "context": "class"
+    },
+    {
+      "id": "body.grazie_full-solution-demo.ui.2",
+      "en": "Torna alla home",
+      "it": "",
+      "source": "grazie/full-solution-demo-it/index.html",
+      "context": "class"
+    },
+    {
+      "id": "meta.grazie_full-solution-demo.description",
+      "en": "La tua demo full solution è prenotata. Controlla l'email e accetta l'invito di calendario per confermare la partecipazione.",
+      "it": "",
+      "source": "grazie/full-solution-demo-it/index.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.grazie_full-solution-demo.title",
+      "en": "Demo confermata — AtomOS, Electros e Atomosphere | Elemento",
+      "it": "",
+      "source": "grazie/full-solution-demo-it/index.html",
+      "context": "meta title"
+    }
+  ]
+}

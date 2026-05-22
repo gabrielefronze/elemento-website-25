@@ -1,0 +1,720 @@
+{
+  "page": "products",
+  "count": 102,
+  "strings": [
+    {
+      "id": "body.products.h1.1",
+      "en": "Meet the Elemento Products",
+      "it": "",
+      "source": "products.html",
+      "context": "<h1>"
+    },
+    {
+      "id": "body.products.h2.1",
+      "en": "One Platform, three Products",
+      "it": "",
+      "source": "products.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.products.h2.2",
+      "en": "Four Ways to Deploy Your Cloud",
+      "it": "",
+      "source": "products.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.products.h2.3",
+      "en": "Deployment Model Comparison",
+      "it": "",
+      "source": "products.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.products.h2.4",
+      "en": "Why Choose Elemento?",
+      "it": "",
+      "source": "products.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.products.h2.5",
+      "en": "Perfect For Modern Cloud Deployments",
+      "it": "",
+      "source": "products.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.products.h2.6",
+      "en": "Platform Architecture",
+      "it": "",
+      "source": "products.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.products.h2.7",
+      "en": "Ready to Bring Your Cloud to Life?",
+      "it": "",
+      "source": "products.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.products.h3.1",
+      "en": "AtomOS",
+      "it": "",
+      "source": "products.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.products.h3.10",
+      "en": "Cost Effective",
+      "it": "",
+      "source": "products.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.products.h3.11",
+      "en": "Enterprise Private Clouds",
+      "it": "",
+      "source": "products.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.products.h3.12",
+      "en": "Cost Optimization",
+      "it": "",
+      "source": "products.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.products.h3.13",
+      "en": "DevOps & Infrastructure as Code",
+      "it": "",
+      "source": "products.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.products.h3.14",
+      "en": "Hybrid & Multi-Cloud",
+      "it": "",
+      "source": "products.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.products.h3.2",
+      "en": "Electros",
+      "it": "",
+      "source": "products.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.products.h3.3",
+      "en": "Atomosphere",
+      "it": "",
+      "source": "products.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.products.h3.4",
+      "en": "Orbital",
+      "it": "",
+      "source": "products.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.products.h3.5",
+      "en": "1. Private AtomOS",
+      "it": "",
+      "source": "products.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.products.h3.6",
+      "en": "2. Colocation AtomOS",
+      "it": "",
+      "source": "products.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.products.h3.7",
+      "en": "3. Shared AtomOS",
+      "it": "",
+      "source": "products.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.products.h3.8",
+      "en": "4. Native CSP VMs",
+      "it": "",
+      "source": "products.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.products.h3.9",
+      "en": "Vendor Neutral & Flexible",
+      "it": "",
+      "source": "products.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.products.h4.1",
+      "en": "Freedom Benefits:",
+      "it": "",
+      "source": "products.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.products.h4.2",
+      "en": "Cost Benefits:",
+      "it": "",
+      "source": "products.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.products.li.1",
+      "en": "Home",
+      "it": "",
+      "source": "products.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.products.li.10",
+      "en": "✓ No hidden fees or vendor lock-in costs",
+      "it": "",
+      "source": "products.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.products.li.2",
+      "en": "Products",
+      "it": "",
+      "source": "products.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.products.li.3",
+      "en": "✓ Keep existing CSP accounts and billing",
+      "it": "",
+      "source": "products.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.products.li.4",
+      "en": "✓ No markup or middleman fees",
+      "it": "",
+      "source": "products.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.products.li.5",
+      "en": "✓ Self-hostable on your infrastructure",
+      "it": "",
+      "source": "products.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.products.li.6",
+      "en": "✓ Open standards and upstream Linux",
+      "it": "",
+      "source": "products.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.products.li.7",
+      "en": "✓ Predictable server-based licensing",
+      "it": "",
+      "source": "products.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.products.li.8",
+      "en": "✓ Real-time cost comparison across providers",
+      "it": "",
+      "source": "products.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.products.li.9",
+      "en": "✓ Green computing incentives",
+      "it": "",
+      "source": "products.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.products.p.1",
+      "en": "A complete vendor-neutral platform that transforms any infrastructure into a scalable, production-ready cloud.",
+      "it": "",
+      "source": "products.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.products.p.10",
+      "en": "Use VMs from Elemento's shared AtomOS infrastructure. Managed by Elemento with enterprise features and support included.",
+      "it": "",
+      "source": "products.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.products.p.11",
+      "en": "Deploy native VMs (EC2-like) directly on cloud providers through Atmosphere. Access AWS, Azure, GCP and others with unified management.",
+      "it": "",
+      "source": "products.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.products.p.12",
+      "en": "Choose the right deployment model for your infrastructure requirements",
+      "it": "",
+      "source": "products.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.products.p.13",
+      "en": "* Higher overhead because the servers are yours, so your team is responsible for managing and maintaining them.",
+      "it": "",
+      "source": "products.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.products.p.14",
+      "en": "Vendor-neutral, cost-effective, and self-hostable cloud platform",
+      "it": "",
+      "source": "products.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.products.p.15",
+      "en": "No vendor lock-in. Use your existing cloud accounts, infrastructure, and tools. Elemento works with your current setup, not against it. Read about our vendor neutrality philosophy and company values .",
+      "it": "",
+      "source": "products.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.products.p.16",
+      "en": "Proven at scale: powering 10k+ VMs and 235+ global data centers worldwide.",
+      "it": "",
+      "source": "products.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.products.p.17",
+      "en": "Server-based pricing instead of per-CPU or per-VM licensing. Encourages efficient resource utilization and reduces total cost of ownership. Learn about our green computing initiatives and pricing models .",
+      "it": "",
+      "source": "products.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.products.p.18",
+      "en": "Impact metrics: 25% average cost savings and 30% lower energy consumption for multi-cloud deployments.",
+      "it": "",
+      "source": "products.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.products.p.19",
+      "en": "From startups to enterprises, Elemento scales with your needs",
+      "it": "",
+      "source": "products.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.products.p.2",
+      "en": "Build your cloud with vendor-neutral, high-performance components that work seamlessly together. Learn about our company mission and technical architecture .",
+      "it": "",
+      "source": "products.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.products.p.20",
+      "en": "Deploy AtomOS on private infrastructure for maximum control, security, and compliance. Perfect for regulated industries and data sovereignty requirements.",
+      "it": "",
+      "source": "products.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.products.p.21",
+      "en": "Compare costs across deployment models and providers in real-time. Migrate workloads between private, colocation, and cloud infrastructure seamlessly.",
+      "it": "",
+      "source": "products.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.products.p.22",
+      "en": "Use Electros CLI and unified APIs to automate deployments across all four deployment models with consistent tooling and workflows.",
+      "it": "",
+      "source": "products.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.products.p.23",
+      "en": "Mix deployment models based on workload requirements. Use private AtomOS for sensitive data, shared for development, and native CSP for burst capacity.",
+      "it": "",
+      "source": "products.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.products.p.24",
+      "en": "How Elemento's three core products work together",
+      "it": "",
+      "source": "products.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.products.p.25",
+      "en": "Loading diagram...",
+      "it": "",
+      "source": "products.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.products.p.26",
+      "en": "Join organizations transforming their infrastructure with vendor-neutral, cost-effective cloud solutions. Learn more about our team and mission or explore our success stories .",
+      "it": "",
+      "source": "products.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.products.p.3",
+      "en": "Linux hypervisor for bare-metal and on-premise clouds. RHEL-compatible, GPU-ready, with autonomous clustering via C4 protocol.",
+      "it": "",
+      "source": "products.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.products.p.4",
+      "en": "Orchestration dashboard and CLI for managing VMs across public clouds and on-prem infrastructure from a single interface.",
+      "it": "",
+      "source": "products.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.products.p.5",
+      "en": "Multicloud API gateway that unifies 10+ cloud providers into a single programmable interface while preserving your existing accounts.",
+      "it": "",
+      "source": "products.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.products.p.6",
+      "en": "Pre-configured hardware servers with AtomOS included and perpetual licensing. Choose from various configurations for development, production, and enterprise workloads.",
+      "it": "",
+      "source": "products.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.products.p.7",
+      "en": "Choose the deployment model that fits your infrastructure needs and preferences",
+      "it": "",
+      "source": "products.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.products.p.8",
+      "en": "Deploy AtomOS on your own private servers. Full control over hardware, networking, and security with autonomous clustering via C4 protocol. Learn more about our C4 protocol technology and deployment support .",
+      "it": "",
+      "source": "products.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.products.p.9",
+      "en": "Deploy AtomOS on bare-metal cloud servers from providers like Hetzner, OVH, or Scaleway. Enterprise-grade virtualization with dedicated hardware.",
+      "it": "",
+      "source": "products.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.products.td.1",
+      "en": "Hardware Control",
+      "it": "",
+      "source": "products.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.products.td.10",
+      "en": "Low",
+      "it": "",
+      "source": "products.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.products.td.11",
+      "en": "Cost Control",
+      "it": "",
+      "source": "products.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.products.td.12",
+      "en": "Maximum",
+      "it": "",
+      "source": "products.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.products.td.13",
+      "en": "High",
+      "it": "",
+      "source": "products.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.products.td.14",
+      "en": "High",
+      "it": "",
+      "source": "products.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.products.td.15",
+      "en": "Variable",
+      "it": "",
+      "source": "products.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.products.td.16",
+      "en": "Security & Compliance",
+      "it": "",
+      "source": "products.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.products.td.17",
+      "en": "Full Control",
+      "it": "",
+      "source": "products.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.products.td.18",
+      "en": "High",
+      "it": "",
+      "source": "products.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.products.td.19",
+      "en": "Managed",
+      "it": "",
+      "source": "products.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.products.td.2",
+      "en": "Full",
+      "it": "",
+      "source": "products.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.products.td.20",
+      "en": "Provider",
+      "it": "",
+      "source": "products.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.products.td.21",
+      "en": "Performance",
+      "it": "",
+      "source": "products.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.products.td.22",
+      "en": "Maximum",
+      "it": "",
+      "source": "products.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.products.td.23",
+      "en": "High",
+      "it": "",
+      "source": "products.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.products.td.24",
+      "en": "Shared",
+      "it": "",
+      "source": "products.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.products.td.25",
+      "en": "Variable",
+      "it": "",
+      "source": "products.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.products.td.3",
+      "en": "Dedicated",
+      "it": "",
+      "source": "products.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.products.td.4",
+      "en": "Shared",
+      "it": "",
+      "source": "products.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.products.td.5",
+      "en": "Virtual",
+      "it": "",
+      "source": "products.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.products.td.6",
+      "en": "Management Overhead",
+      "it": "",
+      "source": "products.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.products.td.7",
+      "en": "High*",
+      "it": "",
+      "source": "products.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.products.td.8",
+      "en": "Medium",
+      "it": "",
+      "source": "products.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.products.td.9",
+      "en": "Low",
+      "it": "",
+      "source": "products.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.products.th.1",
+      "en": "Feature",
+      "it": "",
+      "source": "products.html",
+      "context": "<th>"
+    },
+    {
+      "id": "body.products.th.2",
+      "en": "Private AtomOS",
+      "it": "",
+      "source": "products.html",
+      "context": "<th>"
+    },
+    {
+      "id": "body.products.th.3",
+      "en": "Colocation AtomOS",
+      "it": "",
+      "source": "products.html",
+      "context": "<th>"
+    },
+    {
+      "id": "body.products.th.4",
+      "en": "Shared AtomOS",
+      "it": "",
+      "source": "products.html",
+      "context": "<th>"
+    },
+    {
+      "id": "body.products.th.5",
+      "en": "Native CSP VMs",
+      "it": "",
+      "source": "products.html",
+      "context": "<th>"
+    },
+    {
+      "id": "body.products.ui.1",
+      "en": "Build. Deploy. Scale.",
+      "it": "",
+      "source": "products.html",
+      "context": "class"
+    },
+    {
+      "id": "body.products.ui.10",
+      "en": "Book a call",
+      "it": "",
+      "source": "products.html",
+      "context": "class"
+    },
+    {
+      "id": "body.products.ui.2",
+      "en": "A complete vendor-neutral",
+      "it": "",
+      "source": "products.html",
+      "context": "class"
+    },
+    {
+      "id": "body.products.ui.3",
+      "en": "Learn More",
+      "it": "",
+      "source": "products.html",
+      "context": "class"
+    },
+    {
+      "id": "body.products.ui.4",
+      "en": "Learn More",
+      "it": "",
+      "source": "products.html",
+      "context": "class"
+    },
+    {
+      "id": "body.products.ui.5",
+      "en": "Learn More",
+      "it": "",
+      "source": "products.html",
+      "context": "class"
+    },
+    {
+      "id": "body.products.ui.6",
+      "en": "Learn More",
+      "it": "",
+      "source": "products.html",
+      "context": "class"
+    },
+    {
+      "id": "body.products.ui.7",
+      "en": "Book a call",
+      "it": "",
+      "source": "products.html",
+      "context": "class"
+    },
+    {
+      "id": "body.products.ui.8",
+      "en": "Start Your Free Trial",
+      "it": "",
+      "source": "products.html",
+      "context": "class"
+    },
+    {
+      "id": "body.products.ui.9",
+      "en": "Learn About Our Technology",
+      "it": "",
+      "source": "products.html",
+      "context": "class"
+    },
+    {
+      "id": "meta.products.description",
+      "en": "Explore Elemento's comprehensive cloud platform products including AtomOS hypervisor, Electros orchestration dashboard, and Atomosphere API proxy for unified infrastructure management.",
+      "it": "",
+      "source": "products.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.products.title",
+      "en": "Elemento | Products | Cloud Infrastructure & Management Platform",
+      "it": "",
+      "source": "products.html",
+      "context": "meta title"
+    }
+  ]
+}

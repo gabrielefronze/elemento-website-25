@@ -1,0 +1,55 @@
+{
+  "page": "grazie_atomos-demo",
+  "count": 7,
+  "strings": [
+    {
+      "id": "body.grazie_atomos-demo.h1.1",
+      "en": "Prenotazione Confermata!",
+      "it": "",
+      "source": "grazie/atomos-demo-it/index.html",
+      "context": "<h1>"
+    },
+    {
+      "id": "body.grazie_atomos-demo.p.1",
+      "en": "È tutto pronto per il tuo approfondimento su AtomOS. Ti abbiamo appena inviato un'email di conferma con i dettagli.",
+      "it": "",
+      "source": "grazie/atomos-demo-it/index.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.grazie_atomos-demo.p.2",
+      "en": "🔔 Cosa fare ora: Controlla la tua casella di posta e accetta l'invito in calendario per assicurarti che l'appuntamento sia salvato correttamente. A presto!",
+      "it": "",
+      "source": "grazie/atomos-demo-it/index.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.grazie_atomos-demo.ui.1",
+      "en": "Scopri AtomOS",
+      "it": "",
+      "source": "grazie/atomos-demo-it/index.html",
+      "context": "class"
+    },
+    {
+      "id": "body.grazie_atomos-demo.ui.2",
+      "en": "Torna alla home",
+      "it": "",
+      "source": "grazie/atomos-demo-it/index.html",
+      "context": "class"
+    },
+    {
+      "id": "meta.grazie_atomos-demo.description",
+      "en": "La tua demo AtomOS è prenotata. Controlla l’email e accetta l’invito di calendario per confermare l’appuntamento.",
+      "it": "",
+      "source": "grazie/atomos-demo-it/index.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.grazie_atomos-demo.title",
+      "en": "Prenotazione confermata — demo AtomOS | Elemento",
+      "it": "",
+      "source": "grazie/atomos-demo-it/index.html",
+      "context": "meta title"
+    }
+  ]
+}

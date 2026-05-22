@@ -1,0 +1,104 @@
+{
+  "page": "blog-posts_2023-08-29-data-spaces-the-value-of-connected-data",
+  "count": 14,
+  "strings": [
+    {
+      "id": "body.blog-posts_2023-08-29-data-spaces-the-value-of-connected-data.h1.1",
+      "en": "Data spaces: the value of connected data",
+      "it": "",
+      "source": "blog-posts/2023-08-29-data-spaces-the-value-of-connected-data.html",
+      "context": "<h1>"
+    },
+    {
+      "id": "body.blog-posts_2023-08-29-data-spaces-the-value-of-connected-data.li.1",
+      "en": "ecure and Privacy-Preserving IT Infrastructure: Data spaces provide a robust and secure IT infrastructure that safeguards data privacy. This infrastructure ensures that data is handled with the utmost care and protection, inspiring confidence among users and facilitating data sharing.",
+      "it": "",
+      "source": "blog-posts/2023-08-29-data-spaces-the-value-of-connected-data.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2023-08-29-data-spaces-the-value-of-connected-data.li.2",
+      "en": "Data Governance Mechanism: A data governance mechanism within data spaces determines access rights, processing, usage, and sharing of data. It establishes clear rules and protocols that enable seamless collaboration and ensure responsible data management.",
+      "it": "",
+      "source": "blog-posts/2023-08-29-data-spaces-the-value-of-connected-data.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2023-08-29-data-spaces-the-value-of-connected-data.li.3",
+      "en": "Control over Data Access and Usage: Data space owners have the ability to control who can access their data, for what purpose, and under what conditions it can be used. This control empowers data owners, fostering trust and accountability in data-driven collaborations.",
+      "it": "",
+      "source": "blog-posts/2023-08-29-data-spaces-the-value-of-connected-data.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2023-08-29-data-spaces-the-value-of-connected-data.li.4",
+      "en": "Vast Repositories of Reusable Data: Data spaces host vast repositories of data that can be reused under specific conditions, either for a fee or freely, depending on the data owner's decision. This enables organizations and individuals to tap into a wealth of information, driving innovation and creating new opportunities.",
+      "it": "",
+      "source": "blog-posts/2023-08-29-data-spaces-the-value-of-connected-data.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2023-08-29-data-spaces-the-value-of-connected-data.li.5",
+      "en": "Open Participation: Data spaces encourage open participation from a wide range of organizations and individuals, fostering collaboration and knowledge exchange. By bringing together diverse stakeholders, they create an ecosystem that fuels creativity and problem-solving.",
+      "it": "",
+      "source": "blog-posts/2023-08-29-data-spaces-the-value-of-connected-data.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.blog-posts_2023-08-29-data-spaces-the-value-of-connected-data.p.1",
+      "en": "By giulia-borgoni &mdash; 2025-06-24",
+      "it": "",
+      "source": "blog-posts/2023-08-29-data-spaces-the-value-of-connected-data.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-08-29-data-spaces-the-value-of-connected-data.p.2",
+      "en": "Data spaces connect fragmented data, offering secure infrastructure, data governance mechanisms...",
+      "it": "",
+      "source": "blog-posts/2023-08-29-data-spaces-the-value-of-connected-data.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-08-29-data-spaces-the-value-of-connected-data.p.3",
+      "en": "In today's data-saturated world, it may seem paradoxical that the supply of reliable and high-quality data falls short of the demand. What does this mean? It means that the available data often fails to create the much-desired added value for businesses. Recognizing this challenge, European policies are pushing for the establishment of data spaces. But what exactly are data spaces, and why are they becoming crucial for socio-economic impact?",
+      "it": "",
+      "source": "blog-posts/2023-08-29-data-spaces-the-value-of-connected-data.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-08-29-data-spaces-the-value-of-connected-data.p.4",
+      "en": "Defining Data Spaces",
+      "it": "",
+      "source": "blog-posts/2023-08-29-data-spaces-the-value-of-connected-data.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-08-29-data-spaces-the-value-of-connected-data.p.5",
+      "en": "Data spaces are common environments that connect fragmented and dispersed data from various ecosystems, whether from the private or public sector. They offer an interoperable and trustworthy IT environment for data processing, accompanied by legislative, administrative, and contractual rules that govern access and usage rights. In summary, the key characteristics of data spaces are:",
+      "it": "",
+      "source": "blog-posts/2023-08-29-data-spaces-the-value-of-connected-data.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-08-29-data-spaces-the-value-of-connected-data.p.6",
+      "en": "Data spaces represent a paradigm shift in data management and collaboration. By connecting fragmented data, fostering trust, and providing a secure infrastructure, they have the potential to unleash a new era of socio-economic growth. As organizations embrace the power of connected data, they can make better decisions, drive innovation, boost efficiency, and accelerate their digital transformation journeys. In this age of data, data spaces hold the key to unlocking the immense value hidden within our vast digital universe.",
+      "it": "",
+      "source": "blog-posts/2023-08-29-data-spaces-the-value-of-connected-data.html",
+      "context": "<p>"
+    },
+    {
+      "id": "meta.blog-posts_2023-08-29-data-spaces-the-value-of-connected-data.description",
+      "en": "Data spaces connect fragmented data, offering secure infrastructure, data governance mechanisms...",
+      "it": "",
+      "source": "blog-posts/2023-08-29-data-spaces-the-value-of-connected-data.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.blog-posts_2023-08-29-data-spaces-the-value-of-connected-data.title",
+      "en": "Data spaces: the value of connected data | Elemento Blog",
+      "it": "",
+      "source": "blog-posts/2023-08-29-data-spaces-the-value-of-connected-data.html",
+      "context": "meta title"
+    }
+  ]
+}

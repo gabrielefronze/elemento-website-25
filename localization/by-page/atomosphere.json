@@ -1,0 +1,671 @@
+{
+  "page": "atomosphere",
+  "count": 95,
+  "strings": [
+    {
+      "id": "body.atomosphere.h1.1",
+      "en": "Atomosphere: The Gateway to +235 data centers",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<h1>"
+    },
+    {
+      "id": "body.atomosphere.h2.1",
+      "en": "The Federated Multicloud Gateway for Your Infrastructure",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.atomosphere.h2.2",
+      "en": "API proxy architecture",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.atomosphere.h2.3",
+      "en": "API proxy features",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.atomosphere.h2.4",
+      "en": "Provider Integration Status",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.atomosphere.h2.5",
+      "en": "API Proxy Benefits",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.atomosphere.h2.6",
+      "en": "Use Cases",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.atomosphere.h2.7",
+      "en": "Seamless Electros Integration",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.atomosphere.h2.8",
+      "en": "Ready to unify your CSP APIs?",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.atomosphere.h3.1",
+      "en": "SDN Architecture",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.atomosphere.h3.10",
+      "en": "Expandable CSP Integration",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.atomosphere.h3.11",
+      "en": "Your Accounts, Your Control",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.atomosphere.h3.12",
+      "en": "Multi-CSP Management",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.atomosphere.h3.13",
+      "en": "Cross-Provider Cost Optimization",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.atomosphere.h3.14",
+      "en": "DevOps & Infrastructure as Code",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.atomosphere.h3.15",
+      "en": "Unified Control",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.atomosphere.h3.2",
+      "en": "Zero Trust Security",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.atomosphere.h3.3",
+      "en": "Multi-Cloud Connectivity",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.atomosphere.h3.6",
+      "en": "Real-time",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.atomosphere.h3.7",
+      "en": "Universal API Abstraction",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.atomosphere.h3.8",
+      "en": "Dynamic Cloud-Cost Comparison",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.atomosphere.h3.9",
+      "en": "Provider Agnostic Provisioning",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.atomosphere.h4.1",
+      "en": "Production Ready",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.atomosphere.h4.2",
+      "en": "Beta Testing",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.atomosphere.h4.3",
+      "en": "In Development",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.atomosphere.h4.4",
+      "en": "Proxy Benefits:",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.atomosphere.h4.5",
+      "en": "Integration Benefits:",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.atomosphere.li.1",
+      "en": "Home",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomosphere.li.10",
+      "en": "Real-time cost visibility across all providers",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomosphere.li.11",
+      "en": "No additional fees or markup on resources",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomosphere.li.12",
+      "en": "Single API to learn instead of multiple CSP APIs",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomosphere.li.13",
+      "en": "✓ Single interface for all cloud providers",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomosphere.li.14",
+      "en": "✓ Unified credential management",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomosphere.li.15",
+      "en": "✓ Cross-cloud VM migration and management",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomosphere.li.16",
+      "en": "✓ Real-time cost monitoring and optimization",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomosphere.li.2",
+      "en": "Products",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomosphere.li.3",
+      "en": "Atomosphere",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomosphere.li.4",
+      "en": "API proxy for AWS, Azure, GCP, and 10+ major CSPs",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomosphere.li.5",
+      "en": "Maps CSP-specific APIs into a single Elemento API",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomosphere.li.6",
+      "en": "Real-time cost comparison across providers",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomosphere.li.7",
+      "en": "Use your existing cloud accounts and credentials",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomosphere.li.8",
+      "en": "Deep integration with Electros orchestration dashboard and CLI",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomosphere.li.9",
+      "en": "Keep your existing CSP accounts and billing",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomosphere.p.1",
+      "en": "Instead of learning separate APIs for AWS, Azure, Google Cloud, and other CSPs, Atomosphere provides one API to rule them all while you continue using your existing cloud accounts.",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosphere.p.10",
+      "en": "Cost Comparison",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosphere.p.11",
+      "en": "Your cloud flow: Electros UI/CLI ⇄ Elemento API proxy ⇄ your existing AWS/Azure/GCP accounts",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosphere.p.12",
+      "en": "Loading diagram...",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosphere.p.13",
+      "en": "Universal API abstraction layer for existing CSP accounts",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosphere.p.14",
+      "en": "Operators learn one API — Elemento's — while the proxy handles translation to AWS , Azure , GCP , on-prem KVM , and more.",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosphere.p.15",
+      "en": "Electros UI surfaces cost-per-VM metrics across your CSP accounts. Atomosphere helps you identify the best-priced resources across providers in real-time.",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosphere.p.16",
+      "en": "Launch a VM wherever you choose, all through the same dashboard or script — cloud-agnostic PaaS provisioning .",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosphere.p.17",
+      "en": "10+ major CSPs supported today, with ongoing API integrations and custom provider support for enterprise customers.",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosphere.p.18",
+      "en": "Detailed breakdown of supported functionalities across all integrated CSPs",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosphere.p.19",
+      "en": "Loading provider data...",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosphere.p.2",
+      "en": "Software-defined networking with programmable infrastructure and automated network management",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosphere.p.20",
+      "en": "Loading...",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosphere.p.21",
+      "en": "Loading...",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosphere.p.22",
+      "en": "Loading...",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosphere.p.23",
+      "en": "Unified interface while using your existing CSP accounts",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosphere.p.24",
+      "en": "The Elemento API proxy sits between your applications and CSP APIs, providing unified access while you continue billing directly with your existing cloud providers. No markup, no middleman billing.",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosphere.p.25",
+      "en": "The proxy forwards API calls to your existing CSP accounts. You maintain full control and direct billing relationships.",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosphere.p.26",
+      "en": "Perfect for modern cloud-native and hybrid deployments",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosphere.p.27",
+      "en": "Manage VMs across your AWS , Azure , and GCP accounts with a single API — no need to learn multiple CSP APIs.",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosphere.p.28",
+      "en": "Compare costs across multiple CSPs in real-time to choose the most cost-effective option for each workload without vendor lock-in.",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosphere.p.29",
+      "en": "Terraform and DevOps teams can use Elemento's unified API for multi-cloud deployments without learning provider-specific syntax.",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosphere.p.3",
+      "en": "Advanced network segmentation, micro-segmentation, and identity-based access controls",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosphere.p.30",
+      "en": "Unified management across all connected clouds",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosphere.p.31",
+      "en": "All clouds connected through Atomosphere appear in the Electros interface and CLI as a unified provider list . No need to remember multiple credentials or APIs.",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosphere.p.32",
+      "en": "Manage VMs across all providers from a single dashboard, CLI, or API interface.",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosphere.p.33",
+      "en": "Experience unified multicloud management with Atomosphere",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosphere.p.4",
+      "en": "Seamless integration across public clouds with unified network policies and monitoring",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosphere.p.5",
+      "en": "Elemento's Atomosphere gateway acts as a universal proxy that abstracts cloud provider APIs into a unified protocol , enabling cross-provider VM management , pricing comparison , and seamless migrations .",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosphere.p.6",
+      "en": "Instead of learning separate APIs for AWS , Azure , Google Cloud , and other CSPs, Atomosphere provides one API to rule them all while you continue using your existing cloud accounts.",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosphere.p.7",
+      "en": "CSP Integrations",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosphere.p.8",
+      "en": "API Compatibility",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosphere.p.9",
+      "en": "Unified API",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosphere.td.1",
+      "en": "Loading provider data...",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<td>"
+    },
+    {
+      "id": "body.atomosphere.th.1",
+      "en": "Provider",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<th>"
+    },
+    {
+      "id": "body.atomosphere.th.2",
+      "en": "VM Management",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<th>"
+    },
+    {
+      "id": "body.atomosphere.th.3",
+      "en": "Storage-aaS",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<th>"
+    },
+    {
+      "id": "body.atomosphere.th.4",
+      "en": "Networking",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<th>"
+    },
+    {
+      "id": "body.atomosphere.th.5",
+      "en": "K8s",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<th>"
+    },
+    {
+      "id": "body.atomosphere.th.6",
+      "en": "Bare-metal",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<th>"
+    },
+    {
+      "id": "body.atomosphere.th.7",
+      "en": "Status",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "<th>"
+    },
+    {
+      "id": "body.atomosphere.ui.1",
+      "en": "Connect. Unify. Control.",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "class"
+    },
+    {
+      "id": "body.atomosphere.ui.2",
+      "en": "Instead of learning separate APIs for AWS, Azure, Google Cloud, and other CSPs, Atomosphere provides one API to rule them all while you continue using your existing cloud accounts.",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "class"
+    },
+    {
+      "id": "body.atomosphere.ui.3",
+      "en": "Discover the platform",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "class"
+    },
+    {
+      "id": "body.atomosphere.ui.4",
+      "en": "Join as a Provider",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "class"
+    },
+    {
+      "id": "body.atomosphere.ui.5",
+      "en": "Read Documentation",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "class"
+    },
+    {
+      "id": "body.atomosphere.ui.6",
+      "en": "Learn About Electros",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "class"
+    },
+    {
+      "id": "body.atomosphere.ui.7",
+      "en": "Get started with Atomosphere",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "class"
+    },
+    {
+      "id": "body.atomosphere.ui.8",
+      "en": "Learn More",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "class"
+    },
+    {
+      "id": "body.atomosphere.ui.9",
+      "en": "Book a call",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "class"
+    },
+    {
+      "id": "meta.atomosphere.description",
+      "en": "Elemento's multicloud API gateway connects 235+ clouds and on-prem nodes into one programmable network. Unified control, seamless portability.",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.atomosphere.title",
+      "en": "Atomosphere — Federated Multicloud Gateway | Elemento",
+      "it": "",
+      "source": "atomosphere.html",
+      "context": "meta title"
+    }
+  ]
+}

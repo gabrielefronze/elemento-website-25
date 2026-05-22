@@ -1,0 +1,118 @@
+{
+  "page": "blog-posts_2023-01-01-7-cloud-curiorities",
+  "count": 16,
+  "strings": [
+    {
+      "id": "body.blog-posts_2023-01-01-7-cloud-curiorities.h1.1",
+      "en": "7 cloud curiorities",
+      "it": "",
+      "source": "blog-posts/2023-01-01-7-cloud-curiorities.html",
+      "context": "<h1>"
+    },
+    {
+      "id": "body.blog-posts_2023-01-01-7-cloud-curiorities.h3.1",
+      "en": "References",
+      "it": "",
+      "source": "blog-posts/2023-01-01-7-cloud-curiorities.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.blog-posts_2023-01-01-7-cloud-curiorities.p.1",
+      "en": "By giulia-borgoni &mdash; 2025-06-24",
+      "it": "",
+      "source": "blog-posts/2023-01-01-7-cloud-curiorities.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-01-01-7-cloud-curiorities.p.10",
+      "en": "Finally, the survey revealed that 60% of Italian companies use cloud services, placing Italy in fifth place in Europe. This figure surpasses the European average calculated by Eurostat (42%) and positions Italy ahead of countries like Germany (40%) and France (30%). Sweden tops the list with 75%, while Bulgaria closes the ranking with only 13%.",
+      "it": "",
+      "source": "blog-posts/2023-01-01-7-cloud-curiorities.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-01-01-7-cloud-curiorities.p.11",
+      "en": "Cloud computing has proven to be a rapidly growing technology with significant impacts on various industries and sectors. With its flexibility, accessibility, and energy efficiency, the cloud is transforming the way we work and interact with technology, offering unprecedented opportunities to enhance efficiency and reduce environmental impact.",
+      "it": "",
+      "source": "blog-posts/2023-01-01-7-cloud-curiorities.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-01-01-7-cloud-curiorities.p.12",
+      "en": "Il cloud compie 25 anni. Numeri e storia della \"nuvola digitale\"",
+      "it": "",
+      "source": "blog-posts/2023-01-01-7-cloud-curiorities.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-01-01-7-cloud-curiorities.p.2",
+      "en": "Cloud computing has revolutionized how we work, play, and store data. A survey...",
+      "it": "",
+      "source": "blog-posts/2023-01-01-7-cloud-curiorities.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-01-01-7-cloud-curiorities.p.3",
+      "en": "The cloud computing has revolutionized the way we work, play, and store data. A survey conducted by Espresso Communication for Mia-Platform has revealed seven fascinating curiosities about the history and evolution of this increasingly prevalent technology. Let's explore together how cloud computing has influenced various aspects of our lives.",
+      "it": "",
+      "source": "blog-posts/2023-01-01-7-cloud-curiorities.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-01-01-7-cloud-curiorities.p.4",
+      "en": "First and foremost, one of the most evident benefits of the cloud has been smart working. According to a survey conducted by Robert Half, 33% of smart workers would prefer to leave their jobs rather than return to the office. Thanks to cloud computing, remote work has become more accessible and flexible.",
+      "it": "",
+      "source": "blog-posts/2023-01-01-7-cloud-curiorities.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-01-01-7-cloud-curiorities.p.5",
+      "en": "Another area where the cloud has had a significant impact is the gaming industry. According to a report by Newzoo, there are over 31.7 million gamers worldwide who will spend approximately $2.4 billion on cloud-based services and games by the end of 2022. Europe accounts for 30% of this market, ranking second after Asia-Pacific.",
+      "it": "",
+      "source": "blog-posts/2023-01-01-7-cloud-curiorities.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-01-01-7-cloud-curiorities.p.6",
+      "en": "However, it's not just gaming those benefits from the cloud. Cloud-based services have become an essential part of our work lives. On average, an employee uses 36 cloud services in their daily routine, ranging from email and file storage to software usage, security, and CRM.",
+      "it": "",
+      "source": "blog-posts/2023-01-01-7-cloud-curiorities.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-01-01-7-cloud-curiorities.p.7",
+      "en": "When it comes to sectors that derive the most benefits from cloud services, the financial, insurance, and banking sectors stand out, representing 25% of total revenues. Information Technology services come in second place, while telecommunications complete the top three, according to a study by Grandview Research.",
+      "it": "",
+      "source": "blog-posts/2023-01-01-7-cloud-curiorities.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-01-01-7-cloud-curiorities.p.8",
+      "en": "In terms of spending, the United States takes the lead. According to Gartner, in 2022, 14% of the total IT spending will be allocated to cloud services, making the United States the country with the highest cloud spending. The United States also boasts the highest number of data centers globally, with 2,653, followed by the United Kingdom (451) and Germany (442).",
+      "it": "",
+      "source": "blog-posts/2023-01-01-7-cloud-curiorities.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.blog-posts_2023-01-01-7-cloud-curiorities.p.9",
+      "en": "Beyond the economic benefits, cloud computing has shown a positive impact on the environment. A study conducted by Accenture found that companies migrating from physical servers to the cloud achieve a 65% reduction in energy consumption and an 84% decrease in carbon emissions. Data centers are moving to cooler areas or even underwater, contributing to environmental sustainability.",
+      "it": "",
+      "source": "blog-posts/2023-01-01-7-cloud-curiorities.html",
+      "context": "<p>"
+    },
+    {
+      "id": "meta.blog-posts_2023-01-01-7-cloud-curiorities.description",
+      "en": "Cloud computing has revolutionized how we work, play, and store data. A survey...",
+      "it": "",
+      "source": "blog-posts/2023-01-01-7-cloud-curiorities.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.blog-posts_2023-01-01-7-cloud-curiorities.title",
+      "en": "7 cloud curiorities | Elemento Blog",
+      "it": "",
+      "source": "blog-posts/2023-01-01-7-cloud-curiorities.html",
+      "context": "meta title"
+    }
+  ]
+}

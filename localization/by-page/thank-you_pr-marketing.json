@@ -1,0 +1,55 @@
+{
+  "page": "thank-you_pr-marketing",
+  "count": 7,
+  "strings": [
+    {
+      "id": "body.thank-you_pr-marketing.h1.1",
+      "en": "Booking Complete! Let's amplify our reach.",
+      "it": "",
+      "source": "thank-you/pr-marketing/index.html",
+      "context": "<h1>"
+    },
+    {
+      "id": "body.thank-you_pr-marketing.p.1",
+      "en": "Your session to discuss webinars, events, or media coverage is confirmed.",
+      "it": "",
+      "source": "thank-you/pr-marketing/index.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.thank-you_pr-marketing.p.2",
+      "en": "📧 Check your inbox: You should have received a calendar invitation. Please accept it so we can keep our brainstorm session on track. Talk soon!",
+      "it": "",
+      "source": "thank-you/pr-marketing/index.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.thank-you_pr-marketing.ui.1",
+      "en": "Contact the team",
+      "it": "",
+      "source": "thank-you/pr-marketing/index.html",
+      "context": "class"
+    },
+    {
+      "id": "body.thank-you_pr-marketing.ui.2",
+      "en": "Back to homepage",
+      "it": "",
+      "source": "thank-you/pr-marketing/index.html",
+      "context": "class"
+    },
+    {
+      "id": "meta.thank-you_pr-marketing.description",
+      "en": "Your PR and marketing session is confirmed. Accept the calendar invitation from your inbox to keep your brainstorm on track.",
+      "it": "",
+      "source": "thank-you/pr-marketing/index.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.thank-you_pr-marketing.title",
+      "en": "Booking complete — PR &amp; Marketing | Elemento",
+      "it": "",
+      "source": "thank-you/pr-marketing/index.html",
+      "context": "meta title"
+    }
+  ]
+}

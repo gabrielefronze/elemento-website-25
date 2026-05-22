@@ -1,0 +1,356 @@
+{
+  "page": "about",
+  "count": 50,
+  "strings": [
+    {
+      "id": "body.about.h1.1",
+      "en": "About Elemento",
+      "it": "",
+      "source": "about.html",
+      "context": "<h1>"
+    },
+    {
+      "id": "body.about.h2.1",
+      "en": "Our Mission",
+      "it": "",
+      "source": "about.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.about.h2.2",
+      "en": "Our Values",
+      "it": "",
+      "source": "about.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.about.h2.3",
+      "en": "Meet Our Team",
+      "it": "",
+      "source": "about.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.about.h2.4",
+      "en": "Our Journey",
+      "it": "",
+      "source": "about.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.about.h2.5",
+      "en": "Join Our Mission",
+      "it": "",
+      "source": "about.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.about.h3.1",
+      "en": "Innovation at Scale",
+      "it": "",
+      "source": "about.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.about.h3.10",
+      "en": "Strategic use cases",
+      "it": "",
+      "source": "about.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.about.h3.11",
+      "en": "Seed round & equity",
+      "it": "",
+      "source": "about.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.about.h3.12",
+      "en": "IMSA & global ecosystem",
+      "it": "",
+      "source": "about.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.about.h3.13",
+      "en": "Scale-up & federated cloud",
+      "it": "",
+      "source": "about.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.about.h3.2",
+      "en": "Freedom & Control",
+      "it": "",
+      "source": "about.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.about.h3.3",
+      "en": "Cost Efficiency",
+      "it": "",
+      "source": "about.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.about.h3.4",
+      "en": "Sustainability",
+      "it": "",
+      "source": "about.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.about.h3.5",
+      "en": "Performance",
+      "it": "",
+      "source": "about.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.about.h3.6",
+      "en": "Security",
+      "it": "",
+      "source": "about.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.about.h3.7",
+      "en": "Partnership",
+      "it": "",
+      "source": "about.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.about.h3.8",
+      "en": "Founded in Cuneo",
+      "it": "",
+      "source": "about.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.about.h3.9",
+      "en": "Modular platform & OS",
+      "it": "",
+      "source": "about.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.about.li.1",
+      "en": "Home",
+      "it": "",
+      "source": "about.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.about.li.2",
+      "en": "About",
+      "it": "",
+      "source": "about.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.about.p.1",
+      "en": "Learn about our mission , values , and the innovative team powering the future of cloud computing.",
+      "it": "",
+      "source": "about.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.about.p.10",
+      "en": "Building trust through robust security measures and compliance with industry standards and regulations.",
+      "it": "",
+      "source": "about.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.about.p.11",
+      "en": "Working closely with our customers to understand their needs and provide tailored solutions that drive success.",
+      "it": "",
+      "source": "about.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.about.p.12",
+      "en": "The experts behind Elemento's innovative cloud platform",
+      "it": "",
+      "source": "about.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.about.p.13",
+      "en": "Milestones and equity history aligned with our public profile on Crunchbase (founded 2021, headquartered in Cuneo, Italy).",
+      "it": "",
+      "source": "about.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.about.p.14",
+      "en": "Elemento Modular Cloud is established as an Italian startup in Cuneo, Piedmont—with a mission to make advanced private and public cloud infrastructure approachable while keeping data firmly under customer control. Explore our product lineup and technology story .",
+      "it": "",
+      "source": "about.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.about.p.15",
+      "en": "We concentrate engineering on the Elemento stack: a modular data-and-compute architecture, intuitive proprietary software, and AtomOS -driven on-premise and appliance deployments—so organizations can run cloud-grade stacks without hyperscaler lock-in.",
+      "it": "",
+      "source": "about.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.about.p.16",
+      "en": "We sharpen go-to-market around high-impact trajectories called out in innovation-cluster and ecosystem profiles: IoT, AI, blockchain & Web3, advanced computing, and polished UX—spanning smart infrastructure, industry, fintech, healthcare, education, and digital public services.",
+      "it": "",
+      "source": "about.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.about.p.17",
+      "en": "We close our seed financing (March 2024), with Fin+Tech as lead investor and additional institutional participation; round size is summarized on aggregators and on Crunchbase . Our commercial model—hardware and software, support plans, and network resource exchange—scales alongside that capital. Open engineering continues on GitHub .",
+      "it": "",
+      "source": "about.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.about.p.18",
+      "en": "We were named among the 18 finalists of the Italian Master Startup Award (IMSA) 2025 , presented during Italian Tech Week in Turin (October 2025). Press coverage highlighted enterprise traction, collaboration with partners such as Dell Technologies , participation in the NVIDIA Inception program, and support from CDP and the Fin+Tech accelerator.",
+      "it": "",
+      "source": "about.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.about.p.19",
+      "en": "We extend federation, automation, and sustainable compute : deeper multi-cloud and hybrid operations, broader partner and provider integrations, and the next wave of security and orchestration—so customers keep full data ownership without hyperscaler lock-in. Updated funding and company facts remain on Crunchbase .",
+      "it": "",
+      "source": "about.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.about.p.2",
+      "en": "At Elemento , we believe that cloud infrastructure should be accessible , affordable , and environmentally responsible . Our mission is to democratize cloud computing by providing vendor-neutral solutions that give organizations complete control over their infrastructure while reducing costs and environmental impact. Explore our complete product suite and learn about our innovative technology .",
+      "it": "",
+      "source": "about.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.about.p.20",
+      "en": "Ready to transform your infrastructure with Elemento? Let's build the future of cloud computing together.",
+      "it": "",
+      "source": "about.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.about.p.3",
+      "en": "We're building the future of cloud computing - one that prioritizes performance , cost-effectiveness , and sustainability without compromising on enterprise-grade security and reliability. Read about our latest innovations on our blog and get in touch to learn more.",
+      "it": "",
+      "source": "about.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.about.p.4",
+      "en": "Pioneering the next generation of cloud infrastructure with cutting-edge technology and sustainable practices. Discover our technical innovations and product capabilities .",
+      "it": "",
+      "source": "about.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.about.p.5",
+      "en": "The principles that guide everything we do at Elemento",
+      "it": "",
+      "source": "about.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.about.p.6",
+      "en": "We believe in vendor neutrality and giving organizations complete control over their infrastructure. No lock-in, no restrictions.",
+      "it": "",
+      "source": "about.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.about.p.7",
+      "en": "Making cloud computing affordable for organizations of all sizes through intelligent optimization and transparent pricing.",
+      "it": "",
+      "source": "about.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.about.p.8",
+      "en": "Committed to reducing the environmental impact of cloud computing through green technology and energy optimization.",
+      "it": "",
+      "source": "about.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.about.p.9",
+      "en": "Delivering enterprise-grade performance and reliability without compromising on speed or scalability.",
+      "it": "",
+      "source": "about.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.about.ui.1",
+      "en": "Our Story. Our Mission. Our passion.",
+      "it": "",
+      "source": "about.html",
+      "context": "class"
+    },
+    {
+      "id": "body.about.ui.2",
+      "en": "Learn about our mission",
+      "it": "",
+      "source": "about.html",
+      "context": "class"
+    },
+    {
+      "id": "body.about.ui.3",
+      "en": "Meet the cloudnauts!",
+      "it": "",
+      "source": "about.html",
+      "context": "class"
+    },
+    {
+      "id": "body.about.ui.4",
+      "en": "Explore Our Solutions",
+      "it": "",
+      "source": "about.html",
+      "context": "class"
+    },
+    {
+      "id": "body.about.ui.5",
+      "en": "Join the team",
+      "it": "",
+      "source": "about.html",
+      "context": "class"
+    },
+    {
+      "id": "body.about.ui.6",
+      "en": "Get Started Today",
+      "it": "",
+      "source": "about.html",
+      "context": "class"
+    },
+    {
+      "id": "body.about.ui.7",
+      "en": "Explore Products",
+      "it": "",
+      "source": "about.html",
+      "context": "class"
+    },
+    {
+      "id": "meta.about.description",
+      "en": "Learn about Elemento's mission to transform cloud infrastructure with vendor-neutral, cost-effective, and green computing solutions.",
+      "it": "",
+      "source": "about.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.about.title",
+      "en": "Elemento | About | Cloud Platform Mission & Team",
+      "it": "",
+      "source": "about.html",
+      "context": "meta title"
+    }
+  ]
+}
