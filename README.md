@@ -30,6 +30,16 @@ A modern, responsive website for Elemento - a company specializing in modular cl
 - **Toast Notifications**: User feedback system
 - **Hover Effects**: Engaging hover animations
 
+## Local preview (Live Server + GitHub Pages)
+
+The site is built to static HTML in `dist/` (same output deployed to GitHub Pages).
+
+1. Run `npm run build` (or **Terminal → Run Build Task** in VS Code).
+2. Start **Live Server** — workspace settings serve from `dist/`, not the repo root.
+3. Open e.g. `http://127.0.0.1:5500/it/contact.html`.
+
+After changing pages or i18n, rebuild before refreshing Live Server. For hot reload while editing, use `npm run dev` instead.
+
 ## Structure
 
 ```
@@ -188,7 +198,7 @@ Potential improvements for future versions:
 
 - **Blog Section**: Company news and updates
 - **Product Pages**: Detailed product information
-- **Multi-language Support**: Internationalization
+- **Multi-language Support**: EN + IT via Astro — all pages in `src/data/pages-manifest.json` (run `npm run build`, deploy `dist/`)
 - **CMS Integration**: Content management system
 - **Analytics**: User behavior tracking
 - **A/B Testing**: Performance optimization
