@@ -273,11 +273,20 @@
         return div.innerHTML;
     };
 
-    // Start loading when DOM is ready
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', initializePage);
+    function start() {
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initializePage);
+        } else {
+            initializePage();
+        }
+    }
+
+    // Wait for async solution config when using solution-config-loader.js
+    if (document.querySelector('script[data-solution-config]') && typeof window.pageConfig === 'undefined') {
+        document.addEventListener('pageConfigReady', start, { once: true });
+        setTimeout(start, 3000);
     } else {
-        initializePage();
+        start();
     }
 
 })();

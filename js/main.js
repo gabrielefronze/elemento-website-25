@@ -749,20 +749,15 @@ class ElementoWebsite {
             const iubendaFixScript = document.createElement('script');
             iubendaFixScript.type = 'text/javascript';
 
-            // Determine the correct path based on URL path (more reliable than document.currentScript).
-            const pathname = window.location.pathname;
-            const isInBlogPost = pathname.includes('/blog-posts/');
-            const isInSolutions = pathname.includes('/solutions/');
-            const isInTechnology = pathname.includes('/technology/');
-
-            let iubendaPath;
-            if (isInBlogPost || isInSolutions || isInTechnology) {
-                iubendaPath = '../js/iubenda_fix.js';
-            } else {
-                iubendaPath = 'js/iubenda_fix.js';
-            }
-
-            iubendaFixScript.src = iubendaPath;
+            iubendaFixScript.src = window.ElementoI18n?.assetUrl
+                ? window.ElementoI18n.assetUrl('js/iubenda_fix.js')
+                : (() => {
+                    const parts = window.location.pathname.split('/').filter(Boolean);
+                    const last = parts[parts.length - 1] || '';
+                    const depth = last.endsWith('.html') ? parts.length - 1 : parts.length;
+                    const base = depth ? '../'.repeat(depth) : '';
+                    return `${base}js/iubenda_fix.js`;
+                })();
             document.head.appendChild(iubendaFixScript);
         }
     }

@@ -12,10 +12,95 @@ class Navbar {
         console.log(logMessage, data || '');
     }
 
+    getLocale() {
+        if (window.__I18N__?.locale) return window.__I18N__.locale;
+        if (document.documentElement.lang === 'it') return 'it';
+        const path = window.location.pathname;
+        if (path.startsWith('/it/') || path === '/it') return 'it';
+        return 'en';
+    }
+
+    getUi() {
+        return window.__I18N__?.ui || null;
+    }
+
+    t(key, fallback) {
+        const ui = this.getUi();
+        if (!ui) return fallback;
+        const parts = key.split('.');
+        let cur = ui;
+        for (const p of parts) {
+            if (cur && typeof cur === 'object' && p in cur) cur = cur[p];
+            else return fallback;
+        }
+        return typeof cur === 'string' ? cur : fallback;
+    }
+
     getCurrentPage() {
         const path = window.location.pathname;
-        const filename = path.split('/').pop() || 'index.html';
+        let filename = path.split('/').pop() || 'index.html';
+        if (filename === 'it' || !filename.endsWith('.html')) {
+            const parts = path.split('/').filter(Boolean);
+            if (parts[0] === 'it') {
+                filename = parts.length > 1 ? parts[parts.length - 1] : 'index.html';
+                if (!filename.endsWith('.html')) filename = 'index.html';
+            }
+        }
         return filename;
+    }
+
+    getPageStem() {
+        if (window.__I18N__?.stem) return window.__I18N__.stem;
+        const path = window.location.pathname.replace(/\/+$/, '') || '/';
+        let p = path;
+        if (p.startsWith('/it/')) p = p.slice(3) || '/';
+        else if (p === '/it') return 'index';
+        if (p === '/' || p === '/index.html') return 'index';
+        const m = p.match(/^\/(.+?)\.html$/);
+        return m ? m[1] : 'index';
+    }
+
+    getPathPrefix() {
+        const parts = window.location.pathname.split('/').filter(Boolean);
+        if (parts.length && parts[parts.length - 1].endsWith('.html')) {
+            parts.pop();
+        }
+        return parts.length ? '../'.repeat(parts.length) : './';
+    }
+
+    getLocalizedHref(filename) {
+        if (window.ElementoI18n?.pageHref) {
+            return window.ElementoI18n.pageHref(filename, this.getLocale());
+        }
+        const locale = this.getLocale();
+        if (locale === 'it') {
+            return `/it/${filename}`;
+        }
+        return filename === 'index.html' ? '/' : `/${filename}`;
+    }
+
+    renderLanguageSwitcher() {
+        const locale = this.getLocale();
+        const stem = this.getPageStem();
+        const enHref = window.ElementoI18n?.localeStemHref
+            ? window.ElementoI18n.localeStemHref(stem, 'en')
+            : stem === 'index'
+              ? '/'
+              : `/${stem}.html`;
+        const itHref = window.ElementoI18n?.localeStemHref
+            ? window.ElementoI18n.localeStemHref(stem, 'it')
+            : stem === 'index'
+              ? '/it/index.html'
+              : `/it/${stem}.html`;
+        const label = this.t('langSwitcher.label', 'Language');
+        const enLabel = this.t('langSwitcher.en', 'EN');
+        const itLabel = this.t('langSwitcher.it', 'IT');
+        return `
+            <div class="lang-switcher" role="navigation" aria-label="${label}">
+                <a href="${enHref}" class="lang-switcher__link${locale === 'en' ? ' lang-switcher__link--active' : ''}" hreflang="en" lang="en">${enLabel}</a>
+                <span class="lang-switcher__sep" aria-hidden="true">|</span>
+                <a href="${itHref}" class="lang-switcher__link${locale === 'it' ? ' lang-switcher__link--active' : ''}" hreflang="it" lang="it">${itLabel}</a>
+            </div>`;
     }
 
     // Add method to check if current page is a product page
@@ -26,13 +111,21 @@ class Navbar {
 
     getBasePath() {
         const path = window.location.pathname;
-        const pathParts = path.split('/').filter(part => part !== '');
+        const locale = this.getLocale();
+        let pathParts = path.split('/').filter(part => part !== '');
+        const inIt = pathParts[0] === 'it';
+        if (inIt) {
+            pathParts = pathParts.slice(1);
+        }
         if (pathParts.length === 0) {
-            return './';
+            return inIt ? '../' : './';
         }
         const last = pathParts[pathParts.length - 1];
         const hasHtmlFile = last.endsWith('.html');
-        const directoryDepth = hasHtmlFile ? pathParts.length - 1 : pathParts.length;
+        let directoryDepth = hasHtmlFile ? pathParts.length - 1 : pathParts.length;
+        if (inIt) {
+            directoryDepth += 1;
+        }
         if (directoryDepth <= 0) {
             return './';
         }
@@ -79,45 +172,49 @@ class Navbar {
     }
 
     render() {
-        const basePath = this.getBasePath();
+        const basePath = window.ElementoI18n?.getAssetBase
+            ? window.ElementoI18n.getAssetBase()
+            : this.getPathPrefix();
         const bannerHtml = this.renderBanner();
+        const indexHref = this.getLocalizedHref('index.html');
+        const langSwitcher = this.renderLanguageSwitcher();
 
         return `
             ${bannerHtml}
             <nav class="navbar ${bannerHtml ? 'has-banner' : ''}">
                 <div class="nav-container">
-                    <a href="${basePath}index.html" class="logo" aria-label="Elemento home">
+                    <a href="${indexHref}" class="logo" aria-label="${this.t('nav.homeAria', 'Elemento home')}">
                         <span class="logo-lockup" aria-hidden="true"></span>
                     </a>
                     
                     <ul class="nav-menu">
                         <li class="dropdown">
-                            <a href="${basePath}products.html" class="nav-link ${this.getActiveClass('products.html')}">Products <span class="dropdown-arrow">▼</span></a>
+                            <a href="${this.getLocalizedHref('products.html')}" class="nav-link ${this.getActiveClass('products.html')}">${this.t('nav.products', 'Products')} <span class="dropdown-arrow">▼</span></a>
                             <!-- Mobile dropdown menu integrated into nav-menu -->
                             <div class="dropdown-menu mobile-dropdown">
                                 <ul>
-                                    <li><a href="${basePath}atomos.html" class="dropdown-link ${this.getActiveClass('atomos.html')}">
+                                    <li><a href="${this.getLocalizedHref('atomos.html')}" class="dropdown-link ${this.getActiveClass('atomos.html')}">
                                         <img src="${basePath}assets/logos/Atomos.svg" alt="AtomOS icon" class="product-icon" width="20" height="20">
                                         <span class="">AtomOS</span>
                                     </a></li>
-                                    <li><a href="${basePath}electros.html" class="dropdown-link ${this.getActiveClass('electros.html')}">
+                                    <li><a href="${this.getLocalizedHref('electros.html')}" class="dropdown-link ${this.getActiveClass('electros.html')}">
                                         <img src="${basePath}assets/logos/Electros.svg" alt="Electros icon" class="product-icon" width="20" height="20">
                                         <span class="">Electros</span>
                                     </a></li>
-                                    <li><a href="${basePath}atomosphere.html" class="dropdown-link ${this.getActiveClass('atomosphere.html')}">
+                                    <li><a href="${this.getLocalizedHref('atomosphere.html')}" class="dropdown-link ${this.getActiveClass('atomosphere.html')}">
                                         <img src="${basePath}assets/logos/Atomosphere.svg" alt="Atomosphere icon" class="product-icon" width="20" height="20">
                                         <span class="">Atomosphere</span>
                                     </a></li>
                                 </ul>
                             </div>
                         </li>
-                        <li><a href="${basePath}technology.html" class="nav-link ${this.getActiveClass('technology.html')}">Technology</a></li>
-                        <li><a href="${basePath}about.html" class="nav-link ${this.getActiveClass('about.html')}">About</a></li>
-                        <li><a href="${basePath}contact.html" class="nav-link ${this.getActiveClass('contact.html')}">Contact</a></li>
-                        <li><a href="${basePath}blog.html" class="nav-link ${this.getActiveClass('blog.html')}">Blog</a></li>
+                        <li><a href="${this.getLocalizedHref('technology.html')}" class="nav-link ${this.getActiveClass('technology.html')}">${this.t('nav.technology', 'Technology')}</a></li>
+                        <li><a href="${this.getLocalizedHref('about.html')}" class="nav-link ${this.getActiveClass('about.html')}">${this.t('nav.about', 'About')}</a></li>
+                        <li><a href="${this.getLocalizedHref('contact.html')}" class="nav-link ${this.getActiveClass('contact.html')}">${this.t('nav.contact', 'Contact')}</a></li>
+                        <li><a href="${this.getLocalizedHref('blog.html')}" class="nav-link ${this.getActiveClass('blog.html')}">${this.t('nav.blog', 'Blog')}</a></li>
                         <li class="nav-cta-group">
-                            <a href="${basePath}signup.html" class="nav-link nav-cta-link">Signup</a>
-                            <a href="https://book.elemento.cloud/" class="nav-link nav-cta-link nav-cta-link--book" target="_blank" rel="noopener noreferrer">Book a Call</a>
+                            <a href="${this.getLocalizedHref('signup.html')}" class="nav-link nav-cta-link">${this.t('nav.signup', 'Signup')}</a>
+                            <a href="https://book.elemento.cloud/" class="nav-link nav-cta-link nav-cta-link--book" target="_blank" rel="noopener noreferrer">${this.t('nav.bookCall', 'Book a Call')}</a>
                         </li>
                     </ul>
 
@@ -125,15 +222,15 @@ class Navbar {
                     <div class="dropdown-menu desktop-dropdown">
                         <div class="container">
                             <ul>
-                                <li><a href="${basePath}atomos.html" class="dropdown-link ${this.getActiveClass('atomos.html')}">
+                                <li><a href="${this.getLocalizedHref('atomos.html')}" class="dropdown-link ${this.getActiveClass('atomos.html')}">
                                     <img src="${basePath}assets/logos/Atomos.svg" alt="Atomos icon" class="product-icon" width="20" height="20">
                                     <span class="">AtomOS</span>
                                 </a></li>
-                                <li><a href="${basePath}electros.html" class="dropdown-link ${this.getActiveClass('electros.html')}">
+                                <li><a href="${this.getLocalizedHref('electros.html')}" class="dropdown-link ${this.getActiveClass('electros.html')}">
                                     <img src="${basePath}assets/logos/Electros.svg" alt="Electros icon" class="product-icon" width="20" height="20">
                                     <span class="">Electros</span>
                                 </a></li>
-                                <li><a href="${basePath}atomosphere.html" class="dropdown-link ${this.getActiveClass('atomosphere.html')}">
+                                <li><a href="${this.getLocalizedHref('atomosphere.html')}" class="dropdown-link ${this.getActiveClass('atomosphere.html')}">
                                     <img src="${basePath}assets/logos/Atomosphere.svg" alt="Atomosphere icon" class="product-icon" width="20" height="20">
                                     <span class="">Atomosphere</span>
                                 </a></li>
@@ -142,6 +239,7 @@ class Navbar {
                     </div>
                     
                     <div class="nav-controls">
+                        ${langSwitcher}
                         <button class="theme-toggle" aria-label="Toggle theme">
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                                 <path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1zM5.99 4.58c-.39-.39-1.03-.39-1.41 0-.39.39-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41L5.99 4.58zm12.37 12.37c-.39-.39-1.03-.39-1.41 0-.39.39-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0 .39-.39.39-1.03 0-1.41l-1.06-1.06zm1.06-10.96c.39-.39.39-1.03 0-1.41-.39-.39-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06zM7.05 18.36c.39-.39.39-1.03 0-1.41-.39-.39-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06z"/>

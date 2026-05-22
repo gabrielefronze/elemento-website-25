@@ -1,4 +1,4 @@
-// Footer loader
+// Footer loader with i18n support
 document.addEventListener('DOMContentLoaded', function() {
     function injectLinkedInInsightTag() {
         if (document.getElementById('linkedin-insight-tag-script')) {
@@ -50,67 +50,123 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
+    function getPathPrefix() {
+        const parts = window.location.pathname.split('/').filter(Boolean);
+        if (parts.length && parts[parts.length - 1].endsWith('.html')) {
+            parts.pop();
+        }
+        return parts.length ? '../'.repeat(parts.length) : './';
+    }
+
+    function getLocale() {
+        return window.ElementoI18n ? window.ElementoI18n.getPageLocale() : (document.documentElement.lang === 'it' ? 'it' : 'en');
+    }
+
+    function localizedHref(filename) {
+        if (window.ElementoI18n?.pageHref) {
+            return window.ElementoI18n.pageHref(filename, getLocale());
+        }
+        const locale = getLocale();
+        if (locale === 'it') return `/it/${filename}`;
+        return filename === 'index.html' ? '/' : `/${filename}`;
+    }
+
+    function renderFooterHtml(ui, assetPrefix) {
+        const f = ui.footer;
+        return `
+    <section class="section">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo-section">
+                        <div class="footer-logo-container" role="img" aria-label="Elemento Modular Cloud"></div>
+                    </div>
+                    <p>${f.tagline}</p>
+                </div>
+                <div class="footer-section">
+                    <h3>${f.products}</h3>
+                    <ul>
+                        <li><a href="${localizedHref('atomos.html')}">Atomos</a></li>
+                        <li><a href="${localizedHref('electros.html')}">Electros</a></li>
+                        <li><a href="${localizedHref('atomosphere.html')}">Atomosphere</a></li>
+                        <li><a href="${localizedHref('products.html')}">${f.allProducts}</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>${f.company}</h3>
+                    <ul>
+                        <li><a href="${localizedHref('about.html')}">${f.aboutUs}</a></li>
+                        <li><a href="${localizedHref('technology.html')}">${ui.nav.technology}</a></li>
+                        <li><a href="${localizedHref('contact.html')}">${ui.nav.contact}</a></li>
+                        <li><a href="${localizedHref('careers.html')}">${f.careers}</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>${f.resources}</h3>
+                    <ul>
+                        <li><a href="https://bookstack.elemento.cloud" target="_blank" rel="noopener noreferrer">${f.documentation}</a></li>
+                        <li><a href="${localizedHref('brand-guidelines.html')}">${f.brandGuidelines}</a></li>
+                        <li><a href="${localizedHref('blog.html')}">${ui.nav.blog}</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>${f.connect}</h3>
+                    <div class="social-links">
+                        <a href="https://www.youtube.com/@elementocloud" class="social-link" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-youtube"></i><span>YouTube</span>
+                        </a>
+                        <a href="https://www.linkedin.com/company/elemento-modular-cloud/" class="social-link" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-linkedin"></i><span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/elemento-modular-cloud" class="social-link" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i><span>GitHub</span>
+                        </a>
+                        <a href="https://www.instagram.com/elementocloud/" class="social-link" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-instagram"></i><span>Instagram</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>${f.legal}</p>
+                <p>${f.copyright} | <a href="https://www.iubenda.com/privacy-policy/96232937">${f.privacy}</a> | <a href="https://www.iubenda.com/privacy-policy/96232937/cookie-policy">${f.cookies}</a></p>
+            </div>
+        </div>
+    </section>`;
+    }
+
     injectLinkedInInsightTag();
     injectMetricoolTracker();
 
     const footerPlaceholder = document.getElementById('footer-placeholder');
-    if (footerPlaceholder) {
-        // Determine the correct path to the footer component
-        const isInBlogPost = window.location.pathname.includes('blog-posts/');
-        const isInSolutions = window.location.pathname.includes('solutions/');
-        const isInTechnology = window.location.pathname.includes('technology/');
-        let footerPath;
-        
-        if (isInBlogPost) {
-            footerPath = '../components/footer.html';
-        } else if (isInSolutions) {
-            footerPath = '../components/footer.html';
-        } else if (isInTechnology) {
-            footerPath = '../components/footer.html';
-        } else {
-            footerPath = 'components/footer.html';
-        }
-        
-        fetch(footerPath)
-            .then(response => response.text())
-            .then(html => {
-                // If we're in a blog post, solutions, or technology page, we need to adjust the asset paths
-                if (isInBlogPost || isInSolutions || isInTechnology) {
-                    html = html.replace(/src="assets\//g, 'src="../assets/');
-                    html = html.replace(/href="([^"]*\.html)"/g, 'href="../$1"');
-                }
-                footerPlaceholder.innerHTML = html;
-            })
-            .catch(error => {
-                console.error('Error loading footer:', error);
-                // Fallback footer if loading fails
-                const fallbackHtml = `
-                    <section class="section">
-                        <div class="container">
-                            <div class="footer-content">
-                                <div class="footer-section">
-                                    <div class="footer-logo-section">
-                                        <div class="footer-logo-container footer-logo-masked" role="img" aria-label="Elemento Modular Cloud"></div>
-                                    </div>
-                                    <p>Vendor-neutral, high-performance cloud platform that's cost-effective, green, and self-hostable.</p>
-                                </div>
-                            </div>
-                            <div class="footer-bottom">
-                                <p>&copy; 2026 Elemento. All rights reserved.</p>
-                            </div>
-                        </div>
-                    </section>
-                `;
-                footerPlaceholder.innerHTML = fallbackHtml;
-                
-                // Apply the masking styles for the fallback case
-                const fallbackLogo = footerPlaceholder.querySelector('.footer-logo-masked');
-                if (fallbackLogo) {
-                    const logoPath = (isInBlogPost || isInSolutions || isInTechnology) ? '../assets/logos/ElementoMCR.svg' : 'assets/logos/ElementoMCR.svg';
-                    fallbackLogo.style.backgroundColor = 'var(--text-color)';
-                    fallbackLogo.style.mask = `url('${logoPath}') no-repeat center / contain`;
-                    fallbackLogo.style.webkitMask = `url('${logoPath}') no-repeat center / contain`;
-                }
-            });
+    if (!footerPlaceholder) return;
+
+    const ui = window.__I18N__?.ui;
+    if (ui) {
+        footerPlaceholder.innerHTML = renderFooterHtml(ui, getPathPrefix());
+        return;
     }
-}); 
+
+    const isInBlogPost = window.location.pathname.includes('blog-posts/');
+    const isInSolutions = window.location.pathname.includes('solutions/');
+    const isInTechnology = window.location.pathname.includes('technology/');
+    let footerPath;
+
+    if (isInBlogPost || isInSolutions || isInTechnology) {
+        footerPath = '../components/footer.html';
+    } else {
+        footerPath = 'components/footer.html';
+    }
+
+    fetch(footerPath)
+        .then(response => response.text())
+        .then(html => {
+            if (isInBlogPost || isInSolutions || isInTechnology) {
+                html = html.replace(/href="([^"]*\.html)"/g, 'href="../$1"');
+            }
+            footerPlaceholder.innerHTML = html;
+        })
+        .catch(error => {
+            console.error('Error loading footer:', error);
+        });
+});

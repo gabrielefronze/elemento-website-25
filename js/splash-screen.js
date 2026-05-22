@@ -28,16 +28,15 @@ class SplashScreen {
     }
     
     waitForCriticalResources() {
+        const url = (path) =>
+            window.ElementoI18n?.assetUrl ? window.ElementoI18n.assetUrl(path) : path;
         const criticalResources = [
-            // Critical CSS files
-            'css/style.css',
-            'css/themes.css',
-            'css/splash-screen.css',
-            // Critical fonts
-            'assets/font/ArgentPixel/Web/ArgentPixel/ArgentPixel-Regular.woff2',
-            'assets/font/ArgentPixel/Web/ArgentPixel/ArgentPixel-RegularItalic.woff2',
-            // Critical images
-            'assets/logos/Elemento.svg'
+            url('css/style.css'),
+            url('css/themes.css'),
+            url('css/splash-screen.css'),
+            url('assets/font/ArgentPixel/Web/ArgentPixel/ArgentPixel-Regular.woff2'),
+            url('assets/font/ArgentPixel/Web/ArgentPixel/ArgentPixel-RegularItalic.woff2'),
+            url('assets/logos/Elemento.svg'),
         ];
         
         let loadedResources = 0;
@@ -46,12 +45,13 @@ class SplashScreen {
         const checkResource = (url) => {
             return new Promise((resolve) => {
                 if (url.endsWith('.css')) {
-                    // For CSS files, check if they're already loaded
-                    const link = document.querySelector(`link[href="${url}"]`);
+                    const file = url.split('/').pop();
+                    const link = Array.from(document.querySelectorAll('link[rel="stylesheet"]')).find(
+                        (el) => el.href.includes(file)
+                    );
                     if (link && link.sheet) {
                         resolve();
                     } else {
-                        // Wait a bit for CSS to load
                         setTimeout(resolve, 100);
                     }
                 } else if (url.endsWith('.woff2')) {

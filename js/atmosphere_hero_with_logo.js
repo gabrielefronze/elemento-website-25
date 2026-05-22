@@ -2,17 +2,25 @@
 document.addEventListener('DOMContentLoaded', function() {
     const atmosphereHeroWithLogoPlaceholder = document.getElementById('atmosphere-hero-with-logo-placeholder');
     if (atmosphereHeroWithLogoPlaceholder) {
-        // Determine the correct path to the atmosphere hero with logo component
-        const isInBlogPost = window.location.pathname.includes('blog-posts/');
-        const atmosphereHeroWithLogoPath = isInBlogPost ? '../components/atmosphere_hero_with_logo.html' : 'components/atmosphere_hero_with_logo.html';
-        
+        const base = window.ElementoI18n?.getAssetBase
+            ? window.ElementoI18n.getAssetBase()
+            : (() => {
+                const parts = window.location.pathname.split('/').filter(Boolean);
+                const last = parts[parts.length - 1] || '';
+                const depth = last.endsWith('.html') ? parts.length - 1 : parts.length;
+                return depth ? '../'.repeat(depth) : '';
+            })();
+        const atmosphereHeroWithLogoPath = `${base}components/atmosphere_hero_with_logo.html`;
+
         fetch(atmosphereHeroWithLogoPath)
             .then(response => response.text())
             .then(html => {
-                // If we're in a blog post, we need to adjust the asset paths
-                if (isInBlogPost) {
-                    html = html.replace(/src="assets\//g, 'src="../assets/');
-                    html = html.replace(/href="([^"]*\.html)"/g, 'href="../$1"');
+                if (base) {
+                    html = html.replace(/src="assets\//g, `src="${base}assets/`);
+                    html = html.replace(/href="([^"]*\.html)"/g, (_, href) => {
+                        if (href.startsWith('http') || href.startsWith('/')) return `href="${href}"`;
+                        return `href="${base}${href}"`;
+                    });
                 }
                 atmosphereHeroWithLogoPlaceholder.innerHTML = html;
             })
