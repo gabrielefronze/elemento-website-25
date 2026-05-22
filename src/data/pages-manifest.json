@@ -1,0 +1,1797 @@
+[
+  {
+    "stem": "404",
+    "legacyPath": "404.html",
+    "group": "root",
+    "slug": "404",
+    "title": "Page Not Found - 404 | Elemento Cloud Platform",
+    "description": "The page you're looking for doesn't exist. Explore Elemento's cloud platform solutions or return to our homepage.",
+    "robots": "noindex, nofollow",
+    "ogType": "website",
+    "extraCss": [
+      "css/home.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "about",
+    "legacyPath": "about.html",
+    "group": "root",
+    "slug": "about",
+    "title": "Elemento | About | Cloud Platform Mission & Team",
+    "description": "Learn about Elemento's mission to transform cloud infrastructure with vendor-neutral, cost-effective, and green computing solutions.",
+    "robots": "index, follow",
+    "ogType": "website",
+    "extraCss": [
+      "css/atmosphere.css",
+      "css/planet-styles/planet-about.css",
+      "css/about.css",
+      "css/breadcrumb.css"
+    ],
+    "extraScripts": [
+      "js/atmosphere_hero.js",
+      "js/team.js"
+    ],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "atomos",
+    "legacyPath": "atomos.html",
+    "group": "root",
+    "slug": "atomos",
+    "title": "AtomOS — Powering Your Cloud with Linux Hypervisor | Elemento Cloud",
+    "description": "AtomOS is a lightweight, high-performance Linux hypervisor for bare metal and on-premise clouds. RHEL-compatible, GPU-ready, and clustering-enabled.",
+    "robots": "index, follow",
+    "ogType": "product",
+    "extraCss": [
+      "css/atmosphere.css",
+      "css/planet-styles/planet-atomos.css",
+      "css/atomos.css",
+      "css/atomos-calculator.css",
+      "css/breadcrumb.css"
+    ],
+    "extraScripts": [
+      "js/faq.js",
+      "js/atmosphere_hero_with_logo.js",
+      "https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js",
+      "js/atomos-calculator.js"
+    ],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "atomosphere",
+    "legacyPath": "atomosphere.html",
+    "group": "root",
+    "slug": "atomosphere",
+    "title": "Atomosphere — Federated Multicloud Gateway | Elemento",
+    "description": "Elemento's multicloud API gateway connects 235+ clouds and on-prem nodes into one programmable network. Unified control, seamless portability.",
+    "robots": "index, follow",
+    "ogType": "product",
+    "extraCss": [
+      "css/atmosphere.css",
+      "css/planet-styles/planet-cloudnetwork.css",
+      "css/cloud-network.css",
+      "css/breadcrumb.css"
+    ],
+    "extraScripts": [
+      "js/faq.js",
+      "js/atmosphere_hero_with_logo.js",
+      "js/provider-integrations.js"
+    ],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "blog-posts/2023-01-01-7-cloud-curiorities",
+    "legacyPath": "blog-posts/2023-01-01-7-cloud-curiorities.html",
+    "group": "blog-posts",
+    "slug": "2023-01-01-7-cloud-curiorities",
+    "title": "7 cloud curiorities | Elemento Blog",
+    "description": "Cloud computing has revolutionized how we work, play, and store data. A survey...",
+    "robots": "index, follow",
+    "ogType": "article",
+    "extraCss": [
+      "css/blog-post.css"
+    ],
+    "extraScripts": [
+      "../js/navbar.js",
+      "../js/main.js",
+      "../js/themes.js",
+      "../js/footer.js"
+    ],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "blog-posts/2023-01-21-accelerate-simplify-and-save-elemento-is-the-cloud-revolution-for-your-business",
+    "legacyPath": "blog-posts/2023-01-21-accelerate-simplify-and-save-elemento-is-the-cloud-revolution-for-your-business.html",
+    "group": "blog-posts",
+    "slug": "2023-01-21-accelerate-simplify-and-save-elemento-is-the-cloud-revolution-for-your-business",
+    "title": "Accelerate, simplify and save: Elemento is the cloud revolution for your business | Elemento Blog",
+    "description": "Elemento transforms cloud management with seamless interoperability, hybrid flexibility, and...",
+    "robots": "index, follow",
+    "ogType": "article",
+    "extraCss": [
+      "css/blog-post.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "blog-posts/2023-02-10-achieving-optimal-data-protection-overcoming-limitations-of-traditional-cloud-storage-services",
+    "legacyPath": "blog-posts/2023-02-10-achieving-optimal-data-protection-overcoming-limitations-of-traditional-cloud-storage-services.html",
+    "group": "blog-posts",
+    "slug": "2023-02-10-achieving-optimal-data-protection-overcoming-limitations-of-traditional-cloud-storage-services",
+    "title": "Achieving Optimal Data Protection: Overcoming Limitations of Traditional Cloud Storage Services | Elemento Blog",
+    "description": "Cloud storage services offer reliable data protection, but limitations exist. To enhance security...",
+    "robots": "index, follow",
+    "ogType": "article",
+    "extraCss": [
+      "css/blog-post.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "blog-posts/2023-03-02-cloud-gaming-the-revolution-of-video-games",
+    "legacyPath": "blog-posts/2023-03-02-cloud-gaming-the-revolution-of-video-games.html",
+    "group": "blog-posts",
+    "slug": "2023-03-02-cloud-gaming-the-revolution-of-video-games",
+    "title": "Cloud Gaming: The Revolution of Video Games | Elemento Blog",
+    "description": "Cloud Gaming has revolutionized the gaming industry, offering accessibility and convenience...",
+    "robots": "index, follow",
+    "ogType": "article",
+    "extraCss": [
+      "css/blog-post.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "blog-posts/2023-03-22-cloud-scalability",
+    "legacyPath": "blog-posts/2023-03-22-cloud-scalability.html",
+    "group": "blog-posts",
+    "slug": "2023-03-22-cloud-scalability",
+    "title": "Cloud Scalability | Elemento Blog",
+    "description": "Cloud scalability is crucial for businesses in the cloud computing domain, enabling flexible...",
+    "robots": "index, follow",
+    "ogType": "article",
+    "extraCss": [
+      "css/blog-post.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "blog-posts/2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment",
+    "legacyPath": "blog-posts/2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.html",
+    "group": "blog-posts",
+    "slug": "2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment",
+    "title": "Cloud computing and smart working: revolutioning the work environment | Elemento Blog",
+    "description": "This article explores the intersection of smart working and cloud computing, highlighting...",
+    "robots": "index, follow",
+    "ogType": "article",
+    "extraCss": [
+      "css/blog-post.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "blog-posts/2023-05-01-cloud-computing-challenges-in-2023-what-to-expect",
+    "legacyPath": "blog-posts/2023-05-01-cloud-computing-challenges-in-2023-what-to-expect.html",
+    "group": "blog-posts",
+    "slug": "2023-05-01-cloud-computing-challenges-in-2023-what-to-expect",
+    "title": "Cloud computing challenges in 2023: what to expect | Elemento Blog",
+    "description": "2023 represents a year of challenges and opportunities in the cloud computing industry...",
+    "robots": "index, follow",
+    "ogType": "article",
+    "extraCss": [
+      "css/blog-post.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "blog-posts/2023-05-21-cloud-computing-a-revolutionary-transformation-for-your-business",
+    "legacyPath": "blog-posts/2023-05-21-cloud-computing-a-revolutionary-transformation-for-your-business.html",
+    "group": "blog-posts",
+    "slug": "2023-05-21-cloud-computing-a-revolutionary-transformation-for-your-business",
+    "title": "Cloud computing: a revolutionary transformation for your business | Elemento Blog",
+    "description": "Cloud Computing h...",
+    "robots": "index, follow",
+    "ogType": "article",
+    "extraCss": [
+      "css/blog-post.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "blog-posts/2023-06-10-cloud-computing-a-revolutionary-transformation-for-your-business-a46f1",
+    "legacyPath": "blog-posts/2023-06-10-cloud-computing-a-revolutionary-transformation-for-your-business-a46f1.html",
+    "group": "blog-posts",
+    "slug": "2023-06-10-cloud-computing-a-revolutionary-transformation-for-your-business-a46f1",
+    "title": "Cloud computing: a revolutionary transformation for your business | Elemento Blog",
+    "description": "Cloud Computing revolutionizes business operations by offering cost efficiency, flexibility...",
+    "robots": "index, follow",
+    "ogType": "article",
+    "extraCss": [
+      "css/blog-post.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "blog-posts/2023-06-30-cloud-migration-challenge-or-opportunity",
+    "legacyPath": "blog-posts/2023-06-30-cloud-migration-challenge-or-opportunity.html",
+    "group": "blog-posts",
+    "slug": "2023-06-30-cloud-migration-challenge-or-opportunity",
+    "title": "Cloud migration: challenge or opportunity? | Elemento Blog",
+    "description": "Migrating to the cloud is no longer a question of",
+    "robots": "index, follow",
+    "ogType": "article",
+    "extraCss": [
+      "css/blog-post.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "blog-posts/2023-07-20-cloud-zero-touch-operations-perspectives-and-challenges-of-full-automation-in-cloudops",
+    "legacyPath": "blog-posts/2023-07-20-cloud-zero-touch-operations-perspectives-and-challenges-of-full-automation-in-cloudops.html",
+    "group": "blog-posts",
+    "slug": "2023-07-20-cloud-zero-touch-operations-perspectives-and-challenges-of-full-automation-in-cloudops",
+    "title": "Cloud zero-touch operations: perspectives and challenges of full automation in CloudOps | Elemento Blog",
+    "description": "Cloud zero-touch operations aim to automate and minimize human intervention in managing...",
+    "robots": "index, follow",
+    "ogType": "article",
+    "extraCss": [
+      "css/blog-post.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "blog-posts/2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations",
+    "legacyPath": "blog-posts/2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.html",
+    "group": "blog-posts",
+    "slug": "2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations",
+    "title": "Common mistakes (and how to avoid them) in creating a cloud strategy: Gartner's recommendations | Elemento Blog",
+    "description": "Gartner's report highlights common mistakes in creating a cloud strategy. These include...",
+    "robots": "index, follow",
+    "ogType": "article",
+    "extraCss": [
+      "css/blog-post.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "blog-posts/2023-08-29-data-spaces-the-value-of-connected-data",
+    "legacyPath": "blog-posts/2023-08-29-data-spaces-the-value-of-connected-data.html",
+    "group": "blog-posts",
+    "slug": "2023-08-29-data-spaces-the-value-of-connected-data",
+    "title": "Data spaces: the value of connected data | Elemento Blog",
+    "description": "Data spaces connect fragmented data, offering secure infrastructure, data governance mechanisms...",
+    "robots": "index, follow",
+    "ogType": "article",
+    "extraCss": [
+      "css/blog-post.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "blog-posts/2023-09-18-datacenters-an-inevitable-transformation",
+    "legacyPath": "blog-posts/2023-09-18-datacenters-an-inevitable-transformation.html",
+    "group": "blog-posts",
+    "slug": "2023-09-18-datacenters-an-inevitable-transformation",
+    "title": "Datacenters: an inevitable transformation | Elemento Blog",
+    "description": "Despite the decrease in the number of companies building and maintaining traditional datacenters...",
+    "robots": "index, follow",
+    "ogType": "article",
+    "extraCss": [
+      "css/blog-post.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "blog-posts/2023-10-08-edge-computing-insights-from-gartner-research",
+    "legacyPath": "blog-posts/2023-10-08-edge-computing-insights-from-gartner-research.html",
+    "group": "blog-posts",
+    "slug": "2023-10-08-edge-computing-insights-from-gartner-research",
+    "title": "Edge computing: insights from Gartner research | Elemento Blog",
+    "description": "Edge computing is a revolutionary approach in enterprise IT architecture, offering new...",
+    "robots": "index, follow",
+    "ogType": "article",
+    "extraCss": [
+      "css/blog-post.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "blog-posts/2023-10-28-elemento-guiding-sustainable-innovation-and-quality-education",
+    "legacyPath": "blog-posts/2023-10-28-elemento-guiding-sustainable-innovation-and-quality-education.html",
+    "group": "blog-posts",
+    "slug": "2023-10-28-elemento-guiding-sustainable-innovation-and-quality-education",
+    "title": "Elemento: guiding sustainable innovation and quality education | Elemento Blog",
+    "description": "We are driving sustainable innovation and quality education. We prioritize excellence in ...",
+    "robots": "index, follow",
+    "ogType": "article",
+    "extraCss": [
+      "css/blog-post.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "blog-posts/2023-11-17-elemento-the-sustainable-cloud-solution-for-your-business",
+    "legacyPath": "blog-posts/2023-11-17-elemento-the-sustainable-cloud-solution-for-your-business.html",
+    "group": "blog-posts",
+    "slug": "2023-11-17-elemento-the-sustainable-cloud-solution-for-your-business",
+    "title": "Elemento: the sustainable cloud solution for your business | Elemento Blog",
+    "description": "Elemento combines innovation and sustainability, simplifying cloud management while reducing...",
+    "robots": "index, follow",
+    "ogType": "article",
+    "extraCss": [
+      "css/blog-post.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "blog-posts/2023-12-07-empowering-businesses-with-cloud-servers-in-the-digital-age",
+    "legacyPath": "blog-posts/2023-12-07-empowering-businesses-with-cloud-servers-in-the-digital-age.html",
+    "group": "blog-posts",
+    "slug": "2023-12-07-empowering-businesses-with-cloud-servers-in-the-digital-age",
+    "title": "Empowering businesses with cloud servers in the digital age | Elemento Blog",
+    "description": "Cloud servers are revolutionizing the way businesses operate by providing virtual, scalable...",
+    "robots": "index, follow",
+    "ogType": "article",
+    "extraCss": [
+      "css/blog-post.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "blog-posts/2023-12-27-exploring-the-4-types-of-cloud-storage-versatility-convenience-and-borderless-security",
+    "legacyPath": "blog-posts/2023-12-27-exploring-the-4-types-of-cloud-storage-versatility-convenience-and-borderless-security.html",
+    "group": "blog-posts",
+    "slug": "2023-12-27-exploring-the-4-types-of-cloud-storage-versatility-convenience-and-borderless-security",
+    "title": "Exploring the 4 Types of Cloud Storage: Versatility, Convenience and Borderless Security | Elemento Blog",
+    "description": "Cloud storage is essential in the modern world, offering four types: dedicated, web application...",
+    "robots": "index, follow",
+    "ogType": "article",
+    "extraCss": [
+      "css/blog-post.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "blog-posts/2024-01-16-exploring-the-three-types-of-cloud-services-iaas-paas-and-saas",
+    "legacyPath": "blog-posts/2024-01-16-exploring-the-three-types-of-cloud-services-iaas-paas-and-saas.html",
+    "group": "blog-posts",
+    "slug": "2024-01-16-exploring-the-three-types-of-cloud-services-iaas-paas-and-saas",
+    "title": "Exploring the Three Types of Cloud Services: IaaS, Paas and SaaS | Elemento Blog",
+    "description": "Cloud computing has revolutionized how businesses manage their IT resources...",
+    "robots": "index, follow",
+    "ogType": "article",
+    "extraCss": [
+      "css/blog-post.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "blog-posts/2024-02-05-green-data-reducing-the-environmental-impact-of-cloud-computing",
+    "legacyPath": "blog-posts/2024-02-05-green-data-reducing-the-environmental-impact-of-cloud-computing.html",
+    "group": "blog-posts",
+    "slug": "2024-02-05-green-data-reducing-the-environmental-impact-of-cloud-computing",
+    "title": "Green Data: Reducing the Environmental Impact of Cloud Computing | Elemento Blog",
+    "description": "In the digital era, Cloud Computing has revolutionized data management but has also contributed...",
+    "robots": "index, follow",
+    "ogType": "article",
+    "extraCss": [
+      "css/blog-post.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "blog-posts/2024-02-25-harnessing-computing-power-and-unused-resource-exchange-in-cloud-computing",
+    "legacyPath": "blog-posts/2024-02-25-harnessing-computing-power-and-unused-resource-exchange-in-cloud-computing.html",
+    "group": "blog-posts",
+    "slug": "2024-02-25-harnessing-computing-power-and-unused-resource-exchange-in-cloud-computing",
+    "title": "Harnessing Computing Power and Unused Resource Exchange in Cloud Computing | Elemento Blog",
+    "description": "In the field of cloud computing, computing power is essential for organizations to optimize...",
+    "robots": "index, follow",
+    "ogType": "article",
+    "extraCss": [
+      "css/blog-post.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "blog-posts/2024-03-16-italys-national-cloud",
+    "legacyPath": "blog-posts/2024-03-16-italys-national-cloud.html",
+    "group": "blog-posts",
+    "slug": "2024-03-16-italys-national-cloud",
+    "title": "Italy's National Cloud | Elemento Blog",
+    "description": "Italy launched the",
+    "robots": "index, follow",
+    "ogType": "article",
+    "extraCss": [
+      "css/blog-post.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "blog-posts/2024-04-05-keep-your-business-secure-the-importance-of-cloud-backup",
+    "legacyPath": "blog-posts/2024-04-05-keep-your-business-secure-the-importance-of-cloud-backup.html",
+    "group": "blog-posts",
+    "slug": "2024-04-05-keep-your-business-secure-the-importance-of-cloud-backup",
+    "title": "Keep Your Business Secure: The Importance of Cloud Backup | Elemento Blog",
+    "description": "Data backup is crucial for businesses to protect against hardware failures, errors, and cyber...",
+    "robots": "index, follow",
+    "ogType": "article",
+    "extraCss": [
+      "css/blog-post.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "blog-posts/2024-04-25-kyndryl-guiding-innovation-and-business-transformation-through-cloud",
+    "legacyPath": "blog-posts/2024-04-25-kyndryl-guiding-innovation-and-business-transformation-through-cloud.html",
+    "group": "blog-posts",
+    "slug": "2024-04-25-kyndryl-guiding-innovation-and-business-transformation-through-cloud",
+    "title": "Kyndryl: guiding innovation and business transformation through cloud | Elemento Blog",
+    "description": "Kyndryl's annual report offers an illuminating glimpse into the future of technological...",
+    "robots": "index, follow",
+    "ogType": "article",
+    "extraCss": [
+      "css/blog-post.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "blog-posts/2024-05-15-optimizing-storage-space-in-cloud-computing-reduce-costs-and-carbon-emissions",
+    "legacyPath": "blog-posts/2024-05-15-optimizing-storage-space-in-cloud-computing-reduce-costs-and-carbon-emissions.html",
+    "group": "blog-posts",
+    "slug": "2024-05-15-optimizing-storage-space-in-cloud-computing-reduce-costs-and-carbon-emissions",
+    "title": "Optimizing storage space in cloud computing: reduce costs and carbon emissions | Elemento Blog",
+    "description": "Optimizing storage space in cloud computing has become crucial for companies aiming to...",
+    "robots": "index, follow",
+    "ogType": "article",
+    "extraCss": [
+      "css/blog-post.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "blog-posts/2024-06-04-public-private-hybrid-and-multicloud-understanding-the-different-options",
+    "legacyPath": "blog-posts/2024-06-04-public-private-hybrid-and-multicloud-understanding-the-different-options.html",
+    "group": "blog-posts",
+    "slug": "2024-06-04-public-private-hybrid-and-multicloud-understanding-the-different-options",
+    "title": "Public, Private, Hybrid and Multicloud: Understanding the Different Options | Elemento Blog",
+    "description": "Cloud computing offers different options to meet organizational needs: public, private, hybrid...",
+    "robots": "index, follow",
+    "ogType": "article",
+    "extraCss": [
+      "css/blog-post.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "blog-posts/2024-06-24-sustainability-and-telecommunications-environmental-impact-and-the-role-of-cloud",
+    "legacyPath": "blog-posts/2024-06-24-sustainability-and-telecommunications-environmental-impact-and-the-role-of-cloud.html",
+    "group": "blog-posts",
+    "slug": "2024-06-24-sustainability-and-telecommunications-environmental-impact-and-the-role-of-cloud",
+    "title": "Sustainability and telecommunications: environmental impact and the role of cloud | Elemento Blog",
+    "description": "Sustainability emerged as a central theme at the annual meeting of the World Economic Forum...",
+    "robots": "index, follow",
+    "ogType": "article",
+    "extraCss": [
+      "css/blog-post.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "blog-posts/2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision",
+    "legacyPath": "blog-posts/2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision.html",
+    "group": "blog-posts",
+    "slug": "2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision",
+    "title": "TCO in cloud computing: a comprehensive cost analysis for business decision | Elemento Blog",
+    "description": "Total Cost of Ownership (TCO) in cloud computing involves considering all costs throughout...",
+    "robots": "index, follow",
+    "ogType": "article",
+    "extraCss": [
+      "css/blog-post.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "blog-posts/2024-08-03-thales-annual-report-escalating-ransomware-attacks-and-cloud-data-risks-sound-digital-sovereignty-alarm",
+    "legacyPath": "blog-posts/2024-08-03-thales-annual-report-escalating-ransomware-attacks-and-cloud-data-risks-sound-digital-sovereignty-alarm.html",
+    "group": "blog-posts",
+    "slug": "2024-08-03-thales-annual-report-escalating-ransomware-attacks-and-cloud-data-risks-sound-digital-sovereignty-alarm",
+    "title": "Thales' Annual Report: escalating ransomware attacks and cloud data risks sound digital sovereignty alarm | Elemento Blog",
+    "description": "Thales' annual report on cyber threats has highlighted a worrying increase in ransomware attacks...",
+    "robots": "index, follow",
+    "ogType": "article",
+    "extraCss": [
+      "css/blog-post.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "blog-posts/2024-08-23-the-5rs-powerful-cloud-migration-strategies",
+    "legacyPath": "blog-posts/2024-08-23-the-5rs-powerful-cloud-migration-strategies.html",
+    "group": "blog-posts",
+    "slug": "2024-08-23-the-5rs-powerful-cloud-migration-strategies",
+    "title": "The 5Rs: Powerful Cloud Migration Strategies | Elemento Blog",
+    "description": "Cloud migration is crucial for businesses to stay competitive. The",
+    "robots": "index, follow",
+    "ogType": "article",
+    "extraCss": [
+      "css/blog-post.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "blog-posts/2024-09-12-the-benefits-of-virtualization-for-cloud-computing-resource-optimization-and-operational-agility",
+    "legacyPath": "blog-posts/2024-09-12-the-benefits-of-virtualization-for-cloud-computing-resource-optimization-and-operational-agility.html",
+    "group": "blog-posts",
+    "slug": "2024-09-12-the-benefits-of-virtualization-for-cloud-computing-resource-optimization-and-operational-agility",
+    "title": "The Benefits of Virtualization for Cloud Computing: Resource Optimization and Operational Agility | Elemento Blog",
+    "description": "Virtualization revolutionizes data centers and cloud services, enhancing resource efficiency...",
+    "robots": "index, follow",
+    "ogType": "article",
+    "extraCss": [
+      "css/blog-post.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "blog-posts/2024-10-02-the-era-of-big-data",
+    "legacyPath": "blog-posts/2024-10-02-the-era-of-big-data.html",
+    "group": "blog-posts",
+    "slug": "2024-10-02-the-era-of-big-data",
+    "title": "The Era of Big Data | Elemento Blog",
+    "description": "The Era of Big Data has ushered in a digital landscape where vast amounts of data are generated...",
+    "robots": "index, follow",
+    "ogType": "article",
+    "extraCss": [
+      "css/blog-post.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "blog-posts/2024-10-22-the-european-open-science-cloud-towards-a-global-data-space-for-research",
+    "legacyPath": "blog-posts/2024-10-22-the-european-open-science-cloud-towards-a-global-data-space-for-research.html",
+    "group": "blog-posts",
+    "slug": "2024-10-22-the-european-open-science-cloud-towards-a-global-data-space-for-research",
+    "title": "The European Open Science Cloud: towards a global data space for research | Elemento Blog",
+    "description": "The European Open Science Cloud (EOSC) aims to revolutionize research in Europe by...",
+    "robots": "index, follow",
+    "ogType": "article",
+    "extraCss": [
+      "css/blog-post.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "blog-posts/2024-11-11-the-evolution-of-cloud-computing-from-the-early-ideas-of-john-mccarthy-to-modern-platforms",
+    "legacyPath": "blog-posts/2024-11-11-the-evolution-of-cloud-computing-from-the-early-ideas-of-john-mccarthy-to-modern-platforms.html",
+    "group": "blog-posts",
+    "slug": "2024-11-11-the-evolution-of-cloud-computing-from-the-early-ideas-of-john-mccarthy-to-modern-platforms",
+    "title": "The Evolution of Cloud Computing: From the Early Ideas of John McCarthy to Modern Platforms | Elemento Blog",
+    "description": "The evolution of cloud computing can be traced back to real-time systems predating its existence...",
+    "robots": "index, follow",
+    "ogType": "article",
+    "extraCss": [
+      "css/blog-post.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "blog-posts/2024-12-01-the-future-of-cloud-computing-in-2023-revolutionary-trends-and-looming-challenges",
+    "legacyPath": "blog-posts/2024-12-01-the-future-of-cloud-computing-in-2023-revolutionary-trends-and-looming-challenges.html",
+    "group": "blog-posts",
+    "slug": "2024-12-01-the-future-of-cloud-computing-in-2023-revolutionary-trends-and-looming-challenges",
+    "title": "The Future of Cloud Computing in 2023: Revolutionary Trends and Looming Challenges | Elemento Blog",
+    "description": "The world of cloud computing is heading towards an innovative future in 2023, with organizations...",
+    "robots": "index, follow",
+    "ogType": "article",
+    "extraCss": [
+      "css/blog-post.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "blog-posts/2024-12-21-the-importance-of-cybersecurity-in-the-digital-age",
+    "legacyPath": "blog-posts/2024-12-21-the-importance-of-cybersecurity-in-the-digital-age.html",
+    "group": "blog-posts",
+    "slug": "2024-12-21-the-importance-of-cybersecurity-in-the-digital-age",
+    "title": "The Importance of Cybersecurity in the Digital Age | Elemento Blog",
+    "description": "Cybersecurity is crucial for every company, given the rising threat of cyber attacks...",
+    "robots": "index, follow",
+    "ogType": "article",
+    "extraCss": [
+      "css/blog-post.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "blog-posts/2025-01-10-the-origin-of-the-term-cloud-a-technological-metaphor",
+    "legacyPath": "blog-posts/2025-01-10-the-origin-of-the-term-cloud-a-technological-metaphor.html",
+    "group": "blog-posts",
+    "slug": "2025-01-10-the-origin-of-the-term-cloud-a-technological-metaphor",
+    "title": "The Origin of the Term \"Cloud\": A Technological Metaphor | Elemento Blog",
+    "description": "The term",
+    "robots": "index, follow",
+    "ogType": "article",
+    "extraCss": [
+      "css/blog-post.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "blog-posts/2025-01-30-the-power-of-virtualization-in-cloud-computing",
+    "legacyPath": "blog-posts/2025-01-30-the-power-of-virtualization-in-cloud-computing.html",
+    "group": "blog-posts",
+    "slug": "2025-01-30-the-power-of-virtualization-in-cloud-computing",
+    "title": "The Power of Virtualization in Cloud Computing | Elemento Blog",
+    "description": "Cloud computing has transformed enterprise data management, with virtualization playing a central...",
+    "robots": "index, follow",
+    "ogType": "article",
+    "extraCss": [
+      "css/blog-post.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "blog-posts/2025-02-19-the-multi-cloud-conundrum-is-it-really-that-difficult",
+    "legacyPath": "blog-posts/2025-02-19-the-multi-cloud-conundrum-is-it-really-that-difficult.html",
+    "group": "blog-posts",
+    "slug": "2025-02-19-the-multi-cloud-conundrum-is-it-really-that-difficult",
+    "title": "The multi-cloud conundrum: is it really that difficult? | Elemento Blog",
+    "description": "Multi-cloud doesn't have to mean complexity. Elemento transforms it into a practical...",
+    "robots": "index, follow",
+    "ogType": "article",
+    "extraCss": [
+      "css/blog-post.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "blog-posts/2025-03-11-the-new-cloud-for-cultural-heritage-higital-transformation-serving-safeguarding",
+    "legacyPath": "blog-posts/2025-03-11-the-new-cloud-for-cultural-heritage-higital-transformation-serving-safeguarding.html",
+    "group": "blog-posts",
+    "slug": "2025-03-11-the-new-cloud-for-cultural-heritage-higital-transformation-serving-safeguarding",
+    "title": "The new cloud for cultural heritage: digital transformation serving safeguarding | Elemento Blog",
+    "description": "The creation of ....",
+    "robots": "index, follow",
+    "ogType": "article",
+    "extraCss": [
+      "css/blog-post.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "blog-posts/2025-03-31-the-triumph-of-cloud-computing-reaching-1-000-billion-in-revenues-by-2027",
+    "legacyPath": "blog-posts/2025-03-31-the-triumph-of-cloud-computing-reaching-1-000-billion-in-revenues-by-2027.html",
+    "group": "blog-posts",
+    "slug": "2025-03-31-the-triumph-of-cloud-computing-reaching-1-000-billion-in-revenues-by-2027",
+    "title": "The triumph of cloud computing: reaching $1,000 billion in revenues by 2027 | Elemento Blog",
+    "description": "The rise of cloud computing is unstoppable and will revolutionize the way businesses operate and...",
+    "robots": "index, follow",
+    "ogType": "article",
+    "extraCss": [
+      "css/blog-post.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "blog-posts/2025-04-20-unveiling-the-power-of-the-cloud-differences-between-cloud-storage-and-cloud-computing",
+    "legacyPath": "blog-posts/2025-04-20-unveiling-the-power-of-the-cloud-differences-between-cloud-storage-and-cloud-computing.html",
+    "group": "blog-posts",
+    "slug": "2025-04-20-unveiling-the-power-of-the-cloud-differences-between-cloud-storage-and-cloud-computing",
+    "title": "Unveiling the power of the cloud: differences between cloud storage and cloud computing | Elemento Blog",
+    "description": "Cloud storage and cloud computing are two sides of the same digital coin. Cloud storage, with...",
+    "robots": "index, follow",
+    "ogType": "article",
+    "extraCss": [
+      "css/blog-post.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "blog-posts/2025-05-10-what-is-cloud-computing",
+    "legacyPath": "blog-posts/2025-05-10-what-is-cloud-computing.html",
+    "group": "blog-posts",
+    "slug": "2025-05-10-what-is-cloud-computing",
+    "title": "What is cloud computing? | Elemento Blog",
+    "description": "Cloud computing enables...",
+    "robots": "index, follow",
+    "ogType": "article",
+    "extraCss": [
+      "css/blog-post.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "blog-posts/2025-05-30-within-2026-cloud-security-will-be-manager-by-socs-trend-micros-predictions",
+    "legacyPath": "blog-posts/2025-05-30-within-2026-cloud-security-will-be-manager-by-socs-trend-micros-predictions.html",
+    "group": "blog-posts",
+    "slug": "2025-05-30-within-2026-cloud-security-will-be-manager-by-socs-trend-micros-predictions",
+    "title": "Within 2026, cloud security will be manager by SOCs: Trend Micro's predictions | Elemento Blog",
+    "description": "The growing number..",
+    "robots": "index, follow",
+    "ogType": "article",
+    "extraCss": [
+      "css/blog-post.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next",
+    "legacyPath": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
+    "group": "blog-posts",
+    "slug": "2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next",
+    "title": "The Future of Cloud: What &quot;Cloud&quot; Really Means, Why It&#x27;s Centralized, and What Comes Next | Elemento Blog",
+    "description": "A practical guide to what cloud really means, why current cloud models are centralized, and how interoperability, portability, and governance shape what comes next.",
+    "robots": "index, follow",
+    "ogType": "website",
+    "extraCss": [
+      "css/blog-post.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "blog-posts/404",
+    "legacyPath": "blog-posts/404.html",
+    "group": "blog-posts",
+    "slug": "404",
+    "title": "Elemento",
+    "description": "",
+    "robots": "index, follow",
+    "ogType": "website",
+    "extraCss": [],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "blog",
+    "legacyPath": "blog.html",
+    "group": "root",
+    "slug": "blog",
+    "title": "Elemento | Blog | Cloud Computing Insights & Technology News",
+    "description": "Expert insights, industry news, and innovative stories from the Elemento team and cloud computing community. Stay updated with the latest in cloud technology.",
+    "robots": "index, follow",
+    "ogType": "blog",
+    "extraCss": [
+      "css/atmosphere.css",
+      "css/planet-styles/planet-blog.css",
+      "css/blog.css",
+      "css/breadcrumb.css"
+    ],
+    "extraScripts": [
+      "js/atmosphere_hero.js"
+    ],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "bookings/meeting-landing-template",
+    "legacyPath": "bookings/meeting-landing-template.html",
+    "group": "bookings",
+    "slug": "meeting-landing-template",
+    "title": "Schedule a meeting — Elemento",
+    "description": "Book time with the Elemento team. Replace this description when you duplicate the template.",
+    "robots": "noindex, nofollow",
+    "ogType": "website",
+    "extraCss": [
+      "css/forms.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "brand-guidelines",
+    "legacyPath": "brand-guidelines.html",
+    "group": "root",
+    "slug": "brand-guidelines",
+    "title": "Elemento | Brand guidelines | Logo, colors &amp; typography",
+    "description": "Official Elemento brand guidelines: logo usage, color palette, typography, and product naming for press, partners, and creators.",
+    "robots": "index, follow",
+    "ogType": "website",
+    "extraCss": [
+      "css/atmosphere.css",
+      "css/planet-styles/planet-brand-guidelines.css",
+      "css/brand-guidelines.css",
+      "css/breadcrumb.css"
+    ],
+    "extraScripts": [
+      "js/faq.js",
+      "js/atmosphere_hero.js"
+    ],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "compare-costs",
+    "legacyPath": "compare-costs.html",
+    "group": "root",
+    "slug": "compare-costs",
+    "title": "Compare Costs — AtomOS vs VMware | Elemento Cloud",
+    "description": "Calculate how much you could save with AtomOS compared to VMware. Compare virtualization costs and discover enterprise-level reliability at a fraction of the price.",
+    "robots": "index, follow",
+    "ogType": "website",
+    "extraCss": [
+      "css/atmosphere.css",
+      "css/atomos-calculator.css",
+      "css/breadcrumb.css"
+    ],
+    "extraScripts": [
+      "https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js",
+      "js/atomos-calculator.js"
+    ],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "contact",
+    "legacyPath": "contact.html",
+    "group": "root",
+    "slug": "contact",
+    "title": "Elemento | Contact | Get Support for Your Cloud Platform",
+    "description": "Get in touch with Elemento for cloud infrastructure solutions, support, sales inquiries, or partnership opportunities.",
+    "robots": "index, follow",
+    "ogType": "website",
+    "extraCss": [
+      "css/atmosphere.css",
+      "css/planet-styles/planet-contact.css",
+      "css/contact.css",
+      "css/breadcrumb.css"
+    ],
+    "extraScripts": [
+      "js/faq.js",
+      "js/atmosphere_hero.js",
+      "js/contact.js",
+      "https://web3forms.com/client/script.js",
+      "https://challenges.cloudflare.com/turnstile/v0/api.js"
+    ],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "editor",
+    "legacyPath": "editor.html",
+    "group": "root",
+    "slug": "editor",
+    "title": "Blog Post Editor - Elemento",
+    "description": "Create and edit blog posts for the Elemento website with our intuitive editor interface.",
+    "robots": "noindex, nofollow",
+    "ogType": "website",
+    "extraCss": [
+      "css/editor.css",
+      "css/atmosphere.css",
+      "css/planet-styles/planet-editor.css",
+      "css/breadcrumb.css"
+    ],
+    "extraScripts": [
+      "https://cdn.quilljs.com/1.3.6/quill.js"
+    ],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "electros",
+    "legacyPath": "electros.html",
+    "group": "root",
+    "slug": "electros",
+    "title": "Electros App — Orchestration Dashboard & CLI | Elemento Cloud",
+    "description": "Electros is Elemento Cloud's orchestration dashboard and CLI for managing VMs, storage, and networks across public clouds and on-prem infrastructure.",
+    "robots": "index, follow",
+    "ogType": "product",
+    "extraCss": [
+      "css/atmosphere.css",
+      "css/planet-styles/planet-electros.css",
+      "css/electros.css",
+      "css/breadcrumb.css"
+    ],
+    "extraScripts": [
+      "js/faq.js",
+      "js/atmosphere_hero_with_logo.js",
+      "js/electros.js"
+    ],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "forms/getintouch",
+    "legacyPath": "forms/getintouch.html",
+    "group": "forms",
+    "slug": "getintouch",
+    "title": "Get in Touch - Elemento",
+    "description": "",
+    "robots": "index, follow",
+    "ogType": "website",
+    "extraCss": [
+      "css/forms.css"
+    ],
+    "extraScripts": [
+      "https://challenges.cloudflare.com/turnstile/v0/api.js",
+      "https://web3forms.com/client/script.js"
+    ],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "forms/provider-candidature",
+    "legacyPath": "forms/provider-candidature.html",
+    "group": "forms",
+    "slug": "provider-candidature",
+    "title": "Cloud Provider Candidature - Elemento",
+    "description": "",
+    "robots": "index, follow",
+    "ogType": "website",
+    "extraCss": [
+      "css/forms.css"
+    ],
+    "extraScripts": [
+      "https://challenges.cloudflare.com/turnstile/v0/api.js",
+      "https://web3forms.com/client/script.js"
+    ],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "forms/provider-success",
+    "legacyPath": "forms/provider-success.html",
+    "group": "forms",
+    "slug": "provider-success",
+    "title": "Candidature Submitted - Elemento",
+    "description": "",
+    "robots": "index, follow",
+    "ogType": "website",
+    "extraCss": [
+      "css/forms.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "forms/signup",
+    "legacyPath": "forms/signup.html",
+    "group": "forms",
+    "slug": "signup",
+    "title": "Sign Up - Elemento",
+    "description": "",
+    "robots": "index, follow",
+    "ogType": "website",
+    "extraCss": [],
+    "extraScripts": [
+      "https://challenges.cloudflare.com/turnstile/v0/api.js",
+      "https://web3forms.com/client/script.js",
+      "https://www.google.com/recaptcha/api.js?render=6Le_4x8sAAAAAHJrKNwbJUakP2hkcilketrulwTX"
+    ],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "grazie/atomos-demo",
+    "legacyPath": "grazie/atomos-demo-it/index.html",
+    "group": "grazie",
+    "slug": "atomos-demo-it",
+    "title": "Prenotazione confermata — demo AtomOS | Elemento",
+    "description": "La tua demo AtomOS è prenotata. Controlla l’email e accetta l’invito di calendario per confermare l’appuntamento.",
+    "robots": "noindex, nofollow",
+    "ogType": "website",
+    "extraCss": [],
+    "extraScripts": [
+      "../js/themes.js",
+      "../js/navbar.js"
+    ],
+    "type": "legacy",
+    "locales": [
+      "it"
+    ]
+  },
+  {
+    "stem": "grazie/full-solution-demo",
+    "legacyPath": "grazie/full-solution-demo-it/index.html",
+    "group": "grazie",
+    "slug": "full-solution-demo-it",
+    "title": "Demo confermata — AtomOS, Electros e Atomosphere | Elemento",
+    "description": "La tua demo full solution è prenotata. Controlla l'email e accetta l'invito di calendario per confermare la partecipazione.",
+    "robots": "noindex, nofollow",
+    "ogType": "website",
+    "extraCss": [],
+    "extraScripts": [
+      "../js/themes.js",
+      "../js/navbar.js"
+    ],
+    "type": "legacy",
+    "locales": [
+      "it"
+    ]
+  },
+  {
+    "stem": "index",
+    "legacyPath": "index.html",
+    "group": "root",
+    "slug": "index",
+    "title": "Elemento | Unified private and public Cloud platform",
+    "description": "Elemento is a vendor-neutral, cost-saving, green, high-performance, self-hostable cloud platform with infrastructure-as-code readiness.",
+    "robots": "index, follow",
+    "ogType": "website",
+    "extraCss": [
+      "css/atmosphere.css",
+      "css/planet-styles/planet-index.css",
+      "css/home.css",
+      "css/rocket.css",
+      "css/success-stories-carousel.css"
+    ],
+    "extraScripts": [
+      "js/faq.js",
+      "js/success-stories-carousel.js",
+      "js/logo-carousel.js",
+      "js/atmosphere_hero.js"
+    ],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "install-atomos",
+    "legacyPath": "install-atomos.html",
+    "group": "root",
+    "slug": "install-atomos",
+    "title": "Installation Guide — AtomOS & Electros | Elemento Cloud",
+    "description": "Complete installation guide for AtomOS hypervisor and Electros orchestration dashboard. Get both products running in minutes with step-by-step instructions.",
+    "robots": "index, follow",
+    "ogType": "article",
+    "extraCss": [
+      "css/atomos.css",
+      "css/breadcrumb.css",
+      "css/install-guide.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "orbital",
+    "legacyPath": "orbital.html",
+    "group": "root",
+    "slug": "orbital",
+    "title": "Orbital — Hardware Servers with AtomOS | Elemento Cloud",
+    "description": "Orbital servers are pre-configured hardware solutions with AtomOS included. Choose from various configurations for development, production, and enterprise workloads.",
+    "robots": "index, follow",
+    "ogType": "product",
+    "extraCss": [
+      "css/atmosphere.css",
+      "css/planet-styles/planet-orbital.css",
+      "css/orbital.css",
+      "css/breadcrumb.css"
+    ],
+    "extraScripts": [
+      "js/faq.js",
+      "js/orbital.js",
+      "js/atmosphere_hero_with_logo.js"
+    ],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "products",
+    "legacyPath": "products.html",
+    "group": "root",
+    "slug": "products",
+    "title": "Elemento | Products | Cloud Infrastructure & Management Platform",
+    "description": "Explore Elemento's comprehensive cloud platform products including AtomOS hypervisor, Electros orchestration dashboard, and Atomosphere API proxy for unified infrastructure management.",
+    "robots": "index, follow",
+    "ogType": "website",
+    "extraCss": [
+      "css/atmosphere.css",
+      "css/planet-styles/planet-products.css",
+      "css/products.css",
+      "css/breadcrumb.css"
+    ],
+    "extraScripts": [
+      "js/faq.js",
+      "js/atmosphere_hero.js"
+    ],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "signup-success",
+    "legacyPath": "signup-success.html",
+    "group": "root",
+    "slug": "signup-success",
+    "title": "Welcome to Elemento - Registration Successful",
+    "description": "Welcome to Elemento! Your account has been successfully created. Get started with your cloud infrastructure journey.",
+    "robots": "noindex, nofollow",
+    "ogType": "website",
+    "extraCss": [
+      "css/signup-success.css",
+      "css/contact.css",
+      "css/electros.css",
+      "css/fonts.css"
+    ],
+    "extraScripts": [
+      "js/electros.js"
+    ],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "signup",
+    "legacyPath": "signup.html",
+    "group": "root",
+    "slug": "signup",
+    "title": "Sign Up - Elemento Cloud Platform",
+    "description": "Join Elemento and get started with the future of cloud computing. Sign up for free and start building your cloud infrastructure.",
+    "robots": "index, follow",
+    "ogType": "website",
+    "extraCss": [
+      "css/atmosphere.css",
+      "css/planet-styles/planet-signup.css",
+      "css/contact.css",
+      "css/breadcrumb.css"
+    ],
+    "extraScripts": [],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "solutions/ai",
+    "legacyPath": "solutions/ai.html",
+    "group": "solutions",
+    "slug": "ai",
+    "title": "AI/Data Science Startups & Research Labs | Elemento",
+    "description": "Train, deploy, and scale AI workloads seamlessly across clouds and on-prem nodes. Elemento provides GPU cluster management and multi-cloud AI environments.",
+    "robots": "index, follow",
+    "ogType": "website",
+    "extraCss": [
+      "css/atmosphere.css",
+      "css/planet-styles/planet-index.css",
+      "css/landing-pages.css",
+      "css/home.css",
+      "css/rocket.css",
+      "css/success-stories-carousel.css",
+      "css/solutions.css"
+    ],
+    "extraScripts": [
+      "js/solution-config-loader.js",
+      "js/faq.js",
+      "js/logo-carousel.js",
+      "js/landing-page-loader.js",
+      "js/atmosphere_hero.js"
+    ],
+    "type": "solution",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "solutions/devops",
+    "legacyPath": "solutions/devops.html",
+    "group": "solutions",
+    "slug": "devops",
+    "title": "DevOps Infrastructure for CI/CD Pipelines | Elemento",
+    "description": "Build cloud-agnostic CI/CD pipelines with Elemento. Deploy faster, scale efficiently, and maintain consistency across all environments with our unified platform.",
+    "robots": "index, follow",
+    "ogType": "website",
+    "extraCss": [
+      "css/atmosphere.css",
+      "css/planet-styles/planet-index.css",
+      "css/landing-pages.css",
+      "css/home.css",
+      "css/rocket.css",
+      "css/success-stories-carousel.css",
+      "css/solutions.css"
+    ],
+    "extraScripts": [
+      "js/solution-config-loader.js",
+      "js/faq.js",
+      "js/logo-carousel.js",
+      "js/landing-page-loader.js",
+      "js/atmosphere_hero.js"
+    ],
+    "type": "solution",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "solutions/index",
+    "legacyPath": "solutions/index.html",
+    "group": "solutions",
+    "slug": "index",
+    "title": "Solutions Hub | Elemento Cloud Platform",
+    "description": "Discover how Elemento's unified cloud platform serves different industries and use cases. From AI/ML workloads to regulated environments, find your perfect solution.",
+    "robots": "index, follow",
+    "ogType": "website",
+    "extraCss": [
+      "css/landing-pages.css",
+      "css/components.css",
+      "css/responsive.css",
+      "css/solutions.css"
+    ],
+    "extraScripts": [],
+    "type": "solution",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "solutions/industrial",
+    "legacyPath": "solutions/industrial.html",
+    "group": "solutions",
+    "slug": "industrial",
+    "title": "Manufacturing & Industrial Innovation | Elemento",
+    "description": "Integrate your factory data from PLCs to ERP in one secure, vendor-free cloud ecosystem. Transform legacy MES/ERP systems with modern analytics and AI pipelines.",
+    "robots": "index, follow",
+    "ogType": "website",
+    "extraCss": [
+      "css/atmosphere.css",
+      "css/planet-styles/planet-index.css",
+      "css/landing-pages.css",
+      "css/home.css",
+      "css/rocket.css",
+      "css/success-stories-carousel.css",
+      "css/solutions.css"
+    ],
+    "extraScripts": [
+      "js/solution-config-loader.js",
+      "js/faq.js",
+      "js/logo-carousel.js",
+      "js/landing-page-loader.js",
+      "js/atmosphere_hero.js"
+    ],
+    "type": "solution",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "solutions/products",
+    "legacyPath": "solutions/products.html",
+    "group": "solutions",
+    "slug": "products",
+    "title": "Elemento",
+    "description": "",
+    "robots": "index, follow",
+    "ogType": "website",
+    "extraCss": [
+      "css/solutions.css"
+    ],
+    "extraScripts": [],
+    "type": "solution",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "solutions/public-sector",
+    "legacyPath": "solutions/public-sector.html",
+    "group": "solutions",
+    "slug": "public-sector",
+    "title": "Public Sector & Smart City Infrastructure | Elemento",
+    "description": "Empowering public institutions with sovereign, interoperable, and auditable cloud infrastructure. Elemento provides compliance-ready infrastructure for government and smart city initiatives.",
+    "robots": "index, follow",
+    "ogType": "website",
+    "extraCss": [
+      "css/atmosphere.css",
+      "css/planet-styles/planet-index.css",
+      "css/landing-pages.css",
+      "css/home.css",
+      "css/rocket.css",
+      "css/success-stories-carousel.css",
+      "css/solutions.css"
+    ],
+    "extraScripts": [
+      "js/solution-config-loader.js",
+      "js/faq.js",
+      "js/logo-carousel.js",
+      "js/landing-page-loader.js",
+      "js/atmosphere_hero.js"
+    ],
+    "type": "solution",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "solutions/regulated",
+    "legacyPath": "solutions/regulated.html",
+    "group": "solutions",
+    "slug": "regulated",
+    "title": "Healthcare, Finance & Regulated Environments | Elemento",
+    "description": "Run sensitive workloads across private and public clouds with full data governance. Elemento provides enterprise-grade security with built-in compliance for regulated industries.",
+    "robots": "index, follow",
+    "ogType": "website",
+    "extraCss": [
+      "css/atmosphere.css",
+      "css/planet-styles/planet-index.css",
+      "css/landing-pages.css",
+      "css/home.css",
+      "css/rocket.css",
+      "css/success-stories-carousel.css",
+      "css/solutions.css"
+    ],
+    "extraScripts": [
+      "js/solution-config-loader.js",
+      "js/faq.js",
+      "js/logo-carousel.js",
+      "js/landing-page-loader.js",
+      "js/atmosphere_hero.js"
+    ],
+    "type": "solution",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "solutions/system-integrators",
+    "legacyPath": "solutions/system-integrators.html",
+    "group": "solutions",
+    "slug": "system-integrators",
+    "title": "System Integrators & Cloud Consultants | Elemento",
+    "description": "Elemento Cloud empowers system integrators to deliver sovereign, elastic cloud environments under their own brand. Build recurring-revenue models around infrastructure.",
+    "robots": "index, follow",
+    "ogType": "website",
+    "extraCss": [
+      "css/atmosphere.css",
+      "css/planet-styles/planet-index.css",
+      "css/landing-pages.css",
+      "css/home.css",
+      "css/rocket.css",
+      "css/success-stories-carousel.css",
+      "css/solutions.css"
+    ],
+    "extraScripts": [
+      "js/solution-config-loader.js",
+      "js/faq.js",
+      "js/logo-carousel.js",
+      "js/landing-page-loader.js",
+      "js/atmosphere_hero.js"
+    ],
+    "type": "solution",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "solutions/vmware-alternative",
+    "legacyPath": "solutions/vmware-alternative.html",
+    "group": "solutions",
+    "slug": "vmware-alternative",
+    "title": "VMware Alternative - Modern Virtualization Platform | Elemento",
+    "description": "Replace VMware with Elemento's modern virtualization platform. Get better performance, lower costs, and cloud-native architecture with our unified infrastructure solution.",
+    "robots": "index, follow",
+    "ogType": "website",
+    "extraCss": [
+      "css/atmosphere.css",
+      "css/planet-styles/planet-index.css",
+      "css/landing-pages.css",
+      "css/home.css",
+      "css/rocket.css",
+      "css/success-stories-carousel.css",
+      "css/solutions.css"
+    ],
+    "extraScripts": [
+      "js/solution-config-loader.js",
+      "js/faq.js",
+      "js/logo-carousel.js",
+      "js/landing-page-loader.js",
+      "js/atmosphere_hero.js"
+    ],
+    "type": "solution",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "technology",
+    "legacyPath": "technology.html",
+    "group": "root",
+    "slug": "technology",
+    "title": "Elemento | Technology | Cloud Infrastructure Stack",
+    "description": "Explore the cutting-edge technology behind Elemento's cloud platform including Kubernetes, Infrastructure as Code, multi-cloud architecture, and green computing innovations.",
+    "robots": "index, follow",
+    "ogType": "website",
+    "extraCss": [
+      "css/atmosphere.css",
+      "css/planet-styles/planet-technology.css",
+      "css/technology.css",
+      "css/breadcrumb.css"
+    ],
+    "extraScripts": [
+      "js/faq.js",
+      "js/atmosphere_hero.js"
+    ],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "thank-you/atomos-demo-en",
+    "legacyPath": "thank-you/atomos-demo-en/index.html",
+    "group": "thank-you",
+    "slug": "atomos-demo-en",
+    "title": "Booking confirmed — AtomOS demo | Elemento",
+    "description": "Your AtomOS demo is booked. Check your email and accept the calendar invitation to confirm your slot.",
+    "robots": "noindex, nofollow",
+    "ogType": "website",
+    "extraCss": [],
+    "extraScripts": [
+      "../js/themes.js",
+      "../js/navbar.js"
+    ],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "thank-you/full-solution-demo-en",
+    "legacyPath": "thank-you/full-solution-demo-en/index.html",
+    "group": "thank-you",
+    "slug": "full-solution-demo-en",
+    "title": "Demo scheduled — AtomOS, Electros &amp; Atomosphere | Elemento",
+    "description": "Your full solution demo is booked. Check your email and accept the calendar invite to confirm your attendance.",
+    "robots": "noindex, nofollow",
+    "ogType": "website",
+    "extraCss": [],
+    "extraScripts": [
+      "../js/themes.js",
+      "../js/navbar.js"
+    ],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "thank-you/partnership-dev",
+    "legacyPath": "thank-you/partnership-dev/index.html",
+    "group": "thank-you",
+    "slug": "partnership-dev",
+    "title": "Thank you — Partnership &amp; business development | Elemento",
+    "description": "Your partnership intro call is scheduled. Accept the calendar invitation so both teams are aligned for the conversation.",
+    "robots": "noindex, nofollow",
+    "ogType": "website",
+    "extraCss": [],
+    "extraScripts": [
+      "../js/themes.js",
+      "../js/navbar.js"
+    ],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  },
+  {
+    "stem": "thank-you/pr-marketing",
+    "legacyPath": "thank-you/pr-marketing/index.html",
+    "group": "thank-you",
+    "slug": "pr-marketing",
+    "title": "Booking complete — PR &amp; Marketing | Elemento",
+    "description": "Your PR and marketing session is confirmed. Accept the calendar invitation from your inbox to keep your brainstorm on track.",
+    "robots": "noindex, nofollow",
+    "ogType": "website",
+    "extraCss": [],
+    "extraScripts": [
+      "../js/themes.js",
+      "../js/navbar.js"
+    ],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it"
+    ]
+  }
+]

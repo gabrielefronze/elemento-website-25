@@ -1,0 +1,64 @@
+---
+import { switchLocalePath } from '../i18n/config';
+import type { Locale } from '../i18n/config';
+import { getUi } from '../i18n';
+
+interface Props {
+  locale: Locale;
+  stem: string;
+}
+
+const { locale, stem } = Astro.props;
+const ui = getUi(locale);
+const enHref = switchLocalePath(locale, 'en', stem);
+const itHref = switchLocalePath(locale, 'it', stem);
+---
+
+<div class="lang-switcher" role="navigation" aria-label={ui.langSwitcher.label}>
+  <a
+    href={enHref}
+    class:list={['lang-switcher__link', { 'lang-switcher__link--active': locale === 'en' }]}
+    hreflang="en"
+    lang="en"
+  >{ui.langSwitcher.en}</a>
+  <span class="lang-switcher__sep" aria-hidden="true">|</span>
+  <a
+    href={itHref}
+    class:list={['lang-switcher__link', { 'lang-switcher__link--active': locale === 'it' }]}
+    hreflang="it"
+    lang="it"
+  >{ui.langSwitcher.it}</a>
+</div>
+
+<style>
+  .lang-switcher {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    margin-right: 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+  }
+  .lang-switcher__link {
+    color: var(--text-color, #1a1c20);
+    text-decoration: none;
+    opacity: 0.65;
+    padding: 0.15rem 0.35rem;
+    border-radius: 4px;
+  }
+  .lang-switcher__link:hover,
+  .lang-switcher__link--active {
+    opacity: 1;
+    color: var(--primary-color, #ffa600);
+  }
+  .lang-switcher__sep {
+    opacity: 0.4;
+    user-select: none;
+  }
+  @media (max-width: 768px) {
+    .lang-switcher {
+      margin-right: 0;
+      order: -1;
+    }
+  }
+</style>

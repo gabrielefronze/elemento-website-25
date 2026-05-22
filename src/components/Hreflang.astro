@@ -1,0 +1,22 @@
+---
+import { absoluteUrl } from '../i18n/config';
+import type { Locale } from '../i18n/config';
+import { pageByStem } from '../lib/manifest';
+
+interface Props {
+  locale: Locale;
+  stem: string;
+}
+
+const { locale, stem } = Astro.props;
+const hasEn = !!pageByStem(stem, 'en');
+const hasIt = !!pageByStem(stem, 'it');
+const enUrl = hasEn ? absoluteUrl('en', stem) : absoluteUrl('en', 'index');
+const itUrl = hasIt ? absoluteUrl('it', stem) : absoluteUrl('it', 'index');
+const canonical = locale === 'en' ? (hasEn ? enUrl : itUrl) : itUrl;
+---
+
+<link rel="canonical" href={canonical} />
+{hasEn && <link rel="alternate" hreflang="en" href={enUrl} />}
+{hasIt && <link rel="alternate" hreflang="it" href={itUrl} />}
+<link rel="alternate" hreflang="x-default" href={hasEn ? enUrl : itUrl} />

@@ -1,0 +1,8 @@
+---
+import MigratedPage from '../../components/MigratedPage.astro';
+import { pageByStem } from '../../lib/manifest';
+
+const entry = pageByStem('index', 'it')!;
+---
+
+<MigratedPage entry={entry} locale="it" />

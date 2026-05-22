@@ -1,0 +1,59 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { extractLegacyBody, extractLegacyScripts } from '../lib/extract-body';
+import { localizeBody } from '../lib/localize-body';
+import { prefixBodyAssets } from '../lib/prefix-body-assets';
+import { assetBaseFor } from '../lib/asset-base';
+import { getUi } from '../i18n';
+import type { Locale } from '../i18n/config';
+import type { PageEntry } from '../lib/page-types';
+
+interface Props {
+  entry: PageEntry;
+  locale: Locale;
+}
+
+const { entry, locale } = Astro.props;
+const assetBase = assetBaseFor(locale, entry.stem);
+const localizeStem = entry.stem.replace(/\//g, '_');
+const pageUiKey = entry.stem.includes('/') ? entry.stem.split('/').pop()! : entry.stem;
+const uiPage = getUi(locale).pages as Record<string, { title?: string; description?: string }>;
+const pageUi = uiPage[pageUiKey];
+const pageTitle =
+  locale === 'it' && pageUi?.title ? pageUi.title : entry.title;
+const pageDescription =
+  locale === 'it' && pageUi?.description ? pageUi.description : entry.description;
+let bodyHtml = extractLegacyBody(entry.legacyPath);
+bodyHtml = localizeBody(bodyHtml, locale, localizeStem);
+bodyHtml = prefixBodyAssets(bodyHtml, assetBase);
+const scripts =
+  entry.extraScripts.length > 0 ? entry.extraScripts : extractLegacyScripts(entry.legacyPath);
+const isSolution = entry.type === 'solution' && entry.group === 'solutions';
+const solutionSlug = entry.slug === 'index' ? null : entry.slug;
+---
+
+<BaseLayout
+  locale={locale}
+  stem={entry.stem}
+  title={pageTitle}
+  description={pageDescription}
+  extraCss={entry.extraCss}
+  ogType={entry.ogType}
+  robots={entry.robots}
+  assetBase={assetBase}
+>
+  <Fragment set:html={bodyHtml} />
+  {isSolution && solutionSlug && (
+    <>
+      <script src={`${assetBase}js/solution-config-loader.js`} data-solution-config={solutionSlug} defer />
+      <script src={`${assetBase}js/landing-page-loader.js`} defer />
+    </>
+  )}
+  {scripts.map((src) =>
+    src.startsWith('http') ? (
+      <script src={src} defer />
+    ) : (
+      <script src={`${assetBase}${src}`} defer />
+    )
+  )}
+</BaseLayout>

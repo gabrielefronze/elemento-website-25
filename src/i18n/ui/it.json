@@ -1,0 +1,637 @@
+{
+  "langSwitcher": {
+    "label": "Lingua",
+    "en": "EN",
+    "it": "IT"
+  },
+  "nav": {
+    "products": "Prodotti",
+    "technology": "Tecnologia",
+    "about": "Chi siamo",
+    "contact": "Contatti",
+    "blog": "Blog",
+    "signup": "Registrati",
+    "bookCall": "Prenota una call",
+    "homeAria": "Home Elemento"
+  },
+  "footer": {
+    "tagline": "Piattaforma cloud ad alte prestazioni, vendor-neutral, economica, green e self-hostable.",
+    "products": "Prodotti",
+    "allProducts": "Tutti i prodotti",
+    "company": "Azienda",
+    "aboutUs": "Chi siamo",
+    "careers": "Lavora con noi",
+    "resources": "Risorse",
+    "documentation": "Documentazione",
+    "brandGuidelines": "Linee guida del marchio",
+    "connect": "Seguici",
+    "legal": "Elemento Srl - P.IVA IT03959360045 - Registro Produttori AEE n° IT24120000016642 - Capitale sociale interamente versato 14.341,58€",
+    "copyright": "© 2026 Elemento. Tutti i diritti riservati.",
+    "privacy": "politica sulla riservatezza",
+    "cookies": "Politica sui cookie"
+  },
+  "blog": {
+    "title": "Elemento | Blog | Cloud computing e innovazione",
+    "description": "Approfondimenti, notizie e storie dal team Elemento e dalla community del cloud computing.",
+    "heading": "Blog",
+    "subtitle": "Approfondimenti, notizie e storie dal team Elemento e dalla community del cloud computing.",
+    "readMore": "Leggi tutto",
+    "rssTitle": "Feed RSS Blog Elemento",
+    "noPosts": "Nessun articolo trovato.",
+    "englishPostsNote": "Gli articoli sono pubblicati in inglese. Interfaccia in italiano; i contenuti degli articoli restano in inglese fino a traduzione dedicata."
+  },
+  "pages": {
+    "404": {
+      "description": "La pagina che stai cercando non esiste. Esplora le soluzioni della piattaforma cloud di Elemento o torna alla nostra home page.",
+      "title": "Pagina non trovata - 404 | Piattaforma cloud Elemento"
+    },
+    "index": {
+      "title": "Elemento | Piattaforma cloud privata e pubblica unificata",
+      "description": "Elemento è una piattaforma cloud indipendente dal fornitore, economica, ecologica, ad alte prestazioni e self-hostable con predisposizione per l'infrastruttura come codice.",
+      "heroTitle": "Piattaforma cloud privata e pubblica unificata",
+      "heroSubtitle": "Cloud vendor-neutral, economico, green, ad alte prestazioni e self-hostable, pronto per l'infrastructure-as-code."
+    },
+    "about": {
+      "title": "Elemento | Informazioni su | Missione e team della piattaforma cloud",
+      "description": "Scopri la missione di Elemento di trasformare l'infrastruttura cloud con soluzioni informatiche indipendenti dal fornitore, convenienti ed ecologiche.",
+      "heroTitle": "Chi siamo",
+      "heroSubtitle": "Trasformiamo l'infrastruttura cloud con soluzioni vendor-neutral, sostenibili e convenienti."
+    },
+    "contact": {
+      "title": "Elemento | Contatto | Ottieni supporto per la tua piattaforma cloud",
+      "description": "Mettiti in contatto con Elemento per soluzioni di infrastruttura cloud, supporto, richieste di vendita o opportunità di partnership.",
+      "heroTitle": "Contattaci",
+      "heroSubtitle": "Siamo qui per vendite, supporto e partnership."
+    },
+    "products": {
+      "title": "Elemento | Prodotti | Piattaforma di gestione e infrastruttura cloud",
+      "description": "Esplora i prodotti completi della piattaforma cloud di Elemento, tra cui l'hypervisor AtomOS, il dashboard di orchestrazione Electros e il proxy API Atomosphere per la gestione unificata dell'infrastruttura.",
+      "heroTitle": "I nostri prodotti",
+      "heroSubtitle": "Componenti modulari per una piattaforma multi-cloud unificata."
+    },
+    "signup": {
+      "title": "Iscriviti - Elemento Cloud Platform",
+      "description": "Unisciti a Elemento e inizia con il futuro del cloud computing. Iscriviti gratuitamente e inizia a costruire la tua infrastruttura cloud.",
+      "heroTitle": "Registrati",
+      "heroSubtitle": "Inizia oggi a costruire su Elemento."
+    },
+    "atomos": {
+      "description": "AtomOS è un hypervisor Linux leggero e ad alte prestazioni per cloud bare metal e on-premise. Compatibile con RHEL, pronto per GPU e abilitato per il clustering.",
+      "title": "AtomOS: potenzia il tuo cloud con l'hypervisor Linux | Elemento Nuvola"
+    },
+    "atomosphere": {
+      "description": "Il gateway API multicloud di Elemento connette oltre 235 cloud e nodi on-premise in un'unica rete programmabile. Controllo unificato, portabilità senza soluzione di continuità.",
+      "title": "Atomosphere: gateway multicloud federato | Elemento"
+    },
+    "2023-01-01-7-cloud-curiorities": {
+      "description": "Il cloud computing ha rivoluzionato il modo in cui lavoriamo, giochiamo e memorizziamo i dati. Un sondaggio...",
+      "title": "7 curiosità del cloud | Blog dell'Elemento"
+    },
+    "2023-01-21-accelerate-simplify-and-save-elemento-is-the-cloud-revolution-for-your-business": {
+      "description": "Elemento trasforma la gestione del cloud con interoperabilità perfetta, flessibilità ibrida e...",
+      "title": "Accelera, semplifica e risparmia: Elemento è la rivoluzione cloud per il tuo business | Blog dell'Elemento"
+    },
+    "2023-02-10-achieving-optimal-data-protection-overcoming-limitations-of-traditional-cloud-storage-services": {
+      "description": "I servizi di archiviazione cloud offrono una protezione affidabile dei dati, ma esistono delle limitazioni. Per aumentare la sicurezza...",
+      "title": "Raggiungere una protezione ottimale dei dati: superare i limiti dei tradizionali servizi di cloud storage | Blog dell'Elemento"
+    },
+    "2023-03-02-cloud-gaming-the-revolution-of-video-games": {
+      "description": "Il Cloud Gaming ha rivoluzionato il settore dei giochi, offrendo accessibilità e comodità...",
+      "title": "Cloud Gaming: la rivoluzione dei videogiochi | Blog dell'Elemento"
+    },
+    "2023-03-22-cloud-scalability": {
+      "description": "La scalabilità del cloud è fondamentale per le aziende nel settore del cloud computing, poiché consente flessibilità...",
+      "title": "Scalabilità del cloud | Blog dell'Elemento"
+    },
+    "2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment": {
+      "description": "Questo articolo esplora l'intersezione tra smart working e cloud computing, evidenziando...",
+      "title": "Cloud computing e smart working: rivoluzionare l'ambiente di lavoro | Blog dell'Elemento"
+    },
+    "2023-05-01-cloud-computing-challenges-in-2023-what-to-expect": {
+      "description": "Il 2023 rappresenta un anno di sfide e opportunità nel settore del cloud computing...",
+      "title": "Le sfide del cloud computing nel 2023: cosa aspettarsi | Blog dell'Elemento"
+    },
+    "2023-05-21-cloud-computing-a-revolutionary-transformation-for-your-business": {
+      "description": "Il cloud computing h...",
+      "title": "Cloud computing: una trasformazione rivoluzionaria per il tuo business | Blog dell'Elemento"
+    },
+    "2023-06-10-cloud-computing-a-revolutionary-transformation-for-your-business-a46f1": {
+      "description": "Il Cloud Computing rivoluziona le operazioni aziendali offrendo efficienza in termini di costi, flessibilità...",
+      "title": "Cloud computing: una trasformazione rivoluzionaria per il tuo business | Blog dell'Elemento"
+    },
+    "2023-06-30-cloud-migration-challenge-or-opportunity": {
+      "description": "La migrazione al cloud non è più una questione di",
+      "title": "Migrazione al cloud: sfida o opportunità? | Blog dell'Elemento"
+    },
+    "2023-07-20-cloud-zero-touch-operations-perspectives-and-challenges-of-full-automation-in-cloudops": {
+      "description": "Le operazioni zero-touch del cloud mirano ad automatizzare e ridurre al minimo l'intervento umano nella gestione...",
+      "title": "Operazioni cloud zero-touch: prospettive e sfide della completa automazione in CloudOps | Blog dell'Elemento"
+    },
+    "2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations": {
+      "description": "Il report di Gartner evidenzia gli errori comuni nella creazione di una strategia cloud. Questi includono...",
+      "title": "Errori comuni (e come evitarli) nella creazione di una strategia cloud: i consigli di Gartner | Blog dell'Elemento"
+    },
+    "2023-08-29-data-spaces-the-value-of-connected-data": {
+      "description": "Gli spazi dati collegano dati frammentati, offrendo infrastrutture sicure, meccanismi di governance dei dati...",
+      "title": "Spazi dati: il valore dei dati connessi | Blog dell'Elemento"
+    },
+    "2023-09-18-datacenters-an-inevitable-transformation": {
+      "description": "Nonostante la diminuzione del numero di aziende che costruiscono e mantengono data center tradizionali...",
+      "title": "Datacenter: una trasformazione inevitabile | Blog dell'Elemento"
+    },
+    "2023-10-08-edge-computing-insights-from-gartner-research": {
+      "description": "L'edge computing è un approccio rivoluzionario nell'architettura IT aziendale, che offre nuove...",
+      "title": "Edge computing: approfondimenti dalla ricerca Gartner | Blog dell'Elemento"
+    },
+    "2023-10-28-elemento-guiding-sustainable-innovation-and-quality-education": {
+      "description": "Promuoviamo l’innovazione sostenibile e un’istruzione di qualità. Diamo priorità all'eccellenza in...",
+      "title": "Elemento: guidare l'innovazione sostenibile e l'istruzione di qualità | Blog dell'Elemento"
+    },
+    "2023-11-17-elemento-the-sustainable-cloud-solution-for-your-business": {
+      "description": "Elemento combina innovazione e sostenibilità, semplificando la gestione del cloud e riducendo...",
+      "title": "Elemento: la soluzione cloud sostenibile per il tuo business | Blog dell'Elemento"
+    },
+    "2023-12-07-empowering-businesses-with-cloud-servers-in-the-digital-age": {
+      "description": "I server cloud stanno rivoluzionando il modo in cui operano le aziende fornendo servizi virtuali e scalabili...",
+      "title": "Potenziare le aziende con server cloud nell'era digitale | Blog dell'Elemento"
+    },
+    "2023-12-27-exploring-the-4-types-of-cloud-storage-versatility-convenience-and-borderless-security": {
+      "description": "Il cloud storage è essenziale nel mondo moderno e offre quattro tipologie: dedicato, applicazione web...",
+      "title": "Esplorando i 4 tipi di cloud storage: versatilità, comodità e sicurezza senza confini | Blog dell'Elemento"
+    },
+    "2024-01-16-exploring-the-three-types-of-cloud-services-iaas-paas-and-saas": {
+      "description": "Il cloud computing ha rivoluzionato il modo in cui le aziende gestiscono le proprie risorse IT...",
+      "title": "Esplorando i tre tipi di servizi cloud: IaaS, Paas e SaaS | Blog dell'Elemento"
+    },
+    "2024-02-05-green-data-reducing-the-environmental-impact-of-cloud-computing": {
+      "description": "Nell’era digitale il Cloud Computing ha rivoluzionato la gestione dei dati ma ha anche contribuito...",
+      "title": "Dati verdi: ridurre l'impatto ambientale del cloud computing | Blog dell'Elemento"
+    },
+    "2024-02-25-harnessing-computing-power-and-unused-resource-exchange-in-cloud-computing": {
+      "description": "Nel campo del cloud computing, la potenza di calcolo è essenziale affinché le organizzazioni ottimizzino...",
+      "title": "Sfruttare la potenza di calcolo e lo scambio di risorse inutilizzate nel cloud computing | Blog dell'Elemento"
+    },
+    "2024-03-16-italys-national-cloud": {
+      "description": "L'Italia ha lanciato il",
+      "title": "Il Cloud Nazionale d'Italia | Blog dell'Elemento"
+    },
+    "2024-04-05-keep-your-business-secure-the-importance-of-cloud-backup": {
+      "description": "Il backup dei dati è fondamentale per le aziende per proteggersi da guasti hardware, errori e attacchi informatici.",
+      "title": "Proteggi la tua azienda: l'importanza del backup sul cloud | Blog dell'Elemento"
+    },
+    "2024-04-25-kyndryl-guiding-innovation-and-business-transformation-through-cloud": {
+      "description": "Il rapporto annuale di Kyndryl offre uno sguardo illuminante sul futuro della tecnologia...",
+      "title": "Kyndryl: guidare l'innovazione e la trasformazione aziendale attraverso il cloud | Blog dell'Elemento"
+    },
+    "2024-05-15-optimizing-storage-space-in-cloud-computing-reduce-costs-and-carbon-emissions": {
+      "description": "L'ottimizzazione dello spazio di archiviazione nel cloud computing è diventata cruciale per le aziende che mirano a...",
+      "title": "Ottimizzare lo spazio di archiviazione nel cloud computing: ridurre i costi e le emissioni di carbonio | Blog dell'Elemento"
+    },
+    "2024-06-04-public-private-hybrid-and-multicloud-understanding-the-different-options": {
+      "description": "Il cloud computing offre diverse opzioni per soddisfare le esigenze organizzative: pubblico, privato, ibrido...",
+      "title": "Pubblico, privato, ibrido e multicloud: comprendere le diverse opzioni | Blog dell'Elemento"
+    },
+    "2024-06-24-sustainability-and-telecommunications-environmental-impact-and-the-role-of-cloud": {
+      "description": "La sostenibilità è emersa come tema centrale all’incontro annuale del World Economic Forum...",
+      "title": "Sostenibilità e telecomunicazioni: impatto ambientale e ruolo del cloud | Blog dell'Elemento"
+    },
+    "2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision": {
+      "description": "Il costo totale di proprietà (TCO) nel cloud computing implica considerare tutti i costi durante...",
+      "title": "TCO nel cloud computing: un'analisi completa dei costi per le decisioni aziendali | Blog dell'Elemento"
+    },
+    "2024-08-03-thales-annual-report-escalating-ransomware-attacks-and-cloud-data-risks-sound-digital-sovereignty-alarm": {
+      "description": "Il rapporto annuale di Thales sulle minacce informatiche ha evidenziato un preoccupante aumento degli attacchi ransomware...",
+      "title": "Rapporto annuale Thales: l'escalation degli attacchi ransomware e i rischi relativi ai dati nel cloud suonano come un allarme per la sovranità digitale | Blog dell'Elemento"
+    },
+    "2024-08-23-the-5rs-powerful-cloud-migration-strategies": {
+      "description": "La migrazione al cloud è fondamentale affinché le aziende rimangano competitive. IL",
+      "title": "Le 5R: potenti strategie di migrazione al cloud | Blog dell'Elemento"
+    },
+    "2024-09-12-the-benefits-of-virtualization-for-cloud-computing-resource-optimization-and-operational-agility": {
+      "description": "La virtualizzazione rivoluziona i data center e i servizi cloud, migliorando l'efficienza delle risorse...",
+      "title": "I vantaggi della virtualizzazione per il cloud computing: ottimizzazione delle risorse e agilità operativa | Blog dell'Elemento"
+    },
+    "2024-10-02-the-era-of-big-data": {
+      "description": "L’era dei Big Data ha inaugurato un panorama digitale in cui vengono generate grandi quantità di dati...",
+      "title": "L'era dei Big Data | Blog dell'Elemento"
+    },
+    "2024-10-22-the-european-open-science-cloud-towards-a-global-data-space-for-research": {
+      "description": "Lo European Open Science Cloud (EOSC) mira a rivoluzionare la ricerca in Europa...",
+      "title": "Il cloud europeo per la scienza aperta: verso uno spazio globale di dati per la ricerca | Blog dell'Elemento"
+    },
+    "2024-11-11-the-evolution-of-cloud-computing-from-the-early-ideas-of-john-mccarthy-to-modern-platforms": {
+      "description": "L'evoluzione del cloud computing può essere fatta risalire a sistemi in tempo reale precedenti alla sua esistenza...",
+      "title": "L'evoluzione del cloud computing: dalle prime idee di John McCarthy alle piattaforme moderne | Blog dell'Elemento"
+    },
+    "2024-12-01-the-future-of-cloud-computing-in-2023-revolutionary-trends-and-looming-challenges": {
+      "description": "Il mondo del cloud computing si sta dirigendo verso un futuro innovativo nel 2023, con le organizzazioni...",
+      "title": "Il futuro del cloud computing nel 2023: tendenze rivoluzionarie e sfide incombenti | Blog dell'Elemento"
+    },
+    "2024-12-21-the-importance-of-cybersecurity-in-the-digital-age": {
+      "description": "La sicurezza informatica è fondamentale per ogni azienda, data la crescente minaccia di attacchi informatici...",
+      "title": "L'importanza della sicurezza informatica nell'era digitale | Blog dell'Elemento"
+    },
+    "2025-01-10-the-origin-of-the-term-cloud-a-technological-metaphor": {
+      "description": "Il termine",
+      "title": "L'origine del termine \"cloud\": una metafora tecnologica | Blog dell'Elemento"
+    },
+    "2025-01-30-the-power-of-virtualization-in-cloud-computing": {
+      "description": "Il cloud computing ha trasformato la gestione dei dati aziendali, con la virtualizzazione che gioca un ruolo centrale...",
+      "title": "Il potere della virtualizzazione nel cloud computing | Blog dell'Elemento"
+    },
+    "2025-02-19-the-multi-cloud-conundrum-is-it-really-that-difficult": {
+      "description": "Multi-cloud non deve necessariamente significare complessità. Elemento lo trasforma in un pratico...",
+      "title": "L’enigma del multi-cloud: è davvero così difficile? | Blog dell'Elemento"
+    },
+    "2025-03-11-the-new-cloud-for-cultural-heritage-higital-transformation-serving-safeguarding": {
+      "description": "La creazione di....",
+      "title": "Il nuovo cloud per i beni culturali: la trasformazione digitale al servizio della tutela | Blog dell'Elemento"
+    },
+    "2025-03-31-the-triumph-of-cloud-computing-reaching-1-000-billion-in-revenues-by-2027": {
+      "description": "L’ascesa del cloud computing è inarrestabile e rivoluzionerà il modo in cui le aziende operano e...",
+      "title": "Il trionfo del cloud computing: raggiungere i 1.000 miliardi di dollari di ricavi entro il 2027 | Blog dell'Elemento"
+    },
+    "2025-04-20-unveiling-the-power-of-the-cloud-differences-between-cloud-storage-and-cloud-computing": {
+      "description": "Il cloud storage e il cloud computing sono due facce della stessa medaglia digitale. Archiviazione nel cloud, con...",
+      "title": "Svelare la potenza del cloud: differenze tra cloud storage e cloud computing | Blog dell'Elemento"
+    },
+    "2025-05-10-what-is-cloud-computing": {
+      "description": "Il cloud computing consente...",
+      "title": "Cos'è il cloud computing? | Blog dell'Elemento"
+    },
+    "2025-05-30-within-2026-cloud-security-will-be-manager-by-socs-trend-micros-predictions": {
+      "description": "Il numero crescente..",
+      "title": "Entro il 2026 la sicurezza del cloud sarà gestita dai SOC: le previsioni di Trend Micro | Blog dell'Elemento"
+    },
+    "2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next": {
+      "description": "Una guida pratica su cosa significa realmente il cloud, perché gli attuali modelli cloud sono centralizzati e in che modo l'interoperabilità, la portabilità e la governance determinano ciò che verrà dopo.",
+      "title": "Il futuro del cloud: cos'è il \"cloud\"? Significa davvero, perché è centralizzato e cosa viene dopo | Blog dell'Elemento"
+    },
+    "blog": {
+      "description": "Approfondimenti di esperti, notizie di settore e storie innovative dal team Elemento e dalla comunità del cloud computing. Rimani aggiornato con le ultime novità in fatto di tecnologia cloud.",
+      "title": "Elemento | Blog | Approfondimenti sul cloud computing e notizie sulla tecnologia"
+    },
+    "meeting-landing-template": {
+      "description": "Prenota tempo con il team Elemento. Sostituisci questa descrizione quando duplichi il modello.",
+      "title": "Pianifica una riunione — Elemento"
+    },
+    "brand-guidelines": {
+      "description": "Linee guida ufficiali del marchio Elemento: utilizzo del logo, tavolozza dei colori, tipografia e denominazione dei prodotti per stampa, partner e creatori.",
+      "title": "Elemento | Linee guida del marchio | Logo, colori e tipografia"
+    },
+    "compare-costs": {
+      "description": "Calcola quanto potresti risparmiare con AtomOS rispetto a VMware. Confronta i costi di virtualizzazione e scopri l'affidabilità di livello aziendale a una frazione del prezzo.",
+      "title": "Confronta i costi: AtomOS e VMware | Elemento Nuvola"
+    },
+    "editor": {
+      "description": "Crea e modifica post del blog per il sito Web Elemento con la nostra interfaccia intuitiva dell'editor.",
+      "title": "Editor dei post del blog - Elemento"
+    },
+    "electros": {
+      "description": "Electros è il dashboard di orchestrazione e la CLI di Elemento Cloud per la gestione di VM, storage e reti su cloud pubblici e infrastrutture on-premise.",
+      "title": "App Electros: dashboard di orchestrazione e CLI | Elemento Nuvola"
+    },
+    "getintouch": {
+      "title": "Mettiti in contatto con Elemento"
+    },
+    "provider-candidature": {
+      "title": "Candidatura per il fornitore di servizi cloud - Elemento"
+    },
+    "provider-success": {
+      "title": "Candidatura presentata - Elemento"
+    },
+    "atomos-demo": {
+      "description": "La tua demo AtomOS è prenotata. Controlla l'e-mail e accetta l'invito del calendario per confermare l'appuntamento."
+    },
+    "full-solution-demo": {
+      "description": "La tua soluzione demo completa è prenotata. Controlla l'e-mail e accetta l'invito del calendario per confermare la partecipazione."
+    },
+    "install-atomos": {
+      "description": "Guida all'installazione completa per l'hypervisor AtomOS e il dashboard di orchestrazione Electros. Metti in funzione entrambi i prodotti in pochi minuti con istruzioni dettagliate.",
+      "title": "Guida all'installazione — AtomOS ed Electros | Elemento Nuvola"
+    },
+    "orbital": {
+      "description": "I server orbitali sono soluzioni hardware preconfigurate con AtomOS incluso. Scegli tra varie configurazioni per carichi di lavoro di sviluppo, produzione e aziendali.",
+      "title": "Orbital: server hardware con AtomOS | Elemento Nuvola"
+    },
+    "signup-success": {
+      "description": "Benvenuto su Elemento! Il tuo account è stato creato con successo. Inizia il tuo viaggio nell'infrastruttura cloud.",
+      "title": "Benvenuto in Elemento: registrazione riuscita"
+    },
+    "ai": {
+      "description": "Addestra, distribuisci e scala i carichi di lavoro AI senza soluzione di continuità su cloud e nodi on-premise. Elemento fornisce la gestione dei cluster GPU e ambienti AI multi-cloud.",
+      "title": "Startup e laboratori di ricerca in materia di intelligenza artificiale/scienza dei dati | Elemento"
+    },
+    "devops": {
+      "description": "Crea pipeline CI/CD indipendenti dal cloud con Elemento. Distribuisci più velocemente, scala in modo efficiente e mantieni la coerenza in tutti gli ambienti con la nostra piattaforma unificata.",
+      "title": "Infrastruttura DevOps per pipeline CI/CD | Elemento"
+    },
+    "industrial": {
+      "description": "Integra i dati della tua fabbrica dai PLC all'ERP in un unico ecosistema cloud sicuro e privo di fornitori. Trasforma i sistemi MES/ERP legacy con analisi moderne e pipeline di intelligenza artificiale.",
+      "title": "Produzione e innovazione industriale | Elemento"
+    },
+    "public-sector": {
+      "description": "Fornire alle istituzioni pubbliche un'infrastruttura cloud sovrana, interoperabile e verificabile. Elemento fornisce un'infrastruttura pronta per la conformità per iniziative governative e di città intelligenti.",
+      "title": "Settore pubblico e infrastrutture per smart city | Elemento"
+    },
+    "regulated": {
+      "description": "Esegui carichi di lavoro sensibili su cloud privati ​​e pubblici con una governance completa dei dati. Elemento fornisce sicurezza di livello aziendale con conformità integrata per i settori regolamentati.",
+      "title": "Sanità, finanza e ambienti regolamentati | Elemento"
+    },
+    "system-integrators": {
+      "description": "Elemento Cloud consente agli integratori di sistemi di fornire ambienti cloud sovrani ed elastici con il proprio marchio. Costruisci modelli di entrate ricorrenti attorno all'infrastruttura.",
+      "title": "Integratori di sistemi e consulenti cloud | Elemento"
+    },
+    "vmware-alternative": {
+      "description": "Sostituisci VMware con la moderna piattaforma di virtualizzazione di Elemento. Ottieni prestazioni migliori, costi inferiori e un'architettura nativa del cloud con la nostra soluzione di infrastruttura unificata.",
+      "title": "Alternativa a VMware: moderna piattaforma di virtualizzazione | Elemento"
+    },
+    "technology": {
+      "description": "Esplora la tecnologia all'avanguardia alla base della piattaforma cloud di Elemento, tra cui Kubernetes, Infrastructure as Code, architettura multi-cloud e innovazioni di green computing.",
+      "title": "Elemento | Tecnologia | Stack dell'infrastruttura cloud"
+    },
+    "atomos-demo-en": {
+      "description": "La tua demo AtomOS è prenotata. Controlla la tua email e accetta l'invito del calendario per confermare il tuo posto.",
+      "title": "Prenotazione confermata — Demo AtomOS | Elemento"
+    },
+    "full-solution-demo-en": {
+      "description": "La tua demo della soluzione completa è prenotata. Controlla la tua email e accetta l'invito del calendario per confermare la tua partecipazione.",
+      "title": "Demo in programma: AtomOS, Electros &amp; Atomosfera | Elemento"
+    },
+    "partnership-dev": {
+      "description": "La tua chiamata introduttiva alla partnership è programmata. Accetta l'invito del calendario in modo che entrambi i team siano allineati per la conversazione.",
+      "title": "Grazie - Partnership &amp; sviluppo aziendale | Elemento"
+    },
+    "pr-marketing": {
+      "description": "La tua sessione di PR e marketing è confermata. Accetta l'invito del calendario dalla tua casella di posta per tenere sotto controllo il tuo brainstorming.",
+      "title": "Prenotazione completata - PR &amp; Marketing | Elemento"
+    },
+    "blog-posts_2023-01-01-7-cloud-curiorities": {
+      "description": "Il cloud computing ha rivoluzionato il modo in cui lavoriamo, giochiamo e memorizziamo i dati. Un sondaggio...",
+      "title": "7 curiosità del cloud | Blog dell'Elemento"
+    },
+    "blog-posts_2023-01-21-accelerate-simplify-and-save-elemento-is-the-cloud-revolution-for-your-business": {
+      "description": "Elemento trasforma la gestione del cloud con interoperabilità perfetta, flessibilità ibrida e...",
+      "title": "Accelera, semplifica e risparmia: Elemento è la rivoluzione cloud per il tuo business | Blog dell'Elemento"
+    },
+    "blog-posts_2023-02-10-achieving-optimal-data-protection-overcoming-limitations-of-traditional-cloud-storage-services": {
+      "description": "I servizi di archiviazione cloud offrono una protezione affidabile dei dati, ma esistono delle limitazioni. Per aumentare la sicurezza...",
+      "title": "Raggiungere una protezione ottimale dei dati: superare i limiti dei tradizionali servizi di cloud storage | Blog dell'Elemento"
+    },
+    "blog-posts_2023-03-02-cloud-gaming-the-revolution-of-video-games": {
+      "description": "Il Cloud Gaming ha rivoluzionato il settore dei giochi, offrendo accessibilità e comodità...",
+      "title": "Cloud Gaming: la rivoluzione dei videogiochi | Blog dell'Elemento"
+    },
+    "blog-posts_2023-03-22-cloud-scalability": {
+      "description": "La scalabilità del cloud è fondamentale per le aziende nel settore del cloud computing, poiché consente flessibilità...",
+      "title": "Scalabilità del cloud | Blog dell'Elemento"
+    },
+    "blog-posts_2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment": {
+      "description": "Questo articolo esplora l'intersezione tra smart working e cloud computing, evidenziando...",
+      "title": "Cloud computing e smart working: rivoluzionare l'ambiente di lavoro | Blog dell'Elemento"
+    },
+    "blog-posts_2023-05-01-cloud-computing-challenges-in-2023-what-to-expect": {
+      "description": "Il 2023 rappresenta un anno di sfide e opportunità nel settore del cloud computing...",
+      "title": "Le sfide del cloud computing nel 2023: cosa aspettarsi | Blog dell'Elemento"
+    },
+    "blog-posts_2023-05-21-cloud-computing-a-revolutionary-transformation-for-your-business": {
+      "description": "Il cloud computing h...",
+      "title": "Cloud computing: una trasformazione rivoluzionaria per il tuo business | Blog dell'Elemento"
+    },
+    "blog-posts_2023-06-10-cloud-computing-a-revolutionary-transformation-for-your-business-a46f1": {
+      "description": "Il Cloud Computing rivoluziona le operazioni aziendali offrendo efficienza in termini di costi, flessibilità...",
+      "title": "Cloud computing: una trasformazione rivoluzionaria per il tuo business | Blog dell'Elemento"
+    },
+    "blog-posts_2023-06-30-cloud-migration-challenge-or-opportunity": {
+      "description": "La migrazione al cloud non è più una questione di",
+      "title": "Migrazione al cloud: sfida o opportunità? | Blog dell'Elemento"
+    },
+    "blog-posts_2023-07-20-cloud-zero-touch-operations-perspectives-and-challenges-of-full-automation-in-cloudops": {
+      "description": "Le operazioni zero-touch del cloud mirano ad automatizzare e ridurre al minimo l'intervento umano nella gestione...",
+      "title": "Operazioni cloud zero-touch: prospettive e sfide della completa automazione in CloudOps | Blog dell'Elemento"
+    },
+    "blog-posts_2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations": {
+      "description": "Il report di Gartner evidenzia gli errori comuni nella creazione di una strategia cloud. Questi includono...",
+      "title": "Errori comuni (e come evitarli) nella creazione di una strategia cloud: i consigli di Gartner | Blog dell'Elemento"
+    },
+    "blog-posts_2023-08-29-data-spaces-the-value-of-connected-data": {
+      "description": "Gli spazi dati collegano dati frammentati, offrendo infrastrutture sicure, meccanismi di governance dei dati...",
+      "title": "Spazi dati: il valore dei dati connessi | Blog dell'Elemento"
+    },
+    "blog-posts_2023-09-18-datacenters-an-inevitable-transformation": {
+      "description": "Nonostante la diminuzione del numero di aziende che costruiscono e mantengono data center tradizionali...",
+      "title": "Datacenter: una trasformazione inevitabile | Blog dell'Elemento"
+    },
+    "blog-posts_2023-10-08-edge-computing-insights-from-gartner-research": {
+      "description": "L'edge computing è un approccio rivoluzionario nell'architettura IT aziendale, che offre nuove...",
+      "title": "Edge computing: approfondimenti dalla ricerca Gartner | Blog dell'Elemento"
+    },
+    "blog-posts_2023-10-28-elemento-guiding-sustainable-innovation-and-quality-education": {
+      "description": "Promuoviamo l’innovazione sostenibile e un’istruzione di qualità. Diamo priorità all'eccellenza in...",
+      "title": "Elemento: guidare l'innovazione sostenibile e l'istruzione di qualità | Blog dell'Elemento"
+    },
+    "blog-posts_2023-11-17-elemento-the-sustainable-cloud-solution-for-your-business": {
+      "description": "Elemento combina innovazione e sostenibilità, semplificando la gestione del cloud e riducendo...",
+      "title": "Elemento: la soluzione cloud sostenibile per il tuo business | Blog dell'Elemento"
+    },
+    "blog-posts_2023-12-07-empowering-businesses-with-cloud-servers-in-the-digital-age": {
+      "description": "I server cloud stanno rivoluzionando il modo in cui operano le aziende fornendo servizi virtuali e scalabili...",
+      "title": "Potenziare le aziende con server cloud nell'era digitale | Blog dell'Elemento"
+    },
+    "blog-posts_2023-12-27-exploring-the-4-types-of-cloud-storage-versatility-convenience-and-borderless-security": {
+      "description": "Il cloud storage è essenziale nel mondo moderno e offre quattro tipologie: dedicato, applicazione web...",
+      "title": "Esplorando i 4 tipi di cloud storage: versatilità, comodità e sicurezza senza confini | Blog dell'Elemento"
+    },
+    "blog-posts_2024-01-16-exploring-the-three-types-of-cloud-services-iaas-paas-and-saas": {
+      "description": "Il cloud computing ha rivoluzionato il modo in cui le aziende gestiscono le proprie risorse IT...",
+      "title": "Esplorando i tre tipi di servizi cloud: IaaS, Paas e SaaS | Blog dell'Elemento"
+    },
+    "blog-posts_2024-02-05-green-data-reducing-the-environmental-impact-of-cloud-computing": {
+      "description": "Nell’era digitale il Cloud Computing ha rivoluzionato la gestione dei dati ma ha anche contribuito...",
+      "title": "Dati verdi: ridurre l'impatto ambientale del cloud computing | Blog dell'Elemento"
+    },
+    "blog-posts_2024-02-25-harnessing-computing-power-and-unused-resource-exchange-in-cloud-computing": {
+      "description": "Nel campo del cloud computing, la potenza di calcolo è essenziale affinché le organizzazioni ottimizzino...",
+      "title": "Sfruttare la potenza di calcolo e lo scambio di risorse inutilizzate nel cloud computing | Blog dell'Elemento"
+    },
+    "blog-posts_2024-03-16-italys-national-cloud": {
+      "description": "L'Italia ha lanciato il",
+      "title": "Il Cloud Nazionale d'Italia | Blog dell'Elemento"
+    },
+    "blog-posts_2024-04-05-keep-your-business-secure-the-importance-of-cloud-backup": {
+      "description": "Il backup dei dati è fondamentale per le aziende per proteggersi da guasti hardware, errori e attacchi informatici.",
+      "title": "Proteggi la tua azienda: l'importanza del backup sul cloud | Blog dell'Elemento"
+    },
+    "blog-posts_2024-04-25-kyndryl-guiding-innovation-and-business-transformation-through-cloud": {
+      "description": "Il rapporto annuale di Kyndryl offre uno sguardo illuminante sul futuro della tecnologia...",
+      "title": "Kyndryl: guidare l'innovazione e la trasformazione aziendale attraverso il cloud | Blog dell'Elemento"
+    },
+    "blog-posts_2024-05-15-optimizing-storage-space-in-cloud-computing-reduce-costs-and-carbon-emissions": {
+      "description": "L'ottimizzazione dello spazio di archiviazione nel cloud computing è diventata cruciale per le aziende che mirano a...",
+      "title": "Ottimizzare lo spazio di archiviazione nel cloud computing: ridurre i costi e le emissioni di carbonio | Blog dell'Elemento"
+    },
+    "blog-posts_2024-06-04-public-private-hybrid-and-multicloud-understanding-the-different-options": {
+      "description": "Il cloud computing offre diverse opzioni per soddisfare le esigenze organizzative: pubblico, privato, ibrido...",
+      "title": "Pubblico, privato, ibrido e multicloud: comprendere le diverse opzioni | Blog dell'Elemento"
+    },
+    "blog-posts_2024-06-24-sustainability-and-telecommunications-environmental-impact-and-the-role-of-cloud": {
+      "description": "La sostenibilità è emersa come tema centrale all’incontro annuale del World Economic Forum...",
+      "title": "Sostenibilità e telecomunicazioni: impatto ambientale e ruolo del cloud | Blog dell'Elemento"
+    },
+    "blog-posts_2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision": {
+      "description": "Il costo totale di proprietà (TCO) nel cloud computing implica considerare tutti i costi durante...",
+      "title": "TCO nel cloud computing: un'analisi completa dei costi per le decisioni aziendali | Blog dell'Elemento"
+    },
+    "blog-posts_2024-08-03-thales-annual-report-escalating-ransomware-attacks-and-cloud-data-risks-sound-digital-sovereignty-alarm": {
+      "description": "Il rapporto annuale di Thales sulle minacce informatiche ha evidenziato un preoccupante aumento degli attacchi ransomware...",
+      "title": "Rapporto annuale Thales: l'escalation degli attacchi ransomware e i rischi relativi ai dati nel cloud suonano come un allarme per la sovranità digitale | Blog dell'Elemento"
+    },
+    "blog-posts_2024-08-23-the-5rs-powerful-cloud-migration-strategies": {
+      "description": "La migrazione al cloud è fondamentale affinché le aziende rimangano competitive. IL",
+      "title": "Le 5R: potenti strategie di migrazione al cloud | Blog dell'Elemento"
+    },
+    "blog-posts_2024-09-12-the-benefits-of-virtualization-for-cloud-computing-resource-optimization-and-operational-agility": {
+      "description": "La virtualizzazione rivoluziona i data center e i servizi cloud, migliorando l'efficienza delle risorse...",
+      "title": "I vantaggi della virtualizzazione per il cloud computing: ottimizzazione delle risorse e agilità operativa | Blog dell'Elemento"
+    },
+    "blog-posts_2024-10-02-the-era-of-big-data": {
+      "description": "L’era dei Big Data ha inaugurato un panorama digitale in cui vengono generate grandi quantità di dati...",
+      "title": "L'era dei Big Data | Blog dell'Elemento"
+    },
+    "blog-posts_2024-10-22-the-european-open-science-cloud-towards-a-global-data-space-for-research": {
+      "description": "Lo European Open Science Cloud (EOSC) mira a rivoluzionare la ricerca in Europa...",
+      "title": "Il cloud europeo per la scienza aperta: verso uno spazio globale di dati per la ricerca | Blog dell'Elemento"
+    },
+    "blog-posts_2024-11-11-the-evolution-of-cloud-computing-from-the-early-ideas-of-john-mccarthy-to-modern-platforms": {
+      "description": "L'evoluzione del cloud computing può essere fatta risalire a sistemi in tempo reale precedenti alla sua esistenza...",
+      "title": "L'evoluzione del cloud computing: dalle prime idee di John McCarthy alle piattaforme moderne | Blog dell'Elemento"
+    },
+    "blog-posts_2024-12-01-the-future-of-cloud-computing-in-2023-revolutionary-trends-and-looming-challenges": {
+      "description": "Il mondo del cloud computing si sta dirigendo verso un futuro innovativo nel 2023, con le organizzazioni...",
+      "title": "Il futuro del cloud computing nel 2023: tendenze rivoluzionarie e sfide incombenti | Blog dell'Elemento"
+    },
+    "blog-posts_2024-12-21-the-importance-of-cybersecurity-in-the-digital-age": {
+      "description": "La sicurezza informatica è fondamentale per ogni azienda, data la crescente minaccia di attacchi informatici...",
+      "title": "L'importanza della sicurezza informatica nell'era digitale | Blog dell'Elemento"
+    },
+    "blog-posts_2025-01-10-the-origin-of-the-term-cloud-a-technological-metaphor": {
+      "description": "Il termine",
+      "title": "L'origine del termine \"cloud\": una metafora tecnologica | Blog dell'Elemento"
+    },
+    "blog-posts_2025-01-30-the-power-of-virtualization-in-cloud-computing": {
+      "description": "Il cloud computing ha trasformato la gestione dei dati aziendali, con la virtualizzazione che gioca un ruolo centrale...",
+      "title": "Il potere della virtualizzazione nel cloud computing | Blog dell'Elemento"
+    },
+    "blog-posts_2025-02-19-the-multi-cloud-conundrum-is-it-really-that-difficult": {
+      "description": "Multi-cloud non deve necessariamente significare complessità. Elemento lo trasforma in un pratico...",
+      "title": "L’enigma del multi-cloud: è davvero così difficile? | Blog dell'Elemento"
+    },
+    "blog-posts_2025-03-11-the-new-cloud-for-cultural-heritage-higital-transformation-serving-safeguarding": {
+      "description": "La creazione di....",
+      "title": "Il nuovo cloud per i beni culturali: la trasformazione digitale al servizio della tutela | Blog dell'Elemento"
+    },
+    "blog-posts_2025-03-31-the-triumph-of-cloud-computing-reaching-1-000-billion-in-revenues-by-2027": {
+      "description": "L’ascesa del cloud computing è inarrestabile e rivoluzionerà il modo in cui le aziende operano e...",
+      "title": "Il trionfo del cloud computing: raggiungere i 1.000 miliardi di dollari di ricavi entro il 2027 | Blog dell'Elemento"
+    },
+    "blog-posts_2025-04-20-unveiling-the-power-of-the-cloud-differences-between-cloud-storage-and-cloud-computing": {
+      "description": "Il cloud storage e il cloud computing sono due facce della stessa medaglia digitale. Archiviazione nel cloud, con...",
+      "title": "Svelare la potenza del cloud: differenze tra cloud storage e cloud computing | Blog dell'Elemento"
+    },
+    "blog-posts_2025-05-10-what-is-cloud-computing": {
+      "description": "Il cloud computing consente...",
+      "title": "Cos'è il cloud computing? | Blog dell'Elemento"
+    },
+    "blog-posts_2025-05-30-within-2026-cloud-security-will-be-manager-by-socs-trend-micros-predictions": {
+      "description": "Il numero crescente..",
+      "title": "Entro il 2026 la sicurezza del cloud sarà gestita dai SOC: le previsioni di Trend Micro | Blog dell'Elemento"
+    },
+    "blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next": {
+      "description": "Una guida pratica su cosa significa realmente il cloud, perché gli attuali modelli cloud sono centralizzati e in che modo l'interoperabilità, la portabilità e la governance determinano ciò che verrà dopo.",
+      "title": "Il futuro del cloud: cos'è il \"cloud\"? Significa davvero, perché è centralizzato e cosa viene dopo | Blog dell'Elemento"
+    },
+    "bookings_meeting-landing-template": {
+      "description": "Prenota tempo con il team Elemento. Sostituisci questa descrizione quando duplichi il modello.",
+      "title": "Pianifica una riunione — Elemento"
+    },
+    "forms_getintouch": {
+      "title": "Mettiti in contatto con Elemento"
+    },
+    "forms_provider-candidature": {
+      "title": "Candidatura per il fornitore di servizi cloud - Elemento"
+    },
+    "forms_provider-success": {
+      "title": "Candidatura presentata - Elemento"
+    },
+    "forms_signup": {
+      "title": "Iscriviti - Elemento"
+    },
+    "grazie_atomos-demo": {
+      "description": "La tua demo AtomOS è prenotata. Controlla l'e-mail e accetta l'invito del calendario per confermare l'appuntamento."
+    },
+    "grazie_full-solution-demo": {
+      "description": "La tua soluzione demo completa è prenotata. Controlla l'e-mail e accetta l'invito del calendario per confermare la partecipazione."
+    },
+    "solutions_ai": {
+      "description": "Addestra, distribuisci e scala i carichi di lavoro AI senza soluzione di continuità su cloud e nodi on-premise. Elemento fornisce la gestione dei cluster GPU e ambienti AI multi-cloud.",
+      "title": "Startup e laboratori di ricerca in materia di intelligenza artificiale/scienza dei dati | Elemento"
+    },
+    "solutions_devops": {
+      "description": "Crea pipeline CI/CD indipendenti dal cloud con Elemento. Distribuisci più velocemente, scala in modo efficiente e mantieni la coerenza in tutti gli ambienti con la nostra piattaforma unificata.",
+      "title": "Infrastruttura DevOps per pipeline CI/CD | Elemento"
+    },
+    "solutions_index": {
+      "description": "Scopri come la piattaforma cloud unificata di Elemento serve diversi settori e casi d'uso. Dai carichi di lavoro AI/ML agli ambienti regolamentati, trova la soluzione perfetta.",
+      "title": "Hub delle soluzioni | Piattaforma cloud Elemento"
+    },
+    "solutions_industrial": {
+      "description": "Integra i dati della tua fabbrica dai PLC all'ERP in un unico ecosistema cloud sicuro e privo di fornitori. Trasforma i sistemi MES/ERP legacy con analisi moderne e pipeline di intelligenza artificiale.",
+      "title": "Produzione e innovazione industriale | Elemento"
+    },
+    "solutions_public-sector": {
+      "description": "Fornire alle istituzioni pubbliche un'infrastruttura cloud sovrana, interoperabile e verificabile. Elemento fornisce un'infrastruttura pronta per la conformità per iniziative governative e di città intelligenti.",
+      "title": "Settore pubblico e infrastrutture per smart city | Elemento"
+    },
+    "solutions_regulated": {
+      "description": "Esegui carichi di lavoro sensibili su cloud privati ​​e pubblici con una governance completa dei dati. Elemento fornisce sicurezza di livello aziendale con conformità integrata per i settori regolamentati.",
+      "title": "Sanità, finanza e ambienti regolamentati | Elemento"
+    },
+    "solutions_system-integrators": {
+      "description": "Elemento Cloud consente agli integratori di sistemi di fornire ambienti cloud sovrani ed elastici con il proprio marchio. Costruisci modelli di entrate ricorrenti attorno all'infrastruttura.",
+      "title": "Integratori di sistemi e consulenti cloud | Elemento"
+    },
+    "solutions_vmware-alternative": {
+      "description": "Sostituisci VMware con la moderna piattaforma di virtualizzazione di Elemento. Ottieni prestazioni migliori, costi inferiori e un'architettura nativa del cloud con la nostra soluzione di infrastruttura unificata.",
+      "title": "Alternativa a VMware: moderna piattaforma di virtualizzazione | Elemento"
+    },
+    "thank-you_atomos-demo-en": {
+      "description": "La tua demo AtomOS è prenotata. Controlla la tua email e accetta l'invito del calendario per confermare il tuo posto.",
+      "title": "Prenotazione confermata — Demo AtomOS | Elemento"
+    },
+    "thank-you_full-solution-demo-en": {
+      "description": "La tua demo della soluzione completa è prenotata. Controlla la tua email e accetta l'invito del calendario per confermare la tua partecipazione.",
+      "title": "Demo in programma: AtomOS, Electros &amp; Atomosfera | Elemento"
+    },
+    "thank-you_partnership-dev": {
+      "description": "La tua chiamata introduttiva alla partnership è programmata. Accetta l'invito del calendario in modo che entrambi i team siano allineati per la conversazione.",
+      "title": "Grazie - Partnership &amp; sviluppo aziendale | Elemento"
+    },
+    "thank-you_pr-marketing": {
+      "description": "La tua sessione di PR e marketing è confermata. Accetta l'invito del calendario dalla tua casella di posta per tenere sotto controllo il tuo brainstorming.",
+      "title": "Prenotazione completata - PR &amp; Marketing | Elemento"
+    }
+  },
+  "cms": {
+    "loadingTeam": "Caricamento team…",
+    "loadingOrbital": "Caricamento configurazioni…",
+    "providerSupported": "Supportato",
+    "providerPartial": "Supporto parziale",
+    "providerPlanned": "In roadmap",
+    "providerColumn": "Fornitore",
+    "supportColumn": "Livello di supporto"
+  },
+  "thankYou": {
+    "atomosDemo": "Grazie per aver prenotato la demo AtomOS!",
+    "fullSolutionDemo": "Grazie per aver prenotato la demo della soluzione completa!"
+  }
+}

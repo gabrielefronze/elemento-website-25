@@ -1,0 +1,15 @@
+---
+import MigratedPage from '../../../components/MigratedPage.astro';
+import { pagesByGroup } from '../../../lib/manifest';
+
+export function getStaticPaths() {
+  return pagesByGroup('grazie', 'it').map((entry) => ({
+    params: { slug: entry.slug.replace(/-it$/, '') },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+---
+
+<MigratedPage entry={entry} locale="it" />

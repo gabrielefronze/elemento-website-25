@@ -4,12 +4,21 @@
   "description": "Modern website for Elemento - Modular Cloud Solutions",
   "main": "index.html",
   "scripts": {
-    "start": "python -m http.server 8000",
-    "serve": "npx serve .",
-    "dev": "python -m http.server 8000",
-    "build": "npm run minify-css && npm run minify-js",
-    "minify-css": "for file in css/*.css; do if [ -f \"$file\" ]; then cleancss -o \"${file%.css}.min.css\" \"$file\"; fi; done && for file in css/gradient-blobs/*.css; do if [ -f \"$file\" ]; then cleancss -o \"${file%.css}.min.css\" \"$file\"; fi; done",
-    "minify-js": "for file in js/*.js; do if [ -f \"$file\" ]; then terser \"$file\" -o \"${file%.js}.min.js\" --compress --mangle; fi; done",
+    "start": "npm run live",
+    "live": "npm run build",
+    "serve": "npx serve dist",
+    "dev": "node scripts/sync-public.mjs && astro dev",
+    "dev:legacy": "python -m http.server 8000",
+    "i18n:extract": "node scripts/extract-localizable-strings.mjs",
+    "i18n:translate": "test -x .venv-i18n/bin/python && .venv-i18n/bin/python scripts/translate-strings.py || (python3 -m venv .venv-i18n && .venv-i18n/bin/pip install -q deep-translator && .venv-i18n/bin/python scripts/translate-strings.py)",
+    "i18n:import": "node scripts/import-localization.mjs",
+    "i18n:localize": "npm run i18n:extract && npm run i18n:translate && npm run i18n:import",
+    "prebuild": "node scripts/build-pages-manifest.mjs && node scripts/sync-public.mjs",
+    "build": "astro build && npm run minify-css && npm run minify-js",
+    "postbuild": "node scripts/fix-it-index.mjs && node scripts/clean-dist-legacy.mjs && node scripts/generate-sitemap.mjs",
+    "preview": "astro preview",
+    "minify-css": "for file in css/*.css; do case \"$file\" in *.min.css) continue ;; esac; if [ -f \"$file\" ]; then cleancss -o \"${file%.css}.min.css\" \"$file\"; fi; done && for file in css/gradient-blobs/*.css; do case \"$file\" in *.min.css) continue ;; esac; if [ -f \"$file\" ]; then cleancss -o \"${file%.css}.min.css\" \"$file\"; fi; done",
+    "minify-js": "for file in js/*.js; do case \"$file\" in *.min.js) continue ;; esac; if [ -f \"$file\" ]; then terser \"$file\" -o \"${file%.js}.min.js\" --compress --mangle; fi; done",
     "test": "echo 'No tests specified'"
   },
   "keywords": [
@@ -23,8 +32,9 @@
   "license": "CC-BY-SA-4.0",
   "private": true,
   "devDependencies": {
-    "serve": "^14.2.0",
+    "astro": "^5.18.1",
     "clean-css-cli": "^5.6.2",
+    "serve": "^14.2.0",
     "terser": "^5.24.0"
   },
   "engines": {
@@ -38,4 +48,4 @@
     "url": "https://github.com/Elemento-Modular-Cloud/elemento-website/issues"
   },
   "homepage": "https://elemento.cloud"
-} 
+}

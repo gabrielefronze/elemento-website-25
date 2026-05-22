@@ -1,0 +1,88 @@
+{
+  "langSwitcher": {
+    "label": "Language",
+    "en": "EN",
+    "it": "IT"
+  },
+  "nav": {
+    "products": "Products",
+    "technology": "Technology",
+    "about": "About",
+    "contact": "Contact",
+    "blog": "Blog",
+    "signup": "Signup",
+    "bookCall": "Book a Call",
+    "homeAria": "Elemento home"
+  },
+  "footer": {
+    "tagline": "Vendor-neutral, high-performance cloud platform that's cost-effective, green, and self-hostable.",
+    "products": "Products",
+    "allProducts": "All Products",
+    "company": "Company",
+    "aboutUs": "About Us",
+    "careers": "Careers",
+    "resources": "Resources",
+    "documentation": "Documentation",
+    "brandGuidelines": "Brand guidelines",
+    "connect": "Connect",
+    "legal": "Elemento Srl - VAT IT03959360045 - Registro Produttori AEE n° IT24120000016642 - Fully paid-up share capital 14.341,58€",
+    "copyright": "© 2026 Elemento. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "cookies": "Cookie Policy"
+  },
+  "blog": {
+    "title": "Elemento | Blog | Cloud Computing Insights & Technology News",
+    "description": "Expert insights, industry news, and innovative stories from the Elemento team and cloud computing community.",
+    "heading": "Blog",
+    "subtitle": "Expert insights, industry news, and innovative stories from the Elemento team and cloud computing community.",
+    "readMore": "Read more",
+    "rssTitle": "Elemento Blog RSS Feed",
+    "noPosts": "No blog posts found.",
+    "englishPostsNote": "Articles are published in English. Italian interface; post content remains in English until translated."
+  },
+  "pages": {
+    "index": {
+      "title": "Elemento | Unified private and public Cloud platform",
+      "description": "Elemento is a vendor-neutral, cost-saving, green, high-performance, self-hostable cloud platform with infrastructure-as-code readiness.",
+      "heroTitle": "Unified private and public Cloud platform",
+      "heroSubtitle": "Vendor-neutral, cost-saving, green, high-performance, self-hostable cloud with infrastructure-as-code readiness."
+    },
+    "about": {
+      "title": "Elemento | About | Cloud Platform Mission & Team",
+      "description": "Learn about Elemento's mission to transform cloud infrastructure with vendor-neutral, cost-effective, and green computing solutions.",
+      "heroTitle": "About Elemento",
+      "heroSubtitle": "Transforming cloud infrastructure with vendor-neutral, cost-effective, and sustainable computing."
+    },
+    "contact": {
+      "title": "Elemento | Contact | Get Support for Your Cloud Platform",
+      "description": "Get in touch with Elemento for cloud infrastructure solutions, support, sales inquiries, or partnership opportunities.",
+      "heroTitle": "Contact us",
+      "heroSubtitle": "We're here to help with sales, support, and partnerships."
+    },
+    "products": {
+      "title": "Elemento | Products | AtomOS, Electros & Atomosphere",
+      "description": "Explore Elemento's modular cloud products: AtomOS hypervisor, Electros orchestration, and Atomosphere API layer.",
+      "heroTitle": "Our products",
+      "heroSubtitle": "Modular building blocks for a unified multi-cloud platform."
+    },
+    "signup": {
+      "title": "Elemento | Sign up | Start your cloud platform journey",
+      "description": "Sign up for Elemento to access AtomOS, Electros, and Atomosphere. Start with our free tier or contact sales.",
+      "heroTitle": "Sign up",
+      "heroSubtitle": "Start building on Elemento today."
+    }
+  },
+  "cms": {
+    "loadingTeam": "Loading team…",
+    "loadingOrbital": "Loading configurations…",
+    "providerSupported": "Supported",
+    "providerPartial": "Partial support",
+    "providerPlanned": "Planned",
+    "providerColumn": "Provider",
+    "supportColumn": "Support level"
+  },
+  "thankYou": {
+    "atomosDemo": "Thank you for booking your AtomOS demo!",
+    "fullSolutionDemo": "Thank you for scheduling your full solution demo!"
+  }
+}

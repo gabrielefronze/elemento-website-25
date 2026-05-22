@@ -1,0 +1,111 @@
+---
+import Hreflang from '../components/Hreflang.astro';
+import SiteFonts from '../components/SiteFonts.astro';
+import { getUi } from '../i18n';
+import type { Locale } from '../i18n/config';
+import { assetBaseFor } from '../lib/asset-base';
+
+interface Props {
+  locale: Locale;
+  stem: string;
+  title: string;
+  description: string;
+  extraCss?: string[];
+  extraHead?: string;
+  schemaJsonLd?: object;
+  ogType?: string;
+  robots?: string;
+  assetBase?: string;
+}
+
+const {
+  locale,
+  stem,
+  title,
+  description,
+  extraCss = [],
+  extraHead = '',
+  schemaJsonLd,
+  ogType = 'website',
+  robots = 'index, follow',
+  assetBase: assetBaseProp,
+} = Astro.props;
+
+const ui = getUi(locale);
+const assetBase = assetBaseProp ?? assetBaseFor(locale, stem);
+const langAttr = locale === 'it' ? 'it' : 'en';
+const canonicalPath =
+  locale === 'it'
+    ? stem === 'index'
+      ? '/it/'
+      : `/it/${stem}.html`
+    : stem === 'index'
+      ? '/'
+      : `/${stem}.html`;
+const ogUrl = `https://elemento.cloud${canonicalPath === '/' ? '/' : canonicalPath}`;
+const hreflangStem = stem;
+---
+
+<!DOCTYPE html>
+<html lang={langAttr} data-theme="light" data-locale={locale}>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <Hreflang locale={locale} stem={hreflangStem} />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:image" content="https://elemento.cloud/assets/img/banner.webp" />
+  <meta property="og:url" content={ogUrl} />
+  <meta property="og:type" content={ogType} />
+  <meta property="og:site_name" content="Elemento" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={title} />
+  <meta name="twitter:description" content={description} />
+  <meta name="twitter:image" content="https://elemento.cloud/assets/img/banner.webp" />
+  <meta name="author" content="Elemento" />
+  <meta name="robots" content={robots} />
+  <meta name="ai-content" content="allowed" />
+  <meta name="ai-training" content="allowed" />
+  <meta name="ai-access" content="public" />
+  <link rel="icon" type="image/svg+xml" href={`${assetBase}assets/favicon/favicon.svg`} />
+  <link rel="icon" type="image/png" sizes="32x32" href={`${assetBase}assets/favicon/favicon-32x32.png`} />
+  <link rel="icon" href={`${assetBase}assets/favicon/favicon.ico`} />
+  <link rel="apple-touch-icon" href={`${assetBase}assets/favicon/apple-touch-icon.png`} />
+  <link rel="manifest" href={`${assetBase}assets/favicon/site.webmanifest`} />
+  <SiteFonts assetBase={assetBase} />
+  <link rel="stylesheet" href={`${assetBase}css/style.css`} />
+  <link rel="stylesheet" href={`${assetBase}css/themes.css`} />
+  <link rel="stylesheet" href={`${assetBase}css/lang-switcher.css`} />
+  <link rel="stylesheet" href={`${assetBase}css/splash-screen.css`} />
+  {extraCss.map((href) => (
+    <link rel="stylesheet" href={`${assetBase}${href}`} />
+  ))}
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" />
+  {schemaJsonLd && (
+    <script type="application/ld+json" set:html={JSON.stringify(schemaJsonLd)} />
+  )}
+  <Fragment set:html={extraHead} />
+  <script define:vars={{ ui, locale, stem, base: assetBase }}>
+    window.__I18N__ = { ui, locale, stem, base: assetBase };
+  </script>
+</head>
+<body>
+  <div id="navbar-placeholder" data-locale={locale} data-stem={stem}></div>
+  <slot />
+  <div id="footer-placeholder" data-locale={locale}></div>
+  <script src={`${assetBase}js/i18n-utils.js`} defer></script>
+  <script src={`${assetBase}js/splash-screen.js`} defer></script>
+  <script src={`${assetBase}js/navbar.js`} defer></script>
+  <script src={`${assetBase}js/footer.js`} defer></script>
+  <script src={`${assetBase}js/main.js`} defer></script>
+  <script src={`${assetBase}js/themes.js`} defer></script>
+  <script
+    type="text/plain"
+    class="_iub_cs_activate"
+    data-iub-purposes="4"
+    src={`${assetBase}js/matomo-tracking.js`}
+  ></script>
+</body>
+</html>
