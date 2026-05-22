@@ -79,6 +79,11 @@ class SuccessStoriesCarousel {
         this.updateActiveStory(0);
     }
     
+    mediaUrl(path) {
+        if (!path || /^(https?:|\/\/|\/)/.test(path)) return path;
+        return window.ElementoI18n?.assetUrl ? window.ElementoI18n.assetUrl(path) : path;
+    }
+
     renderStory(story, index) {
         console.log(`📝 Rendering story for ${story.company} with ${story.results ? story.results.length : 0} results`);
         return `
@@ -86,7 +91,7 @@ class SuccessStoriesCarousel {
                 <div class="story-card">
                     <div class="story-header">
                         <div class="company-info">
-                            <img src="${story.logo}" alt="${story.company} logo" class="company-logo" 
+                            <img src="${this.mediaUrl(story.logo)}" alt="${story.company} logo" class="company-logo" 
                                 onload="this.classList.add('loaded')" 
                                 onerror="this.style.display='none'; this.nextElementSibling.style.marginLeft='0';">
                             <div class="company-details">
@@ -336,7 +341,7 @@ class SuccessStoriesCarousel {
                             ${this.stories.map(story => `
                                 <div class="fallback-story-card">
                                     <div class="company-info">
-                                        <img src="${story.logo}" alt="${story.company} logo" class="company-logo" onerror="this.style.display='none'">
+                                        <img src="${this.mediaUrl(story.logo)}" alt="${story.company} logo" class="company-logo" onerror="this.style.display='none'">
                                         <div class="company-details">
                                             <h4>${story.company}</h4>
                                             <p>${story.industry}</p>
@@ -367,7 +372,10 @@ document.addEventListener('DOMContentLoaded', function() {
     const carouselContainer = document.getElementById('success-stories-carousel');
     if (carouselContainer) {
         console.log('🎯 Found carousel container, initializing...');
-        new SuccessStoriesCarousel('success-stories-carousel', 'CMS/success-stories.json');
+        const dataUrl = window.ElementoI18n?.assetUrl
+            ? window.ElementoI18n.assetUrl('CMS/success-stories.json')
+            : 'CMS/success-stories.json';
+        new SuccessStoriesCarousel('success-stories-carousel', dataUrl);
     } else {
         console.error('❌ Carousel container not found!');
     }

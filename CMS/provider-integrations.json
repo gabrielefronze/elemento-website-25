@@ -1,1869 +1,1885 @@
 {
-    "ELEMENTO_SUPPORTED_PROVIDERS": {
-        "wasabi": {
-            "display_name": "Wasabi",
-            "icon_classes": "wasabi_icon",
-            "source": "fontawesome",
-            "color": "#00c65e",
-            "svg_filename": "wasabi_icon.svg",
-            "status": "beta",
-            "services": [
-                {
-                    "name": "vmManagement",
-                    "display_name": "VM Management",
-                    "type": "matcher",
-                    "sub_type": "vm",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "STaaS",
-                    "display_name": "Storage as a Service",
-                    "type": "storage",
-                    "sub_type": "storage",
-                    "regions": {},
-                    "support_level": "full"
-                },
-                {
-                    "name": "blockStorage",
-                    "display_name": "Block Storage",
-                    "type": "storage",
-                    "sub_type": "blockstorage",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "networking",
-                    "display_name": "Networking",
-                    "type": "network",
-                    "sub_type": "network",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "k8s",
-                    "display_name": "Kubernetes",
-                    "type": "service",
-                    "sub_type": "container",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "costApi",
-                    "display_name": "Cost API",
-                    "type": "matcher",
-                    "sub_type": "billing",
-                    "regions": {},
-                    "support_level": "partial"
-                },
-                {
-                    "name": "bareMetal",
-                    "display_name": "Bare metal",
-                    "type": "service",
-                    "sub_type": "bare_metal",
-                    "regions": {},
-                    "support_level": "na"
-                }
-            ]
+  "ELEMENTO_SUPPORTED_PROVIDERS": {
+    "wasabi": {
+      "display_name": "Wasabi",
+      "icon_classes": "wasabi_icon",
+      "source": "fontawesome",
+      "color": "#00c65e",
+      "svg_filename": "wasabi_icon.svg",
+      "status": "beta",
+      "services": [
+        {
+          "name": "vmManagement",
+          "display_name": "Gestione delle macchine virtuali",
+          "type": "matcher",
+          "sub_type": "vm",
+          "regions": {},
+          "support_level": "na"
         },
-        "google": {
-            "display_name": "Google",
-            "icon_classes": "google_icon",
-            "source": "fontawesome",
-            "color": "#4285f4",
-            "svg_filename": "google_icon.svg",
-            "status": "production",
-            "services": [
-                {
-                    "name": "vmManagement",
-                    "display_name": "VM Management",
-                    "type": "matcher",
-                    "sub_type": "vm",
-                    "regions": {
-                        "africa_south1": {
-                            "country": "South Africa",
-                            "location": "Johannesburg",
-                            "certifications": []
-                        },
-                        "asia_east1": {
-                            "country": "Taiwan",
-                            "location": "Changhua County",
-                            "certifications": []
-                        },
-                        "asia_east2": {
-                            "country": "China",
-                            "location": "Hong Kong",
-                            "certifications": []
-                        },
-                        "asia_northeast1": {
-                            "country": "Japan",
-                            "location": "Tokyo",
-                            "certifications": []
-                        },
-                        "asia_northeast2": {
-                            "country": "Japan",
-                            "location": "Osaka",
-                            "certifications": []
-                        },
-                        "asia_northeast3": {
-                            "country": "South Korea",
-                            "location": "Seoul",
-                            "certifications": []
-                        },
-                        "asia_south1": {
-                            "country": "India",
-                            "location": "Mumbai",
-                            "certifications": []
-                        },
-                        "asia_south2": {
-                            "country": "India",
-                            "location": "Delhi",
-                            "certifications": []
-                        },
-                        "asia_southeast1": {
-                            "country": "Singapore",
-                            "location": "Jurong West",
-                            "certifications": []
-                        },
-                        "asia_southeast2": {
-                            "country": "Indonesia",
-                            "location": "Jakarta",
-                            "certifications": []
-                        },
-                        "australia_southeast1": {
-                            "country": "Australia",
-                            "location": "Sydney",
-                            "certifications": []
-                        },
-                        "australia_southeast2": {
-                            "country": "Australia",
-                            "location": "Melbourne",
-                            "certifications": []
-                        },
-                        "europe_north1": {
-                            "country": "Finlad",
-                            "location": "Hamina",
-                            "certifications": []
-                        },
-                        "europe_southwest1": {
-                            "country": "Madrid",
-                            "location": "Spain",
-                            "certifications": []
-                        },
-                        "europe_west1": {
-                            "country": "Belgium",
-                            "location": "St. Ghislain",
-                            "certifications": []
-                        },
-                        "europe_west10": {
-                            "country": "Germany",
-                            "location": "Berlin",
-                            "certifications": []
-                        },
-                        "europe_west12": {
-                            "country": "Italy",
-                            "location": "Turin",
-                            "certifications": []
-                        },
-                        "europe_west2": {
-                            "country": "England",
-                            "location": "London",
-                            "certifications": []
-                        },
-                        "europe_west3": {
-                            "country": "Germany",
-                            "location": "Frankfurt",
-                            "certifications": []
-                        },
-                        "europe_west4": {
-                            "country": "Netherlands",
-                            "location": "Eemshaven",
-                            "certifications": []
-                        },
-                        "europe_west6": {
-                            "country": "Switzerland",
-                            "location": "Zurich",
-                            "certifications": []
-                        },
-                        "europe_west8": {
-                            "country": "Italy",
-                            "location": "Milan",
-                            "certifications": []
-                        },
-                        "europe_west9": {
-                            "country": "Paris",
-                            "location": "France",
-                            "certifications": []
-                        },
-                        "me_central1": {
-                            "country": "Qatar",
-                            "location": "Doha",
-                            "certifications": []
-                        },
-                        "me_west1": {
-                            "country": "Israel",
-                            "location": "Tel Aviv",
-                            "certifications": []
-                        },
-                        "northamerica_northeast1": {
-                            "country": "Quebec",
-                            "location": "Montreal",
-                            "certifications": []
-                        },
-                        "northamerica_northeast2": {
-                            "country": "Ontario",
-                            "location": "Toronto",
-                            "certifications": []
-                        },
-                        "southamerica_east1": {
-                            "country": "Brazil",
-                            "location": "Sao Paolo",
-                            "certifications": []
-                        },
-                        "southamerica_west1": {
-                            "country": "Chile",
-                            "location": "Santiago",
-                            "certifications": []
-                        },
-                        "us_central1": {
-                            "country": "Iowa",
-                            "location": "Council Bluff",
-                            "certifications": []
-                        },
-                        "us_east1": {
-                            "country": "South Carolina",
-                            "location": "Moncks Corner",
-                            "certifications": []
-                        },
-                        "us_east4": {
-                            "country": "Virginia",
-                            "location": "Ashburn",
-                            "certifications": []
-                        },
-                        "us_east5": {
-                            "country": "Ohio",
-                            "location": "Columbus",
-                            "certifications": []
-                        },
-                        "us_south1": {
-                            "country": "Texas",
-                            "location": "Dallas",
-                            "certifications": []
-                        },
-                        "us_west1": {
-                            "country": "Oregon",
-                            "location": "The Dalles",
-                            "certifications": []
-                        },
-                        "us_west2": {
-                            "country": "California",
-                            "location": "Los Angeles",
-                            "certifications": []
-                        },
-                        "us_west3": {
-                            "country": "Utah",
-                            "location": "Salt Lake City",
-                            "certifications": []
-                        },
-                        "us_west4": {
-                            "country": "Nevada",
-                            "location": "Las Vegas",
-                            "certifications": []
-                        }
-                    },
-                    "support_level": "full"
-                },
-                {
-                    "name": "STaaS",
-                    "display_name": "Storage as a Service",
-                    "type": "storage",
-                    "sub_type": "storage",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "blockStorage",
-                    "display_name": "Block Storage",
-                    "type": "storage",
-                    "sub_type": "blockstorage",
-                    "regions": {},
-                    "support_level": "full"
-                },
-                {
-                    "name": "networking",
-                    "display_name": "Networking",
-                    "type": "network",
-                    "sub_type": "network",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "k8s",
-                    "display_name": "Kubernetes",
-                    "type": "service",
-                    "sub_type": "container",
-                    "regions": {},
-                    "support_level": "full"
-                },
-                {
-                    "name": "costApi",
-                    "display_name": "Cost API",
-                    "type": "matcher",
-                    "sub_type": "billing",
-                    "regions": {},
-                    "support_level": "full"
-                },
-                {
-                    "name": "bareMetal",
-                    "display_name": "Bare metal",
-                    "type": "service",
-                    "sub_type": "bare_metal",
-                    "regions": {},
-                    "support_level": "na"
-                }
-            ]
+        {
+          "name": "STaaS",
+          "display_name": "Archiviazione come servizio",
+          "type": "storage",
+          "sub_type": "storage",
+          "regions": {},
+          "support_level": "full"
         },
-        "azure": {
-            "display_name": "Azure",
-            "icon_classes": "azure_icon",
-            "source": "fontawesome",
-            "color": "#0078d4",
-            "svg_filename": "azure_icon.svg",
-            "status": "production",
-            "services": [
-                {
-                    "name": "vmManagement",
-                    "display_name": "VM Management",
-                    "type": "matcher",
-                    "sub_type": "vm",
-                    "regions": {
-                        "bhs1": {
-                            "country": "Canada",
-                            "location": "Beauharnois",
-                            "certifications": []
-                        },
-                        "bhs2": {
-                            "country": "Canada",
-                            "location": "Beauharnois",
-                            "certifications": []
-                        },
-                        "bhs3": {
-                            "country": "Canada",
-                            "location": "Beauharnois",
-                            "certifications": []
-                        },
-                        "bhs5": {
-                            "country": "Canada",
-                            "location": "Beauharnois",
-                            "certifications": []
-                        },
-                        "de1": {
-                            "country": "Germany",
-                            "location": "Frankfurt",
-                            "certifications": []
-                        },
-                        "sbg1": {
-                            "country": "France",
-                            "location": "Strasbourg",
-                            "certifications": []
-                        },
-                        "sbg3": {
-                            "country": "France",
-                            "location": "Strasbourg",
-                            "certifications": []
-                        },
-                        "sbg5": {
-                            "country": "France",
-                            "location": "Strasbourg",
-                            "certifications": []
-                        },
-                        "sbg7": {
-                            "country": "France",
-                            "location": "Strasbourg",
-                            "certifications": []
-                        },
-                        "gra1": {
-                            "country": "France",
-                            "location": "Gravelines",
-                            "certifications": []
-                        },
-                        "gra3": {
-                            "country": "France",
-                            "location": "Gravelines",
-                            "certifications": []
-                        },
-                        "gra5": {
-                            "country": "France",
-                            "location": "Gravelines",
-                            "certifications": []
-                        },
-                        "gra7": {
-                            "country": "France",
-                            "location": "Gravelines",
-                            "certifications": []
-                        },
-                        "gra9": {
-                            "country": "France",
-                            "location": "Gravelines",
-                            "certifications": []
-                        },
-                        "gra11": {
-                            "country": "France",
-                            "location": "Gravelines",
-                            "certifications": []
-                        },
-                        "rbx": {
-                            "country": "France",
-                            "location": "Roubaix",
-                            "certifications": []
-                        },
-                        "uk1": {
-                            "country": "England",
-                            "location": "Erith",
-                            "certifications": []
-                        },
-                        "waw1": {
-                            "country": "Poland",
-                            "location": "Warsaw",
-                            "certifications": []
-                        },
-                        "sgp1": {
-                            "country": "Singapore",
-                            "location": "Singapore",
-                            "certifications": []
-                        },
-                        "syd1": {
-                            "country": "Australia",
-                            "location": "Sydney",
-                            "certifications": []
-                        },
-                        "vin1": {
-                            "country": "USA",
-                            "location": "Washington DC",
-                            "certifications": []
-                        },
-                        "hil1": {
-                            "country": "USA",
-                            "location": "Seattle",
-                            "certifications": []
-                        }
-                    },
-                    "support_level": "full"
-                },
-                {
-                    "name": "STaaS",
-                    "display_name": "Storage as a Service",
-                    "type": "storage",
-                    "sub_type": "storage",
-                    "regions": {},
-                    "support_level": "full"
-                },
-                {
-                    "name": "blockStorage",
-                    "display_name": "Block Storage",
-                    "type": "storage",
-                    "sub_type": "blockstorage",
-                    "regions": {},
-                    "support_level": "full"
-                },
-                {
-                    "name": "networking",
-                    "display_name": "Networking",
-                    "type": "network",
-                    "sub_type": "network",
-                    "regions": {},
-                    "support_level": "full"
-                },
-                {
-                    "name": "k8s",
-                    "display_name": "Kubernetes",
-                    "type": "service",
-                    "sub_type": "container",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "costApi",
-                    "display_name": "Cost API",
-                    "type": "matcher",
-                    "sub_type": "billing",
-                    "regions": {},
-                    "support_level": "full"
-                },
-                {
-                    "name": "bareMetal",
-                    "display_name": "Bare metal",
-                    "type": "service",
-                    "sub_type": "bare_metal",
-                    "regions": {},
-                    "support_level": "na"
-                }
-            ]
+        {
+          "name": "blockStorage",
+          "display_name": "Archiviazione in blocchi",
+          "type": "storage",
+          "sub_type": "blockstorage",
+          "regions": {},
+          "support_level": "na"
         },
-        "impossiblecloud": {
-            "display_name": "Impossible Cloud",
-            "icon_classes": "impossiblecloud_icon",
-            "source": "fontawesome",
-            "color": "#666666",
-            "svg_filename": "impossiblecloud_icon.svg",
-            "status": "development",
-            "services": [
-                {
-                    "name": "vmManagement",
-                    "display_name": "VM Management",
-                    "type": "matcher",
-                    "sub_type": "vm",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "STaaS",
-                    "display_name": "Storage as a Service",
-                    "type": "storage",
-                    "sub_type": "storage",
-                    "regions": {},
-                    "support_level": "full"
-                },
-                {
-                    "name": "blockStorage",
-                    "display_name": "Block Storage",
-                    "type": "storage",
-                    "sub_type": "blockstorage",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "networking",
-                    "display_name": "Networking",
-                    "type": "network",
-                    "sub_type": "network",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "k8s",
-                    "display_name": "Kubernetes",
-                    "type": "service",
-                    "sub_type": "container",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "costApi",
-                    "display_name": "Cost API",
-                    "type": "matcher",
-                    "sub_type": "billing",
-                    "regions": {},
-                    "support_level": "partial"
-                },
-                {
-                    "name": "bareMetal",
-                    "display_name": "Bare metal",
-                    "type": "service",
-                    "sub_type": "bare_metal",
-                    "regions": {},
-                    "support_level": "na"
-                }
-            ]
+        {
+          "name": "networking",
+          "display_name": "Rete",
+          "type": "network",
+          "sub_type": "network",
+          "regions": {},
+          "support_level": "na"
         },
-        "upcloud": {
-            "display_name": "UpCloud",
-            "icon_classes": "upcloud_icon",
-            "source": "fontawesome",
-            "color": "#7b68ee",
-            "svg_filename": "upcloud_icon.svg",
-            "status": "production",
-            "services": [
-                {
-                    "name": "vmManagement",
-                    "display_name": "VM Management",
-                    "type": "matcher",
-                    "sub_type": "vm",
-                    "regions": {
-                        "au_syd1": {
-                            "country": "Australia",
-                            "location": "Sydney"
-                        },
-                        "de_fra1": {
-                            "country": "Germany",
-                            "location": "Frankfurt",
-                            "certifications": []
-                        },
-                        "fi_hel1": {
-                            "country": "Finland",
-                            "location": "Helsinki",
-                            "certifications": []
-                        },
-                        "fi_hel2": {
-                            "country": "Finland",
-                            "location": "Helsinki",
-                            "certifications": []
-                        },
-                        "es_mad1": {
-                            "country": "Spain",
-                            "location": "Madrid",
-                            "certifications": []
-                        },
-                        "nl_ams1": {
-                            "country": "Netherlands",
-                            "location": "Amsterdam",
-                            "certifications": []
-                        },
-                        "pl_waw1": {
-                            "country": "Poland",
-                            "location": "Warsaw",
-                            "certifications": []
-                        },
-                        "sg_sin1": {
-                            "country": "Singapore",
-                            "location": "Singapore",
-                            "certifications": []
-                        },
-                        "uk_lon1": {
-                            "country": "United Kingdom",
-                            "location": "London",
-                            "certifications": []
-                        },
-                        "us_chi1": {
-                            "country": "USA",
-                            "location": "Chicago",
-                            "certifications": []
-                        },
-                        "us_nyc1": {
-                            "country": "USA",
-                            "location": "New York",
-                            "certifications": []
-                        },
-                        "us_sjo1": {
-                            "country": "USA",
-                            "location": "San Jose",
-                            "certifications": []
-                        }
-                    },
-                    "support_level": "full"
-                },
-                {
-                    "name": "STaaS",
-                    "display_name": "Storage as a Service",
-                    "type": "storage",
-                    "sub_type": "storage",
-                    "regions": {},
-                    "support_level": "full"
-                },
-                {
-                    "name": "blockStorage",
-                    "display_name": "Block Storage",
-                    "type": "storage",
-                    "sub_type": "blockstorage",
-                    "regions": {},
-                    "support_level": "full"
-                },
-                {
-                    "name": "networking",
-                    "display_name": "Networking",
-                    "type": "network",
-                    "sub_type": "network",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "k8s",
-                    "display_name": "Kubernetes",
-                    "type": "service",
-                    "sub_type": "container",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "costApi",
-                    "display_name": "Cost API",
-                    "type": "matcher",
-                    "sub_type": "billing",
-                    "regions": {},
-                    "support_level": "full"
-                },
-                {
-                    "name": "bareMetal",
-                    "display_name": "Bare metal",
-                    "type": "service",
-                    "sub_type": "bare_metal",
-                    "regions": {},
-                    "support_level": "na"
-                }
-            ]
+        {
+          "name": "k8s",
+          "display_name": "Kubernetes",
+          "type": "service",
+          "sub_type": "container",
+          "regions": {},
+          "support_level": "na"
         },
-        "oracle": {
-            "display_name": "Oracle Cloud",
-            "icon_classes": "oracle_icon",
-            "source": "fontawesome",
-            "color": "#ff0000",
-            "svg_filename": "oracle_icon.svg",
-            "status": "development",
-            "services": [
-                {
-                    "name": "vmManagement",
-                    "display_name": "VM Management",
-                    "type": "matcher",
-                    "sub_type": "vm",
-                    "regions": {},
-                    "support_level": "full"
-                },
-                {
-                    "name": "STaaS",
-                    "display_name": "Storage as a Service",
-                    "type": "storage",
-                    "sub_type": "storage",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "blockStorage",
-                    "display_name": "Block Storage",
-                    "type": "storage",
-                    "sub_type": "blockstorage",
-                    "regions": {},
-                    "support_level": "full"
-                },
-                {
-                    "name": "networking",
-                    "display_name": "Networking",
-                    "type": "network",
-                    "sub_type": "network",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "k8s",
-                    "display_name": "Kubernetes",
-                    "type": "service",
-                    "sub_type": "container",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "costApi",
-                    "display_name": "Cost API",
-                    "type": "matcher",
-                    "sub_type": "billing",
-                    "regions": {},
-                    "support_level": "partial"
-                },
-                {
-                    "name": "bareMetal",
-                    "display_name": "Bare metal",
-                    "type": "service",
-                    "sub_type": "bare_metal",
-                    "regions": {},
-                    "support_level": "na"
-                }
-            ]
+        {
+          "name": "costApi",
+          "display_name": "API dei costi",
+          "type": "matcher",
+          "sub_type": "billing",
+          "regions": {},
+          "support_level": "partial"
         },
-        "ionos": {
-            "display_name": "IONOS",
-            "icon_classes": "ionos_icon",
-            "source": "fontawesome",
-            "color": "#003d8f",
-            "svg_filename": "ionos_icon.svg",
-            "status": "production",
-            "services": [
-                {
-                    "name": "vmManagement",
-                    "display_name": "VM Management",
-                    "type": "matcher",
-                    "sub_type": "vm",
-                    "regions": {},
-                    "support_level": "partial"
-                },
-                {
-                    "name": "STaaS",
-                    "display_name": "Storage as a Service",
-                    "type": "storage",
-                    "sub_type": "storage",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "blockStorage",
-                    "display_name": "Block Storage",
-                    "type": "storage",
-                    "sub_type": "blockstorage",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "networking",
-                    "display_name": "Networking",
-                    "type": "network",
-                    "sub_type": "network",
-                    "regions": {},
-                    "support_level": "full"
-                },
-                {
-                    "name": "k8s",
-                    "display_name": "Kubernetes",
-                    "type": "service",
-                    "sub_type": "container",
-                    "regions": {},
-                    "support_level": "partial"
-                },
-                {
-                    "name": "costApi",
-                    "display_name": "Cost API",
-                    "type": "matcher",
-                    "sub_type": "billing",
-                    "regions": {},
-                    "support_level": "full"
-                },
-                {
-                    "name": "bareMetal",
-                    "display_name": "Bare metal",
-                    "type": "service",
-                    "sub_type": "bare_metal",
-                    "regions": {},
-                    "support_level": "na"
-                }
-            ]
-        },
-        "gigas": {
-            "display_name": "Gigas",
-            "icon_classes": "gigas_icon",
-            "source": "fontawesome",
-            "color": "#e31e24",
-            "svg_filename": "gigas_icon.svg",
-            "status": "production",
-            "services": [
-                {
-                    "name": "vmManagement",
-                    "display_name": "VM Management",
-                    "type": "matcher",
-                    "sub_type": "vm",
-                    "regions": {},
-                    "support_level": "partial"
-                },
-                {
-                    "name": "STaaS",
-                    "display_name": "Storage as a Service",
-                    "type": "storage",
-                    "sub_type": "storage",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "blockStorage",
-                    "display_name": "Block Storage",
-                    "type": "storage",
-                    "sub_type": "blockstorage",
-                    "regions": {},
-                    "support_level": "partial"
-                },
-                {
-                    "name": "networking",
-                    "display_name": "Networking",
-                    "type": "network",
-                    "sub_type": "network",
-                    "regions": {},
-                    "support_level": "partial"
-                },
-                {
-                    "name": "k8s",
-                    "display_name": "Kubernetes",
-                    "type": "service",
-                    "sub_type": "container",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "costApi",
-                    "display_name": "Cost API",
-                    "type": "matcher",
-                    "sub_type": "billing",
-                    "regions": {},
-                    "support_level": "full"
-                },
-                {
-                    "name": "bareMetal",
-                    "display_name": "Bare metal",
-                    "type": "service",
-                    "sub_type": "bare_metal",
-                    "regions": {},
-                    "support_level": "na"
-                }
-            ]
-        },
-        "arubacloud": {
-            "display_name": "Aruba Cloud",
-            "icon_classes": "arubacloud_icon",
-            "source": "fontawesome",
-            "color": "#666666",
-            "svg_filename": "arubacloud_icon.svg",
-            "status": "development",
-            "services": [
-                {
-                    "name": "vmManagement",
-                    "display_name": "VM Management",
-                    "type": "matcher",
-                    "sub_type": "vm",
-                    "regions": {},
-                    "support_level": "partial"
-                },
-                {
-                    "name": "STaaS",
-                    "display_name": "Storage as a Service",
-                    "type": "storage",
-                    "sub_type": "storage",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "blockStorage",
-                    "display_name": "Block Storage",
-                    "type": "storage",
-                    "sub_type": "blockstorage",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "networking",
-                    "display_name": "Networking",
-                    "type": "network",
-                    "sub_type": "network",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "k8s",
-                    "display_name": "Kubernetes",
-                    "type": "service",
-                    "sub_type": "container",
-                    "regions": {},
-                    "support_level": "partial"
-                },
-                {
-                    "name": "costApi",
-                    "display_name": "Cost API",
-                    "type": "matcher",
-                    "sub_type": "billing",
-                    "regions": {},
-                    "support_level": "full"
-                },
-                {
-                    "name": "bareMetal",
-                    "display_name": "Bare metal",
-                    "type": "service",
-                    "sub_type": "bare_metal",
-                    "regions": {},
-                    "support_level": "na"
-                }
-            ]
-        },
-        "ovh": {
-            "display_name": "OVH",
-            "icon_classes": "ovh_icon",
-            "source": "fontawesome",
-            "color": "#123f6d",
-            "svg_filename": "ovh_icon.svg",
-            "status": "production",
-            "services": [
-                {
-                    "name": "vmManagement",
-                    "display_name": "VM Management",
-                    "type": "matcher",
-                    "sub_type": "vm",
-                    "regions": {
-                        "bhs1": {
-                            "country": "Canada",
-                            "location": "Beauharnois",
-                            "certifications": []
-                        },
-                        "bhs2": {
-                            "country": "Canada",
-                            "location": "Beauharnois",
-                            "certifications": []
-                        },
-                        "bhs3": {
-                            "country": "Canada",
-                            "location": "Beauharnois",
-                            "certifications": []
-                        },
-                        "bhs5": {
-                            "country": "Canada",
-                            "location": "Beauharnois",
-                            "certifications": []
-                        },
-                        "de1": {
-                            "country": "Germany",
-                            "location": "Frankfurt",
-                            "certifications": []
-                        },
-                        "sbg1": {
-                            "country": "France",
-                            "location": "Strasbourg",
-                            "certifications": []
-                        },
-                        "sbg3": {
-                            "country": "France",
-                            "location": "Strasbourg",
-                            "certifications": []
-                        },
-                        "sbg5": {
-                            "country": "France",
-                            "location": "Strasbourg",
-                            "certifications": []
-                        },
-                        "sbg7": {
-                            "country": "France",
-                            "location": "Strasbourg",
-                            "certifications": []
-                        },
-                        "gra1": {
-                            "country": "France",
-                            "location": "Gravelines",
-                            "certifications": []
-                        },
-                        "gra3": {
-                            "country": "France",
-                            "location": "Gravelines",
-                            "certifications": []
-                        },
-                        "gra5": {
-                            "country": "France",
-                            "location": "Gravelines",
-                            "certifications": []
-                        },
-                        "gra7": {
-                            "country": "France",
-                            "location": "Gravelines",
-                            "certifications": []
-                        },
-                        "gra9": {
-                            "country": "France",
-                            "location": "Gravelines",
-                            "certifications": []
-                        },
-                        "gra11": {
-                            "country": "France",
-                            "location": "Gravelines",
-                            "certifications": []
-                        },
-                        "rbx": {
-                            "country": "France",
-                            "location": "Roubaix",
-                            "certifications": []
-                        },
-                        "uk1": {
-                            "country": "England",
-                            "location": "Erith",
-                            "certifications": []
-                        },
-                        "waw1": {
-                            "country": "Poland",
-                            "location": "Warsaw",
-                            "certifications": []
-                        },
-                        "sgp1": {
-                            "country": "Singapore",
-                            "location": "Singapore",
-                            "certifications": []
-                        },
-                        "syd1": {
-                            "country": "Australia",
-                            "location": "Sydney",
-                            "certifications": []
-                        },
-                        "vin1": {
-                            "country": "USA",
-                            "location": "Washington DC",
-                            "certifications": []
-                        },
-                        "hil1": {
-                            "country": "USA",
-                            "location": "Seattle",
-                            "certifications": []
-                        }
-                    },
-                    "support_level": "full"
-                },
-                {
-                    "name": "STaaS",
-                    "display_name": "Storage as a Service",
-                    "type": "storage",
-                    "sub_type": "storage",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "blockStorage",
-                    "display_name": "Block Storage",
-                    "type": "storage",
-                    "sub_type": "blockstorage",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "networking",
-                    "display_name": "Networking",
-                    "type": "network",
-                    "sub_type": "network",
-                    "regions": {},
-                    "support_level": "full"
-                },
-                {
-                    "name": "k8s",
-                    "display_name": "Kubernetes",
-                    "type": "service",
-                    "sub_type": "container",
-                    "regions": {},
-                    "support_level": "full"
-                },
-                {
-                    "name": "costApi",
-                    "display_name": "Cost API",
-                    "type": "matcher",
-                    "sub_type": "billing",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "bareMetal",
-                    "display_name": "Bare metal",
-                    "type": "service",
-                    "sub_type": "bare_metal",
-                    "regions": {},
-                    "support_level": "full"
-                }
-            ]
-        },
-        "clastix": {
-            "display_name": "Clastix",
-            "icon_classes": "clastix_icon",
-            "source": "fontawesome",
-            "color": "#0f172a",
-            "svg_filename": "clastix_icon.svg",
-            "status": "development",
-            "services": [
-                {
-                    "name": "vmManagement",
-                    "display_name": "VM Management",
-                    "type": "matcher",
-                    "sub_type": "vm",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "STaaS",
-                    "display_name": "Storage as a Service",
-                    "type": "storage",
-                    "sub_type": "storage",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "blockStorage",
-                    "display_name": "Block Storage",
-                    "type": "storage",
-                    "sub_type": "blockstorage",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "networking",
-                    "display_name": "Networking",
-                    "type": "network",
-                    "sub_type": "network",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "k8s",
-                    "display_name": "Kubernetes",
-                    "type": "service",
-                    "sub_type": "kaas_on_multicloud_vms",
-                    "regions": {},
-                    "ui_request": {
-                        "metadata": {},
-                        "capabilities": {
-                            "kubernetes_cluster_number": {
-                                "type": "number",
-                                "user_label": "Number of clusters",
-                                "default": 1,
-                                "min": 1
-                            },
-                            "kubernetes_version": {
-                                "type": "string",
-                                "user_label": "Kubernetes Version",
-                                "default": "v1.31.1",
-                                "regex": "^v\\d+\\.\\d+\\.\\d+$"
-                            },
-                            "cluster_name": {
-                                "type": "name",
-                                "user_label": "Cluster Name",
-                                "default": "my-cluster"
-                            },
-                            "autoscale": {
-                                "type": "boolean",
-                                "user_label": "Enable Autoscaling",
-                                "default": false
-                            },
-                            "desired_number_of_nodes": {
-                                "type": "number",
-                                "user_label": "Desired Number of Nodes",
-                                "default": 3
-                            },
-                            "max_number_of_nodes": {
-                                "type": "number",
-                                "user_label": "Max Number of Nodes",
-                                "default": 1
-                            },
-                            "min_number_of_nodes": {
-                                "type": "number",
-                                "user_label": "Min Number of Nodes",
-                                "default": 0
-                            },
-                            "pool_name": {
-                                "type": "name",
-                                "user_label": "Pool Name",
-                                "default": "my-pool"
-                            }
-                        },
-                        "resources": {}
-                    },
-                    "support_level": "na"
-                },
-                {
-                    "name": "costApi",
-                    "display_name": "Cost API",
-                    "type": "matcher",
-                    "sub_type": "billing",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "bareMetal",
-                    "display_name": "Bare metal",
-                    "type": "service",
-                    "sub_type": "bare_metal",
-                    "regions": {},
-                    "support_level": "na"
-                }
-            ]
-        },
-        "cubbit": {
-            "display_name": "Cubbit",
-            "icon_classes": "cubbit_icon",
-            "source": "fontawesome",
-            "color": "#666666",
-            "svg_filename": "cubbit_icon.svg",
-            "status": "development",
-            "services": [
-                {
-                    "name": "vmManagement",
-                    "display_name": "VM Management",
-                    "type": "matcher",
-                    "sub_type": "vm",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "STaaS",
-                    "display_name": "Storage as a Service",
-                    "type": "storage",
-                    "sub_type": "storage",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "blockStorage",
-                    "display_name": "Block Storage",
-                    "type": "storage",
-                    "sub_type": "blockstorage",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "networking",
-                    "display_name": "Networking",
-                    "type": "network",
-                    "sub_type": "network",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "k8s",
-                    "display_name": "Kubernetes",
-                    "type": "service",
-                    "sub_type": "container",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "costApi",
-                    "display_name": "Cost API",
-                    "type": "matcher",
-                    "sub_type": "billing",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "bareMetal",
-                    "display_name": "Bare metal",
-                    "type": "service",
-                    "sub_type": "bare_metal",
-                    "regions": {},
-                    "support_level": "na"
-                }
-            ]
-        },
-        "linode": {
-            "display_name": "Linode",
-            "icon_classes": "linode_icon",
-            "source": "fontawesome",
-            "color": "#666666",
-            "svg_filename": "linode_icon.svg",
-            "status": "development",
-            "services": [
-                {
-                    "name": "vmManagement",
-                    "display_name": "VM Management",
-                    "type": "matcher",
-                    "sub_type": "vm",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "STaaS",
-                    "display_name": "Storage as a Service",
-                    "type": "storage",
-                    "sub_type": "storage",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "blockStorage",
-                    "display_name": "Block Storage",
-                    "type": "storage",
-                    "sub_type": "blockstorage",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "networking",
-                    "display_name": "Networking",
-                    "type": "network",
-                    "sub_type": "network",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "k8s",
-                    "display_name": "Kubernetes",
-                    "type": "service",
-                    "sub_type": "container",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "costApi",
-                    "display_name": "Cost API",
-                    "type": "matcher",
-                    "sub_type": "billing",
-                    "regions": {},
-                    "support_level": "full"
-                },
-                {
-                    "name": "bareMetal",
-                    "display_name": "Bare metal",
-                    "type": "service",
-                    "sub_type": "bare_metal",
-                    "regions": {},
-                    "support_level": "na"
-                }
-            ]
-        },
-        "hetzner": {
-            "display_name": "Hetzner",
-            "icon_classes": "hetzner_icon",
-            "source": "fontawesome",
-            "color": "#666666",
-            "svg_filename": "hetzner_icon.svg",
-            "status": "development",
-            "services": [
-                {
-                    "name": "vmManagement",
-                    "display_name": "VM Management",
-                    "type": "matcher",
-                    "sub_type": "vm",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "STaaS",
-                    "display_name": "Storage as a Service",
-                    "type": "storage",
-                    "sub_type": "storage",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "blockStorage",
-                    "display_name": "Block Storage",
-                    "type": "storage",
-                    "sub_type": "blockstorage",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "networking",
-                    "display_name": "Networking",
-                    "type": "network",
-                    "sub_type": "network",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "k8s",
-                    "display_name": "Kubernetes",
-                    "type": "service",
-                    "sub_type": "container",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "costApi",
-                    "display_name": "Cost API",
-                    "type": "matcher",
-                    "sub_type": "billing",
-                    "regions": {},
-                    "support_level": "full"
-                },
-                {
-                    "name": "bareMetal",
-                    "display_name": "Bare metal",
-                    "type": "service",
-                    "sub_type": "bare_metal",
-                    "regions": {},
-                    "support_level": "full"
-                }
-            ]
-        },
-        "scaleway": {
-            "display_name": "Scaleway",
-            "icon_classes": "scaleway_icon",
-            "source": "fontawesome",
-            "color": "#4f0599",
-            "svg_filename": "scaleway_icon.svg",
-            "status": "development",
-            "services": [
-                {
-                    "name": "vmManagement",
-                    "display_name": "VM Management",
-                    "type": "matcher",
-                    "sub_type": "vm",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "STaaS",
-                    "display_name": "Storage as a Service",
-                    "type": "storage",
-                    "sub_type": "storage",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "blockStorage",
-                    "display_name": "Block Storage",
-                    "type": "storage",
-                    "sub_type": "blockstorage",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "networking",
-                    "display_name": "Networking",
-                    "type": "network",
-                    "sub_type": "network",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "k8s",
-                    "display_name": "Kubernetes",
-                    "type": "service",
-                    "sub_type": "container",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "costApi",
-                    "display_name": "Cost API",
-                    "type": "matcher",
-                    "sub_type": "billing",
-                    "regions": {},
-                    "support_level": "full"
-                },
-                {
-                    "name": "bareMetal",
-                    "display_name": "Bare metal",
-                    "type": "service",
-                    "sub_type": "bare_metal",
-                    "regions": {},
-                    "support_level": "full"
-                }
-            ]
-        },
-        "aws": {
-            "display_name": "AWS",
-            "icon_classes": "aws_icon",
-            "source": "fontawesome",
-            "color": "#ff9900",
-            "svg_filename": "aws_icon.svg",
-            "status": "soon",
-            "services": [
-                {
-                    "name": "vmManagement",
-                    "display_name": "VM Management",
-                    "type": "matcher",
-                    "sub_type": "vm",
-                    "regions": {
-                        "us_east_1": {
-                            "country": "USA",
-                            "location": "North Virginia",
-                            "certifications": []
-                        },
-                        "us_east_2": {
-                            "country": "USA",
-                            "location": "Ohio",
-                            "certifications": []
-                        },
-                        "us_west_1": {
-                            "country": "USA",
-                            "location": "North California",
-                            "certifications": []
-                        },
-                        "us_west_2": {
-                            "country": "USA",
-                            "location": "Oregon",
-                            "certifications": []
-                        },
-                        "ca_central_1": {
-                            "country": "Canada",
-                            "location": "Central Canada",
-                            "certifications": []
-                        },
-                        "ca_west_1": {
-                            "country": "Canada",
-                            "location": "Calgary",
-                            "certifications": []
-                        },
-                        "af_south_1": {
-                            "country": "South Africa",
-                            "location": "Cape Town",
-                            "certifications": []
-                        },
-                        "ap_east_1": {
-                            "country": "China",
-                            "location": "Hong Kong",
-                            "certifications": []
-                        },
-                        "ap_south_2": {
-                            "country": "Hyderabad",
-                            "location": "India",
-                            "certifications": []
-                        },
-                        "ap_southeast_3": {
-                            "country": "Indonesia",
-                            "location": "Jakarta",
-                            "certifications": []
-                        },
-                        "ap_southeast_4": {
-                            "country": "Australia",
-                            "location": "Melbourne",
-                            "certifications": []
-                        },
-                        "ap_south_1": {
-                            "country": "India",
-                            "location": "Mumbai",
-                            "certifications": []
-                        },
-                        "ap_northeast_3": {
-                            "country": "Japan",
-                            "location": "Osaka",
-                            "certifications": []
-                        },
-                        "ap_northeast_2": {
-                            "country": "South Korea",
-                            "location": "Seoul",
-                            "certifications": []
-                        },
-                        "ap_southeast_1": {
-                            "country": "Singapore",
-                            "location": "Singapore",
-                            "certifications": []
-                        },
-                        "ap_southeast_2": {
-                            "country": "Australia",
-                            "location": "Sydney",
-                            "certifications": []
-                        },
-                        "ap_northeast_1": {
-                            "country": "Japan",
-                            "location": "Tokyo",
-                            "certifications": []
-                        },
-                        "eu_central_1": {
-                            "country": "Germany",
-                            "location": "Frankfurt",
-                            "certifications": []
-                        },
-                        "eu_west_1": {
-                            "country": "Ireland",
-                            "location": "Ireland",
-                            "certifications": []
-                        },
-                        "eu_west_2": {
-                            "country": "United Kingdom",
-                            "location": "London",
-                            "certifications": []
-                        },
-                        "eu_south_1": {
-                            "country": "Italy",
-                            "location": "Milan",
-                            "certifications": []
-                        },
-                        "eu_west_3": {
-                            "country": "France",
-                            "location": "Paris",
-                            "certifications": []
-                        },
-                        "eu_south_2": {
-                            "country": "Spain",
-                            "location": "Spain",
-                            "certifications": []
-                        },
-                        "eu_north_1": {
-                            "country": "Sweden",
-                            "location": "Stockholm",
-                            "certifications": []
-                        },
-                        "eu_central_2": {
-                            "country": "Swiss",
-                            "location": "Zurich",
-                            "certifications": []
-                        },
-                        "il_central_1": {
-                            "country": "Israel",
-                            "location": "Tel Aviv",
-                            "certifications": []
-                        },
-                        "me_south_1": {
-                            "country": "Bahrain",
-                            "location": "Bahrain",
-                            "certifications": []
-                        },
-                        "me_central_1": {
-                            "country": "United Arab Emirates",
-                            "location": "United Arab Emirates",
-                            "certifications": []
-                        },
-                        "sa_east_1": {
-                            "country": "Brazil",
-                            "location": "Sao Paolo",
-                            "certifications": []
-                        },
-                        "us_gov_east_1": {
-                            "country": "USA",
-                            "location": "USA",
-                            "certifications": []
-                        },
-                        "us_gov_west_1": {
-                            "country": "USA",
-                            "location": "USA",
-                            "certifications": []
-                        }
-                    },
-                    "support_level": "na"
-                },
-                {
-                    "name": "STaaS",
-                    "display_name": "Storage as a Service",
-                    "type": "storage",
-                    "sub_type": "storage",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "blockStorage",
-                    "display_name": "Block Storage",
-                    "type": "storage",
-                    "sub_type": "blockstorage",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "networking",
-                    "display_name": "Networking",
-                    "type": "network",
-                    "sub_type": "network",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "k8s",
-                    "display_name": "Kubernetes",
-                    "type": "service",
-                    "sub_type": "container",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "costApi",
-                    "display_name": "Cost API",
-                    "type": "matcher",
-                    "sub_type": "billing",
-                    "regions": {},
-                    "support_level": "full"
-                },
-                {
-                    "name": "bareMetal",
-                    "display_name": "Bare metal",
-                    "type": "service",
-                    "sub_type": "bare_metal",
-                    "regions": {},
-                    "support_level": "na"
-                }
-            ]
-        },
-        "aruba": {
-            "display_name": "Aruba",
-            "icon_classes": "aruba_icon",
-            "source": "fontawesome",
-            "color": "#ff6600",
-            "svg_filename": "aruba_icon.svg",
-            "status": "production",
-            "services": [
-                {
-                    "name": "vmManagement",
-                    "display_name": "VM Management",
-                    "type": "matcher",
-                    "sub_type": "vm",
-                    "regions": {},
-                    "support_level": "partial"
-                },
-                {
-                    "name": "STaaS",
-                    "display_name": "Storage as a Service",
-                    "type": "storage",
-                    "sub_type": "storage",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "blockStorage",
-                    "display_name": "Block Storage",
-                    "type": "storage",
-                    "sub_type": "blockstorage",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "networking",
-                    "display_name": "Networking",
-                    "type": "network",
-                    "sub_type": "network",
-                    "regions": {},
-                    "support_level": "full"
-                },
-                {
-                    "name": "k8s",
-                    "display_name": "Kubernetes",
-                    "type": "service",
-                    "sub_type": "container",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "costApi",
-                    "display_name": "Cost API",
-                    "type": "matcher",
-                    "sub_type": "billing",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "bareMetal",
-                    "display_name": "Bare metal",
-                    "type": "service",
-                    "sub_type": "bare_metal",
-                    "regions": {},
-                    "support_level": "na"
-                }
-            ]
-        },
-        "ibm": {
-            "display_name": "IBM Cloud",
-            "icon_classes": "ibm_icon",
-            "source": "fontawesome",
-            "color": "#666666",
-            "svg_filename": "ibm_icon.svg",
-            "status": "development",
-            "services": [
-                {
-                    "name": "vmManagement",
-                    "display_name": "VM Management",
-                    "type": "matcher",
-                    "sub_type": "vm",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "STaaS",
-                    "display_name": "Storage as a Service",
-                    "type": "storage",
-                    "sub_type": "storage",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "blockStorage",
-                    "display_name": "Block Storage",
-                    "type": "storage",
-                    "sub_type": "blockstorage",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "networking",
-                    "display_name": "Networking",
-                    "type": "network",
-                    "sub_type": "network",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "k8s",
-                    "display_name": "Kubernetes",
-                    "type": "service",
-                    "sub_type": "container",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "costApi",
-                    "display_name": "Cost API",
-                    "type": "matcher",
-                    "sub_type": "billing",
-                    "regions": {},
-                    "support_level": "na"
-                },
-                {
-                    "name": "bareMetal",
-                    "display_name": "Bare metal",
-                    "type": "service",
-                    "sub_type": "bare_metal",
-                    "regions": {},
-                    "support_level": "full"
-                }
-            ]
+        {
+          "name": "bareMetal",
+          "display_name": "Metallo nudo",
+          "type": "service",
+          "sub_type": "bare_metal",
+          "regions": {},
+          "support_level": "na"
         }
+      ]
+    },
+    "google": {
+      "display_name": "Google",
+      "icon_classes": "google_icon",
+      "source": "fontawesome",
+      "color": "#4285f4",
+      "svg_filename": "google_icon.svg",
+      "status": "production",
+      "services": [
+        {
+          "name": "vmManagement",
+          "display_name": "Gestione delle macchine virtuali",
+          "type": "matcher",
+          "sub_type": "vm",
+          "regions": {
+            "africa_south1": {
+              "country": "South Africa",
+              "location": "Johannesburg",
+              "certifications": []
+            },
+            "asia_east1": {
+              "country": "Taiwan",
+              "location": "Changhua County",
+              "certifications": []
+            },
+            "asia_east2": {
+              "country": "China",
+              "location": "Hong Kong",
+              "certifications": []
+            },
+            "asia_northeast1": {
+              "country": "Japan",
+              "location": "Tokyo",
+              "certifications": []
+            },
+            "asia_northeast2": {
+              "country": "Japan",
+              "location": "Osaka",
+              "certifications": []
+            },
+            "asia_northeast3": {
+              "country": "South Korea",
+              "location": "Seoul",
+              "certifications": []
+            },
+            "asia_south1": {
+              "country": "India",
+              "location": "Mumbai",
+              "certifications": []
+            },
+            "asia_south2": {
+              "country": "India",
+              "location": "Delhi",
+              "certifications": []
+            },
+            "asia_southeast1": {
+              "country": "Singapore",
+              "location": "Jurong West",
+              "certifications": []
+            },
+            "asia_southeast2": {
+              "country": "Indonesia",
+              "location": "Jakarta",
+              "certifications": []
+            },
+            "australia_southeast1": {
+              "country": "Australia",
+              "location": "Sydney",
+              "certifications": []
+            },
+            "australia_southeast2": {
+              "country": "Australia",
+              "location": "Melbourne",
+              "certifications": []
+            },
+            "europe_north1": {
+              "country": "Finlad",
+              "location": "Hamina",
+              "certifications": []
+            },
+            "europe_southwest1": {
+              "country": "Madrid",
+              "location": "Spain",
+              "certifications": []
+            },
+            "europe_west1": {
+              "country": "Belgium",
+              "location": "St. Ghislain",
+              "certifications": []
+            },
+            "europe_west10": {
+              "country": "Germany",
+              "location": "Berlin",
+              "certifications": []
+            },
+            "europe_west12": {
+              "country": "Italy",
+              "location": "Turin",
+              "certifications": []
+            },
+            "europe_west2": {
+              "country": "England",
+              "location": "London",
+              "certifications": []
+            },
+            "europe_west3": {
+              "country": "Germany",
+              "location": "Frankfurt",
+              "certifications": []
+            },
+            "europe_west4": {
+              "country": "Netherlands",
+              "location": "Eemshaven",
+              "certifications": []
+            },
+            "europe_west6": {
+              "country": "Switzerland",
+              "location": "Zurich",
+              "certifications": []
+            },
+            "europe_west8": {
+              "country": "Italy",
+              "location": "Milan",
+              "certifications": []
+            },
+            "europe_west9": {
+              "country": "Paris",
+              "location": "France",
+              "certifications": []
+            },
+            "me_central1": {
+              "country": "Qatar",
+              "location": "Doha",
+              "certifications": []
+            },
+            "me_west1": {
+              "country": "Israel",
+              "location": "Tel Aviv",
+              "certifications": []
+            },
+            "northamerica_northeast1": {
+              "country": "Quebec",
+              "location": "Montreal",
+              "certifications": []
+            },
+            "northamerica_northeast2": {
+              "country": "Ontario",
+              "location": "Toronto",
+              "certifications": []
+            },
+            "southamerica_east1": {
+              "country": "Brazil",
+              "location": "Sao Paolo",
+              "certifications": []
+            },
+            "southamerica_west1": {
+              "country": "Chile",
+              "location": "Santiago",
+              "certifications": []
+            },
+            "us_central1": {
+              "country": "Iowa",
+              "location": "Council Bluff",
+              "certifications": []
+            },
+            "us_east1": {
+              "country": "South Carolina",
+              "location": "Moncks Corner",
+              "certifications": []
+            },
+            "us_east4": {
+              "country": "Virginia",
+              "location": "Ashburn",
+              "certifications": []
+            },
+            "us_east5": {
+              "country": "Ohio",
+              "location": "Columbus",
+              "certifications": []
+            },
+            "us_south1": {
+              "country": "Texas",
+              "location": "Dallas",
+              "certifications": []
+            },
+            "us_west1": {
+              "country": "Oregon",
+              "location": "The Dalles",
+              "certifications": []
+            },
+            "us_west2": {
+              "country": "California",
+              "location": "Los Angeles",
+              "certifications": []
+            },
+            "us_west3": {
+              "country": "Utah",
+              "location": "Salt Lake City",
+              "certifications": []
+            },
+            "us_west4": {
+              "country": "Nevada",
+              "location": "Las Vegas",
+              "certifications": []
+            }
+          },
+          "support_level": "full"
+        },
+        {
+          "name": "STaaS",
+          "display_name": "Archiviazione come servizio",
+          "type": "storage",
+          "sub_type": "storage",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "blockStorage",
+          "display_name": "Archiviazione in blocchi",
+          "type": "storage",
+          "sub_type": "blockstorage",
+          "regions": {},
+          "support_level": "full"
+        },
+        {
+          "name": "networking",
+          "display_name": "Rete",
+          "type": "network",
+          "sub_type": "network",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "k8s",
+          "display_name": "Kubernetes",
+          "type": "service",
+          "sub_type": "container",
+          "regions": {},
+          "support_level": "full"
+        },
+        {
+          "name": "costApi",
+          "display_name": "API dei costi",
+          "type": "matcher",
+          "sub_type": "billing",
+          "regions": {},
+          "support_level": "full"
+        },
+        {
+          "name": "bareMetal",
+          "display_name": "Metallo nudo",
+          "type": "service",
+          "sub_type": "bare_metal",
+          "regions": {},
+          "support_level": "na"
+        }
+      ]
+    },
+    "azure": {
+      "display_name": "Azure",
+      "icon_classes": "azure_icon",
+      "source": "fontawesome",
+      "color": "#0078d4",
+      "svg_filename": "azure_icon.svg",
+      "status": "production",
+      "services": [
+        {
+          "name": "vmManagement",
+          "display_name": "Gestione delle macchine virtuali",
+          "type": "matcher",
+          "sub_type": "vm",
+          "regions": {
+            "bhs1": {
+              "country": "Canada",
+              "location": "Beauharnois",
+              "certifications": []
+            },
+            "bhs2": {
+              "country": "Canada",
+              "location": "Beauharnois",
+              "certifications": []
+            },
+            "bhs3": {
+              "country": "Canada",
+              "location": "Beauharnois",
+              "certifications": []
+            },
+            "bhs5": {
+              "country": "Canada",
+              "location": "Beauharnois",
+              "certifications": []
+            },
+            "de1": {
+              "country": "Germany",
+              "location": "Frankfurt",
+              "certifications": []
+            },
+            "sbg1": {
+              "country": "France",
+              "location": "Strasbourg",
+              "certifications": []
+            },
+            "sbg3": {
+              "country": "France",
+              "location": "Strasbourg",
+              "certifications": []
+            },
+            "sbg5": {
+              "country": "France",
+              "location": "Strasbourg",
+              "certifications": []
+            },
+            "sbg7": {
+              "country": "France",
+              "location": "Strasbourg",
+              "certifications": []
+            },
+            "gra1": {
+              "country": "France",
+              "location": "Gravelines",
+              "certifications": []
+            },
+            "gra3": {
+              "country": "France",
+              "location": "Gravelines",
+              "certifications": []
+            },
+            "gra5": {
+              "country": "France",
+              "location": "Gravelines",
+              "certifications": []
+            },
+            "gra7": {
+              "country": "France",
+              "location": "Gravelines",
+              "certifications": []
+            },
+            "gra9": {
+              "country": "France",
+              "location": "Gravelines",
+              "certifications": []
+            },
+            "gra11": {
+              "country": "France",
+              "location": "Gravelines",
+              "certifications": []
+            },
+            "rbx": {
+              "country": "France",
+              "location": "Roubaix",
+              "certifications": []
+            },
+            "uk1": {
+              "country": "England",
+              "location": "Erith",
+              "certifications": []
+            },
+            "waw1": {
+              "country": "Poland",
+              "location": "Warsaw",
+              "certifications": []
+            },
+            "sgp1": {
+              "country": "Singapore",
+              "location": "Singapore",
+              "certifications": []
+            },
+            "syd1": {
+              "country": "Australia",
+              "location": "Sydney",
+              "certifications": []
+            },
+            "vin1": {
+              "country": "USA",
+              "location": "Washington DC",
+              "certifications": []
+            },
+            "hil1": {
+              "country": "USA",
+              "location": "Seattle",
+              "certifications": []
+            }
+          },
+          "support_level": "full"
+        },
+        {
+          "name": "STaaS",
+          "display_name": "Archiviazione come servizio",
+          "type": "storage",
+          "sub_type": "storage",
+          "regions": {},
+          "support_level": "full"
+        },
+        {
+          "name": "blockStorage",
+          "display_name": "Archiviazione in blocchi",
+          "type": "storage",
+          "sub_type": "blockstorage",
+          "regions": {},
+          "support_level": "full"
+        },
+        {
+          "name": "networking",
+          "display_name": "Rete",
+          "type": "network",
+          "sub_type": "network",
+          "regions": {},
+          "support_level": "full"
+        },
+        {
+          "name": "k8s",
+          "display_name": "Kubernetes",
+          "type": "service",
+          "sub_type": "container",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "costApi",
+          "display_name": "API dei costi",
+          "type": "matcher",
+          "sub_type": "billing",
+          "regions": {},
+          "support_level": "full"
+        },
+        {
+          "name": "bareMetal",
+          "display_name": "Metallo nudo",
+          "type": "service",
+          "sub_type": "bare_metal",
+          "regions": {},
+          "support_level": "na"
+        }
+      ]
+    },
+    "impossiblecloud": {
+      "display_name": "Nuvola impossibile",
+      "icon_classes": "impossiblecloud_icon",
+      "source": "fontawesome",
+      "color": "#666666",
+      "svg_filename": "impossibilecloud_icon.svg",
+      "status": "development",
+      "services": [
+        {
+          "name": "vmManagement",
+          "display_name": "Gestione delle macchine virtuali",
+          "type": "matcher",
+          "sub_type": "vm",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "STaaS",
+          "display_name": "Archiviazione come servizio",
+          "type": "storage",
+          "sub_type": "storage",
+          "regions": {},
+          "support_level": "full"
+        },
+        {
+          "name": "blockStorage",
+          "display_name": "Archiviazione in blocchi",
+          "type": "storage",
+          "sub_type": "blockstorage",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "networking",
+          "display_name": "Rete",
+          "type": "network",
+          "sub_type": "network",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "k8s",
+          "display_name": "Kubernetes",
+          "type": "service",
+          "sub_type": "container",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "costApi",
+          "display_name": "API dei costi",
+          "type": "matcher",
+          "sub_type": "billing",
+          "regions": {},
+          "support_level": "partial"
+        },
+        {
+          "name": "bareMetal",
+          "display_name": "Metallo nudo",
+          "type": "service",
+          "sub_type": "bare_metal",
+          "regions": {},
+          "support_level": "na"
+        }
+      ]
+    },
+    "upcloud": {
+      "display_name": "UpCloud",
+      "icon_classes": "upcloud_icon",
+      "source": "fontawesome",
+      "color": "#7b68ee",
+      "svg_filename": "upcloud_icon.svg",
+      "status": "production",
+      "services": [
+        {
+          "name": "vmManagement",
+          "display_name": "Gestione delle macchine virtuali",
+          "type": "matcher",
+          "sub_type": "vm",
+          "regions": {
+            "au_syd1": {
+              "country": "Australia",
+              "location": "Sydney"
+            },
+            "de_fra1": {
+              "country": "Germany",
+              "location": "Frankfurt",
+              "certifications": []
+            },
+            "fi_hel1": {
+              "country": "Finland",
+              "location": "Helsinki",
+              "certifications": []
+            },
+            "fi_hel2": {
+              "country": "Finland",
+              "location": "Helsinki",
+              "certifications": []
+            },
+            "es_mad1": {
+              "country": "Spain",
+              "location": "Madrid",
+              "certifications": []
+            },
+            "nl_ams1": {
+              "country": "Netherlands",
+              "location": "Amsterdam",
+              "certifications": []
+            },
+            "pl_waw1": {
+              "country": "Poland",
+              "location": "Warsaw",
+              "certifications": []
+            },
+            "sg_sin1": {
+              "country": "Singapore",
+              "location": "Singapore",
+              "certifications": []
+            },
+            "uk_lon1": {
+              "country": "United Kingdom",
+              "location": "London",
+              "certifications": []
+            },
+            "us_chi1": {
+              "country": "USA",
+              "location": "Chicago",
+              "certifications": []
+            },
+            "us_nyc1": {
+              "country": "USA",
+              "location": "New York",
+              "certifications": []
+            },
+            "us_sjo1": {
+              "country": "USA",
+              "location": "San Jose",
+              "certifications": []
+            }
+          },
+          "support_level": "full"
+        },
+        {
+          "name": "STaaS",
+          "display_name": "Archiviazione come servizio",
+          "type": "storage",
+          "sub_type": "storage",
+          "regions": {},
+          "support_level": "full"
+        },
+        {
+          "name": "blockStorage",
+          "display_name": "Archiviazione in blocchi",
+          "type": "storage",
+          "sub_type": "blockstorage",
+          "regions": {},
+          "support_level": "full"
+        },
+        {
+          "name": "networking",
+          "display_name": "Rete",
+          "type": "network",
+          "sub_type": "network",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "k8s",
+          "display_name": "Kubernetes",
+          "type": "service",
+          "sub_type": "container",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "costApi",
+          "display_name": "API dei costi",
+          "type": "matcher",
+          "sub_type": "billing",
+          "regions": {},
+          "support_level": "full"
+        },
+        {
+          "name": "bareMetal",
+          "display_name": "Metallo nudo",
+          "type": "service",
+          "sub_type": "bare_metal",
+          "regions": {},
+          "support_level": "na"
+        }
+      ]
+    },
+    "oracle": {
+      "display_name": "Oracolo Nuvola",
+      "icon_classes": "oracle_icon",
+      "source": "fontawesome",
+      "color": "#ff0000",
+      "svg_filename": "oracle_icon.svg",
+      "status": "development",
+      "services": [
+        {
+          "name": "vmManagement",
+          "display_name": "Gestione delle macchine virtuali",
+          "type": "matcher",
+          "sub_type": "vm",
+          "regions": {},
+          "support_level": "full"
+        },
+        {
+          "name": "STaaS",
+          "display_name": "Archiviazione come servizio",
+          "type": "storage",
+          "sub_type": "storage",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "blockStorage",
+          "display_name": "Archiviazione in blocchi",
+          "type": "storage",
+          "sub_type": "blockstorage",
+          "regions": {},
+          "support_level": "full"
+        },
+        {
+          "name": "networking",
+          "display_name": "Rete",
+          "type": "network",
+          "sub_type": "network",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "k8s",
+          "display_name": "Kubernetes",
+          "type": "service",
+          "sub_type": "container",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "costApi",
+          "display_name": "API dei costi",
+          "type": "matcher",
+          "sub_type": "billing",
+          "regions": {},
+          "support_level": "partial"
+        },
+        {
+          "name": "bareMetal",
+          "display_name": "Metallo nudo",
+          "type": "service",
+          "sub_type": "bare_metal",
+          "regions": {},
+          "support_level": "na"
+        }
+      ]
+    },
+    "ionos": {
+      "display_name": "IONOS",
+      "icon_classes": "ionos_icon",
+      "source": "fontawesome",
+      "color": "#003d8f",
+      "svg_filename": "ionos_icon.svg",
+      "status": "production",
+      "services": [
+        {
+          "name": "vmManagement",
+          "display_name": "Gestione delle macchine virtuali",
+          "type": "matcher",
+          "sub_type": "vm",
+          "regions": {},
+          "support_level": "partial"
+        },
+        {
+          "name": "STaaS",
+          "display_name": "Archiviazione come servizio",
+          "type": "storage",
+          "sub_type": "storage",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "blockStorage",
+          "display_name": "Archiviazione in blocchi",
+          "type": "storage",
+          "sub_type": "blockstorage",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "networking",
+          "display_name": "Rete",
+          "type": "network",
+          "sub_type": "network",
+          "regions": {},
+          "support_level": "full"
+        },
+        {
+          "name": "k8s",
+          "display_name": "Kubernetes",
+          "type": "service",
+          "sub_type": "container",
+          "regions": {},
+          "support_level": "partial"
+        },
+        {
+          "name": "costApi",
+          "display_name": "API dei costi",
+          "type": "matcher",
+          "sub_type": "billing",
+          "regions": {},
+          "support_level": "full"
+        },
+        {
+          "name": "bareMetal",
+          "display_name": "Metallo nudo",
+          "type": "service",
+          "sub_type": "bare_metal",
+          "regions": {},
+          "support_level": "na"
+        }
+      ]
+    },
+    "gigas": {
+      "display_name": "Giga",
+      "icon_classes": "gigas_icon",
+      "source": "fontawesome",
+      "color": "#e31e24",
+      "svg_filename": "gigas_icon.svg",
+      "status": "production",
+      "services": [
+        {
+          "name": "vmManagement",
+          "display_name": "Gestione delle macchine virtuali",
+          "type": "matcher",
+          "sub_type": "vm",
+          "regions": {},
+          "support_level": "partial"
+        },
+        {
+          "name": "STaaS",
+          "display_name": "Archiviazione come servizio",
+          "type": "storage",
+          "sub_type": "storage",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "blockStorage",
+          "display_name": "Archiviazione in blocchi",
+          "type": "storage",
+          "sub_type": "blockstorage",
+          "regions": {},
+          "support_level": "partial"
+        },
+        {
+          "name": "networking",
+          "display_name": "Rete",
+          "type": "network",
+          "sub_type": "network",
+          "regions": {},
+          "support_level": "partial"
+        },
+        {
+          "name": "k8s",
+          "display_name": "Kubernetes",
+          "type": "service",
+          "sub_type": "container",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "costApi",
+          "display_name": "API dei costi",
+          "type": "matcher",
+          "sub_type": "billing",
+          "regions": {},
+          "support_level": "full"
+        },
+        {
+          "name": "bareMetal",
+          "display_name": "Metallo nudo",
+          "type": "service",
+          "sub_type": "bare_metal",
+          "regions": {},
+          "support_level": "na"
+        }
+      ]
+    },
+    "arubacloud": {
+      "display_name": "Nuvola di Aruba",
+      "icon_classes": "arubacloud_icon",
+      "source": "fontawesome",
+      "color": "#666666",
+      "svg_filename": "arubacloud_icon.svg",
+      "status": "development",
+      "services": [
+        {
+          "name": "vmManagement",
+          "display_name": "Gestione delle macchine virtuali",
+          "type": "matcher",
+          "sub_type": "vm",
+          "regions": {},
+          "support_level": "partial"
+        },
+        {
+          "name": "STaaS",
+          "display_name": "Archiviazione come servizio",
+          "type": "storage",
+          "sub_type": "storage",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "blockStorage",
+          "display_name": "Archiviazione in blocchi",
+          "type": "storage",
+          "sub_type": "blockstorage",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "networking",
+          "display_name": "Rete",
+          "type": "network",
+          "sub_type": "network",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "k8s",
+          "display_name": "Kubernetes",
+          "type": "service",
+          "sub_type": "container",
+          "regions": {},
+          "support_level": "partial"
+        },
+        {
+          "name": "costApi",
+          "display_name": "API dei costi",
+          "type": "matcher",
+          "sub_type": "billing",
+          "regions": {},
+          "support_level": "full"
+        },
+        {
+          "name": "bareMetal",
+          "display_name": "Metallo nudo",
+          "type": "service",
+          "sub_type": "bare_metal",
+          "regions": {},
+          "support_level": "na"
+        }
+      ]
+    },
+    "ovh": {
+      "display_name": "OVH",
+      "icon_classes": "ovh_icon",
+      "source": "fontawesome",
+      "color": "#123f6d",
+      "svg_filename": "ovh_icon.svg",
+      "status": "production",
+      "services": [
+        {
+          "name": "vmManagement",
+          "display_name": "Gestione delle macchine virtuali",
+          "type": "matcher",
+          "sub_type": "vm",
+          "regions": {
+            "bhs1": {
+              "country": "Canada",
+              "location": "Beauharnois",
+              "certifications": []
+            },
+            "bhs2": {
+              "country": "Canada",
+              "location": "Beauharnois",
+              "certifications": []
+            },
+            "bhs3": {
+              "country": "Canada",
+              "location": "Beauharnois",
+              "certifications": []
+            },
+            "bhs5": {
+              "country": "Canada",
+              "location": "Beauharnois",
+              "certifications": []
+            },
+            "de1": {
+              "country": "Germany",
+              "location": "Frankfurt",
+              "certifications": []
+            },
+            "sbg1": {
+              "country": "France",
+              "location": "Strasbourg",
+              "certifications": []
+            },
+            "sbg3": {
+              "country": "France",
+              "location": "Strasbourg",
+              "certifications": []
+            },
+            "sbg5": {
+              "country": "France",
+              "location": "Strasbourg",
+              "certifications": []
+            },
+            "sbg7": {
+              "country": "France",
+              "location": "Strasbourg",
+              "certifications": []
+            },
+            "gra1": {
+              "country": "France",
+              "location": "Gravelines",
+              "certifications": []
+            },
+            "gra3": {
+              "country": "France",
+              "location": "Gravelines",
+              "certifications": []
+            },
+            "gra5": {
+              "country": "France",
+              "location": "Gravelines",
+              "certifications": []
+            },
+            "gra7": {
+              "country": "France",
+              "location": "Gravelines",
+              "certifications": []
+            },
+            "gra9": {
+              "country": "France",
+              "location": "Gravelines",
+              "certifications": []
+            },
+            "gra11": {
+              "country": "France",
+              "location": "Gravelines",
+              "certifications": []
+            },
+            "rbx": {
+              "country": "France",
+              "location": "Roubaix",
+              "certifications": []
+            },
+            "uk1": {
+              "country": "England",
+              "location": "Erith",
+              "certifications": []
+            },
+            "waw1": {
+              "country": "Poland",
+              "location": "Warsaw",
+              "certifications": []
+            },
+            "sgp1": {
+              "country": "Singapore",
+              "location": "Singapore",
+              "certifications": []
+            },
+            "syd1": {
+              "country": "Australia",
+              "location": "Sydney",
+              "certifications": []
+            },
+            "vin1": {
+              "country": "USA",
+              "location": "Washington DC",
+              "certifications": []
+            },
+            "hil1": {
+              "country": "USA",
+              "location": "Seattle",
+              "certifications": []
+            }
+          },
+          "support_level": "full"
+        },
+        {
+          "name": "STaaS",
+          "display_name": "Archiviazione come servizio",
+          "type": "storage",
+          "sub_type": "storage",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "blockStorage",
+          "display_name": "Archiviazione in blocchi",
+          "type": "storage",
+          "sub_type": "blockstorage",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "networking",
+          "display_name": "Rete",
+          "type": "network",
+          "sub_type": "network",
+          "regions": {},
+          "support_level": "full"
+        },
+        {
+          "name": "k8s",
+          "display_name": "Kubernetes",
+          "type": "service",
+          "sub_type": "container",
+          "regions": {},
+          "support_level": "full"
+        },
+        {
+          "name": "costApi",
+          "display_name": "API dei costi",
+          "type": "matcher",
+          "sub_type": "billing",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "bareMetal",
+          "display_name": "Metallo nudo",
+          "type": "service",
+          "sub_type": "bare_metal",
+          "regions": {},
+          "support_level": "full"
+        }
+      ]
+    },
+    "clastix": {
+      "display_name": "Clastix",
+      "icon_classes": "clastix_icon",
+      "source": "fontawesome",
+      "color": "#0f172a",
+      "svg_filename": "clastix_icon.svg",
+      "status": "development",
+      "services": [
+        {
+          "name": "vmManagement",
+          "display_name": "Gestione delle macchine virtuali",
+          "type": "matcher",
+          "sub_type": "vm",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "STaaS",
+          "display_name": "Archiviazione come servizio",
+          "type": "storage",
+          "sub_type": "storage",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "blockStorage",
+          "display_name": "Archiviazione in blocchi",
+          "type": "storage",
+          "sub_type": "blockstorage",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "networking",
+          "display_name": "Rete",
+          "type": "network",
+          "sub_type": "network",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "k8s",
+          "display_name": "Kubernetes",
+          "type": "service",
+          "sub_type": "kaas_on_multicloud_vms",
+          "regions": {},
+          "ui_request": {
+            "metadata": {},
+            "capabilities": {
+              "kubernetes_cluster_number": {
+                "type": "number",
+                "user_label": "Numero di cluster",
+                "default": 1,
+                "min": 1
+              },
+              "kubernetes_version": {
+                "type": "string",
+                "user_label": "Versione Kubernetes",
+                "default": "v1.31.1",
+                "regex": "^v\\d+\\.\\d+\\.\\d+$"
+              },
+              "cluster_name": {
+                "type": "name",
+                "user_label": "Nome del cluster",
+                "default": "my-cluster"
+              },
+              "autoscale": {
+                "type": "boolean",
+                "user_label": "Abilita la scalabilità automatica",
+                "default": false
+              },
+              "desired_number_of_nodes": {
+                "type": "number",
+                "user_label": "Numero desiderato di nodi",
+                "default": 3
+              },
+              "max_number_of_nodes": {
+                "type": "number",
+                "user_label": "Numero massimo di nodi",
+                "default": 1
+              },
+              "min_number_of_nodes": {
+                "type": "number",
+                "user_label": "Numero minimo di nodi",
+                "default": 0
+              },
+              "pool_name": {
+                "type": "name",
+                "user_label": "Nome della piscina",
+                "default": "my-pool"
+              }
+            },
+            "resources": {}
+          },
+          "support_level": "na"
+        },
+        {
+          "name": "costApi",
+          "display_name": "API dei costi",
+          "type": "matcher",
+          "sub_type": "billing",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "bareMetal",
+          "display_name": "Metallo nudo",
+          "type": "service",
+          "sub_type": "bare_metal",
+          "regions": {},
+          "support_level": "na"
+        }
+      ]
+    },
+    "cubbit": {
+      "display_name": "Cubito",
+      "icon_classes": "cubbit_icon",
+      "source": "fontawesome",
+      "color": "#666666",
+      "svg_filename": "cubbit_icon.svg",
+      "status": "development",
+      "services": [
+        {
+          "name": "vmManagement",
+          "display_name": "Gestione delle macchine virtuali",
+          "type": "matcher",
+          "sub_type": "vm",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "STaaS",
+          "display_name": "Archiviazione come servizio",
+          "type": "storage",
+          "sub_type": "storage",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "blockStorage",
+          "display_name": "Archiviazione in blocchi",
+          "type": "storage",
+          "sub_type": "blockstorage",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "networking",
+          "display_name": "Rete",
+          "type": "network",
+          "sub_type": "network",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "k8s",
+          "display_name": "Kubernetes",
+          "type": "service",
+          "sub_type": "container",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "costApi",
+          "display_name": "API dei costi",
+          "type": "matcher",
+          "sub_type": "billing",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "bareMetal",
+          "display_name": "Metallo nudo",
+          "type": "service",
+          "sub_type": "bare_metal",
+          "regions": {},
+          "support_level": "na"
+        }
+      ]
+    },
+    "linode": {
+      "display_name": "Linodo",
+      "icon_classes": "linode_icon",
+      "source": "fontawesome",
+      "color": "#666666",
+      "svg_filename": "linode_icon.svg",
+      "status": "development",
+      "services": [
+        {
+          "name": "vmManagement",
+          "display_name": "Gestione delle macchine virtuali",
+          "type": "matcher",
+          "sub_type": "vm",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "STaaS",
+          "display_name": "Archiviazione come servizio",
+          "type": "storage",
+          "sub_type": "storage",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "blockStorage",
+          "display_name": "Archiviazione in blocchi",
+          "type": "storage",
+          "sub_type": "blockstorage",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "networking",
+          "display_name": "Rete",
+          "type": "network",
+          "sub_type": "network",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "k8s",
+          "display_name": "Kubernetes",
+          "type": "service",
+          "sub_type": "container",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "costApi",
+          "display_name": "API dei costi",
+          "type": "matcher",
+          "sub_type": "billing",
+          "regions": {},
+          "support_level": "full"
+        },
+        {
+          "name": "bareMetal",
+          "display_name": "Metallo nudo",
+          "type": "service",
+          "sub_type": "bare_metal",
+          "regions": {},
+          "support_level": "na"
+        }
+      ]
+    },
+    "hetzner": {
+      "display_name": "Hetzner",
+      "icon_classes": "hetzner_icon",
+      "source": "fontawesome",
+      "color": "#666666",
+      "svg_filename": "hetzner_icon.svg",
+      "status": "development",
+      "services": [
+        {
+          "name": "vmManagement",
+          "display_name": "Gestione delle macchine virtuali",
+          "type": "matcher",
+          "sub_type": "vm",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "STaaS",
+          "display_name": "Archiviazione come servizio",
+          "type": "storage",
+          "sub_type": "storage",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "blockStorage",
+          "display_name": "Archiviazione in blocchi",
+          "type": "storage",
+          "sub_type": "blockstorage",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "networking",
+          "display_name": "Rete",
+          "type": "network",
+          "sub_type": "network",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "k8s",
+          "display_name": "Kubernetes",
+          "type": "service",
+          "sub_type": "container",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "costApi",
+          "display_name": "API dei costi",
+          "type": "matcher",
+          "sub_type": "billing",
+          "regions": {},
+          "support_level": "full"
+        },
+        {
+          "name": "bareMetal",
+          "display_name": "Metallo nudo",
+          "type": "service",
+          "sub_type": "bare_metal",
+          "regions": {},
+          "support_level": "full"
+        }
+      ]
+    },
+    "scaleway": {
+      "display_name": "Scala",
+      "icon_classes": "scaleway_icon",
+      "source": "fontawesome",
+      "color": "#4f0599",
+      "svg_filename": "scaleway_icon.svg",
+      "status": "development",
+      "services": [
+        {
+          "name": "vmManagement",
+          "display_name": "Gestione delle macchine virtuali",
+          "type": "matcher",
+          "sub_type": "vm",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "STaaS",
+          "display_name": "Archiviazione come servizio",
+          "type": "storage",
+          "sub_type": "storage",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "blockStorage",
+          "display_name": "Archiviazione in blocchi",
+          "type": "storage",
+          "sub_type": "blockstorage",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "networking",
+          "display_name": "Rete",
+          "type": "network",
+          "sub_type": "network",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "k8s",
+          "display_name": "Kubernetes",
+          "type": "service",
+          "sub_type": "container",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "costApi",
+          "display_name": "API dei costi",
+          "type": "matcher",
+          "sub_type": "billing",
+          "regions": {},
+          "support_level": "full"
+        },
+        {
+          "name": "bareMetal",
+          "display_name": "Metallo nudo",
+          "type": "service",
+          "sub_type": "bare_metal",
+          "regions": {},
+          "support_level": "full"
+        }
+      ]
+    },
+    "aws": {
+      "display_name": "AWS",
+      "icon_classes": "aws_icon",
+      "source": "fontawesome",
+      "color": "#ff9900",
+      "svg_filename": "aws_icon.svg",
+      "status": "soon",
+      "services": [
+        {
+          "name": "vmManagement",
+          "display_name": "Gestione delle macchine virtuali",
+          "type": "matcher",
+          "sub_type": "vm",
+          "regions": {
+            "us_east_1": {
+              "country": "USA",
+              "location": "North Virginia",
+              "certifications": []
+            },
+            "us_east_2": {
+              "country": "USA",
+              "location": "Ohio",
+              "certifications": []
+            },
+            "us_west_1": {
+              "country": "USA",
+              "location": "North California",
+              "certifications": []
+            },
+            "us_west_2": {
+              "country": "USA",
+              "location": "Oregon",
+              "certifications": []
+            },
+            "ca_central_1": {
+              "country": "Canada",
+              "location": "Central Canada",
+              "certifications": []
+            },
+            "ca_west_1": {
+              "country": "Canada",
+              "location": "Calgary",
+              "certifications": []
+            },
+            "af_south_1": {
+              "country": "South Africa",
+              "location": "Cape Town",
+              "certifications": []
+            },
+            "ap_east_1": {
+              "country": "China",
+              "location": "Hong Kong",
+              "certifications": []
+            },
+            "ap_south_2": {
+              "country": "Hyderabad",
+              "location": "India",
+              "certifications": []
+            },
+            "ap_southeast_3": {
+              "country": "Indonesia",
+              "location": "Jakarta",
+              "certifications": []
+            },
+            "ap_southeast_4": {
+              "country": "Australia",
+              "location": "Melbourne",
+              "certifications": []
+            },
+            "ap_south_1": {
+              "country": "India",
+              "location": "Mumbai",
+              "certifications": []
+            },
+            "ap_northeast_3": {
+              "country": "Japan",
+              "location": "Osaka",
+              "certifications": []
+            },
+            "ap_northeast_2": {
+              "country": "South Korea",
+              "location": "Seoul",
+              "certifications": []
+            },
+            "ap_southeast_1": {
+              "country": "Singapore",
+              "location": "Singapore",
+              "certifications": []
+            },
+            "ap_southeast_2": {
+              "country": "Australia",
+              "location": "Sydney",
+              "certifications": []
+            },
+            "ap_northeast_1": {
+              "country": "Japan",
+              "location": "Tokyo",
+              "certifications": []
+            },
+            "eu_central_1": {
+              "country": "Germany",
+              "location": "Frankfurt",
+              "certifications": []
+            },
+            "eu_west_1": {
+              "country": "Ireland",
+              "location": "Ireland",
+              "certifications": []
+            },
+            "eu_west_2": {
+              "country": "United Kingdom",
+              "location": "London",
+              "certifications": []
+            },
+            "eu_south_1": {
+              "country": "Italy",
+              "location": "Milan",
+              "certifications": []
+            },
+            "eu_west_3": {
+              "country": "France",
+              "location": "Paris",
+              "certifications": []
+            },
+            "eu_south_2": {
+              "country": "Spain",
+              "location": "Spain",
+              "certifications": []
+            },
+            "eu_north_1": {
+              "country": "Sweden",
+              "location": "Stockholm",
+              "certifications": []
+            },
+            "eu_central_2": {
+              "country": "Swiss",
+              "location": "Zurich",
+              "certifications": []
+            },
+            "il_central_1": {
+              "country": "Israel",
+              "location": "Tel Aviv",
+              "certifications": []
+            },
+            "me_south_1": {
+              "country": "Bahrain",
+              "location": "Bahrain",
+              "certifications": []
+            },
+            "me_central_1": {
+              "country": "United Arab Emirates",
+              "location": "United Arab Emirates",
+              "certifications": []
+            },
+            "sa_east_1": {
+              "country": "Brazil",
+              "location": "Sao Paolo",
+              "certifications": []
+            },
+            "us_gov_east_1": {
+              "country": "USA",
+              "location": "USA",
+              "certifications": []
+            },
+            "us_gov_west_1": {
+              "country": "USA",
+              "location": "USA",
+              "certifications": []
+            }
+          },
+          "support_level": "na"
+        },
+        {
+          "name": "STaaS",
+          "display_name": "Archiviazione come servizio",
+          "type": "storage",
+          "sub_type": "storage",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "blockStorage",
+          "display_name": "Archiviazione in blocchi",
+          "type": "storage",
+          "sub_type": "blockstorage",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "networking",
+          "display_name": "Rete",
+          "type": "network",
+          "sub_type": "network",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "k8s",
+          "display_name": "Kubernetes",
+          "type": "service",
+          "sub_type": "container",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "costApi",
+          "display_name": "API dei costi",
+          "type": "matcher",
+          "sub_type": "billing",
+          "regions": {},
+          "support_level": "full"
+        },
+        {
+          "name": "bareMetal",
+          "display_name": "Metallo nudo",
+          "type": "service",
+          "sub_type": "bare_metal",
+          "regions": {},
+          "support_level": "na"
+        }
+      ]
+    },
+    "aruba": {
+      "display_name": "Aruba",
+      "icon_classes": "aruba_icon",
+      "source": "fontawesome",
+      "color": "#ff6600",
+      "svg_filename": "aruba_icon.svg",
+      "status": "production",
+      "services": [
+        {
+          "name": "vmManagement",
+          "display_name": "Gestione delle macchine virtuali",
+          "type": "matcher",
+          "sub_type": "vm",
+          "regions": {},
+          "support_level": "partial"
+        },
+        {
+          "name": "STaaS",
+          "display_name": "Archiviazione come servizio",
+          "type": "storage",
+          "sub_type": "storage",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "blockStorage",
+          "display_name": "Archiviazione in blocchi",
+          "type": "storage",
+          "sub_type": "blockstorage",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "networking",
+          "display_name": "Rete",
+          "type": "network",
+          "sub_type": "network",
+          "regions": {},
+          "support_level": "full"
+        },
+        {
+          "name": "k8s",
+          "display_name": "Kubernetes",
+          "type": "service",
+          "sub_type": "container",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "costApi",
+          "display_name": "API dei costi",
+          "type": "matcher",
+          "sub_type": "billing",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "bareMetal",
+          "display_name": "Metallo nudo",
+          "type": "service",
+          "sub_type": "bare_metal",
+          "regions": {},
+          "support_level": "na"
+        }
+      ]
+    },
+    "ibm": {
+      "display_name": "IBM Cloud",
+      "icon_classes": "ibm_icon",
+      "source": "fontawesome",
+      "color": "#666666",
+      "svg_filename": "ibm_icon.svg",
+      "status": "development",
+      "services": [
+        {
+          "name": "vmManagement",
+          "display_name": "Gestione delle macchine virtuali",
+          "type": "matcher",
+          "sub_type": "vm",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "STaaS",
+          "display_name": "Archiviazione come servizio",
+          "type": "storage",
+          "sub_type": "storage",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "blockStorage",
+          "display_name": "Archiviazione in blocchi",
+          "type": "storage",
+          "sub_type": "blockstorage",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "networking",
+          "display_name": "Rete",
+          "type": "network",
+          "sub_type": "network",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "k8s",
+          "display_name": "Kubernetes",
+          "type": "service",
+          "sub_type": "container",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "costApi",
+          "display_name": "API dei costi",
+          "type": "matcher",
+          "sub_type": "billing",
+          "regions": {},
+          "support_level": "na"
+        },
+        {
+          "name": "bareMetal",
+          "display_name": "Metallo nudo",
+          "type": "service",
+          "sub_type": "bare_metal",
+          "regions": {},
+          "support_level": "full"
+        }
+      ]
     }
+  },
+  "ui": {
+    "en": {
+      "supported": "Supported",
+      "partial": "Partial support",
+      "planned": "Planned",
+      "providerColumn": "Provider",
+      "supportColumn": "Support level"
+    },
+    "it": {
+      "supported": "Supportato",
+      "partial": "Supporto parziale",
+      "planned": "In roadmap",
+      "providerColumn": "Provider",
+      "supportColumn": "Livello di supporto"
+    }
+  }
 }

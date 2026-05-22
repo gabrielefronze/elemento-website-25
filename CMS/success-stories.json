@@ -1,128 +1,98 @@
 [
-    {
-      "id": 1,
+  {
+    "id": 1,
+    "logo": "CMS/success-stories/OLCI.png",
+    "en": {
       "company": "OLCI Engineering",
-      "industry": "Industrial Automation & Robotics",
-      "logo": "CMS/success-stories/OLCI.png",
       "quote": "Elemento allowed us to move away from a rigid appliance-based system to a flexible Linux and hybrid cloud architecture. We now have disaster recovery without vendor lock-in.",
       "author": "Marco Brussino",
-      "role": "IT Manager",
-      "metrics": {
-        "migration_time": "72 hours",
-        "downtime": "0 minutes",
-        "dr_recovery_time": "15 minutes"
-      },
-      "challenge": "Needed to migrate from a proprietary Syneto solution to a Linux-based infrastructure with hybrid cloud options and reliable disaster recovery.",
-      "solution": "Elemento deployed a Linux-native virtualization and storage stack with hybrid cloud integration and automated DR failover.",
-      "results": [
-        "Full migration from Syneto in 72 hours",
-        "Zero downtime during transition",
-        "15-minute disaster recovery capability achieved"
-      ]
+      "role": "IT Manager"
     },
-    {
-      "id": 2,
+    "it": {
+      "company": "Ingegneria OLCI",
+      "quote": "Elemento ci ha permesso di passare da un sistema rigido basato su appliance a un'architettura Linux flessibile e cloud ibrida. Ora disponiamo del ripristino di emergenza senza vincoli al fornitore.",
+      "author": "Marco Brussino",
+      "role": "Responsabile IT"
+    }
+  },
+  {
+    "id": 2,
+    "logo": "CMS/success-stories/marcopolo.png",
+    "en": {
       "company": "Marcopolo Spa",
-      "industry": "Environmental Engineering",
-      "logo": "CMS/success-stories/marcopolo.png",
       "quote": "With Elemento, we achieved a redundant local cluster and a fully automated off-site disaster recovery system. This ensures uninterrupted operations for our mission-critical workloads.",
       "author": "Alessandra Rostagno",
-      "role": "IT Director",
-      "metrics": {
-        "uptime": "99.99%",
-        "dr_recovery_time": "10 minutes",
-        "cost_savings": "45%"
-      },
-      "challenge": "Needed a highly available local cluster for mission-critical workloads, with rapid off-site disaster recovery.",
-      "solution": "Elemento implemented a redundant local compute cluster with automated replication to a remote site.",
-      "results": [
-        "Achieved 99.99% uptime",
-        "Off-site DR ready in 10 minutes",
-        "45% reduction in operational costs"
-      ]
+      "role": "IT Director"
     },
-    {
-      "id": 3,
+    "it": {
+      "company": "Marcopolo Terme",
+      "quote": "Con Elemento, abbiamo ottenuto un cluster locale ridondante e un sistema di disaster recovery off-site completamente automatizzato. Ciò garantisce operazioni ininterrotte per i nostri carichi di lavoro mission-critical.",
+      "author": "Alessandra Rostagno",
+      "role": "Direttore IT"
+    }
+  },
+  {
+    "id": 3,
+    "logo": "CMS/success-stories/brandsider.webp",
+    "en": {
       "company": "Brandsider Srl",
-      "industry": "Marketing & Data Intelligence",
-      "logo": "CMS/success-stories/brandsider.webp",
       "quote": "Elemento gave us enterprise-grade resilience with a redundant NAS locally and secure backups in the cloud. We maintain full data sovereignty while ensuring business continuity.",
       "author": "Denise Lupani",
-      "role": "CEO",
-      "metrics": {
-        "backup_frequency": "hourly",
-        "data_recovery_time": "5 minutes",
-        "cost_savings": "40%"
-      },
-      "challenge": "Required secure, redundant local storage for large media assets with guaranteed cloud backup for business continuity.",
-      "solution": "Implemented a dual-controller NAS with hourly replication to a secure Elemento-managed cloud.",
-      "results": [
-        "Hourly cloud backups without performance impact",
-        "5-minute recovery time for any data loss scenario",
-        "40% cost savings on backup infrastructure"
-      ]
+      "role": "CEO"
     },
-    {
-      "id": 4,
+    "it": {
+      "company": "Brandsider S.r.l",
+      "quote": "Elemento ci ha offerto resilienza di livello aziendale con un NAS ridondante a livello locale e backup sicuri nel cloud. Manteniamo la piena sovranità dei dati garantendo al contempo la continuità aziendale.",
+      "author": "Denise Lupani",
+      "role": "Amministratore delegato"
+    }
+  },
+  {
+    "id": 4,
+    "logo": "CMS/success-stories/360.svg",
+    "en": {
       "company": "360 Aligners Academy",
-      "industry": "Dental Training & 3D Imaging",
-      "logo": "CMS/success-stories/360.svg",
       "quote": "Our multiple dental practices now run on a unified, secure data center for ERP, CRM, and x-ray management. This provides consistent uptime and scalability across all our clinics.",
       "author": "Matteo Reverdito",
-      "role": "Dentist",
-      "metrics": {
-        "uptime": "99.98%",
-        "data_access_speed": "2x faster",
-        "deployment_time": "4 days"
-      },
-      "challenge": "Needed a centralized infrastructure to serve multiple private practices with ERP, CRM, and x-ray imaging software.",
-      "solution": "Deployed a central Elemento-powered data center with secure multi-tenant access and automated backups.",
-      "results": [
-        "Unified management across multiple clinics",
-        "2x faster access to patient records and x-rays",
-        "Deployment completed in 4 days"
-      ]
+      "role": "Dentist"
     },
-    {
-      "id": 5,
+    "it": {
+      "company": "Accademia degli allineatori 360",
+      "quote": "I nostri numerosi studi dentistici ora funzionano su un data center unificato e sicuro per la gestione ERP, CRM e dei raggi X. Ciò garantisce tempi di attività e scalabilità costanti in tutte le nostre cliniche.",
+      "author": "Matteo Reverdito",
+      "role": "Dentista"
+    }
+  },
+  {
+    "id": 5,
+    "logo": "CMS/success-stories/tomatis.svg",
+    "en": {
       "company": "Giacomo Tomatis Srl",
-      "industry": "Construction Materials",
-      "logo": "CMS/success-stories/tomatis.svg",
       "quote": "Elemento's redundant cluster keeps our ERP always online, even in a rural area with limited connectivity. The automatic failover ensures we never lose critical business operations.",
       "author": "Edoardo Tomatis",
-      "role": "CEO",
-      "metrics": {
-        "uptime": "99.95%",
-        "failover_time": "8 minutes",
-        "cost_savings": "35%"
-      },
-      "challenge": "Operating ERP in a location with poor connectivity and high risk of downtime.",
-      "solution": "Installed a redundant local cluster with automatic failover and edge caching.",
-      "results": [
-        "ERP remains online during connectivity outages",
-        "Failover in under 8 minutes",
-        "35% savings on IT operations"
-      ]
+      "role": "CEO"
     },
-    {
-      "id": 6,
+    "it": {
+      "company": "Giacomo Tomatis Srl",
+      "quote": "Il cluster ridondante di Elemento mantiene il nostro ERP sempre online, anche in un'area rurale con connettività limitata. Il failover automatico garantisce di non perdere mai le operazioni aziendali critiche.",
+      "author": "Edoardo Tomatis",
+      "role": "Amministratore delegato"
+    }
+  },
+  {
+    "id": 6,
+    "logo": "CMS/success-stories/dynamo.png",
+    "en": {
       "company": "Dynamo Spa",
-      "industry": "Cloud Federation",
-      "logo": "CMS/success-stories/dynamo.png",
       "quote": "Elemento is the backbone technology enabling the first true federation of European Cloud Providers. It unlocks cross-border interoperability without sacrificing sovereignty.",
       "author": "Francesco Bonfiglio",
-      "role": "CEO",
-      "metrics": {
-        "federation_nodes": "12",
-        "interop_success_rate": "100%",
-        "deployment_speed": "3x faster than baseline"
-      },
-      "challenge": "Required a technology stack to enable secure, standards-compliant cloud federation across European providers.",
-      "solution": "Elemento deployed a federation-ready orchestration platform with multi-cloud interoperability and compliance controls.",
-      "results": [
-        "Launched 12-node federation network",
-        "100% interoperability in pilot phase",
-        "3x faster deployment than industry average"
-      ]
+      "role": "CEO"
+    },
+    "it": {
+      "company": "Dinamo Spa",
+      "quote": "Elemento è la tecnologia backbone che consente la prima vera federazione di Cloud Provider europei. Sblocca l’interoperabilità transfrontaliera senza sacrificare la sovranità.",
+      "author": "Francesco Bonfiglio",
+      "role": "Amministratore delegato"
     }
-  ]
+  }
+]

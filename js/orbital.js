@@ -15,13 +15,20 @@ async function loadOrbitalConfigurations() {
     container.innerHTML = '<div class="orbital-loading">Loading server configurations...</div>';
 
     try {
-        const response = await fetch('CMS/orbital.json');
+        const url = window.ElementoI18n?.assetUrl
+            ? window.ElementoI18n.assetUrl('CMS/orbital.json')
+            : 'CMS/orbital.json';
+        const response = await fetch(url);
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
         
         const configurations = await response.json();
-        renderOrbitalConfigurations(configurations);
+        const locale = window.ElementoI18n ? window.ElementoI18n.getPageLocale() : 'en';
+        const resolved = configurations.map((c) =>
+            window.ElementoI18n ? window.ElementoI18n.resolveCmsEntry(c, locale) : c
+        );
+        renderOrbitalConfigurations(resolved);
     } catch (error) {
         console.error('Error loading orbital configurations:', error);
         container.innerHTML = `

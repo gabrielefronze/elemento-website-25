@@ -56,10 +56,13 @@ class ProviderIntegrationsHandler {
             console.log('🔍 Attempting to fetch provider-integrations.json...');
             
             // Test if the file exists first
-            const testResponse = await fetch('CMS/provider-integrations.json', { method: 'HEAD' });
+            const cmsUrl = window.ElementoI18n?.assetUrl
+                ? window.ElementoI18n.assetUrl('CMS/provider-integrations.json')
+                : 'CMS/provider-integrations.json';
+            const testResponse = await fetch(cmsUrl, { method: 'HEAD' });
             console.log('🔍 File exists check:', testResponse.status);
             
-            const response = await fetch('CMS/provider-integrations.json');
+            const response = await fetch(cmsUrl);
             console.log('📡 Response status:', response.status, response.statusText);
             
             if (!response.ok) {
@@ -68,6 +71,12 @@ class ProviderIntegrationsHandler {
             
             const data = await response.json();
             console.log('📊 Loaded provider data:', data);
+
+            this.uiLabels = data.ui || null;
+            const locale = window.ElementoI18n ? window.ElementoI18n.getPageLocale() : 'en';
+            if (this.uiLabels && this.uiLabels[locale]) {
+                this.applyUiLabels(this.uiLabels[locale]);
+            }
             
             // Transform the new format to the expected format
             this.providers = this.transformProviderData(data);
@@ -190,6 +199,19 @@ class ProviderIntegrationsHandler {
 
         this.tableContainer.innerHTML = html;
         console.log('✅ Provider table rendered successfully');
+    }
+
+    applyUiLabels(labels) {
+        document.querySelectorAll('.comparison-table thead th').forEach((th, i) => {
+            if (i === 0 && labels.providerColumn) th.textContent = labels.providerColumn;
+        });
+        const cards = this.statusCards;
+        if (!cards || cards.length < 3) return;
+        const titles = [labels.supported, labels.partial, labels.planned];
+        cards.forEach((card, i) => {
+            const h = card.querySelector('h3');
+            if (h && titles[i]) h.textContent = titles[i];
+        });
     }
 
     /**

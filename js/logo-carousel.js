@@ -29,7 +29,11 @@ class LogoCarousel {
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
-        this.companies = await response.json();
+        const raw = await response.json();
+        const locale = window.ElementoI18n ? window.ElementoI18n.getPageLocale() : 'en';
+        this.companies = raw.map((s) =>
+            window.ElementoI18n ? window.ElementoI18n.resolveCmsEntry(s, locale) : s
+        );
     }
     
     render() {
@@ -55,9 +59,13 @@ class LogoCarousel {
     }
     
     renderLogoItem(company) {
+        const logoSrc =
+            window.ElementoI18n?.assetUrl && company.logo && !/^(https?:|\/\/|\/)/.test(company.logo)
+                ? window.ElementoI18n.assetUrl(company.logo)
+                : company.logo;
         return `
             <div class="logo-item" data-company="${company.company}">
-                <img src="${company.logo}" 
+                <img src="${logoSrc}" 
                      alt="${company.company} logo" 
                      class="company-logo-carousel"
                      onload="this.classList.add('loaded')" 
@@ -114,6 +122,9 @@ class LogoCarousel {
 document.addEventListener('DOMContentLoaded', () => {
     const logoCarouselContainer = document.getElementById('logo-carousel');
     if (logoCarouselContainer) {
-        new LogoCarousel('logo-carousel', 'CMS/success-stories.json');
+        const dataUrl = window.ElementoI18n?.assetUrl
+            ? window.ElementoI18n.assetUrl('CMS/success-stories.json')
+            : 'CMS/success-stories.json';
+        new LogoCarousel('logo-carousel', dataUrl);
     }
 });

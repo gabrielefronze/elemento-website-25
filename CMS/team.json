@@ -1,209 +1,455 @@
 [
   {
-    "name": "Gabriele Gaetano Fronzé",
-    "role": "CEO – Chief Executive Officer",
+    "id": "gabriele-gaetano-fronz",
     "division": "leadership",
-    "highlight": "Nuclear Physicist, Ph.D. in Physics",
-    "bio": "With a foundation in Nuclear and Subnuclear Physics, I've channeled my scientific rigor into creating robust, scalable cloud solutions.",
     "photo": "CMS/team/gfronze.webp",
     "links": [
-      { "type": "Linkedin", "url": "https://www.linkedin.com/in/gfronze/" },
-      { "type": "Github", "url": "https://github.com/gabrielefronze" }
-    ]
+      {
+        "type": "Linkedin",
+        "url": "https://www.linkedin.com/in/gfronze/"
+      },
+      {
+        "type": "Github",
+        "url": "https://github.com/gabrielefronze"
+      }
+    ],
+    "en": {
+      "name": "Gabriele Gaetano Fronzé",
+      "role": "CEO – Chief Executive Officer",
+      "highlight": "Nuclear Physicist, Ph.D. in Physics",
+      "bio": "With a foundation in Nuclear and Subnuclear Physics, I've channeled my scientific rigor into creating robust, scalable cloud solutions."
+    },
+    "it": {
+      "name": "Gabriele Gaetano Fronzé",
+      "role": "CEO – Amministratore delegato",
+      "highlight": "Fisico nucleare, Ph.D. in Fisica",
+      "bio": "Con una formazione in fisica nucleare e subnucleare, ho incanalato il mio rigore scientifico nella creazione di soluzioni cloud robuste e scalabili."
+    }
   },
   {
-    "name": "Filippo Valle",
-    "role": "CTO – Chief Technical Officer",
+    "id": "filippo-valle",
     "division": "engineering",
-    "highlight": "Physicist, Ph.D. in Complex Systems for Life Sciences",
-    "bio": "Curious by nature, I Love coding and data mining. | I studied Complex Systems and now I am leading the tech team to simplify the clouds.",
     "photo": "CMS/team/fvalle.webp",
     "links": [
-      { "type": "Linkedin", "url": "https://www.linkedin.com/in/filippo-valle/" },
-      { "type": "Github", "url": "https://github.com/fvalle1" }
-    ]
+      {
+        "type": "Linkedin",
+        "url": "https://www.linkedin.com/in/filippo-valle/"
+      },
+      {
+        "type": "Github",
+        "url": "https://github.com/fvalle1"
+      }
+    ],
+    "en": {
+      "name": "Filippo Valle",
+      "role": "CTO – Chief Technical Officer",
+      "highlight": "Physicist, Ph.D. in Complex Systems for Life Sciences",
+      "bio": "Curious by nature, I Love coding and data mining. | I studied Complex Systems and now I am leading the tech team to simplify the clouds."
+    },
+    "it": {
+      "name": "Filippo Valle",
+      "role": "CTO – Direttore tecnico",
+      "highlight": "Fisico, Ph.D. in Sistemi complessi per le scienze della vita",
+      "bio": "Curioso per natura, amo la programmazione e il data mining. | Ho studiato Sistemi Complessi e ora sto guidando il team tecnico per semplificare i cloud."
+    }
   },
   {
-    "name": "Gianluca Costa",
-    "role": "CSO – Chief Sales Officer",
+    "id": "gianluca-costa",
     "division": "sales",
-    "highlight": "",
-    "bio": "I'm one of the lucky few who turned their passion into a career. I started out as a software developer, and along the way, I fell in love with the more tangible side of IT: hardware infrastructure.",
     "photo": "CMS/team/gcosta.webp",
     "links": [
-      { "type": "Linkedin", "url": "https://www.linkedin.com/in/gianluca-costa-eretica" }
-    ]
+      {
+        "type": "Linkedin",
+        "url": "https://www.linkedin.com/in/gianluca-costa-eretica"
+      }
+    ],
+    "en": {
+      "name": "Gianluca Costa",
+      "role": "CSO – Chief Sales Officer",
+      "highlight": "",
+      "bio": "I'm one of the lucky few who turned their passion into a career. I started out as a software developer, and along the way, I fell in love with the more tangible side of IT: hardware infrastructure."
+    },
+    "it": {
+      "name": "Gianluca Costa",
+      "role": "CSO – Direttore vendite",
+      "highlight": "",
+      "bio": "Sono uno dei pochi fortunati che ha trasformato la propria passione in una carriera. Ho iniziato come sviluppatore di software e, lungo il percorso, mi sono innamorato del lato più tangibile dell'IT: l'infrastruttura hardware."
+    }
   },
   {
-    "name": "Stefano Galfré",
-    "role": "CFO – Chief Financial Officer",
+    "id": "stefano-galfr",
     "division": "sales",
-    "highlight": "MSc Economics and Management of Innovation and Technology @ Bocconi University",
-    "bio": "With experience in M&A, corporate strategy and venture building, and a background in economics, entrepreneurship and innovation. I bridge finance and tech at Elemento.",
     "photo": "CMS/team/sgalfre.webp",
     "links": [
-      { "type": "Linkedin", "url": "https://www.linkedin.com/in/stefano-galfre" }
-    ]
+      {
+        "type": "Linkedin",
+        "url": "https://www.linkedin.com/in/stefano-galfre"
+      }
+    ],
+    "en": {
+      "name": "Stefano Galfré",
+      "role": "CFO – Chief Financial Officer",
+      "highlight": "MSc Economics and Management of Innovation and Technology @ Bocconi University",
+      "bio": "With experience in M&A, corporate strategy and venture building, and a background in economics, entrepreneurship and innovation. I bridge finance and tech at Elemento."
+    },
+    "it": {
+      "name": "Stefano Galfré",
+      "role": "CFO – Direttore finanziario",
+      "highlight": "Master in Economia e Management dell'Innovazione e della Tecnologia @ Università Bocconi",
+      "bio": "Con esperienza in fusioni e acquisizioni, strategia aziendale e venture building, e un background in economia, imprenditorialità e innovazione. Collego finanza e tecnologia presso Elemento."
+    }
   },
   {
-    "name": "Fabrizio Parzanese",
-    "role": "CMO – Chief Marketing Officer",
+    "id": "fabrizio-parzanese",
     "division": "creative",
-    "highlight": "Digital Communication Expert",
-    "bio": "CMO at Elemento Cloud, bridging strategy, technology, and creativity. I am always looking for the next big thing in digital communication. I focus on humanizing and translating our tech, into impactful communication. My mission is to make our cloud solutions feel as intuitive and accessible as they are powerful.",
     "photo": "CMS/team/fparzanese.webp",
     "links": [
-      { "type": "Linkedin", "url": "https://www.linkedin.com/in/fabrizioparzanese/" }
-    ]
+      {
+        "type": "Linkedin",
+        "url": "https://www.linkedin.com/in/fabrizioparzanese/"
+      }
+    ],
+    "en": {
+      "name": "Fabrizio Parzanese",
+      "role": "CMO – Chief Marketing Officer",
+      "highlight": "Digital Communication Expert",
+      "bio": "CMO at Elemento Cloud, bridging strategy, technology, and creativity. I am always looking for the next big thing in digital communication. I focus on humanizing and translating our tech, into impactful communication. My mission is to make our cloud solutions feel as intuitive and accessible as they are powerful."
+    },
+    "it": {
+      "name": "Fabrizio Parzanese",
+      "role": "CMO – Direttore marketing",
+      "highlight": "Esperto di comunicazione digitale",
+      "bio": "CMO presso Elemento Cloud, unendo strategia, tecnologia e creatività. Sono sempre alla ricerca della prossima grande novità nella comunicazione digitale. Mi concentro sull'umanizzazione e sulla traduzione della nostra tecnologia in una comunicazione di grande impatto. La mia missione è rendere le nostre soluzioni cloud tanto intuitive e accessibili quanto potenti."
+    }
   },
   {
-    "name": "Martino Mogna",
-    "role": "R&D Leader - #1 Employee",
+    "id": "martino-mogna",
     "division": "engineering",
-    "highlight": "Dev & Maker",
-    "bio": "Started with chemistry, ventured into physics, now a developer. Turns out, I was just moving from one puzzle to the next. Always curious, always building, always learning.",
     "photo": "CMS/team/mmogna.webp",
     "links": [
-      { "type": "Linkedin", "url": "https://www.linkedin.com/in/martino-mogna-88573627b" },
-      { "type": "Github", "url": "https://github.com/MMogna/" }
-    ]
+      {
+        "type": "Linkedin",
+        "url": "https://www.linkedin.com/in/martino-mogna-88573627b"
+      },
+      {
+        "type": "Github",
+        "url": "https://github.com/MMogna/"
+      }
+    ],
+    "en": {
+      "name": "Martino Mogna",
+      "role": "R&D Leader - #1 Employee",
+      "highlight": "Dev & Maker",
+      "bio": "Started with chemistry, ventured into physics, now a developer. Turns out, I was just moving from one puzzle to the next. Always curious, always building, always learning."
+    },
+    "it": {
+      "name": "Martino Mogna",
+      "role": "Responsabile R&S - primo dipendente",
+      "highlight": "Sviluppatore e creatore",
+      "bio": "Ha iniziato con la chimica, si è avventurato nella fisica, ora è uno sviluppatore. Si scopre che stavo semplicemente passando da un puzzle all'altro. Sempre curioso, sempre costruendo, sempre imparando."
+    }
   },
   {
-    "name": "Vincent Morello",
-    "role": "Art Director",
+    "id": "vincent-morello",
     "division": "creative",
-    "highlight": "Graphic Design Degree",
-    "bio": "Shaping visuals and identities always seeking the key to reinterpreting the ordinary",
     "photo": "CMS/team/vmorello.webp",
     "links": [
-      { "type": "Linkedin", "url": "https://www.linkedin.com/in/vincent-morello/" }
-    ]
+      {
+        "type": "Linkedin",
+        "url": "https://www.linkedin.com/in/vincent-morello/"
+      }
+    ],
+    "en": {
+      "name": "Vincent Morello",
+      "role": "Art Director",
+      "highlight": "Graphic Design Degree",
+      "bio": "Shaping visuals and identities always seeking the key to reinterpreting the ordinary"
+    },
+    "it": {
+      "name": "Vincent Morello",
+      "role": "Direttore artistico",
+      "highlight": "Laurea in Progettazione Grafica",
+      "bio": "Modellare immagini e identità cercando sempre la chiave per reinterpretare l'ordinario"
+    }
   },
   {
-    "name": "Giulia Sannai",
-    "role": "Event Manager",
+    "id": "giulia-sannai",
     "division": "creative",
-    "highlight": "Musicologist & Communication Expert",
-    "bio": "Event Manager at Elemento Cloud, I am responsible for the organization and execution of our events. I am a musicologist, musician, and educator with a passion for bold ideas, social media, and all things fuchsia.",
     "photo": "CMS/team/gsannai.webp",
     "links": [
-      { "type": "Instagram", "url": "https://www.instagram.com/giulia_sunny_/" },
-      { "type": "Linkedin", "url": "https://www.linkedin.com/in/giulia-sannai-9b4302256/" }
-    ]
+      {
+        "type": "Instagram",
+        "url": "https://www.instagram.com/giulia_sunny_/"
+      },
+      {
+        "type": "Linkedin",
+        "url": "https://www.linkedin.com/in/giulia-sannai-9b4302256/"
+      }
+    ],
+    "en": {
+      "name": "Giulia Sannai",
+      "role": "Event Manager",
+      "highlight": "Musicologist & Communication Expert",
+      "bio": "Event Manager at Elemento Cloud, I am responsible for the organization and execution of our events. I am a musicologist, musician, and educator with a passion for bold ideas, social media, and all things fuchsia."
+    },
+    "it": {
+      "name": "Giulia Sannai",
+      "role": "Responsabile eventi",
+      "highlight": "Musicologo ed esperto di comunicazione",
+      "bio": "Event Manager presso Elemento Cloud, sono responsabile dell'organizzazione e dell'esecuzione dei nostri eventi. Sono un musicologo, musicista ed educatore con una passione per le idee audaci, i social media e tutto ciò che è fucsia."
+    }
   },
   {
-    "name": "Andrea Riccardi",
-    "role": "Cloud Software Developer",
+    "id": "andrea-riccardi",
     "division": "engineering",
-    "highlight": "",
-    "bio": "Passionate programmer with a love for computer science and video games, driven by the desire to understand how things work",
     "photo": "CMS/team/ariccardi.webp",
     "links": [
-      { "type": "Linkedin", "url": "https://www.linkedin.com/in/andrea-riccardi-7882031a3/" },
-      { "type": "Github", "url": "https://github.com/AndrewRicc" }
-    ]
+      {
+        "type": "Linkedin",
+        "url": "https://www.linkedin.com/in/andrea-riccardi-7882031a3/"
+      },
+      {
+        "type": "Github",
+        "url": "https://github.com/AndrewRicc"
+      }
+    ],
+    "en": {
+      "name": "Andrea Riccardi",
+      "role": "Cloud Software Developer",
+      "highlight": "",
+      "bio": "Passionate programmer with a love for computer science and video games, driven by the desire to understand how things work"
+    },
+    "it": {
+      "name": "Andrea Riccardi",
+      "role": "Sviluppatore cloud",
+      "highlight": "",
+      "bio": "Programmatore appassionato con la passione per l'informatica e i videogiochi, spinto dal desiderio di capire come funzionano le cose"
+    }
   },
   {
-    "name": "Nicola Gutierrez",
-    "role": "Cloud Software Developer",
+    "id": "nicola-gutierrez",
     "division": "engineering",
-    "highlight": "",
-    "bio": "Software Engineer specialized in artificial intelligence and data. Interested in data processing and acquisition, model optimization, and AI integration.",
     "photo": "CMS/team/ngutierrez.png",
     "links": [
-      { "type": "Linkedin", "url": "https://www.linkedin.com/in/nicola-gutierrez" },
-      { "type": "Github", "url": "https://github.com/nicolagutierrez" }
-    ]
+      {
+        "type": "Linkedin",
+        "url": "https://www.linkedin.com/in/nicola-gutierrez"
+      },
+      {
+        "type": "Github",
+        "url": "https://github.com/nicolagutierrez"
+      }
+    ],
+    "en": {
+      "name": "Nicola Gutierrez",
+      "role": "Cloud Software Developer",
+      "highlight": "",
+      "bio": "Software Engineer specialized in artificial intelligence and data. Interested in data processing and acquisition, model optimization, and AI integration."
+    },
+    "it": {
+      "name": "Nicola Gutierrez",
+      "role": "Sviluppatore cloud",
+      "highlight": "",
+      "bio": "Ingegnere informatico specializzato in intelligenza artificiale e dati. Interessato all'elaborazione e all'acquisizione dei dati, all'ottimizzazione dei modelli e all'integrazione dell'intelligenza artificiale."
+    }
   },
   {
-    "name": "Filippo Ferrando Damillano",
-    "role": "Software Developer",
+    "id": "filippo-ferrando-damillano",
     "division": "engineering",
-    "highlight": "MSc Cybersecurity student @ PoliTO",
-    "bio": "R&D Developer at Elemento Cloud and Computer Science student passionate about Linux systems and virtualization technologies. Always eager to explore new tech challenges and learn as much as possible!",
     "photo": "CMS/team/ferrando.png",
     "links": [
-      { "type": "Linkedin", "url": "https://www.linkedin.com/in/filippo-ferrando-damillano-3809431a2/" },
-      { "type": "Github", "url": "https://github.com/filippo-ferrando" }
-    ]
+      {
+        "type": "Linkedin",
+        "url": "https://www.linkedin.com/in/filippo-ferrando-damillano-3809431a2/"
+      },
+      {
+        "type": "Github",
+        "url": "https://github.com/filippo-ferrando"
+      }
+    ],
+    "en": {
+      "name": "Filippo Ferrando Damillano",
+      "role": "Software Developer",
+      "highlight": "MSc Cybersecurity student @ PoliTO",
+      "bio": "R&D Developer at Elemento Cloud and Computer Science student passionate about Linux systems and virtualization technologies. Always eager to explore new tech challenges and learn as much as possible!"
+    },
+    "it": {
+      "name": "Filippo Ferrando Damillano",
+      "role": "Sviluppatore software",
+      "highlight": "Studente del Master in Cybersecurity presso PoliTO",
+      "bio": "Sviluppatore R&D presso Elemento Cloud e studente di Informatica appassionato di sistemi Linux e tecnologie di virtualizzazione. Sempre desideroso di esplorare nuove sfide tecnologiche e imparare il più possibile!"
+    }
   },
   {
-    "name": "Paolo Beci",
-    "role": "Cloud Software Developer",
+    "id": "paolo-beci",
     "division": "engineering",
-    "highlight": "MSc Cloud Engineering",
-    "bio": "MSc Cloud Engineer @PoliTO, passionate about computer science, innovation, and economics. Always seeking new challenges and growth opportunities.",
     "photo": "CMS/team/pbeci.png",
     "links": [
-      { "type": "Linkedin", "url": "https://www.linkedin.com/in/paolo-beci-919a28199/" },
-      { "type": "Github", "url": "https://github.com/Paolo-Beci" }
-    ]
+      {
+        "type": "Linkedin",
+        "url": "https://www.linkedin.com/in/paolo-beci-919a28199/"
+      },
+      {
+        "type": "Github",
+        "url": "https://github.com/Paolo-Beci"
+      }
+    ],
+    "en": {
+      "name": "Paolo Beci",
+      "role": "Cloud Software Developer",
+      "highlight": "MSc Cloud Engineering",
+      "bio": "MSc Cloud Engineer @PoliTO, passionate about computer science, innovation, and economics. Always seeking new challenges and growth opportunities."
+    },
+    "it": {
+      "name": "Paolo Beci",
+      "role": "Sviluppatore cloud",
+      "highlight": "Master in Ingegneria del Cloud",
+      "bio": "Master in Cloud Engineer @PoliTO, appassionato di informatica, innovazione ed economia. Sempre alla ricerca di nuove sfide e opportunità di crescita."
+    }
   },
   {
-    "name": "Giulia Borgoni",
-    "role": "Business Analyst",
+    "id": "giulia-borgoni",
     "division": "business",
-    "highlight": "PoliTo Master's Student",
-    "bio": "Engineer and computer science teacher. Passionate about mountains, travel and innovation. Always curious, always learning",
     "photo": "CMS/team/gborgoni.webp",
     "links": [
-      { "type": "Linkedin", "url": "http://www.linkedin.com/in/giulia-borgoni-590280269" }
-    ]
+      {
+        "type": "Linkedin",
+        "url": "http://www.linkedin.com/in/giulia-borgoni-590280269"
+      }
+    ],
+    "en": {
+      "name": "Giulia Borgoni",
+      "role": "Business Analyst",
+      "highlight": "PoliTo Master's Student",
+      "bio": "Engineer and computer science teacher. Passionate about mountains, travel and innovation. Always curious, always learning"
+    },
+    "it": {
+      "name": "Giulia Borgoni",
+      "role": "Business analyst",
+      "highlight": "Studente del Master PoliTo",
+      "bio": "Ingegnere e docente di informatica. Appassionato di montagna, viaggi e innovazione. Sempre curioso, sempre in apprendimento"
+    }
   },
   {
-    "name": "Marco Garro",
-    "role": "Cloud Software Developer",
+    "id": "marco-garro",
     "division": "engineering",
-    "highlight": "Computer Science Student",
-    "bio": "I am a computer science student who loves music and low-level programming. I've been fortunate to work with Elemento since 2023.",
     "photo": "CMS/team/mgarro.webp",
     "links": [
-      { "type": "Linkedin", "url": "http://www.linkedin.com/in/marco-garro-355453280" },
-      { "type": "Github", "url": "https://github.com/Marco-Garro/" }
-    ]
+      {
+        "type": "Linkedin",
+        "url": "http://www.linkedin.com/in/marco-garro-355453280"
+      },
+      {
+        "type": "Github",
+        "url": "https://github.com/Marco-Garro/"
+      }
+    ],
+    "en": {
+      "name": "Marco Garro",
+      "role": "Cloud Software Developer",
+      "highlight": "Computer Science Student",
+      "bio": "I am a computer science student who loves music and low-level programming. I've been fortunate to work with Elemento since 2023."
+    },
+    "it": {
+      "name": "Marco Garro",
+      "role": "Sviluppatore cloud",
+      "highlight": "Studente di Informatica",
+      "bio": "Sono uno studente di informatica che ama la musica e la programmazione di basso livello. Ho avuto la fortuna di lavorare con Elemento dal 2023."
+    }
   },
   {
-    "name": "Simone Robaldo",
-    "role": "Cloud Software Developer",
+    "id": "simone-robaldo",
     "division": "engineering",
-    "highlight": "Software Developer",
-    "bio": "IT Student and programmer that enjoys photography in his free time.",
     "photo": "CMS/team/srobaldo.webp",
     "links": [
-      { "type": "Linkedin", "url": "https://www.linkedin.com/in/simone-robaldo-92800a27b/" },
-      { "type": "Github", "url": "https://github.com/C4lopsitta" }
-    ]
+      {
+        "type": "Linkedin",
+        "url": "https://www.linkedin.com/in/simone-robaldo-92800a27b/"
+      },
+      {
+        "type": "Github",
+        "url": "https://github.com/C4lopsitta"
+      }
+    ],
+    "en": {
+      "name": "Simone Robaldo",
+      "role": "Cloud Software Developer",
+      "highlight": "Software Developer",
+      "bio": "IT Student and programmer that enjoys photography in his free time."
+    },
+    "it": {
+      "name": "Simone Robaldo",
+      "role": "Sviluppatore cloud",
+      "highlight": "Sviluppatore di software",
+      "bio": "Studente di informatica e programmatore che ama la fotografia nel tempo libero."
+    }
   },
   {
-    "name": "Giorgio Torchio",
-    "role": "Software Developer",
+    "id": "giorgio-torchio",
     "division": "engineering",
-    "highlight": "Computer Science Student",
-    "bio": "Passionate about books and everything related to computer science. I particularly enjoy studying algorithms, multimedia formats, and network protocols.",
     "photo": "CMS/team/gtorchio.webp",
     "links": [
-      { "type": "Linkedin", "url": "https://www.linkedin.com/in/giorgiotorchio?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" }
-    ]
+      {
+        "type": "Linkedin",
+        "url": "https://www.linkedin.com/in/giorgiotorchio?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+      }
+    ],
+    "en": {
+      "name": "Giorgio Torchio",
+      "role": "Software Developer",
+      "highlight": "Computer Science Student",
+      "bio": "Passionate about books and everything related to computer science. I particularly enjoy studying algorithms, multimedia formats, and network protocols."
+    },
+    "it": {
+      "name": "Giorgio Torchio",
+      "role": "Sviluppatore software",
+      "highlight": "Studente di Informatica",
+      "bio": "Appassionato di libri e di tutto ciò che riguarda l'informatica. Mi piace particolarmente studiare algoritmi, formati multimediali e protocolli di rete."
+    }
   },
   {
-    "name": "Lorenzo Canciani",
-    "role": "Cloud Software Developer",
+    "id": "lorenzo-canciani",
     "division": "engineering",
-    "highlight": "MSc Cybersecurity student",
-    "bio": "MSc Cybersecurity student @PoliTO, passionate about anything that works autonomously. If I don't understand how it works, I simply take it apart. Yes, I'm curious too!",
     "photo": "CMS/team/lcanciani.webp",
     "links": [
-      { "type": "Linkedin", "url": "https://www.linkedin.com/in/cancianilorenzo/" },
-      { "type": "Github", "url": "https://github.com/cancianilorenzo" }
-    ]
+      {
+        "type": "Linkedin",
+        "url": "https://www.linkedin.com/in/cancianilorenzo/"
+      },
+      {
+        "type": "Github",
+        "url": "https://github.com/cancianilorenzo"
+      }
+    ],
+    "en": {
+      "name": "Lorenzo Canciani",
+      "role": "Cloud Software Developer",
+      "highlight": "MSc Cybersecurity student",
+      "bio": "MSc Cybersecurity student @PoliTO, passionate about anything that works autonomously. If I don't understand how it works, I simply take it apart. Yes, I'm curious too!"
+    },
+    "it": {
+      "name": "Lorenzo Canciani",
+      "role": "Sviluppatore cloud",
+      "highlight": "Studente magistrale in Cybersecurity",
+      "bio": "Studente magistrale in Cybersecurity @PoliTO, appassionato di tutto ciò che funziona in autonomia. Se non capisco come funziona, lo smonto semplicemente. Sì, sono curioso anch'io!"
+    }
   },
   {
-    "name": "Pamela Gerbotto",
-    "role": "Support Specialist",
+    "id": "pamela-gerbotto",
     "division": "engineering",
-    "highlight": "",
-    "bio": "Imaginative and curious about how things work and how they’re thought, I’m passionate about nature, video games and photography.",
     "photo": "CMS/team/pgerbotto.webp",
-    "links": []
+    "links": [],
+    "en": {
+      "name": "Pamela Gerbotto",
+      "role": "Support Specialist",
+      "highlight": "",
+      "bio": "Imaginative and curious about how things work and how they’re thought, I’m passionate about nature, video games and photography."
+    },
+    "it": {
+      "name": "Pamela Gerbotto",
+      "role": "Specialist supporto",
+      "highlight": "",
+      "bio": "Fantasioso e curioso di come funzionano le cose e di come vengono pensate, sono appassionato di natura, videogiochi e fotografia."
+    }
   }
-] 
+]

@@ -1,0 +1,372 @@
+{
+  "en": {
+    "hero": {
+      "tagline": "VMware Alternative",
+      "title": "Replace VMware with Modern Infrastructure",
+      "subtitle": "Upgrade from legacy VMware to Elemento's cloud-native platform. Get better performance, lower costs, and seamless cloud integration.",
+      "primaryCTA": {
+        "text": "Start Migration",
+        "link": "../signup.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Compare Solutions",
+        "link": "#vmware-comparison",
+        "icon": "fas fa-balance-scale"
+      }
+    },
+    "painPoints": {
+      "title": "VMware Challenges You Face",
+      "subtitle": "Common pain points with legacy VMware infrastructure that limit your modernization efforts",
+      "items": [
+        {
+          "icon": "fas fa-dollar-sign",
+          "title": "High Licensing Costs",
+          "description": "Expensive VMware licensing fees and complex pricing models that increase operational costs"
+        },
+        {
+          "icon": "fas fa-cloud",
+          "title": "Limited Cloud Integration",
+          "description": "Difficulty integrating VMware infrastructure with modern cloud services and APIs"
+        },
+        {
+          "icon": "fas fa-cogs",
+          "title": "Complex Management",
+          "description": "Complex VMware management tools and limited automation capabilities for modern workflows"
+        },
+        {
+          "icon": "fas fa-lock",
+          "title": "Vendor Lock-in",
+          "description": "Tied to VMware ecosystem with limited flexibility for multi-cloud and hybrid deployments"
+        }
+      ]
+    },
+    "useCase": {
+      "title": "VMware Migration Process",
+      "subtitle": "From legacy VMware infrastructure to modern cloud-native platform",
+      "items": [
+        {
+          "number": "1",
+          "title": "Assessment",
+          "description": "Analyze existing VMware infrastructure and identify migration opportunities"
+        },
+        {
+          "number": "2",
+          "title": "Planning",
+          "description": "Create migration plan with Elemento's modern infrastructure components"
+        },
+        {
+          "number": "3",
+          "title": "Migration",
+          "description": "Migrate VMs and workloads to Elemento's cloud-native platform"
+        },
+        {
+          "number": "4",
+          "title": "Optimization",
+          "description": "Optimize performance and costs with modern management and automation"
+        }
+      ]
+    },
+    "solution": {
+      "title": "Elemento's VMware Alternative",
+      "description": "Complete platform designed to replace VMware with modern, cloud-native infrastructure",
+      "items": [
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Modern hypervisor replacing VMware vSphere with better performance"
+        },
+        {
+          "logo": "../assets/logos/Electros.svg",
+          "name": "Electros",
+          "description": "Unified management console replacing VMware vCenter"
+        }
+      ],
+      "cta": {
+        "text": "Get AtomOS now!",
+        "link": "../atomos.html"
+      }
+    },
+    "features": {
+      "title": "VMware Alternative Features",
+      "subtitle": "Everything you need to replace VMware with modern infrastructure",
+      "items": [
+        {
+          "icon": "fas fa-server",
+          "title": "Modern Hypervisor",
+          "description": "Production-grade hypervisor with better performance than VMware vSphere"
+        },
+        {
+          "icon": "fas fa-chart-line",
+          "title": "Cost Optimization",
+          "description": "Significantly lower costs compared to VMware licensing and better resource utilization"
+        },
+        {
+          "icon": "fas fa-cloud",
+          "title": "Cloud Integration",
+          "description": "Native integration with AWS, Azure, GCP, and other cloud providers"
+        },
+        {
+          "icon": "fas fa-cogs",
+          "title": "Automated Management",
+          "description": "API-first approach with infrastructure as code and automated operations"
+        },
+        {
+          "icon": "fas fa-shield-alt",
+          "title": "Security & Compliance",
+          "description": "Enterprise-grade security with built-in compliance and audit capabilities"
+        },
+        {
+          "icon": "fas fa-expand-arrows-alt",
+          "title": "Scalability",
+          "description": "Auto-scaling and resource optimization for dynamic workloads"
+        }
+      ]
+    },
+    "stats": {
+      "title": "VMware Alternative Impact",
+      "subtitle": "Real results from organizations migrating from VMware to Elemento",
+      "items": [
+        {
+          "label": "Cost Reduction",
+          "value": "70%",
+          "icon": "fas fa-chart-line",
+          "color": "green"
+        },
+        {
+          "label": "Performance Gain",
+          "value": "40%",
+          "icon": "fas fa-rocket",
+          "color": "orange"
+        },
+        {
+          "label": "Migration Time",
+          "value": "30 days",
+          "icon": "fas fa-clock",
+          "color": "blue"
+        }
+      ]
+    },
+    "faq": {
+      "title": "VMware Alternative FAQ",
+      "subtitle": "Common questions about migrating from VMware to Elemento",
+      "items": [
+        {
+          "question": "How does Elemento compare to VMware in terms of performance and features?",
+          "answer": "Elemento provides better performance than VMware vSphere with modern cloud-native architecture. Our platform includes native container support, cloud integration, and API-first management that VMware lacks. We offer equivalent or better functionality at significantly lower costs."
+        },
+        {
+          "question": "What is the migration process from VMware to Elemento?",
+          "answer": "Our migration process is designed to be straightforward with minimal downtime. We provide assessment tools, migration planning, and automated migration scripts. Most organizations complete the migration within 30 days with our support team guiding the process."
+        },
+        {
+          "question": "Can Elemento integrate with existing VMware tools and workflows?",
+          "answer": "Yes! Elemento provides compatibility layers and migration tools for existing VMware environments. We support common VMware APIs and provide gradual migration paths to minimize disruption to your operations."
+        },
+        {
+          "question": "What about support and training for the migration?",
+          "answer": "Elemento provides comprehensive support throughout the migration process including training for your team, documentation, and ongoing support. Our team works closely with you to ensure a smooth transition from VMware to our modern platform."
+        }
+      ]
+    },
+    "ctaFinal": {
+      "title": "Ready to Replace VMware?",
+      "subtitle": "Join organizations already using Elemento to modernize their infrastructure and reduce costs.",
+      "primaryCTA": {
+        "text": "Start Migration",
+        "link": "../signup.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Schedule Migration Demo",
+        "link": "../contact.html",
+        "icon": "fas fa-calendar"
+      }
+    }
+  },
+  "it": {
+    "hero": {
+      "tagline": "Alternativa a VMware",
+      "title": "Sostituisci VMware con un'infrastruttura moderna",
+      "subtitle": "Esegui l'upgrade da VMware legacy alla piattaforma nativa del cloud di Elemento. Ottieni prestazioni migliori, costi inferiori e integrazione cloud perfetta.",
+      "primaryCTA": {
+        "text": "Avvia la migrazione",
+        "link": "../signup.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Compare Soluziones",
+        "link": "#vmware-comparison",
+        "icon": "fas fa-balance-scale"
+      }
+    },
+    "painPoints": {
+      "title": "VMware Sfide che affronti",
+      "subtitle": "Punti critici comuni dell'infrastruttura VMware legacy che limitano gli sforzi di modernizzazione",
+      "items": [
+        {
+          "icon": "fas fa-dollar-sign",
+          "title": "Costi di licenza elevati",
+          "description": "Costi di licenza VMware costosi e modelli di prezzo complessi che aumentano i costi operativi"
+        },
+        {
+          "icon": "fas fa-cloud",
+          "title": "Integrazione cloud limitata",
+          "description": "Difficoltà a integrare l'infrastruttura VMware con i moderni servizi cloud e API"
+        },
+        {
+          "icon": "fas fa-cogs",
+          "title": "Gestione complessa",
+          "description": "Strumenti di gestione VMware complessi e funzionalità di automazione limitate per flussi di lavoro moderni"
+        },
+        {
+          "icon": "fas fa-lock",
+          "title": "Blocco del venditore",
+          "description": "Legato all'ecosistema VMware con flessibilità limitata per implementazioni multi-cloud e ibride"
+        }
+      ]
+    },
+    "useCase": {
+      "title": "Processo di migrazione di VMware",
+      "subtitle": "Dall'infrastruttura VMware legacy alla moderna piattaforma nativa del cloud",
+      "items": [
+        {
+          "number": "1",
+          "title": "Valutazione",
+          "description": "Analizza l'infrastruttura VMware esistente e identifica le opportunità di migrazione"
+        },
+        {
+          "number": "2",
+          "title": "Pianificazione",
+          "description": "Crea un piano di migrazione con i moderni componenti dell'infrastruttura di Elemento"
+        },
+        {
+          "number": "3",
+          "title": "Migrazione",
+          "description": "Migrare VM e carichi di lavoro sulla piattaforma nativa del cloud di Elemento"
+        },
+        {
+          "number": "4",
+          "title": "Ottimizzazione",
+          "description": "Ottimizza prestazioni e costi con una gestione e un'automazione moderne"
+        }
+      ]
+    },
+    "solution": {
+      "title": "L'alternativa VMware di Elemento",
+      "description": "Piattaforma completa progettata per sostituire VMware con un'infrastruttura moderna e nativa del cloud",
+      "items": [
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Hypervisor moderno che sostituisce VMware vSphere con prestazioni migliori"
+        },
+        {
+          "logo": "../assets/logos/Electros.svg",
+          "name": "Electros",
+          "description": "Console di gestione unificata che sostituisce VMware vCenter"
+        }
+      ],
+      "cta": {
+        "text": "Ottieni AtomOS adesso!",
+        "link": "../atomos.html"
+      }
+    },
+    "features": {
+      "title": "VMware Alternative Funzionalità",
+      "subtitle": "Tutto ciò di cui hai bisogno per sostituire VMware con un'infrastruttura moderna",
+      "items": [
+        {
+          "icon": "fas fa-server",
+          "title": "Hypervisor moderno",
+          "description": "Hypervisor di livello produttivo con prestazioni migliori rispetto a VMware vSphere"
+        },
+        {
+          "icon": "fas fa-chart-line",
+          "title": "Ottimizzazione dei costi",
+          "description": "Costi notevolmente inferiori rispetto alle licenze VMware e migliore utilizzo delle risorse"
+        },
+        {
+          "icon": "fas fa-cloud",
+          "title": "Integrazione nel cloud",
+          "description": "Integrazione nativa con AWS, Azure, GCP e altri provider cloud"
+        },
+        {
+          "icon": "fas fa-cogs",
+          "title": "Gestione automatizzata",
+          "description": "Approccio API-first con infrastruttura come codice e operazioni automatizzate"
+        },
+        {
+          "icon": "fas fa-shield-alt",
+          "title": "Sicurezza e conformità",
+          "description": "Sicurezza di livello aziendale con funzionalità di conformità e audit integrate"
+        },
+        {
+          "icon": "fas fa-expand-arrows-alt",
+          "title": "Scalabilità",
+          "description": "Scalabilità automatica e ottimizzazione delle risorse per carichi di lavoro dinamici"
+        }
+      ]
+    },
+    "stats": {
+      "title": "VMware Alternative Impatto",
+      "subtitle": "Risultati reali dalle organizzazioni che migrano da VMware a Elemento",
+      "items": [
+        {
+          "label": "Riduzione dei costi",
+          "value": "70%",
+          "icon": "fas fa-chart-line",
+          "color": "green"
+        },
+        {
+          "label": "Miglioramento delle prestazioni",
+          "value": "40%",
+          "icon": "fas fa-rocket",
+          "color": "orange"
+        },
+        {
+          "label": "Tempo di migrazione",
+          "value": "30 days",
+          "icon": "fas fa-clock",
+          "color": "blue"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Domande frequenti sull'alternativa VMware",
+      "subtitle": "Domande comuni sulla migrazione da VMware a Elemento",
+      "items": [
+        {
+          "question": "How does Elemento compare to VMware in terms of performance and features?",
+          "answer": "Elemento provides better performance than VMware vSphere with modern cloud-native architecture. Our platform includes native container support, cloud integration, and API-first management that VMware lacks. We offer equivalent or better functionality at significantly lower costs."
+        },
+        {
+          "question": "What is the migration process from VMware to Elemento?",
+          "answer": "Our migration process is designed to be straightforward with minimal downtime. We provide assessment tools, migration planning, and automated migration scripts. Most organizations complete the migration within 30 days with our support team guiding the process."
+        },
+        {
+          "question": "Can Elemento integrate with existing VMware tools and workflows?",
+          "answer": "Yes! Elemento provides compatibility layers and migration tools for existing VMware environments. We support common VMware APIs and provide gradual migration paths to minimize disruption to your operations."
+        },
+        {
+          "question": "What about support and training for the migration?",
+          "answer": "Elemento provides comprehensive support throughout the migration process including training for your team, documentation, and ongoing support. Our team works closely with you to ensure a smooth transition from VMware to our modern platform."
+        }
+      ]
+    },
+    "ctaFinal": {
+      "title": "Pronto per Replace VMware?",
+      "subtitle": "Unisciti alle organizzazioni che già utilizzano Elemento per modernizzare la propria infrastruttura e ridurre i costi.",
+      "primaryCTA": {
+        "text": "Avvia la migrazione",
+        "link": "../signup.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Pianifica demo di migrazione",
+        "link": "../contact.html",
+        "icon": "fas fa-calendar"
+      }
+    }
+  }
+}

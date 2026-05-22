@@ -1,0 +1,448 @@
+{
+  "en": {
+    "hero": {
+      "tagline": "DevOps Infrastructure",
+      "title": "Build Cloud-Agnostic CI/CD Pipelines",
+      "subtitle": "Deploy faster, scale efficiently, and maintain consistency across all environments with our unified platform.",
+      "primaryCTA": {
+        "text": "Start Now",
+        "link": "../signup.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Explore DevOps Platform",
+        "link": "../products.html",
+        "icon": "hn hn-lightbulb"
+      }
+    },
+    "painPoints": {
+      "title": "DevOps Challenges You Face",
+      "subtitle": "Common pain points that slow down your development and deployment processes",
+      "items": [
+        {
+          "icon": "fas fa-clock",
+          "title": "Slow Deployment Cycles",
+          "description": "Manual processes and environment inconsistencies causing delays in releases"
+        },
+        {
+          "icon": "fas fa-exclamation-triangle",
+          "title": "Environment Drift",
+          "description": "Production issues due to differences between dev, staging, and production environments"
+        },
+        {
+          "icon": "fas fa-lock",
+          "title": "Vendor Lock-in",
+          "description": "Tied to specific cloud providers, limiting flexibility and increasing costs"
+        },
+        {
+          "icon": "fas fa-chart-line",
+          "title": "Scaling Complexity",
+          "description": "Difficulty scaling infrastructure and managing resources across multiple environments"
+        }
+      ]
+    },
+    "solution": {
+      "title": "Elemento's DevOps Solution",
+      "description": "Unified infrastructure management that eliminates environment drift and accelerates your CI/CD pipelines",
+      "items": [
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Consistent hypervisor environment across all deployments"
+        },
+        {
+          "logo": "../assets/logos/Electros.svg",
+          "name": "Electros",
+          "description": "Unified dashboard for managing all your infrastructure"
+        },
+        {
+          "logo": "../assets/logos/Atomosphere.svg",
+          "name": "Atomosphere",
+          "description": "API layer for seamless cloud provider integration"
+        }
+      ],
+      "cta": {
+        "text": "See DevOps Stack",
+        "link": "../products.html"
+      }
+    },
+    "features": {
+      "title": "DevOps Features",
+      "subtitle": "Everything you need to streamline your development and deployment processes",
+      "items": [
+        {
+          "icon": "fas fa-code-branch",
+          "title": "Infrastructure as Code",
+          "description": "Define and version your infrastructure alongside your application code"
+        },
+        {
+          "icon": "fas fa-rocket",
+          "title": "Automated Deployments",
+          "description": "Deploy to any cloud provider with consistent, repeatable processes"
+        },
+        {
+          "icon": "fas fa-shield-alt",
+          "title": "Environment Consistency",
+          "description": "Identical environments from development to production"
+        },
+        {
+          "icon": "fas fa-chart-line",
+          "title": "Auto-scaling",
+          "description": "Automatically scale resources based on demand and performance metrics"
+        },
+        {
+          "icon": "fas fa-eye",
+          "title": "Real-time Monitoring",
+          "description": "Comprehensive monitoring and logging across all environments"
+        },
+        {
+          "icon": "fas fa-lock",
+          "title": "Security & Compliance",
+          "description": "Built-in security features and compliance-ready architecture"
+        }
+      ]
+    },
+    "useCase": {
+      "title": "How It Works",
+      "subtitle": "From code commit to production deployment in minutes",
+      "items": [
+        {
+          "number": "1",
+          "title": "Code Commit",
+          "description": "Developers commit code to your repository, triggering the CI/CD pipeline"
+        },
+        {
+          "number": "2",
+          "title": "Build & Test",
+          "description": "Elemento automatically builds your application and runs tests in a consistent environment"
+        },
+        {
+          "number": "3",
+          "title": "Deploy",
+          "description": "Deploy to staging and production environments with identical infrastructure"
+        },
+        {
+          "number": "4",
+          "title": "Monitor",
+          "description": "Monitor performance and scale resources automatically based on demand"
+        }
+      ]
+    },
+    "codeExample": {
+      "title": "Infrastructure as Code",
+      "subtitle": "Define your infrastructure with simple, declarative configuration",
+      "code": "# Define your infrastructure\napiVersion: elemento.cloud/v1\nkind: Infrastructure\nmetadata:\n  name: devops-pipeline\nspec:\n  environments:\n    - name: staging\n      replicas: 2\n      resources:\n        cpu: \"1\"\n        memory: \"2Gi\"\n    - name: production\n      replicas: 5\n      resources:\n        cpu: \"2\"\n        memory: \"4Gi\"\n  deployment:\n    strategy: rolling\n    healthCheck:\n      path: /health\n      interval: 30s",
+      "cta": {
+        "text": "View Infrastructure Code",
+        "link": "../technology.html"
+      }
+    },
+    "stats": {
+      "title": "DevOps Impact",
+      "subtitle": "Real results from teams using Elemento for CI/CD",
+      "items": [
+        {
+          "label": "Faster Deployments",
+          "value": "75%",
+          "icon": "fas fa-rocket",
+          "color": "orange"
+        },
+        {
+          "label": "Reduced Downtime",
+          "value": "90%",
+          "icon": "fas fa-check-circle",
+          "color": "green"
+        },
+        {
+          "label": "Cost Savings",
+          "value": "60%",
+          "icon": "fas fa-chart-line",
+          "color": "blue"
+        }
+      ]
+    },
+    "products": {
+      "title": "Complete DevOps Stack",
+      "subtitle": "Everything you need for modern DevOps workflows",
+      "items": [
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Production-grade hypervisor for consistent environments",
+          "link": "../atomos.html"
+        },
+        {
+          "logo": "../assets/logos/Electros.svg",
+          "name": "Electros",
+          "description": "Unified dashboard for infrastructure management",
+          "link": "../electros.html"
+        },
+        {
+          "logo": "../assets/logos/Atomosphere.svg",
+          "name": "Atomosphere",
+          "description": "API layer for multi-cloud orchestration",
+          "link": "../atomosphere.html"
+        }
+      ]
+    },
+    "faq": {
+      "title": "DevOps FAQ",
+      "subtitle": "Common questions about using Elemento for DevOps",
+      "items": [
+        {
+          "question": "How does Elemento improve CI/CD pipelines?",
+          "answer": "Elemento provides consistent environments across all stages of your pipeline, eliminating environment drift and reducing deployment failures. Our unified platform ensures your staging environment is identical to production."
+        },
+        {
+          "question": "Can I use my existing CI/CD tools?",
+          "answer": "Yes! Elemento integrates with popular CI/CD tools like Jenkins, GitLab CI, GitHub Actions, and Azure DevOps. You can use your existing workflows while gaining the benefits of consistent infrastructure."
+        },
+        {
+          "question": "How does Elemento handle different cloud providers?",
+          "answer": "Elemento abstracts away cloud provider differences, allowing you to deploy the same infrastructure configuration across AWS, Azure, Google Cloud, or your own data centers. This eliminates vendor lock-in and provides true multi-cloud flexibility."
+        },
+        {
+          "question": "What about security and compliance?",
+          "answer": "Elemento provides enterprise-grade security with built-in encryption, access controls, and audit logging. We support SOC 2, GDPR, and other compliance requirements, making it suitable for regulated industries."
+        }
+      ]
+    },
+    "ctaFinal": {
+      "title": "Ready to Transform Your DevOps?",
+      "subtitle": "Join thousands of teams already using Elemento to streamline their CI/CD pipelines and accelerate development.",
+      "primaryCTA": {
+        "text": "Deploy First Pipeline",
+        "link": "../signup.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Schedule DevOps Demo",
+        "link": "../contact.html",
+        "icon": "fas fa-phone"
+      }
+    }
+  },
+  "it": {
+    "hero": {
+      "tagline": "Infrastruttura DevOps",
+      "title": "Crea pipeline CI/CD indipendenti dal cloud",
+      "subtitle": "Distribuisci più velocemente, scala in modo efficiente e mantieni la coerenza in tutti gli ambienti con la nostra piattaforma unificata.",
+      "primaryCTA": {
+        "text": "Inizia ora",
+        "link": "../signup.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Esplora DevOps Platform",
+        "link": "../products.html",
+        "icon": "hn hn-lightbulb"
+      }
+    },
+    "painPoints": {
+      "title": "DevOps Sfide che affronti",
+      "subtitle": "Punti critici comuni che rallentano i processi di sviluppo e distribuzione",
+      "items": [
+        {
+          "icon": "fas fa-clock",
+          "title": "Cicli di distribuzione lenti",
+          "description": "Processi manuali e incoerenze ambientali che causano ritardi nei rilasci"
+        },
+        {
+          "icon": "fas fa-exclamation-triangle",
+          "title": "Deriva ambientale",
+          "description": "Problemi di produzione dovuti a differenze tra ambienti di sviluppo, gestione temporanea e produzione"
+        },
+        {
+          "icon": "fas fa-lock",
+          "title": "Blocco del venditore",
+          "description": "Legato a fornitori cloud specifici, limitando la flessibilità e aumentando i costi"
+        },
+        {
+          "icon": "fas fa-chart-line",
+          "title": "Complessità scalabile",
+          "description": "Difficoltà nel dimensionamento dell'infrastruttura e nella gestione delle risorse su più ambienti"
+        }
+      ]
+    },
+    "solution": {
+      "title": "Elemento's DevOps Soluzione",
+      "description": "Gestione unificata dell'infrastruttura che elimina la deriva ambientale e accelera le pipeline CI/CD",
+      "items": [
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Ambiente hypervisor coerente in tutte le distribuzioni"
+        },
+        {
+          "logo": "../assets/logos/Electros.svg",
+          "name": "Electros",
+          "description": "Dashboard unificato per la gestione di tutta la tua infrastruttura"
+        },
+        {
+          "logo": "../assets/logos/Atomosphere.svg",
+          "name": "Atomosphere",
+          "description": "Livello API per un'integrazione perfetta del provider cloud"
+        }
+      ],
+      "cta": {
+        "text": "Vedi DevOps Stack",
+        "link": "../products.html"
+      }
+    },
+    "features": {
+      "title": "DevOps Funzionalità",
+      "subtitle": "Tutto ciò di cui hai bisogno per semplificare i processi di sviluppo e distribuzione",
+      "items": [
+        {
+          "icon": "fas fa-code-branch",
+          "title": "Infrastruttura come codice",
+          "description": "Definisci e versionizza la tua infrastruttura insieme al codice dell'applicazione"
+        },
+        {
+          "icon": "fas fa-rocket",
+          "title": "Distribuzioni automatizzate",
+          "description": "Distribuisci a qualsiasi provider cloud con processi coerenti e ripetibili"
+        },
+        {
+          "icon": "fas fa-shield-alt",
+          "title": "Coerenza ambientale",
+          "description": "Ambienti identici dallo sviluppo alla produzione"
+        },
+        {
+          "icon": "fas fa-chart-line",
+          "title": "Ridimensionamento automatico",
+          "description": "Scala automaticamente le risorse in base alla domanda e ai parametri prestazionali"
+        },
+        {
+          "icon": "fas fa-eye",
+          "title": "Monitoraggio in tempo reale",
+          "description": "Monitoraggio e registrazione completi in tutti gli ambienti"
+        },
+        {
+          "icon": "fas fa-lock",
+          "title": "Sicurezza e conformità",
+          "description": "Funzionalità di sicurezza integrate e architettura pronta per la conformità"
+        }
+      ]
+    },
+    "useCase": {
+      "title": "Come funziona",
+      "subtitle": "Dal commit del codice alla distribuzione in produzione in pochi minuti",
+      "items": [
+        {
+          "number": "1",
+          "title": "Impegno del codice",
+          "description": "Gli sviluppatori inviano il codice al tuo repository, attivando la pipeline CI/CD"
+        },
+        {
+          "number": "2",
+          "title": "Costruisci e prova",
+          "description": "Elemento crea automaticamente la tua applicazione ed esegue test in un ambiente coerente"
+        },
+        {
+          "number": "3",
+          "title": "Distribuire",
+          "description": "Distribuisci in ambienti di gestione temporanea e di produzione con infrastruttura identica"
+        },
+        {
+          "number": "4",
+          "title": "Monitorare",
+          "description": "Monitora le prestazioni e ridimensiona automaticamente le risorse in base alla domanda"
+        }
+      ]
+    },
+    "codeExample": {
+      "title": "Infrastruttura come codice",
+      "subtitle": "Definisci la tua infrastruttura con una configurazione semplice e dichiarativa",
+      "code": "# Define your infrastructure\napiVersion: elemento.cloud/v1\nkind: Infrastructure\nmetadata:\n  name: devops-pipeline\nspec:\n  environments:\n    - name: staging\n      replicas: 2\n      resources:\n        cpu: \"1\"\n        memory: \"2Gi\"\n    - name: production\n      replicas: 5\n      resources:\n        cpu: \"2\"\n        memory: \"4Gi\"\n  deployment:\n    strategy: rolling\n    healthCheck:\n      path: /health\n      interval: 30s",
+      "cta": {
+        "text": "Visualizza il codice dell'infrastruttura",
+        "link": "../technology.html"
+      }
+    },
+    "stats": {
+      "title": "DevOps Impatto",
+      "subtitle": "Risultati reali dei team che utilizzano Elemento per CI/CD",
+      "items": [
+        {
+          "label": "Distribuzioni più veloci",
+          "value": "75%",
+          "icon": "fas fa-rocket",
+          "color": "orange"
+        },
+        {
+          "label": "Tempi di inattività ridotti",
+          "value": "90%",
+          "icon": "fas fa-check-circle",
+          "color": "green"
+        },
+        {
+          "label": "Risparmio sui costi",
+          "value": "60%",
+          "icon": "fas fa-chart-line",
+          "color": "blue"
+        }
+      ]
+    },
+    "products": {
+      "title": "Stack DevOps completo",
+      "subtitle": "Tutto ciò di cui hai bisogno per i moderni flussi di lavoro DevOps",
+      "items": [
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Hypervisor di livello produttivo per ambienti coerenti",
+          "link": "../atomos.html"
+        },
+        {
+          "logo": "../assets/logos/Electros.svg",
+          "name": "Electros",
+          "description": "Dashboard unificato per la gestione dell'infrastruttura",
+          "link": "../electros.html"
+        },
+        {
+          "logo": "../assets/logos/Atomosphere.svg",
+          "name": "Atomosphere",
+          "description": "Livello API per l'orchestrazione multi-cloud",
+          "link": "../atomosphere.html"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Domande frequenti su DevOps",
+      "subtitle": "Domande comuni sull'utilizzo di Elemento per DevOps",
+      "items": [
+        {
+          "question": "How does Elemento improve CI/CD pipelines?",
+          "answer": "Elemento provides consistent environments across all stages of your pipeline, eliminating environment drift and reducing deployment failures. Our unified platform ensures your staging environment is identical to production."
+        },
+        {
+          "question": "Can I use my existing CI/CD tools?",
+          "answer": "Yes! Elemento integrates with popular CI/CD tools like Jenkins, GitLab CI, GitHub Actions, and Azure DevOps. You can use your existing workflows while gaining the benefits of consistent infrastructure."
+        },
+        {
+          "question": "How does Elemento handle different cloud providers?",
+          "answer": "Elemento abstracts away cloud provider differences, allowing you to deploy the same infrastructure configuration across AWS, Azure, Google Cloud, or your own data centers. This eliminates vendor lock-in and provides true multi-cloud flexibility."
+        },
+        {
+          "question": "What about security and compliance?",
+          "answer": "Elemento provides enterprise-grade security with built-in encryption, access controls, and audit logging. We support SOC 2, GDPR, and other compliance requirements, making it suitable for regulated industries."
+        }
+      ]
+    },
+    "ctaFinal": {
+      "title": "Pronto per Transform Your DevOps?",
+      "subtitle": "Unisciti a migliaia di team che già utilizzano Elemento per semplificare le pipeline CI/CD e accelerare lo sviluppo.",
+      "primaryCTA": {
+        "text": "Distribuire la prima pipeline",
+        "link": "../signup.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Pianifica la demo DevOps",
+        "link": "../contact.html",
+        "icon": "fas fa-phone"
+      }
+    }
+  }
+}

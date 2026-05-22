@@ -1,7 +1,6 @@
 [
   {
-    "name": "Orbital Starter",
-    "description": "Entry-level server configuration for small deployments and development environments",
+    "id": "orbital-starter",
     "specs": {
       "cpu": "Intel Xeon E-2236 (6 cores, 3.4 GHz)",
       "ram": "32 GB DDR4 ECC",
@@ -9,27 +8,47 @@
       "network": "2x 1 Gbps Ethernet",
       "gpu": "None"
     },
-    "features": [
-      "AtomOS included with perpetual licensing",
-      "Basic virtualization capabilities",
-      "Remote management via Electros",
-      "Standard warranty and support"
-    ],
-    "use_cases": [
-      "Development environments",
-      "Small business applications",
-      "Testing and staging",
-      "Lightweight workloads"
-    ],
     "pricing": {
       "monthly": "€299",
       "setup": "€199"
     },
-    "availability": "In Stock"
+    "en": {
+      "name": "Orbital Starter",
+      "description": "Entry-level server configuration for small deployments and development environments",
+      "availability": "In Stock",
+      "features": [
+        "AtomOS included with perpetual licensing",
+        "Basic virtualization capabilities",
+        "Remote management via Electros",
+        "Standard warranty and support"
+      ],
+      "use_cases": [
+        "Development environments",
+        "Small business applications",
+        "Testing and staging",
+        "Lightweight workloads"
+      ]
+    },
+    "it": {
+      "name": "Orbital Starter",
+      "description": "Configurazione server entry-level per piccole distribuzioni e ambienti di sviluppo",
+      "availability": "Disponibile",
+      "features": [
+        "AtomOS con licenza perpetua inclusa",
+        "Basic virtualization capabilities",
+        "Remote management via Electros",
+        "Garanzia e supporto standard"
+      ],
+      "use_cases": [
+        "Ambienti di sviluppo",
+        "Applicazioni per PMI",
+        "Test e staging",
+        "Carichi di lavoro leggeri"
+      ]
+    }
   },
   {
-    "name": "Orbital Professional",
-    "description": "Mid-range server configuration for production workloads and medium-scale deployments",
+    "id": "orbital-professional",
     "specs": {
       "cpu": "Intel Xeon Gold 5218R (20 cores, 2.1 GHz)",
       "ram": "128 GB DDR4 ECC",
@@ -37,28 +56,49 @@
       "network": "2x 10 Gbps Ethernet",
       "gpu": "NVIDIA T4 (16 GB VRAM)"
     },
-    "features": [
-      "AtomOS included with perpetual licensing",
-      "GPU passthrough support",
-      "High-performance virtualization",
-      "Advanced clustering capabilities",
-      "24/7 monitoring and support"
-    ],
-    "use_cases": [
-      "Production applications",
-      "AI/ML workloads",
-      "Database servers",
-      "High-availability systems"
-    ],
     "pricing": {
       "monthly": "€799",
       "setup": "€399"
     },
-    "availability": "In Stock"
+    "en": {
+      "name": "Orbital Professional",
+      "description": "Mid-range server configuration for production workloads and medium-scale deployments",
+      "availability": "In Stock",
+      "features": [
+        "AtomOS included with perpetual licensing",
+        "GPU passthrough support",
+        "High-performance virtualization",
+        "Advanced clustering capabilities",
+        "24/7 monitoring and support"
+      ],
+      "use_cases": [
+        "Production applications",
+        "AI/ML workloads",
+        "Database servers",
+        "High-availability systems"
+      ]
+    },
+    "it": {
+      "name": "Orbital Professional",
+      "description": "Configurazione server di fascia media per carichi di lavoro di produzione e distribuzioni su media scala",
+      "availability": "Disponibile",
+      "features": [
+        "AtomOS con licenza perpetua inclusa",
+        "GPU passthrough support",
+        "High-performance virtualization",
+        "Advanced clustering capabilities",
+        "24/7 monitoring and support"
+      ],
+      "use_cases": [
+        "Applicazioni di produzione",
+        "Carichi AI/ML",
+        "Server database",
+        "High-availability systems"
+      ]
+    }
   },
   {
-    "name": "Orbital Enterprise",
-    "description": "High-performance server configuration for enterprise workloads and large-scale deployments",
+    "id": "orbital-enterprise",
     "specs": {
       "cpu": "Intel Xeon Platinum 8380 (40 cores, 2.3 GHz)",
       "ram": "256 GB DDR4 ECC",
@@ -66,30 +106,53 @@
       "network": "4x 25 Gbps Ethernet",
       "gpu": "2x NVIDIA A100 (40 GB VRAM each)"
     },
-    "features": [
-      "AtomOS included with perpetual licensing",
-      "Dual GPU configuration",
-      "Maximum virtualization density",
-      "Enterprise clustering and failover",
-      "Dedicated support team",
-      "Custom configuration options"
-    ],
-    "use_cases": [
-      "Enterprise applications",
-      "High-performance computing",
-      "Large-scale AI/ML training",
-      "Mission-critical systems",
-      "Multi-tenant environments"
-    ],
     "pricing": {
       "monthly": "€1,999",
       "setup": "€999"
     },
-    "availability": "In Stock"
+    "en": {
+      "name": "Orbital Enterprise",
+      "description": "High-performance server configuration for enterprise workloads and large-scale deployments",
+      "availability": "In Stock",
+      "features": [
+        "AtomOS included with perpetual licensing",
+        "Dual GPU configuration",
+        "Maximum virtualization density",
+        "Enterprise clustering and failover",
+        "Dedicated support team",
+        "Custom configuration options"
+      ],
+      "use_cases": [
+        "Enterprise applications",
+        "High-performance computing",
+        "Large-scale AI/ML training",
+        "Mission-critical systems",
+        "Multi-tenant environments"
+      ]
+    },
+    "it": {
+      "name": "Orbital Enterprise",
+      "description": "Configurazione server ad alte prestazioni per carichi di lavoro aziendali e distribuzioni su larga scala",
+      "availability": "Disponibile",
+      "features": [
+        "AtomOS con licenza perpetua inclusa",
+        "Dual GPU configuration",
+        "Maximum virtualization density",
+        "Enterprise clustering and failover",
+        "Dedicated support team",
+        "Custom configuration options"
+      ],
+      "use_cases": [
+        "Enterprise applications",
+        "High-performance computing",
+        "Large-scale AI/ML training",
+        "Mission-critical systems",
+        "Multi-tenant environments"
+      ]
+    }
   },
   {
-    "name": "Orbital Edge",
-    "description": "Compact server configuration optimized for edge computing and remote locations",
+    "id": "orbital-edge",
     "specs": {
       "cpu": "Intel Xeon E-2288G (8 cores, 3.7 GHz)",
       "ram": "64 GB DDR4 ECC",
@@ -97,28 +160,49 @@
       "network": "2x 1 Gbps Ethernet + WiFi 6",
       "gpu": "Intel UHD Graphics 630"
     },
-    "features": [
-      "AtomOS included with perpetual licensing",
-      "Edge-optimized form factor",
-      "Low power consumption",
-      "Remote management capabilities",
-      "Ruggedized design"
-    ],
-    "use_cases": [
-      "Edge computing",
-      "Remote office deployments",
-      "IoT data processing",
-      "Branch office infrastructure"
-    ],
     "pricing": {
       "monthly": "€499",
       "setup": "€299"
     },
-    "availability": "In Stock"
+    "en": {
+      "name": "Orbital Edge",
+      "description": "Compact server configuration optimized for edge computing and remote locations",
+      "availability": "In Stock",
+      "features": [
+        "AtomOS included with perpetual licensing",
+        "Edge-optimized form factor",
+        "Low power consumption",
+        "Remote management capabilities",
+        "Ruggedized design"
+      ],
+      "use_cases": [
+        "Edge computing",
+        "Remote office deployments",
+        "IoT data processing",
+        "Branch office infrastructure"
+      ]
+    },
+    "it": {
+      "name": "Orbital Edge",
+      "description": "Configurazione server compatta ottimizzata per edge computing e sedi remote",
+      "availability": "Disponibile",
+      "features": [
+        "AtomOS con licenza perpetua inclusa",
+        "Edge-optimized form factor",
+        "Low power consumption",
+        "Remote management capabilities",
+        "Ruggedized design"
+      ],
+      "use_cases": [
+        "Edge computing",
+        "Remote office deployments",
+        "IoT data processing",
+        "Branch office infrastructure"
+      ]
+    }
   },
   {
-    "name": "Orbital Storage",
-    "description": "High-capacity server configuration optimized for storage and backup workloads",
+    "id": "orbital-storage",
     "specs": {
       "cpu": "Intel Xeon Silver 4314 (16 cores, 2.4 GHz)",
       "ram": "64 GB DDR4 ECC",
@@ -126,29 +210,51 @@
       "network": "2x 10 Gbps Ethernet",
       "gpu": "None"
     },
-    "features": [
-      "AtomOS included with perpetual licensing",
-      "Massive storage capacity",
-      "Data redundancy and protection",
-      "Backup and archival capabilities",
-      "Storage optimization features"
-    ],
-    "use_cases": [
-      "Data archival",
-      "Backup systems",
-      "File servers",
-      "Media storage",
-      "Compliance storage"
-    ],
     "pricing": {
       "monthly": "€699",
       "setup": "€399"
     },
-    "availability": "In Stock"
+    "en": {
+      "name": "Orbital Storage",
+      "description": "High-capacity server configuration optimized for storage and backup workloads",
+      "availability": "In Stock",
+      "features": [
+        "AtomOS included with perpetual licensing",
+        "Massive storage capacity",
+        "Data redundancy and protection",
+        "Backup and archival capabilities",
+        "Storage optimization features"
+      ],
+      "use_cases": [
+        "Data archival",
+        "Backup systems",
+        "File servers",
+        "Media storage",
+        "Compliance storage"
+      ]
+    },
+    "it": {
+      "name": "Orbital Storage",
+      "description": "Configurazione del server ad alta capacità ottimizzata per carichi di lavoro di archiviazione e backup",
+      "availability": "Disponibile",
+      "features": [
+        "AtomOS con licenza perpetua inclusa",
+        "Massive storage capacity",
+        "Data redundancy and protection",
+        "Backup and archival capabilities",
+        "Storage optimization features"
+      ],
+      "use_cases": [
+        "Data archival",
+        "Backup systems",
+        "File servers",
+        "Media storage",
+        "Compliance storage"
+      ]
+    }
   },
   {
-    "name": "Orbital Custom",
-    "description": "Fully customizable server configuration tailored to your specific requirements",
+    "id": "orbital-custom",
     "specs": {
       "cpu": "Custom selection",
       "ram": "Custom selection",
@@ -156,24 +262,47 @@
       "network": "Custom selection",
       "gpu": "Custom selection"
     },
-    "features": [
-      "AtomOS included with perpetual licensing",
-      "Fully customizable hardware",
-      "Expert consultation included",
-      "Custom integration support",
-      "Flexible deployment options"
-    ],
-    "use_cases": [
-      "Specialized workloads",
-      "Unique requirements",
-      "Legacy system integration",
-      "Performance optimization",
-      "Compliance requirements"
-    ],
     "pricing": {
       "monthly": "Contact us",
       "setup": "Contact us"
     },
-    "availability": "Custom Quote"
+    "en": {
+      "name": "Orbital Custom",
+      "description": "Fully customizable server configuration tailored to your specific requirements",
+      "availability": "Custom Quote",
+      "features": [
+        "AtomOS included with perpetual licensing",
+        "Fully customizable hardware",
+        "Expert consultation included",
+        "Custom integration support",
+        "Flexible deployment options"
+      ],
+      "use_cases": [
+        "Specialized workloads",
+        "Unique requirements",
+        "Legacy system integration",
+        "Performance optimization",
+        "Compliance requirements"
+      ]
+    },
+    "it": {
+      "name": "Orbital Custom",
+      "description": "Configurazione del server completamente personalizzabile su misura per le vostre esigenze specifiche",
+      "availability": "Custom Quote",
+      "features": [
+        "AtomOS con licenza perpetua inclusa",
+        "Fully customizable hardware",
+        "Expert consultation included",
+        "Custom integration support",
+        "Flexible deployment options"
+      ],
+      "use_cases": [
+        "Specialized workloads",
+        "Unique requirements",
+        "Legacy system integration",
+        "Performance optimization",
+        "Compliance requirements"
+      ]
+    }
   }
 ]

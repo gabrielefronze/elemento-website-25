@@ -1,0 +1,400 @@
+{
+  "en": {
+    "hero": {
+      "tagline": "AI & Data Science",
+      "title": "Train, Deploy, and Scale AI Workloads",
+      "subtitle": "Seamlessly run AI workloads across clouds and on-prem nodes with GPU cluster management and multi-cloud AI environments.",
+      "primaryCTA": {
+        "text": "Start Now",
+        "link": "../signup.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Explore GPU Platform",
+        "link": "../products.html",
+        "icon": "fas fa-microchip"
+      }
+    },
+    "painPoints": {
+      "title": "AI/ML Challenges You Face",
+      "subtitle": "Common pain points that limit your ability to scale AI workloads and research",
+      "items": [
+        {
+          "icon": "fas fa-microchip",
+          "title": "GPU Resource Scarcity",
+          "description": "Limited access to GPU resources and high costs for training large models"
+        },
+        {
+          "icon": "fas fa-database",
+          "title": "Data Silos",
+          "description": "Data silos between private datasets and cloud AI services limiting research capabilities"
+        },
+        {
+          "icon": "fas fa-cogs",
+          "title": "Environment Control",
+          "description": "Lack of control over compute environments and dependencies for reproducible research"
+        },
+        {
+          "icon": "fas fa-dollar-sign",
+          "title": "Cost Management",
+          "description": "Difficulty managing costs across multiple cloud providers and on-premise resources"
+        }
+      ]
+    },
+    "useCase": {
+      "title": "AI/ML Workflow",
+      "subtitle": "From data preparation to model deployment with seamless GPU cluster management",
+      "items": [
+        {
+          "number": "1",
+          "title": "Data Preparation",
+          "description": "Ingest and preprocess data from multiple sources with GPU acceleration"
+        },
+        {
+          "number": "2",
+          "title": "Model Training",
+          "description": "Train models with distributed GPU clusters across multiple cloud providers"
+        },
+        {
+          "number": "3",
+          "title": "Model Optimization",
+          "description": "Optimize models for production deployment with automated scaling"
+        },
+        {
+          "number": "4",
+          "title": "Model Deployment",
+          "description": "Deploy models with auto-scaling and monitoring across hybrid infrastructure"
+        }
+      ]
+    },
+    "solution": {
+      "title": "Elemento's AI Solution",
+      "description": "Complete infrastructure platform designed for AI/ML workloads with GPU cluster management",
+      "items": [
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "GPU-optimized hypervisor for consistent AI/ML environments"
+        },
+        {
+          "logo": "../assets/logos/Electros.svg",
+          "name": "Electros",
+          "description": "Unified dashboard for managing GPU clusters and AI workloads"
+        },
+        {
+          "logo": "../assets/logos/Atomosphere.svg",
+          "name": "Atomosphere",
+          "description": "API layer for seamless integration with AI/ML frameworks and tools"
+        }
+      ],
+      "cta": {
+        "text": "See AI Infrastructure",
+        "link": "../products.html"
+      }
+    },
+    "features": {
+      "title": "AI/ML Features",
+      "subtitle": "Everything you need to build, train, and deploy AI models at scale",
+      "items": [
+        {
+          "icon": "fas fa-microchip",
+          "title": "GPU Cluster Management",
+          "description": "Deploy and manage GPU clusters across multiple cloud providers and on-premise infrastructure"
+        },
+        {
+          "icon": "fas fa-brain",
+          "title": "Framework Integration",
+          "description": "Native support for TensorFlow, PyTorch, Kubernetes, and other popular AI/ML frameworks"
+        },
+        {
+          "icon": "fas fa-database",
+          "title": "Data Pipeline",
+          "description": "Seamless data integration between private datasets and cloud AI services"
+        },
+        {
+          "icon": "fas fa-expand-arrows-alt",
+          "title": "Auto-Scaling",
+          "description": "Automatically scale resources based on workload demands and training requirements"
+        },
+        {
+          "icon": "fas fa-chart-line",
+          "title": "Cost Optimization",
+          "description": "Intelligent resource allocation to minimize costs while maximizing performance"
+        },
+        {
+          "icon": "fas fa-cogs",
+          "title": "Environment Control",
+          "description": "Complete control over compute environments and dependencies for reproducible research"
+        }
+      ]
+    },
+    "codeExample": {
+      "title": "AI/ML Configuration",
+      "subtitle": "Define your AI/ML infrastructure with simple, declarative configuration",
+      "code": "# AI/ML Infrastructure Configuration\napiVersion: elemento.cloud/v1\nkind: AIMLEnvironment\nmetadata:\n  name: gpu-cluster-platform\nspec:\n  gpuClusters:\n    - name: training-cluster\n      provider: \"aws\"\n      instanceType: \"p3.8xlarge\"\n      count: 4\n      frameworks: [\"tensorflow\", \"pytorch\"]\n    - name: inference-cluster\n      provider: \"azure\"\n      instanceType: \"NC6s_v3\"\n      count: 2\n      frameworks: [\"onnx\", \"triton\"]\n  dataSources:\n    - name: training-data\n      type: \"s3\"\n      bucket: \"ml-datasets\"\n      encryption: \"AES-256\"\n    - name: model-registry\n      type: \"docker\"\n      registry: \"ml-models\"\n  monitoring:\n    metrics: [\"gpu-utilization\", \"memory-usage\", \"training-progress\"]\n    alerts: [\"resource-exhaustion\", \"training-failure\"]\n  scaling:\n    minNodes: 1\n    maxNodes: 10\n    targetUtilization: 70",
+      "cta": {
+        "text": "View AI Configuration",
+        "link": "../technology.html"
+      }
+    },
+    "stats": {
+      "title": "AI/ML Impact",
+      "subtitle": "Real results from AI startups and research labs using Elemento",
+      "items": [
+        {
+          "label": "Faster Training",
+          "value": "3x",
+          "icon": "fas fa-rocket",
+          "color": "orange"
+        },
+        {
+          "label": "Cost Reduction",
+          "value": "50%",
+          "icon": "fas fa-chart-line",
+          "color": "green"
+        },
+        {
+          "label": "GPU Utilization",
+          "value": "95%",
+          "icon": "fas fa-microchip",
+          "color": "blue"
+        }
+      ]
+    },
+    "faq": {
+      "title": "AI/ML FAQ",
+      "subtitle": "Common questions about using Elemento for AI/ML workloads",
+      "items": [
+        {
+          "question": "How does Elemento handle GPU resource allocation and management?",
+          "answer": "Elemento provides intelligent GPU resource allocation across multiple cloud providers and on-premise infrastructure. Our platform automatically scales resources based on workload demands and optimizes costs while maximizing performance."
+        },
+        {
+          "question": "What AI/ML frameworks does Elemento support?",
+          "answer": "Elemento provides native support for popular frameworks including TensorFlow, PyTorch, Kubernetes, Jupyter, and many others. Our platform includes pre-configured environments and seamless integration with existing AI/ML workflows."
+        },
+        {
+          "question": "How does Elemento help with data silos between private datasets and cloud services?",
+          "answer": "Elemento provides seamless data integration capabilities that allow you to work with data from multiple sources including private datasets, cloud storage, and AI services. Our platform includes data pipeline tools and secure data transmission."
+        },
+        {
+          "question": "Can Elemento work with existing AI/ML tools and workflows?",
+          "answer": "Yes! Elemento integrates with popular AI/ML tools and workflows including MLOps platforms, experiment tracking tools, and model serving frameworks. Our APIs support seamless integration with your existing development and deployment processes."
+        }
+      ]
+    },
+    "ctaFinal": {
+      "title": "Ready to Scale Your AI Research?",
+      "subtitle": "Join leading AI startups and research labs already using Elemento to accelerate their AI/ML workloads and research.",
+      "primaryCTA": {
+        "text": "Launch AI Environment",
+        "link": "../signup.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Explore GPU Solutions",
+        "link": "../products.html",
+        "icon": "fas fa-microchip"
+      }
+    }
+  },
+  "it": {
+    "hero": {
+      "tagline": "Intelligenza artificiale e scienza dei dati",
+      "title": "Addestra, distribuisci e scala carichi AI",
+      "subtitle": "Esegui carichi AI senza attriti across clouds and on-prem nodes with GPU cluster management and multi-cloud AI environments.",
+      "primaryCTA": {
+        "text": "Inizia ora",
+        "link": "../signup.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Esplora GPU Platform",
+        "link": "../products.html",
+        "icon": "fas fa-microchip"
+      }
+    },
+    "painPoints": {
+      "title": "AI/ML Sfide che affronti",
+      "subtitle": "Punti critici comuni che limitano la capacità di scalare i carichi di lavoro e la ricerca sull'intelligenza artificiale",
+      "items": [
+        {
+          "icon": "fas fa-microchip",
+          "title": "Scarsità di risorse GPU",
+          "description": "Accesso limitato alle risorse GPU e costi elevati per l'addestramento di modelli di grandi dimensioni"
+        },
+        {
+          "icon": "fas fa-database",
+          "title": "Silos di dati",
+          "description": "Silos di dati tra set di dati privati ​​e servizi di intelligenza artificiale cloud che limitano le capacità di ricerca"
+        },
+        {
+          "icon": "fas fa-cogs",
+          "title": "Controllo dell'ambiente",
+          "description": "Mancanza di controllo sugli ambienti informatici e sulle dipendenze per la ricerca riproducibile"
+        },
+        {
+          "icon": "fas fa-dollar-sign",
+          "title": "Gestione dei costi",
+          "description": "Difficoltà di gestione dei costi tra più provider cloud e risorse locali"
+        }
+      ]
+    },
+    "useCase": {
+      "title": "AI/ML Flusso di lavoro",
+      "subtitle": "Dalla preparazione dei dati alla distribuzione del modello con una gestione fluida del cluster GPU",
+      "items": [
+        {
+          "number": "1",
+          "title": "Preparazione dei dati",
+          "description": "Acquisisci e preelabora i dati da più origini con l'accelerazione GPU"
+        },
+        {
+          "number": "2",
+          "title": "Formazione del modello",
+          "description": "Addestra modelli con cluster GPU distribuiti su più provider cloud"
+        },
+        {
+          "number": "3",
+          "title": "Ottimizzazione del modello",
+          "description": "Ottimizza i modelli per la distribuzione in produzione con la scalabilità automatizzata"
+        },
+        {
+          "number": "4",
+          "title": "Distribuzione del modello",
+          "description": "Distribuisci modelli con scalabilità automatica e monitoraggio nell'infrastruttura ibrida"
+        }
+      ]
+    },
+    "solution": {
+      "title": "Elemento's AI Soluzione",
+      "description": "Piattaforma infrastrutturale completa progettata per carichi di lavoro AI/ML con gestione del cluster GPU",
+      "items": [
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Hypervisor ottimizzato per GPU per ambienti AI/ML coerenti"
+        },
+        {
+          "logo": "../assets/logos/Electros.svg",
+          "name": "Electros",
+          "description": "Dashboard unificato per la gestione di cluster GPU e carichi di lavoro AI"
+        },
+        {
+          "logo": "../assets/logos/Atomosphere.svg",
+          "name": "Atomosphere",
+          "description": "Livello API per un'integrazione perfetta con framework e strumenti AI/ML"
+        }
+      ],
+      "cta": {
+        "text": "Vedi AI Infrastructure",
+        "link": "../products.html"
+      }
+    },
+    "features": {
+      "title": "AI/ML Funzionalità",
+      "subtitle": "Tutto ciò di cui hai bisogno per creare, addestrare e distribuire modelli di intelligenza artificiale su larga scala",
+      "items": [
+        {
+          "icon": "fas fa-microchip",
+          "title": "Gestione del cluster GPU",
+          "description": "Distribuisci e gestisci cluster GPU tra più provider cloud e infrastrutture on-premise"
+        },
+        {
+          "icon": "fas fa-brain",
+          "title": "Integrazione del quadro",
+          "description": "Supporto nativo per TensorFlow, PyTorch, Kubernetes e altri framework AI/ML popolari"
+        },
+        {
+          "icon": "fas fa-database",
+          "title": "Pipeline di dati",
+          "description": "Integrazione perfetta dei dati tra set di dati privati ​​e servizi AI cloud"
+        },
+        {
+          "icon": "fas fa-expand-arrows-alt",
+          "title": "Ridimensionamento automatico",
+          "description": "Ridimensiona automaticamente le risorse in base alle richieste del carico di lavoro e ai requisiti di formazione"
+        },
+        {
+          "icon": "fas fa-chart-line",
+          "title": "Ottimizzazione dei costi",
+          "description": "Allocazione intelligente delle risorse per ridurre al minimo i costi massimizzando le prestazioni"
+        },
+        {
+          "icon": "fas fa-cogs",
+          "title": "Controllo dell'ambiente",
+          "description": "Controllo completo sugli ambienti di elaborazione e sulle dipendenze per la ricerca riproducibile"
+        }
+      ]
+    },
+    "codeExample": {
+      "title": "Configurazione AI/ML",
+      "subtitle": "Definisci la tua infrastruttura AI/ML con una configurazione semplice e dichiarativa",
+      "code": "# AI/ML Infrastructure Configuration\napiVersion: elemento.cloud/v1\nkind: AIMLEnvironment\nmetadata:\n  name: gpu-cluster-platform\nspec:\n  gpuClusters:\n    - name: training-cluster\n      provider: \"aws\"\n      instanceType: \"p3.8xlarge\"\n      count: 4\n      frameworks: [\"tensorflow\", \"pytorch\"]\n    - name: inference-cluster\n      provider: \"azure\"\n      instanceType: \"NC6s_v3\"\n      count: 2\n      frameworks: [\"onnx\", \"triton\"]\n  dataSources:\n    - name: training-data\n      type: \"s3\"\n      bucket: \"ml-datasets\"\n      encryption: \"AES-256\"\n    - name: model-registry\n      type: \"docker\"\n      registry: \"ml-models\"\n  monitoring:\n    metrics: [\"gpu-utilization\", \"memory-usage\", \"training-progress\"]\n    alerts: [\"resource-exhaustion\", \"training-failure\"]\n  scaling:\n    minNodes: 1\n    maxNodes: 10\n    targetUtilization: 70",
+      "cta": {
+        "text": "Visualizza la configurazione dell'IA",
+        "link": "../technology.html"
+      }
+    },
+    "stats": {
+      "title": "AI/ML Impatto",
+      "subtitle": "Risultati reali da startup AI e laboratori di ricerca che utilizzano Elemento",
+      "items": [
+        {
+          "label": "Formazione più veloce",
+          "value": "3x",
+          "icon": "fas fa-rocket",
+          "color": "orange"
+        },
+        {
+          "label": "Riduzione dei costi",
+          "value": "50%",
+          "icon": "fas fa-chart-line",
+          "color": "green"
+        },
+        {
+          "label": "Utilizzo della GPU",
+          "value": "95%",
+          "icon": "fas fa-microchip",
+          "color": "blue"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Domande frequenti su IA/ML",
+      "subtitle": "Domande comuni sull'utilizzo di Elemento per carichi di lavoro AI/ML",
+      "items": [
+        {
+          "question": "How does Elemento handle GPU resource allocation and management?",
+          "answer": "Elemento provides intelligent GPU resource allocation across multiple cloud providers and on-premise infrastructure. Our platform automatically scales resources based on workload demands and optimizes costs while maximizing performance."
+        },
+        {
+          "question": "What AI/ML frameworks does Elemento support?",
+          "answer": "Elemento provides native support for popular frameworks including TensorFlow, PyTorch, Kubernetes, Jupyter, and many others. Our platform includes pre-configured environments and seamless integration with existing AI/ML workflows."
+        },
+        {
+          "question": "How does Elemento help with data silos between private datasets and cloud services?",
+          "answer": "Elemento provides seamless data integration capabilities that allow you to work with data from multiple sources including private datasets, cloud storage, and AI services. Our platform includes data pipeline tools and secure data transmission."
+        },
+        {
+          "question": "Can Elemento work with existing AI/ML tools and workflows?",
+          "answer": "Yes! Elemento integrates with popular AI/ML tools and workflows including MLOps platforms, experiment tracking tools, and model serving frameworks. Our APIs support seamless integration with your existing development and deployment processes."
+        }
+      ]
+    },
+    "ctaFinal": {
+      "title": "Pronto per Scale Your AI Research?",
+      "subtitle": "Unisciti alle principali startup e laboratori di ricerca AI che già utilizzano Elemento per accelerare i carichi di lavoro e la ricerca AI/ML.",
+      "primaryCTA": {
+        "text": "Avvia AI Environment",
+        "link": "../signup.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Esplora GPU Soluziones",
+        "link": "../products.html",
+        "icon": "fas fa-microchip"
+      }
+    }
+  }
+}
