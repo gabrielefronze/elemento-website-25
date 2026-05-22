@@ -2,7 +2,9 @@
   "langSwitcher": {
     "label": "Lingua",
     "en": "EN",
-    "it": "IT"
+    "it": "IT",
+    "enAria": "Inglese",
+    "itAria": "Italiano"
   },
   "nav": {
     "products": "Prodotti",

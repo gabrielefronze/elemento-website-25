@@ -93,13 +93,20 @@ class Navbar {
               ? '/it/index.html'
               : `/it/${stem}.html`;
         const label = this.t('langSwitcher.label', 'Language');
-        const enLabel = this.t('langSwitcher.en', 'EN');
-        const itLabel = this.t('langSwitcher.it', 'IT');
+        const enAria = this.t('langSwitcher.enAria', 'English');
+        const itAria = this.t('langSwitcher.itAria', 'Italian');
+        const flagUrl = (code) =>
+            window.ElementoI18n?.assetUrl
+                ? window.ElementoI18n.assetUrl(`assets/flags/${code}.svg`)
+                : `/assets/flags/${code}.svg`;
         return `
             <div class="lang-switcher" role="navigation" aria-label="${label}">
-                <a href="${enHref}" class="lang-switcher__link${locale === 'en' ? ' lang-switcher__link--active' : ''}" hreflang="en" lang="en">${enLabel}</a>
-                <span class="lang-switcher__sep" aria-hidden="true">|</span>
-                <a href="${itHref}" class="lang-switcher__link${locale === 'it' ? ' lang-switcher__link--active' : ''}" hreflang="it" lang="it">${itLabel}</a>
+                <a href="${enHref}" class="lang-switcher__link${locale === 'en' ? ' lang-switcher__link--active' : ''}" hreflang="en" lang="en" aria-label="${enAria}" title="${enAria}">
+                    <img class="lang-switcher__flag" src="${flagUrl('gb')}" alt="" width="24" height="16" loading="lazy" decoding="async" />
+                </a>
+                <a href="${itHref}" class="lang-switcher__link${locale === 'it' ? ' lang-switcher__link--active' : ''}" hreflang="it" lang="it" aria-label="${itAria}" title="${itAria}">
+                    <img class="lang-switcher__flag" src="${flagUrl('it')}" alt="" width="24" height="16" loading="lazy" decoding="async" />
+                </a>
             </div>`;
     }
 
