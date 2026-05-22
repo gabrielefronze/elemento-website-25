@@ -13,18 +13,21 @@
     (window.ElementoI18n && window.ElementoI18n.getPageLocale()) ||
     (document.documentElement.lang === 'it' ? 'it' : 'en');
 
-  const path = window.location.pathname;
-  const inIt = path.includes('/it/');
-  const depth = path.split('/').filter(Boolean).length;
-  const prefix = inIt
-    ? depth <= 2
-      ? '../'
-      : '../../'
-    : depth <= 1
-      ? ''
-      : '../';
-
-  const url = `${prefix}CMS/solutions/${slug}.json`;
+  const url = window.ElementoI18n?.assetUrl
+    ? window.ElementoI18n.assetUrl(`CMS/solutions/${slug}.json`)
+    : (() => {
+        const path = window.location.pathname;
+        const inIt = path.includes('/it/');
+        const depth = path.split('/').filter(Boolean).length;
+        const prefix = inIt
+          ? depth <= 2
+            ? '../'
+            : '../../'
+          : depth <= 1
+            ? ''
+            : '../';
+        return `${prefix}CMS/solutions/${slug}.json`;
+      })();
 
   window.pageConfig = window.pageConfig || {};
 

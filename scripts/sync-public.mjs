@@ -19,6 +19,7 @@ const COPY_DIRS = [
   'components',
   'solutions/components',
   'blog-posts/index.json',
+  'blog-posts/img',
 ];
 
 const COPY_FILES = [

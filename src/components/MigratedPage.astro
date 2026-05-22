@@ -29,7 +29,7 @@ bodyHtml = prefixBodyAssets(bodyHtml, assetBase);
 const scripts =
   entry.extraScripts.length > 0 ? entry.extraScripts : extractLegacyScripts(entry.legacyPath);
 const isSolution = entry.type === 'solution' && entry.group === 'solutions';
-const solutionSlug = entry.slug === 'index' ? null : entry.slug;
+const solutionSlug = isSolution && entry.slug !== 'index' ? entry.slug : null;
 ---
 
 <BaseLayout
@@ -41,19 +41,8 @@ const solutionSlug = entry.slug === 'index' ? null : entry.slug;
   ogType={entry.ogType}
   robots={entry.robots}
   assetBase={assetBase}
+  pageScripts={scripts}
+  solutionSlug={solutionSlug}
 >
   <Fragment set:html={bodyHtml} />
-  {isSolution && solutionSlug && (
-    <>
-      <script src={`${assetBase}js/solution-config-loader.js`} data-solution-config={solutionSlug} defer />
-      <script src={`${assetBase}js/landing-page-loader.js`} defer />
-    </>
-  )}
-  {scripts.map((src) =>
-    src.startsWith('http') ? (
-      <script src={src} defer />
-    ) : (
-      <script src={`${assetBase}${src}`} defer />
-    )
-  )}
 </BaseLayout>

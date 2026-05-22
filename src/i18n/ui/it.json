@@ -40,7 +40,14 @@
     "readMore": "Leggi tutto",
     "rssTitle": "Feed RSS Blog Elemento",
     "noPosts": "Nessun articolo trovato.",
-    "englishPostsNote": "Gli articoli sono pubblicati in inglese. Interfaccia in italiano; i contenuti degli articoli restano in inglese fino a traduzione dedicata."
+    "englishPostsNote": "Gli articoli sono pubblicati in inglese. Interfaccia in italiano; i contenuti degli articoli restano in inglese fino a traduzione dedicata.",
+    "loading": "Caricamento articoli…",
+    "errorTitle": "Errore nel caricamento degli articoli",
+    "errorBody": "Impossibile caricare gli articoli del blog. Riprova più tardi.",
+    "emptyTitle": "Nessun articolo",
+    "emptyBody": "Torna presto per nuovi articoli e approfondimenti.",
+    "articlesLabel": "articoli",
+    "byAuthor": "Di"
   },
   "pages": {
     "404": {

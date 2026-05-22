@@ -1009,7 +1009,8 @@
       "css/breadcrumb.css"
     ],
     "extraScripts": [
-      "js/atmosphere_hero.js"
+      "js/atmosphere_hero.js",
+      "js/blog.js"
     ],
     "type": "legacy",
     "locales": [

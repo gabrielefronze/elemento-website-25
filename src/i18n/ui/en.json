@@ -40,7 +40,14 @@
     "readMore": "Read more",
     "rssTitle": "Elemento Blog RSS Feed",
     "noPosts": "No blog posts found.",
-    "englishPostsNote": "Articles are published in English. Italian interface; post content remains in English until translated."
+    "englishPostsNote": "Articles are published in English. Italian interface; post content remains in English until translated.",
+    "loading": "Loading articles…",
+    "errorTitle": "Error Loading Articles",
+    "errorBody": "Unable to load blog posts. Please try again later.",
+    "emptyTitle": "No Articles Yet",
+    "emptyBody": "Check back soon for new articles and insights.",
+    "articlesLabel": "articles",
+    "byAuthor": "By"
   },
   "pages": {
     "index": {

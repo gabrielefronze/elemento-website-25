@@ -16,6 +16,10 @@ interface Props {
   ogType?: string;
   robots?: string;
   assetBase?: string;
+  /** Page-specific scripts (team, orbital, …) — must run after i18n-utils.js */
+  pageScripts?: string[];
+  /** Solution landing pages: loads CMS/solutions/{slug}.json before landing-page-loader */
+  solutionSlug?: string | null;
 }
 
 const {
@@ -29,6 +33,8 @@ const {
   ogType = 'website',
   robots = 'index, follow',
   assetBase: assetBaseProp,
+  pageScripts = [],
+  solutionSlug = null,
 } = Astro.props;
 
 const ui = getUi(locale);
@@ -88,7 +94,7 @@ const hreflangStem = stem;
   )}
   <Fragment set:html={extraHead} />
   <script define:vars={{ ui, locale, stem, base: assetBase }}>
-    window.__I18N__ = { ui, locale, stem, base: assetBase };
+    window.__I18N__ = { ui, locale, stem, base };
   </script>
 </head>
 <body>
@@ -96,6 +102,23 @@ const hreflangStem = stem;
   <slot />
   <div id="footer-placeholder" data-locale={locale}></div>
   <script src={`${assetBase}js/i18n-utils.js`} defer></script>
+  {solutionSlug && (
+    <>
+      <script
+        src={`${assetBase}js/solution-config-loader.js`}
+        data-solution-config={solutionSlug}
+        defer
+      />
+      <script src={`${assetBase}js/landing-page-loader.js`} defer />
+    </>
+  )}
+  {pageScripts.map((src) =>
+    src.startsWith('http') ? (
+      <script src={src} defer />
+    ) : (
+      <script src={`${assetBase}${src}`} defer />
+    )
+  )}
   <script src={`${assetBase}js/splash-screen.js`} defer></script>
   <script src={`${assetBase}js/navbar.js`} defer></script>
   <script src={`${assetBase}js/footer.js`} defer></script>
