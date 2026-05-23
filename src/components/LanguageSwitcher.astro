@@ -11,41 +11,51 @@ interface Props {
 
 const { locale, stem, assetBase = '' } = Astro.props;
 const ui = getUi(locale);
-const enHref = switchLocalePath(locale, 'en', stem);
-const itHref = switchLocalePath(locale, 'it', stem);
-const frHref = switchLocalePath(locale, 'fr', stem);
 const flag = (code: string) => `${assetBase}assets/flags/${code}.svg`;
+
+const locales = [
+  { code: 'en' as const, href: switchLocalePath(locale, 'en', stem), flag: 'gb', label: ui.langSwitcher.enAria, short: ui.langSwitcher.en },
+  { code: 'it' as const, href: switchLocalePath(locale, 'it', stem), flag: 'it', label: ui.langSwitcher.itAria, short: ui.langSwitcher.it },
+  { code: 'fr' as const, href: switchLocalePath(locale, 'fr', stem), flag: 'fr', label: ui.langSwitcher.frAria, short: ui.langSwitcher.fr },
+];
+const current = locales.find((l) => l.code === locale) ?? locales[0];
 ---
 
-<div class="lang-switcher" role="navigation" aria-label={ui.langSwitcher.label}>
-  <a
-    href={enHref}
-    class:list={['lang-switcher__link', { 'lang-switcher__link--active': locale === 'en' }]}
-    hreflang="en"
-    lang="en"
-    aria-label={ui.langSwitcher.enAria}
-    title={ui.langSwitcher.enAria}
+<div class="lang-switcher" data-lang-switcher>
+  <button
+    type="button"
+    class="lang-switcher__trigger"
+    aria-haspopup="listbox"
+    aria-expanded="false"
+    aria-label={ui.langSwitcher.label}
   >
-    <img class="lang-switcher__flag" src={flag('gb')} alt="" width="24" height="16" loading="lazy" decoding="async" />
-  </a>
-  <a
-    href={itHref}
-    class:list={['lang-switcher__link', { 'lang-switcher__link--active': locale === 'it' }]}
-    hreflang="it"
-    lang="it"
-    aria-label={ui.langSwitcher.itAria}
-    title={ui.langSwitcher.itAria}
-  >
-    <img class="lang-switcher__flag" src={flag('it')} alt="" width="24" height="16" loading="lazy" decoding="async" />
-  </a>
-  <a
-    href={frHref}
-    class:list={['lang-switcher__link', { 'lang-switcher__link--active': locale === 'fr' }]}
-    hreflang="fr"
-    lang="fr"
-    aria-label={ui.langSwitcher.frAria}
-    title={ui.langSwitcher.frAria}
-  >
-    <img class="lang-switcher__flag" src={flag('fr')} alt="" width="24" height="16" loading="lazy" decoding="async" />
-  </a>
+    <span class="lang-switcher__trigger-inner">
+      <img class="lang-switcher__flag" src={flag(current.flag)} alt="" width="20" height="20" loading="eager" decoding="async" />
+      <span class="lang-switcher__current">{current.short}</span>
+    </span>
+    <svg class="lang-switcher__chevron" width="12" height="12" viewBox="0 0 12 12" aria-hidden="true" focusable="false">
+      <path fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" d="M2.2 4.2 6 8 9.8 4.2"></path>
+    </svg>
+  </button>
+  <ul class="lang-switcher__menu" role="listbox" aria-label={ui.langSwitcher.label} hidden>
+    {
+      locales.map((l) => (
+        <li role="presentation">
+          <a
+            href={l.href}
+            class:list={['lang-switcher__option', { 'lang-switcher__option--active': locale === l.code }]}
+            role="option"
+            aria-selected={locale === l.code}
+            hreflang={l.code}
+            lang={l.code}
+            title={l.label}
+          >
+            <img class="lang-switcher__flag" src={flag(l.flag)} alt="" width="22" height="22" loading="lazy" decoding="async" />
+            <span class="lang-switcher__option-label">{l.label}</span>
+            <span class="lang-switcher__option-code">{l.short}</span>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
 </div>

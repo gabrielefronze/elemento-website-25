@@ -14,9 +14,11 @@ class Navbar {
 
     getLocale() {
         if (window.__I18N__?.locale) return window.__I18N__.locale;
-        if (document.documentElement.lang === 'it') return 'it';
         const path = window.location.pathname;
         if (path.startsWith('/it/') || path === '/it') return 'it';
+        if (path.startsWith('/fr/') || path === '/fr') return 'fr';
+        const htmlLang = document.documentElement.lang;
+        if (htmlLang === 'it' || htmlLang === 'fr') return htmlLang;
         return 'en';
     }
 
@@ -55,6 +57,8 @@ class Navbar {
         let p = path;
         if (p.startsWith('/it/')) p = p.slice(3) || '/';
         else if (p === '/it') return 'index';
+        else if (p.startsWith('/fr/')) p = p.slice(3) || '/';
+        else if (p === '/fr') return 'index';
         if (p === '/' || p === '/index.html') return 'index';
         const m = p.match(/^\/(.+?)\.html$/);
         return m ? m[1] : 'index';
@@ -98,24 +102,77 @@ class Navbar {
               ? '/fr/index.html'
               : `/fr/${stem}.html`;
         const label = this.t('langSwitcher.label', 'Language');
-        const enAria = this.t('langSwitcher.enAria', 'English');
-        const itAria = this.t('langSwitcher.itAria', 'Italian');
-        const frAria = this.t('langSwitcher.frAria', 'French');
         const flagUrl = (code) =>
             window.ElementoI18n?.assetUrl
                 ? window.ElementoI18n.assetUrl(`assets/flags/${code}.svg`)
                 : `/assets/flags/${code}.svg`;
+
+        const locales = [
+            {
+                code: 'en',
+                href: enHref,
+                flag: 'gb',
+                label: this.t('langSwitcher.enAria', 'English'),
+                short: this.t('langSwitcher.en', 'EN'),
+            },
+            {
+                code: 'it',
+                href: itHref,
+                flag: 'it',
+                label: this.t('langSwitcher.itAria', 'Italian'),
+                short: this.t('langSwitcher.it', 'IT'),
+            },
+            {
+                code: 'fr',
+                href: frHref,
+                flag: 'fr',
+                label: this.t('langSwitcher.frAria', 'French'),
+                short: this.t('langSwitcher.fr', 'FR'),
+            },
+        ];
+        const current = locales.find((l) => l.code === locale) || locales[0];
+
+        const menuItems = locales
+            .map(
+                (l) => `
+            <li role="presentation">
+                <a
+                    href="${l.href}"
+                    class="lang-switcher__option${locale === l.code ? ' lang-switcher__option--active' : ''}"
+                    role="option"
+                    aria-selected="${locale === l.code ? 'true' : 'false'}"
+                    hreflang="${l.code}"
+                    lang="${l.code}"
+                    title="${l.label}"
+                >
+                    <img class="lang-switcher__flag" src="${flagUrl(l.flag)}" alt="" width="22" height="22" loading="lazy" decoding="async" />
+                    <span class="lang-switcher__option-label">${l.label}</span>
+                    <span class="lang-switcher__option-code">${l.short}</span>
+                </a>
+            </li>`
+            )
+            .join('');
+
         return `
-            <div class="lang-switcher" role="navigation" aria-label="${label}">
-                <a href="${enHref}" class="lang-switcher__link${locale === 'en' ? ' lang-switcher__link--active' : ''}" hreflang="en" lang="en" aria-label="${enAria}" title="${enAria}">
-                    <img class="lang-switcher__flag" src="${flagUrl('gb')}" alt="" width="24" height="16" loading="lazy" decoding="async" />
-                </a>
-                <a href="${itHref}" class="lang-switcher__link${locale === 'it' ? ' lang-switcher__link--active' : ''}" hreflang="it" lang="it" aria-label="${itAria}" title="${itAria}">
-                    <img class="lang-switcher__flag" src="${flagUrl('it')}" alt="" width="24" height="16" loading="lazy" decoding="async" />
-                </a>
-                <a href="${frHref}" class="lang-switcher__link${locale === 'fr' ? ' lang-switcher__link--active' : ''}" hreflang="fr" lang="fr" aria-label="${frAria}" title="${frAria}">
-                    <img class="lang-switcher__flag" src="${flagUrl('fr')}" alt="" width="24" height="16" loading="lazy" decoding="async" />
-                </a>
+            <div class="lang-switcher" data-lang-switcher>
+                <button
+                    type="button"
+                    class="lang-switcher__trigger"
+                    aria-haspopup="listbox"
+                    aria-expanded="false"
+                    aria-label="${label}"
+                >
+                    <span class="lang-switcher__trigger-inner">
+                        <img class="lang-switcher__flag" src="${flagUrl(current.flag)}" alt="" width="20" height="20" loading="eager" decoding="async" />
+                        <span class="lang-switcher__current">${current.short}</span>
+                    </span>
+                    <svg class="lang-switcher__chevron" width="12" height="12" viewBox="0 0 12 12" aria-hidden="true" focusable="false">
+                        <path fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" d="M2.2 4.2 6 8 9.8 4.2"/>
+                    </svg>
+                </button>
+                <ul class="lang-switcher__menu" role="listbox" aria-label="${label}" hidden>
+                    ${menuItems}
+                </ul>
             </div>`;
     }
 
@@ -291,9 +348,67 @@ class Navbar {
         this.initMobileMenu();
         // Initialize theme toggle functionality
         this.initThemeToggle();
-        
+        this.initLangSwitcher();
+
         // Show dropdown menu if on a product page
         this.showProductDropdown();
+    }
+
+    initLangSwitcher() {
+        if (!window.__langSwitcherListeners) {
+            window.__langSwitcherListeners = true;
+            document.addEventListener('click', (e) => {
+                document.querySelectorAll('.lang-switcher--open').forEach((root) => {
+                    if (!root.contains(e.target)) {
+                        root.classList.remove('lang-switcher--open');
+                        root.querySelector('.lang-switcher__trigger')?.setAttribute('aria-expanded', 'false');
+                        const menu = root.querySelector('.lang-switcher__menu');
+                        if (menu) menu.hidden = true;
+                    }
+                });
+            });
+            document.addEventListener('keydown', (e) => {
+                if (e.key !== 'Escape') return;
+                document.querySelectorAll('.lang-switcher--open').forEach((root) => {
+                    root.classList.remove('lang-switcher--open');
+                    root.querySelector('.lang-switcher__trigger')?.setAttribute('aria-expanded', 'false');
+                    const menu = root.querySelector('.lang-switcher__menu');
+                    if (menu) menu.hidden = true;
+                });
+            });
+        }
+        if (window.ElementoLangSwitcher?.initAll) {
+            window.ElementoLangSwitcher.initAll();
+            return;
+        }
+        document.querySelectorAll('.lang-switcher').forEach((root) => {
+            if (root.dataset.langSwitcherInit === 'true') return;
+            const trigger = root.querySelector('.lang-switcher__trigger');
+            const menu = root.querySelector('.lang-switcher__menu');
+            if (!trigger || !menu) return;
+            root.dataset.langSwitcherInit = 'true';
+            trigger.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const open = root.classList.contains('lang-switcher--open');
+                document.querySelectorAll('.lang-switcher--open').forEach((el) => {
+                    if (el !== root) {
+                        el.classList.remove('lang-switcher--open');
+                        el.querySelector('.lang-switcher__trigger')?.setAttribute('aria-expanded', 'false');
+                        const m = el.querySelector('.lang-switcher__menu');
+                        if (m) m.hidden = true;
+                    }
+                });
+                if (open) {
+                    root.classList.remove('lang-switcher--open');
+                    trigger.setAttribute('aria-expanded', 'false');
+                    menu.hidden = true;
+                } else {
+                    root.classList.add('lang-switcher--open');
+                    trigger.setAttribute('aria-expanded', 'true');
+                    menu.hidden = false;
+                }
+            });
+        });
     }
 
     // Add method to show dropdown menu on product pages
