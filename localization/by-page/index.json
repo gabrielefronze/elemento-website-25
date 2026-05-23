@@ -1,6 +1,6 @@
 {
   "page": "index",
-  "count": 153,
+  "count": 161,
   "strings": [
     {
       "id": "body.index.button.1",
@@ -57,6 +57,62 @@
       "it": "",
       "source": "index.html",
       "context": "<button>"
+    },
+    {
+      "id": "body.index.faq.q.1",
+      "en": "How does Elemento differ from traditional cloud providers?",
+      "it": "",
+      "source": "index.html",
+      "context": "faq-question"
+    },
+    {
+      "id": "body.index.faq.q.2",
+      "en": "What are the cost savings compared to public cloud?",
+      "it": "",
+      "source": "index.html",
+      "context": "faq-question"
+    },
+    {
+      "id": "body.index.faq.q.3",
+      "en": "How secure is the platform for enterprise use?",
+      "it": "",
+      "source": "index.html",
+      "context": "faq-question"
+    },
+    {
+      "id": "body.index.faq.q.4",
+      "en": "Can I migrate my existing applications?",
+      "it": "",
+      "source": "index.html",
+      "context": "faq-question"
+    },
+    {
+      "id": "body.index.faq.q.5",
+      "en": "What kind of support and documentation is available?",
+      "it": "",
+      "source": "index.html",
+      "context": "faq-question"
+    },
+    {
+      "id": "body.index.faq.q.6",
+      "en": "How does the free tier work?",
+      "it": "",
+      "source": "index.html",
+      "context": "faq-question"
+    },
+    {
+      "id": "body.index.faq.q.7",
+      "en": "Does Elemento support Kubernetes and containers?",
+      "it": "",
+      "source": "index.html",
+      "context": "faq-question"
+    },
+    {
+      "id": "body.index.faq.q.8",
+      "en": "What regions and data centers are supported?",
+      "it": "",
+      "source": "index.html",
+      "context": "faq-question"
     },
     {
       "id": "body.index.h1.1",

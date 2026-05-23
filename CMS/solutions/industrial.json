@@ -242,7 +242,7 @@
     },
     "useCase": {
       "title": "Dall'officina al cloud",
-      "subtitle": "La telemetria in tempo reale passa senza soluzione di continuità dai PLC all'analisi e all'ottimizzazione",
+      "subtitle": "La telemetria in tempo reale passa senza interruzioni dai PLC all'analisi e all'ottimizzazione",
       "items": [
         {
           "number": "1",
@@ -365,20 +365,20 @@
       "subtitle": "Domande comuni sull'utilizzo di Elemento per operazioni industriali",
       "items": [
         {
-          "question": "How does Elemento integrate with existing PLC and SCADA systems?",
-          "answer": "Elemento provides secure APIs and connectors that work with all major industrial protocols including Modbus, OPC-UA, and Ethernet/IP. Our edge processing capabilities allow real-time data collection without disrupting existing operations."
+          "question": "Come si integra Elemento con i sistemi PLC e SCADA esistenti?",
+          "answer": "Elemento fornisce API e connettori sicuri che funzionano con tutti i principali protocolli industriali tra cui Modbus, OPC-UA ed Ethernet/IP. Le nostre capacità di elaborazione edge consentono la raccolta dati in tempo reale senza interrompere le operazioni esistenti."
         },
         {
-          "question": "What about data security and compliance in manufacturing?",
-          "answer": "Elemento provides end-to-end encryption, secure data transmission, and compliance with industrial standards like ISA/IEC 62443. Your manufacturing data remains sovereign and under your control."
+          "question": "Che dire della sicurezza dei dati e della conformità nella produzione?",
+          "answer": "Elemento fornisce crittografia end-to-end, trasmissione sicura dei dati e conformità agli standard industriali come ISA/IEC 62443. I tuoi dati di produzione rimangono sovrani e sotto il tuo controllo."
         },
         {
-          "question": "Can Elemento work with our existing MES and ERP systems?",
-          "answer": "Yes! Elemento's Atomosphere API layer provides seamless integration with popular MES systems like SAP, Oracle, and custom solutions. We support both cloud and on-premise deployments."
+          "question": "Elemento può funzionare con i nostri sistemi MES ed ERP esistenti?",
+          "answer": "Sì! Il livello API Atomosphere di Elemento fornisce un'integrazione perfetta con i sistemi MES più diffusi come SAP, Oracle e soluzioni personalizzate. Supportiamo sia implementazioni cloud che on-premise."
         },
         {
-          "question": "How does Elemento handle the high data volumes from industrial sensors?",
-          "answer": "Elemento's edge processing capabilities filter and preprocess data at the source, reducing bandwidth requirements while maintaining real-time analytics. Our scalable architecture handles millions of data points per second."
+          "question": "In che modo Elemento gestisce gli elevati volumi di dati provenienti dai sensori industriali?",
+          "answer": "Le funzionalità di elaborazione edge di Elemento filtrano e preelaborano i dati alla fonte, riducendo i requisiti di larghezza di banda e mantenendo analisi in tempo reale. La nostra architettura scalabile gestisce milioni di punti dati al secondo."
         }
       ]
     },

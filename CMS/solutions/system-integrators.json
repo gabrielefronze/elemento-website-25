@@ -283,7 +283,7 @@
         {
           "logo": "../assets/logos/Atomosphere.svg",
           "name": "Atomosphere",
-          "description": "Livello API per orchestrazione e gestione multi-cloud senza soluzione di continuità"
+          "description": "Livello API per orchestrazione e gestione multi-cloud senza interruzioni"
         }
       ],
       "cta": {
@@ -365,20 +365,20 @@
       "subtitle": "Domande comuni sull'utilizzo di Elemento per l'integrazione del sistema",
       "items": [
         {
-          "question": "How does Elemento enable white-label cloud services?",
-          "answer": "Elemento provides complete white-label capabilities including custom branding, APIs, and dashboards. You can deploy your own branded cloud environment with full control over the user experience and client management."
+          "question": "In che modo Elemento abilita i servizi cloud white label?",
+          "answer": "Elemento offre funzionalità white label complete tra cui branding personalizzato, API e dashboard. Puoi distribuire il tuo ambiente cloud personalizzato con il pieno controllo dell'esperienza utente e della gestione dei clienti."
         },
         {
-          "question": "What about multi-tenant security and isolation?",
-          "answer": "Elemento's architecture provides complete tenant isolation at the hypervisor level, ensuring data security and compliance. Each client's environment is completely isolated while sharing underlying infrastructure efficiently."
+          "question": "Che dire della sicurezza e dell'isolamento multi-tenant?",
+          "answer": "L'architettura di Elemento fornisce un isolamento completo del tenant a livello di hypervisor, garantendo la sicurezza e la conformità dei dati. L'ambiente di ciascun cliente è completamente isolato pur condividendo in modo efficiente l'infrastruttura sottostante."
         },
         {
-          "question": "How does Elemento help with recurring revenue models?",
-          "answer": "Elemento includes built-in usage tracking, billing APIs, and cost management tools that enable you to create flexible pricing models and recurring revenue streams around infrastructure services."
+          "question": "In che modo Elemento aiuta con i modelli di entrate ricorrenti?",
+          "answer": "Elemento include il monitoraggio integrato dell'utilizzo, API di fatturazione e strumenti di gestione dei costi che ti consentono di creare modelli di prezzo flessibili e flussi di entrate ricorrenti relativi ai servizi infrastrutturali."
         },
         {
-          "question": "Can we integrate Elemento with our existing tools and workflows?",
-          "answer": "Yes! Elemento provides comprehensive REST APIs and webhooks that integrate seamlessly with your existing tools, workflows, and client management systems. You can customize the entire experience to match your business processes."
+          "question": "Possiamo integrare Elemento con i nostri strumenti e flussi di lavoro esistenti?",
+          "answer": "Sì! Elemento fornisce API REST e webhook completi che si integrano perfettamente con gli strumenti, i flussi di lavoro e i sistemi di gestione dei clienti esistenti. Puoi personalizzare l'intera esperienza per adattarla ai tuoi processi aziendali."
         }
       ]
     },

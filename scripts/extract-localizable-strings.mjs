@@ -66,6 +66,8 @@ const TEXT_LIKE_KEYS = new Set([
   'cta',
   'tagline',
   'items',
+  'question',
+  'answer',
 ]);
 
 /** @type {Map<string, { id: string, en: string, it: string, source: string, context?: string }>} */
@@ -224,6 +226,17 @@ function extractHtmlStrings(html, stem, legacyPath) {
     if (!text || text.length < 2) continue;
     c += 1;
     add(`body.${stem}.ui.${c}`, text, '', legacyPath, 'class');
+  }
+
+  // FAQ accordion: question text is in the first <span> inside .faq-question (arrow is separate)
+  const faqRe =
+    /<button[^>]*class="[^"]*faq-question[^"]*"[^>]*>\s*<span>([\s\S]*?)<\/span>/gi;
+  let fq = 0;
+  while ((cm = faqRe.exec(body)) !== null) {
+    const text = stripHtml(cm[1]);
+    if (!text || text.length < 2) continue;
+    fq += 1;
+    add(`body.${stem}.faq.q.${fq}`, text, '', legacyPath, 'faq-question');
   }
 }
 

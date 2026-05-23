@@ -413,20 +413,20 @@
       "subtitle": "Domande comuni sull'utilizzo di Elemento per DevOps",
       "items": [
         {
-          "question": "How does Elemento improve CI/CD pipelines?",
-          "answer": "Elemento provides consistent environments across all stages of your pipeline, eliminating environment drift and reducing deployment failures. Our unified platform ensures your staging environment is identical to production."
+          "question": "In che modo Elemento migliora le pipeline CI/CD?",
+          "answer": "Elemento fornisce ambienti coerenti in tutte le fasi della pipeline, eliminando la deriva dell'ambiente e riducendo gli errori di distribuzione. La nostra piattaforma unificata garantisce che il tuo ambiente di staging sia identico a quello di produzione."
         },
         {
-          "question": "Can I use my existing CI/CD tools?",
-          "answer": "Yes! Elemento integrates with popular CI/CD tools like Jenkins, GitLab CI, GitHub Actions, and Azure DevOps. You can use your existing workflows while gaining the benefits of consistent infrastructure."
+          "question": "Posso utilizzare gli strumenti CI/CD esistenti?",
+          "answer": "Sì! Elemento si integra con i più diffusi strumenti CI/CD come Jenkins, GitLab CI, GitHub Actions e Azure DevOps. Puoi utilizzare i flussi di lavoro esistenti ottenendo i vantaggi di un'infrastruttura coerente."
         },
         {
-          "question": "How does Elemento handle different cloud providers?",
-          "answer": "Elemento abstracts away cloud provider differences, allowing you to deploy the same infrastructure configuration across AWS, Azure, Google Cloud, or your own data centers. This eliminates vendor lock-in and provides true multi-cloud flexibility."
+          "question": "In che modo Elemento gestisce i diversi fornitori di servizi cloud?",
+          "answer": "Elemento elimina le differenze tra i fornitori di servizi cloud, consentendoti di distribuire la stessa configurazione dell'infrastruttura su AWS, Azure, Google Cloud o sui tuoi data center. Ciò elimina i vincoli al fornitore e fornisce una reale flessibilità multi-cloud."
         },
         {
-          "question": "What about security and compliance?",
-          "answer": "Elemento provides enterprise-grade security with built-in encryption, access controls, and audit logging. We support SOC 2, GDPR, and other compliance requirements, making it suitable for regulated industries."
+          "question": "E che dire della sicurezza e della conformità?",
+          "answer": "Elemento fornisce sicurezza di livello aziendale con crittografia integrata, controlli di accesso e registrazione di controllo. Supportiamo SOC 2, GDPR e altri requisiti di conformità, rendendolo adatto ai settori regolamentati."
         }
       ]
     },

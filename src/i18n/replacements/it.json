@@ -216,10 +216,6 @@
         "it": "Prestazione"
       },
       {
-        "en": "Partnership",
-        "it": "Partenariato"
-      },
-      {
         "en": "Our Values",
         "it": "I nostri valori"
       },
@@ -230,10 +226,6 @@
       {
         "en": "About",
         "it": "Di"
-      },
-      {
-        "en": "Home",
-        "it": "Casa"
       }
     ],
     "atomos": [
@@ -695,7 +687,7 @@
       },
       {
         "en": "Learn About Electros",
-        "it": "Scopri di più sugli elettrodi"
+        "it": "Scopri di più su Electros"
       },
       {
         "en": "Linux Distributions",
@@ -908,10 +900,6 @@
       {
         "en": "Type 1",
         "it": "Tipo 1"
-      },
-      {
-        "en": "Home",
-        "it": "Casa"
       },
       {
         "en": "ReFS",
@@ -1165,7 +1153,7 @@
       },
       {
         "en": "Learn About Electros",
-        "it": "Scopri di più sugli elettrodi"
+        "it": "Scopri di più su Electros"
       },
       {
         "en": "Zero Trust Security",
@@ -1286,10 +1274,6 @@
       {
         "en": "Status",
         "it": "Stato"
-      },
-      {
-        "en": "Home",
-        "it": "Casa"
       },
       {
         "en": "K8s",
@@ -1857,7 +1841,7 @@
       },
       {
         "en": "At Elemento we specialize in turning this daunting process into a seamless experience . Here's how we redefine the cloud migration journey to save you time, money and headaches .",
-        "it": "In Elemento siamo specializzati nel trasformare questo processo scoraggiante in un'esperienza senza soluzione di continuità. Ecco come ridefiniamo il percorso di migrazione al cloud per farti risparmiare tempo, denaro e grattacapi."
+        "it": "In Elemento siamo specializzati nel trasformare questo processo scoraggiante in un'esperienza senza interruzioni. Ecco come ridefiniamo il percorso di migrazione al cloud per farti risparmiare tempo, denaro e grattacapi."
       },
       {
         "en": "These figures highlight the technical and strategic hurdles businesses face. Without the right partner cloud migration risks becoming a costly, time-consuming endeavor.",
@@ -2127,7 +2111,7 @@
       },
       {
         "en": "Data Governance Mechanism: A data governance mechanism within data spaces determines access rights, processing, usage, and sharing of data. It establishes clear rules and protocols that enable seamless collaboration and ensure responsible data management.",
-        "it": "Meccanismo di governance dei dati: un meccanismo di governance dei dati all'interno degli spazi dati determina i diritti di accesso, elaborazione, utilizzo e condivisione dei dati. Stabilisce regole e protocolli chiari che consentono una collaborazione senza soluzione di continuità e garantiscono una gestione responsabile dei dati."
+        "it": "Meccanismo di governance dei dati: un meccanismo di governance dei dati all'interno degli spazi dati determina i diritti di accesso, elaborazione, utilizzo e condivisione dei dati. Stabilisce regole e protocolli chiari che consentono una collaborazione senza interruzioni e garantiscono una gestione responsabile dei dati."
       },
       {
         "en": "Data spaces connect fragmented data, offering secure infrastructure, data governance mechanisms...",
@@ -4531,7 +4515,7 @@
       },
       {
         "en": "Elemento Blog",
-        "it": "Blog dell'Elemento"
+        "it": "Blog Elemento"
       },
       {
         "en": "All articles",
@@ -4548,10 +4532,6 @@
       {
         "en": "Expert",
         "it": "Esperto"
-      },
-      {
-        "en": "Home",
-        "it": "Casa"
       }
     ],
     "bookings_meeting-landing-template": [
@@ -5106,10 +5086,6 @@
         "it": "Stampa"
       },
       {
-        "en": "Home",
-        "it": "Casa"
-      },
-      {
         "en": "Band",
         "it": "Banda"
       }
@@ -5142,10 +5118,6 @@
       {
         "en": "Learn More",
         "it": "Saperne di più"
-      },
-      {
-        "en": "Home",
-        "it": "Casa"
       }
     ],
     "contact": [
@@ -5171,7 +5143,7 @@
       },
       {
         "en": "Yes! Elemento is designed to be self-hostable , giving you complete control over your infrastructure and data. You can deploy on your own servers, private cloud, or hybrid environments.",
-        "it": "SÌ! Elemento è progettato per essere self-hostable, offrendoti il ​​controllo completo sulla tua infrastruttura e sui tuoi dati. Puoi eseguire la distribuzione sui tuoi server, cloud privato o ambienti ibridi."
+        "it": "Sì! Elemento è progettato per essere auto-ospitabile, offrendoti il ​​controllo completo sulla tua infrastruttura e sui tuoi dati. Puoi eseguire la distribuzione sui tuoi server, cloud privato o ambienti ibridi."
       },
       {
         "en": "You can start using Elemento immediately with our free trial. Most customers are up and running within 30 minutes . Our quick-start guide walks you through the entire setup process.",
@@ -5230,8 +5202,16 @@
         "it": "Quanto velocemente posso iniziare con Elemento? ▼"
       },
       {
+        "en": "How quickly can I get started with Elemento?",
+        "it": "Quanto velocemente posso iniziare con Elemento?"
+      },
+      {
         "en": "What compliance standards do you support? ▼",
         "it": "Quali standard di conformità supportate? ▼"
+      },
+      {
+        "en": "What compliance standards do you support?",
+        "it": "Quali standard di conformità supportate?"
       },
       {
         "en": "Ready to Transform Your Infrastructure?",
@@ -5254,6 +5234,14 @@
         "it": "2 Via Virginio Allione Cuneo, Italia"
       },
       {
+        "en": "What kind of support do you offer?",
+        "it": "Che tipo di supporto offrite?"
+      },
+      {
+        "en": "Can I deploy Elemento on-premises?",
+        "it": "Posso distribuire Elemento in locale?"
+      },
+      {
         "en": "How do you handle data privacy? ▼",
         "it": "Come gestite la privacy dei dati? ▼"
       },
@@ -5264,6 +5252,14 @@
       {
         "en": "Do you offer custom solutions? ▼",
         "it": "Offrite soluzioni personalizzate? ▼"
+      },
+      {
+        "en": "How do you handle data privacy?",
+        "it": "Come gestite la privacy dei dati?"
+      },
+      {
+        "en": "Do you offer custom solutions?",
+        "it": "Offrite soluzioni personalizzate?"
       },
       {
         "en": "Local Presence , Global Reach",
@@ -5408,10 +5404,6 @@
       {
         "en": "Cuneo",
         "it": "Cuneese"
-      },
-      {
-        "en": "Home",
-        "it": "Casa"
       }
     ],
     "editor": [
@@ -5458,10 +5450,6 @@
       {
         "en": "Date",
         "it": "Data"
-      },
-      {
-        "en": "Home",
-        "it": "Casa"
       }
     ],
     "electros": [
@@ -5507,7 +5495,7 @@
       },
       {
         "en": "Deploy VMs across public clouds and private nodes seamlessly, balancing cost, performance, and compliance.",
-        "it": "Distribuisci le VM su cloud pubblici e nodi privati ​​senza soluzione di continuità, bilanciando costi, prestazioni e conformità."
+        "it": "Distribuisci le VM su cloud pubblici e nodi privati ​​senza interruzioni, bilanciando costi, prestazioni e conformità."
       },
       {
         "en": "Automate infrastructure-as-code. Electros CLI powers scripting, CI/CD, and cloud pipeline workflows.",
@@ -5715,7 +5703,7 @@
       },
       {
         "en": "See Electros in Action",
-        "it": "Guarda gli elettrodi in azione"
+        "it": "Guarda Electros in azione"
       },
       {
         "en": "Remote Access Built In",
@@ -5848,10 +5836,6 @@
       {
         "en": "Details",
         "it": "Dettagli"
-      },
-      {
-        "en": "Home",
-        "it": "Casa"
       },
       {
         "en": "Free",
@@ -6333,11 +6317,11 @@
       },
       {
         "en": "Yes! Elemento supports migration from existing cloud providers and on-premises infrastructure. Our platform is compatible with standard virtualization technologies and container platforms. We provide migration tools and support to help you move workloads with minimal downtime. Most applications require no code changes.",
-        "it": "SÌ! Elemento supporta la migrazione dai provider cloud esistenti e dall'infrastruttura locale. La nostra piattaforma è compatibile con le tecnologie di virtualizzazione standard e le piattaforme container. Forniamo strumenti di migrazione e supporto per aiutarti a spostare i carichi di lavoro con tempi di inattività minimi. La maggior parte delle applicazioni non richiede modifiche al codice."
+        "it": "Sì! Elemento supporta la migrazione dai provider cloud esistenti e dall'infrastruttura locale. La nostra piattaforma è compatibile con le tecnologie di virtualizzazione standard e le piattaforme container. Forniamo strumenti di migrazione e supporto per aiutarti a spostare i carichi di lavoro con tempi di inattività minimi. La maggior parte delle applicazioni non richiede modifiche al codice."
       },
       {
         "en": "Yes! Elemento fully supports Kubernetes and container workloads. You can deploy and manage Kubernetes clusters across any cloud provider, and our platform provides additional orchestration capabilities on top of Kubernetes. We also support Docker containers, Helm charts, and other container-native tools.",
-        "it": "SÌ! Elemento supporta completamente Kubernetes e carichi di lavoro container. Puoi distribuire e gestire i cluster Kubernetes su qualsiasi provider cloud e la nostra piattaforma fornisce funzionalità di orchestrazione aggiuntive su Kubernetes. Supportiamo anche contenitori Docker, grafici Helm e altri strumenti nativi del contenitore."
+        "it": "Sì! Elemento supporta completamente Kubernetes e carichi di lavoro container. Puoi distribuire e gestire i cluster Kubernetes su qualsiasi provider cloud e la nostra piattaforma fornisce funzionalità di orchestrazione aggiuntive su Kubernetes. Supportiamo anche contenitori Docker, grafici Helm e altri strumenti nativi del contenitore."
       },
       {
         "en": "Elemento offers a generous free tier that includes up to 2 VMs on AtomOS, basic Electros features, and access to Atomosphere API. This is perfect for testing, development, and small projects. You can upgrade to paid plans anytime for additional features, support, and higher usage limits.",
@@ -6373,11 +6357,11 @@
       },
       {
         "en": "Elemento lets you build and run your own cloud infrastructure with complete freedom. You choose where it runs and we automate everything for you. Your cloud. Your rules, Your freedom.",
-        "it": "Elemento ti consente di creare ed eseguire la tua infrastruttura cloud in completa libertà. Scegli dove eseguirlo e noi automatizziamo tutto per te. La tua nuvola. Le tue regole, la tua libertà."
+        "it": "Elemento ti consente di creare ed eseguire la tua infrastruttura cloud in completa libertà. Scegli dove eseguirlo e noi automatizziamo tutto per te. Il tuo cloud. Le tue regole. La tua libertà."
       },
       {
         "en": "Elemento lets you build and run your own cloud infrastructure with complete freedom. You choose where it runs and we automate everything for you. Your cloud. Your rules, Your freedom.",
-        "it": "Elemento ti consente di creare ed eseguire la tua infrastruttura cloud in completa libertà. Scegli dove eseguirlo e noi automatizziamo tutto per te. La tua nuvola. Le tue regole, la tua libertà."
+        "it": "Elemento ti consente di creare ed eseguire la tua infrastruttura cloud in completa libertà. Scegli dove eseguirlo e noi automatizziamo tutto per te. Il tuo cloud. Le tue regole. La tua libertà."
       },
       {
         "en": "Accelerate machine learning workflows with GPU-optimized infrastructure. Scale compute resources on-demand and manage data pipelines efficiently across multiple environments.",
@@ -6440,6 +6424,10 @@
         "it": "Costruisci ed esegui la tua infrastruttura cloud senza vincoli"
       },
       {
+        "en": "How does Elemento differ from traditional cloud providers?",
+        "it": "In cosa Elemento differisce dai tradizionali fornitori di servizi cloud?"
+      },
+      {
         "en": "Dedicated storage-only nodes (AlmaLinux 9 / Ubuntu &ge;24)",
         "it": "Nodi dedicati di solo storage (AlmaLinux 9 / Ubuntu &ge;24)"
       },
@@ -6488,12 +6476,20 @@
         "it": "AlmaLinux 9, Rocky 9 o Ubuntu &ge;24 (nodi di archiviazione)"
       },
       {
+        "en": "What kind of support and documentation is available?",
+        "it": "Che tipo di supporto e documentazione sono disponibili?"
+      },
+      {
         "en": "Multi-region & hybrid (public + private) deployments",
         "it": "Distribuzioni multiregione e ibride (pubbliche + private)."
       },
       {
         "en": "Deploy workloads quickly on public or private clouds",
         "it": "Distribuisci rapidamente i carichi di lavoro su cloud pubblici o privati"
+      },
+      {
+        "en": "What are the cost savings compared to public cloud?",
+        "it": "Quali sono i risparmi sui costi rispetto al cloud pubblico?"
       },
       {
         "en": "Does Elemento support Kubernetes and containers? ▼",
@@ -6510,6 +6506,10 @@
       {
         "en": "How secure is the platform for enterprise use? ▼",
         "it": "Quanto è sicura la piattaforma per uso aziendale? ▼"
+      },
+      {
+        "en": "Does Elemento support Kubernetes and containers?",
+        "it": "Elemento supporta Kubernetes e contenitori?"
       },
       {
         "en": "GPU-accelerated guests via automatic passthrough",
@@ -6536,8 +6536,12 @@
         "it": "Quali regioni e data center sono supportati? ▼"
       },
       {
+        "en": "How secure is the platform for enterprise use?",
+        "it": "Quanto è sicura la piattaforma per uso aziendale?"
+      },
+      {
         "en": "Data sovereignty via self-hostable deployments",
-        "it": "Sovranità dei dati tramite distribuzioni self-hostable"
+        "it": "Sovranità dei dati tramite distribuzioni auto-ospitabile"
       },
       {
         "en": "Dynamic auto-scaling & multi-region deployment",
@@ -6550,6 +6554,10 @@
       {
         "en": "Unified REST API through the Elemento gateway",
         "it": "API REST unificata tramite il gateway Elemento"
+      },
+      {
+        "en": "What regions and data centers are supported?",
+        "it": "Quali regioni e data center sono supportati?"
       },
       {
         "en": "AlmaLinux 9 / Rocky Linux 9 (compute & full)",
@@ -6590,6 +6598,10 @@
       {
         "en": "Server-based (not CPU cores or VM count)",
         "it": "Basato su server (non core CPU o conteggio VM)"
+      },
+      {
+        "en": "Can I migrate my existing applications?",
+        "it": "Posso migrare le mie applicazioni esistenti?"
       },
       {
         "en": "Ready to Transform Your Infrastructure?",
@@ -6681,11 +6693,15 @@
       },
       {
         "en": "Spin up your cloud everywhere",
-        "it": "Fai girare la tua nuvola ovunque"
+        "it": "Distribuisci il tuo cloud ovunque"
       },
       {
         "en": "Azure VMs, Disks & Bare Metal",
         "it": "Macchine virtuali, dischi e bare metal di Azure"
+      },
+      {
+        "en": "How does the free tier work?",
+        "it": "Come funziona il livello gratuito?"
       },
       {
         "en": "Trusted by leading companies",
@@ -6757,7 +6773,7 @@
       },
       {
         "en": "Escape vendor lock-in",
-        "it": "Sfuggire al blocco del venditore"
+        "it": "Libertà dal vendor lock-in"
       },
       {
         "en": "Security & Compliance",
@@ -6789,7 +6805,7 @@
       },
       {
         "en": "Learn About Electros",
-        "it": "Scopri di più sugli elettrodi"
+        "it": "Scopri di più su Electros"
       },
       {
         "en": "Global Applications",
@@ -6797,7 +6813,7 @@
       },
       {
         "en": "Ready. Set. Cloud.",
-        "it": "Pronto. Impostato. Nuvola."
+        "it": "Pronti. Via. Cloud."
       },
       {
         "en": "Loading diagram...",
@@ -6877,7 +6893,7 @@
       },
       {
         "en": "Storage",
-        "it": "Magazzinaggio"
+        "it": "Archiviazione"
       },
       {
         "en": "Feature",
@@ -6971,7 +6987,7 @@
       },
       {
         "en": "Electros Installation Guide",
-        "it": "Guida all'installazione degli elettrodi"
+        "it": "Guida all'installazione di Electros"
       },
       {
         "en": "Supported Operating Systems",
@@ -7040,10 +7056,6 @@
       {
         "en": "Technology",
         "it": "Tecnologia"
-      },
-      {
-        "en": "Home",
-        "it": "Casa"
       }
     ],
     "orbital": [
@@ -7297,7 +7309,7 @@
       },
       {
         "en": "Colocation Facilities",
-        "it": "Strutture di coubicazione"
+        "it": "Strutture di colocazione"
       },
       {
         "en": "Performance & Latency",
@@ -7398,10 +7410,6 @@
       {
         "en": "Orbital",
         "it": "Orbitale"
-      },
-      {
-        "en": "Home",
-        "it": "Casa"
       }
     ],
     "products": [
@@ -7411,7 +7419,7 @@
       },
       {
         "en": "Server-based pricing instead of per-CPU or per-VM licensing. Encourages efficient resource utilization and reduces total cost of ownership. Learn about our green computing initiatives and pricing models .",
-        "it": "Prezzi basati su server invece che su licenza per CPU o per VM. Incoraggia l'utilizzo efficiente delle risorse e riduce il costo totale di proprietà. Scopri le nostre iniziative di green computing e i nostri modelli di prezzo."
+        "it": "Prezzi basati su server invece che su licenza per CPU o per VM. Incoraggia l'utilizzo efficiente delle risorse e riduce il costo totale di proprietà. Scopri le nostre iniziative di cloud sostenibile e i nostri modelli di prezzo."
       },
       {
         "en": "No vendor lock-in. Use your existing cloud accounts, infrastructure, and tools. Elemento works with your current setup, not against it. Read about our vendor neutrality philosophy and company values .",
@@ -7607,7 +7615,7 @@
       },
       {
         "en": "2. Colocation AtomOS",
-        "it": "2. Coubicazione AtomOS"
+        "it": "2. Colocazione AtomOS"
       },
       {
         "en": "Management Overhead",
@@ -7635,7 +7643,7 @@
       },
       {
         "en": "Colocation AtomOS",
-        "it": "Coubicazione AtomOS"
+        "it": "Colocazione AtomOS"
       },
       {
         "en": "3. Shared AtomOS",
@@ -7762,10 +7770,6 @@
         "it": "Alto*"
       },
       {
-        "en": "Home",
-        "it": "Casa"
-      },
-      {
         "en": "High",
         "it": "Alto"
       },
@@ -7840,10 +7844,6 @@
       {
         "en": "Sign Up",
         "it": "Iscrizione"
-      },
-      {
-        "en": "Home",
-        "it": "Casa"
       }
     ],
     "solutions_ai": [
@@ -7925,7 +7925,7 @@
       },
       {
         "en": "Framework Integration",
-        "it": "Integrazione del quadro"
+        "it": "Integrazione framework"
       },
       {
         "en": "AI/ML Integration API",
@@ -8041,7 +8041,7 @@
       },
       {
         "en": "Train, deploy, and scale AI workloads seamlessly across clouds and on-prem nodes. GPU cluster management and multi-cloud AI environments.",
-        "it": "Addestra, distribuisci e scala i carichi di lavoro AI senza soluzione di continuità su cloud e nodi on-premise. Gestione cluster GPU e ambienti AI multi-cloud."
+        "it": "Addestra, distribuisci e scala i carichi di lavoro AI senza interruzioni su cloud e nodi on-premise. Gestione cluster GPU e ambienti AI multi-cloud."
       },
       {
         "en": "Run sensitive workloads across private and public clouds with full data governance. Enterprise-grade security with built-in compliance.",
@@ -8679,7 +8679,7 @@
       },
       {
         "en": "Seamless migration between on-premise and cloud environments with consistent management",
-        "it": "Migrazione senza soluzione di continuità tra ambienti on-premise e cloud con gestione coerente"
+        "it": "Migrazione senza interruzioni tra ambienti on-premise e cloud con gestione coerente"
       },
       {
         "en": "Complete platform designed to replace VMware with modern, cloud-native infrastructure.",
@@ -8893,7 +8893,7 @@
       },
       {
         "en": "Elemento empowers organizations to manage complex IT infrastructures across multiple clouds and on-premises environments seamlessly.",
-        "it": "Elemento consente alle organizzazioni di gestire infrastrutture IT complesse su più cloud e ambienti on-premise senza soluzione di continuità."
+        "it": "Elemento consente alle organizzazioni di gestire infrastrutture IT complesse su più cloud e ambienti on-premise senza interruzioni."
       },
       {
         "en": "API gateway patterns that connect existing clouds, plus starter content that ties together C4, installs, and deeper technical packs.",
@@ -9245,7 +9245,7 @@
       },
       {
         "en": "Green Cloud",
-        "it": "Nuvola verde"
+        "it": "Cloud sostenibile"
       },
       {
         "en": "C4 Protocol",
@@ -9294,10 +9294,6 @@
       {
         "en": "Uptime",
         "it": "Tempo di attività"
-      },
-      {
-        "en": "Home",
-        "it": "Casa"
       }
     ],
     "thank-you_atomos-demo-en": [

@@ -302,7 +302,7 @@
         },
         {
           "icon": "fas fa-brain",
-          "title": "Integrazione del quadro",
+          "title": "Integrazione framework",
           "description": "Supporto nativo per TensorFlow, PyTorch, Kubernetes e altri framework AI/ML popolari"
         },
         {
@@ -365,20 +365,20 @@
       "subtitle": "Domande comuni sull'utilizzo di Elemento per carichi di lavoro AI/ML",
       "items": [
         {
-          "question": "How does Elemento handle GPU resource allocation and management?",
-          "answer": "Elemento provides intelligent GPU resource allocation across multiple cloud providers and on-premise infrastructure. Our platform automatically scales resources based on workload demands and optimizes costs while maximizing performance."
+          "question": "In che modo Elemento gestisce l'allocazione e la gestione delle risorse GPU?",
+          "answer": "Elemento fornisce un'allocazione intelligente delle risorse GPU tra più provider cloud e infrastrutture on-premise. La nostra piattaforma ridimensiona automaticamente le risorse in base alle richieste del carico di lavoro e ottimizza i costi massimizzando al contempo le prestazioni."
         },
         {
-          "question": "What AI/ML frameworks does Elemento support?",
-          "answer": "Elemento provides native support for popular frameworks including TensorFlow, PyTorch, Kubernetes, Jupyter, and many others. Our platform includes pre-configured environments and seamless integration with existing AI/ML workflows."
+          "question": "Quali framework AI/ML supporta Elemento?",
+          "answer": "Elemento fornisce supporto nativo per framework popolari tra cui TensorFlow, PyTorch, Kubernetes, Jupyter e molti altri. La nostra piattaforma include ambienti preconfigurati e un'integrazione perfetta con i flussi di lavoro AI/ML esistenti."
         },
         {
-          "question": "How does Elemento help with data silos between private datasets and cloud services?",
-          "answer": "Elemento provides seamless data integration capabilities that allow you to work with data from multiple sources including private datasets, cloud storage, and AI services. Our platform includes data pipeline tools and secure data transmission."
+          "question": "In che modo Elemento aiuta con i silos di dati tra set di dati privati ​​e servizi cloud?",
+          "answer": "Elemento offre funzionalità di integrazione dei dati senza interruzioni che ti consentono di lavorare con dati provenienti da più fonti, inclusi set di dati privati, archiviazione cloud e servizi AI. La nostra piattaforma include strumenti di pipeline di dati e trasmissione sicura dei dati."
         },
         {
-          "question": "Can Elemento work with existing AI/ML tools and workflows?",
-          "answer": "Yes! Elemento integrates with popular AI/ML tools and workflows including MLOps platforms, experiment tracking tools, and model serving frameworks. Our APIs support seamless integration with your existing development and deployment processes."
+          "question": "Elemento può funzionare con strumenti e flussi di lavoro AI/ML esistenti?",
+          "answer": "Sì! Elemento si integra con i più diffusi strumenti e flussi di lavoro AI/ML, tra cui piattaforme MLOps, strumenti di monitoraggio degli esperimenti e framework di modellazione. Le nostre API supportano l'integrazione perfetta con i processi di sviluppo e distribuzione esistenti."
         }
       ]
     },

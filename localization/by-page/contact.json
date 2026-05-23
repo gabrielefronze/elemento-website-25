@@ -1,6 +1,6 @@
 {
   "page": "contact",
-  "count": 72,
+  "count": 78,
   "strings": [
     {
       "id": "body.contact.button.1",
@@ -50,6 +50,48 @@
       "it": "",
       "source": "contact.html",
       "context": "<button>"
+    },
+    {
+      "id": "body.contact.faq.q.1",
+      "en": "How quickly can I get started with Elemento?",
+      "it": "",
+      "source": "contact.html",
+      "context": "faq-question"
+    },
+    {
+      "id": "body.contact.faq.q.2",
+      "en": "What kind of support do you offer?",
+      "it": "",
+      "source": "contact.html",
+      "context": "faq-question"
+    },
+    {
+      "id": "body.contact.faq.q.3",
+      "en": "Can I deploy Elemento on-premises?",
+      "it": "",
+      "source": "contact.html",
+      "context": "faq-question"
+    },
+    {
+      "id": "body.contact.faq.q.4",
+      "en": "Do you offer custom solutions?",
+      "it": "",
+      "source": "contact.html",
+      "context": "faq-question"
+    },
+    {
+      "id": "body.contact.faq.q.5",
+      "en": "What compliance standards do you support?",
+      "it": "",
+      "source": "contact.html",
+      "context": "faq-question"
+    },
+    {
+      "id": "body.contact.faq.q.6",
+      "en": "How do you handle data privacy?",
+      "it": "",
+      "source": "contact.html",
+      "context": "faq-question"
     },
     {
       "id": "body.contact.h1.1",

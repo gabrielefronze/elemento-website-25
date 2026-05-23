@@ -365,20 +365,20 @@
       "subtitle": "Domande comuni sull'utilizzo di Elemento in ambienti regolamentati",
       "items": [
         {
-          "question": "How does Elemento ensure data sovereignty and compliance?",
-          "answer": "Elemento provides complete control over data location and processing with built-in compliance controls. Our platform supports regional data residency requirements and includes comprehensive audit trails for regulatory compliance."
+          "question": "In che modo Elemento garantisce la sovranità e la conformità dei dati?",
+          "answer": "Elemento fornisce il controllo completo sulla posizione e sull'elaborazione dei dati con controlli di conformità integrati. La nostra piattaforma supporta i requisiti regionali di residenza dei dati e include audit trail completi per la conformità normativa."
         },
         {
-          "question": "What compliance certifications does Elemento support?",
-          "answer": "Elemento supports major compliance frameworks including GDPR, HIPAA, SOC 2, ISO 27001, and PCI DSS. We provide built-in controls and reporting capabilities to help you meet regulatory requirements."
+          "question": "Quali certificazioni di conformità supporta Elemento?",
+          "answer": "Elemento supporta i principali framework di conformità tra cui GDPR, HIPAA, SOC 2, ISO 27001 e PCI DSS. Forniamo controlli integrati e funzionalità di reporting per aiutarti a soddisfare i requisiti normativi."
         },
         {
-          "question": "How does Elemento handle encryption and key management?",
-          "answer": "Elemento provides end-to-end encryption with AES-256 for data at rest and in transit. Our platform includes secure key management with support for customer-managed keys and hardware security modules (HSMs)."
+          "question": "In che modo Elemento gestisce la crittografia e la gestione delle chiavi?",
+          "answer": "Elemento fornisce la crittografia end-to-end con AES-256 per i dati inattivi e in transito. La nostra piattaforma include una gestione sicura delle chiavi con supporto per chiavi gestite dal cliente e moduli di sicurezza hardware (HSM)."
         },
         {
-          "question": "Can Elemento work with existing compliance and security tools?",
-          "answer": "Yes! Elemento integrates with popular compliance and security tools including SIEM systems, identity providers, and audit platforms. Our APIs support seamless integration with your existing security stack."
+          "question": "Elemento può funzionare con gli strumenti di conformità e sicurezza esistenti?",
+          "answer": "Sì! Elemento si integra con i più diffusi strumenti di conformità e sicurezza, inclusi sistemi SIEM, provider di identità e piattaforme di audit. Le nostre API supportano l'integrazione perfetta con il tuo stack di sicurezza esistente."
         }
       ]
     },

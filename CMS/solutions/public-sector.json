@@ -365,20 +365,20 @@
       "subtitle": "Domande comuni sull'utilizzo di Elemento per iniziative governative e di città intelligenti",
       "items": [
         {
-          "question": "How does Elemento ensure data sovereignty for government data?",
-          "answer": "Elemento provides complete control over data location and processing with built-in sovereignty guarantees. Our platform ensures that all government data remains within your jurisdiction and under your complete control."
+          "question": "In che modo Elemento garantisce la sovranità dei dati per i dati governativi?",
+          "answer": "Elemento fornisce il controllo completo sulla posizione e sull'elaborazione dei dati con garanzie di sovranità integrate. La nostra piattaforma garantisce che tutti i dati governativi rimangano nella tua giurisdizione e sotto il tuo completo controllo."
         },
         {
-          "question": "What compliance standards does Elemento support for government use?",
-          "answer": "Elemento supports major government compliance standards including FedRAMP, GDPR, and national data sovereignty requirements. Our platform includes built-in controls and reporting capabilities to help you meet regulatory requirements."
+          "question": "Quali standard di conformità supporta Elemento per l'uso governativo?",
+          "answer": "Elemento supporta i principali standard di conformità governativi, tra cui FedRAMP, GDPR e i requisiti nazionali di sovranità dei dati. La nostra piattaforma include controlli integrati e funzionalità di reporting per aiutarti a soddisfare i requisiti normativi."
         },
         {
-          "question": "Can Elemento integrate with existing government systems?",
-          "answer": "Yes! Elemento provides seamless integration with existing government systems including legacy applications, citizen portals, and smart city infrastructure. Our APIs support government standards and protocols."
+          "question": "Elemento può integrarsi con i sistemi governativi esistenti?",
+          "answer": "Sì! Elemento fornisce un'integrazione perfetta con i sistemi governativi esistenti, comprese le applicazioni legacy, i portali dei cittadini e l'infrastruttura delle città intelligenti. Le nostre API supportano standard e protocolli governativi."
         },
         {
-          "question": "How does Elemento handle smart city IoT and sensor data?",
-          "answer": "Elemento provides comprehensive IoT integration capabilities for smart city infrastructure including sensor data collection, real-time analytics, and citizen service optimization. Our platform supports millions of connected devices with secure data transmission."
+          "question": "In che modo Elemento gestisce l'IoT delle città intelligenti e i dati dei sensori?",
+          "answer": "Elemento fornisce funzionalità complete di integrazione IoT per le infrastrutture delle città intelligenti, tra cui la raccolta dei dati dei sensori, l'analisi in tempo reale e l'ottimizzazione dei servizi ai cittadini. La nostra piattaforma supporta milioni di dispositivi connessi con trasmissione dati sicura."
         }
       ]
     },

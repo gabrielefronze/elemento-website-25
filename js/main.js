@@ -6,6 +6,24 @@
 const COOKIE_PREFERENCE_KEY = 'elemento_cookie_preference';
 const COOKIE_CONSENT_VERSION = '2026-04-iubenda-db-enforced';
 
+/** Resolve site-root-relative paths (assets/…) for the current page depth/locale. */
+function resolveSiteAssetPath(relativePath) {
+    const path = String(relativePath).replace(/^\//, '').replace(/^\.\//, '');
+    if (window.ElementoI18n?.assetUrl) {
+        return window.ElementoI18n.assetUrl(path);
+    }
+    return path;
+}
+
+/** Prefix embedded logo paths inside injected diagram SVGs (xlink:href / href). */
+function rewriteDiagramEmbeddedAssets(svgContent) {
+    return svgContent.replace(
+        /(\s(?:xlink:)?href=["'])(\.\/)?(assets\/[^"']+)(["'])/g,
+        (_match, prefix, _dot, assetPath, quote) =>
+            `${prefix}${resolveSiteAssetPath(assetPath)}${quote}`
+    );
+}
+
 // Helper function to get saved cookie preference
 function getCookiePreference() {
     try {
@@ -862,11 +880,15 @@ class ElementoWebsite {
             }
 
             // Get the SVG path from the src attribute if not provided
-            const pathToUse = svgPath || container.getAttribute('src');
-            if (!pathToUse) {
+            const rawPath = svgPath || container.getAttribute('src');
+            if (!rawPath) {
                 console.error(`No SVG path provided and no src attribute found on ${containerSelector}`);
                 return;
             }
+
+            const pathToUse = /^(https?:|\/\/|\/)/.test(rawPath)
+                ? rawPath
+                : resolveSiteAssetPath(rawPath.replace(/^\.\//, ''));
 
             // Fetch the SVG content
             const response = await fetch(pathToUse);
@@ -926,7 +948,9 @@ class ElementoWebsite {
                 /<svg([^>]*)>/,
                 `<svg$1 viewBox="${viewBox}" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%;">`
             );
-            
+
+            processedSvgContent = rewriteDiagramEmbeddedAssets(processedSvgContent);
+
             // Use requestAnimationFrame to batch DOM writes and avoid forced reflows
             requestAnimationFrame(() => {
                 container.innerHTML = processedSvgContent;
@@ -957,8 +981,7 @@ class ElementoWebsite {
         diagramContainers.forEach((container) => {
             const src = container.getAttribute('src');
             if (src) {
-                // Pass the container element directly
-                this.injectSVGDiagram(container, src);
+                this.injectSVGDiagram(container, null);
             } else {
                 console.error('No src attribute found on diagram-svg container at:', container);
             }

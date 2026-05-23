@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-22T21:53:12.911Z",
-  "total": 3335,
+  "generatedAt": "2026-05-23T11:07:02.516Z",
+  "total": 3414,
   "locales": [
     "en",
     "it"
@@ -192,7 +192,7 @@
     {
       "id": "body.about.h3.7",
       "en": "Partnership",
-      "it": "Partenariato",
+      "it": "Partnership",
       "source": "about.html",
       "context": "<h3>"
     },
@@ -213,7 +213,7 @@
     {
       "id": "body.about.li.1",
       "en": "Home",
-      "it": "Casa",
+      "it": "Home",
       "source": "about.html",
       "context": "<li>"
     },
@@ -731,7 +731,7 @@
     {
       "id": "body.atomos.li.1",
       "en": "Home",
-      "it": "Casa",
+      "it": "Home",
       "source": "atomos.html",
       "context": "<li>"
     },
@@ -1606,7 +1606,7 @@
     {
       "id": "body.atomos.ui.10",
       "en": "Learn About Electros",
-      "it": "Scopri di più sugli elettrodi",
+      "it": "Scopri di più su Electros",
       "source": "atomos.html",
       "context": "class"
     },
@@ -1893,7 +1893,7 @@
     {
       "id": "body.atomosphere.li.1",
       "en": "Home",
-      "it": "Casa",
+      "it": "Home",
       "source": "atomosphere.html",
       "context": "<li>"
     },
@@ -2327,7 +2327,7 @@
     {
       "id": "body.atomosphere.ui.6",
       "en": "Learn About Electros",
-      "it": "Scopri di più sugli elettrodi",
+      "it": "Scopri di più su Electros",
       "source": "atomosphere.html",
       "context": "class"
     },
@@ -3433,7 +3433,7 @@
     {
       "id": "body.blog-posts_2023-06-30-cloud-migration-challenge-or-opportunity.p.4",
       "en": "At Elemento we specialize in turning this daunting process into a seamless experience . Here's how we redefine the cloud migration journey to save you time, money and headaches .",
-      "it": "In Elemento siamo specializzati nel trasformare questo processo scoraggiante in un'esperienza senza soluzione di continuità. Ecco come ridefiniamo il percorso di migrazione al cloud per farti risparmiare tempo, denaro e grattacapi.",
+      "it": "In Elemento siamo specializzati nel trasformare questo processo scoraggiante in un'esperienza senza interruzioni. Ecco come ridefiniamo il percorso di migrazione al cloud per farti risparmiare tempo, denaro e grattacapi.",
       "source": "blog-posts/2023-06-30-cloud-migration-challenge-or-opportunity.html",
       "context": "<p>"
     },
@@ -3783,7 +3783,7 @@
     {
       "id": "body.blog-posts_2023-08-29-data-spaces-the-value-of-connected-data.li.2",
       "en": "Data Governance Mechanism: A data governance mechanism within data spaces determines access rights, processing, usage, and sharing of data. It establishes clear rules and protocols that enable seamless collaboration and ensure responsible data management.",
-      "it": "Meccanismo di governance dei dati: un meccanismo di governance dei dati all'interno degli spazi dati determina i diritti di accesso, elaborazione, utilizzo e condivisione dei dati. Stabilisce regole e protocolli chiari che consentono una collaborazione senza soluzione di continuità e garantiscono una gestione responsabile dei dati.",
+      "it": "Meccanismo di governance dei dati: un meccanismo di governance dei dati all'interno degli spazi dati determina i diritti di accesso, elaborazione, utilizzo e condivisione dei dati. Stabilisce regole e protocolli chiari che consentono una collaborazione senza interruzioni e garantiscono una gestione responsabile dei dati.",
       "source": "blog-posts/2023-08-29-data-spaces-the-value-of-connected-data.html",
       "context": "<li>"
     },
@@ -7780,7 +7780,7 @@
     {
       "id": "body.blog.h1.1",
       "en": "Elemento Blog",
-      "it": "Blog dell'Elemento",
+      "it": "Blog Elemento",
       "source": "blog.html",
       "context": "<h1>"
     },
@@ -7794,7 +7794,7 @@
     {
       "id": "body.blog.li.1",
       "en": "Home",
-      "it": "Casa",
+      "it": "Home",
       "source": "blog.html",
       "context": "<li>"
     },
@@ -8466,7 +8466,7 @@
     {
       "id": "body.brand-guidelines.li.1",
       "en": "Home",
-      "it": "Casa",
+      "it": "Home",
       "source": "brand-guidelines.html",
       "context": "<li>"
     },
@@ -9166,7 +9166,7 @@
     {
       "id": "body.compare-costs.li.1",
       "en": "Home",
-      "it": "Casa",
+      "it": "Home",
       "source": "compare-costs.html",
       "context": "<li>"
     },
@@ -9260,6 +9260,48 @@
       "it": "Come gestite la privacy dei dati? ▼",
       "source": "contact.html",
       "context": "<button>"
+    },
+    {
+      "id": "body.contact.faq.q.1",
+      "en": "How quickly can I get started with Elemento?",
+      "it": "Quanto velocemente posso iniziare con Elemento?",
+      "source": "contact.html",
+      "context": "faq-question"
+    },
+    {
+      "id": "body.contact.faq.q.2",
+      "en": "What kind of support do you offer?",
+      "it": "Che tipo di supporto offrite?",
+      "source": "contact.html",
+      "context": "faq-question"
+    },
+    {
+      "id": "body.contact.faq.q.3",
+      "en": "Can I deploy Elemento on-premises?",
+      "it": "Posso distribuire Elemento in locale?",
+      "source": "contact.html",
+      "context": "faq-question"
+    },
+    {
+      "id": "body.contact.faq.q.4",
+      "en": "Do you offer custom solutions?",
+      "it": "Offrite soluzioni personalizzate?",
+      "source": "contact.html",
+      "context": "faq-question"
+    },
+    {
+      "id": "body.contact.faq.q.5",
+      "en": "What compliance standards do you support?",
+      "it": "Quali standard di conformità supportate?",
+      "source": "contact.html",
+      "context": "faq-question"
+    },
+    {
+      "id": "body.contact.faq.q.6",
+      "en": "How do you handle data privacy?",
+      "it": "Come gestite la privacy dei dati?",
+      "source": "contact.html",
+      "context": "faq-question"
     },
     {
       "id": "body.contact.h1.1",
@@ -9446,7 +9488,7 @@
     {
       "id": "body.contact.li.1",
       "en": "Home",
-      "it": "Casa",
+      "it": "Home",
       "source": "contact.html",
       "context": "<li>"
     },
@@ -9516,7 +9558,7 @@
     {
       "id": "body.contact.p.17",
       "en": "Yes! Elemento is designed to be self-hostable , giving you complete control over your infrastructure and data. You can deploy on your own servers, private cloud, or hybrid environments.",
-      "it": "SÌ! Elemento è progettato per essere self-hostable, offrendoti il ​​controllo completo sulla tua infrastruttura e sui tuoi dati. Puoi eseguire la distribuzione sui tuoi server, cloud privato o ambienti ibridi.",
+      "it": "Sì! Elemento è progettato per essere auto-ospitabile, offrendoti il ​​controllo completo sulla tua infrastruttura e sui tuoi dati. Puoi eseguire la distribuzione sui tuoi server, cloud privato o ambienti ibridi.",
       "source": "contact.html",
       "context": "<p>"
     },
@@ -9754,7 +9796,7 @@
     {
       "id": "body.editor.li.1",
       "en": "Home",
-      "it": "Casa",
+      "it": "Home",
       "source": "editor.html",
       "context": "<li>"
     },
@@ -9817,7 +9859,7 @@
     {
       "id": "body.electros.h2.3",
       "en": "See Electros in Action",
-      "it": "Guarda gli elettrodi in azione",
+      "it": "Guarda Electros in azione",
       "source": "electros.html",
       "context": "<h2>"
     },
@@ -10034,7 +10076,7 @@
     {
       "id": "body.electros.li.1",
       "en": "Home",
-      "it": "Casa",
+      "it": "Home",
       "source": "electros.html",
       "context": "<li>"
     },
@@ -10125,7 +10167,7 @@
     {
       "id": "body.electros.p.13",
       "en": "Deploy VMs across public clouds and private nodes seamlessly, balancing cost, performance, and compliance.",
-      "it": "Distribuisci le VM su cloud pubblici e nodi privati ​​senza soluzione di continuità, bilanciando costi, prestazioni e conformità.",
+      "it": "Distribuisci le VM su cloud pubblici e nodi privati ​​senza interruzioni, bilanciando costi, prestazioni e conformità.",
       "source": "electros.html",
       "context": "<p>"
     },
@@ -11460,6 +11502,62 @@
       "context": "<button>"
     },
     {
+      "id": "body.index.faq.q.1",
+      "en": "How does Elemento differ from traditional cloud providers?",
+      "it": "In cosa Elemento differisce dai tradizionali fornitori di servizi cloud?",
+      "source": "index.html",
+      "context": "faq-question"
+    },
+    {
+      "id": "body.index.faq.q.2",
+      "en": "What are the cost savings compared to public cloud?",
+      "it": "Quali sono i risparmi sui costi rispetto al cloud pubblico?",
+      "source": "index.html",
+      "context": "faq-question"
+    },
+    {
+      "id": "body.index.faq.q.3",
+      "en": "How secure is the platform for enterprise use?",
+      "it": "Quanto è sicura la piattaforma per uso aziendale?",
+      "source": "index.html",
+      "context": "faq-question"
+    },
+    {
+      "id": "body.index.faq.q.4",
+      "en": "Can I migrate my existing applications?",
+      "it": "Posso migrare le mie applicazioni esistenti?",
+      "source": "index.html",
+      "context": "faq-question"
+    },
+    {
+      "id": "body.index.faq.q.5",
+      "en": "What kind of support and documentation is available?",
+      "it": "Che tipo di supporto e documentazione sono disponibili?",
+      "source": "index.html",
+      "context": "faq-question"
+    },
+    {
+      "id": "body.index.faq.q.6",
+      "en": "How does the free tier work?",
+      "it": "Come funziona il livello gratuito?",
+      "source": "index.html",
+      "context": "faq-question"
+    },
+    {
+      "id": "body.index.faq.q.7",
+      "en": "Does Elemento support Kubernetes and containers?",
+      "it": "Elemento supporta Kubernetes e contenitori?",
+      "source": "index.html",
+      "context": "faq-question"
+    },
+    {
+      "id": "body.index.faq.q.8",
+      "en": "What regions and data centers are supported?",
+      "it": "Quali regioni e data center sono supportati?",
+      "source": "index.html",
+      "context": "faq-question"
+    },
+    {
       "id": "body.index.h1.1",
       "en": "Build and Run Your Own Cloud Infrastructure with No Lock-In",
       "it": "Costruisci ed esegui la tua infrastruttura cloud senza vincoli",
@@ -11539,7 +11637,7 @@
     {
       "id": "body.index.h3.1",
       "en": "Escape vendor lock-in",
-      "it": "Sfuggire al blocco del venditore",
+      "it": "Libertà dal vendor lock-in",
       "source": "index.html",
       "context": "<h3>"
     },
@@ -11574,7 +11672,7 @@
     {
       "id": "body.index.h3.14",
       "en": "Storage",
-      "it": "Magazzinaggio",
+      "it": "Archiviazione",
       "source": "index.html",
       "context": "<h3>"
     },
@@ -11616,7 +11714,7 @@
     {
       "id": "body.index.h3.2",
       "en": "Spin up your cloud everywhere",
-      "it": "Fai girare la tua nuvola ovunque",
+      "it": "Distribuisci il tuo cloud ovunque",
       "source": "index.html",
       "context": "<h3>"
     },
@@ -11889,7 +11987,7 @@
     {
       "id": "body.index.li.31",
       "en": "Data sovereignty via self-hostable deployments",
-      "it": "Sovranità dei dati tramite distribuzioni self-hostable",
+      "it": "Sovranità dei dati tramite distribuzioni auto-ospitabile",
       "source": "index.html",
       "context": "<li>"
     },
@@ -12022,7 +12120,7 @@
     {
       "id": "body.index.p.1",
       "en": "Ready. Set. Cloud.",
-      "it": "Pronto. Impostato. Nuvola.",
+      "it": "Pronti. Via. Cloud.",
       "source": "index.html",
       "context": "<p>"
     },
@@ -12099,7 +12197,7 @@
     {
       "id": "body.index.p.2",
       "en": "Elemento lets you build and run your own cloud infrastructure with complete freedom. You choose where it runs and we automate everything for you. Your cloud. Your rules, Your freedom.",
-      "it": "Elemento ti consente di creare ed eseguire la tua infrastruttura cloud in completa libertà. Scegli dove eseguirlo e noi automatizziamo tutto per te. La tua nuvola. Le tue regole, la tua libertà.",
+      "it": "Elemento ti consente di creare ed eseguire la tua infrastruttura cloud in completa libertà. Scegli dove eseguirlo e noi automatizziamo tutto per te. Il tuo cloud. Le tue regole. La tua libertà.",
       "source": "index.html",
       "context": "<p>"
     },
@@ -12190,7 +12288,7 @@
     {
       "id": "body.index.p.31",
       "en": "Yes! Elemento supports migration from existing cloud providers and on-premises infrastructure. Our platform is compatible with standard virtualization technologies and container platforms. We provide migration tools and support to help you move workloads with minimal downtime. Most applications require no code changes.",
-      "it": "SÌ! Elemento supporta la migrazione dai provider cloud esistenti e dall'infrastruttura locale. La nostra piattaforma è compatibile con le tecnologie di virtualizzazione standard e le piattaforme container. Forniamo strumenti di migrazione e supporto per aiutarti a spostare i carichi di lavoro con tempi di inattività minimi. La maggior parte delle applicazioni non richiede modifiche al codice.",
+      "it": "Sì! Elemento supporta la migrazione dai provider cloud esistenti e dall'infrastruttura locale. La nostra piattaforma è compatibile con le tecnologie di virtualizzazione standard e le piattaforme container. Forniamo strumenti di migrazione e supporto per aiutarti a spostare i carichi di lavoro con tempi di inattività minimi. La maggior parte delle applicazioni non richiede modifiche al codice.",
       "source": "index.html",
       "context": "<p>"
     },
@@ -12211,7 +12309,7 @@
     {
       "id": "body.index.p.34",
       "en": "Yes! Elemento fully supports Kubernetes and container workloads. You can deploy and manage Kubernetes clusters across any cloud provider, and our platform provides additional orchestration capabilities on top of Kubernetes. We also support Docker containers, Helm charts, and other container-native tools.",
-      "it": "SÌ! Elemento supporta completamente Kubernetes e carichi di lavoro container. Puoi distribuire e gestire i cluster Kubernetes su qualsiasi provider cloud e la nostra piattaforma fornisce funzionalità di orchestrazione aggiuntive su Kubernetes. Supportiamo anche contenitori Docker, grafici Helm e altri strumenti nativi del contenitore.",
+      "it": "Sì! Elemento supporta completamente Kubernetes e carichi di lavoro container. Puoi distribuire e gestire i cluster Kubernetes su qualsiasi provider cloud e la nostra piattaforma fornisce funzionalità di orchestrazione aggiuntive su Kubernetes. Supportiamo anche contenitori Docker, grafici Helm e altri strumenti nativi del contenitore.",
       "source": "index.html",
       "context": "<p>"
     },
@@ -12414,7 +12512,7 @@
     {
       "id": "body.index.ui.1",
       "en": "Elemento lets you build and run your own cloud infrastructure with complete freedom. You choose where it runs and we automate everything for you. Your cloud. Your rules, Your freedom.",
-      "it": "Elemento ti consente di creare ed eseguire la tua infrastruttura cloud in completa libertà. Scegli dove eseguirlo e noi automatizziamo tutto per te. La tua nuvola. Le tue regole, la tua libertà.",
+      "it": "Elemento ti consente di creare ed eseguire la tua infrastruttura cloud in completa libertà. Scegli dove eseguirlo e noi automatizziamo tutto per te. Il tuo cloud. Le tue regole. La tua libertà.",
       "source": "index.html",
       "context": "class"
     },
@@ -12435,7 +12533,7 @@
     {
       "id": "body.index.ui.4",
       "en": "Learn About Electros",
-      "it": "Scopri di più sugli elettrodi",
+      "it": "Scopri di più su Electros",
       "source": "index.html",
       "context": "class"
     },
@@ -12491,7 +12589,7 @@
     {
       "id": "body.install-atomos.h2.3",
       "en": "Electros Installation Guide",
-      "it": "Guida all'installazione degli elettrodi",
+      "it": "Guida all'installazione di Electros",
       "source": "install-atomos.html",
       "context": "<h2>"
     },
@@ -12561,7 +12659,7 @@
     {
       "id": "body.install-atomos.li.1",
       "en": "Home",
-      "it": "Casa",
+      "it": "Home",
       "source": "install-atomos.html",
       "context": "<li>"
     },
@@ -12869,7 +12967,7 @@
     {
       "id": "body.orbital.h3.11",
       "en": "Colocation Facilities",
-      "it": "Strutture di coubicazione",
+      "it": "Strutture di colocazione",
       "source": "orbital.html",
       "context": "<h3>"
     },
@@ -13016,7 +13114,7 @@
     {
       "id": "body.orbital.li.1",
       "en": "Home",
-      "it": "Casa",
+      "it": "Home",
       "source": "orbital.html",
       "context": "<li>"
     },
@@ -13555,7 +13653,7 @@
     {
       "id": "body.products.h3.6",
       "en": "2. Colocation AtomOS",
-      "it": "2. Coubicazione AtomOS",
+      "it": "2. Colocazione AtomOS",
       "source": "products.html",
       "context": "<h3>"
     },
@@ -13597,7 +13695,7 @@
     {
       "id": "body.products.li.1",
       "en": "Home",
-      "it": "Casa",
+      "it": "Home",
       "source": "products.html",
       "context": "<li>"
     },
@@ -13723,7 +13821,7 @@
     {
       "id": "body.products.p.17",
       "en": "Server-based pricing instead of per-CPU or per-VM licensing. Encourages efficient resource utilization and reduces total cost of ownership. Learn about our green computing initiatives and pricing models .",
-      "it": "Prezzi basati su server invece che su licenza per CPU o per VM. Incoraggia l'utilizzo efficiente delle risorse e riduce il costo totale di proprietà. Scopri le nostre iniziative di green computing e i nostri modelli di prezzo.",
+      "it": "Prezzi basati su server invece che su licenza per CPU o per VM. Incoraggia l'utilizzo efficiente delle risorse e riduce il costo totale di proprietà. Scopri le nostre iniziative di cloud sostenibile e i nostri modelli di prezzo.",
       "source": "products.html",
       "context": "<p>"
     },
@@ -14038,7 +14136,7 @@
     {
       "id": "body.products.th.3",
       "en": "Colocation AtomOS",
-      "it": "Coubicazione AtomOS",
+      "it": "Colocazione AtomOS",
       "source": "products.html",
       "context": "<th>"
     },
@@ -14248,7 +14346,7 @@
     {
       "id": "body.signup.li.1",
       "en": "Home",
-      "it": "Casa",
+      "it": "Home",
       "source": "signup.html",
       "context": "<li>"
     },
@@ -14304,7 +14402,7 @@
     {
       "id": "body.solutions_ai.h3.2",
       "en": "Framework Integration",
-      "it": "Integrazione del quadro",
+      "it": "Integrazione framework",
       "source": "solutions/ai.html",
       "context": "<h3>"
     },
@@ -14717,7 +14815,7 @@
     {
       "id": "body.solutions_index.p.2",
       "en": "Train, deploy, and scale AI workloads seamlessly across clouds and on-prem nodes. GPU cluster management and multi-cloud AI environments.",
-      "it": "Addestra, distribuisci e scala i carichi di lavoro AI senza soluzione di continuità su cloud e nodi on-premise. Gestione cluster GPU e ambienti AI multi-cloud.",
+      "it": "Addestra, distribuisci e scala i carichi di lavoro AI senza interruzioni su cloud e nodi on-premise. Gestione cluster GPU e ambienti AI multi-cloud.",
       "source": "solutions/index.html",
       "context": "<p>"
     },
@@ -15921,7 +16019,7 @@
     {
       "id": "body.solutions_vmware-alternative.p.4",
       "en": "Seamless migration between on-premise and cloud environments with consistent management",
-      "it": "Migrazione senza soluzione di continuità tra ambienti on-premise e cloud con gestione coerente",
+      "it": "Migrazione senza interruzioni tra ambienti on-premise e cloud con gestione coerente",
       "source": "solutions/vmware-alternative.html",
       "context": "<p>"
     },
@@ -16194,7 +16292,7 @@
     {
       "id": "body.technology.h2.6",
       "en": "Green Cloud",
-      "it": "Nuvola verde",
+      "it": "Cloud sostenibile",
       "source": "technology.html",
       "context": "<h2>"
     },
@@ -16446,7 +16544,7 @@
     {
       "id": "body.technology.li.1",
       "en": "Home",
-      "it": "Casa",
+      "it": "Home",
       "source": "technology.html",
       "context": "<li>"
     },
@@ -16698,7 +16796,7 @@
     {
       "id": "body.technology.p.3",
       "en": "Elemento empowers organizations to manage complex IT infrastructures across multiple clouds and on-premises environments seamlessly.",
-      "it": "Elemento consente alle organizzazioni di gestire infrastrutture IT complesse su più cloud e ambienti on-premise senza soluzione di continuità.",
+      "it": "Elemento consente alle organizzazioni di gestire infrastrutture IT complesse su più cloud e ambienti on-premise senza interruzioni.",
       "source": "technology.html",
       "context": "<p>"
     },
@@ -17187,28 +17285,28 @@
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.aruba.services.0.display_name",
-      "en": "VM Management",
+      "en": "Gestione delle macchine virtuali",
       "it": "Gestione delle macchine virtuali",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.aruba.services.1.display_name",
-      "en": "Storage as a Service",
+      "en": "Archiviazione come servizio",
       "it": "Archiviazione come servizio",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.aruba.services.2.display_name",
-      "en": "Block Storage",
+      "en": "Archiviazione in blocchi",
       "it": "Archiviazione in blocchi",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.aruba.services.3.display_name",
-      "en": "Networking",
+      "en": "Rete",
       "it": "Rete",
       "source": "CMS/provider-integrations.json",
       "context": ""
@@ -17222,14 +17320,14 @@
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.aruba.services.5.display_name",
-      "en": "Cost API",
+      "en": "API dei costi",
       "it": "API dei costi",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.aruba.services.6.display_name",
-      "en": "Bare metal",
+      "en": "Metallo nudo",
       "it": "Metallo nudo",
       "source": "CMS/provider-integrations.json",
       "context": ""
@@ -17243,35 +17341,35 @@
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.arubacloud.display_name",
-      "en": "Aruba Cloud",
+      "en": "Nuvola di Aruba",
       "it": "Nuvola di Aruba",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.arubacloud.services.0.display_name",
-      "en": "VM Management",
+      "en": "Gestione delle macchine virtuali",
       "it": "Gestione delle macchine virtuali",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.arubacloud.services.1.display_name",
-      "en": "Storage as a Service",
+      "en": "Archiviazione come servizio",
       "it": "Archiviazione come servizio",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.arubacloud.services.2.display_name",
-      "en": "Block Storage",
+      "en": "Archiviazione in blocchi",
       "it": "Archiviazione in blocchi",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.arubacloud.services.3.display_name",
-      "en": "Networking",
+      "en": "Rete",
       "it": "Rete",
       "source": "CMS/provider-integrations.json",
       "context": ""
@@ -17285,14 +17383,14 @@
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.arubacloud.services.5.display_name",
-      "en": "Cost API",
+      "en": "API dei costi",
       "it": "API dei costi",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.arubacloud.services.6.display_name",
-      "en": "Bare metal",
+      "en": "Metallo nudo",
       "it": "Metallo nudo",
       "source": "CMS/provider-integrations.json",
       "context": ""
@@ -17313,28 +17411,28 @@
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.aws.services.0.display_name",
-      "en": "VM Management",
+      "en": "Gestione delle macchine virtuali",
       "it": "Gestione delle macchine virtuali",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.aws.services.1.display_name",
-      "en": "Storage as a Service",
+      "en": "Archiviazione come servizio",
       "it": "Archiviazione come servizio",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.aws.services.2.display_name",
-      "en": "Block Storage",
+      "en": "Archiviazione in blocchi",
       "it": "Archiviazione in blocchi",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.aws.services.3.display_name",
-      "en": "Networking",
+      "en": "Rete",
       "it": "Rete",
       "source": "CMS/provider-integrations.json",
       "context": ""
@@ -17348,14 +17446,14 @@
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.aws.services.5.display_name",
-      "en": "Cost API",
+      "en": "API dei costi",
       "it": "API dei costi",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.aws.services.6.display_name",
-      "en": "Bare metal",
+      "en": "Metallo nudo",
       "it": "Metallo nudo",
       "source": "CMS/provider-integrations.json",
       "context": ""
@@ -17376,28 +17474,28 @@
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.azure.services.0.display_name",
-      "en": "VM Management",
+      "en": "Gestione delle macchine virtuali",
       "it": "Gestione delle macchine virtuali",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.azure.services.1.display_name",
-      "en": "Storage as a Service",
+      "en": "Archiviazione come servizio",
       "it": "Archiviazione come servizio",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.azure.services.2.display_name",
-      "en": "Block Storage",
+      "en": "Archiviazione in blocchi",
       "it": "Archiviazione in blocchi",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.azure.services.3.display_name",
-      "en": "Networking",
+      "en": "Rete",
       "it": "Rete",
       "source": "CMS/provider-integrations.json",
       "context": ""
@@ -17411,14 +17509,14 @@
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.azure.services.5.display_name",
-      "en": "Cost API",
+      "en": "API dei costi",
       "it": "API dei costi",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.azure.services.6.display_name",
-      "en": "Bare metal",
+      "en": "Metallo nudo",
       "it": "Metallo nudo",
       "source": "CMS/provider-integrations.json",
       "context": ""
@@ -17439,28 +17537,28 @@
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.clastix.services.0.display_name",
-      "en": "VM Management",
+      "en": "Gestione delle macchine virtuali",
       "it": "Gestione delle macchine virtuali",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.clastix.services.1.display_name",
-      "en": "Storage as a Service",
+      "en": "Archiviazione come servizio",
       "it": "Archiviazione come servizio",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.clastix.services.2.display_name",
-      "en": "Block Storage",
+      "en": "Archiviazione in blocchi",
       "it": "Archiviazione in blocchi",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.clastix.services.3.display_name",
-      "en": "Networking",
+      "en": "Rete",
       "it": "Rete",
       "source": "CMS/provider-integrations.json",
       "context": ""
@@ -17474,70 +17572,70 @@
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.clastix.services.4.ui_request.capabilities.autoscale.user_label",
-      "en": "Enable Autoscaling",
+      "en": "Abilita la scalabilità automatica",
       "it": "Abilita la scalabilità automatica",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.clastix.services.4.ui_request.capabilities.cluster_name.user_label",
-      "en": "Cluster Name",
+      "en": "Nome del cluster",
       "it": "Nome del cluster",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.clastix.services.4.ui_request.capabilities.desired_number_of_nodes.user_label",
-      "en": "Desired Number of Nodes",
+      "en": "Numero desiderato di nodi",
       "it": "Numero desiderato di nodi",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.clastix.services.4.ui_request.capabilities.kubernetes_cluster_number.user_label",
-      "en": "Number of clusters",
+      "en": "Numero di cluster",
       "it": "Numero di cluster",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.clastix.services.4.ui_request.capabilities.kubernetes_version.user_label",
-      "en": "Kubernetes Version",
+      "en": "Versione Kubernetes",
       "it": "Versione Kubernetes",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.clastix.services.4.ui_request.capabilities.max_number_of_nodes.user_label",
-      "en": "Max Number of Nodes",
+      "en": "Numero massimo di nodi",
       "it": "Numero massimo di nodi",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.clastix.services.4.ui_request.capabilities.min_number_of_nodes.user_label",
-      "en": "Min Number of Nodes",
+      "en": "Numero minimo di nodi",
       "it": "Numero minimo di nodi",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.clastix.services.4.ui_request.capabilities.pool_name.user_label",
-      "en": "Pool Name",
+      "en": "Nome della piscina",
       "it": "Nome della piscina",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.clastix.services.5.display_name",
-      "en": "Cost API",
+      "en": "API dei costi",
       "it": "API dei costi",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.clastix.services.6.display_name",
-      "en": "Bare metal",
+      "en": "Metallo nudo",
       "it": "Metallo nudo",
       "source": "CMS/provider-integrations.json",
       "context": ""
@@ -17551,35 +17649,35 @@
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.cubbit.display_name",
-      "en": "Cubbit",
+      "en": "Cubito",
       "it": "Cubito",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.cubbit.services.0.display_name",
-      "en": "VM Management",
+      "en": "Gestione delle macchine virtuali",
       "it": "Gestione delle macchine virtuali",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.cubbit.services.1.display_name",
-      "en": "Storage as a Service",
+      "en": "Archiviazione come servizio",
       "it": "Archiviazione come servizio",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.cubbit.services.2.display_name",
-      "en": "Block Storage",
+      "en": "Archiviazione in blocchi",
       "it": "Archiviazione in blocchi",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.cubbit.services.3.display_name",
-      "en": "Networking",
+      "en": "Rete",
       "it": "Rete",
       "source": "CMS/provider-integrations.json",
       "context": ""
@@ -17593,14 +17691,14 @@
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.cubbit.services.5.display_name",
-      "en": "Cost API",
+      "en": "API dei costi",
       "it": "API dei costi",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.cubbit.services.6.display_name",
-      "en": "Bare metal",
+      "en": "Metallo nudo",
       "it": "Metallo nudo",
       "source": "CMS/provider-integrations.json",
       "context": ""
@@ -17614,35 +17712,35 @@
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.gigas.display_name",
-      "en": "Gigas",
+      "en": "Giga",
       "it": "Giga",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.gigas.services.0.display_name",
-      "en": "VM Management",
+      "en": "Gestione delle macchine virtuali",
       "it": "Gestione delle macchine virtuali",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.gigas.services.1.display_name",
-      "en": "Storage as a Service",
+      "en": "Archiviazione come servizio",
       "it": "Archiviazione come servizio",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.gigas.services.2.display_name",
-      "en": "Block Storage",
+      "en": "Archiviazione in blocchi",
       "it": "Archiviazione in blocchi",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.gigas.services.3.display_name",
-      "en": "Networking",
+      "en": "Rete",
       "it": "Rete",
       "source": "CMS/provider-integrations.json",
       "context": ""
@@ -17656,14 +17754,14 @@
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.gigas.services.5.display_name",
-      "en": "Cost API",
+      "en": "API dei costi",
       "it": "API dei costi",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.gigas.services.6.display_name",
-      "en": "Bare metal",
+      "en": "Metallo nudo",
       "it": "Metallo nudo",
       "source": "CMS/provider-integrations.json",
       "context": ""
@@ -17684,28 +17782,28 @@
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.google.services.0.display_name",
-      "en": "VM Management",
+      "en": "Gestione delle macchine virtuali",
       "it": "Gestione delle macchine virtuali",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.google.services.1.display_name",
-      "en": "Storage as a Service",
+      "en": "Archiviazione come servizio",
       "it": "Archiviazione come servizio",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.google.services.2.display_name",
-      "en": "Block Storage",
+      "en": "Archiviazione in blocchi",
       "it": "Archiviazione in blocchi",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.google.services.3.display_name",
-      "en": "Networking",
+      "en": "Rete",
       "it": "Rete",
       "source": "CMS/provider-integrations.json",
       "context": ""
@@ -17719,14 +17817,14 @@
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.google.services.5.display_name",
-      "en": "Cost API",
+      "en": "API dei costi",
       "it": "API dei costi",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.google.services.6.display_name",
-      "en": "Bare metal",
+      "en": "Metallo nudo",
       "it": "Metallo nudo",
       "source": "CMS/provider-integrations.json",
       "context": ""
@@ -17747,28 +17845,28 @@
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.hetzner.services.0.display_name",
-      "en": "VM Management",
+      "en": "Gestione delle macchine virtuali",
       "it": "Gestione delle macchine virtuali",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.hetzner.services.1.display_name",
-      "en": "Storage as a Service",
+      "en": "Archiviazione come servizio",
       "it": "Archiviazione come servizio",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.hetzner.services.2.display_name",
-      "en": "Block Storage",
+      "en": "Archiviazione in blocchi",
       "it": "Archiviazione in blocchi",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.hetzner.services.3.display_name",
-      "en": "Networking",
+      "en": "Rete",
       "it": "Rete",
       "source": "CMS/provider-integrations.json",
       "context": ""
@@ -17782,14 +17880,14 @@
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.hetzner.services.5.display_name",
-      "en": "Cost API",
+      "en": "API dei costi",
       "it": "API dei costi",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.hetzner.services.6.display_name",
-      "en": "Bare metal",
+      "en": "Metallo nudo",
       "it": "Metallo nudo",
       "source": "CMS/provider-integrations.json",
       "context": ""
@@ -17810,28 +17908,28 @@
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.ibm.services.0.display_name",
-      "en": "VM Management",
+      "en": "Gestione delle macchine virtuali",
       "it": "Gestione delle macchine virtuali",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.ibm.services.1.display_name",
-      "en": "Storage as a Service",
+      "en": "Archiviazione come servizio",
       "it": "Archiviazione come servizio",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.ibm.services.2.display_name",
-      "en": "Block Storage",
+      "en": "Archiviazione in blocchi",
       "it": "Archiviazione in blocchi",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.ibm.services.3.display_name",
-      "en": "Networking",
+      "en": "Rete",
       "it": "Rete",
       "source": "CMS/provider-integrations.json",
       "context": ""
@@ -17845,14 +17943,14 @@
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.ibm.services.5.display_name",
-      "en": "Cost API",
+      "en": "API dei costi",
       "it": "API dei costi",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.ibm.services.6.display_name",
-      "en": "Bare metal",
+      "en": "Metallo nudo",
       "it": "Metallo nudo",
       "source": "CMS/provider-integrations.json",
       "context": ""
@@ -17866,35 +17964,35 @@
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.impossiblecloud.display_name",
-      "en": "Impossible Cloud",
+      "en": "Nuvola impossibile",
       "it": "Nuvola impossibile",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.impossiblecloud.services.0.display_name",
-      "en": "VM Management",
+      "en": "Gestione delle macchine virtuali",
       "it": "Gestione delle macchine virtuali",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.impossiblecloud.services.1.display_name",
-      "en": "Storage as a Service",
+      "en": "Archiviazione come servizio",
       "it": "Archiviazione come servizio",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.impossiblecloud.services.2.display_name",
-      "en": "Block Storage",
+      "en": "Archiviazione in blocchi",
       "it": "Archiviazione in blocchi",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.impossiblecloud.services.3.display_name",
-      "en": "Networking",
+      "en": "Rete",
       "it": "Rete",
       "source": "CMS/provider-integrations.json",
       "context": ""
@@ -17908,21 +18006,21 @@
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.impossiblecloud.services.5.display_name",
-      "en": "Cost API",
+      "en": "API dei costi",
       "it": "API dei costi",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.impossiblecloud.services.6.display_name",
-      "en": "Bare metal",
+      "en": "Metallo nudo",
       "it": "Metallo nudo",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.impossiblecloud.svg_filename",
-      "en": "impossiblecloud_icon.svg",
+      "en": "impossibilecloud_icon.svg",
       "it": "impossibilecloud_icon.svg",
       "source": "CMS/provider-integrations.json",
       "context": ""
@@ -17936,28 +18034,28 @@
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.ionos.services.0.display_name",
-      "en": "VM Management",
+      "en": "Gestione delle macchine virtuali",
       "it": "Gestione delle macchine virtuali",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.ionos.services.1.display_name",
-      "en": "Storage as a Service",
+      "en": "Archiviazione come servizio",
       "it": "Archiviazione come servizio",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.ionos.services.2.display_name",
-      "en": "Block Storage",
+      "en": "Archiviazione in blocchi",
       "it": "Archiviazione in blocchi",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.ionos.services.3.display_name",
-      "en": "Networking",
+      "en": "Rete",
       "it": "Rete",
       "source": "CMS/provider-integrations.json",
       "context": ""
@@ -17971,14 +18069,14 @@
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.ionos.services.5.display_name",
-      "en": "Cost API",
+      "en": "API dei costi",
       "it": "API dei costi",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.ionos.services.6.display_name",
-      "en": "Bare metal",
+      "en": "Metallo nudo",
       "it": "Metallo nudo",
       "source": "CMS/provider-integrations.json",
       "context": ""
@@ -17992,35 +18090,35 @@
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.linode.display_name",
-      "en": "Linode",
+      "en": "Linodo",
       "it": "Linodo",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.linode.services.0.display_name",
-      "en": "VM Management",
+      "en": "Gestione delle macchine virtuali",
       "it": "Gestione delle macchine virtuali",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.linode.services.1.display_name",
-      "en": "Storage as a Service",
+      "en": "Archiviazione come servizio",
       "it": "Archiviazione come servizio",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.linode.services.2.display_name",
-      "en": "Block Storage",
+      "en": "Archiviazione in blocchi",
       "it": "Archiviazione in blocchi",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.linode.services.3.display_name",
-      "en": "Networking",
+      "en": "Rete",
       "it": "Rete",
       "source": "CMS/provider-integrations.json",
       "context": ""
@@ -18034,14 +18132,14 @@
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.linode.services.5.display_name",
-      "en": "Cost API",
+      "en": "API dei costi",
       "it": "API dei costi",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.linode.services.6.display_name",
-      "en": "Bare metal",
+      "en": "Metallo nudo",
       "it": "Metallo nudo",
       "source": "CMS/provider-integrations.json",
       "context": ""
@@ -18055,35 +18153,35 @@
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.oracle.display_name",
-      "en": "Oracle Cloud",
+      "en": "Oracolo Nuvola",
       "it": "Oracolo Nuvola",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.oracle.services.0.display_name",
-      "en": "VM Management",
+      "en": "Gestione delle macchine virtuali",
       "it": "Gestione delle macchine virtuali",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.oracle.services.1.display_name",
-      "en": "Storage as a Service",
+      "en": "Archiviazione come servizio",
       "it": "Archiviazione come servizio",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.oracle.services.2.display_name",
-      "en": "Block Storage",
+      "en": "Archiviazione in blocchi",
       "it": "Archiviazione in blocchi",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.oracle.services.3.display_name",
-      "en": "Networking",
+      "en": "Rete",
       "it": "Rete",
       "source": "CMS/provider-integrations.json",
       "context": ""
@@ -18097,14 +18195,14 @@
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.oracle.services.5.display_name",
-      "en": "Cost API",
+      "en": "API dei costi",
       "it": "API dei costi",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.oracle.services.6.display_name",
-      "en": "Bare metal",
+      "en": "Metallo nudo",
       "it": "Metallo nudo",
       "source": "CMS/provider-integrations.json",
       "context": ""
@@ -18125,28 +18223,28 @@
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.ovh.services.0.display_name",
-      "en": "VM Management",
+      "en": "Gestione delle macchine virtuali",
       "it": "Gestione delle macchine virtuali",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.ovh.services.1.display_name",
-      "en": "Storage as a Service",
+      "en": "Archiviazione come servizio",
       "it": "Archiviazione come servizio",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.ovh.services.2.display_name",
-      "en": "Block Storage",
+      "en": "Archiviazione in blocchi",
       "it": "Archiviazione in blocchi",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.ovh.services.3.display_name",
-      "en": "Networking",
+      "en": "Rete",
       "it": "Rete",
       "source": "CMS/provider-integrations.json",
       "context": ""
@@ -18160,14 +18258,14 @@
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.ovh.services.5.display_name",
-      "en": "Cost API",
+      "en": "API dei costi",
       "it": "API dei costi",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.ovh.services.6.display_name",
-      "en": "Bare metal",
+      "en": "Metallo nudo",
       "it": "Metallo nudo",
       "source": "CMS/provider-integrations.json",
       "context": ""
@@ -18181,35 +18279,35 @@
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.scaleway.display_name",
-      "en": "Scaleway",
+      "en": "Scala",
       "it": "Scala",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.scaleway.services.0.display_name",
-      "en": "VM Management",
+      "en": "Gestione delle macchine virtuali",
       "it": "Gestione delle macchine virtuali",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.scaleway.services.1.display_name",
-      "en": "Storage as a Service",
+      "en": "Archiviazione come servizio",
       "it": "Archiviazione come servizio",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.scaleway.services.2.display_name",
-      "en": "Block Storage",
+      "en": "Archiviazione in blocchi",
       "it": "Archiviazione in blocchi",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.scaleway.services.3.display_name",
-      "en": "Networking",
+      "en": "Rete",
       "it": "Rete",
       "source": "CMS/provider-integrations.json",
       "context": ""
@@ -18223,14 +18321,14 @@
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.scaleway.services.5.display_name",
-      "en": "Cost API",
+      "en": "API dei costi",
       "it": "API dei costi",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.scaleway.services.6.display_name",
-      "en": "Bare metal",
+      "en": "Metallo nudo",
       "it": "Metallo nudo",
       "source": "CMS/provider-integrations.json",
       "context": ""
@@ -18251,28 +18349,28 @@
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.upcloud.services.0.display_name",
-      "en": "VM Management",
+      "en": "Gestione delle macchine virtuali",
       "it": "Gestione delle macchine virtuali",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.upcloud.services.1.display_name",
-      "en": "Storage as a Service",
+      "en": "Archiviazione come servizio",
       "it": "Archiviazione come servizio",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.upcloud.services.2.display_name",
-      "en": "Block Storage",
+      "en": "Archiviazione in blocchi",
       "it": "Archiviazione in blocchi",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.upcloud.services.3.display_name",
-      "en": "Networking",
+      "en": "Rete",
       "it": "Rete",
       "source": "CMS/provider-integrations.json",
       "context": ""
@@ -18286,14 +18384,14 @@
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.upcloud.services.5.display_name",
-      "en": "Cost API",
+      "en": "API dei costi",
       "it": "API dei costi",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.upcloud.services.6.display_name",
-      "en": "Bare metal",
+      "en": "Metallo nudo",
       "it": "Metallo nudo",
       "source": "CMS/provider-integrations.json",
       "context": ""
@@ -18314,28 +18412,28 @@
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.wasabi.services.0.display_name",
-      "en": "VM Management",
+      "en": "Gestione delle macchine virtuali",
       "it": "Gestione delle macchine virtuali",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.wasabi.services.1.display_name",
-      "en": "Storage as a Service",
+      "en": "Archiviazione come servizio",
       "it": "Archiviazione come servizio",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.wasabi.services.2.display_name",
-      "en": "Block Storage",
+      "en": "Archiviazione in blocchi",
       "it": "Archiviazione in blocchi",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.wasabi.services.3.display_name",
-      "en": "Networking",
+      "en": "Rete",
       "it": "Rete",
       "source": "CMS/provider-integrations.json",
       "context": ""
@@ -18349,14 +18447,14 @@
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.wasabi.services.5.display_name",
-      "en": "Cost API",
+      "en": "API dei costi",
       "it": "API dei costi",
       "source": "CMS/provider-integrations.json",
       "context": ""
     },
     {
       "id": "CMS.provider-integrations.ELEMENTO_SUPPORTED_PROVIDERS.wasabi.services.6.display_name",
-      "en": "Bare metal",
+      "en": "Metallo nudo",
       "it": "Metallo nudo",
       "source": "CMS/provider-integrations.json",
       "context": ""
@@ -18418,6 +18516,62 @@
       "context": ""
     },
     {
+      "id": "CMS.solutions.ai.faq.items.0.answer",
+      "en": "Elemento provides intelligent GPU resource allocation across multiple cloud providers and on-premise infrastructure. Our platform automatically scales resources based on workload demands and optimizes costs while maximizing performance.",
+      "it": "Elemento fornisce un'allocazione intelligente delle risorse GPU tra più provider cloud e infrastrutture on-premise. La nostra piattaforma ridimensiona automaticamente le risorse in base alle richieste del carico di lavoro e ottimizza i costi massimizzando al contempo le prestazioni.",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.faq.items.0.question",
+      "en": "How does Elemento handle GPU resource allocation and management?",
+      "it": "In che modo Elemento gestisce l'allocazione e la gestione delle risorse GPU?",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.faq.items.1.answer",
+      "en": "Elemento provides native support for popular frameworks including TensorFlow, PyTorch, Kubernetes, Jupyter, and many others. Our platform includes pre-configured environments and seamless integration with existing AI/ML workflows.",
+      "it": "Elemento fornisce supporto nativo per framework popolari tra cui TensorFlow, PyTorch, Kubernetes, Jupyter e molti altri. La nostra piattaforma include ambienti preconfigurati e un'integrazione perfetta con i flussi di lavoro AI/ML esistenti.",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.faq.items.1.question",
+      "en": "What AI/ML frameworks does Elemento support?",
+      "it": "Quali framework AI/ML supporta Elemento?",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.faq.items.2.answer",
+      "en": "Elemento provides seamless data integration capabilities that allow you to work with data from multiple sources including private datasets, cloud storage, and AI services. Our platform includes data pipeline tools and secure data transmission.",
+      "it": "Elemento offre funzionalità di integrazione dei dati senza interruzioni che ti consentono di lavorare con dati provenienti da più fonti, inclusi set di dati privati, archiviazione cloud e servizi AI. La nostra piattaforma include strumenti di pipeline di dati e trasmissione sicura dei dati.",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.faq.items.2.question",
+      "en": "How does Elemento help with data silos between private datasets and cloud services?",
+      "it": "In che modo Elemento aiuta con i silos di dati tra set di dati privati ​​e servizi cloud?",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.faq.items.3.answer",
+      "en": "Yes! Elemento integrates with popular AI/ML tools and workflows including MLOps platforms, experiment tracking tools, and model serving frameworks. Our APIs support seamless integration with your existing development and deployment processes.",
+      "it": "Sì! Elemento si integra con i più diffusi strumenti e flussi di lavoro AI/ML, tra cui piattaforme MLOps, strumenti di monitoraggio degli esperimenti e framework di modellazione. Le nostre API supportano l'integrazione perfetta con i processi di sviluppo e distribuzione esistenti.",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai.faq.items.3.question",
+      "en": "Can Elemento work with existing AI/ML tools and workflows?",
+      "it": "Elemento può funzionare con strumenti e flussi di lavoro AI/ML esistenti?",
+      "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
       "id": "CMS.solutions.ai.faq.subtitle",
       "en": "Common questions about using Elemento for AI/ML workloads",
       "it": "Domande comuni sull'utilizzo di Elemento per carichi di lavoro AI/ML",
@@ -18455,7 +18609,7 @@
     {
       "id": "CMS.solutions.ai.features.items.1.title",
       "en": "Framework Integration",
-      "it": "Integrazione del quadro",
+      "it": "Integrazione framework",
       "source": "CMS/solutions/ai.json",
       "context": ""
     },
@@ -18827,6 +18981,62 @@
       "id": "CMS.solutions.devops.ctaFinal.title",
       "en": "Ready to Transform Your DevOps?",
       "it": "Pronto per Transform Your DevOps?",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.faq.items.0.answer",
+      "en": "Elemento provides consistent environments across all stages of your pipeline, eliminating environment drift and reducing deployment failures. Our unified platform ensures your staging environment is identical to production.",
+      "it": "Elemento fornisce ambienti coerenti in tutte le fasi della pipeline, eliminando la deriva dell'ambiente e riducendo gli errori di distribuzione. La nostra piattaforma unificata garantisce che il tuo ambiente di staging sia identico a quello di produzione.",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.faq.items.0.question",
+      "en": "How does Elemento improve CI/CD pipelines?",
+      "it": "In che modo Elemento migliora le pipeline CI/CD?",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.faq.items.1.answer",
+      "en": "Yes! Elemento integrates with popular CI/CD tools like Jenkins, GitLab CI, GitHub Actions, and Azure DevOps. You can use your existing workflows while gaining the benefits of consistent infrastructure.",
+      "it": "Sì! Elemento si integra con i più diffusi strumenti CI/CD come Jenkins, GitLab CI, GitHub Actions e Azure DevOps. Puoi utilizzare i flussi di lavoro esistenti ottenendo i vantaggi di un'infrastruttura coerente.",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.faq.items.1.question",
+      "en": "Can I use my existing CI/CD tools?",
+      "it": "Posso utilizzare gli strumenti CI/CD esistenti?",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.faq.items.2.answer",
+      "en": "Elemento abstracts away cloud provider differences, allowing you to deploy the same infrastructure configuration across AWS, Azure, Google Cloud, or your own data centers. This eliminates vendor lock-in and provides true multi-cloud flexibility.",
+      "it": "Elemento elimina le differenze tra i fornitori di servizi cloud, consentendoti di distribuire la stessa configurazione dell'infrastruttura su AWS, Azure, Google Cloud o sui tuoi data center. Ciò elimina i vincoli al fornitore e fornisce una reale flessibilità multi-cloud.",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.faq.items.2.question",
+      "en": "How does Elemento handle different cloud providers?",
+      "it": "In che modo Elemento gestisce i diversi fornitori di servizi cloud?",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.faq.items.3.answer",
+      "en": "Elemento provides enterprise-grade security with built-in encryption, access controls, and audit logging. We support SOC 2, GDPR, and other compliance requirements, making it suitable for regulated industries.",
+      "it": "Elemento fornisce sicurezza di livello aziendale con crittografia integrata, controlli di accesso e registrazione di controllo. Supportiamo SOC 2, GDPR e altri requisiti di conformità, rendendolo adatto ai settori regolamentati.",
+      "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.devops.faq.items.3.question",
+      "en": "What about security and compliance?",
+      "it": "E che dire della sicurezza e della conformità?",
       "source": "CMS/solutions/devops.json",
       "context": ""
     },
@@ -19279,6 +19489,62 @@
       "context": ""
     },
     {
+      "id": "CMS.solutions.industrial.faq.items.0.answer",
+      "en": "Elemento provides secure APIs and connectors that work with all major industrial protocols including Modbus, OPC-UA, and Ethernet/IP. Our edge processing capabilities allow real-time data collection without disrupting existing operations.",
+      "it": "Elemento fornisce API e connettori sicuri che funzionano con tutti i principali protocolli industriali tra cui Modbus, OPC-UA ed Ethernet/IP. Le nostre capacità di elaborazione edge consentono la raccolta dati in tempo reale senza interrompere le operazioni esistenti.",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.faq.items.0.question",
+      "en": "How does Elemento integrate with existing PLC and SCADA systems?",
+      "it": "Come si integra Elemento con i sistemi PLC e SCADA esistenti?",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.faq.items.1.answer",
+      "en": "Elemento provides end-to-end encryption, secure data transmission, and compliance with industrial standards like ISA/IEC 62443. Your manufacturing data remains sovereign and under your control.",
+      "it": "Elemento fornisce crittografia end-to-end, trasmissione sicura dei dati e conformità agli standard industriali come ISA/IEC 62443. I tuoi dati di produzione rimangono sovrani e sotto il tuo controllo.",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.faq.items.1.question",
+      "en": "What about data security and compliance in manufacturing?",
+      "it": "Che dire della sicurezza dei dati e della conformità nella produzione?",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.faq.items.2.answer",
+      "en": "Yes! Elemento's Atomosphere API layer provides seamless integration with popular MES systems like SAP, Oracle, and custom solutions. We support both cloud and on-premise deployments.",
+      "it": "Sì! Il livello API Atomosphere di Elemento fornisce un'integrazione perfetta con i sistemi MES più diffusi come SAP, Oracle e soluzioni personalizzate. Supportiamo sia implementazioni cloud che on-premise.",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.faq.items.2.question",
+      "en": "Can Elemento work with our existing MES and ERP systems?",
+      "it": "Elemento può funzionare con i nostri sistemi MES ed ERP esistenti?",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.faq.items.3.answer",
+      "en": "Elemento's edge processing capabilities filter and preprocess data at the source, reducing bandwidth requirements while maintaining real-time analytics. Our scalable architecture handles millions of data points per second.",
+      "it": "Le funzionalità di elaborazione edge di Elemento filtrano e preelaborano i dati alla fonte, riducendo i requisiti di larghezza di banda e mantenendo analisi in tempo reale. La nostra architettura scalabile gestisce milioni di punti dati al secondo.",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.industrial.faq.items.3.question",
+      "en": "How does Elemento handle the high data volumes from industrial sensors?",
+      "it": "In che modo Elemento gestisce gli elevati volumi di dati provenienti dai sensori industriali?",
+      "source": "CMS/solutions/industrial.json",
+      "context": ""
+    },
+    {
       "id": "CMS.solutions.industrial.faq.subtitle",
       "en": "Common questions about using Elemento for industrial operations",
       "it": "Domande comuni sull'utilizzo di Elemento per operazioni industriali",
@@ -19631,7 +19897,7 @@
     {
       "id": "CMS.solutions.industrial.useCase.subtitle",
       "en": "Real-time telemetry flows seamlessly from PLCs to analytics and optimization",
-      "it": "La telemetria in tempo reale passa senza soluzione di continuità dai PLC all'analisi e all'ottimizzazione",
+      "it": "La telemetria in tempo reale passa senza interruzioni dai PLC all'analisi e all'ottimizzazione",
       "source": "CMS/solutions/industrial.json",
       "context": ""
     },
@@ -19688,6 +19954,62 @@
       "id": "CMS.solutions.public-sector.ctaFinal.title",
       "en": "Ready to Transform Your Public Infrastructure?",
       "it": "Pronto per Transform Your Public Infrastructure?",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.faq.items.0.answer",
+      "en": "Elemento provides complete control over data location and processing with built-in sovereignty guarantees. Our platform ensures that all government data remains within your jurisdiction and under your complete control.",
+      "it": "Elemento fornisce il controllo completo sulla posizione e sull'elaborazione dei dati con garanzie di sovranità integrate. La nostra piattaforma garantisce che tutti i dati governativi rimangano nella tua giurisdizione e sotto il tuo completo controllo.",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.faq.items.0.question",
+      "en": "How does Elemento ensure data sovereignty for government data?",
+      "it": "In che modo Elemento garantisce la sovranità dei dati per i dati governativi?",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.faq.items.1.answer",
+      "en": "Elemento supports major government compliance standards including FedRAMP, GDPR, and national data sovereignty requirements. Our platform includes built-in controls and reporting capabilities to help you meet regulatory requirements.",
+      "it": "Elemento supporta i principali standard di conformità governativi, tra cui FedRAMP, GDPR e i requisiti nazionali di sovranità dei dati. La nostra piattaforma include controlli integrati e funzionalità di reporting per aiutarti a soddisfare i requisiti normativi.",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.faq.items.1.question",
+      "en": "What compliance standards does Elemento support for government use?",
+      "it": "Quali standard di conformità supporta Elemento per l'uso governativo?",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.faq.items.2.answer",
+      "en": "Yes! Elemento provides seamless integration with existing government systems including legacy applications, citizen portals, and smart city infrastructure. Our APIs support government standards and protocols.",
+      "it": "Sì! Elemento fornisce un'integrazione perfetta con i sistemi governativi esistenti, comprese le applicazioni legacy, i portali dei cittadini e l'infrastruttura delle città intelligenti. Le nostre API supportano standard e protocolli governativi.",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.faq.items.2.question",
+      "en": "Can Elemento integrate with existing government systems?",
+      "it": "Elemento può integrarsi con i sistemi governativi esistenti?",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.faq.items.3.answer",
+      "en": "Elemento provides comprehensive IoT integration capabilities for smart city infrastructure including sensor data collection, real-time analytics, and citizen service optimization. Our platform supports millions of connected devices with secure data transmission.",
+      "it": "Elemento fornisce funzionalità complete di integrazione IoT per le infrastrutture delle città intelligenti, tra cui la raccolta dei dati dei sensori, l'analisi in tempo reale e l'ottimizzazione dei servizi ai cittadini. La nostra piattaforma supporta milioni di dispositivi connessi con trasmissione dati sicura.",
+      "source": "CMS/solutions/public-sector.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.public-sector.faq.items.3.question",
+      "en": "How does Elemento handle smart city IoT and sensor data?",
+      "it": "In che modo Elemento gestisce l'IoT delle città intelligenti e i dati dei sensori?",
       "source": "CMS/solutions/public-sector.json",
       "context": ""
     },
@@ -20105,6 +20427,62 @@
       "context": ""
     },
     {
+      "id": "CMS.solutions.regulated.faq.items.0.answer",
+      "en": "Elemento provides complete control over data location and processing with built-in compliance controls. Our platform supports regional data residency requirements and includes comprehensive audit trails for regulatory compliance.",
+      "it": "Elemento fornisce il controllo completo sulla posizione e sull'elaborazione dei dati con controlli di conformità integrati. La nostra piattaforma supporta i requisiti regionali di residenza dei dati e include audit trail completi per la conformità normativa.",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.faq.items.0.question",
+      "en": "How does Elemento ensure data sovereignty and compliance?",
+      "it": "In che modo Elemento garantisce la sovranità e la conformità dei dati?",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.faq.items.1.answer",
+      "en": "Elemento supports major compliance frameworks including GDPR, HIPAA, SOC 2, ISO 27001, and PCI DSS. We provide built-in controls and reporting capabilities to help you meet regulatory requirements.",
+      "it": "Elemento supporta i principali framework di conformità tra cui GDPR, HIPAA, SOC 2, ISO 27001 e PCI DSS. Forniamo controlli integrati e funzionalità di reporting per aiutarti a soddisfare i requisiti normativi.",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.faq.items.1.question",
+      "en": "What compliance certifications does Elemento support?",
+      "it": "Quali certificazioni di conformità supporta Elemento?",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.faq.items.2.answer",
+      "en": "Elemento provides end-to-end encryption with AES-256 for data at rest and in transit. Our platform includes secure key management with support for customer-managed keys and hardware security modules (HSMs).",
+      "it": "Elemento fornisce la crittografia end-to-end con AES-256 per i dati inattivi e in transito. La nostra piattaforma include una gestione sicura delle chiavi con supporto per chiavi gestite dal cliente e moduli di sicurezza hardware (HSM).",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.faq.items.2.question",
+      "en": "How does Elemento handle encryption and key management?",
+      "it": "In che modo Elemento gestisce la crittografia e la gestione delle chiavi?",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.faq.items.3.answer",
+      "en": "Yes! Elemento integrates with popular compliance and security tools including SIEM systems, identity providers, and audit platforms. Our APIs support seamless integration with your existing security stack.",
+      "it": "Sì! Elemento si integra con i più diffusi strumenti di conformità e sicurezza, inclusi sistemi SIEM, provider di identità e piattaforme di audit. Le nostre API supportano l'integrazione perfetta con il tuo stack di sicurezza esistente.",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.regulated.faq.items.3.question",
+      "en": "Can Elemento work with existing compliance and security tools?",
+      "it": "Elemento può funzionare con gli strumenti di conformità e sicurezza esistenti?",
+      "source": "CMS/solutions/regulated.json",
+      "context": ""
+    },
+    {
       "id": "CMS.solutions.regulated.faq.subtitle",
       "en": "Common questions about using Elemento in regulated environments",
       "it": "Domande comuni sull'utilizzo di Elemento in ambienti regolamentati",
@@ -20518,6 +20896,62 @@
       "context": ""
     },
     {
+      "id": "CMS.solutions.system-integrators.faq.items.0.answer",
+      "en": "Elemento provides complete white-label capabilities including custom branding, APIs, and dashboards. You can deploy your own branded cloud environment with full control over the user experience and client management.",
+      "it": "Elemento offre funzionalità white label complete tra cui branding personalizzato, API e dashboard. Puoi distribuire il tuo ambiente cloud personalizzato con il pieno controllo dell'esperienza utente e della gestione dei clienti.",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.faq.items.0.question",
+      "en": "How does Elemento enable white-label cloud services?",
+      "it": "In che modo Elemento abilita i servizi cloud white label?",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.faq.items.1.answer",
+      "en": "Elemento's architecture provides complete tenant isolation at the hypervisor level, ensuring data security and compliance. Each client's environment is completely isolated while sharing underlying infrastructure efficiently.",
+      "it": "L'architettura di Elemento fornisce un isolamento completo del tenant a livello di hypervisor, garantendo la sicurezza e la conformità dei dati. L'ambiente di ciascun cliente è completamente isolato pur condividendo in modo efficiente l'infrastruttura sottostante.",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.faq.items.1.question",
+      "en": "What about multi-tenant security and isolation?",
+      "it": "Che dire della sicurezza e dell'isolamento multi-tenant?",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.faq.items.2.answer",
+      "en": "Elemento includes built-in usage tracking, billing APIs, and cost management tools that enable you to create flexible pricing models and recurring revenue streams around infrastructure services.",
+      "it": "Elemento include il monitoraggio integrato dell'utilizzo, API di fatturazione e strumenti di gestione dei costi che ti consentono di creare modelli di prezzo flessibili e flussi di entrate ricorrenti relativi ai servizi infrastrutturali.",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.faq.items.2.question",
+      "en": "How does Elemento help with recurring revenue models?",
+      "it": "In che modo Elemento aiuta con i modelli di entrate ricorrenti?",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.faq.items.3.answer",
+      "en": "Yes! Elemento provides comprehensive REST APIs and webhooks that integrate seamlessly with your existing tools, workflows, and client management systems. You can customize the entire experience to match your business processes.",
+      "it": "Sì! Elemento fornisce API REST e webhook completi che si integrano perfettamente con gli strumenti, i flussi di lavoro e i sistemi di gestione dei clienti esistenti. Puoi personalizzare l'intera esperienza per adattarla ai tuoi processi aziendali.",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.system-integrators.faq.items.3.question",
+      "en": "Can we integrate Elemento with our existing tools and workflows?",
+      "it": "Possiamo integrare Elemento con i nostri strumenti e flussi di lavoro esistenti?",
+      "source": "CMS/solutions/system-integrators.json",
+      "context": ""
+    },
+    {
       "id": "CMS.solutions.system-integrators.faq.subtitle",
       "en": "Common questions about using Elemento for system integration",
       "it": "Domande comuni sull'utilizzo di Elemento per l'integrazione del sistema",
@@ -20765,7 +21199,7 @@
     {
       "id": "CMS.solutions.system-integrators.solution.items.2.description",
       "en": "API layer for seamless multi-cloud orchestration and management",
-      "it": "Livello API per orchestrazione e gestione multi-cloud senza soluzione di continuità",
+      "it": "Livello API per orchestrazione e gestione multi-cloud senza interruzioni",
       "source": "CMS/solutions/system-integrators.json",
       "context": ""
     },
@@ -20906,6 +21340,62 @@
       "id": "CMS.solutions.vmware-alternative.ctaFinal.title",
       "en": "Ready to Replace VMware?",
       "it": "Pronto per Replace VMware?",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.faq.items.0.answer",
+      "en": "Elemento provides better performance than VMware vSphere with modern cloud-native architecture. Our platform includes native container support, cloud integration, and API-first management that VMware lacks. We offer equivalent or better functionality at significantly lower costs.",
+      "it": "Elemento offre prestazioni migliori rispetto a VMware vSphere con la moderna architettura nativa del cloud. La nostra piattaforma include supporto container nativo, integrazione cloud e gestione API-first che manca a VMware. Offriamo funzionalità equivalenti o migliori a costi notevolmente inferiori.",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.faq.items.0.question",
+      "en": "How does Elemento compare to VMware in terms of performance and features?",
+      "it": "Come si confronta Elemento con VMware in termini di prestazioni e funzionalità?",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.faq.items.1.answer",
+      "en": "Our migration process is designed to be straightforward with minimal downtime. We provide assessment tools, migration planning, and automated migration scripts. Most organizations complete the migration within 30 days with our support team guiding the process.",
+      "it": "Il nostro processo di migrazione è progettato per essere semplice e con tempi di inattività minimi. Forniamo strumenti di valutazione, pianificazione della migrazione e script di migrazione automatizzati. La maggior parte delle organizzazioni completa la migrazione entro 30 giorni, mentre il nostro team di supporto guida il processo.",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.faq.items.1.question",
+      "en": "What is the migration process from VMware to Elemento?",
+      "it": "Qual è il processo di migrazione da VMware a Elemento?",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.faq.items.2.answer",
+      "en": "Yes! Elemento provides compatibility layers and migration tools for existing VMware environments. We support common VMware APIs and provide gradual migration paths to minimize disruption to your operations.",
+      "it": "Sì! Elemento fornisce livelli di compatibilità e strumenti di migrazione per ambienti VMware esistenti. Supportiamo le comuni API VMware e forniamo percorsi di migrazione graduali per ridurre al minimo le interruzioni delle tue operazioni.",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.faq.items.2.question",
+      "en": "Can Elemento integrate with existing VMware tools and workflows?",
+      "it": "Elemento può integrarsi con gli strumenti e i flussi di lavoro VMware esistenti?",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.faq.items.3.answer",
+      "en": "Elemento provides comprehensive support throughout the migration process including training for your team, documentation, and ongoing support. Our team works closely with you to ensure a smooth transition from VMware to our modern platform.",
+      "it": "Elemento fornisce supporto completo durante tutto il processo di migrazione, inclusa la formazione per il tuo team, la documentazione e il supporto continuo. Il nostro team lavora a stretto contatto con te per garantire una transizione fluida da VMware alla nostra piattaforma moderna.",
+      "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-alternative.faq.items.3.question",
+      "en": "What about support and training for the migration?",
+      "it": "Che dire del sostegno e della formazione per la migrazione?",
       "source": "CMS/solutions/vmware-alternative.json",
       "context": ""
     },
@@ -21822,14 +22312,14 @@
     {
       "id": "meta.atomos.title",
       "en": "AtomOS — Powering Your Cloud with Linux Hypervisor | Elemento Cloud",
-      "it": "AtomOS: potenzia il tuo cloud con l'hypervisor Linux | Elemento Nuvola",
+      "it": "AtomOS: potenzia il tuo cloud con l'hypervisor Linux | Elemento Cloud",
       "source": "atomos.html",
       "context": "meta title"
     },
     {
       "id": "meta.atomosphere.description",
       "en": "Elemento's multicloud API gateway connects 235+ clouds and on-prem nodes into one programmable network. Unified control, seamless portability.",
-      "it": "Il gateway API multicloud di Elemento connette oltre 235 cloud e nodi on-premise in un'unica rete programmabile. Controllo unificato, portabilità senza soluzione di continuità.",
+      "it": "Il gateway API multicloud di Elemento connette oltre 235 cloud e nodi on-premise in un'unica rete programmabile. Controllo unificato, portabilità senza interruzioni.",
       "source": "atomosphere.html",
       "context": "meta description"
     },
@@ -21850,7 +22340,7 @@
     {
       "id": "meta.blog-posts_2023-01-01-7-cloud-curiorities.title",
       "en": "7 cloud curiorities | Elemento Blog",
-      "it": "7 curiosità del cloud | Blog dell'Elemento",
+      "it": "7 curiosità del cloud | Blog Elemento",
       "source": "blog-posts/2023-01-01-7-cloud-curiorities.html",
       "context": "meta title"
     },
@@ -21864,7 +22354,7 @@
     {
       "id": "meta.blog-posts_2023-01-21-accelerate-simplify-and-save-elemento-is-the-cloud-revolution-for-your-business.title",
       "en": "Accelerate, simplify and save: Elemento is the cloud revolution for your business | Elemento Blog",
-      "it": "Accelera, semplifica e risparmia: Elemento è la rivoluzione cloud per il tuo business | Blog dell'Elemento",
+      "it": "Accelera, semplifica e risparmia: Elemento è la rivoluzione cloud per il tuo business | Blog Elemento",
       "source": "blog-posts/2023-01-21-accelerate-simplify-and-save-elemento-is-the-cloud-revolution-for-your-business.html",
       "context": "meta title"
     },
@@ -21878,7 +22368,7 @@
     {
       "id": "meta.blog-posts_2023-02-10-achieving-optimal-data-protection-overcoming-limitations-of-traditional-cloud-storage-services.title",
       "en": "Achieving Optimal Data Protection: Overcoming Limitations of Traditional Cloud Storage Services | Elemento Blog",
-      "it": "Raggiungere una protezione ottimale dei dati: superare i limiti dei tradizionali servizi di cloud storage | Blog dell'Elemento",
+      "it": "Raggiungere una protezione ottimale dei dati: superare i limiti dei tradizionali servizi di cloud storage | Blog Elemento",
       "source": "blog-posts/2023-02-10-achieving-optimal-data-protection-overcoming-limitations-of-traditional-cloud-storage-services.html",
       "context": "meta title"
     },
@@ -21892,7 +22382,7 @@
     {
       "id": "meta.blog-posts_2023-03-02-cloud-gaming-the-revolution-of-video-games.title",
       "en": "Cloud Gaming: The Revolution of Video Games | Elemento Blog",
-      "it": "Cloud Gaming: la rivoluzione dei videogiochi | Blog dell'Elemento",
+      "it": "Cloud Gaming: la rivoluzione dei videogiochi | Blog Elemento",
       "source": "blog-posts/2023-03-02-cloud-gaming-the-revolution-of-video-games.html",
       "context": "meta title"
     },
@@ -21906,7 +22396,7 @@
     {
       "id": "meta.blog-posts_2023-03-22-cloud-scalability.title",
       "en": "Cloud Scalability | Elemento Blog",
-      "it": "Scalabilità del cloud | Blog dell'Elemento",
+      "it": "Scalabilità del cloud | Blog Elemento",
       "source": "blog-posts/2023-03-22-cloud-scalability.html",
       "context": "meta title"
     },
@@ -21920,7 +22410,7 @@
     {
       "id": "meta.blog-posts_2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.title",
       "en": "Cloud computing and smart working: revolutioning the work environment | Elemento Blog",
-      "it": "Cloud computing e smart working: rivoluzionare l'ambiente di lavoro | Blog dell'Elemento",
+      "it": "Cloud computing e smart working: rivoluzionare l'ambiente di lavoro | Blog Elemento",
       "source": "blog-posts/2023-04-11-cloud-computing-and-smart-working-revolutioning-the-work-environment.html",
       "context": "meta title"
     },
@@ -21934,7 +22424,7 @@
     {
       "id": "meta.blog-posts_2023-05-01-cloud-computing-challenges-in-2023-what-to-expect.title",
       "en": "Cloud computing challenges in 2023: what to expect | Elemento Blog",
-      "it": "Le sfide del cloud computing nel 2023: cosa aspettarsi | Blog dell'Elemento",
+      "it": "Le sfide del cloud computing nel 2023: cosa aspettarsi | Blog Elemento",
       "source": "blog-posts/2023-05-01-cloud-computing-challenges-in-2023-what-to-expect.html",
       "context": "meta title"
     },
@@ -21948,7 +22438,7 @@
     {
       "id": "meta.blog-posts_2023-05-21-cloud-computing-a-revolutionary-transformation-for-your-business.title",
       "en": "Cloud computing: a revolutionary transformation for your business | Elemento Blog",
-      "it": "Cloud computing: una trasformazione rivoluzionaria per il tuo business | Blog dell'Elemento",
+      "it": "Cloud computing: una trasformazione rivoluzionaria per il tuo business | Blog Elemento",
       "source": "blog-posts/2023-05-21-cloud-computing-a-revolutionary-transformation-for-your-business.html",
       "context": "meta title"
     },
@@ -21962,7 +22452,7 @@
     {
       "id": "meta.blog-posts_2023-06-10-cloud-computing-a-revolutionary-transformation-for-your-business-a46f1.title",
       "en": "Cloud computing: a revolutionary transformation for your business | Elemento Blog",
-      "it": "Cloud computing: una trasformazione rivoluzionaria per il tuo business | Blog dell'Elemento",
+      "it": "Cloud computing: una trasformazione rivoluzionaria per il tuo business | Blog Elemento",
       "source": "blog-posts/2023-06-10-cloud-computing-a-revolutionary-transformation-for-your-business-a46f1.html",
       "context": "meta title"
     },
@@ -21976,7 +22466,7 @@
     {
       "id": "meta.blog-posts_2023-06-30-cloud-migration-challenge-or-opportunity.title",
       "en": "Cloud migration: challenge or opportunity? | Elemento Blog",
-      "it": "Migrazione al cloud: sfida o opportunità? | Blog dell'Elemento",
+      "it": "Migrazione al cloud: sfida o opportunità? | Blog Elemento",
       "source": "blog-posts/2023-06-30-cloud-migration-challenge-or-opportunity.html",
       "context": "meta title"
     },
@@ -21990,7 +22480,7 @@
     {
       "id": "meta.blog-posts_2023-07-20-cloud-zero-touch-operations-perspectives-and-challenges-of-full-automation-in-cloudops.title",
       "en": "Cloud zero-touch operations: perspectives and challenges of full automation in CloudOps | Elemento Blog",
-      "it": "Operazioni cloud zero-touch: prospettive e sfide della completa automazione in CloudOps | Blog dell'Elemento",
+      "it": "Operazioni cloud zero-touch: prospettive e sfide della completa automazione in CloudOps | Blog Elemento",
       "source": "blog-posts/2023-07-20-cloud-zero-touch-operations-perspectives-and-challenges-of-full-automation-in-cloudops.html",
       "context": "meta title"
     },
@@ -22004,7 +22494,7 @@
     {
       "id": "meta.blog-posts_2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.title",
       "en": "Common mistakes (and how to avoid them) in creating a cloud strategy: Gartner's recommendations | Elemento Blog",
-      "it": "Errori comuni (e come evitarli) nella creazione di una strategia cloud: i consigli di Gartner | Blog dell'Elemento",
+      "it": "Errori comuni (e come evitarli) nella creazione di una strategia cloud: i consigli di Gartner | Blog Elemento",
       "source": "blog-posts/2023-08-09-common-mistakes-and-how-to-avoid-them-in-creating-a-cloud-strategy-gartners-recommendations.html",
       "context": "meta title"
     },
@@ -22018,7 +22508,7 @@
     {
       "id": "meta.blog-posts_2023-08-29-data-spaces-the-value-of-connected-data.title",
       "en": "Data spaces: the value of connected data | Elemento Blog",
-      "it": "Spazi dati: il valore dei dati connessi | Blog dell'Elemento",
+      "it": "Spazi dati: il valore dei dati connessi | Blog Elemento",
       "source": "blog-posts/2023-08-29-data-spaces-the-value-of-connected-data.html",
       "context": "meta title"
     },
@@ -22032,7 +22522,7 @@
     {
       "id": "meta.blog-posts_2023-09-18-datacenters-an-inevitable-transformation.title",
       "en": "Datacenters: an inevitable transformation | Elemento Blog",
-      "it": "Datacenter: una trasformazione inevitabile | Blog dell'Elemento",
+      "it": "Datacenter: una trasformazione inevitabile | Blog Elemento",
       "source": "blog-posts/2023-09-18-datacenters-an-inevitable-transformation.html",
       "context": "meta title"
     },
@@ -22046,7 +22536,7 @@
     {
       "id": "meta.blog-posts_2023-10-08-edge-computing-insights-from-gartner-research.title",
       "en": "Edge computing: insights from Gartner research | Elemento Blog",
-      "it": "Edge computing: approfondimenti dalla ricerca Gartner | Blog dell'Elemento",
+      "it": "Edge computing: approfondimenti dalla ricerca Gartner | Blog Elemento",
       "source": "blog-posts/2023-10-08-edge-computing-insights-from-gartner-research.html",
       "context": "meta title"
     },
@@ -22060,7 +22550,7 @@
     {
       "id": "meta.blog-posts_2023-10-28-elemento-guiding-sustainable-innovation-and-quality-education.title",
       "en": "Elemento: guiding sustainable innovation and quality education | Elemento Blog",
-      "it": "Elemento: guidare l'innovazione sostenibile e l'istruzione di qualità | Blog dell'Elemento",
+      "it": "Elemento: guidare l'innovazione sostenibile e l'istruzione di qualità | Blog Elemento",
       "source": "blog-posts/2023-10-28-elemento-guiding-sustainable-innovation-and-quality-education.html",
       "context": "meta title"
     },
@@ -22074,7 +22564,7 @@
     {
       "id": "meta.blog-posts_2023-11-17-elemento-the-sustainable-cloud-solution-for-your-business.title",
       "en": "Elemento: the sustainable cloud solution for your business | Elemento Blog",
-      "it": "Elemento: la soluzione cloud sostenibile per il tuo business | Blog dell'Elemento",
+      "it": "Elemento: la soluzione cloud sostenibile per il tuo business | Blog Elemento",
       "source": "blog-posts/2023-11-17-elemento-the-sustainable-cloud-solution-for-your-business.html",
       "context": "meta title"
     },
@@ -22088,7 +22578,7 @@
     {
       "id": "meta.blog-posts_2023-12-07-empowering-businesses-with-cloud-servers-in-the-digital-age.title",
       "en": "Empowering businesses with cloud servers in the digital age | Elemento Blog",
-      "it": "Potenziare le aziende con server cloud nell'era digitale | Blog dell'Elemento",
+      "it": "Potenziare le aziende con server cloud nell'era digitale | Blog Elemento",
       "source": "blog-posts/2023-12-07-empowering-businesses-with-cloud-servers-in-the-digital-age.html",
       "context": "meta title"
     },
@@ -22102,7 +22592,7 @@
     {
       "id": "meta.blog-posts_2023-12-27-exploring-the-4-types-of-cloud-storage-versatility-convenience-and-borderless-security.title",
       "en": "Exploring the 4 Types of Cloud Storage: Versatility, Convenience and Borderless Security | Elemento Blog",
-      "it": "Esplorando i 4 tipi di cloud storage: versatilità, comodità e sicurezza senza confini | Blog dell'Elemento",
+      "it": "Esplorando i 4 tipi di cloud storage: versatilità, comodità e sicurezza senza confini | Blog Elemento",
       "source": "blog-posts/2023-12-27-exploring-the-4-types-of-cloud-storage-versatility-convenience-and-borderless-security.html",
       "context": "meta title"
     },
@@ -22116,7 +22606,7 @@
     {
       "id": "meta.blog-posts_2024-01-16-exploring-the-three-types-of-cloud-services-iaas-paas-and-saas.title",
       "en": "Exploring the Three Types of Cloud Services: IaaS, Paas and SaaS | Elemento Blog",
-      "it": "Esplorando i tre tipi di servizi cloud: IaaS, Paas e SaaS | Blog dell'Elemento",
+      "it": "Esplorando i tre tipi di servizi cloud: IaaS, Paas e SaaS | Blog Elemento",
       "source": "blog-posts/2024-01-16-exploring-the-three-types-of-cloud-services-iaas-paas-and-saas.html",
       "context": "meta title"
     },
@@ -22130,7 +22620,7 @@
     {
       "id": "meta.blog-posts_2024-02-05-green-data-reducing-the-environmental-impact-of-cloud-computing.title",
       "en": "Green Data: Reducing the Environmental Impact of Cloud Computing | Elemento Blog",
-      "it": "Dati verdi: ridurre l'impatto ambientale del cloud computing | Blog dell'Elemento",
+      "it": "Dati verdi: ridurre l'impatto ambientale del cloud computing | Blog Elemento",
       "source": "blog-posts/2024-02-05-green-data-reducing-the-environmental-impact-of-cloud-computing.html",
       "context": "meta title"
     },
@@ -22144,7 +22634,7 @@
     {
       "id": "meta.blog-posts_2024-02-25-harnessing-computing-power-and-unused-resource-exchange-in-cloud-computing.title",
       "en": "Harnessing Computing Power and Unused Resource Exchange in Cloud Computing | Elemento Blog",
-      "it": "Sfruttare la potenza di calcolo e lo scambio di risorse inutilizzate nel cloud computing | Blog dell'Elemento",
+      "it": "Sfruttare la potenza di calcolo e lo scambio di risorse inutilizzate nel cloud computing | Blog Elemento",
       "source": "blog-posts/2024-02-25-harnessing-computing-power-and-unused-resource-exchange-in-cloud-computing.html",
       "context": "meta title"
     },
@@ -22158,7 +22648,7 @@
     {
       "id": "meta.blog-posts_2024-03-16-italys-national-cloud.title",
       "en": "Italy's National Cloud | Elemento Blog",
-      "it": "Il Cloud Nazionale d'Italia | Blog dell'Elemento",
+      "it": "Il Cloud Nazionale d'Italia | Blog Elemento",
       "source": "blog-posts/2024-03-16-italys-national-cloud.html",
       "context": "meta title"
     },
@@ -22172,7 +22662,7 @@
     {
       "id": "meta.blog-posts_2024-04-05-keep-your-business-secure-the-importance-of-cloud-backup.title",
       "en": "Keep Your Business Secure: The Importance of Cloud Backup | Elemento Blog",
-      "it": "Proteggi la tua azienda: l'importanza del backup sul cloud | Blog dell'Elemento",
+      "it": "Proteggi la tua azienda: l'importanza del backup sul cloud | Blog Elemento",
       "source": "blog-posts/2024-04-05-keep-your-business-secure-the-importance-of-cloud-backup.html",
       "context": "meta title"
     },
@@ -22186,7 +22676,7 @@
     {
       "id": "meta.blog-posts_2024-04-25-kyndryl-guiding-innovation-and-business-transformation-through-cloud.title",
       "en": "Kyndryl: guiding innovation and business transformation through cloud | Elemento Blog",
-      "it": "Kyndryl: guidare l'innovazione e la trasformazione aziendale attraverso il cloud | Blog dell'Elemento",
+      "it": "Kyndryl: guidare l'innovazione e la trasformazione aziendale attraverso il cloud | Blog Elemento",
       "source": "blog-posts/2024-04-25-kyndryl-guiding-innovation-and-business-transformation-through-cloud.html",
       "context": "meta title"
     },
@@ -22200,7 +22690,7 @@
     {
       "id": "meta.blog-posts_2024-05-15-optimizing-storage-space-in-cloud-computing-reduce-costs-and-carbon-emissions.title",
       "en": "Optimizing storage space in cloud computing: reduce costs and carbon emissions | Elemento Blog",
-      "it": "Ottimizzare lo spazio di archiviazione nel cloud computing: ridurre i costi e le emissioni di carbonio | Blog dell'Elemento",
+      "it": "Ottimizzare lo spazio di archiviazione nel cloud computing: ridurre i costi e le emissioni di carbonio | Blog Elemento",
       "source": "blog-posts/2024-05-15-optimizing-storage-space-in-cloud-computing-reduce-costs-and-carbon-emissions.html",
       "context": "meta title"
     },
@@ -22214,7 +22704,7 @@
     {
       "id": "meta.blog-posts_2024-06-04-public-private-hybrid-and-multicloud-understanding-the-different-options.title",
       "en": "Public, Private, Hybrid and Multicloud: Understanding the Different Options | Elemento Blog",
-      "it": "Pubblico, privato, ibrido e multicloud: comprendere le diverse opzioni | Blog dell'Elemento",
+      "it": "Pubblico, privato, ibrido e multicloud: comprendere le diverse opzioni | Blog Elemento",
       "source": "blog-posts/2024-06-04-public-private-hybrid-and-multicloud-understanding-the-different-options.html",
       "context": "meta title"
     },
@@ -22228,7 +22718,7 @@
     {
       "id": "meta.blog-posts_2024-06-24-sustainability-and-telecommunications-environmental-impact-and-the-role-of-cloud.title",
       "en": "Sustainability and telecommunications: environmental impact and the role of cloud | Elemento Blog",
-      "it": "Sostenibilità e telecomunicazioni: impatto ambientale e ruolo del cloud | Blog dell'Elemento",
+      "it": "Sostenibilità e telecomunicazioni: impatto ambientale e ruolo del cloud | Blog Elemento",
       "source": "blog-posts/2024-06-24-sustainability-and-telecommunications-environmental-impact-and-the-role-of-cloud.html",
       "context": "meta title"
     },
@@ -22242,7 +22732,7 @@
     {
       "id": "meta.blog-posts_2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision.title",
       "en": "TCO in cloud computing: a comprehensive cost analysis for business decision | Elemento Blog",
-      "it": "TCO nel cloud computing: un'analisi completa dei costi per le decisioni aziendali | Blog dell'Elemento",
+      "it": "TCO nel cloud computing: un'analisi completa dei costi per le decisioni aziendali | Blog Elemento",
       "source": "blog-posts/2024-07-14-tco-in-cloud-computing-a-comprehensive-cost-analysis-for-business-decision.html",
       "context": "meta title"
     },
@@ -22256,7 +22746,7 @@
     {
       "id": "meta.blog-posts_2024-08-03-thales-annual-report-escalating-ransomware-attacks-and-cloud-data-risks-sound-digital-sovereignty-alarm.title",
       "en": "Thales' Annual Report: escalating ransomware attacks and cloud data risks sound digital sovereignty alarm | Elemento Blog",
-      "it": "Rapporto annuale Thales: l'escalation degli attacchi ransomware e i rischi relativi ai dati nel cloud suonano come un allarme per la sovranità digitale | Blog dell'Elemento",
+      "it": "Rapporto annuale Thales: l'escalation degli attacchi ransomware e i rischi relativi ai dati nel cloud suonano come un allarme per la sovranità digitale | Blog Elemento",
       "source": "blog-posts/2024-08-03-thales-annual-report-escalating-ransomware-attacks-and-cloud-data-risks-sound-digital-sovereignty-alarm.html",
       "context": "meta title"
     },
@@ -22270,7 +22760,7 @@
     {
       "id": "meta.blog-posts_2024-08-23-the-5rs-powerful-cloud-migration-strategies.title",
       "en": "The 5Rs: Powerful Cloud Migration Strategies | Elemento Blog",
-      "it": "Le 5R: potenti strategie di migrazione al cloud | Blog dell'Elemento",
+      "it": "Le 5R: potenti strategie di migrazione al cloud | Blog Elemento",
       "source": "blog-posts/2024-08-23-the-5rs-powerful-cloud-migration-strategies.html",
       "context": "meta title"
     },
@@ -22284,7 +22774,7 @@
     {
       "id": "meta.blog-posts_2024-09-12-the-benefits-of-virtualization-for-cloud-computing-resource-optimization-and-operational-agility.title",
       "en": "The Benefits of Virtualization for Cloud Computing: Resource Optimization and Operational Agility | Elemento Blog",
-      "it": "I vantaggi della virtualizzazione per il cloud computing: ottimizzazione delle risorse e agilità operativa | Blog dell'Elemento",
+      "it": "I vantaggi della virtualizzazione per il cloud computing: ottimizzazione delle risorse e agilità operativa | Blog Elemento",
       "source": "blog-posts/2024-09-12-the-benefits-of-virtualization-for-cloud-computing-resource-optimization-and-operational-agility.html",
       "context": "meta title"
     },
@@ -22298,7 +22788,7 @@
     {
       "id": "meta.blog-posts_2024-10-02-the-era-of-big-data.title",
       "en": "The Era of Big Data | Elemento Blog",
-      "it": "L'era dei Big Data | Blog dell'Elemento",
+      "it": "L'era dei Big Data | Blog Elemento",
       "source": "blog-posts/2024-10-02-the-era-of-big-data.html",
       "context": "meta title"
     },
@@ -22312,7 +22802,7 @@
     {
       "id": "meta.blog-posts_2024-10-22-the-european-open-science-cloud-towards-a-global-data-space-for-research.title",
       "en": "The European Open Science Cloud: towards a global data space for research | Elemento Blog",
-      "it": "Il cloud europeo per la scienza aperta: verso uno spazio globale di dati per la ricerca | Blog dell'Elemento",
+      "it": "Il cloud europeo per la scienza aperta: verso uno spazio globale di dati per la ricerca | Blog Elemento",
       "source": "blog-posts/2024-10-22-the-european-open-science-cloud-towards-a-global-data-space-for-research.html",
       "context": "meta title"
     },
@@ -22326,7 +22816,7 @@
     {
       "id": "meta.blog-posts_2024-11-11-the-evolution-of-cloud-computing-from-the-early-ideas-of-john-mccarthy-to-modern-platforms.title",
       "en": "The Evolution of Cloud Computing: From the Early Ideas of John McCarthy to Modern Platforms | Elemento Blog",
-      "it": "L'evoluzione del cloud computing: dalle prime idee di John McCarthy alle piattaforme moderne | Blog dell'Elemento",
+      "it": "L'evoluzione del cloud computing: dalle prime idee di John McCarthy alle piattaforme moderne | Blog Elemento",
       "source": "blog-posts/2024-11-11-the-evolution-of-cloud-computing-from-the-early-ideas-of-john-mccarthy-to-modern-platforms.html",
       "context": "meta title"
     },
@@ -22340,7 +22830,7 @@
     {
       "id": "meta.blog-posts_2024-12-01-the-future-of-cloud-computing-in-2023-revolutionary-trends-and-looming-challenges.title",
       "en": "The Future of Cloud Computing in 2023: Revolutionary Trends and Looming Challenges | Elemento Blog",
-      "it": "Il futuro del cloud computing nel 2023: tendenze rivoluzionarie e sfide incombenti | Blog dell'Elemento",
+      "it": "Il futuro del cloud computing nel 2023: tendenze rivoluzionarie e sfide incombenti | Blog Elemento",
       "source": "blog-posts/2024-12-01-the-future-of-cloud-computing-in-2023-revolutionary-trends-and-looming-challenges.html",
       "context": "meta title"
     },
@@ -22354,7 +22844,7 @@
     {
       "id": "meta.blog-posts_2024-12-21-the-importance-of-cybersecurity-in-the-digital-age.title",
       "en": "The Importance of Cybersecurity in the Digital Age | Elemento Blog",
-      "it": "L'importanza della sicurezza informatica nell'era digitale | Blog dell'Elemento",
+      "it": "L'importanza della sicurezza informatica nell'era digitale | Blog Elemento",
       "source": "blog-posts/2024-12-21-the-importance-of-cybersecurity-in-the-digital-age.html",
       "context": "meta title"
     },
@@ -22368,7 +22858,7 @@
     {
       "id": "meta.blog-posts_2025-01-10-the-origin-of-the-term-cloud-a-technological-metaphor.title",
       "en": "The Origin of the Term \"Cloud\": A Technological Metaphor | Elemento Blog",
-      "it": "L'origine del termine \"cloud\": una metafora tecnologica | Blog dell'Elemento",
+      "it": "L'origine del termine \"cloud\": una metafora tecnologica | Blog Elemento",
       "source": "blog-posts/2025-01-10-the-origin-of-the-term-cloud-a-technological-metaphor.html",
       "context": "meta title"
     },
@@ -22382,7 +22872,7 @@
     {
       "id": "meta.blog-posts_2025-01-30-the-power-of-virtualization-in-cloud-computing.title",
       "en": "The Power of Virtualization in Cloud Computing | Elemento Blog",
-      "it": "Il potere della virtualizzazione nel cloud computing | Blog dell'Elemento",
+      "it": "Il potere della virtualizzazione nel cloud computing | Blog Elemento",
       "source": "blog-posts/2025-01-30-the-power-of-virtualization-in-cloud-computing.html",
       "context": "meta title"
     },
@@ -22396,7 +22886,7 @@
     {
       "id": "meta.blog-posts_2025-02-19-the-multi-cloud-conundrum-is-it-really-that-difficult.title",
       "en": "The multi-cloud conundrum: is it really that difficult? | Elemento Blog",
-      "it": "L’enigma del multi-cloud: è davvero così difficile? | Blog dell'Elemento",
+      "it": "L’enigma del multi-cloud: è davvero così difficile? | Blog Elemento",
       "source": "blog-posts/2025-02-19-the-multi-cloud-conundrum-is-it-really-that-difficult.html",
       "context": "meta title"
     },
@@ -22410,7 +22900,7 @@
     {
       "id": "meta.blog-posts_2025-03-11-the-new-cloud-for-cultural-heritage-higital-transformation-serving-safeguarding.title",
       "en": "The new cloud for cultural heritage: digital transformation serving safeguarding | Elemento Blog",
-      "it": "Il nuovo cloud per i beni culturali: la trasformazione digitale al servizio della tutela | Blog dell'Elemento",
+      "it": "Il nuovo cloud per i beni culturali: la trasformazione digitale al servizio della tutela | Blog Elemento",
       "source": "blog-posts/2025-03-11-the-new-cloud-for-cultural-heritage-higital-transformation-serving-safeguarding.html",
       "context": "meta title"
     },
@@ -22424,7 +22914,7 @@
     {
       "id": "meta.blog-posts_2025-03-31-the-triumph-of-cloud-computing-reaching-1-000-billion-in-revenues-by-2027.title",
       "en": "The triumph of cloud computing: reaching $1,000 billion in revenues by 2027 | Elemento Blog",
-      "it": "Il trionfo del cloud computing: raggiungere i 1.000 miliardi di dollari di ricavi entro il 2027 | Blog dell'Elemento",
+      "it": "Il trionfo del cloud computing: raggiungere i 1.000 miliardi di dollari di ricavi entro il 2027 | Blog Elemento",
       "source": "blog-posts/2025-03-31-the-triumph-of-cloud-computing-reaching-1-000-billion-in-revenues-by-2027.html",
       "context": "meta title"
     },
@@ -22438,7 +22928,7 @@
     {
       "id": "meta.blog-posts_2025-04-20-unveiling-the-power-of-the-cloud-differences-between-cloud-storage-and-cloud-computing.title",
       "en": "Unveiling the power of the cloud: differences between cloud storage and cloud computing | Elemento Blog",
-      "it": "Svelare la potenza del cloud: differenze tra cloud storage e cloud computing | Blog dell'Elemento",
+      "it": "Svelare la potenza del cloud: differenze tra cloud storage e cloud computing | Blog Elemento",
       "source": "blog-posts/2025-04-20-unveiling-the-power-of-the-cloud-differences-between-cloud-storage-and-cloud-computing.html",
       "context": "meta title"
     },
@@ -22452,7 +22942,7 @@
     {
       "id": "meta.blog-posts_2025-05-10-what-is-cloud-computing.title",
       "en": "What is cloud computing? | Elemento Blog",
-      "it": "Cos'è il cloud computing? | Blog dell'Elemento",
+      "it": "Cos'è il cloud computing? | Blog Elemento",
       "source": "blog-posts/2025-05-10-what-is-cloud-computing.html",
       "context": "meta title"
     },
@@ -22466,7 +22956,7 @@
     {
       "id": "meta.blog-posts_2025-05-30-within-2026-cloud-security-will-be-manager-by-socs-trend-micros-predictions.title",
       "en": "Within 2026, cloud security will be manager by SOCs: Trend Micro's predictions | Elemento Blog",
-      "it": "Entro il 2026 la sicurezza del cloud sarà gestita dai SOC: le previsioni di Trend Micro | Blog dell'Elemento",
+      "it": "Entro il 2026 la sicurezza del cloud sarà gestita dai SOC: le previsioni di Trend Micro | Blog Elemento",
       "source": "blog-posts/2025-05-30-within-2026-cloud-security-will-be-manager-by-socs-trend-micros-predictions.html",
       "context": "meta title"
     },
@@ -22480,7 +22970,7 @@
     {
       "id": "meta.blog-posts_2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.title",
       "en": "The Future of Cloud: What &quot;Cloud&quot; Really Means, Why It&#x27;s Centralized, and What Comes Next | Elemento Blog",
-      "it": "Il futuro del cloud: cos'è il \"cloud\"? Significa davvero, perché è centralizzato e cosa viene dopo | Blog dell'Elemento",
+      "it": "Il futuro del cloud: cos'è il \"cloud\"? Significa davvero, perché è centralizzato e cosa viene dopo | Blog Elemento",
       "source": "blog-posts/2026-04-23-the-future-of-cloud-what-cloud-really-means-why-its-centralized-and-what-comes-next.html",
       "context": "meta title"
     },
@@ -22543,7 +23033,7 @@
     {
       "id": "meta.compare-costs.title",
       "en": "Compare Costs — AtomOS vs VMware | Elemento Cloud",
-      "it": "Confronta i costi: AtomOS e VMware | Elemento Nuvola",
+      "it": "Confronta i costi: AtomOS e VMware | Elemento Cloud",
       "source": "compare-costs.html",
       "context": "meta title"
     },
@@ -22585,7 +23075,7 @@
     {
       "id": "meta.electros.title",
       "en": "Electros App — Orchestration Dashboard & CLI | Elemento Cloud",
-      "it": "App Electros: dashboard di orchestrazione e CLI | Elemento Nuvola",
+      "it": "App Electros: dashboard di orchestrazione e CLI | Elemento Cloud",
       "source": "electros.html",
       "context": "meta title"
     },
@@ -22648,7 +23138,7 @@
     {
       "id": "meta.index.description",
       "en": "Elemento is a vendor-neutral, cost-saving, green, high-performance, self-hostable cloud platform with infrastructure-as-code readiness.",
-      "it": "Elemento è una piattaforma cloud indipendente dal fornitore, economica, ecologica, ad alte prestazioni e self-hostable con predisposizione per l'infrastruttura come codice.",
+      "it": "Elemento è una piattaforma cloud indipendente dal fornitore, economica, ecologica, ad alte prestazioni e auto-ospitabile con predisposizione per l'infrastruttura come codice.",
       "source": "index.html",
       "context": "meta description"
     },
@@ -22669,7 +23159,7 @@
     {
       "id": "meta.install-atomos.title",
       "en": "Installation Guide — AtomOS & Electros | Elemento Cloud",
-      "it": "Guida all'installazione — AtomOS ed Electros | Elemento Nuvola",
+      "it": "Guida all'installazione — AtomOS ed Electros | Elemento Cloud",
       "source": "install-atomos.html",
       "context": "meta title"
     },
@@ -22683,7 +23173,7 @@
     {
       "id": "meta.orbital.title",
       "en": "Orbital — Hardware Servers with AtomOS | Elemento Cloud",
-      "it": "Orbital: server hardware con AtomOS | Elemento Nuvola",
+      "it": "Orbital: server hardware con AtomOS | Elemento Cloud",
       "source": "orbital.html",
       "context": "meta title"
     },
@@ -22732,14 +23222,14 @@
     {
       "id": "meta.solutions_ai.description",
       "en": "Train, deploy, and scale AI workloads seamlessly across clouds and on-prem nodes. Elemento provides GPU cluster management and multi-cloud AI environments.",
-      "it": "Addestra, distribuisci e scala i carichi di lavoro AI senza soluzione di continuità su cloud e nodi on-premise. Elemento fornisce la gestione dei cluster GPU e ambienti AI multi-cloud.",
+      "it": "Addestra, distribuisci e scala i carichi di lavoro AI senza interruzioni su cloud e nodi on-premise. Elemento fornisce la gestione dei cluster GPU e ambienti AI multi-cloud.",
       "source": "solutions/ai.html",
       "context": "meta description"
     },
     {
       "id": "meta.solutions_ai.title",
       "en": "AI/Data Science Startups & Research Labs | Elemento",
-      "it": "Startup e laboratori di ricerca in materia di intelligenza artificiale/scienza dei dati | Elemento",
+      "it": "AI/ML e data science | Elemento",
       "source": "solutions/ai.html",
       "context": "meta title"
     },
@@ -22851,7 +23341,7 @@
     {
       "id": "meta.technology.description",
       "en": "Explore the cutting-edge technology behind Elemento's cloud platform including Kubernetes, Infrastructure as Code, multi-cloud architecture, and green computing innovations.",
-      "it": "Esplora la tecnologia all'avanguardia alla base della piattaforma cloud di Elemento, tra cui Kubernetes, Infrastructure as Code, architettura multi-cloud e innovazioni di green computing.",
+      "it": "Esplora la tecnologia all'avanguardia alla base della piattaforma cloud di Elemento, tra cui Kubernetes, Infrastructure as Code, architettura multi-cloud e innovazioni di cloud sostenibile.",
       "source": "technology.html",
       "context": "meta description"
     },
@@ -22919,9 +23409,37 @@
       "context": "meta title"
     },
     {
+      "id": "ui.blog.articlesLabel",
+      "en": "articles",
+      "it": "articoli",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.blog.byAuthor",
+      "en": "By",
+      "it": "Di",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
       "id": "ui.blog.description",
       "en": "Expert insights, industry news, and innovative stories from the Elemento team and cloud computing community.",
       "it": "Approfondimenti, notizie e storie dal team Elemento e dalla community del cloud computing.",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.blog.emptyBody",
+      "en": "Check back soon for new articles and insights.",
+      "it": "Torna presto per nuovi articoli e approfondimenti.",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.blog.emptyTitle",
+      "en": "No Articles Yet",
+      "it": "Nessun articolo",
       "source": "src/i18n/ui",
       "context": ""
     },
@@ -22933,9 +23451,30 @@
       "context": ""
     },
     {
+      "id": "ui.blog.errorBody",
+      "en": "Unable to load blog posts. Please try again later.",
+      "it": "Impossibile caricare gli articoli del blog. Riprova più tardi.",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.blog.errorTitle",
+      "en": "Error Loading Articles",
+      "it": "Errore nel caricamento degli articoli",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
       "id": "ui.blog.heading",
       "en": "Blog",
       "it": "Blog",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.blog.loading",
+      "en": "Loading articles…",
+      "it": "Caricamento articoli…",
       "source": "src/i18n/ui",
       "context": ""
     },
@@ -23096,7 +23635,7 @@
     {
       "id": "ui.footer.privacy",
       "en": "Privacy Policy",
-      "it": "politica sulla riservatezza",
+      "it": "Informativa sulla privacy",
       "source": "src/i18n/ui",
       "context": ""
     },
@@ -23117,21 +23656,35 @@
     {
       "id": "ui.footer.tagline",
       "en": "Vendor-neutral, high-performance cloud platform that's cost-effective, green, and self-hostable.",
-      "it": "Piattaforma cloud ad alte prestazioni, vendor-neutral, economica, green e self-hostable.",
+      "it": "Piattaforma cloud indipendente dal fornitore, ad alte prestazioni, conveniente, sostenibile e auto-ospitabile.",
       "source": "src/i18n/ui",
       "context": ""
     },
     {
       "id": "ui.langSwitcher.en",
       "en": "EN",
-      "it": "IT",
+      "it": "EN",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.langSwitcher.enAria",
+      "en": "English",
+      "it": "Inglese",
       "source": "src/i18n/ui",
       "context": ""
     },
     {
       "id": "ui.langSwitcher.it",
       "en": "IT",
-      "it": "ESSO",
+      "it": "IT",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.langSwitcher.itAria",
+      "en": "Italian",
+      "it": "Italiano",
       "source": "src/i18n/ui",
       "context": ""
     },
@@ -23159,7 +23712,7 @@
     {
       "id": "ui.nav.bookCall",
       "en": "Book a Call",
-      "it": "Prenota una call",
+      "it": "Prenota una chiamata",
       "source": "src/i18n/ui",
       "context": ""
     },
@@ -23201,14 +23754,14 @@
     {
       "id": "ui.pages.about.description",
       "en": "Learn about Elemento's mission to transform cloud infrastructure with vendor-neutral, cost-effective, and green computing solutions.",
-      "it": "Scopri la missione di Elemento: infrastruttura cloud vendor-neutral, sostenibile e conveniente.",
+      "it": "Scopri la missione di Elemento di trasformare l'infrastruttura cloud con soluzioni informatiche indipendenti dal fornitore, convenienti ed ecologiche.",
       "source": "src/i18n/ui",
       "context": ""
     },
     {
       "id": "ui.pages.about.heroSubtitle",
       "en": "Transforming cloud infrastructure with vendor-neutral, cost-effective, and sustainable computing.",
-      "it": "Trasformiamo l'infrastruttura cloud con soluzioni vendor-neutral, sostenibili e convenienti.",
+      "it": "Trasformiamo l'infrastruttura cloud con soluzioni indipendenti dal fornitore, sostenibili e convenienti.",
       "source": "src/i18n/ui",
       "context": ""
     },
@@ -23222,14 +23775,14 @@
     {
       "id": "ui.pages.about.title",
       "en": "Elemento | About | Cloud Platform Mission & Team",
-      "it": "Elemento | Chi siamo | Missione e team",
+      "it": "Elemento | Chi siamo | Missione e team della piattaforma cloud",
       "source": "src/i18n/ui",
       "context": ""
     },
     {
       "id": "ui.pages.contact.description",
       "en": "Get in touch with Elemento for cloud infrastructure solutions, support, sales inquiries, or partnership opportunities.",
-      "it": "Contatta Elemento per soluzioni cloud, supporto, vendite o partnership.",
+      "it": "Mettiti in contatto con Elemento per soluzioni di infrastruttura cloud, supporto, richieste di vendita o opportunità di partnership.",
       "source": "src/i18n/ui",
       "context": ""
     },
@@ -23250,21 +23803,21 @@
     {
       "id": "ui.pages.contact.title",
       "en": "Elemento | Contact | Get Support for Your Cloud Platform",
-      "it": "Elemento | Contatti | Supporto per la tua piattaforma cloud",
+      "it": "Elemento | Contatto | Ottieni supporto per la tua piattaforma cloud",
       "source": "src/i18n/ui",
       "context": ""
     },
     {
       "id": "ui.pages.index.description",
       "en": "Elemento is a vendor-neutral, cost-saving, green, high-performance, self-hostable cloud platform with infrastructure-as-code readiness.",
-      "it": "Elemento è una piattaforma cloud vendor-neutral, economica, green, ad alte prestazioni e self-hostable, pronta per l'infrastructure-as-code.",
+      "it": "Elemento è una piattaforma cloud indipendente dal fornitore, economica, ecologica, ad alte prestazioni e auto-ospitabile con predisposizione per l'infrastruttura come codice.",
       "source": "src/i18n/ui",
       "context": ""
     },
     {
       "id": "ui.pages.index.heroSubtitle",
       "en": "Vendor-neutral, cost-saving, green, high-performance, self-hostable cloud with infrastructure-as-code readiness.",
-      "it": "Cloud vendor-neutral, economico, green, ad alte prestazioni e self-hostable, pronto per l'infrastructure-as-code.",
+      "it": "Cloud indipendente dal fornitore, conveniente, sostenibile, ad alte prestazioni e auto-ospitabile, pronto per l'infrastructure as code.",
       "source": "src/i18n/ui",
       "context": ""
     },
@@ -23285,7 +23838,7 @@
     {
       "id": "ui.pages.products.description",
       "en": "Explore Elemento's modular cloud products: AtomOS hypervisor, Electros orchestration, and Atomosphere API layer.",
-      "it": "Scopri i prodotti modulari Elemento: hypervisor AtomOS, orchestrazione Electros e API Atomosphere.",
+      "it": "Esplora i prodotti completi della piattaforma cloud di Elemento, tra cui l'hypervisor AtomOS, il dashboard di orchestrazione Electros e il proxy API Atomosphere per la gestione unificata dell'infrastruttura.",
       "source": "src/i18n/ui",
       "context": ""
     },
@@ -23306,14 +23859,14 @@
     {
       "id": "ui.pages.products.title",
       "en": "Elemento | Products | AtomOS, Electros & Atomosphere",
-      "it": "Elemento | Prodotti | AtomOS, Electros e Atomosphere",
+      "it": "Elemento | Prodotti | Piattaforma di gestione e infrastruttura cloud",
       "source": "src/i18n/ui",
       "context": ""
     },
     {
       "id": "ui.pages.signup.description",
       "en": "Sign up for Elemento to access AtomOS, Electros, and Atomosphere. Start with our free tier or contact sales.",
-      "it": "Registrati su Elemento per AtomOS, Electros e Atomosphere. Inizia dal piano gratuito o contatta il commerciale.",
+      "it": "Unisciti a Elemento e inizia con il futuro del cloud computing. Iscriviti gratuitamente e inizia a costruire la tua infrastruttura cloud.",
       "source": "src/i18n/ui",
       "context": ""
     },
@@ -23334,7 +23887,7 @@
     {
       "id": "ui.pages.signup.title",
       "en": "Elemento | Sign up | Start your cloud platform journey",
-      "it": "Elemento | Registrati | Inizia con la piattaforma cloud",
+      "it": "Iscriviti - Elemento Cloud Platform",
       "source": "src/i18n/ui",
       "context": ""
     },
@@ -23352,6 +23905,5 @@
       "source": "src/i18n/ui",
       "context": ""
     }
-  ],
-  "translatedAt": "2026-05-23T00:38:25Z"
+  ]
 }

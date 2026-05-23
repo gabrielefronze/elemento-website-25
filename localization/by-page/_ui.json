@@ -1,11 +1,39 @@
 {
   "page": "_ui",
-  "count": 62,
+  "count": 71,
   "strings": [
+    {
+      "id": "ui.blog.articlesLabel",
+      "en": "articles",
+      "it": "articoli",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.blog.byAuthor",
+      "en": "By",
+      "it": "Di",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
     {
       "id": "ui.blog.description",
       "en": "Expert insights, industry news, and innovative stories from the Elemento team and cloud computing community.",
       "it": "Approfondimenti, notizie e storie dal team Elemento e dalla community del cloud computing.",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.blog.emptyBody",
+      "en": "Check back soon for new articles and insights.",
+      "it": "Torna presto per nuovi articoli e approfondimenti.",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.blog.emptyTitle",
+      "en": "No Articles Yet",
+      "it": "Nessun articolo",
       "source": "src/i18n/ui",
       "context": ""
     },
@@ -17,9 +45,30 @@
       "context": ""
     },
     {
+      "id": "ui.blog.errorBody",
+      "en": "Unable to load blog posts. Please try again later.",
+      "it": "Impossibile caricare gli articoli del blog. Riprova più tardi.",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.blog.errorTitle",
+      "en": "Error Loading Articles",
+      "it": "Errore nel caricamento degli articoli",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
       "id": "ui.blog.heading",
       "en": "Blog",
       "it": "Blog",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.blog.loading",
+      "en": "Loading articles…",
+      "it": "Caricamento articoli…",
       "source": "src/i18n/ui",
       "context": ""
     },
@@ -75,7 +124,7 @@
     {
       "id": "ui.cms.providerColumn",
       "en": "Provider",
-      "it": "Provider",
+      "it": "Fornitore",
       "source": "src/i18n/ui",
       "context": ""
     },
@@ -124,7 +173,7 @@
     {
       "id": "ui.footer.brandGuidelines",
       "en": "Brand guidelines",
-      "it": "Brand guidelines",
+      "it": "Linee guida del marchio",
       "source": "src/i18n/ui",
       "context": ""
     },
@@ -152,7 +201,7 @@
     {
       "id": "ui.footer.cookies",
       "en": "Cookie Policy",
-      "it": "Cookie Policy",
+      "it": "Politica sui cookie",
       "source": "src/i18n/ui",
       "context": ""
     },
@@ -180,7 +229,7 @@
     {
       "id": "ui.footer.privacy",
       "en": "Privacy Policy",
-      "it": "Privacy Policy",
+      "it": "politica sulla riservatezza",
       "source": "src/i18n/ui",
       "context": ""
     },
@@ -213,9 +262,23 @@
       "context": ""
     },
     {
+      "id": "ui.langSwitcher.enAria",
+      "en": "English",
+      "it": "Inglese",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
       "id": "ui.langSwitcher.it",
       "en": "IT",
       "it": "IT",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.langSwitcher.itAria",
+      "en": "Italian",
+      "it": "Italiano",
       "source": "src/i18n/ui",
       "context": ""
     },
@@ -285,7 +348,7 @@
     {
       "id": "ui.pages.about.description",
       "en": "Learn about Elemento's mission to transform cloud infrastructure with vendor-neutral, cost-effective, and green computing solutions.",
-      "it": "Scopri la missione di Elemento: infrastruttura cloud vendor-neutral, sostenibile e conveniente.",
+      "it": "Scopri la missione di Elemento di trasformare l'infrastruttura cloud con soluzioni informatiche indipendenti dal fornitore, convenienti ed ecologiche.",
       "source": "src/i18n/ui",
       "context": ""
     },
@@ -306,14 +369,14 @@
     {
       "id": "ui.pages.about.title",
       "en": "Elemento | About | Cloud Platform Mission & Team",
-      "it": "Elemento | Chi siamo | Missione e team",
+      "it": "Elemento | Informazioni su | Missione e team della piattaforma cloud",
       "source": "src/i18n/ui",
       "context": ""
     },
     {
       "id": "ui.pages.contact.description",
       "en": "Get in touch with Elemento for cloud infrastructure solutions, support, sales inquiries, or partnership opportunities.",
-      "it": "Contatta Elemento per soluzioni cloud, supporto, vendite o partnership.",
+      "it": "Mettiti in contatto con Elemento per soluzioni di infrastruttura cloud, supporto, richieste di vendita o opportunità di partnership.",
       "source": "src/i18n/ui",
       "context": ""
     },
@@ -334,14 +397,14 @@
     {
       "id": "ui.pages.contact.title",
       "en": "Elemento | Contact | Get Support for Your Cloud Platform",
-      "it": "Elemento | Contatti | Supporto per la tua piattaforma cloud",
+      "it": "Elemento | Contatto | Ottieni supporto per la tua piattaforma cloud",
       "source": "src/i18n/ui",
       "context": ""
     },
     {
       "id": "ui.pages.index.description",
       "en": "Elemento is a vendor-neutral, cost-saving, green, high-performance, self-hostable cloud platform with infrastructure-as-code readiness.",
-      "it": "Elemento è una piattaforma cloud vendor-neutral, economica, green, ad alte prestazioni e self-hostable, pronta per l'infrastructure-as-code.",
+      "it": "Elemento è una piattaforma cloud indipendente dal fornitore, economica, ecologica, ad alte prestazioni e self-hostable con predisposizione per l'infrastruttura come codice.",
       "source": "src/i18n/ui",
       "context": ""
     },
@@ -369,7 +432,7 @@
     {
       "id": "ui.pages.products.description",
       "en": "Explore Elemento's modular cloud products: AtomOS hypervisor, Electros orchestration, and Atomosphere API layer.",
-      "it": "Scopri i prodotti modulari Elemento: hypervisor AtomOS, orchestrazione Electros e API Atomosphere.",
+      "it": "Esplora i prodotti completi della piattaforma cloud di Elemento, tra cui l'hypervisor AtomOS, il dashboard di orchestrazione Electros e il proxy API Atomosphere per la gestione unificata dell'infrastruttura.",
       "source": "src/i18n/ui",
       "context": ""
     },
@@ -390,14 +453,14 @@
     {
       "id": "ui.pages.products.title",
       "en": "Elemento | Products | AtomOS, Electros & Atomosphere",
-      "it": "Elemento | Prodotti | AtomOS, Electros e Atomosphere",
+      "it": "Elemento | Prodotti | Piattaforma di gestione e infrastruttura cloud",
       "source": "src/i18n/ui",
       "context": ""
     },
     {
       "id": "ui.pages.signup.description",
       "en": "Sign up for Elemento to access AtomOS, Electros, and Atomosphere. Start with our free tier or contact sales.",
-      "it": "Registrati su Elemento per AtomOS, Electros e Atomosphere. Inizia dal piano gratuito o contatta il commerciale.",
+      "it": "Unisciti a Elemento e inizia con il futuro del cloud computing. Iscriviti gratuitamente e inizia a costruire la tua infrastruttura cloud.",
       "source": "src/i18n/ui",
       "context": ""
     },
@@ -418,7 +481,7 @@
     {
       "id": "ui.pages.signup.title",
       "en": "Elemento | Sign up | Start your cloud platform journey",
-      "it": "Elemento | Registrati | Inizia con la piattaforma cloud",
+      "it": "Iscriviti - Elemento Cloud Platform",
       "source": "src/i18n/ui",
       "context": ""
     },

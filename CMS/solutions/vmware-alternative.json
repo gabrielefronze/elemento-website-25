@@ -337,20 +337,20 @@
       "subtitle": "Domande comuni sulla migrazione da VMware a Elemento",
       "items": [
         {
-          "question": "How does Elemento compare to VMware in terms of performance and features?",
-          "answer": "Elemento provides better performance than VMware vSphere with modern cloud-native architecture. Our platform includes native container support, cloud integration, and API-first management that VMware lacks. We offer equivalent or better functionality at significantly lower costs."
+          "question": "Come si confronta Elemento con VMware in termini di prestazioni e funzionalità?",
+          "answer": "Elemento offre prestazioni migliori rispetto a VMware vSphere con la moderna architettura nativa del cloud. La nostra piattaforma include supporto container nativo, integrazione cloud e gestione API-first che manca a VMware. Offriamo funzionalità equivalenti o migliori a costi notevolmente inferiori."
         },
         {
-          "question": "What is the migration process from VMware to Elemento?",
-          "answer": "Our migration process is designed to be straightforward with minimal downtime. We provide assessment tools, migration planning, and automated migration scripts. Most organizations complete the migration within 30 days with our support team guiding the process."
+          "question": "Qual è il processo di migrazione da VMware a Elemento?",
+          "answer": "Il nostro processo di migrazione è progettato per essere semplice e con tempi di inattività minimi. Forniamo strumenti di valutazione, pianificazione della migrazione e script di migrazione automatizzati. La maggior parte delle organizzazioni completa la migrazione entro 30 giorni, mentre il nostro team di supporto guida il processo."
         },
         {
-          "question": "Can Elemento integrate with existing VMware tools and workflows?",
-          "answer": "Yes! Elemento provides compatibility layers and migration tools for existing VMware environments. We support common VMware APIs and provide gradual migration paths to minimize disruption to your operations."
+          "question": "Elemento può integrarsi con gli strumenti e i flussi di lavoro VMware esistenti?",
+          "answer": "Sì! Elemento fornisce livelli di compatibilità e strumenti di migrazione per ambienti VMware esistenti. Supportiamo le comuni API VMware e forniamo percorsi di migrazione graduali per ridurre al minimo le interruzioni delle tue operazioni."
         },
         {
-          "question": "What about support and training for the migration?",
-          "answer": "Elemento provides comprehensive support throughout the migration process including training for your team, documentation, and ongoing support. Our team works closely with you to ensure a smooth transition from VMware to our modern platform."
+          "question": "Che dire del sostegno e della formazione per la migrazione?",
+          "answer": "Elemento fornisce supporto completo durante tutto il processo di migrazione, inclusa la formazione per il tuo team, la documentazione e il supporto continuo. Il nostro team lavora a stretto contatto con te per garantire una transizione fluida da VMware alla nostra piattaforma moderna."
         }
       ]
     },
