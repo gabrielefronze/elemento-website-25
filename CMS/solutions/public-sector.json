@@ -396,5 +396,204 @@
         "icon": "fas fa-chart-bar"
       }
     }
+  },
+  "fr": {
+    "hero": {
+      "tagline": "Secteur public",
+      "title": "Donner aux institutions publiques les moyens d’une infrastructure cloud souveraine",
+      "subtitle": "Elemento fournit une infrastructure prête à la conformité pour les initiatives gouvernementales et de villes intelligentes avec des capacités complètes de souveraineté et d'audit.",
+      "primaryCTA": {
+        "text": "Commencez maintenant",
+        "link": "../signup.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Explorez la plateforme gouvernementale",
+        "link": "../products.html",
+        "icon": "fas fa-city"
+      }
+    },
+    "painPoints": {
+      "title": "Défis du secteur public",
+      "subtitle": "Problèmes courants qui limitent votre capacité à tirer parti de la technologie cloud tout en préservant votre souveraineté",
+      "items": [
+        {
+          "icon": "fas fa-shield-alt",
+          "title": "Exigences de souveraineté",
+          "description": "Exigences complexes en matière de souveraineté des données et de contrôle des infrastructures critiques"
+        },
+        {
+          "icon": "fas fa-lock",
+          "title": "Complexité de la conformité",
+          "description": "Exigences de conformité élevées pour les données gouvernementales et les informations sur les citoyens"
+        },
+        {
+          "icon": "fas fa-cogs",
+          "title": "Infrastructure hybride",
+          "description": "Besoin d'une infrastructure hybride pour les services critiques et les applications destinées aux citoyens"
+        },
+        {
+          "icon": "fas fa-chart-line",
+          "title": "Lacunes d’observabilité",
+          "description": "Manque d’observabilité et d’automatisation unifiées dans les systèmes gouvernementaux"
+        }
+      ]
+    },
+    "useCase": {
+      "title": "Flux de travail de la ville intelligente",
+      "subtitle": "De la collecte de données aux services aux citoyens avec une infrastructure numérique complète",
+      "items": [
+        {
+          "number": "1",
+          "title": "Collecte de données",
+          "description": "Collectez des données à partir de capteurs IoT, de services aux citoyens et de surveillance des infrastructures"
+        },
+        {
+          "number": "2",
+          "title": "Informatique",
+          "description": "Traiter et analyser les données en temps réel pour les opérations et la prise de décision de la ville"
+        },
+        {
+          "number": "3",
+          "title": "Prestation de services",
+          "description": "Fournir des services numériques aux citoyens via l'e-gouvernement et les applications mobiles"
+        },
+        {
+          "number": "4",
+          "title": "Surveillance et réponse",
+          "description": "Surveiller les opérations de la ville et répondre aux urgences avec des systèmes intégrés"
+        }
+      ]
+    },
+    "solution": {
+      "title": "La solution pour le secteur public d'Elemento",
+      "description": "Plateforme d'infrastructure complète conçue pour les initiatives gouvernementales et de villes intelligentes",
+      "items": [
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Environnement d'hyperviseur souverain avec une sécurité de niveau gouvernemental"
+        },
+        {
+          "logo": "../assets/logos/Electros.svg",
+          "name": "Electros",
+          "description": "Tableau de bord du gouvernement avec pistes d'audit et rapports de conformité"
+        },
+        {
+          "logo": "../assets/logos/Atomosphere.svg",
+          "name": "Atomosphere",
+          "description": "Couche API sécurisée pour l'intégration des systèmes gouvernementaux"
+        }
+      ],
+      "cta": {
+        "text": "Voir la pile gouvernementale",
+        "link": "../products.html"
+      }
+    },
+    "features": {
+      "title": "Caractéristiques du secteur public",
+      "subtitle": "Tout ce dont vous avez besoin pour des infrastructures gouvernementales modernes et des initiatives de villes intelligentes",
+      "items": [
+        {
+          "icon": "fas fa-landmark",
+          "title": "Infrastructure souveraine",
+          "description": "Contrôle total des données et des infrastructures avec des garanties de souveraineté"
+        },
+        {
+          "icon": "fas fa-shield-alt",
+          "title": "Sécurité du gouvernement",
+          "description": "Sécurité de niveau gouvernemental avec pistes d'audit complètes et conformité"
+        },
+        {
+          "icon": "fas fa-city",
+          "title": "Intégration de la ville intelligente",
+          "description": "Intégration transparente avec l'infrastructure de la ville intelligente et les appareils IoT"
+        },
+        {
+          "icon": "fas fa-users",
+          "title": "Services aux citoyens",
+          "description": "Services gouvernementaux numériques et portails citoyens à haute disponibilité"
+        },
+        {
+          "icon": "fas fa-chart-line",
+          "title": "Analyse urbaine",
+          "description": "Analyses en temps réel pour la planification urbaine et l'optimisation des services aux citoyens"
+        },
+        {
+          "icon": "fas fa-handshake",
+          "title": "Interopérabilité",
+          "description": "Intégration transparente avec les systèmes et normes gouvernementaux existants"
+        }
+      ]
+    },
+    "codeExample": {
+      "title": "Configuration de la ville intelligente",
+      "subtitle": "Définissez votre infrastructure de ville intelligente avec une configuration simple et déclarative",
+      "code": "# Smart City Infrastructure Configuration\napiVersion: elemento.cloud/v1\nkind: SmartCityPlatform\nmetadata:\n  name: city-digital-infrastructure\nspec:\n  citizenServices:\n    - name: eGovernment\n      features: [\"document-processing\", \"payment-gateway\", \"citizen-portal\"]\n      compliance: [\"GDPR\", \"accessibility\"]\n    - name: healthcare\n      features: [\"patient-records\", \"telemedicine\", \"appointment-scheduling\"]\n      compliance: [\"HIPAA\", \"GDPR\"]\n  iotIntegration:\n    sensors: [\"traffic\", \"air-quality\", \"noise\", \"weather\"]\n    dataRetention: \"2y\"\n    encryption: \"AES-256\"\n  analytics:\n    realTime: true\n    dashboards: [\"city-operations\", \"citizen-services\", \"emergency-response\"]\n    reporting: \"automated\"\n  security:\n    dataSovereignty: true\n    auditLogging: true\n    accessControl: \"role-based\"",
+      "cta": {
+        "text": "Afficher la configuration de la ville intelligente",
+        "link": "../technology.html"
+      }
+    },
+    "stats": {
+      "title": "Impact sur le secteur public",
+      "subtitle": "Résultats réels des organisations gouvernementales utilisant Elemento",
+      "items": [
+        {
+          "label": "Efficacité des services",
+          "value": "60%",
+          "icon": "fas fa-rocket",
+          "color": "orange"
+        },
+        {
+          "label": "Économies de coûts",
+          "value": "35%",
+          "icon": "fas fa-chart-line",
+          "color": "green"
+        },
+        {
+          "label": "Satisfaction des citoyens",
+          "value": "90%",
+          "icon": "fas fa-users",
+          "color": "blue"
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ du secteur public",
+      "subtitle": "Questions courantes sur l'utilisation d'Elemento pour les initiatives gouvernementales et de villes intelligentes",
+      "items": [
+        {
+          "question": "Comment Elemento garantit-il la souveraineté des données gouvernementales ?",
+          "answer": "Elemento offre un contrôle complet sur l'emplacement et le traitement des données avec des garanties de souveraineté intégrées. Notre plateforme garantit que toutes les données gouvernementales restent sous votre juridiction et sous votre contrôle total."
+        },
+        {
+          "question": "Quelles normes de conformité Elemento prend-il en charge pour une utilisation gouvernementale ?",
+          "answer": "Elemento prend en charge les principales normes de conformité gouvernementales, notamment FedRAMP, le RGPD et les exigences nationales en matière de souveraineté des données. Notre plateforme comprend des contrôles intégrés et des capacités de reporting pour vous aider à répondre aux exigences réglementaires."
+        },
+        {
+          "question": "Elemento peut-il s'intégrer aux systèmes gouvernementaux existants ?",
+          "answer": "Oui! Elemento offre une intégration transparente avec les systèmes gouvernementaux existants, notamment les applications existantes, les portails citoyens et l'infrastructure des villes intelligentes. Nos API prennent en charge les normes et protocoles gouvernementaux."
+        },
+        {
+          "question": "Comment Elemento gère-t-il l’IoT et les données des capteurs des villes intelligentes ?",
+          "answer": "Elemento fournit des capacités complètes d'intégration IoT pour l'infrastructure des villes intelligentes, notamment la collecte de données de capteurs, l'analyse en temps réel et l'optimisation des services aux citoyens. Notre plateforme prend en charge des millions d'appareils connectés avec une transmission de données sécurisée."
+        }
+      ]
+    },
+    "ctaFinal": {
+      "title": "Prêt à transformer votre infrastructure publique ?",
+      "subtitle": "Rejoignez les principales organisations gouvernementales qui utilisent déjà Elemento pour moderniser leur infrastructure et offrir de meilleurs services aux citoyens.",
+      "primaryCTA": {
+        "text": "Déployer le Cloud gouvernemental",
+        "link": "../signup.html",
+        "icon": "fas fa-landmark"
+      },
+      "secondaryCTA": {
+        "text": "Explorer les solutions publiques",
+        "link": "../products.html",
+        "icon": "fas fa-chart-bar"
+      }
+    }
   }
 }

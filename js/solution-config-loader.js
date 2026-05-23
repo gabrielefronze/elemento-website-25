@@ -11,15 +11,18 @@
   const slug = script.getAttribute('data-solution-config');
   const locale =
     (window.ElementoI18n && window.ElementoI18n.getPageLocale()) ||
-    (document.documentElement.lang === 'it' ? 'it' : 'en');
+    (document.documentElement.lang === 'it' || document.documentElement.lang === 'fr'
+      ? document.documentElement.lang
+      : 'en');
+
+  const path = window.location.pathname;
+  const localized = locale !== 'en' && path.includes(`/${locale}/`);
 
   const url = window.ElementoI18n?.assetUrl
     ? window.ElementoI18n.assetUrl(`CMS/solutions/${slug}.json`)
     : (() => {
-        const path = window.location.pathname;
-        const inIt = path.includes('/it/');
         const depth = path.split('/').filter(Boolean).length;
-        const prefix = inIt
+        const prefix = localized
           ? depth <= 2
             ? '../'
             : '../../'
@@ -38,13 +41,19 @@
     })
     .then((data) => {
       const cfg = data[locale] || data.en;
-      if (locale === 'it' && cfg) {
+      if (locale !== 'en' && cfg) {
         const fixLink = (link) => {
           if (typeof link !== 'string') return link;
-          if (link.startsWith('../signup')) return inIt ? '../../signup.html' : '../signup.html';
-          if (link.startsWith('../products')) return inIt ? '../../products.html' : '../products.html';
-          if (link.startsWith('../technology')) return inIt ? '../../technology.html' : '../technology.html';
-          if (link.startsWith('../') && inIt) return `../../${link.slice(3)}`;
+          if (link.startsWith('../signup')) {
+            return localized ? '../../signup.html' : '../signup.html';
+          }
+          if (link.startsWith('../products')) {
+            return localized ? '../../products.html' : '../products.html';
+          }
+          if (link.startsWith('../technology')) {
+            return localized ? '../../technology.html' : '../technology.html';
+          }
+          if (link.startsWith('../') && localized) return `../../${link.slice(3)}`;
           return link;
         };
         const walk = (o) => {

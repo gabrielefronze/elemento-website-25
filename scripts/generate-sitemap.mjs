@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Generate sitemap.xml from pages-manifest.json (all EN + IT URLs).
+ * Generate sitemap.xml from pages-manifest.json (all EN + IT + FR URLs).
  */
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
@@ -16,7 +16,7 @@ function urlFor(locale, stem) {
   if (locale === 'en') {
     return stem === 'index' ? `${SITE}/` : `${SITE}/${stem}.html`;
   }
-  return stem === 'index' ? `${SITE}/it/` : `${SITE}/it/${stem}.html`;
+  return stem === 'index' ? `${SITE}/${locale}/` : `${SITE}/${locale}/${stem}.html`;
 }
 
 function main() {
@@ -55,18 +55,22 @@ ${urls
     const pair = byStem.get(u.stem) || [];
     const en = pair.find((x) => x.locale === 'en');
     const it = pair.find((x) => x.locale === 'it');
-    const alternates =
-      en && it
-        ? `
-    <xhtml:link rel="alternate" hreflang="en" href="${en.loc}"/>
-    <xhtml:link rel="alternate" hreflang="it" href="${it.loc}"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="${en.loc}"/>`
-        : '';
+    const fr = pair.find((x) => x.locale === 'fr');
+    const alternates = [en, it, fr]
+      .filter(Boolean)
+      .map(
+        (alt) =>
+          `\n    <xhtml:link rel="alternate" hreflang="${alt.locale}" href="${alt.loc}"/>`
+      )
+      .join('');
+    const xDefault = en
+      ? `\n    <xhtml:link rel="alternate" hreflang="x-default" href="${en.loc}"/>`
+      : '';
     return `  <url>
     <loc>${u.loc}</loc>
     <lastmod>${today}</lastmod>
     <changefreq>${u.changefreq}</changefreq>
-    <priority>${u.priority}</priority>${alternates}
+    <priority>${u.priority}</priority>${alternates}${xDefault}
   </url>`;
   })
   .join('\n')}

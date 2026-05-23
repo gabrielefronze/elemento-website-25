@@ -396,5 +396,204 @@
         "icon": "fas fa-certificate"
       }
     }
+  },
+  "fr": {
+    "hero": {
+      "tagline": "Environnements réglementés",
+      "title": "Exécutez des charges de travail sensibles avec une gouvernance complète des données",
+      "subtitle": "Elemento offre une sécurité de niveau entreprise avec une conformité intégrée pour les soins de santé, la finance et d'autres secteurs réglementés.",
+      "primaryCTA": {
+        "text": "Commencez maintenant",
+        "link": "../signup.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Explorez la plateforme de sécurité",
+        "link": "../products.html",
+        "icon": "fas fa-shield-alt"
+      }
+    },
+    "painPoints": {
+      "title": "Les défis de l’environnement réglementé",
+      "subtitle": "Problèmes courants qui limitent votre capacité à tirer parti de la technologie cloud tout en garantissant la conformité",
+      "items": [
+        {
+          "icon": "fas fa-shield-alt",
+          "title": "Souveraineté des données",
+          "description": "Exigences complexes en matière de résidence et de souveraineté des données dans différentes juridictions"
+        },
+        {
+          "icon": "fas fa-lock",
+          "title": "Complexité de la conformité",
+          "description": "Risque élevé de verrouillage lors de l'utilisation d'hyperscalers avec des exigences de résidence et de conformité des données peu claires"
+        },
+        {
+          "icon": "fas fa-cogs",
+          "title": "Complexité hybride",
+          "description": "Configurations hybrides complexes pour les charges de travail sensibles, difficiles à gérer et à sécuriser"
+        },
+        {
+          "icon": "fas fa-chart-line",
+          "title": "Exigences d'audit",
+          "description": "Nécessité de pistes d'audit complètes et de rapports de conformité dans tous les environnements"
+        }
+      ]
+    },
+    "useCase": {
+      "title": "Flux de travail de conformité",
+      "subtitle": "De la collecte de données aux rapports d’audit en toute conformité et sécurité",
+      "items": [
+        {
+          "number": "1",
+          "title": "Collecte de données",
+          "description": "Collecte sécurisée de données sensibles avec cryptage et contrôles d'accès"
+        },
+        {
+          "number": "2",
+          "title": "Traitement et stockage",
+          "description": "Traitez les données dans des environnements conformes avec des pistes d'audit et une surveillance"
+        },
+        {
+          "number": "3",
+          "title": "Contrôle d'accès",
+          "description": "Contrôle d'accès basé sur les rôles avec authentification et surveillance multifacteur"
+        },
+        {
+          "number": "4",
+          "title": "Audit et rapports",
+          "description": "Générez des rapports de conformité et des pistes d'audit pour les exigences réglementaires"
+        }
+      ]
+    },
+    "solution": {
+      "title": "La solution de conformité d'Elemento",
+      "description": "Plateforme d'infrastructure complète conçue pour les environnements réglementés avec conformité et sécurité intégrées",
+      "items": [
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Environnement d'hyperviseur sécurisé avec contrôles de conformité intégrés"
+        },
+        {
+          "logo": "../assets/logos/Electros.svg",
+          "name": "Electros",
+          "description": "Tableau de bord prêt pour la conformité avec des capacités d'audit et de reporting"
+        },
+        {
+          "logo": "../assets/logos/Atomosphere.svg",
+          "name": "Atomosphere",
+          "description": "Couche API sécurisée avec cryptage et contrôles d'accès"
+        }
+      ],
+      "cta": {
+        "text": "Voir la pile de conformité",
+        "link": "../products.html"
+      }
+    },
+    "features": {
+      "title": "Fonctionnalités de conformité",
+      "subtitle": "Tout ce dont vous avez besoin pour répondre aux exigences réglementaires et maintenir la souveraineté des données",
+      "items": [
+        {
+          "icon": "fas fa-shield-alt",
+          "title": "Souveraineté des données",
+          "description": "Contrôle complet sur l’emplacement et le traitement des données avec conformité régionale"
+        },
+        {
+          "icon": "fas fa-certificate",
+          "title": "Certifications de conformité",
+          "description": "Prise en charge intégrée du RGPD, HIPAA, SOC 2, ISO 27001 et d'autres normes"
+        },
+        {
+          "icon": "fas fa-lock",
+          "title": "Cryptage et sécurité",
+          "description": "Chiffrement de bout en bout avec gestion sécurisée des clés et contrôles d'accès"
+        },
+        {
+          "icon": "fas fa-clipboard-check",
+          "title": "Audit et rapports",
+          "description": "Pistes d'audit complètes et rapports de conformité aux exigences réglementaires"
+        },
+        {
+          "icon": "fas fa-user-shield",
+          "title": "Contrôles d'accès",
+          "description": "Contrôle d'accès basé sur les rôles avec authentification multifacteur et gestion des identités"
+        },
+        {
+          "icon": "fas fa-cloud",
+          "title": "Déploiement hybride",
+          "description": "Déploiement cloud hybride sécurisé avec intégration sur site et cloud"
+        }
+      ]
+    },
+    "codeExample": {
+      "title": "Configuration de conformité",
+      "subtitle": "Définissez vos exigences de conformité avec une configuration simple et déclarative",
+      "code": "# Compliance Configuration\napiVersion: elemento.cloud/v1\nkind: ComplianceEnvironment\nmetadata:\n  name: healthcare-data-platform\nspec:\n  compliance:\n    standards: [\"HIPAA\", \"SOC2\", \"ISO27001\"]\n    dataResidency: \"US-East\"\n    encryption:\n      atRest: \"AES-256\"\n      inTransit: \"TLS-1.3\"\n  accessControl:\n    authentication: \"multi-factor\"\n    authorization: \"role-based\"\n    auditLogging: true\n  dataGovernance:\n    retention: \"7y\"\n    backup: \"encrypted\"\n    monitoring: \"continuous\"\n  security:\n    networkIsolation: true\n    microSegmentation: true\n    threatDetection: \"enabled\"",
+      "cta": {
+        "text": "Afficher la configuration de sécurité",
+        "link": "../technology.html"
+      }
+    },
+    "stats": {
+      "title": "Impact sur la conformité",
+      "subtitle": "Résultats réels des organisations réglementées utilisant Elemento",
+      "items": [
+        {
+          "label": "Conformité plus rapide",
+          "value": "70%",
+          "icon": "fas fa-rocket",
+          "color": "orange"
+        },
+        {
+          "label": "Amélioration de la sécurité",
+          "value": "95%",
+          "icon": "fas fa-shield-alt",
+          "color": "green"
+        },
+        {
+          "label": "Réduction des coûts",
+          "value": "40%",
+          "icon": "fas fa-chart-line",
+          "color": "blue"
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ sur la conformité",
+      "subtitle": "Questions courantes sur l'utilisation d'Elemento dans des environnements réglementés",
+      "items": [
+        {
+          "question": "Comment Elemento garantit-il la souveraineté et la conformité des données ?",
+          "answer": "Elemento offre un contrôle complet sur l'emplacement et le traitement des données grâce à des contrôles de conformité intégrés. Notre plateforme prend en charge les exigences régionales en matière de résidence des données et comprend des pistes d'audit complètes pour la conformité réglementaire."
+        },
+        {
+          "question": "Quelles certifications de conformité Elemento prend-il en charge ?",
+          "answer": "Elemento prend en charge les principaux cadres de conformité, notamment RGPD, HIPAA, SOC 2, ISO 27001 et PCI DSS. Nous fournissons des contrôles intégrés et des capacités de reporting pour vous aider à répondre aux exigences réglementaires."
+        },
+        {
+          "question": "Comment Elemento gère-t-il le chiffrement et la gestion des clés ?",
+          "answer": "Elemento fournit un cryptage de bout en bout avec AES-256 pour les données au repos et en transit. Notre plateforme comprend une gestion sécurisée des clés avec prise en charge des clés gérées par le client et des modules de sécurité matériels (HSM)."
+        },
+        {
+          "question": "Elemento peut-il fonctionner avec les outils de conformité et de sécurité existants ?",
+          "answer": "Oui! Elemento s'intègre aux outils de conformité et de sécurité populaires, notamment les systèmes SIEM, les fournisseurs d'identité et les plateformes d'audit. Nos API prennent en charge une intégration transparente avec votre pile de sécurité existante."
+        }
+      ]
+    },
+    "ctaFinal": {
+      "title": "Prêt à sécuriser vos charges de travail réglementées ?",
+      "subtitle": "Rejoignez les principales organisations de santé, de finance et gouvernementales qui utilisent déjà Elemento pour répondre aux exigences de conformité tout en tirant parti de la technologie cloud.",
+      "primaryCTA": {
+        "text": "Démarrer le déploiement sécurisé",
+        "link": "../signup.html",
+        "icon": "fas fa-calendar-check"
+      },
+      "secondaryCTA": {
+        "text": "Explorez les solutions de conformité",
+        "link": "../products.html",
+        "icon": "fas fa-certificate"
+      }
+    }
   }
 }

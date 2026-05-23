@@ -70,10 +70,10 @@ const TEXT_LIKE_KEYS = new Set([
   'answer',
 ]);
 
-/** @type {Map<string, { id: string, en: string, it: string, source: string, context?: string }>} */
+/** @type {Map<string, { id: string, en: string, it: string, fr: string, source: string, context?: string }>} */
 const store = new Map();
 
-function add(id, en, it = '', source = '', context = '') {
+function add(id, en, it = '', source = '', context = '', fr = '') {
   if (!en || typeof en !== 'string') return;
   const text = en.replace(/\s+/g, ' ').trim();
   if (!text || text.length < 2) return;
@@ -85,13 +85,30 @@ function add(id, en, it = '', source = '', context = '') {
     const existing = store.get(safeId);
     if (existing.en !== text) {
       const altId = `${safeId}_${hash(text).slice(0, 6)}`;
-      store.set(altId, { id: altId, en: text, it: it || '', source, context });
-    } else if (it && !existing.it) {
-      existing.it = it;
+      store.set(altId, { id: altId, en: text, it: it || '', fr: fr || '', source, context });
+    } else {
+      if (it && !existing.it) existing.it = it;
+      if (fr && !existing.fr) existing.fr = fr;
     }
     return;
   }
-  store.set(safeId, { id: safeId, en: text, it: it || '', source, context });
+  store.set(safeId, { id: safeId, en: text, it: it || '', fr: fr || '', source, context });
+}
+
+function mergeUiLocale(localeUi, localeKey, prefix = 'ui') {
+  function walk(obj, path) {
+    if (typeof obj === 'string') {
+      const safeId = path.replace(/[^a-zA-Z0-9._-]/g, '_').replace(/_+/g, '_');
+      const row = store.get(safeId);
+      if (row && obj) row[localeKey] = obj;
+      return;
+    }
+    if (!obj || typeof obj !== 'object' || Array.isArray(obj)) return;
+    for (const key of Object.keys(obj)) {
+      walk(obj[key], `${path}.${key}`);
+    }
+  }
+  walk(localeUi, prefix);
 }
 
 function hash(s) {
@@ -275,7 +292,7 @@ function toCsv(rows) {
     }
     return s;
   };
-  const header = ['id', 'en', 'it', 'source', 'context'];
+  const header = ['id', 'en', 'it', 'fr', 'source', 'context'];
   return [header.join(','), ...rows.map((r) => header.map((h) => esc(r[h])).join(','))].join('\n');
 }
 
@@ -284,7 +301,9 @@ function main() {
 
   const enUi = JSON.parse(readFileSync(join(ROOT, 'src/i18n/ui/en.json'), 'utf-8'));
   const itUi = JSON.parse(readFileSync(join(ROOT, 'src/i18n/ui/it.json'), 'utf-8'));
+  const frUi = JSON.parse(readFileSync(join(ROOT, 'src/i18n/ui/fr.json'), 'utf-8'));
   flattenUi(enUi, itUi);
+  mergeUiLocale(frUi, 'fr');
 
   walkJsonFiles(join(ROOT, 'CMS'), 'CMS');
 
@@ -303,8 +322,8 @@ function main() {
   const payload = {
     generatedAt: new Date().toISOString(),
     total: rows.length,
-    locales: ['en', 'it'],
-    note: 'Fill the "it" column in CSV or edit strings.it in JSON. UI keys under ui.* are wired in the app; body.* keys are reference until imported.',
+    locales: ['en', 'it', 'fr'],
+    note: 'Fill the "it" / "fr" columns in CSV or edit strings in JSON. UI keys under ui.* are wired in the app; body.* keys are reference until imported.',
     strings: rows,
   };
 

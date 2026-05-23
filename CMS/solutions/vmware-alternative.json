@@ -368,5 +368,190 @@
         "icon": "fas fa-calendar"
       }
     }
+  },
+  "fr": {
+    "hero": {
+      "tagline": "Alternative VMware",
+      "title": "Remplacez VMware par une infrastructure moderne",
+      "subtitle": "Passez de l'ancien VMware à la plateforme cloud native d'Elemento. Obtenez de meilleures performances, des coûts réduits et une intégration transparente dans le cloud.",
+      "primaryCTA": {
+        "text": "Démarrer la migration",
+        "link": "../signup.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Comparez les solutions",
+        "link": "#vmware-comparison",
+        "icon": "fas fa-balance-scale"
+      }
+    },
+    "painPoints": {
+      "title": "Les défis VMware auxquels vous êtes confronté",
+      "subtitle": "Problèmes courants liés à l'infrastructure VMware existante qui limitent vos efforts de modernisation",
+      "items": [
+        {
+          "icon": "fas fa-dollar-sign",
+          "title": "Coûts de licence élevés",
+          "description": "Frais de licence VMware coûteux et modèles de tarification complexes qui augmentent les coûts opérationnels"
+        },
+        {
+          "icon": "fas fa-cloud",
+          "title": "Intégration limitée du cloud",
+          "description": "Difficulté à intégrer l'infrastructure VMware avec des services cloud et des API modernes"
+        },
+        {
+          "icon": "fas fa-cogs",
+          "title": "Gestion complexe",
+          "description": "Outils de gestion VMware complexes et capacités d'automatisation limitées pour les flux de travail modernes"
+        },
+        {
+          "icon": "fas fa-lock",
+          "title": "Verrouillage du fournisseur",
+          "description": "Lié à l'écosystème VMware avec une flexibilité limitée pour les déploiements multi-cloud et hybrides"
+        }
+      ]
+    },
+    "useCase": {
+      "title": "Processus de migration VMware",
+      "subtitle": "De l'infrastructure VMware héritée à la plateforme cloud native moderne",
+      "items": [
+        {
+          "number": "1",
+          "title": "Évaluation",
+          "description": "Analyser l'infrastructure VMware existante et identifier les opportunités de migration"
+        },
+        {
+          "number": "2",
+          "title": "Planification",
+          "description": "Créez un plan de migration avec les composants d'infrastructure modernes d'Elemento"
+        },
+        {
+          "number": "3",
+          "title": "Migration",
+          "description": "Migrez les machines virtuelles et les charges de travail vers la plateforme cloud native d'Elemento"
+        },
+        {
+          "number": "4",
+          "title": "Optimisation",
+          "description": "Optimisez les performances et les coûts grâce à une gestion et une automatisation modernes"
+        }
+      ]
+    },
+    "solution": {
+      "title": "L'alternative VMware d'Elemento",
+      "description": "Plateforme complète conçue pour remplacer VMware par une infrastructure cloud native moderne",
+      "items": [
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Hyperviseur moderne remplaçant VMware vSphere avec de meilleures performances"
+        },
+        {
+          "logo": "../assets/logos/Electros.svg",
+          "name": "Electros",
+          "description": "Console de gestion unifiée remplaçant VMware vCenter"
+        }
+      ],
+      "cta": {
+        "text": "Obtenez AtomOS maintenant !",
+        "link": "../atomos.html"
+      }
+    },
+    "features": {
+      "title": "Fonctionnalités alternatives VMware",
+      "subtitle": "Tout ce dont vous avez besoin pour remplacer VMware par une infrastructure moderne",
+      "items": [
+        {
+          "icon": "fas fa-server",
+          "title": "Hyperviseur moderne",
+          "description": "Hyperviseur de niveau production avec de meilleures performances que VMware vSphere"
+        },
+        {
+          "icon": "fas fa-chart-line",
+          "title": "Optimisation des coûts",
+          "description": "Coûts nettement inférieurs à ceux des licences VMware et meilleure utilisation des ressources"
+        },
+        {
+          "icon": "fas fa-cloud",
+          "title": "Intégration cloud",
+          "description": "Intégration native avec AWS, Azure, GCP et d'autres fournisseurs de cloud"
+        },
+        {
+          "icon": "fas fa-cogs",
+          "title": "Gestion automatisée",
+          "description": "Approche API-first avec infrastructure sous forme de code et opérations automatisées"
+        },
+        {
+          "icon": "fas fa-shield-alt",
+          "title": "Sécurité et conformité",
+          "description": "Sécurité de niveau entreprise avec fonctionnalités intégrées de conformité et d’audit"
+        },
+        {
+          "icon": "fas fa-expand-arrows-alt",
+          "title": "Évolutivité",
+          "description": "Mise à l'échelle automatique et optimisation des ressources pour les charges de travail dynamiques"
+        }
+      ]
+    },
+    "stats": {
+      "title": "Impact alternatif de VMware",
+      "subtitle": "Résultats concrets des organisations migrant de VMware vers Elemento",
+      "items": [
+        {
+          "label": "Réduction des coûts",
+          "value": "70%",
+          "icon": "fas fa-chart-line",
+          "color": "green"
+        },
+        {
+          "label": "Gain de performances",
+          "value": "40%",
+          "icon": "fas fa-rocket",
+          "color": "orange"
+        },
+        {
+          "label": "Temps de migration",
+          "value": "30 days",
+          "icon": "fas fa-clock",
+          "color": "blue"
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ sur les alternatives VMware",
+      "subtitle": "Questions courantes sur la migration de VMware vers Elemento",
+      "items": [
+        {
+          "question": "Comment Elemento se compare-t-il à VMware en termes de performances et de fonctionnalités ?",
+          "answer": "Elemento offre de meilleures performances que VMware vSphere avec une architecture cloud native moderne. Notre plate-forme inclut la prise en charge native des conteneurs, l'intégration dans le cloud et la gestion axée sur les API qui manquent à VMware. Nous proposons des fonctionnalités équivalentes ou supérieures à des coûts nettement inférieurs."
+        },
+        {
+          "question": "Quel est le processus de migration de VMware vers Elemento ?",
+          "answer": "Notre processus de migration est conçu pour être simple avec un temps d'arrêt minimal. Nous fournissons des outils d'évaluation, une planification de migration et des scripts de migration automatisés. La plupart des organisations terminent la migration dans les 30 jours, sous la direction de notre équipe d'assistance qui guide le processus."
+        },
+        {
+          "question": "Elemento peut-il s'intégrer aux outils et workflows VMware existants ?",
+          "answer": "Oui! Elemento fournit des couches de compatibilité et des outils de migration pour les environnements VMware existants. Nous prenons en charge les API VMware courantes et proposons des chemins de migration progressifs pour minimiser les perturbations de vos opérations."
+        },
+        {
+          "question": "Qu’en est-il de l’accompagnement et de la formation pour la migration ?",
+          "answer": "Elemento fournit une assistance complète tout au long du processus de migration, y compris la formation de votre équipe, la documentation et une assistance continue. Notre équipe travaille en étroite collaboration avec vous pour assurer une transition en douceur de VMware vers notre plateforme moderne."
+        }
+      ]
+    },
+    "ctaFinal": {
+      "title": "Prêt à remplacer VMware ?",
+      "subtitle": "Rejoignez les organisations qui utilisent déjà Elemento pour moderniser leur infrastructure et réduire leurs coûts.",
+      "primaryCTA": {
+        "text": "Démarrer la migration",
+        "link": "../signup.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Planifier une démo de migration",
+        "link": "../contact.html",
+        "icon": "fas fa-calendar"
+      }
+    }
   }
 }

@@ -3,8 +3,10 @@
     "label": "Language",
     "en": "EN",
     "it": "IT",
+    "fr": "FR",
     "enAria": "English",
-    "itAria": "Italian"
+    "itAria": "Italian",
+    "frAria": "French"
   },
   "nav": {
     "products": "Products",

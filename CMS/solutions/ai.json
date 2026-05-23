@@ -396,5 +396,204 @@
         "icon": "fas fa-microchip"
       }
     }
+  },
+  "fr": {
+    "hero": {
+      "tagline": "IA et science des données",
+      "title": "Former, déployer et faire évoluer les charges de travail d'IA",
+      "subtitle": "Exécutez en toute transparence des charges de travail d'IA sur les cloud et les nœuds sur site grâce à la gestion des clusters GPU et aux environnements d'IA multi-cloud.",
+      "primaryCTA": {
+        "text": "Commencez maintenant",
+        "link": "../signup.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Explorez la plateforme GPU",
+        "link": "../products.html",
+        "icon": "fas fa-microchip"
+      }
+    },
+    "painPoints": {
+      "title": "Les défis IA/ML auxquels vous êtes confrontés",
+      "subtitle": "Problèmes courants qui limitent votre capacité à faire évoluer les charges de travail et la recherche en IA",
+      "items": [
+        {
+          "icon": "fas fa-microchip",
+          "title": "Rareté des ressources GPU",
+          "description": "Accès limité aux ressources GPU et coûts élevés pour la formation de grands modèles"
+        },
+        {
+          "icon": "fas fa-database",
+          "title": "Silos de données",
+          "description": "Les silos de données entre les ensembles de données privés et les services d'IA dans le cloud limitent les capacités de recherche"
+        },
+        {
+          "icon": "fas fa-cogs",
+          "title": "Contrôle de l'environnement",
+          "description": "Manque de contrôle sur les environnements informatiques et les dépendances pour une recherche reproductible"
+        },
+        {
+          "icon": "fas fa-dollar-sign",
+          "title": "Gestion des coûts",
+          "description": "Difficulté à gérer les coûts entre plusieurs fournisseurs de cloud et ressources sur site"
+        }
+      ]
+    },
+    "useCase": {
+      "title": "Flux de travail IA/ML",
+      "subtitle": "De la préparation des données au déploiement de modèles avec une gestion transparente des clusters GPU",
+      "items": [
+        {
+          "number": "1",
+          "title": "Préparation des données",
+          "description": "Ingérez et prétraitez des données provenant de plusieurs sources avec l'accélération GPU"
+        },
+        {
+          "number": "2",
+          "title": "Formation sur modèle",
+          "description": "Entraînez des modèles avec des clusters GPU distribués sur plusieurs fournisseurs de cloud"
+        },
+        {
+          "number": "3",
+          "title": "Optimisation du modèle",
+          "description": "Optimisez les modèles pour le déploiement en production avec une mise à l'échelle automatisée"
+        },
+        {
+          "number": "4",
+          "title": "Déploiement du modèle",
+          "description": "Déployez des modèles avec mise à l'échelle et surveillance automatiques sur une infrastructure hybride"
+        }
+      ]
+    },
+    "solution": {
+      "title": "La solution d'IA d'Elemento",
+      "description": "Plateforme d'infrastructure complète conçue pour les charges de travail IA/ML avec gestion de cluster GPU",
+      "items": [
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Hyperviseur optimisé par GPU pour des environnements IA/ML cohérents"
+        },
+        {
+          "logo": "../assets/logos/Electros.svg",
+          "name": "Electros",
+          "description": "Tableau de bord unifié pour la gestion des clusters GPU et des charges de travail d'IA"
+        },
+        {
+          "logo": "../assets/logos/Atomosphere.svg",
+          "name": "Atomosphere",
+          "description": "Couche API pour une intégration transparente avec les frameworks et outils AI/ML"
+        }
+      ],
+      "cta": {
+        "text": "Voir l'infrastructure d'IA",
+        "link": "../products.html"
+      }
+    },
+    "features": {
+      "title": "Fonctionnalités IA/ML",
+      "subtitle": "Tout ce dont vous avez besoin pour créer, former et déployer des modèles d'IA à grande échelle",
+      "items": [
+        {
+          "icon": "fas fa-microchip",
+          "title": "Gestion des clusters GPU",
+          "description": "Déployez et gérez des clusters GPU sur plusieurs fournisseurs de cloud et sur une infrastructure sur site"
+        },
+        {
+          "icon": "fas fa-brain",
+          "title": "Intégration framework",
+          "description": "Prise en charge native de TensorFlow, PyTorch, Kubernetes et d'autres frameworks IA/ML populaires"
+        },
+        {
+          "icon": "fas fa-database",
+          "title": "Pipeline de données",
+          "description": "Intégration transparente des données entre les ensembles de données privés et les services d'IA cloud"
+        },
+        {
+          "icon": "fas fa-expand-arrows-alt",
+          "title": "Mise à l'échelle automatique",
+          "description": "Adaptez automatiquement les ressources en fonction des demandes de charge de travail et des exigences de formation"
+        },
+        {
+          "icon": "fas fa-chart-line",
+          "title": "Optimisation des coûts",
+          "description": "Allocation intelligente des ressources pour minimiser les coûts tout en maximisant les performances"
+        },
+        {
+          "icon": "fas fa-cogs",
+          "title": "Contrôle de l'environnement",
+          "description": "Contrôle complet des environnements informatiques et des dépendances pour une recherche reproductible"
+        }
+      ]
+    },
+    "codeExample": {
+      "title": "Configuration IA/ML",
+      "subtitle": "Définissez votre infrastructure IA/ML avec une configuration simple et déclarative",
+      "code": "# AI/ML Infrastructure Configuration\napiVersion: elemento.cloud/v1\nkind: AIMLEnvironment\nmetadata:\n  name: gpu-cluster-platform\nspec:\n  gpuClusters:\n    - name: training-cluster\n      provider: \"aws\"\n      instanceType: \"p3.8xlarge\"\n      count: 4\n      frameworks: [\"tensorflow\", \"pytorch\"]\n    - name: inference-cluster\n      provider: \"azure\"\n      instanceType: \"NC6s_v3\"\n      count: 2\n      frameworks: [\"onnx\", \"triton\"]\n  dataSources:\n    - name: training-data\n      type: \"s3\"\n      bucket: \"ml-datasets\"\n      encryption: \"AES-256\"\n    - name: model-registry\n      type: \"docker\"\n      registry: \"ml-models\"\n  monitoring:\n    metrics: [\"gpu-utilization\", \"memory-usage\", \"training-progress\"]\n    alerts: [\"resource-exhaustion\", \"training-failure\"]\n  scaling:\n    minNodes: 1\n    maxNodes: 10\n    targetUtilization: 70",
+      "cta": {
+        "text": "Afficher la configuration de l'IA",
+        "link": "../technology.html"
+      }
+    },
+    "stats": {
+      "title": "Impact de l'IA/ML",
+      "subtitle": "Résultats réels de startups d'IA et de laboratoires de recherche utilisant Elemento",
+      "items": [
+        {
+          "label": "Formation plus rapide",
+          "value": "3x",
+          "icon": "fas fa-rocket",
+          "color": "orange"
+        },
+        {
+          "label": "Réduction des coûts",
+          "value": "50%",
+          "icon": "fas fa-chart-line",
+          "color": "green"
+        },
+        {
+          "label": "Utilisation du GPU",
+          "value": "95%",
+          "icon": "fas fa-microchip",
+          "color": "blue"
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ IA/ML",
+      "subtitle": "Questions courantes sur l'utilisation d'Elemento pour les charges de travail AI/ML",
+      "items": [
+        {
+          "question": "Comment Elemento gère-t-il l'allocation et la gestion des ressources GPU ?",
+          "answer": "Elemento fournit une allocation intelligente des ressources GPU entre plusieurs fournisseurs de cloud et une infrastructure sur site. Notre plateforme adapte automatiquement les ressources en fonction des demandes de charge de travail et optimise les coûts tout en maximisant les performances."
+        },
+        {
+          "question": "Quels frameworks AI/ML Elemento prend-il en charge ?",
+          "answer": "Elemento fournit une prise en charge native des frameworks populaires, notamment TensorFlow, PyTorch, Kubernetes, Jupyter et bien d'autres. Notre plateforme comprend des environnements préconfigurés et une intégration transparente avec les flux de travail IA/ML existants."
+        },
+        {
+          "question": "Comment Elemento aide-t-il à réduire les silos de données entre les ensembles de données privés et les services cloud ?",
+          "answer": "Elemento offre des fonctionnalités d'intégration de données transparentes qui vous permettent de travailler avec des données provenant de plusieurs sources, notamment des ensembles de données privés, du stockage cloud et des services d'IA. Notre plateforme comprend des outils de pipeline de données et une transmission sécurisée des données."
+        },
+        {
+          "question": "Elemento peut-il fonctionner avec les outils et flux de travail IA/ML existants ?",
+          "answer": "Oui! Elemento s'intègre aux outils et flux de travail IA/ML populaires, notamment les plateformes MLOps, les outils de suivi des expériences et les frameworks de diffusion de modèles. Nos API prennent en charge une intégration transparente avec vos processus de développement et de déploiement existants."
+        }
+      ]
+    },
+    "ctaFinal": {
+      "title": "Prêt à faire évoluer votre recherche sur l'IA ?",
+      "subtitle": "Rejoignez les principales startups et laboratoires de recherche en IA qui utilisent déjà Elemento pour accélérer leurs charges de travail et leurs recherches en IA/ML.",
+      "primaryCTA": {
+        "text": "Lancer l'environnement IA",
+        "link": "../signup.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Explorez les solutions GPU",
+        "link": "../products.html",
+        "icon": "fas fa-microchip"
+      }
+    }
   }
 }

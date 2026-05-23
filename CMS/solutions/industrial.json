@@ -396,5 +396,204 @@
         "icon": "fas fa-chart-bar"
       }
     }
+  },
+  "fr": {
+    "hero": {
+      "tagline": "Innovation manufacturière",
+      "title": "Intégrez vos données d'usine, des automates à l'ERP",
+      "subtitle": "Transformez les anciens systèmes MES/ERP avec des pipelines d'analyse et d'IA modernes dans un écosystème cloud sécurisé et sans fournisseur.",
+      "primaryCTA": {
+        "text": "Commencez maintenant",
+        "link": "../signup.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Explorez la plateforme industrielle",
+        "link": "../products.html",
+        "icon": "fas fa-cogs"
+      }
+    },
+    "painPoints": {
+      "title": "Les défis de fabrication auxquels vous êtes confrontés",
+      "subtitle": "Points faibles courants qui ralentissent votre transformation numérique et votre efficacité opérationnelle",
+      "items": [
+        {
+          "icon": "fas fa-cogs",
+          "title": "Intégration du système existant",
+          "description": "Mauvaise intégration entre les anciens systèmes MES/ERP et les pipelines d'analyse ou d'IA modernes"
+        },
+        {
+          "icon": "fas fa-dollar-sign",
+          "title": "Coûts élevés du cloud",
+          "description": "Configurations de cloud privé coûteuses en raison de la gravité des données des machines sur site et du verrouillage du fournisseur"
+        },
+        {
+          "icon": "fas fa-lock",
+          "title": "Verrouillage du fournisseur",
+          "description": "Problèmes d'interopérabilité avec les plateformes IoT et flexibilité limitée des fournisseurs de cloud"
+        },
+        {
+          "icon": "fas fa-chart-line",
+          "title": "Silos de données",
+          "description": "Flux de données isolés empêchant les informations en temps réel et les analyses prédictives"
+        }
+      ]
+    },
+    "useCase": {
+      "title": "De l’atelier au cloud",
+      "subtitle": "La télémétrie en temps réel circule de manière transparente depuis les automates vers l'analyse et l'optimisation.",
+      "items": [
+        {
+          "number": "1",
+          "title": "Données d'atelier",
+          "description": "Collectez les données des automates, des systèmes SCADA et des capteurs IoT en temps réel"
+        },
+        {
+          "number": "2",
+          "title": "Traitement des bords",
+          "description": "Traitez les données en périphérie pour obtenir des informations immédiates et un contrôle local"
+        },
+        {
+          "number": "3",
+          "title": "Analyse cloud",
+          "description": "Transmettez les données traitées vers le cloud pour des analyses avancées et un traitement de l'IA"
+        },
+        {
+          "number": "4",
+          "title": "Optimisation",
+          "description": "Générez des informations prédictives et des recommandations d’optimisation pour les opérations"
+        }
+      ]
+    },
+    "solution": {
+      "title": "La solution de fabrication d'Elemento",
+      "description": "Infrastructure unifiée qui relie les systèmes existants aux analyses cloud modernes",
+      "items": [
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Environnement d'hyperviseur cohérent pour le traitement en périphérie et dans le cloud"
+        },
+        {
+          "logo": "../assets/logos/Electros.svg",
+          "name": "Electros",
+          "description": "Tableau de bord unifié pour surveiller tous les systèmes de fabrication"
+        },
+        {
+          "logo": "../assets/logos/Atomosphere.svg",
+          "name": "Atomosphere",
+          "description": "Couche API pour une intégration transparente avec les systèmes MES/ERP existants"
+        }
+      ],
+      "cta": {
+        "text": "Voir la pile de fabrication",
+        "link": "../products.html"
+      }
+    },
+    "features": {
+      "title": "Caractéristiques de fabrication",
+      "subtitle": "Tout ce dont vous avez besoin pour moderniser vos opérations industrielles",
+      "items": [
+        {
+          "icon": "fas fa-plug",
+          "title": "Intégration du système existant",
+          "description": "Connectez les systèmes PLC, SCADA et MES existants sans interruption"
+        },
+        {
+          "icon": "fas fa-shield-alt",
+          "title": "Sécurité industrielle",
+          "description": "Chiffrement de bout en bout et transmission sécurisée des données de l'atelier au cloud"
+        },
+        {
+          "icon": "fas fa-chart-line",
+          "title": "Analyse en temps réel",
+          "description": "Traitez les données de télémétrie en temps réel pour obtenir des informations et une optimisation immédiates"
+        },
+        {
+          "icon": "fas fa-robot",
+          "title": "Maintenance prédictive",
+          "description": "Planification de maintenance basée sur l'IA pour réduire les temps d'arrêt et les coûts"
+        },
+        {
+          "icon": "fas fa-cloud",
+          "title": "Architecture de cloud hybride",
+          "description": "Reliez en toute transparence les infrastructures sur site et cloud"
+        },
+        {
+          "icon": "fas fa-lock",
+          "title": "Souveraineté des données",
+          "description": "Conservez les données de fabrication sensibles dans le cadre de vos exigences de contrôle et de conformité"
+        }
+      ]
+    },
+    "codeExample": {
+      "title": "Pipeline de données de fabrication",
+      "subtitle": "Définissez vos flux de données industrielles avec une configuration simple et déclarative",
+      "code": "# Manufacturing Data Pipeline Configuration\napiVersion: elemento.cloud/v1\nkind: ManufacturingPipeline\nmetadata:\n  name: automotive-production\nspec:\n  dataSources:\n    - name: plc-sensors\n      type: modbus\n      endpoint: \"192.168.1.100:502\"\n      frequency: \"1s\"\n    - name: scada-system\n      type: opcua\n      endpoint: \"opc.tcp://scada.plant.local:4840\"\n      frequency: \"5s\"\n  processing:\n    edge:\n      filters: [\"temperature\", \"pressure\", \"vibration\"]\n      aggregation: \"1m\"\n    cloud:\n      analytics: [\"predictive-maintenance\", \"quality-control\"]\n      storage: \"time-series-db\"\n  outputs:\n    - dashboard: \"production-monitoring\"\n    - alerts: \"anomaly-detection\"\n    - reports: \"daily-summary\"",
+      "cta": {
+        "text": "Afficher le pipeline de données",
+        "link": "../technology.html"
+      }
+    },
+    "stats": {
+      "title": "Impact sur la fabrication",
+      "subtitle": "Résultats réels des fabricants utilisant Elemento pour la transformation numérique",
+      "items": [
+        {
+          "label": "Intégration plus rapide",
+          "value": "60%",
+          "icon": "fas fa-rocket",
+          "color": "orange"
+        },
+        {
+          "label": "Réduction des coûts",
+          "value": "35%",
+          "icon": "fas fa-chart-line",
+          "color": "green"
+        },
+        {
+          "label": "Amélioration de la disponibilité",
+          "value": "95%",
+          "icon": "fas fa-check-circle",
+          "color": "blue"
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ sur la fabrication",
+      "subtitle": "Questions courantes sur l'utilisation d'Elemento pour les opérations industrielles",
+      "items": [
+        {
+          "question": "Comment Elemento s'intègre-t-il aux systèmes PLC et SCADA existants ?",
+          "answer": "Elemento fournit des API et des connecteurs sécurisés qui fonctionnent avec tous les principaux protocoles industriels, notamment Modbus, OPC-UA et Ethernet/IP. Nos capacités de traitement en périphérie permettent la collecte de données en temps réel sans perturber les opérations existantes."
+        },
+        {
+          "question": "Qu’en est-il de la sécurité et de la conformité des données dans le secteur manufacturier ?",
+          "answer": "Elemento fournit un cryptage de bout en bout, une transmission sécurisée des données et une conformité aux normes industrielles telles que ISA/IEC 62443. Vos données de fabrication restent souveraines et sous votre contrôle."
+        },
+        {
+          "question": "Elemento peut-il fonctionner avec nos systèmes MES et ERP existants ?",
+          "answer": "Oui! La couche API Atomosphere d'Elemento offre une intégration transparente avec les systèmes MES populaires tels que SAP, Oracle et les solutions personnalisées. Nous prenons en charge les déploiements cloud et sur site."
+        },
+        {
+          "question": "Comment Elemento gère-t-il les volumes élevés de données provenant des capteurs industriels ?",
+          "answer": "Les capacités de traitement de pointe d'Elemento filtrent et prétraitent les données à la source, réduisant ainsi les besoins en bande passante tout en conservant des analyses en temps réel. Notre architecture évolutive gère des millions de points de données par seconde."
+        }
+      ]
+    },
+    "ctaFinal": {
+      "title": "Prêt à transformer votre fabrication ?",
+      "subtitle": "Rejoignez les principaux fabricants qui utilisent déjà Elemento pour moderniser leurs opérations et libérer la puissance des données industrielles.",
+      "primaryCTA": {
+        "text": "Démarrer la transformation numérique",
+        "link": "../signup.html",
+        "icon": "fas fa-clipboard-check"
+      },
+      "secondaryCTA": {
+        "text": "Explorez les solutions industrielles",
+        "link": "../products.html",
+        "icon": "fas fa-chart-bar"
+      }
+    }
   }
 }

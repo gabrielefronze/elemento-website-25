@@ -3,6 +3,7 @@ import Hreflang from '../components/Hreflang.astro';
 import SiteFonts from '../components/SiteFonts.astro';
 import { getUi } from '../i18n';
 import type { Locale } from '../i18n/config';
+import { localePath } from '../i18n/config';
 import { assetBaseFor } from '../lib/asset-base';
 
 interface Props {
@@ -39,15 +40,8 @@ const {
 
 const ui = getUi(locale);
 const assetBase = assetBaseProp ?? assetBaseFor(locale, stem);
-const langAttr = locale === 'it' ? 'it' : 'en';
-const canonicalPath =
-  locale === 'it'
-    ? stem === 'index'
-      ? '/it/'
-      : `/it/${stem}.html`
-    : stem === 'index'
-      ? '/'
-      : `/${stem}.html`;
+const langAttr = locale === 'en' ? 'en' : locale;
+const canonicalPath = localePath(locale, stem);
 const ogUrl = `https://elemento.cloud${canonicalPath === '/' ? '/' : canonicalPath}`;
 const hreflangStem = stem;
 ---

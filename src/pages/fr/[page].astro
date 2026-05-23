@@ -1,0 +1,17 @@
+---
+import MigratedPage from '../../components/MigratedPage.astro';
+import { pagesByGroup } from '../../lib/manifest';
+
+export function getStaticPaths() {
+  return pagesByGroup('root', 'fr')
+    .filter((p) => p.stem !== 'index' && !p.stem.includes('/'))
+    .map((entry) => ({
+      params: { page: entry.stem },
+      props: { entry },
+    }));
+}
+
+const { entry } = Astro.props;
+---
+
+<MigratedPage entry={entry} locale="fr" />

@@ -59,7 +59,9 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function getLocale() {
-        return window.ElementoI18n ? window.ElementoI18n.getPageLocale() : (document.documentElement.lang === 'it' ? 'it' : 'en');
+        if (window.ElementoI18n) return window.ElementoI18n.getPageLocale();
+        const lang = document.documentElement.lang;
+        return lang === 'it' || lang === 'fr' ? lang : 'en';
     }
 
     function localizedHref(filename) {
@@ -67,7 +69,9 @@ document.addEventListener('DOMContentLoaded', function() {
             return window.ElementoI18n.pageHref(filename, getLocale());
         }
         const locale = getLocale();
-        if (locale === 'it') return `/it/${filename}`;
+        if (locale !== 'en') {
+            return filename === 'index.html' ? `/${locale}/index.html` : `/${locale}/${filename}`;
+        }
         return filename === 'index.html' ? '/' : `/${filename}`;
     }
 

@@ -165,7 +165,7 @@ function main() {
       extraCss,
       extraScripts: scripts,
       type: isSolution || (group === 'solutions' && SOLUTION_SLUGS.has(slug)) ? 'solution' : 'legacy',
-      locales: group === 'grazie' ? ['it'] : ['en', 'it'],
+      locales: group === 'grazie' ? ['it'] : ['en', 'it', 'fr'],
     });
   }
 

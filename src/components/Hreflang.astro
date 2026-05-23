@@ -1,6 +1,5 @@
 ---
-import { absoluteUrl } from '../i18n/config';
-import type { Locale } from '../i18n/config';
+import { absoluteUrl, type Locale } from '../i18n/config';
 import { pageByStem } from '../lib/manifest';
 
 interface Props {
@@ -11,12 +10,16 @@ interface Props {
 const { locale, stem } = Astro.props;
 const hasEn = !!pageByStem(stem, 'en');
 const hasIt = !!pageByStem(stem, 'it');
+const hasFr = !!pageByStem(stem, 'fr');
 const enUrl = hasEn ? absoluteUrl('en', stem) : absoluteUrl('en', 'index');
 const itUrl = hasIt ? absoluteUrl('it', stem) : absoluteUrl('it', 'index');
-const canonical = locale === 'en' ? (hasEn ? enUrl : itUrl) : itUrl;
+const frUrl = hasFr ? absoluteUrl('fr', stem) : absoluteUrl('fr', 'index');
+const canonical =
+  locale === 'en' ? (hasEn ? enUrl : hasIt ? itUrl : frUrl) : locale === 'it' ? itUrl : frUrl;
 ---
 
 <link rel="canonical" href={canonical} />
 {hasEn && <link rel="alternate" hreflang="en" href={enUrl} />}
 {hasIt && <link rel="alternate" hreflang="it" href={itUrl} />}
+{hasFr && <link rel="alternate" hreflang="fr" href={frUrl} />}
 <link rel="alternate" hreflang="x-default" href={hasEn ? enUrl : itUrl} />

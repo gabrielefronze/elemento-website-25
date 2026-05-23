@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fill Italian translations for localization/strings.json using Google Translate."""
+"""Fill locale translations in localization/strings-{locale}.json using Google Translate."""
 import json
 import re
 import sys
@@ -13,10 +13,15 @@ except ImportError:
     sys.exit(1)
 
 ROOT = Path(__file__).resolve().parent.parent
-SRC = ROOT / "localization" / "strings.json"
-OUT = ROOT / "localization" / "strings-it.json"
+LOCALE = (sys.argv[1] if len(sys.argv) > 1 else "it").strip().lower()
+TARGET_LANG = {"it": "it", "fr": "fr"}
+if LOCALE not in TARGET_LANG:
+    print(f"Unsupported locale: {LOCALE}. Use it or fr.", file=sys.stderr)
+    sys.exit(1)
 
-# Keep brand / product tokens
+SRC = ROOT / "localization" / ("strings.json" if LOCALE == "it" else f"strings-{LOCALE}.json")
+OUT = ROOT / "localization" / f"strings-{LOCALE}.json"
+
 KEEP_PATTERN = re.compile(
     r"^(AtomOS|Electros|Atomosphere|Elemento|GitHub|LinkedIn|Kubernetes|"
     r"VMware|AWS|Azure|GCP|API|CLI|GPU|KVM|ZFS|GlusterFS|Terraform|DevOps|"
@@ -26,22 +31,23 @@ KEEP_PATTERN = re.compile(
 
 MAX_CHUNK = 4500
 
-
 SKIP_IDS = {
     "ui.langSwitcher.en",
     "ui.langSwitcher.it",
+    "ui.langSwitcher.fr",
 }
+
 
 def needs_translation(row: dict) -> bool:
     if row.get("id") in SKIP_IDS:
         return False
-    it = (row.get("it") or "").strip()
+    tr = (row.get(LOCALE) or "").strip()
     en = (row.get("en") or "").strip()
     if not en:
         return False
     if len(en) <= 3 and en.isupper():
         return False
-    if not it or it == en:
+    if not tr or tr == en:
         return True
     return False
 
@@ -65,11 +71,13 @@ def translate_text(translator: GoogleTranslator, text: str) -> str:
 def main() -> None:
     data = json.loads(SRC.read_text(encoding="utf-8"))
     strings = data["strings"]
-    translator = GoogleTranslator(source="en", target="it")
+    translator = GoogleTranslator(source="en", target=TARGET_LANG[LOCALE])
 
     total = sum(1 for s in strings if needs_translation(s))
     done = 0
     errors = 0
+
+    print(f"Translating {total} strings to {LOCALE}…", flush=True)
 
     for row in strings:
         if not needs_translation(row):
@@ -77,17 +85,18 @@ def main() -> None:
         en = row["en"]
         try:
             if KEEP_PATTERN.match(en.strip()):
-                row["it"] = en
+                row[LOCALE] = en
             else:
-                row["it"] = translate_text(translator, en)
+                row[LOCALE] = translate_text(translator, en)
             done += 1
             if done % 25 == 0:
                 print(f"Translated {done}/{total}…", flush=True)
+                OUT.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
             time.sleep(0.12)
         except Exception as exc:
             errors += 1
             print(f"FAIL {row['id']}: {exc}", file=sys.stderr)
-            row["it"] = row.get("it") or en
+            row[LOCALE] = row.get(LOCALE) or en
 
     out = {**data, "translatedAt": time.strftime("%Y-%m-%dT%H:%M:%SZ"), "strings": strings}
     OUT.write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

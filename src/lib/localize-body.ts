@@ -1,13 +1,19 @@
 import type { Locale } from '../i18n/config';
 import { getUi } from '../i18n';
 import itReplacements from '../i18n/replacements/it.json';
+import frReplacements from '../i18n/replacements/fr.json';
 
 type Replacement = [string | RegExp, string];
-type ReplacementEntry = { en: string; it: string };
+type ReplacementEntry = { en: string; it?: string; fr?: string };
 
 type ReplacementFile = {
   byStem?: Record<string, ReplacementEntry[]>;
   replacements?: ReplacementEntry[];
+};
+
+const REPLACEMENT_FILES: Partial<Record<Locale, ReplacementFile>> = {
+  it: itReplacements as ReplacementFile,
+  fr: frReplacements as ReplacementFile,
 };
 
 /** Keep diagram filenames (e.g. Products.svg) out of string replacement passes. */
@@ -252,26 +258,35 @@ function localizeAnchorText(html: string, map: Map<string, string>): string {
   });
 }
 
-function getReplacementPairs(stem: string): Replacement[] {
-  const cached = stemCache.get(stem);
+function getReplacementPairs(stem: string, locale: Locale): Replacement[] {
+  const cacheKey = `${locale}:${stem}`;
+  const cached = stemCache.get(cacheKey);
   if (cached) return cached;
 
-  const data = itReplacements as ReplacementFile;
+  const data = REPLACEMENT_FILES[locale];
+  if (!data) {
+    stemCache.set(cacheKey, []);
+    return [];
+  }
+
   let entries: ReplacementEntry[] = data.byStem?.[stem] ?? [];
   if (!entries.length && data.replacements?.length) {
     entries = data.replacements;
   }
 
   const pairs = entries
-    .filter((r) => r.en && r.it && r.en !== r.it)
+    .filter((r) => {
+      const tr = r[locale];
+      return r.en && tr && r.en !== tr;
+    })
     .sort((a, b) => b.en.length - a.en.length)
-    .map((r) => [r.en, r.it] as Replacement);
+    .map((r) => [r.en, r[locale]!] as Replacement);
 
-  stemCache.set(stem, pairs);
+  stemCache.set(cacheKey, pairs);
   return pairs;
 }
 
-/** Apply Italian (or future locale) overlays to legacy HTML body copy */
+/** Apply non-English locale overlays to legacy HTML body copy */
 export function localizeBody(html: string, locale: Locale, stem: string): string {
   if (locale === 'en') return html;
 
@@ -282,20 +297,27 @@ export function localizeBody(html: string, locale: Locale, stem: string): string
   const { html: maskedHtml, tokens: diagramSrcTokens } = maskDiagramAssetSrc(html);
   let out = maskedHtml;
 
+  const skipLink =
+    locale === 'it'
+      ? 'Vai al contenuto principale'
+      : locale === 'fr'
+        ? 'Aller au contenu principal'
+        : 'Skip to main content';
+
   const legacy: Replacement[] = [
     ['Read more', ui.blog.readMore],
-    ['Learn more', 'Scopri di più'],
-    ['Get Started', 'Inizia'],
-    ['Start Now', 'Inizia ora'],
-    ['Start Free Trial', 'Inizia la prova gratuita'],
-    ['Contact us', ui.pages.contact.heroTitle],
-    ['Sign up', ui.pages.signup.heroTitle],
+    ['Learn more', locale === 'fr' ? 'En savoir plus' : 'Scopri di più'],
+    ['Get Started', locale === 'fr' ? 'Commencer' : 'Inizia'],
+    ['Start Now', locale === 'fr' ? 'Commencer' : 'Inizia ora'],
+    ['Start Free Trial', locale === 'fr' ? 'Essai gratuit' : 'Inizia la prova gratuita'],
+    ['Contact us', ui.pages.contact?.heroTitle ?? 'Contact us'],
+    ['Sign up', ui.pages.signup?.heroTitle ?? 'Sign up'],
     ['Book a Call', ui.nav.bookCall],
     ['Book a call', ui.nav.bookCall],
-    ['Skip to main content', 'Vai al contenuto principale'],
+    ['Skip to main content', skipLink],
   ];
 
-  const perPage: Record<string, Replacement[]> = {
+  const perPageIt: Record<string, Replacement[]> = {
     index: [
       ['Ready. Set. Cloud.', 'Pronti. Via. Cloud.'],
       [
@@ -370,9 +392,86 @@ export function localizeBody(html: string, locale: Locale, stem: string): string
     '404': [['Discover our solutions', 'Scopri le nostre soluzioni']],
   };
 
+  const perPageFr: Record<string, Replacement[]> = {
+    index: [
+      ['Ready. Set. Cloud.', 'Prêts. Partez. Cloud.'],
+      [
+        /Build and Run Your Own(?:\s|<[^>]+>\s*)+Cloud Infrastructure(?:\s|<[^>]+>\s*)+<span class="pixel-accent">with No Lock-In<\/span>/gi,
+        'Construisez et exécutez votre<br> infrastructure cloud<br> <span class="pixel-accent">sans verrouillage</span>',
+      ],
+      [
+        /Elemento lets you build and run your own cloud infrastructure with complete freedom\.[\s\S]*?<span class="pixel-accent">Your cloud\. Your rules, Your freedom\.<\/span>/gi,
+        'Elemento vous permet de construire et d\'exploiter votre infrastructure cloud en toute liberté. Vous choisissez où elle tourne, nous automatisons le reste.<br><span class="pixel-accent">Votre cloud. Vos règles. Votre liberté.</span>',
+      ],
+    ],
+    about: [
+      ['Our Story. Our Mission. Our passion.', 'Notre histoire. Notre mission. Notre passion.'],
+      [/<span class="pixel-word">About<\/span>/, '<span class="pixel-word">À propos</span>'],
+      [
+        /Transforming cloud infrastructure[\s\S]*?green computing solutions\./gi,
+        page?.heroSubtitle ?? '',
+      ],
+      ['Meet the Team', 'L\'équipe'],
+      ['Meet Our Team', 'Notre équipe'],
+      ['Our Mission', 'Notre mission'],
+      ['Our Values', 'Nos valeurs'],
+    ],
+    contact: [
+      ['Get in Touch', ui.pages.contact?.heroTitle ?? 'Nous contacter'],
+      ['Send us a message', 'Envoyez-nous un message'],
+      ['Sales', 'Ventes'],
+      ['Support', 'Support'],
+      ['Partnership', 'Partenariat'],
+      [
+        'Choose the support option that works best for you',
+        'Choisissez l\'option de support qui vous convient le mieux',
+      ],
+    ],
+    products: [
+      ['Our Products', ui.pages.products?.heroTitle ?? 'Nos produits'],
+      ['Modular Cloud Solutions', 'Solutions cloud modulaires'],
+      ['All Products', ui.footer.allProducts],
+    ],
+    signup: [
+      ['Create your account', 'Créez votre compte'],
+      ['Start your journey', 'Commencez votre parcours'],
+    ],
+    blog: [
+      ['Latest Articles', 'Articles récents'],
+      ['Cloud Computing Insights', 'Actualités cloud'],
+    ],
+    atomos: [
+      ['Install the AtomOS CLI tool:', 'Installez l\'outil CLI AtomOS :'],
+      ['Install the AtomOS services', 'Installez les services AtomOS'],
+      ['Ready to deploy your first VM in minutes!', 'Prêt à déployer votre première VM en quelques minutes !'],
+    ],
+    'install-atomos': [
+      ['Install the AtomOS CLI tool:', 'Installez l\'outil CLI AtomOS :'],
+      ['Ready to deploy your first VM in minutes!', 'Prêt à déployer votre première VM en quelques minutes !'],
+      ['Ready to manage your multicloud infrastructure!', 'Prêt à gérer votre infrastructure multicloud !'],
+      ['Configure Electros CLI from ~/.elemento/config', 'Configurez la CLI Electros depuis ~/.elemento/config'],
+      ['Start managing VMs across all your clouds!', 'Gérez vos VM sur tous vos clouds !'],
+    ],
+    electros: [
+      ['Configure Electros CLI from ~/.elemento/config', 'Configurez la CLI Electros depuis ~/.elemento/config'],
+      ['Start managing VMs across all your clouds!', 'Gérez vos VM sur tous vos clouds !'],
+      ['Ready to manage your multicloud infrastructure!', 'Prêt à gérer votre infrastructure multicloud !'],
+    ],
+    'signup-success': [
+      ['Check your email', 'Vérifiez votre e-mail'],
+      [
+        "We've sent you a welcome message with your login credentials and next steps.",
+        'Nous vous avons envoyé un message de bienvenue avec vos identifiants et les prochaines étapes.',
+      ],
+    ],
+    '404': [['Discover our solutions', 'Découvrez nos solutions']],
+  };
+
   const stemKey = stem.replace(/\//g, '_');
-  const stemPairs = getReplacementPairs(stemKey);
+  const stemPairs = getReplacementPairs(stemKey, locale);
   const translationMap = buildTranslationMap(stemPairs);
+  const perPage =
+    locale === 'it' ? perPageIt : locale === 'fr' ? perPageFr : {};
   const all = [...stemPairs, ...legacy, ...(perPage[pageKey] ?? [])];
 
   out = localizeHeroDetails(out, translationMap);
@@ -386,7 +485,7 @@ export function localizeBody(html: string, locale: Locale, stem: string): string
     out = typeof from === 'string' ? out.split(from).join(to) : out.replace(from, to);
   }
 
-  if (pageKey === 'blog' && locale === 'it') {
+  if (pageKey === 'blog' && (locale === 'it' || locale === 'fr')) {
     out = out.replace(/<h1[^>]*>[\s\S]*?<\/h1>/, `<h1 class="hero-title">${ui.blog.heading}</h1>`);
     const note = `<p class="blog-locale-note" style="margin:1rem auto;max-width:720px;text-align:center;opacity:0.85;">${ui.blog.englishPostsNote}</p>`;
     if (!out.includes('blog-locale-note')) {

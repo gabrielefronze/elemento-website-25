@@ -3,15 +3,21 @@
  */
 (function (global) {
   const TEXT_FIELDS = ['name', 'role', 'bio', 'highlight', 'description', 'title', 'subtitle', 'label', 'company', 'quote'];
+  const LOCALES = ['en', 'it', 'fr'];
 
   function getPageLocale() {
     const htmlLang = document.documentElement.lang;
-    if (htmlLang === 'it') return 'it';
+    if (LOCALES.includes(htmlLang)) return htmlLang;
     const dataLocale = document.documentElement.getAttribute('data-locale');
-    if (dataLocale === 'it') return 'it';
-    if (window.__I18N__?.locale === 'it') return 'it';
+    if (LOCALES.includes(dataLocale)) return dataLocale;
+    if (window.__I18N__?.locale && LOCALES.includes(window.__I18N__.locale)) {
+      return window.__I18N__.locale;
+    }
     const path = window.location.pathname;
-    if (path.startsWith('/it/') || path === '/it' || path === '/it/') return 'it';
+    for (const loc of LOCALES) {
+      if (loc === 'en') continue;
+      if (path.startsWith(`/${loc}/`) || path === `/${loc}` || path === `/${loc}/`) return loc;
+    }
     return 'en';
   }
 
@@ -56,10 +62,10 @@
   function pageHref(filename, locale) {
     const loc = locale ?? getPageLocale();
     const stem = filename.replace(/\.html$/, '') || 'index';
-    if (loc === 'it') {
-      return stem === 'index' ? '/it/index.html' : `/it/${filename}`;
+    if (loc === 'en') {
+      return stem === 'index' ? '/' : `/${filename}`;
     }
-    return stem === 'index' ? '/' : `/${filename}`;
+    return stem === 'index' ? `/${loc}/index.html` : `/${loc}/${filename}`;
   }
 
   /** Language switcher target URL from page stem (no .html). */

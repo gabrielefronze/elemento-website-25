@@ -45,6 +45,23 @@
         "Test e staging",
         "Carichi di lavoro leggeri"
       ]
+    },
+    "fr": {
+      "name": "Orbital Starter",
+      "description": "Configuration de serveur d'entrée de gamme pour les petits déploiements et environnements de développement",
+      "availability": "In Stock",
+      "features": [
+        "AtomOS included with perpetual licensing",
+        "Basic virtualization capabilities",
+        "Remote management via Electros",
+        "Standard warranty and support"
+      ],
+      "use_cases": [
+        "Development environments",
+        "Small business applications",
+        "Testing and staging",
+        "Lightweight workloads"
+      ]
     }
   },
   {
@@ -95,6 +112,24 @@
         "Server database",
         "High-availability systems"
       ]
+    },
+    "fr": {
+      "name": "Orbital Professional",
+      "description": "Configuration de serveur de milieu de gamme pour les charges de travail de production et les déploiements à moyenne échelle",
+      "availability": "In Stock",
+      "features": [
+        "AtomOS included with perpetual licensing",
+        "GPU passthrough support",
+        "High-performance virtualization",
+        "Advanced clustering capabilities",
+        "24/7 monitoring and support"
+      ],
+      "use_cases": [
+        "Production applications",
+        "AI/ML workloads",
+        "Database servers",
+        "High-availability systems"
+      ]
     }
   },
   {
@@ -136,6 +171,26 @@
       "availability": "Disponibile",
       "features": [
         "AtomOS con licenza perpetua inclusa",
+        "Dual GPU configuration",
+        "Maximum virtualization density",
+        "Enterprise clustering and failover",
+        "Dedicated support team",
+        "Custom configuration options"
+      ],
+      "use_cases": [
+        "Enterprise applications",
+        "High-performance computing",
+        "Large-scale AI/ML training",
+        "Mission-critical systems",
+        "Multi-tenant environments"
+      ]
+    },
+    "fr": {
+      "name": "Orbital Enterprise",
+      "description": "Configuration de serveur hautes performances pour les charges de travail d'entreprise et les déploiements à grande échelle",
+      "availability": "In Stock",
+      "features": [
+        "AtomOS included with perpetual licensing",
         "Dual GPU configuration",
         "Maximum virtualization density",
         "Enterprise clustering and failover",
@@ -199,6 +254,24 @@
         "IoT data processing",
         "Branch office infrastructure"
       ]
+    },
+    "fr": {
+      "name": "Orbital Edge",
+      "description": "Configuration de serveur compacte optimisée pour l'informatique de pointe et les sites distants",
+      "availability": "In Stock",
+      "features": [
+        "AtomOS included with perpetual licensing",
+        "Edge-optimized form factor",
+        "Low power consumption",
+        "Remote management capabilities",
+        "Ruggedized design"
+      ],
+      "use_cases": [
+        "Edge computing",
+        "Remote office deployments",
+        "IoT data processing",
+        "Branch office infrastructure"
+      ]
     }
   },
   {
@@ -251,6 +324,25 @@
         "Media storage",
         "Compliance storage"
       ]
+    },
+    "fr": {
+      "name": "Orbital Storage",
+      "description": "Configuration de serveur haute capacité optimisée pour les charges de travail de stockage et de sauvegarde",
+      "availability": "In Stock",
+      "features": [
+        "AtomOS included with perpetual licensing",
+        "Massive storage capacity",
+        "Data redundancy and protection",
+        "Backup and archival capabilities",
+        "Storage optimization features"
+      ],
+      "use_cases": [
+        "Data archival",
+        "Backup systems",
+        "File servers",
+        "Media storage",
+        "Compliance storage"
+      ]
     }
   },
   {
@@ -291,6 +383,25 @@
       "availability": "Custom Quote",
       "features": [
         "AtomOS con licenza perpetua inclusa",
+        "Fully customizable hardware",
+        "Expert consultation included",
+        "Custom integration support",
+        "Flexible deployment options"
+      ],
+      "use_cases": [
+        "Specialized workloads",
+        "Unique requirements",
+        "Legacy system integration",
+        "Performance optimization",
+        "Compliance requirements"
+      ]
+    },
+    "fr": {
+      "name": "Orbital Custom",
+      "description": "Configuration de serveur entièrement personnalisable adaptée à vos besoins spécifiques",
+      "availability": "Custom Quote",
+      "features": [
+        "AtomOS included with perpetual licensing",
         "Fully customizable hardware",
         "Expert consultation included",
         "Custom integration support",

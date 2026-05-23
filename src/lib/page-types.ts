@@ -10,5 +10,5 @@ export interface PageEntry {
   extraCss: string[];
   extraScripts: string[];
   type: 'legacy' | 'solution';
-  locales: ('en' | 'it')[];
+  locales: ('en' | 'it' | 'fr')[];
 }

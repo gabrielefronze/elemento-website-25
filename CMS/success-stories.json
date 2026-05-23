@@ -13,6 +13,12 @@
       "quote": "Elemento ci ha permesso di passare da un sistema rigido basato su appliance a un'architettura Linux flessibile e cloud ibrida. Ora disponiamo del ripristino di emergenza senza vincoli al fornitore.",
       "author": "Marco Brussino",
       "role": "Responsabile IT"
+    },
+    "fr": {
+      "company": "Ingénierie OLCI",
+      "quote": "Elemento nous a permis de passer d'un système rigide basé sur des appliances à une architecture flexible Linux et cloud hybride. Nous disposons désormais d’une reprise après sinistre sans dépendance vis-à-vis d’un fournisseur.",
+      "author": "Marco Brussino",
+      "role": "Responsable informatique"
     }
   },
   {
@@ -29,6 +35,12 @@
       "quote": "Con Elemento, abbiamo ottenuto un cluster locale ridondante e un sistema di disaster recovery off-site completamente automatizzato. Ciò garantisce operazioni ininterrotte per i nostri carichi di lavoro mission-critical.",
       "author": "Alessandra Rostagno",
       "role": "Direttore IT"
+    },
+    "fr": {
+      "company": "Spa Marcopolo",
+      "quote": "Avec Elemento, nous avons réalisé un cluster local redondant et un système de reprise après sinistre hors site entièrement automatisé. Cela garantit des opérations ininterrompues pour nos charges de travail critiques.",
+      "author": "Alessandra Rostagno",
+      "role": "Directeur informatique"
     }
   },
   {
@@ -45,6 +57,12 @@
       "quote": "Elemento ci ha offerto resilienza di livello aziendale con un NAS ridondante a livello locale e backup sicuri nel cloud. Manteniamo la piena sovranità dei dati garantendo al contempo la continuità aziendale.",
       "author": "Denise Lupani",
       "role": "Amministratore delegato"
+    },
+    "fr": {
+      "company": "Brandsider Srl",
+      "quote": "Elemento nous a offert une résilience de niveau entreprise avec un NAS redondant localement et des sauvegardes sécurisées dans le cloud. Nous maintenons une souveraineté totale sur les données tout en assurant la continuité des activités.",
+      "author": "Denise Lupani",
+      "role": "CEO"
     }
   },
   {
@@ -61,6 +79,12 @@
       "quote": "I nostri numerosi studi dentistici ora funzionano su un data center unificato e sicuro per la gestione ERP, CRM e dei raggi X. Ciò garantisce tempi di attività e scalabilità costanti in tutte le nostre cliniche.",
       "author": "Matteo Reverdito",
       "role": "Dentista"
+    },
+    "fr": {
+      "company": "Académie des aligneurs 360",
+      "quote": "Nos multiples cabinets dentaires fonctionnent désormais sur un centre de données unifié et sécurisé pour la gestion ERP, CRM et radiographie. Cela garantit une disponibilité et une évolutivité constantes dans toutes nos cliniques.",
+      "author": "Matteo Reverdito",
+      "role": "Dentiste"
     }
   },
   {
@@ -77,6 +101,12 @@
       "quote": "Il cluster ridondante di Elemento mantiene il nostro ERP sempre online, anche in un'area rurale con connettività limitata. Il failover automatico garantisce di non perdere mai le operazioni aziendali critiche.",
       "author": "Edoardo Tomatis",
       "role": "Amministratore delegato"
+    },
+    "fr": {
+      "company": "Giacomo Tomatis Srl",
+      "quote": "Le cluster redondant d'Elemento maintient notre ERP toujours en ligne, même dans une zone rurale avec une connectivité limitée. Le basculement automatique garantit que nous ne perdrons jamais les opérations commerciales critiques.",
+      "author": "Edoardo Tomátis",
+      "role": "CEO"
     }
   },
   {
@@ -93,6 +123,12 @@
       "quote": "Elemento è la tecnologia backbone che consente la prima vera federazione di Cloud Provider europei. Sblocca l’interoperabilità transfrontaliera senza sacrificare la sovranità.",
       "author": "Francesco Bonfiglio",
       "role": "Amministratore delegato"
+    },
+    "fr": {
+      "company": "Spa Dynamo",
+      "quote": "Elemento est la technologie de base permettant la première véritable fédération de fournisseurs de cloud européens. Il débloque l’interopérabilité transfrontalière sans sacrifier la souveraineté.",
+      "author": "Francesco Bonfiglio",
+      "role": "CEO"
     }
   }
 ]

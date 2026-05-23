@@ -43,10 +43,13 @@
 
     function getLocale() {
         if (window.ElementoI18n?.getPageLocale) return window.ElementoI18n.getPageLocale();
-        if (window.__I18N__?.locale === 'it') return 'it';
-        if (document.documentElement.lang === 'it') return 'it';
+        const i18nLocale = window.__I18N__?.locale;
+        if (i18nLocale === 'it' || i18nLocale === 'fr') return i18nLocale;
+        const lang = document.documentElement.lang;
+        if (lang === 'it' || lang === 'fr') return lang;
         const path = window.location.pathname;
         if (path.startsWith('/it/') || path === '/it' || path === '/it/') return 'it';
+        if (path.startsWith('/fr/') || path === '/fr' || path === '/fr/') return 'fr';
         return 'en';
     }
 
@@ -205,6 +208,83 @@
             pdfReportTitle: 'Elemento AtomOS vs {compLabel}',
             loadError: 'Impossibile caricare la calcolatrice. Ricarica la pagina.',
         },
+        fr: {
+            configureInfra: 'Configurez votre infrastructure',
+            subscriptionLength: 'Durée de l\'abonnement',
+            year1: '1 an',
+            years3: '3 ans',
+            years5: '5 ans',
+            compareTo: 'Comparer avec',
+            numberOfHosts: 'Nombre d\'hôtes',
+            coresPerHost: 'Cœurs par hôte',
+            pricingIndependent: 'Le prix ne dépend pas de ce paramètre',
+            storageCapacity: 'Capacité de stockage (vSAN)',
+            totalVms: 'VM totales',
+            costPerVmHint: 'Utilisé uniquement pour le coût par VM',
+            configNote: 'Licences VMware par cœur (minimum 16 cœurs par CPU). Le niveau de stockage affecte le prix VMware vSAN. AtomOS utilise votre stockage existant. Les estimations Nutanix, Sangfor et Hyper-V reposent sur des tarifs publics ou typiques ; contactez les éditeurs pour un devis exact.',
+            downloadPdf: 'Télécharger le rapport PDF',
+            downloadPdfAria: 'Télécharger la comparaison de prix en PDF',
+            costComparison: 'Comparaison des coûts',
+            howComputed: 'Comment avons-nous calculé ?',
+            detailsIntro: 'Détail de la comparaison des coûts et du calcul.',
+            costComponent: 'Poste de coût',
+            hypervisorLicensing: 'Licence hyperviseur',
+            storageVsan: 'Stockage / vSAN',
+            storage: 'Stockage',
+            managementSupport: 'Gestion et support',
+            totalCost: 'Coût total',
+            included: 'Inclus',
+            chooseSupport: 'Choisissez le niveau de support AtomOS',
+            supportBase: 'Base',
+            supportPro: 'Pro',
+            competitorTotal: 'Total {label}',
+            atomosTotal: 'Total AtomOS',
+            savingsPct: 'Économies %',
+            costPerVmYear: 'Coût {label} par VM/an',
+            costPerHostYear: 'Coût {label} par hôte/an',
+            disclaimer: 'Estimations basées sur les tarifs publics et des configurations typiques. VMware : licence par cœur (minimum 16 cœurs par CPU). Nutanix/Sangfor : estimations HCI par nœud. Hyper-V : équivalent Windows Server Datacenter par cœur. AtomOS : offre payante (600 €/hôte/an) avec support Base ou Pro ; Community Edition gratuite mais exclue. Les coûts réels peuvent varier. Contactez les ventes pour un devis exact.',
+            pageTitle: 'Comparer les coûts : AtomOS vs {compShort}',
+            pageTitleSuffix: ' | Elemento Cloud',
+            pageSubtitle: 'Calculez combien vous pourriez économiser avec AtomOS par rapport à {compShort}. Découvrez comment notre solution de virtualisation vous aide à maîtriser les coûts, sans compromettre la fiabilité entreprise.',
+            metaDescription: 'Calculez combien vous pourriez économiser avec AtomOS par rapport à {compShort}. Comparez les coûts de virtualisation et découvrez une fiabilité entreprise à moindre coût.',
+            metaDescriptionShort: 'Calculez combien vous pourriez économiser avec AtomOS par rapport à {compShort}. Comparez les coûts de virtualisation et découvrez une fiabilité entreprise.',
+            chartTitle: 'AtomOS vs {compLabel}',
+            detailsSummary: 'Comment avons-nous calculé AtomOS vs {compLabel} ?',
+            detailsIntroDynamic: 'Détail de la comparaison des coûts AtomOS vs {compLabel} et du calcul.',
+            overPeriod: 'Sur {period} • {count} {unit}',
+            year: 'an',
+            years: 'ans',
+            cores: 'cœurs',
+            nodes: 'nœuds',
+            supportDetail: 'Support {tier} • {hosts} {hostLabel}',
+            host: 'hôte',
+            hosts: 'hôtes',
+            saveUpTo: 'Économisez jusqu\'à {pct} %',
+            savingsOver: '{amount} sur {period}',
+            savingsWithAtomos: 'Avec AtomOS au lieu de {compLabel}',
+            competitorCostsLess: '{compLabel} coûte {pct} % de moins',
+            competitorSavingsOver: '{amount} de moins avec {compLabel} sur {period}',
+            atomosExceeds: 'Le total AtomOS dépasse {compLabel} pour cette configuration',
+            pdfUnavailable: 'Export PDF indisponible. Vérifiez que jsPDF est chargé.',
+            pdfTitle: 'Rapport de comparaison des prix',
+            pdfGenerated: 'Généré le {date}',
+            pdfConfiguration: 'Configuration',
+            pdfConfigLine: 'Hôtes : {hosts}  |  Cœurs par hôte : {cores}  |  VM : {vms}  |  Années : {years}',
+            pdfConfigStorage: 'Stockage (vSAN) : {storage} To  |  Support Elemento AtomOS : {tier}',
+            pdfConfigSupport: 'Support Elemento AtomOS : {tier}',
+            pdfCostBreakdown: 'Détail des coûts',
+            pdfComponent: 'Poste',
+            pdfSavings: 'Économies',
+            pdfSaveLine: 'Économie de {amount} ({pct} %) sur {period} avec Elemento AtomOS',
+            pdfSupportLevel: 'Niveau de support Elemento AtomOS',
+            pdfSupportSelected: 'Sélectionné : {tier} ({price}/hôte/an)',
+            pdfResultSummary: 'Résumé des résultats',
+            pdfMetrics: 'Indicateurs',
+            pdfMetricsLine: 'Économies : {pct} %  |  Coût {compShort} par VM/an : {costVm}  |  Coût par hôte/an : {costHost}',
+            pdfFooter: 'Estimations basées sur les tarifs publics et des configurations typiques. VMware : licence par cœur (minimum 16 cœurs par CPU). Nutanix/Sangfor : estimations HCI par nœud. Hyper-V : équivalent Windows Server Datacenter par cœur. Elemento AtomOS : offre payante (600 €/hôte/an) avec support Base ou Pro ; Community Edition gratuite mais exclue. Les coûts réels peuvent varier. Contactez les ventes pour un devis exact. — Elemento | elemento.cloud',
+            pdfReportTitle: 'Elemento AtomOS vs {compLabel}',
+            loadError: 'Impossible de charger le calculateur. Veuillez actualiser la page.',
+        },
     };
 
     function t(key, vars) {
@@ -220,8 +300,9 @@
     }
 
     function formatMoney(n) {
-        const locale = getLocale() === 'it' ? 'it-IT' : 'en-US';
-        return `${CONFIG.currency} ${n.toLocaleString(locale, { maximumFractionDigits: 0 })}`;
+        const loc = getLocale();
+        const numberLocale = loc === 'it' ? 'it-IT' : loc === 'fr' ? 'fr-FR' : 'en-US';
+        return `${CONFIG.currency} ${n.toLocaleString(numberLocale, { maximumFractionDigits: 0 })}`;
     }
 
     function periodLabel(years) {

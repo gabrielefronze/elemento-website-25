@@ -1,5 +1,5 @@
 import { defineConfig } from 'astro/config';
-import { itDevRoutes } from './scripts/vite-it-dev-routes.mjs';
+import { localeDevRoutes } from './scripts/vite-locale-dev-routes.mjs';
 
 const SITE = 'https://elemento.cloud';
 
@@ -34,6 +34,6 @@ export default defineConfig({
         external: [],
       },
     },
-    plugins: [itDevRoutes()],
+    plugins: [localeDevRoutes()],
   },
 });

@@ -396,5 +396,204 @@
         "icon": "fas fa-rocket"
       }
     }
+  },
+  "fr": {
+    "hero": {
+      "tagline": "Intégrateurs de systèmes",
+      "title": "Offrez des environnements cloud souverains et élastiques",
+      "subtitle": "Elemento Cloud permet aux intégrateurs de systèmes de fournir des couches cloud évolutives en marque blanche sous leur propre marque sans dépendance hyperscaler.",
+      "primaryCTA": {
+        "text": "Commencez maintenant",
+        "link": "../signup.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Explorez la plateforme en marque blanche",
+        "link": "../products.html",
+        "icon": "fas fa-sitemap"
+      }
+    },
+    "painPoints": {
+      "title": "Défis de l’intégrateur de systèmes",
+      "subtitle": "Points faibles courants qui limitent votre capacité à créer de la valeur et à générer des revenus récurrents",
+      "items": [
+        {
+          "icon": "fas fa-tag",
+          "title": "Limites de la marque blanche",
+          "description": "Nécessité de couches cloud évolutives en marque blanche, sans dépendance à l'hyperscaler ni dépendance vis-à-vis d'un fournisseur"
+        },
+        {
+          "icon": "fas fa-chart-line",
+          "title": "Gestion d'un TCO élevé",
+          "description": "Coût total de possession coûteux lors de la gestion manuelle des intégrations multi-cloud"
+        },
+        {
+          "icon": "fas fa-dollar-sign",
+          "title": "Défis du modèle de revenus",
+          "description": "Difficulté à construire des modèles de revenus récurrents autour des infrastructures et des services"
+        },
+        {
+          "icon": "fas fa-cogs",
+          "title": "Complexité de l'intégration",
+          "description": "Configurations multi-cloud complexes, difficiles à gérer et à faire évoluer pour les clients"
+        }
+      ]
+    },
+    "useCase": {
+      "title": "Flux de travail de réussite des partenaires",
+      "subtitle": "De l'intégration des clients aux revenus récurrents avec une infrastructure en marque blanche",
+      "items": [
+        {
+          "number": "1",
+          "title": "Intégration des clients",
+          "description": "Déployez des environnements cloud de marque pour les nouveaux clients en quelques minutes"
+        },
+        {
+          "number": "2",
+          "title": "Gestion multi-locataires",
+          "description": "Gérez plusieurs environnements clients à partir d’un seul tableau de bord"
+        },
+        {
+          "number": "3",
+          "title": "Surveillance de l'utilisation",
+          "description": "Suivez l'utilisation des ressources et générez automatiquement des rapports de facturation"
+        },
+        {
+          "number": "4",
+          "title": "Croissance des revenus",
+          "description": "Développez votre entreprise avec des revenus récurrents provenant des services d'infrastructure"
+        }
+      ]
+    },
+    "solution": {
+      "title": "Solution partenaire d'Elemento",
+      "description": "Plateforme d'infrastructure complète qui permet aux intégrateurs de systèmes de fournir des environnements cloud souverains",
+      "items": [
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Hyperviseur de niveau production pour des environnements multi-locataires cohérents"
+        },
+        {
+          "logo": "../assets/logos/Electros.svg",
+          "name": "Electros",
+          "description": "Tableau de bord en marque blanche pour la gestion de l'infrastructure client"
+        },
+        {
+          "logo": "../assets/logos/Atomosphere.svg",
+          "name": "Atomosphere",
+          "description": "Couche API pour une orchestration et une gestion multi-cloud transparentes"
+        }
+      ],
+      "cta": {
+        "text": "Voir la pile de partenaires",
+        "link": "../products.html"
+      }
+    },
+    "features": {
+      "title": "Fonctionnalités partenaires",
+      "subtitle": "Tout ce dont vous avez besoin pour bâtir une entreprise de services cloud prospère",
+      "items": [
+        {
+          "icon": "fas fa-tag",
+          "title": "Plateforme en marque blanche",
+          "description": "Expérience complète en marque blanche avec votre image de marque et votre personnalisation"
+        },
+        {
+          "icon": "fas fa-users",
+          "title": "Architecture multi-locataires",
+          "description": "Environnements sécurisés et isolés pour chaque client avec une infrastructure partagée"
+        },
+        {
+          "icon": "fas fa-chart-line",
+          "title": "Analyse d'utilisation",
+          "description": "Analyses et rapports complets pour la facturation et l'optimisation des clients"
+        },
+        {
+          "icon": "fas fa-shield-alt",
+          "title": "Sécurité et conformité",
+          "description": "Sécurité de niveau entreprise avec fonctionnalités intégrées de conformité et d’audit"
+        },
+        {
+          "icon": "fas fa-plug",
+          "title": "Intégration d'API",
+          "description": "API RESTful pour une intégration transparente avec les outils et flux de travail existants"
+        },
+        {
+          "icon": "fas fa-dollar-sign",
+          "title": "Optimisation des revenus",
+          "description": "Outils intégrés de facturation et de gestion des coûts pour les modèles de revenus récurrents"
+        }
+      ]
+    },
+    "codeExample": {
+      "title": "Configuration multi-locataires",
+      "subtitle": "Définissez votre infrastructure en marque blanche avec une configuration simple et déclarative",
+      "code": "# Multi-Tenant White-Label Configuration\napiVersion: elemento.cloud/v1\nkind: PartnerInfrastructure\nmetadata:\n  name: white-label-platform\nspec:\n  branding:\n    logo: \"partner-logo.svg\"\n    colors:\n      primary: \"#FFA600\"\n      secondary: \"#007BFF\"\n    domain: \"partner.cloud\"\n  tenants:\n    - name: client-a\n      resources:\n        cpu: \"4\"\n        memory: \"8Gi\"\n        storage: \"100Gi\"\n      features: [\"monitoring\", \"backup\"]\n    - name: client-b\n      resources:\n        cpu: \"8\"\n        memory: \"16Gi\"\n        storage: \"200Gi\"\n      features: [\"monitoring\", \"backup\", \"analytics\"]\n  billing:\n    model: \"usage-based\"\n    currency: \"USD\"\n    reporting: \"monthly\"",
+      "cta": {
+        "text": "Afficher la configuration multi-locataires",
+        "link": "../technology.html"
+      }
+    },
+    "stats": {
+      "title": "Succès des partenaires",
+      "subtitle": "Résultats réels des intégrateurs de systèmes utilisant Elemento",
+      "items": [
+        {
+          "label": "Déploiement plus rapide",
+          "value": "80%",
+          "icon": "fas fa-rocket",
+          "color": "orange"
+        },
+        {
+          "label": "Réduction des coûts",
+          "value": "45%",
+          "icon": "fas fa-chart-line",
+          "color": "green"
+        },
+        {
+          "label": "Croissance des revenus",
+          "value": "120%",
+          "icon": "fas fa-chart-line",
+          "color": "blue"
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ des partenaires",
+      "subtitle": "Questions courantes sur l'utilisation d'Elemento pour l'intégration de systèmes",
+      "items": [
+        {
+          "question": "Comment Elemento active-t-il les services cloud en marque blanche ?",
+          "answer": "Elemento fournit des fonctionnalités complètes en marque blanche, notamment une personnalisation de la marque, des API et des tableaux de bord. Vous pouvez déployer votre propre environnement cloud de marque avec un contrôle total sur l'expérience utilisateur et la gestion des clients."
+        },
+        {
+          "question": "Qu’en est-il de la sécurité et de l’isolation multi-locataires ?",
+          "answer": "L'architecture d'Elemento offre une isolation complète des locataires au niveau de l'hyperviseur, garantissant la sécurité et la conformité des données. L'environnement de chaque client est complètement isolé tout en partageant efficacement l'infrastructure sous-jacente."
+        },
+        {
+          "question": "Comment Elemento aide-t-il avec les modèles de revenus récurrents ?",
+          "answer": "Elemento comprend un suivi d'utilisation intégré, des API de facturation et des outils de gestion des coûts qui vous permettent de créer des modèles de tarification flexibles et des flux de revenus récurrents autour des services d'infrastructure."
+        },
+        {
+          "question": "Pouvons-nous intégrer Elemento à nos outils et flux de travail existants ?",
+          "answer": "Oui! Elemento fournit des API REST et des webhooks complets qui s'intègrent parfaitement à vos outils, flux de travail et systèmes de gestion client existants. Vous pouvez personnaliser l’ensemble de l’expérience pour l’adapter à vos processus métier."
+        }
+      ]
+    },
+    "ctaFinal": {
+      "title": "Prêt à transformer votre activité d'intégration ?",
+      "subtitle": "Rejoignez les principaux intégrateurs de systèmes qui utilisent déjà Elemento pour créer des modèles de revenus récurrents et fournir des environnements cloud souverains.",
+      "primaryCTA": {
+        "text": "Lancement d'une entreprise partenaire",
+        "link": "../signup.html",
+        "icon": "fas fa-handshake"
+      },
+      "secondaryCTA": {
+        "text": "Explorez les solutions d'intégration",
+        "link": "../products.html",
+        "icon": "fas fa-rocket"
+      }
+    }
   }
 }

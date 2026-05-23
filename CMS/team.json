@@ -24,6 +24,12 @@
       "role": "CEO – Amministratore delegato",
       "highlight": "Fisico nucleare, Ph.D. in Fisica",
       "bio": "Con una formazione in fisica nucleare e subnucleare, ho incanalato il mio rigore scientifico nella creazione di soluzioni cloud robuste e scalabili."
+    },
+    "fr": {
+      "name": "Gabriele Gaetano Fronzé",
+      "role": "PDG – Directeur général",
+      "highlight": "Physicien nucléaire, Ph.D. en physique",
+      "bio": "Avec une formation en physique nucléaire et subnucléaire, j'ai canalisé ma rigueur scientifique dans la création de solutions cloud robustes et évolutives."
     }
   },
   {
@@ -51,6 +57,12 @@
       "role": "CTO – Direttore tecnico",
       "highlight": "Fisico, Ph.D. in Sistemi complessi per le scienze della vita",
       "bio": "Curioso per natura, amo la programmazione e il data mining. | Ho studiato Sistemi Complessi e ora sto guidando il team tecnico per semplificare i cloud."
+    },
+    "fr": {
+      "name": "Filippo Valle",
+      "role": "CTO – Directeur technique",
+      "highlight": "Physicien, Ph.D. en systèmes complexes pour les sciences de la vie",
+      "bio": "Curieuse de nature, j'adore le codage et le data mining. | J'ai étudié les systèmes complexes et je dirige maintenant l'équipe technique pour simplifier les cloud."
     }
   },
   {
@@ -74,6 +86,12 @@
       "role": "CSO – Direttore vendite",
       "highlight": "",
       "bio": "Sono uno dei pochi fortunati che ha trasformato la propria passione in una carriera. Ho iniziato come sviluppatore di software e, lungo il percorso, mi sono innamorato del lato più tangibile dell'IT: l'infrastruttura hardware."
+    },
+    "fr": {
+      "name": "Gianluca Costa",
+      "role": "CSO – Directeur des Ventes",
+      "highlight": "",
+      "bio": "Je fais partie des rares chanceux qui ont fait de leur passion un métier. J'ai débuté en tant que développeur de logiciels et, en cours de route, je suis tombé amoureux de l'aspect le plus concret de l'informatique : l'infrastructure matérielle."
     }
   },
   {
@@ -97,6 +115,12 @@
       "role": "CFO – Direttore finanziario",
       "highlight": "Master in Economia e Management dell'Innovazione e della Tecnologia @ Università Bocconi",
       "bio": "Con esperienza in fusioni e acquisizioni, strategia aziendale e venture building, e un background in economia, imprenditorialità e innovazione. Collego finanza e tecnologia presso Elemento."
+    },
+    "fr": {
+      "name": "Stefano Galfré",
+      "role": "Directeur Financier – Directeur Financier",
+      "highlight": "MSc Economie et Gestion de l'Innovation et de la Technologie @ Université Bocconi",
+      "bio": "Avec une expérience en fusions et acquisitions, en stratégie d'entreprise et en création d'entreprises, ainsi qu'une formation en économie, en entrepreneuriat et en innovation. Je fais le lien entre la finance et la technologie chez Elemento."
     }
   },
   {
@@ -120,6 +144,12 @@
       "role": "CMO – Direttore marketing",
       "highlight": "Esperto di comunicazione digitale",
       "bio": "CMO presso Elemento Cloud, unendo strategia, tecnologia e creatività. Sono sempre alla ricerca della prossima grande novità nella comunicazione digitale. Mi concentro sull'umanizzazione e sulla traduzione della nostra tecnologia in una comunicazione di grande impatto. La mia missione è rendere le nostre soluzioni cloud tanto intuitive e accessibili quanto potenti."
+    },
+    "fr": {
+      "name": "Fabrizio Parzanese",
+      "role": "CMO – Directeur marketing",
+      "highlight": "Expert en communication numérique",
+      "bio": "CMO chez Elemento Cloud, reliant stratégie, technologie et créativité. Je suis toujours à la recherche de la prochaine grande nouveauté en matière de communication numérique. Je me concentre sur l’humanisation et la traduction de notre technologie en communication percutante. Ma mission est de rendre nos solutions cloud aussi intuitives et accessibles que puissantes."
     }
   },
   {
@@ -147,6 +177,12 @@
       "role": "Responsabile R&S - primo dipendente",
       "highlight": "Sviluppatore e creatore",
       "bio": "Ha iniziato con la chimica, si è avventurato nella fisica, ora è uno sviluppatore. Si scopre che stavo semplicemente passando da un puzzle all'altro. Sempre curioso, sempre costruendo, sempre imparando."
+    },
+    "fr": {
+      "name": "Martino Mogna",
+      "role": "Leader R&D - Employé n°1",
+      "highlight": "Développeur et créateur",
+      "bio": "A commencé par la chimie, s'est aventuré dans la physique, maintenant développeur. Il s’avère que je passais simplement d’une énigme à l’autre. Toujours curieux, toujours en train de construire, toujours en train d'apprendre."
     }
   },
   {
@@ -170,6 +206,12 @@
       "role": "Direttore artistico",
       "highlight": "Laurea in Progettazione Grafica",
       "bio": "Modellare immagini e identità cercando sempre la chiave per reinterpretare l'ordinario"
+    },
+    "fr": {
+      "name": "Vincent Morello",
+      "role": "Directeur artistique",
+      "highlight": "Diplôme de design graphique",
+      "bio": "Façonner les visuels et les identités en cherchant toujours la clé pour réinterpréter l’ordinaire"
     }
   },
   {
@@ -197,6 +239,12 @@
       "role": "Responsabile eventi",
       "highlight": "Musicologo ed esperto di comunicazione",
       "bio": "Event Manager presso Elemento Cloud, sono responsabile dell'organizzazione e dell'esecuzione dei nostri eventi. Sono un musicologo, musicista ed educatore con una passione per le idee audaci, i social media e tutto ciò che è fucsia."
+    },
+    "fr": {
+      "name": "Giulia Sannai",
+      "role": "Gestionnaire d'événements",
+      "highlight": "Musicologue & Expert en Communication",
+      "bio": "Event Manager chez Elemento Cloud, je suis responsable de l'organisation et du déroulement de nos événements. Je suis musicologue, musicien et éducateur passionné par les idées audacieuses, les médias sociaux et tout ce qui concerne le fuchsia."
     }
   },
   {
@@ -224,6 +272,12 @@
       "role": "Sviluppatore cloud",
       "highlight": "",
       "bio": "Programmatore appassionato con la passione per l'informatica e i videogiochi, spinto dal desiderio di capire come funzionano le cose"
+    },
+    "fr": {
+      "name": "Andrea Riccardi",
+      "role": "Développeur de logiciels cloud",
+      "highlight": "",
+      "bio": "Programmeur passionné, amoureux de l'informatique et des jeux vidéo, animé par l'envie de comprendre comment les choses fonctionnent"
     }
   },
   {
@@ -251,6 +305,12 @@
       "role": "Sviluppatore cloud",
       "highlight": "",
       "bio": "Ingegnere informatico specializzato in intelligenza artificiale e dati. Interessato all'elaborazione e all'acquisizione dei dati, all'ottimizzazione dei modelli e all'integrazione dell'intelligenza artificiale."
+    },
+    "fr": {
+      "name": "Nicola Gutierrez",
+      "role": "Développeur de logiciels cloud",
+      "highlight": "",
+      "bio": "Ingénieur logiciel spécialisé en intelligence artificielle et données. Intéressé par le traitement et l'acquisition de données, l'optimisation de modèles et l'intégration de l'IA."
     }
   },
   {
@@ -278,6 +338,12 @@
       "role": "Sviluppatore software",
       "highlight": "Studente del Master in Cybersecurity presso PoliTO",
       "bio": "Sviluppatore R&D presso Elemento Cloud e studente di Informatica appassionato di sistemi Linux e tecnologie di virtualizzazione. Sempre desideroso di esplorare nuove sfide tecnologiche e imparare il più possibile!"
+    },
+    "fr": {
+      "name": "Filippo Ferrando Damillano",
+      "role": "Développeur de logiciels",
+      "highlight": "Étudiant MSc Cybersécurité @ PoliTO",
+      "bio": "Développeur R&D chez Elemento Cloud et étudiant en informatique passionné par les systèmes Linux et les technologies de virtualisation. Toujours désireux d'explorer de nouveaux défis technologiques et d'apprendre autant que possible !"
     }
   },
   {
@@ -305,6 +371,12 @@
       "role": "Sviluppatore cloud",
       "highlight": "Master in Ingegneria del Cloud",
       "bio": "Master in Cloud Engineer @PoliTO, appassionato di informatica, innovazione ed economia. Sempre alla ricerca di nuove sfide e opportunità di crescita."
+    },
+    "fr": {
+      "name": "Paolo Beci",
+      "role": "Développeur de logiciels cloud",
+      "highlight": "MSc Ingénierie Cloud",
+      "bio": "Ingénieur MSc Cloud @PoliTO, passionné d'informatique, d'innovation et d'économie. Toujours à la recherche de nouveaux défis et d'opportunités de croissance."
     }
   },
   {
@@ -328,6 +400,12 @@
       "role": "Business analyst",
       "highlight": "Studente del Master PoliTo",
       "bio": "Ingegnere e docente di informatica. Appassionato di montagna, viaggi e innovazione. Sempre curioso, sempre in apprendimento"
+    },
+    "fr": {
+      "name": "Giulia Borgoni",
+      "role": "Analyste d'affaires",
+      "highlight": "Étudiant en Master PoliTo",
+      "bio": "Ingénieur et professeur d'informatique. Passionné de montagne, de voyages et d'innovation. Toujours curieux, toujours en train d'apprendre"
     }
   },
   {
@@ -355,6 +433,12 @@
       "role": "Sviluppatore cloud",
       "highlight": "Studente di Informatica",
       "bio": "Sono uno studente di informatica che ama la musica e la programmazione di basso livello. Ho avuto la fortuna di lavorare con Elemento dal 2023."
+    },
+    "fr": {
+      "name": "Marco Garro",
+      "role": "Développeur de logiciels cloud",
+      "highlight": "Étudiant en informatique",
+      "bio": "Je suis un étudiant en informatique qui aime la musique et la programmation de bas niveau. J'ai la chance de travailler avec Elemento depuis 2023."
     }
   },
   {
@@ -382,6 +466,12 @@
       "role": "Sviluppatore cloud",
       "highlight": "Sviluppatore di software",
       "bio": "Studente di informatica e programmatore che ama la fotografia nel tempo libero."
+    },
+    "fr": {
+      "name": "Simone Robaldo",
+      "role": "Développeur de logiciels cloud",
+      "highlight": "Développeur de logiciels",
+      "bio": "Étudiant en informatique et programmeur qui aime la photographie pendant son temps libre."
     }
   },
   {
@@ -405,6 +495,12 @@
       "role": "Sviluppatore software",
       "highlight": "Studente di Informatica",
       "bio": "Appassionato di libri e di tutto ciò che riguarda l'informatica. Mi piace particolarmente studiare algoritmi, formati multimediali e protocolli di rete."
+    },
+    "fr": {
+      "name": "Giorgio Torchio",
+      "role": "Développeur de logiciels",
+      "highlight": "Étudiant en informatique",
+      "bio": "Passionné de livres et de tout ce qui touche à l'informatique. J'aime particulièrement étudier les algorithmes, les formats multimédias et les protocoles réseau."
     }
   },
   {
@@ -432,6 +528,12 @@
       "role": "Sviluppatore cloud",
       "highlight": "Studente magistrale in Cybersecurity",
       "bio": "Studente magistrale in Cybersecurity @PoliTO, appassionato di tutto ciò che funziona in autonomia. Se non capisco come funziona, lo smonto semplicemente. Sì, sono curioso anch'io!"
+    },
+    "fr": {
+      "name": "Lorenzo Canciani",
+      "role": "Développeur de logiciels cloud",
+      "highlight": "Étudiant en MSc Cybersécurité",
+      "bio": "Étudiant MSc Cybersécurité @PoliTO, passionné par tout ce qui fonctionne de manière autonome. Si je ne comprends pas comment ça marche, je le démonte simplement. Oui, je suis curieux aussi !"
     }
   },
   {
@@ -450,6 +552,12 @@
       "role": "Specialist supporto",
       "highlight": "",
       "bio": "Fantasioso e curioso di come funzionano le cose e di come vengono pensate, sono appassionato di natura, videogiochi e fotografia."
+    },
+    "fr": {
+      "name": "Pamela Gerbotto",
+      "role": "Spécialiste de l'assistance",
+      "highlight": "",
+      "bio": "Imaginatif et curieux du fonctionnement et de la pensée des choses, je suis passionné par la nature, les jeux vidéo et la photographie."
     }
   }
 ]

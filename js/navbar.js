@@ -73,8 +73,8 @@ class Navbar {
             return window.ElementoI18n.pageHref(filename, this.getLocale());
         }
         const locale = this.getLocale();
-        if (locale === 'it') {
-            return `/it/${filename}`;
+        if (locale !== 'en') {
+            return filename === 'index.html' ? `/${locale}/index.html` : `/${locale}/${filename}`;
         }
         return filename === 'index.html' ? '/' : `/${filename}`;
     }
@@ -92,9 +92,15 @@ class Navbar {
             : stem === 'index'
               ? '/it/index.html'
               : `/it/${stem}.html`;
+        const frHref = window.ElementoI18n?.localeStemHref
+            ? window.ElementoI18n.localeStemHref(stem, 'fr')
+            : stem === 'index'
+              ? '/fr/index.html'
+              : `/fr/${stem}.html`;
         const label = this.t('langSwitcher.label', 'Language');
         const enAria = this.t('langSwitcher.enAria', 'English');
         const itAria = this.t('langSwitcher.itAria', 'Italian');
+        const frAria = this.t('langSwitcher.frAria', 'French');
         const flagUrl = (code) =>
             window.ElementoI18n?.assetUrl
                 ? window.ElementoI18n.assetUrl(`assets/flags/${code}.svg`)
@@ -106,6 +112,9 @@ class Navbar {
                 </a>
                 <a href="${itHref}" class="lang-switcher__link${locale === 'it' ? ' lang-switcher__link--active' : ''}" hreflang="it" lang="it" aria-label="${itAria}" title="${itAria}">
                     <img class="lang-switcher__flag" src="${flagUrl('it')}" alt="" width="24" height="16" loading="lazy" decoding="async" />
+                </a>
+                <a href="${frHref}" class="lang-switcher__link${locale === 'fr' ? ' lang-switcher__link--active' : ''}" hreflang="fr" lang="fr" aria-label="${frAria}" title="${frAria}">
+                    <img class="lang-switcher__flag" src="${flagUrl('fr')}" alt="" width="24" height="16" loading="lazy" decoding="async" />
                 </a>
             </div>`;
     }
