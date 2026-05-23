@@ -69,10 +69,13 @@ document.addEventListener('DOMContentLoaded', function() {
             return window.ElementoI18n.pageHref(filename, getLocale());
         }
         const locale = getLocale();
+        const siteBase = window.ElementoI18n?.getSiteBase ? window.ElementoI18n.getSiteBase() : '';
         if (locale !== 'en') {
-            return filename === 'index.html' ? `/${locale}/index.html` : `/${locale}/${filename}`;
+            const path = filename === 'index.html' ? `/${locale}/index.html` : `/${locale}/${filename}`;
+            return `${siteBase}${path}`;
         }
-        return filename === 'index.html' ? '/' : `/${filename}`;
+        const path = filename === 'index.html' ? '/' : `/${filename}`;
+        return siteBase ? `${siteBase}${path === '/' ? '/' : path}` : path;
     }
 
     function renderFooterHtml(ui, assetPrefix) {

@@ -14,7 +14,10 @@ class Navbar {
 
     getLocale() {
         if (window.__I18N__?.locale) return window.__I18N__.locale;
-        const path = window.location.pathname;
+        if (window.ElementoI18n?.getPageLocale) return window.ElementoI18n.getPageLocale();
+        const path = window.ElementoI18n?.stripSiteBase
+            ? window.ElementoI18n.stripSiteBase(window.location.pathname)
+            : window.location.pathname;
         if (path.startsWith('/it/') || path === '/it') return 'it';
         if (path.startsWith('/fr/') || path === '/fr') return 'fr';
         const htmlLang = document.documentElement.lang;
@@ -53,7 +56,10 @@ class Navbar {
 
     getPageStem() {
         if (window.__I18N__?.stem) return window.__I18N__.stem;
-        const path = window.location.pathname.replace(/\/+$/, '') || '/';
+        const path = (window.ElementoI18n?.stripSiteBase
+            ? window.ElementoI18n.stripSiteBase(window.location.pathname)
+            : window.location.pathname
+        ).replace(/\/+$/, '') || '/';
         let p = path;
         if (p.startsWith('/it/')) p = p.slice(3) || '/';
         else if (p === '/it') return 'index';
@@ -77,10 +83,13 @@ class Navbar {
             return window.ElementoI18n.pageHref(filename, this.getLocale());
         }
         const locale = this.getLocale();
+        const siteBase = window.ElementoI18n?.getSiteBase ? window.ElementoI18n.getSiteBase() : '';
         if (locale !== 'en') {
-            return filename === 'index.html' ? `/${locale}/index.html` : `/${locale}/${filename}`;
+            const path = filename === 'index.html' ? `/${locale}/index.html` : `/${locale}/${filename}`;
+            return `${siteBase}${path}`;
         }
-        return filename === 'index.html' ? '/' : `/${filename}`;
+        const path = filename === 'index.html' ? '/' : `/${filename}`;
+        return siteBase ? `${siteBase}${path === '/' ? '/' : path}` : path;
     }
 
     renderLanguageSwitcher() {
@@ -88,19 +97,25 @@ class Navbar {
         const stem = this.getPageStem();
         const enHref = window.ElementoI18n?.localeStemHref
             ? window.ElementoI18n.localeStemHref(stem, 'en')
-            : stem === 'index'
-              ? '/'
-              : `/${stem}.html`;
+            : (() => {
+                const siteBase = window.ElementoI18n?.getSiteBase ? window.ElementoI18n.getSiteBase() : '';
+                const path = stem === 'index' ? '/' : `/${stem}.html`;
+                return siteBase ? `${siteBase}${path === '/' ? '/' : path}` : path;
+            })();
         const itHref = window.ElementoI18n?.localeStemHref
             ? window.ElementoI18n.localeStemHref(stem, 'it')
-            : stem === 'index'
-              ? '/it/index.html'
-              : `/it/${stem}.html`;
+            : (() => {
+                const siteBase = window.ElementoI18n?.getSiteBase ? window.ElementoI18n.getSiteBase() : '';
+                const path = stem === 'index' ? '/it/index.html' : `/it/${stem}.html`;
+                return `${siteBase}${path}`;
+            })();
         const frHref = window.ElementoI18n?.localeStemHref
             ? window.ElementoI18n.localeStemHref(stem, 'fr')
-            : stem === 'index'
-              ? '/fr/index.html'
-              : `/fr/${stem}.html`;
+            : (() => {
+                const siteBase = window.ElementoI18n?.getSiteBase ? window.ElementoI18n.getSiteBase() : '';
+                const path = stem === 'index' ? '/fr/index.html' : `/fr/${stem}.html`;
+                return `${siteBase}${path}`;
+            })();
         const label = this.t('langSwitcher.label', 'Language');
         const flagUrl = (code) =>
             window.ElementoI18n?.assetUrl

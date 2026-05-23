@@ -2,7 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { extractLegacyBody, extractLegacyScripts } from '../lib/extract-body';
 import { localizeBody } from '../lib/localize-body';
-import { prefixBodyAssets } from '../lib/prefix-body-assets';
+import { prefixBodyAssets, prefixBodyPageLinks } from '../lib/prefix-body-assets';
 import { assetBaseFor } from '../lib/asset-base';
 import { getUi } from '../i18n';
 import type { Locale } from '../i18n/config';
@@ -25,6 +25,7 @@ const pageDescription =
   locale !== 'en' && pageUi?.description ? pageUi.description : entry.description;
 let bodyHtml = extractLegacyBody(entry.legacyPath);
 bodyHtml = localizeBody(bodyHtml, locale, localizeStem);
+bodyHtml = prefixBodyPageLinks(bodyHtml, entry.stem);
 bodyHtml = prefixBodyAssets(bodyHtml, assetBase);
 const scripts =
   entry.extraScripts.length > 0 ? entry.extraScripts : extractLegacyScripts(entry.legacyPath);

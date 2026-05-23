@@ -32,3 +32,25 @@ export function prefixAssetPath(path: string, assetBase: string): string {
   if (clean.startsWith(assetBase)) return clean;
   return assetBase + clean;
 }
+
+/** Rewrite internal *.html links to depth-relative paths (works on custom domain + GitHub Pages). */
+export function prefixBodyPageLinks(html: string, stem: string): string {
+  const folderDepth = stem === 'index' ? 0 : stem.split('/').length - 1;
+  const prefix = folderDepth === 0 ? '' : '../'.repeat(folderDepth);
+
+  return html.replace(/(\shref=["'])([^"'#]+)(["'])/gi, (match, open, href, close) => {
+    if (/^(https?:|\/\/|mailto:|tel:|#|javascript:)/i.test(href)) return match;
+
+    let filename: string | null = null;
+    if (href.startsWith('/')) {
+      const m = href.match(/^\/([^/?#]+\.html)$/);
+      if (m) filename = m[1];
+    } else {
+      const clean = href.replace(/^\.\//, '');
+      if (/^[^/?#]+\.html$/.test(clean)) filename = clean;
+    }
+    if (!filename) return match;
+
+    return `${open}${prefix}${filename}${close}`;
+  });
+}

@@ -4,6 +4,32 @@
 (function (global) {
   const TEXT_FIELDS = ['name', 'role', 'bio', 'highlight', 'description', 'title', 'subtitle', 'label', 'company', 'quote'];
   const LOCALES = ['en', 'it', 'fr'];
+  const NON_EN_LOCALES = ['it', 'fr'];
+
+  /** GitHub Pages project sites live under /repo-name/; custom domains do not. */
+  function getSiteBase() {
+    if (window.__I18N__?.siteBase !== undefined) return window.__I18N__.siteBase;
+    const parts = window.location.pathname.split('/').filter(Boolean);
+    if (parts.length === 0) return '';
+    if (parts.length >= 2 && NON_EN_LOCALES.includes(parts[1])) return `/${parts[0]}`;
+    const first = parts[0];
+    if (NON_EN_LOCALES.includes(first) || first.endsWith('.html')) return '';
+    return `/${first}`;
+  }
+
+  function stripSiteBase(pathname) {
+    const base = getSiteBase();
+    if (!base) return pathname;
+    if (pathname === base || pathname === `${base}/`) return '/';
+    if (pathname.startsWith(`${base}/`)) return pathname.slice(base.length) || '/';
+    return pathname;
+  }
+
+  function withSiteBase(path) {
+    if (!path || !path.startsWith('/')) return path;
+    const base = getSiteBase();
+    return base ? `${base}${path}` : path;
+  }
 
   function getPageLocale() {
     const htmlLang = document.documentElement.lang;
@@ -13,10 +39,9 @@
     if (window.__I18N__?.locale && LOCALES.includes(window.__I18N__.locale)) {
       return window.__I18N__.locale;
     }
-    const path = window.location.pathname;
-    for (const loc of LOCALES) {
-      if (loc === 'en') continue;
-      if (path.startsWith(`/${loc}/`) || path === `/${loc}` || path === `/${loc}/`) return loc;
+    const path = stripSiteBase(window.location.pathname);
+    for (const loc of NON_EN_LOCALES) {
+      if (path.startsWith(`/${loc}/`) || path === `/${loc}`) return loc;
     }
     return 'en';
   }
@@ -62,10 +87,13 @@
   function pageHref(filename, locale) {
     const loc = locale ?? getPageLocale();
     const stem = filename.replace(/\.html$/, '') || 'index';
+    let path;
     if (loc === 'en') {
-      return stem === 'index' ? '/' : `/${filename}`;
+      path = stem === 'index' ? '/' : `/${filename}`;
+    } else {
+      path = stem === 'index' ? `/${loc}/index.html` : `/${loc}/${filename}`;
     }
-    return stem === 'index' ? `/${loc}/index.html` : `/${loc}/${filename}`;
+    return withSiteBase(path);
   }
 
   /** Language switcher target URL from page stem (no .html). */
@@ -76,6 +104,9 @@
 
   global.ElementoI18n = {
     getPageLocale,
+    getSiteBase,
+    stripSiteBase,
+    withSiteBase,
     getCmsBasePath,
     getAssetBase,
     assetUrl,
