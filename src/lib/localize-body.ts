@@ -385,22 +385,29 @@ export function localizeBody(html: string, locale: Locale, stem: string): string
 
   const perPageIt: Record<string, Replacement[]> = {
     index: [
-      ['Ready. Set. Cloud.', 'Ready. Set. Cloud.'],
+      ['Elemento. The Metacloud.', 'Elemento. Il Metacloud.'],
       [
-        /Build and Run Your Own(?:\s|<[^>]+>\s*)+Cloud Infrastructure(?:\s|<[^>]+>\s*)+<span class="pixel-accent">with No Lock-In<\/span>/gi,
-        'Costruisci ed orchestra la tua<br> infrastruttura cloud<br> <span class="pixel-accent">senza vincoli</span>',
+        /The Infrastructure Layer<br><span class="pixel-accent">After Cloud\.<\/span>/gi,
+        'Il livello infrastrutturale<br><span class="pixel-accent">dopo il Cloud.</span>',
       ],
       [
-        /Elemento lets you build and run your own cloud infrastructure with complete freedom\.[\s\S]*?<span class="pixel-accent">Your cloud\. Your rules, Your freedom\.<\/span>/gi,
-        'Elemento ti consente di creare ed gestire la tua infrastruttura cloud in completa libertà. Scegli dove eseguirlo e noi automatizziamo tutto per te.<br><span class="pixel-accent">Il tuo cloud. Le tue regole. La tua libertà.</span>',
+        /Govern, orchestrate and optimise infrastructure across public clouds, private clouds, sovereign providers, hypervisors and native AtomOS environments — through one sovereign control plane\./gi,
+        'Governa, orchestra e ottimizza l\'infrastruttura su public cloud, private cloud, provider sovrani, hypervisor e ambienti AtomOS nativi — attraverso un unico control plane sovrano.',
       ],
+      ['Book a Metacloud Assessment', 'Prenota una Metacloud Assessment'],
+      ['Explore the Platform', 'Esplora la piattaforma'],
+      ['VMware Exit Assessment', 'Assessment exit da VMware'],
+      ['Why Now?', 'Perché adesso?'],
+      ['The Metacloud Architecture', 'Architettura Metacloud'],
+      ['Adopt the Metacloud at Your Own Pace', 'Adotta il Metacloud al tuo ritmo'],
+      ['Built in Europe. Designed for Sovereignty.', 'Costruito in Europa. Progettato per la sovranità.'],
     ],
     about: [
-      ['Our Story. Our Mission. Our passion.', 'La nostra storia. La nostra missione. La nostra passione.'],
-      [/<span class="pixel-word">About<\/span>/, '<span class="pixel-word">Chi siamo</span>'],
+      ['European DNA. Sovereignty native.', 'DNA europeo. Nativamente sovrano.'],
+      ['Building the Metacloud', 'Costruiamo il Metacloud'],
       [
-        /Transforming cloud infrastructure[\s\S]*?green computing solutions\./gi,
-        page?.heroSubtitle ?? '',
+        /Elemento builds the Metacloud: a sovereign control plane[\s\S]*?without lock-in\./gi,
+        'Elemento costruisce il Metacloud: un control plane sovrano che consente alle organizzazioni di governare, migrare e procurare infrastruttura tramite intent e contratti portabili, senza lock-in.',
       ],
       ['Meet the Team', 'Il team'],
       ['Meet Our Team', 'Il nostro team'],
@@ -468,9 +475,11 @@ export function localizeBody(html: string, locale: Locale, stem: string): string
         'Build pronte<br><small>AppImage, DMG, EXE e DEB—x64 e ARM64 dove supportato</small>',
       ],
       [
-        /Electros:<br>\s*<span class="pixel-accent">Any-Cloud<\/span>\s*Control Center/gi,
-        'Electros:<br><span class="pixel-accent">La dashboard</span> Centro di controllo di ogni Cloud',
+        /Electros is the operational core of the Elemento platform\. It federates existing resources and exposes them through one governance, orchestration and brokerage model\./gi,
+        'Electros è il nucleo operativo della piattaforma Elemento. Federazione delle risorse esistenti attraverso un unico modello di governance, orchestrazione e brokerage.',
       ],
+      ['Book an Electros Demo', 'Prenota una demo Electros'],
+      ['Connect Your First Infrastructure', 'Connetti la tua prima infrastruttura'],
     ],
     'signup-success': [
       ['Check your email', 'Controlla la tua email'],
@@ -484,22 +493,29 @@ export function localizeBody(html: string, locale: Locale, stem: string): string
 
   const perPageFr: Record<string, Replacement[]> = {
     index: [
-      ['Ready. Set. Cloud.', 'Prêts. Partez. Cloud.'],
+      ['Elemento. The Metacloud.', 'Elemento. Le Metacloud.'],
       [
-        /Build and Run Your Own(?:\s|<[^>]+>\s*)+Cloud Infrastructure(?:\s|<[^>]+>\s*)+<span class="pixel-accent">with No Lock-In<\/span>/gi,
-        'Construisez et exécutez votre<br> infrastructure cloud<br> <span class="pixel-accent">sans verrouillage</span>',
+        /The Infrastructure Layer<br><span class="pixel-accent">After Cloud\.<\/span>/gi,
+        'La couche d\'infrastructure<br><span class="pixel-accent">après le Cloud.</span>',
       ],
       [
-        /Elemento lets you build and run your own cloud infrastructure with complete freedom\.[\s\S]*?<span class="pixel-accent">Your cloud\. Your rules, Your freedom\.<\/span>/gi,
-        'Elemento vous permet de construire et d\'exploiter votre infrastructure cloud en toute liberté. Vous choisissez où elle tourne, nous automatisons le reste.<br><span class="pixel-accent">Votre cloud. Vos règles. Votre liberté.</span>',
+        /Govern, orchestrate and optimise infrastructure across public clouds, private clouds, sovereign providers, hypervisors and native AtomOS environments — through one sovereign control plane\./gi,
+        'Gouvernez, orchestrez et optimisez l\'infrastructure sur clouds publics, clouds privés, fournisseurs souverains, hyperviseurs et environnements AtomOS natifs — via un plan de contrôle souverain unique.',
       ],
+      ['Book a Metacloud Assessment', 'Réserver une évaluation Metacloud'],
+      ['Explore the Platform', 'Explorer la plateforme'],
+      ['VMware Exit Assessment', 'Évaluation sortie VMware'],
+      ['Why Now?', 'Pourquoi maintenant ?'],
+      ['The Metacloud Architecture', 'Architecture Metacloud'],
+      ['Adopt the Metacloud at Your Own Pace', 'Adoptez le Metacloud à votre rythme'],
+      ['Built in Europe. Designed for Sovereignty.', 'Conçu en Europe. Pensé pour la souveraineté.'],
     ],
     about: [
-      ['Our Story. Our Mission. Our passion.', 'Notre histoire. Notre mission. Notre passion.'],
-      [/<span class="pixel-word">About<\/span>/, '<span class="pixel-word">À propos</span>'],
+      ['European DNA. Sovereignty native.', 'ADN européen. Souveraineté native.'],
+      ['Building the Metacloud', 'Construire le Metacloud'],
       [
-        /Transforming cloud infrastructure[\s\S]*?green computing solutions\./gi,
-        page?.heroSubtitle ?? '',
+        /Elemento builds the Metacloud: a sovereign control plane[\s\S]*?without lock-in\./gi,
+        'Elemento construit le Metacloud : un plan de contrôle souverain qui permet aux organisations de gouverner, migrer et se procurer l\'infrastructure via l\'intention et des contrats portables, sans verrouillage.',
       ],
       ['Meet the Team', 'L\'équipe'],
       ['Meet Our Team', 'Notre équipe'],

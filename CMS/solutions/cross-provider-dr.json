@@ -1,0 +1,479 @@
+{
+  "en": {
+    "hero": {
+      "tagline": "Disaster Recovery",
+      "title": "Disaster Recovery Without Provider Dependency",
+      "subtitle": "Use one control plane to coordinate primary, DR, and fallback environments across providers.",
+      "primaryCTA": {
+        "text": "Design Cross-Provider DR",
+        "link": "../contact.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Explore Deployment",
+        "link": "../deployment.html",
+        "icon": "fas fa-server"
+      }
+    },
+    "painPoints": {
+      "title": "Cross-Provider DR Challenges You Face",
+      "subtitle": "Why provider-locked DR plans fail when the outage is the vendor, not your workload",
+      "items": [
+        {
+          "icon": "fas fa-link",
+          "title": "Provider-Locked DR",
+          "description": "DR plans tied to a single Cloud vendor create recovery risk when that provider fails."
+        },
+        {
+          "icon": "fas fa-stopwatch",
+          "title": "Inconsistent RPO/RTO",
+          "description": "Different tools per environment make unified recovery objectives impossible to enforce."
+        },
+        {
+          "icon": "fas fa-map-marker-alt",
+          "title": "Sovereign Recovery Gaps",
+          "description": "Regulated workloads need recovery targets in specific jurisdictions, not just another region."
+        },
+        {
+          "icon": "fas fa-random",
+          "title": "Complex Failover",
+          "description": "Coordinating failover across providers requires manual runbooks and brittle automation."
+        }
+      ]
+    },
+    "solution": {
+      "title": "Provider-Independent DR",
+      "description": "Coordinate primary, DR, and fallback environments from one Metacloud control plane.",
+      "items": [
+        {
+          "logo": "../assets/logos/Electros.svg",
+          "name": "Electros",
+          "description": "Unified control plane for RPO/RTO governance and cross-provider DR coordination."
+        },
+        {
+          "logo": "../assets/logos/Atomosphere.svg",
+          "name": "Atomosphere",
+          "description": "Orchestrate failover across public, sovereign, and federated Cloud providers."
+        },
+        {
+          "logo": "../assets/logos/Atomosquare.svg",
+          "name": "Atomosquare",
+          "description": "Include on-premises and hypervisor-based fallback targets in DR topology."
+        },
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Sovereign recovery execution engine for regulated and air-gapped fallback sites."
+        }
+      ],
+      "cta": {
+        "text": "Design Cross-Provider DR",
+        "link": "../contact.html"
+      }
+    },
+    "useCase": {
+      "title": "Cross-Provider DR Journey",
+      "subtitle": "A structured approach with Elemento's Metacloud platform",
+      "items": [
+        {
+          "number": "1",
+          "title": "Define Recovery Targets",
+          "description": "Set unified RPO and RTO governance across primary and DR environments in Electros."
+        },
+        {
+          "number": "2",
+          "title": "Map DR Topology",
+          "description": "Connect primary, DR, and on-premises fallback endpoints across providers."
+        },
+        {
+          "number": "3",
+          "title": "Orchestrate Failover",
+          "description": "Coordinate cross-provider failover with consistent policies and visibility."
+        },
+        {
+          "number": "4",
+          "title": "Test & Validate",
+          "description": "Run DR exercises across environments without provider-specific tooling."
+        }
+      ]
+    },
+    "stats": {
+      "title": "Cross-Provider DR Impact",
+      "subtitle": "Real outcomes with the Metacloud platform",
+      "items": [
+        {
+          "label": "Failover Scope",
+          "value": "Cross-Provider",
+          "icon": "fas fa-exchange-alt",
+          "color": "green"
+        },
+        {
+          "label": "RPO/RTO",
+          "value": "Unified",
+          "icon": "fas fa-stopwatch",
+          "color": "orange"
+        },
+        {
+          "label": "Fallback Options",
+          "value": "On-Prem + Cloud",
+          "icon": "fas fa-server",
+          "color": "blue"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Cross-Provider DR FAQ",
+      "subtitle": "Frequently asked questions about cross-provider disaster recovery with Elemento",
+      "items": [
+        {
+          "question": "Can DR span multiple Cloud providers?",
+          "answer": "Yes. Electros coordinates primary, DR, and fallback environments across providers with unified RPO and RTO governance."
+        },
+        {
+          "question": "How do sovereign recovery targets work?",
+          "answer": "You define recovery policies per workload including jurisdiction and residency. Failover respects those constraints across connected providers."
+        },
+        {
+          "question": "Can on-premises be a DR target?",
+          "answer": "Atomosquare and AtomOS enable on-premises fallback as part of your DR topology, not just another Cloud region."
+        },
+        {
+          "question": "Does this replace our backup solution?",
+          "answer": "Elemento coordinates recovery orchestration and governance. It complements your backup and replication tooling by providing provider-independent failover control."
+        }
+      ]
+    },
+    "ctaFinal": {
+      "title": "Ready for Cross-Provider DR?",
+      "subtitle": "Coordinate primary, DR, and fallback environments from one control plane across providers.",
+      "primaryCTA": {
+        "text": "Design Cross-Provider DR",
+        "link": "../contact.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Schedule a Demo",
+        "link": "../contact.html",
+        "icon": "fas fa-calendar"
+      }
+    }
+  },
+  "it": {
+    "hero": {
+      "tagline": "Disaster recovery",
+      "title": "Disaster recovery senza dipendenza dal provider",
+      "subtitle": "Usa un unico control plane per coordinare ambienti primari, DR e fallback tra provider.",
+      "primaryCTA": {
+        "text": "Progetta DR cross-provider",
+        "link": "../contact.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Esplora il deployment",
+        "link": "../deployment.html",
+        "icon": "fas fa-server"
+      }
+    },
+    "painPoints": {
+      "title": "Le sfide di DR cross-provider",
+      "subtitle": "Perché i piani DR legati al provider falliscono quando il problema è il vendor, non il workload",
+      "items": [
+        {
+          "icon": "fas fa-link",
+          "title": "DR legato al provider",
+          "description": "Piani DR legati a un singolo vendor Cloud creano rischio quando quel provider fallisce."
+        },
+        {
+          "icon": "fas fa-stopwatch",
+          "title": "RPO/RTO incoerenti",
+          "description": "Strumenti diversi per ambiente rendono impossibile enforcement unificato degli obiettivi di recovery."
+        },
+        {
+          "icon": "fas fa-map-marker-alt",
+          "title": "Lacune recovery sovrana",
+          "description": "Workload regolamentati richiedono target di recovery in giurisdizioni specifiche."
+        },
+        {
+          "icon": "fas fa-random",
+          "title": "Failover complesso",
+          "description": "Coordinare failover tra provider richiede runbook manuali e automazione fragile."
+        }
+      ]
+    },
+    "solution": {
+      "title": "DR indipendente dal provider",
+      "description": "Coordina ambienti primari, DR e fallback da un unico control plane Metacloud.",
+      "items": [
+        {
+          "logo": "../assets/logos/Electros.svg",
+          "name": "Electros",
+          "description": "Control plane unificato per governance RPO/RTO e coordinamento DR cross-provider."
+        },
+        {
+          "logo": "../assets/logos/Atomosphere.svg",
+          "name": "Atomosphere",
+          "description": "Orchestra failover su provider Cloud pubblici, sovrani e federati."
+        },
+        {
+          "logo": "../assets/logos/Atomosquare.svg",
+          "name": "Atomosquare",
+          "description": "Includi target di fallback on-premises e basati su hypervisor nella topologia DR."
+        },
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Motore di esecuzione recovery sovrano per siti di fallback regolamentati e air-gapped."
+        }
+      ],
+      "cta": {
+        "text": "Progetta DR cross-provider",
+        "link": "../contact.html"
+      }
+    },
+    "useCase": {
+      "title": "Percorso DR cross-provider",
+      "subtitle": "Un approccio strutturato con il Metacloud Elemento",
+      "items": [
+        {
+          "number": "1",
+          "title": "Definisci target di recovery",
+          "description": "Imposta governance RPO e RTO unificata su ambienti primari e DR in Electros."
+        },
+        {
+          "number": "2",
+          "title": "Mappa la topologia DR",
+          "description": "Collega endpoint primari, DR e fallback on-premises tra provider."
+        },
+        {
+          "number": "3",
+          "title": "Orchestra il failover",
+          "description": "Coordina failover cross-provider con policy e visibilità coerenti."
+        },
+        {
+          "number": "4",
+          "title": "Testa e valida",
+          "description": "Esegui esercizi DR tra ambienti senza strumenti specifici per provider."
+        }
+      ]
+    },
+    "stats": {
+      "title": "Impatto DR cross-provider",
+      "subtitle": "Risultati concreti con la piattaforma Metacloud",
+      "items": [
+        {
+          "label": "Ambito failover",
+          "value": "Cross-provider",
+          "icon": "fas fa-exchange-alt",
+          "color": "green"
+        },
+        {
+          "label": "RPO/RTO",
+          "value": "Unificati",
+          "icon": "fas fa-stopwatch",
+          "color": "orange"
+        },
+        {
+          "label": "Opzioni fallback",
+          "value": "On-prem + Cloud",
+          "icon": "fas fa-server",
+          "color": "blue"
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ DR cross-provider",
+      "subtitle": "Domande frequenti sul disaster recovery cross-provider con Elemento",
+      "items": [
+        {
+          "question": "Il DR può estendersi su più provider Cloud?",
+          "answer": "Sì. Electros coordina ambienti primari, DR e fallback tra provider con governance RPO/RTO unificata."
+        },
+        {
+          "question": "Come funzionano i target di recovery sovrani?",
+          "answer": "Definisci policy di recovery per workload inclusi giurisdizione e residenza. Il failover le rispetta."
+        },
+        {
+          "question": "L'on-premises può essere target DR?",
+          "answer": "Atomosquare e AtomOS abilitano fallback on-premises come parte della topologia DR."
+        },
+        {
+          "question": "Sostituisce la nostra soluzione di backup?",
+          "answer": "Elemento coordina orchestrazione e governance del recovery. Complementa backup e replica."
+        }
+      ]
+    },
+    "ctaFinal": {
+      "title": "Pronto per DR cross-provider?",
+      "subtitle": "Coordina ambienti primari, DR e fallback da un unico control plane tra provider.",
+      "primaryCTA": {
+        "text": "Progetta DR cross-provider",
+        "link": "../contact.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Pianifica una demo",
+        "link": "../contact.html",
+        "icon": "fas fa-calendar"
+      }
+    }
+  },
+  "fr": {
+    "hero": {
+      "tagline": "Reprise après sinistre",
+      "title": "Reprise après sinistre sans dépendance fournisseur",
+      "subtitle": "Utilisez un plan de contrôle unique pour coordonner environnements primaires, DR et secours entre fournisseurs.",
+      "primaryCTA": {
+        "text": "Concevoir un DR cross-fournisseur",
+        "link": "../contact.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Explorer le déploiement",
+        "link": "../deployment.html",
+        "icon": "fas fa-server"
+      }
+    },
+    "painPoints": {
+      "title": "Les défis DR cross-fournisseur",
+      "subtitle": "Pourquoi les plans DR liés au fournisseur échouent quand la panne vient du vendor, pas de la charge",
+      "items": [
+        {
+          "icon": "fas fa-link",
+          "title": "DR lié au fournisseur",
+          "description": "Des plans DR liés à un seul fournisseur Cloud créent un risque quand ce fournisseur tombe en panne."
+        },
+        {
+          "icon": "fas fa-stopwatch",
+          "title": "RPO/RTO incohérents",
+          "description": "Des outils différents par environnement rendent impossible l'application unifiée des objectifs de recovery."
+        },
+        {
+          "icon": "fas fa-map-marker-alt",
+          "title": "Lacunes recovery souverain",
+          "description": "Les charges réglementées exigent des cibles de recovery dans des juridictions spécifiques."
+        },
+        {
+          "icon": "fas fa-random",
+          "title": "Basculement complexe",
+          "description": "Coordonner le basculement entre fournisseurs nécessite des runbooks manuels et une automatisation fragile."
+        }
+      ]
+    },
+    "solution": {
+      "title": "DR indépendant du fournisseur",
+      "description": "Coordonnez environnements primaires, DR et secours depuis un plan de contrôle Metacloud unique.",
+      "items": [
+        {
+          "logo": "../assets/logos/Electros.svg",
+          "name": "Electros",
+          "description": "Plan de contrôle unifié pour gouvernance RPO/RTO et coordination DR cross-fournisseur."
+        },
+        {
+          "logo": "../assets/logos/Atomosphere.svg",
+          "name": "Atomosphere",
+          "description": "Orchestrez le basculement sur fournisseurs Cloud publics, souverains et fédérés."
+        },
+        {
+          "logo": "../assets/logos/Atomosquare.svg",
+          "name": "Atomosquare",
+          "description": "Incluez cibles de secours on-premises et hyperviseur dans la topologie DR."
+        },
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Moteur d'exécution recovery souverain pour sites de secours réglementés et isolés."
+        }
+      ],
+      "cta": {
+        "text": "Concevoir un DR cross-fournisseur",
+        "link": "../contact.html"
+      }
+    },
+    "useCase": {
+      "title": "Parcours DR cross-fournisseur",
+      "subtitle": "Une approche structurée avec le Metacloud Elemento",
+      "items": [
+        {
+          "number": "1",
+          "title": "Définir les objectifs de recovery",
+          "description": "Définissez une gouvernance RPO/RTO unifiée sur environnements primaires et DR dans Electros."
+        },
+        {
+          "number": "2",
+          "title": "Cartographier la topologie DR",
+          "description": "Connectez endpoints primaires, DR et secours on-premises entre fournisseurs."
+        },
+        {
+          "number": "3",
+          "title": "Orchestrer le basculement",
+          "description": "Coordonnez le basculement cross-fournisseur avec politiques et visibilité cohérentes."
+        },
+        {
+          "number": "4",
+          "title": "Tester et valider",
+          "description": "Exécutez des exercices DR entre environnements sans outils spécifiques par fournisseur."
+        }
+      ]
+    },
+    "stats": {
+      "title": "Impact DR cross-fournisseur",
+      "subtitle": "Résultats concrets avec la plateforme Metacloud",
+      "items": [
+        {
+          "label": "Portée basculement",
+          "value": "Cross-fournisseur",
+          "icon": "fas fa-exchange-alt",
+          "color": "green"
+        },
+        {
+          "label": "RPO/RTO",
+          "value": "Unifiés",
+          "icon": "fas fa-stopwatch",
+          "color": "orange"
+        },
+        {
+          "label": "Options de secours",
+          "value": "On-prem + Cloud",
+          "icon": "fas fa-server",
+          "color": "blue"
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ DR cross-fournisseur",
+      "subtitle": "Questions fréquentes sur la reprise après sinistre cross-fournisseur avec Elemento",
+      "items": [
+        {
+          "question": "Le DR peut-il s'étendre à plusieurs fournisseurs Cloud ?",
+          "answer": "Oui. Electros coordonne environnements primaires, DR et secours entre fournisseurs avec gouvernance RPO/RTO unifiée."
+        },
+        {
+          "question": "Comment fonctionnent les cibles de recovery souveraines ?",
+          "answer": "Vous définissez des politiques de recovery par charge incluant juridiction et résidence. Le basculement les respecte."
+        },
+        {
+          "question": "L'on-premises peut-il être une cible DR ?",
+          "answer": "Atomosquare et AtomOS permettent le secours on-premises dans votre topologie DR."
+        },
+        {
+          "question": "Cela remplace-t-il notre solution de sauvegarde ?",
+          "answer": "Elemento coordonne l'orchestration et la gouvernance du recovery. Il complète sauvegarde et réplication."
+        }
+      ]
+    },
+    "ctaFinal": {
+      "title": "Prêt pour DR cross-fournisseur ?",
+      "subtitle": "Coordonnez environnements primaires, DR et secours depuis un plan de contrôle unique entre fournisseurs.",
+      "primaryCTA": {
+        "text": "Concevoir un DR cross-fournisseur",
+        "link": "../contact.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Planifier une démo",
+        "link": "../contact.html",
+        "icon": "fas fa-calendar"
+      }
+    }
+  }
+}

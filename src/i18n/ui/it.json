@@ -9,6 +9,25 @@
     "frAria": "Francese"
   },
   "nav": {
+    "platform": "Piattaforma",
+    "platformOverview": "Panoramica",
+    "solutions": "Soluzioni",
+    "pricing": "Prezzi",
+    "company": "Azienda",
+    "team": "Team",
+    "architecture": "Architettura",
+    "documentation": "Documentazione",
+    "productBriefs": "Product Brief",
+    "explorePlatform": "Esplora la piattaforma",
+    "bookAssessment": "Prenota",
+    "solVmwareExit": "Exit da VMware",
+    "solSovereign": "Governance sovrana",
+    "solHybrid": "Hybrid e multi-cloud",
+    "solAiGpu": "AI / GPU",
+    "solProviders": "Service provider",
+    "solDr": "DR cross-provider",
+    "solRepatriation": "Repatriazione dati",
+    "allSolutions": "Tutte le soluzioni",
     "products": "Prodotti",
     "technology": "Tecnologia",
     "about": "Chi siamo",
@@ -21,11 +40,19 @@
     "homeAria": "Home Elemento"
   },
   "banner": {
-    "atomosDiscountText": "Approfitta oggi di AtomOS: 150€ di sconto sul primo acquisto",
-    "atomosDiscountAria": "Approfitta oggi di AtomOS: 150 euro di sconto sul primo acquisto"
+    "metacloudAssessmentText": "Prenota una Metacloud Assessment — governa l'infrastruttura senza sostituirla",
+    "metacloudAssessmentAria": "Prenota una Metacloud Assessment"
   },
   "footer": {
     "tagline": "Piattaforma cloud indipendente dal fornitore, ad alte prestazioni, conveniente, sostenibile e auto-ospitabile.",
+    "platform": "Piattaforma",
+    "platformOverview": "Panoramica piattaforma",
+    "solutions": "Soluzioni",
+    "solVmwareExit": "Exit da VMware",
+    "solSovereign": "Governance sovrana",
+    "solHybrid": "Hybrid e multi-cloud",
+    "allSolutions": "Tutte le soluzioni",
+    "team": "Team",
     "products": "Prodotti",
     "allProducts": "Tutti i prodotti",
     "company": "Azienda",

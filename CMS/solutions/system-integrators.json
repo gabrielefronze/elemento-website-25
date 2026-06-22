@@ -2,22 +2,22 @@
   "en": {
     "hero": {
       "tagline": "System Integrators",
-      "title": "Deliver Sovereign, Elastic Cloud Environments",
-      "subtitle": "Elemento Cloud empowers system integrators to deliver white-label, scalable cloud layers under their own brand without hyperscaler dependency.",
+      "title": "Deliver Metacloud Projects Without Building Every Layer",
+      "subtitle": "Use Electros as your control plane to deliver sovereign, multi-cloud, and white-label infrastructure projects under your brand.",
       "primaryCTA": {
-        "text": "Start Now",
-        "link": "../signup.html",
+        "text": "Become a Metacloud Partner",
+        "link": "../contact.html",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
-        "text": "Explore White-Label Platform",
-        "link": "../products.html",
+        "text": "Service Provider Model",
+        "link": "../solutions/service-providers.html",
         "icon": "fas fa-sitemap"
       }
     },
     "painPoints": {
       "title": "System Integrator Challenges",
-      "subtitle": "Common pain points that limit your ability to deliver value and build recurring revenue",
+      "subtitle": "Why SIs lose margin building bespoke portals, integrations, and governance for every client engagement",
       "items": [
         {
           "icon": "fas fa-tag",
@@ -68,28 +68,33 @@
       ]
     },
     "solution": {
-      "title": "Elemento's Partner Solution",
-      "description": "Complete infrastructure platform that enables system integrators to deliver sovereign cloud environments",
+      "title": "SI Delivery on the Metacloud",
+      "description": "Deploy client environments faster with a ready Metacloud control plane, federation layer, and sovereign execution endpoints.",
       "items": [
-        {
-          "logo": "../assets/logos/Atomos.svg",
-          "name": "AtomOS",
-          "description": "Production-grade hypervisor for consistent multi-tenant environments"
-        },
         {
           "logo": "../assets/logos/Electros.svg",
           "name": "Electros",
-          "description": "White-label dashboard for managing client infrastructure"
+          "description": "White-label control plane with multi-tenant governance and client portals."
         },
         {
           "logo": "../assets/logos/Atomosphere.svg",
           "name": "Atomosphere",
-          "description": "API layer for seamless multi-cloud orchestration and management"
+          "description": "Broker upstream Cloud capacity without custom provider integrations per project."
+        },
+        {
+          "logo": "../assets/logos/Atomosquare.svg",
+          "name": "Atomosquare",
+          "description": "Onboard client hypervisor estates and hybrid endpoints into your delivery model."
+        },
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Sovereign execution engine for client-managed or SI-hosted infrastructure."
         }
       ],
       "cta": {
-        "text": "See Partner Stack",
-        "link": "../products.html"
+        "text": "Become a Metacloud Partner",
+        "link": "../contact.html"
       }
     },
     "features": {
@@ -184,33 +189,33 @@
       ]
     },
     "ctaFinal": {
-      "title": "Ready to Transform Your Integration Business?",
-      "subtitle": "Join leading system integrators already using Elemento to build recurring revenue models and deliver sovereign cloud environments.",
+      "title": "Ready to Scale Your SI Practice?",
+      "subtitle": "Win more infrastructure projects with a Metacloud platform instead of rebuilding the stack each time.",
       "primaryCTA": {
-        "text": "Launch Partner Business",
-        "link": "../signup.html",
+        "text": "Become a Metacloud Partner",
+        "link": "../contact.html",
         "icon": "fas fa-handshake"
       },
       "secondaryCTA": {
-        "text": "Explore Integration Solutions",
-        "link": "../products.html",
-        "icon": "fas fa-rocket"
+        "text": "View Pricing",
+        "link": "../pricing.html",
+        "icon": "fas fa-tags"
       }
     }
   },
   "it": {
     "hero": {
-      "tagline": "Integratori di sistema",
-      "title": "Fornisci ambienti cloud sovrani ed elastici",
-      "subtitle": "Elemento Cloud consente agli integratori di sistema di fornire livelli cloud scalabili e white label con il proprio marchio senza dipendenza dall'hyperscaler.",
+      "tagline": "System Integrator",
+      "title": "Progetti Metacloud senza costruire ogni layer",
+      "subtitle": "Usa Electros come control plane per consegnare progetti infrastrutturali sovrani, multi-Cloud e white-label sotto il tuo brand.",
       "primaryCTA": {
-        "text": "Inizia ora",
-        "link": "../signup.html",
+        "text": "Diventa partner Metacloud",
+        "link": "../contact.html",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
-        "text": "Esplora White-Label Platform",
-        "link": "../products.html",
+        "text": "Modello service provider",
+        "link": "../solutions/service-providers.html",
         "icon": "fas fa-sitemap"
       }
     },
@@ -267,28 +272,33 @@
       ]
     },
     "solution": {
-      "title": "Elemento's Partner Soluzione",
-      "description": "Piattaforma infrastrutturale completa che consente agli integratori di sistema di fornire ambienti cloud sovrani",
+      "title": "Delivery SI sul Metacloud",
+      "description": "Distribuisci ambienti clienti più velocemente con control plane Metacloud, federazione e endpoint di esecuzione sovrani pronti all'uso.",
       "items": [
-        {
-          "logo": "../assets/logos/Atomos.svg",
-          "name": "AtomOS",
-          "description": "Hypervisor per ambienti di produzione per ambienti multi-tenant coerenti"
-        },
         {
           "logo": "../assets/logos/Electros.svg",
           "name": "Electros",
-          "description": "Dashboard white label per la gestione dell'infrastruttura del cliente"
+          "description": "Control plane white-label con governance multi-tenant e portali clienti."
         },
         {
           "logo": "../assets/logos/Atomosphere.svg",
           "name": "Atomosphere",
-          "description": "Livello API per orchestrazione e gestione multi-cloud senza interruzioni"
+          "description": "Intermedia capacità Cloud upstream senza integrazioni custom per progetto."
+        },
+        {
+          "logo": "../assets/logos/Atomosquare.svg",
+          "name": "Atomosquare",
+          "description": "Onboarda patrimoni hypervisor clienti e endpoint ibridi nel tuo modello di delivery."
+        },
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Motore di esecuzione sovrano per infrastruttura gestita dal cliente o dall'SI."
         }
       ],
       "cta": {
-        "text": "Vedi Partner Stack",
-        "link": "../products.html"
+        "text": "Diventa partner Metacloud",
+        "link": "../contact.html"
       }
     },
     "features": {
@@ -383,33 +393,33 @@
       ]
     },
     "ctaFinal": {
-      "title": "Pronto per Transform Your Integration Business?",
-      "subtitle": "Unisciti ai principali integratori di sistemi che già utilizzano Elemento per creare modelli di entrate ricorrenti e fornire ambienti cloud sovrani.",
+      "title": "Pronto per scalare la pratica SI?",
+      "subtitle": "Vinci più progetti infrastrutturali con una piattaforma Metacloud invece di ricostruire lo stack ogni volta.",
       "primaryCTA": {
-        "text": "Avvia Partner Business",
-        "link": "../signup.html",
+        "text": "Diventa partner Metacloud",
+        "link": "../contact.html",
         "icon": "fas fa-handshake"
       },
       "secondaryCTA": {
-        "text": "Esplora Integration Soluziones",
-        "link": "../products.html",
-        "icon": "fas fa-rocket"
+        "text": "Vedi i prezzi",
+        "link": "../pricing.html",
+        "icon": "fas fa-tags"
       }
     }
   },
   "fr": {
     "hero": {
-      "tagline": "Intégrateurs de systèmes",
-      "title": "Offrez des environnements cloud souverains et élastiques",
-      "subtitle": "Elemento Cloud permet aux intégrateurs de systèmes de fournir des couches cloud évolutives en marque blanche sous leur propre marque sans dépendance hyperscaler.",
+      "tagline": "Intégrateurs système",
+      "title": "Projets Metacloud sans tout construire",
+      "subtitle": "Utilisez Electros comme plan de contrôle pour livrer des projets d'infrastructure souverains, multi-Cloud et marque blanche sous votre marque.",
       "primaryCTA": {
-        "text": "Commencez maintenant",
-        "link": "../signup.html",
+        "text": "Devenir partenaire Metacloud",
+        "link": "../contact.html",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
-        "text": "Explorez la plateforme en marque blanche",
-        "link": "../products.html",
+        "text": "Modèle fournisseur de services",
+        "link": "../solutions/service-providers.html",
         "icon": "fas fa-sitemap"
       }
     },
@@ -466,28 +476,33 @@
       ]
     },
     "solution": {
-      "title": "Solution partenaire d'Elemento",
-      "description": "Plateforme d'infrastructure complète qui permet aux intégrateurs de systèmes de fournir des environnements cloud souverains",
+      "title": "Livraison SI sur le Metacloud",
+      "description": "Déployez les environnements clients plus vite avec plan de contrôle Metacloud, fédération et endpoints souverains prêts à l'emploi.",
       "items": [
-        {
-          "logo": "../assets/logos/Atomos.svg",
-          "name": "AtomOS",
-          "description": "Hyperviseur de niveau production pour des environnements multi-locataires cohérents"
-        },
         {
           "logo": "../assets/logos/Electros.svg",
           "name": "Electros",
-          "description": "Tableau de bord en marque blanche pour la gestion de l'infrastructure client"
+          "description": "Plan de contrôle marque blanche avec gouvernance multi-tenant et portails clients."
         },
         {
           "logo": "../assets/logos/Atomosphere.svg",
           "name": "Atomosphere",
-          "description": "Couche API pour une orchestration et une gestion multi-cloud transparentes"
+          "description": "Intermédiez la capacité Cloud upstream sans intégrations custom par projet."
+        },
+        {
+          "logo": "../assets/logos/Atomosquare.svg",
+          "name": "Atomosquare",
+          "description": "Intégrez patrimoines hyperviseur clients et endpoints hybrides dans votre modèle de livraison."
+        },
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Moteur d'exécution souverain pour infrastructure gérée par le client ou l'intégrateur."
         }
       ],
       "cta": {
-        "text": "Voir la pile de partenaires",
-        "link": "../products.html"
+        "text": "Devenir partenaire Metacloud",
+        "link": "../contact.html"
       }
     },
     "features": {
@@ -582,17 +597,17 @@
       ]
     },
     "ctaFinal": {
-      "title": "Prêt à transformer votre activité d'intégration ?",
-      "subtitle": "Rejoignez les principaux intégrateurs de systèmes qui utilisent déjà Elemento pour créer des modèles de revenus récurrents et fournir des environnements cloud souverains.",
+      "title": "Prêt à développer votre activité d'intégration ?",
+      "subtitle": "Gagnez plus de projets d'infrastructure avec une plateforme Metacloud au lieu de reconstruire la pile à chaque fois.",
       "primaryCTA": {
-        "text": "Lancement d'une entreprise partenaire",
-        "link": "../signup.html",
+        "text": "Devenir partenaire Metacloud",
+        "link": "../contact.html",
         "icon": "fas fa-handshake"
       },
       "secondaryCTA": {
-        "text": "Explorez les solutions d'intégration",
-        "link": "../products.html",
-        "icon": "fas fa-rocket"
+        "text": "Voir les tarifs",
+        "link": "../pricing.html",
+        "icon": "fas fa-tags"
       }
     }
   }

@@ -24,8 +24,8 @@
     "legacyPath": "about.html",
     "group": "root",
     "slug": "about",
-    "title": "Elemento | About | Cloud Platform Mission & Team",
-    "description": "Learn about Elemento's mission to transform cloud infrastructure with vendor-neutral, cost-effective, and green computing solutions.",
+    "title": "Elemento | About | Building the Metacloud",
+    "description": "Elemento builds the Metacloud: a sovereign control plane that enables organisations to govern, migrate and procure infrastructure through intent and portable contracts, without lock-in.",
     "robots": "index, follow",
     "ogType": "website",
     "extraCss": [
@@ -50,8 +50,8 @@
     "legacyPath": "atomos.html",
     "group": "root",
     "slug": "atomos",
-    "title": "AtomOS — Powering Your Cloud with Linux Hypervisor | Elemento Cloud",
-    "description": "AtomOS is a lightweight, high-performance Linux hypervisor for bare metal and on-premise clouds. RHEL-compatible, GPU-ready, and clustering-enabled.",
+    "title": "AtomOS® | Native Sovereign Virtualization | Elemento",
+    "description": "AtomOS is Elemento's native Linux-based virtualization platform for sovereign private cloud, edge, AI infrastructure and VMware replacement — the native endpoint inside Atomosquare.",
     "robots": "index, follow",
     "ogType": "product",
     "extraCss": [
@@ -79,8 +79,8 @@
     "legacyPath": "atomosphere.html",
     "group": "root",
     "slug": "atomosphere",
-    "title": "Atomosphere — Federated Multicloud Gateway | Elemento",
-    "description": "Elemento's multicloud API gateway connects 235+ clouds and on-prem nodes into one programmable network. Unified control, seamless portability.",
+    "title": "Atomosphere™ | Universal Cloud Provider Fabric | Elemento",
+    "description": "Atomosphere connects cloud providers and sovereign cloud services to the Elemento Metacloud through a common interoperability model.",
     "robots": "index, follow",
     "ogType": "product",
     "extraCss": [
@@ -93,6 +93,32 @@
       "js/faq.js",
       "js/atmosphere_hero_with_logo.js",
       "js/provider-integrations.js"
+    ],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it",
+      "fr"
+    ]
+  },
+  {
+    "stem": "atomosquare",
+    "legacyPath": "atomosquare.html",
+    "group": "root",
+    "slug": "atomosquare",
+    "title": "Atomosquare | Universal Hypervisor Fabric | Elemento",
+    "description": "Atomosquare connects hypervisors, virtualization platforms and private cloud infrastructures to the Elemento Metacloud through a common interoperability model.",
+    "robots": "index, follow",
+    "ogType": "product",
+    "extraCss": [
+      "css/atmosphere.css",
+      "css/planet-styles/planet-atomosquare.css",
+      "css/metacloud-sections.css",
+      "css/breadcrumb.css",
+      "css/atomosquare.css"
+    ],
+    "extraScripts": [
+      "js/atmosphere_hero_with_logo.js"
     ],
     "type": "legacy",
     "locales": [
@@ -1203,6 +1229,32 @@
     ]
   },
   {
+    "stem": "c4-protocol",
+    "legacyPath": "c4-protocol.html",
+    "group": "root",
+    "slug": "c4-protocol",
+    "title": "C4 Protocol | Common Language of the Metacloud | Elemento",
+    "description": "C4 is the interoperability framework that allows heterogeneous infrastructure platforms to participate in one federation model — the common language of the Metacloud.",
+    "robots": "index, follow",
+    "ogType": "website",
+    "extraCss": [
+      "css/atmosphere.css",
+      "css/planet-styles/planet-index.css",
+      "css/metacloud-sections.css",
+      "css/breadcrumb.css",
+      "css/c4-protocol.css"
+    ],
+    "extraScripts": [
+      "js/atmosphere_hero.js"
+    ],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it",
+      "fr"
+    ]
+  },
+  {
     "stem": "compare-costs",
     "legacyPath": "compare-costs.html",
     "group": "root",
@@ -1257,6 +1309,32 @@
     ]
   },
   {
+    "stem": "deployment",
+    "legacyPath": "deployment.html",
+    "group": "root",
+    "slug": "deployment",
+    "title": "Elemento | Deployment | Deploy the Metacloud Your Way",
+    "description": "Deploy the Elemento Metacloud as SaaS, self-hosted within your boundary, or as a federated provider model — SaaS, self-hosted and federated deployment options.",
+    "robots": "index, follow",
+    "ogType": "website",
+    "extraCss": [
+      "css/atmosphere.css",
+      "css/planet-styles/planet-index.css",
+      "css/metacloud-sections.css",
+      "css/breadcrumb.css",
+      "css/deployment.css"
+    ],
+    "extraScripts": [
+      "js/atmosphere_hero.js"
+    ],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it",
+      "fr"
+    ]
+  },
+  {
     "stem": "editor",
     "legacyPath": "editor.html",
     "group": "root",
@@ -1286,8 +1364,8 @@
     "legacyPath": "electros.html",
     "group": "root",
     "slug": "electros",
-    "title": "Electros App — Orchestration Dashboard & CLI | Elemento Cloud",
-    "description": "Electros is Elemento Cloud's orchestration dashboard and CLI for managing VMs, storage, and networks across public clouds and on-prem infrastructure.",
+    "title": "Electros™ | The Metacloud Control Plane | Elemento",
+    "description": "Electros is the Metacloud control plane — one interface to govern, orchestrate and broker infrastructure across public clouds, hypervisors, sovereign providers and edge environments.",
     "robots": "index, follow",
     "ogType": "product",
     "extraCss": [
@@ -1439,16 +1517,17 @@
     "legacyPath": "index.html",
     "group": "root",
     "slug": "index",
-    "title": "Elemento | Unified private and public Cloud platform",
-    "description": "Elemento is a vendor-neutral, cost-saving, green, high-performance, self-hostable cloud platform with infrastructure-as-code readiness.",
+    "title": "Elemento | The Metacloud Control Plane for Sovereign Infrastructure",
+    "description": "Elemento is the Metacloud: a sovereign control plane to govern, orchestrate and optimise public clouds, private clouds, hypervisors, sovereign providers and native AtomOS infrastructure.",
     "robots": "index, follow",
     "ogType": "website",
     "extraCss": [
       "css/atmosphere.css",
       "css/planet-styles/planet-index.css",
-      "css/home.css",
+      "css/metacloud-sections.css",
       "css/rocket.css",
-      "css/success-stories-carousel.css"
+      "css/success-stories-carousel.css",
+      "css/home.css"
     ],
     "extraScripts": [
       "js/faq.js",
@@ -1549,6 +1628,58 @@
     ]
   },
   {
+    "stem": "platform",
+    "legacyPath": "platform.html",
+    "group": "root",
+    "slug": "platform",
+    "title": "Elemento | Platform | One Control Plane. Every Provider.",
+    "description": "Elemento is the Metacloud: a sovereign control and federation layer above public clouds, private clouds, hypervisors and AtomOS — one control plane for every provider.",
+    "robots": "index, follow",
+    "ogType": "website",
+    "extraCss": [
+      "css/atmosphere.css",
+      "css/planet-styles/planet-index.css",
+      "css/metacloud-sections.css",
+      "css/breadcrumb.css",
+      "css/platform.css"
+    ],
+    "extraScripts": [
+      "js/atmosphere_hero.js"
+    ],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it",
+      "fr"
+    ]
+  },
+  {
+    "stem": "pricing",
+    "legacyPath": "pricing.html",
+    "group": "root",
+    "slug": "pricing",
+    "title": "Elemento | Pricing | Simple Software Cost. Transparent Infrastructure Cost.",
+    "description": "Electros is licensed at the organisation level. Connection credits activate integrations. Infrastructure consumption remains billed separately and transparently.",
+    "robots": "index, follow",
+    "ogType": "website",
+    "extraCss": [
+      "css/atmosphere.css",
+      "css/planet-styles/planet-index.css",
+      "css/metacloud-sections.css",
+      "css/breadcrumb.css",
+      "css/pricing.css"
+    ],
+    "extraScripts": [
+      "js/atmosphere_hero.js"
+    ],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it",
+      "fr"
+    ]
+  },
+  {
     "stem": "products",
     "legacyPath": "products.html",
     "group": "root",
@@ -1565,6 +1696,32 @@
     ],
     "extraScripts": [
       "js/faq.js",
+      "js/atmosphere_hero.js"
+    ],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it",
+      "fr"
+    ]
+  },
+  {
+    "stem": "resources",
+    "legacyPath": "resources.html",
+    "group": "root",
+    "slug": "resources",
+    "title": "Elemento | Resources | Product Briefs & Architecture",
+    "description": "Elemento Metacloud resources: platform architecture, product briefs, ROI calculator, blog and documentation for sovereign infrastructure control.",
+    "robots": "index, follow",
+    "ogType": "website",
+    "extraCss": [
+      "css/atmosphere.css",
+      "css/planet-styles/planet-index.css",
+      "css/metacloud-sections.css",
+      "css/breadcrumb.css",
+      "css/resources.css"
+    ],
+    "extraScripts": [
       "js/atmosphere_hero.js"
     ],
     "type": "legacy",
@@ -1623,12 +1780,108 @@
     ]
   },
   {
+    "stem": "solutions/ai-gpu-infrastructure",
+    "legacyPath": "solutions/ai-gpu-infrastructure.html",
+    "group": "solutions",
+    "slug": "ai-gpu-infrastructure",
+    "title": "Govern AI Infrastructure Across Providers | Elemento",
+    "description": "Provision, monitor, and govern GPU resources across local, private, and federated infrastructure using the same operational model as conventional infrastructure.",
+    "robots": "index, follow",
+    "ogType": "website",
+    "extraCss": [
+      "css/atmosphere.css",
+      "css/planet-styles/planet-index.css",
+      "css/landing-pages.css",
+      "css/home.css",
+      "css/rocket.css",
+      "css/success-stories-carousel.css",
+      "css/solutions.css"
+    ],
+    "extraScripts": [
+      "js/solution-config-loader.js",
+      "js/faq.js",
+      "js/logo-carousel.js",
+      "js/landing-page-loader.js",
+      "js/atmosphere_hero.js"
+    ],
+    "type": "solution",
+    "locales": [
+      "en",
+      "it",
+      "fr"
+    ]
+  },
+  {
     "stem": "solutions/ai",
     "legacyPath": "solutions/ai.html",
     "group": "solutions",
     "slug": "ai",
-    "title": "AI/Data Science Startups & Research Labs | Elemento",
-    "description": "Train, deploy, and scale AI workloads seamlessly across clouds and on-prem nodes. Elemento provides GPU cluster management and multi-cloud AI environments.",
+    "title": "Scale AI Workloads Without GPU Lock-In | Elemento",
+    "description": "Train, deploy, and govern AI workloads across Cloud, sovereign, and on-premises GPU capacity through one Metacloud control plane.",
+    "robots": "index, follow",
+    "ogType": "website",
+    "extraCss": [
+      "css/atmosphere.css",
+      "css/planet-styles/planet-index.css",
+      "css/landing-pages.css",
+      "css/home.css",
+      "css/rocket.css",
+      "css/success-stories-carousel.css",
+      "css/solutions.css"
+    ],
+    "extraScripts": [
+      "js/solution-config-loader.js",
+      "js/faq.js",
+      "js/logo-carousel.js",
+      "js/landing-page-loader.js",
+      "js/atmosphere_hero.js"
+    ],
+    "type": "solution",
+    "locales": [
+      "en",
+      "it",
+      "fr"
+    ]
+  },
+  {
+    "stem": "solutions/cross-provider-dr",
+    "legacyPath": "solutions/cross-provider-dr.html",
+    "group": "solutions",
+    "slug": "cross-provider-dr",
+    "title": "Disaster Recovery Without Provider Dependency | Elemento",
+    "description": "Use one control plane to coordinate primary, DR, and fallback environments across providers.",
+    "robots": "index, follow",
+    "ogType": "website",
+    "extraCss": [
+      "css/atmosphere.css",
+      "css/planet-styles/planet-index.css",
+      "css/landing-pages.css",
+      "css/home.css",
+      "css/rocket.css",
+      "css/success-stories-carousel.css",
+      "css/solutions.css"
+    ],
+    "extraScripts": [
+      "js/solution-config-loader.js",
+      "js/faq.js",
+      "js/logo-carousel.js",
+      "js/landing-page-loader.js",
+      "js/atmosphere_hero.js"
+    ],
+    "type": "solution",
+    "locales": [
+      "en",
+      "it",
+      "fr"
+    ]
+  },
+  {
+    "stem": "solutions/data-repatriation",
+    "legacyPath": "solutions/data-repatriation.html",
+    "group": "solutions",
+    "slug": "data-repatriation",
+    "title": "Move Workloads When Sovereignty Changes | Elemento",
+    "description": "Make repatriation a policy decision instead of a re-engineering project.",
     "robots": "index, follow",
     "ogType": "website",
     "extraCss": [
@@ -1659,8 +1912,40 @@
     "legacyPath": "solutions/devops.html",
     "group": "solutions",
     "slug": "devops",
-    "title": "DevOps Infrastructure for CI/CD Pipelines | Elemento",
-    "description": "Build cloud-agnostic CI/CD pipelines with Elemento. Deploy faster, scale efficiently, and maintain consistency across all environments with our unified platform.",
+    "title": "One Pipeline Model Across Every Environment | Elemento",
+    "description": "Eliminate environment drift and vendor-specific deployment logic with consistent infrastructure governance from Electros.",
+    "robots": "index, follow",
+    "ogType": "website",
+    "extraCss": [
+      "css/atmosphere.css",
+      "css/planet-styles/planet-index.css",
+      "css/landing-pages.css",
+      "css/home.css",
+      "css/rocket.css",
+      "css/success-stories-carousel.css",
+      "css/solutions.css"
+    ],
+    "extraScripts": [
+      "js/solution-config-loader.js",
+      "js/faq.js",
+      "js/logo-carousel.js",
+      "js/landing-page-loader.js",
+      "js/atmosphere_hero.js"
+    ],
+    "type": "solution",
+    "locales": [
+      "en",
+      "it",
+      "fr"
+    ]
+  },
+  {
+    "stem": "solutions/hybrid-multi-cloud",
+    "legacyPath": "solutions/hybrid-multi-cloud.html",
+    "group": "solutions",
+    "slug": "hybrid-multi-cloud",
+    "title": "One Operating Model for Hybrid Infrastructure | Elemento",
+    "description": "Manage public Cloud, private infrastructure, hypervisors, and edge environments without separate toolchains.",
     "robots": "index, follow",
     "ogType": "website",
     "extraCss": [
@@ -1691,17 +1976,25 @@
     "legacyPath": "solutions/index.html",
     "group": "solutions",
     "slug": "index",
-    "title": "Solutions Hub | Elemento Cloud Platform",
-    "description": "Discover how Elemento's unified cloud platform serves different industries and use cases. From AI/ML workloads to regulated environments, find your perfect solution.",
+    "title": "Metacloud Solutions | Elemento",
+    "description": "Executive solutions for VMware exit, sovereign cloud governance, hybrid operations, AI infrastructure, service providers, cross-provider DR, and data repatriation.",
     "robots": "index, follow",
     "ogType": "website",
     "extraCss": [
+      "css/atmosphere.css",
+      "css/planet-styles/planet-index.css",
       "css/landing-pages.css",
+      "css/home.css",
+      "css/rocket.css",
       "css/components.css",
       "css/responsive.css",
       "css/solutions.css"
     ],
-    "extraScripts": [],
+    "extraScripts": [
+      "js/solution-config-loader.js",
+      "js/landing-page-loader.js",
+      "js/atmosphere_hero.js"
+    ],
     "type": "solution",
     "locales": [
       "en",
@@ -1714,8 +2007,8 @@
     "legacyPath": "solutions/industrial.html",
     "group": "solutions",
     "slug": "industrial",
-    "title": "Manufacturing & Industrial Innovation | Elemento",
-    "description": "Integrate your factory data from PLCs to ERP in one secure, vendor-free cloud ecosystem. Transform legacy MES/ERP systems with modern analytics and AI pipelines.",
+    "title": "Unify Shop Floor, Edge, and Cloud Operations | Elemento",
+    "description": "Bridge OT data gravity with modern analytics and AI using one Metacloud operating model across edge, factory, and Cloud.",
     "robots": "index, follow",
     "ogType": "website",
     "extraCss": [
@@ -1766,8 +2059,8 @@
     "legacyPath": "solutions/public-sector.html",
     "group": "solutions",
     "slug": "public-sector",
-    "title": "Public Sector & Smart City Infrastructure | Elemento",
-    "description": "Empowering public institutions with sovereign, interoperable, and auditable cloud infrastructure. Elemento provides compliance-ready infrastructure for government and smart city initiatives.",
+    "title": "Sovereign Infrastructure for Government Services | Elemento",
+    "description": "Deliver citizen services and critical systems with jurisdiction, residency, and audit controls enforced from one Metacloud control plane.",
     "robots": "index, follow",
     "ogType": "website",
     "extraCss": [
@@ -1798,8 +2091,72 @@
     "legacyPath": "solutions/regulated.html",
     "group": "solutions",
     "slug": "regulated",
-    "title": "Healthcare, Finance & Regulated Environments | Elemento",
-    "description": "Run sensitive workloads across private and public clouds with full data governance. Elemento provides enterprise-grade security with built-in compliance for regulated industries.",
+    "title": "Compliance Without Hyperscaler Lock-In | Elemento",
+    "description": "Apply sovereignty, residency, and audit policies to healthcare, finance, and regulated workloads from one Metacloud control plane.",
+    "robots": "index, follow",
+    "ogType": "website",
+    "extraCss": [
+      "css/atmosphere.css",
+      "css/planet-styles/planet-index.css",
+      "css/landing-pages.css",
+      "css/home.css",
+      "css/rocket.css",
+      "css/success-stories-carousel.css",
+      "css/solutions.css"
+    ],
+    "extraScripts": [
+      "js/solution-config-loader.js",
+      "js/faq.js",
+      "js/logo-carousel.js",
+      "js/landing-page-loader.js",
+      "js/atmosphere_hero.js"
+    ],
+    "type": "solution",
+    "locales": [
+      "en",
+      "it",
+      "fr"
+    ]
+  },
+  {
+    "stem": "solutions/service-providers",
+    "legacyPath": "solutions/service-providers.html",
+    "group": "solutions",
+    "slug": "service-providers",
+    "title": "Expand Your Cloud Portfolio Without Building Every Service | Elemento",
+    "description": "Use Elemento as your Metacloud control plane to broker third-party infrastructure and services under your own governance model.",
+    "robots": "index, follow",
+    "ogType": "website",
+    "extraCss": [
+      "css/atmosphere.css",
+      "css/planet-styles/planet-index.css",
+      "css/landing-pages.css",
+      "css/home.css",
+      "css/rocket.css",
+      "css/success-stories-carousel.css",
+      "css/solutions.css"
+    ],
+    "extraScripts": [
+      "js/solution-config-loader.js",
+      "js/faq.js",
+      "js/logo-carousel.js",
+      "js/landing-page-loader.js",
+      "js/atmosphere_hero.js"
+    ],
+    "type": "solution",
+    "locales": [
+      "en",
+      "it",
+      "fr"
+    ]
+  },
+  {
+    "stem": "solutions/sovereign-cloud-governance",
+    "legacyPath": "solutions/sovereign-cloud-governance.html",
+    "group": "solutions",
+    "slug": "sovereign-cloud-governance",
+    "title": "Sovereignty as a Workload Policy | Elemento",
+    "description": "Apply jurisdiction, residency, and audit policies across clouds, hypervisors, and sovereign providers from one control plane.",
     "robots": "index, follow",
     "ogType": "website",
     "extraCss": [
@@ -1830,8 +2187,8 @@
     "legacyPath": "solutions/system-integrators.html",
     "group": "solutions",
     "slug": "system-integrators",
-    "title": "System Integrators & Cloud Consultants | Elemento",
-    "description": "Elemento Cloud empowers system integrators to deliver sovereign, elastic cloud environments under their own brand. Build recurring-revenue models around infrastructure.",
+    "title": "Deliver Metacloud Projects Without Building Every Layer | Elemento",
+    "description": "Use Electros as your control plane to deliver sovereign, multi-cloud, and white-label infrastructure projects under your brand.",
     "robots": "index, follow",
     "ogType": "website",
     "extraCss": [
@@ -1862,8 +2219,40 @@
     "legacyPath": "solutions/vmware-alternative.html",
     "group": "solutions",
     "slug": "vmware-alternative",
-    "title": "VMware Alternative - Modern Virtualization Platform | Elemento",
-    "description": "Replace VMware with Elemento's modern virtualization platform. Get better performance, lower costs, and cloud-native architecture with our unified infrastructure solution.",
+    "title": "Replace vSphere Without Replacing Your Operating Model | Elemento",
+    "description": "Run AtomOS as your sovereign hypervisor while Electros governs mixed VMware and AtomOS estates through Atomosquare.",
+    "robots": "index, follow",
+    "ogType": "website",
+    "extraCss": [
+      "css/atmosphere.css",
+      "css/planet-styles/planet-index.css",
+      "css/landing-pages.css",
+      "css/home.css",
+      "css/rocket.css",
+      "css/success-stories-carousel.css",
+      "css/solutions.css"
+    ],
+    "extraScripts": [
+      "js/solution-config-loader.js",
+      "js/faq.js",
+      "js/logo-carousel.js",
+      "js/landing-page-loader.js",
+      "js/atmosphere_hero.js"
+    ],
+    "type": "solution",
+    "locales": [
+      "en",
+      "it",
+      "fr"
+    ]
+  },
+  {
+    "stem": "solutions/vmware-exit",
+    "legacyPath": "solutions/vmware-exit.html",
+    "group": "solutions",
+    "slug": "vmware-exit",
+    "title": "Exit VMware Without Entering Another Lock-In | Elemento",
+    "description": "Govern VMware and AtomOS side by side. Migrate workload by workload with no forklift, no downtime windows, and no new dependency cycle.",
     "robots": "index, follow",
     "ogType": "website",
     "extraCss": [

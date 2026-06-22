@@ -284,17 +284,17 @@
     },
     {
       "id": "meta.solutions_ai.description",
-      "en": "Train, deploy, and scale AI workloads seamlessly across clouds and on-prem nodes. Elemento provides GPU cluster management and multi-cloud AI environments.",
-      "it": "",
-      "fr": "",
+      "en": "Train, deploy, and govern AI workloads across Cloud, sovereign, and on-premises GPU capacity through one Metacloud control plane.",
+      "it": "Addestra, distribuisci e governa workload AI su capacità GPU Cloud, sovrana e on-premises tramite un unico control plane Metacloud.",
+      "fr": "Formez, déployez et gouvernez les charges IA sur capacité GPU Cloud, souveraine et on-premises via un plan de contrôle Metacloud unique.",
       "source": "solutions/ai.html",
       "context": "meta description"
     },
     {
       "id": "meta.solutions_ai.title",
-      "en": "AI/Data Science Startups & Research Labs | Elemento",
-      "it": "",
-      "fr": "",
+      "en": "Scale AI Workloads Without GPU Lock-In | Elemento",
+      "it": "Scala carichi AI senza lock-in GPU | Elemento",
+      "fr": "Faites évoluer les charges IA sans verrouillage GPU | Elemento",
       "source": "solutions/ai.html",
       "context": "meta title"
     }

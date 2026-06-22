@@ -1,6 +1,6 @@
 {
   "page": "_cms",
-  "count": 717,
+  "count": 1074,
   "strings": [
     {
       "id": "CMS.orbital.0.description",
@@ -1299,6 +1299,414 @@
       "context": ""
     },
     {
+      "id": "CMS.solutions.ai-gpu-infrastructure.ctaFinal.primaryCTA.text",
+      "en": "Plan an AI Infrastructure Strategy",
+      "it": "Pianifica una strategia infrastruttura AI",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.ctaFinal.secondaryCTA.text",
+      "en": "Schedule a Demo",
+      "it": "Pianifica una demo",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.ctaFinal.subtitle",
+      "en": "Discover how Elemento can transform your infrastructure operating model.",
+      "it": "Scopri come Elemento può trasformare il tuo modello operativo infrastrutturale.",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.ctaFinal.title",
+      "en": "Ready for AI & GPU Infrastructure?",
+      "it": "Pronto per Infrastruttura AI e GPU?",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.faq.items.0.answer",
+      "en": "Yes. GPU resources are provisioned, monitored, and governed through the same Electros control plane as the rest of your infrastructure.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.faq.items.0.question",
+      "en": "Can Electros manage GPUs the same way as conventional infrastructure?",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.faq.items.1.answer",
+      "en": "AtomOS provides GPU passthrough on infrastructure you control. Electros applies residency and access policies so regulated AI workloads stay compliant.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.faq.items.1.question",
+      "en": "How does sovereign AI deployment work?",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.faq.items.2.answer",
+      "en": "Atomosphere enables federated access to GPU capacity across connected providers while Electros maintains allocation and governance.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.faq.items.2.question",
+      "en": "Can we federate GPU consumption across providers?",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.faq.items.3.answer",
+      "en": "Elemento governs the infrastructure layer. It integrates with your existing ML tooling while providing unified GPU operations and policy enforcement.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.faq.items.3.question",
+      "en": "Do we need a separate MLOps platform?",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.faq.subtitle",
+      "en": "Common questions about Elemento's ai & gpu infrastructure solution",
+      "it": "Domande frequenti sulla soluzione Elemento",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.faq.title",
+      "en": "AI & GPU Infrastructure FAQ",
+      "it": "FAQ Infrastruttura AI e GPU",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.hero.primaryCTA.text",
+      "en": "Plan an AI Infrastructure Strategy",
+      "it": "Pianifica una strategia infrastruttura AI",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.hero.secondaryCTA.text",
+      "en": "Explore Electros",
+      "it": "Esplora Electros",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.hero.subtitle",
+      "en": "Provision, monitor, and govern GPU resources across local, private, and federated infrastructure using the same operational model as conventional infrastructure.",
+      "it": "Provisiona, monitora e governa risorse GPU su infrastruttura locale, privata e federata con lo stesso modello operativo dell'infrastruttura convenzionale.",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.hero.tagline",
+      "en": "AI Infrastructure",
+      "it": "Infrastruttura AI",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.hero.title",
+      "en": "Govern AI Infrastructure Across Providers",
+      "it": "Governare l'infrastruttura AI tra i provider",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.painPoints.items.0.description",
+      "en": "AI teams juggle separate tools for on-premises, Cloud, and federated GPU capacity.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.painPoints.items.0.title",
+      "en": "GPU Silos",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.painPoints.items.1.description",
+      "en": "Expensive GPU resources sit idle while demand shifts between environments.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.painPoints.items.1.title",
+      "en": "Allocation Inefficiency",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.painPoints.items.2.description",
+      "en": "Regulated workloads cannot use public Cloud GPU without governance controls.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.painPoints.items.2.title",
+      "en": "Sovereign AI Constraints",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.painPoints.items.3.description",
+      "en": "AI infrastructure runs on a different operational model than the rest of IT.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.painPoints.items.3.title",
+      "en": "Operational Divergence",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.painPoints.subtitle",
+      "en": "Common pain points that limit your ai & gpu infrastructure goals",
+      "it": "Punti critici che limitano la modernizzazione dell'infrastruttura",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.painPoints.title",
+      "en": "AI & GPU Infrastructure Challenges You Face",
+      "it": "Le sfide di Infrastruttura AI e GPU",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.solution.cta.text",
+      "en": "Plan an AI Infrastructure Strategy",
+      "it": "Pianifica una strategia infrastruttura AI",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.solution.description",
+      "en": "Provision, monitor, and govern GPU resources across local, private, and federated infrastructure.",
+      "it": "Provisiona, monitora e governa risorse GPU su infrastruttura locale, privata e federata.",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.solution.items.0.description",
+      "en": "Govern GPU allocation, monitoring, and policy across all AI infrastructure endpoints.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.solution.items.1.description",
+      "en": "Federate GPU consumption across public, sovereign, and neocloud providers.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.solution.items.2.description",
+      "en": "Connect third-party hypervisor environments hosting GPU workloads into one model.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.solution.items.3.description",
+      "en": "Private AI infrastructure with GPU passthrough for sovereign and on-premises deployment.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.solution.title",
+      "en": "AI Infrastructure Governance",
+      "it": "Governance infrastruttura AI",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.stats.items.0.label",
+      "en": "GPU Governance",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.stats.items.1.label",
+      "en": "Deployment Model",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.stats.items.2.label",
+      "en": "Sovereign AI",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.stats.subtitle",
+      "en": "Real outcomes with the Metacloud platform",
+      "it": "Risultati concreti con la piattaforma Metacloud",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.stats.title",
+      "en": "AI & GPU Infrastructure Impact",
+      "it": "Impatto Infrastruttura AI e GPU",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.useCase.items.0.description",
+      "en": "Discover and catalogue GPU resources across local, private, and federated providers.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.useCase.items.0.title",
+      "en": "Inventory GPU Capacity",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.useCase.items.1.description",
+      "en": "Assign GPU resources with sovereignty, residency, and cost policies via Electros.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.useCase.items.1.title",
+      "en": "Allocate by Policy",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.useCase.items.2.description",
+      "en": "Run training and inference across environments with Atomosphere and AtomOS GPU passthrough.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.useCase.items.2.title",
+      "en": "Orchestrate Hybrid AI",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.useCase.items.3.description",
+      "en": "Monitor utilisation, enforce policies, and federate consumption without separate AI ops stacks.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.useCase.items.3.title",
+      "en": "Govern & Optimise",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.useCase.subtitle",
+      "en": "A structured approach with Elemento's Metacloud platform",
+      "it": "Un approccio strutturato con il Metacloud Elemento",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.ai-gpu-infrastructure.useCase.title",
+      "en": "AI & GPU Infrastructure Journey",
+      "it": "Percorso Infrastruttura AI e GPU",
+      "fr": "",
+      "source": "CMS/solutions/ai-gpu-infrastructure.json",
+      "context": ""
+    },
+    {
       "id": "CMS.solutions.ai.codeExample.cta.text",
       "en": "View AI Configuration",
       "it": "Visualizza la configurazione dell'IA",
@@ -1832,6 +2240,822 @@
       "it": "AI/ML Flusso di lavoro",
       "fr": "",
       "source": "CMS/solutions/ai.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.ctaFinal.primaryCTA.text",
+      "en": "Design Cross-Provider DR",
+      "it": "Progetta DR cross-provider",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.ctaFinal.secondaryCTA.text",
+      "en": "Schedule a Demo",
+      "it": "Pianifica una demo",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.ctaFinal.subtitle",
+      "en": "Discover how Elemento can transform your infrastructure operating model.",
+      "it": "Scopri come Elemento può trasformare il tuo modello operativo infrastrutturale.",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.ctaFinal.title",
+      "en": "Ready for Cross-Provider DR?",
+      "it": "Pronto per DR cross-provider?",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.faq.items.0.answer",
+      "en": "Yes. Electros coordinates primary, DR, and fallback environments across providers with unified RPO and RTO governance.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.faq.items.0.question",
+      "en": "Can DR span multiple Cloud providers?",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.faq.items.1.answer",
+      "en": "You define recovery policies per workload including jurisdiction and residency. Failover respects those constraints across connected providers.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.faq.items.1.question",
+      "en": "How do sovereign recovery targets work?",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.faq.items.2.answer",
+      "en": "Atomosquare and AtomOS enable on-premises fallback as part of your DR topology, not just another Cloud region.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.faq.items.2.question",
+      "en": "Can on-premises be a DR target?",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.faq.items.3.answer",
+      "en": "Elemento coordinates recovery orchestration and governance. It complements your backup and replication tooling by providing provider-independent failover control.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.faq.items.3.question",
+      "en": "Does this replace our backup solution?",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.faq.subtitle",
+      "en": "Common questions about Elemento's cross-provider dr solution",
+      "it": "Domande frequenti sulla soluzione Elemento",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.faq.title",
+      "en": "Cross-Provider DR FAQ",
+      "it": "FAQ DR cross-provider",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.hero.primaryCTA.text",
+      "en": "Design Cross-Provider DR",
+      "it": "Progetta DR cross-provider",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.hero.secondaryCTA.text",
+      "en": "Explore Deployment",
+      "it": "Esplora il deployment",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.hero.subtitle",
+      "en": "Use one control plane to coordinate primary, DR, and fallback environments across providers.",
+      "it": "Usa un unico control plane per coordinare ambienti primari, DR e fallback tra provider.",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.hero.tagline",
+      "en": "Disaster Recovery",
+      "it": "Disaster recovery",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.hero.title",
+      "en": "Disaster Recovery Without Provider Dependency",
+      "it": "Disaster recovery senza dipendenza dal provider",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.painPoints.items.0.description",
+      "en": "DR plans tied to a single Cloud vendor create recovery risk when that provider fails.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.painPoints.items.0.title",
+      "en": "Provider-Locked DR",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.painPoints.items.1.description",
+      "en": "Different tools per environment make unified recovery objectives impossible to enforce.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.painPoints.items.1.title",
+      "en": "Inconsistent RPO/RTO",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.painPoints.items.2.description",
+      "en": "Regulated workloads need recovery targets in specific jurisdictions, not just another region.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.painPoints.items.2.title",
+      "en": "Sovereign Recovery Gaps",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.painPoints.items.3.description",
+      "en": "Coordinating failover across providers requires manual runbooks and brittle automation.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.painPoints.items.3.title",
+      "en": "Complex Failover",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.painPoints.subtitle",
+      "en": "Common pain points that limit your cross-provider dr goals",
+      "it": "Punti critici che limitano la modernizzazione dell'infrastruttura",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.painPoints.title",
+      "en": "Cross-Provider DR Challenges You Face",
+      "it": "Le sfide di DR cross-provider",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.solution.cta.text",
+      "en": "Design Cross-Provider DR",
+      "it": "Progetta DR cross-provider",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.solution.description",
+      "en": "Coordinate primary, DR, and fallback environments from one Metacloud control plane.",
+      "it": "Coordina ambienti primari, DR e fallback da un unico control plane Metacloud.",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.solution.items.0.description",
+      "en": "Unified control plane for RPO/RTO governance and cross-provider DR coordination.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.solution.items.1.description",
+      "en": "Orchestrate failover across public, sovereign, and federated Cloud providers.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.solution.items.2.description",
+      "en": "Include on-premises and hypervisor-based fallback targets in DR topology.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.solution.items.3.description",
+      "en": "Sovereign recovery execution engine for regulated and air-gapped fallback sites.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.solution.title",
+      "en": "Provider-Independent DR",
+      "it": "DR indipendente dal provider",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.stats.items.0.label",
+      "en": "Failover Scope",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.stats.items.1.label",
+      "en": "RPO/RTO",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.stats.items.2.label",
+      "en": "Fallback Options",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.stats.subtitle",
+      "en": "Real outcomes with the Metacloud platform",
+      "it": "Risultati concreti con la piattaforma Metacloud",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.stats.title",
+      "en": "Cross-Provider DR Impact",
+      "it": "Impatto DR cross-provider",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.useCase.items.0.description",
+      "en": "Set unified RPO and RTO governance across primary and DR environments in Electros.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.useCase.items.0.title",
+      "en": "Define Recovery Targets",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.useCase.items.1.description",
+      "en": "Connect primary, DR, and on-premises fallback endpoints across providers.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.useCase.items.1.title",
+      "en": "Map DR Topology",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.useCase.items.2.description",
+      "en": "Coordinate cross-provider failover with consistent policies and visibility.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.useCase.items.2.title",
+      "en": "Orchestrate Failover",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.useCase.items.3.description",
+      "en": "Run DR exercises across environments without provider-specific tooling.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.useCase.items.3.title",
+      "en": "Test & Validate",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.useCase.subtitle",
+      "en": "A structured approach with Elemento's Metacloud platform",
+      "it": "Un approccio strutturato con il Metacloud Elemento",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.cross-provider-dr.useCase.title",
+      "en": "Cross-Provider DR Journey",
+      "it": "Percorso DR cross-provider",
+      "fr": "",
+      "source": "CMS/solutions/cross-provider-dr.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.ctaFinal.primaryCTA.text",
+      "en": "Build a Repatriation Plan",
+      "it": "Costruisci un piano di repatriazione",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.ctaFinal.secondaryCTA.text",
+      "en": "Schedule a Demo",
+      "it": "Pianifica una demo",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.ctaFinal.subtitle",
+      "en": "Discover how Elemento can transform your infrastructure operating model.",
+      "it": "Scopri come Elemento può trasformare il tuo modello operativo infrastrutturale.",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.ctaFinal.title",
+      "en": "Ready for Data Repatriation?",
+      "it": "Pronto per Repatriazione dati?",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.faq.items.0.answer",
+      "en": "Yes. Elemento treats repatriation as a policy and placement decision. Workloads move between providers while governance and operational models stay consistent.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.faq.items.0.question",
+      "en": "Can we repatriate without re-architecting applications?",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.faq.items.1.answer",
+      "en": "Atomosphere orchestrates placement across regions and providers. Electros enforces residency and jurisdiction policies throughout the migration.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.faq.items.1.question",
+      "en": "How do we move workloads from US to EU providers?",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.faq.items.2.answer",
+      "en": "Atomosquare and AtomOS provide the on-premises target. Migration preserves governance rather than requiring a new operational stack.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.faq.items.2.question",
+      "en": "Can we move from public Cloud back to on-premises?",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.faq.items.3.answer",
+      "en": "Regulatory changes, geopolitical shifts, cost optimisation, or internal sovereignty policies. Elemento lets you react with a plan instead of a re-engineering project.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.faq.items.3.question",
+      "en": "What triggers a repatriation plan?",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.faq.subtitle",
+      "en": "Common questions about Elemento's data repatriation solution",
+      "it": "Domande frequenti sulla soluzione Elemento",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.faq.title",
+      "en": "Data Repatriation FAQ",
+      "it": "FAQ Repatriazione dati",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.hero.primaryCTA.text",
+      "en": "Build a Repatriation Plan",
+      "it": "Costruisci un piano di repatriazione",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.hero.secondaryCTA.text",
+      "en": "Sovereignty Resources",
+      "it": "Risorse sovranità",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.hero.subtitle",
+      "en": "Make repatriation a policy decision instead of a re-engineering project.",
+      "it": "Rendi la repatriazione una decisione di policy invece di un progetto di re-ingegnerizzazione.",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.hero.tagline",
+      "en": "Data Repatriation",
+      "it": "Repatriazione dati",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.hero.title",
+      "en": "Move Workloads When Sovereignty Changes",
+      "it": "Sposta i workload quando la sovranità cambia",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.painPoints.items.0.description",
+      "en": "Geopolitical and regulatory changes force workload relocation with little warning.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.painPoints.items.0.title",
+      "en": "Regulatory Shifts",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.painPoints.items.1.description",
+      "en": "Traditional repatriation requires application redesign and months of engineering.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.painPoints.items.1.title",
+      "en": "Re-Architecture Burden",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.painPoints.items.2.description",
+      "en": "Moving workloads between providers often breaks audit trails and policy continuity.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.painPoints.items.2.title",
+      "en": "Governance Loss",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.painPoints.items.3.description",
+      "en": "Shifting workloads between US and EU providers involves incompatible operational models.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.painPoints.items.3.title",
+      "en": "US ↔ EU Complexity",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.painPoints.subtitle",
+      "en": "Common pain points that limit your data repatriation goals",
+      "it": "Punti critici che limitano la modernizzazione dell'infrastruttura",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.painPoints.title",
+      "en": "Data Repatriation Challenges You Face",
+      "it": "Le sfide di Repatriazione dati",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.solution.cta.text",
+      "en": "Build a Repatriation Plan",
+      "it": "Costruisci un piano di repatriazione",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.solution.description",
+      "en": "Move workloads when sovereignty changes without re-engineering or losing governance.",
+      "it": "Sposta workload quando la sovranità cambia senza re-ingegnerizzazione o perdita di governance.",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.solution.items.0.description",
+      "en": "Policy-driven repatriation with governance preserved throughout migration.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.solution.items.1.description",
+      "en": "Move workloads between US, EU, and sovereign Cloud providers under one model.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.solution.items.2.description",
+      "en": "Repatriate from public Cloud to on-premises hypervisor estates seamlessly.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.solution.items.3.description",
+      "en": "Sovereign on-premises execution target for repatriated workloads.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.solution.title",
+      "en": "Policy-Driven Repatriation",
+      "it": "Repatriazione guidata da policy",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.stats.items.0.label",
+      "en": "Migration Driver",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.stats.items.1.label",
+      "en": "Re-Architecture",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.stats.items.2.label",
+      "en": "Governance",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.stats.subtitle",
+      "en": "Real outcomes with the Metacloud platform",
+      "it": "Risultati concreti con la piattaforma Metacloud",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.stats.title",
+      "en": "Data Repatriation Impact",
+      "it": "Impatto Repatriazione dati",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.useCase.items.0.description",
+      "en": "Identify workloads affected by sovereignty, residency, or geopolitical policy changes.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.useCase.items.0.title",
+      "en": "Assess Exposure",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.useCase.items.1.description",
+      "en": "Define target environments and migration paths without application re-architecture.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.useCase.items.1.title",
+      "en": "Plan Repatriation",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.useCase.items.2.description",
+      "en": "Move workloads between US and EU providers or from public Cloud to on-premises while preserving policies.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.useCase.items.2.title",
+      "en": "Migrate with Governance",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.useCase.items.3.description",
+      "en": "Confirm residency, audit, and operational continuity in the target environment.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.useCase.items.3.title",
+      "en": "Validate Compliance",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.useCase.subtitle",
+      "en": "A structured approach with Elemento's Metacloud platform",
+      "it": "Un approccio strutturato con il Metacloud Elemento",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.data-repatriation.useCase.title",
+      "en": "Data Repatriation Journey",
+      "it": "Percorso Repatriazione dati",
+      "fr": "",
+      "source": "CMS/solutions/data-repatriation.json",
       "context": ""
     },
     {
@@ -2408,6 +3632,414 @@
       "it": "Come funziona",
       "fr": "",
       "source": "CMS/solutions/devops.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.ctaFinal.primaryCTA.text",
+      "en": "Map Your Infrastructure Estate",
+      "it": "Mappa il tuo patrimonio infrastrutturale",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.ctaFinal.secondaryCTA.text",
+      "en": "Schedule a Demo",
+      "it": "Pianifica una demo",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.ctaFinal.subtitle",
+      "en": "Discover how Elemento can transform your infrastructure operating model.",
+      "it": "Scopri come Elemento può trasformare il tuo modello operativo infrastrutturale.",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.ctaFinal.title",
+      "en": "Ready for Hybrid & Multi-Cloud?",
+      "it": "Pronto per Ibrido e multi-Cloud?",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.faq.items.0.answer",
+      "en": "For deep provider-specific tasks, yes. But day-to-day operations—deployment, monitoring, governance, and cost visibility—happen in Electros.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.faq.items.0.question",
+      "en": "Do we still need provider-native consoles?",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.faq.items.1.answer",
+      "en": "Atomosphere connects supported public and sovereign Cloud service classes. Atomosquare extends coverage to private hypervisors and on-premises infrastructure.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.faq.items.1.question",
+      "en": "Which providers are supported?",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.faq.items.2.answer",
+      "en": "Electros provides secure remote access to infrastructure across environments without VPN sprawl or per-provider jump hosts.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.faq.items.2.question",
+      "en": "How does remote access work?",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.faq.items.3.answer",
+      "en": "Yes. The same automation and policy model applies whether workloads run in public Cloud, private data centres, or at the edge.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.faq.items.3.question",
+      "en": "Can we automate across Cloud and on-premises?",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.faq.subtitle",
+      "en": "Common questions about Elemento's hybrid & multi-cloud solution",
+      "it": "Domande frequenti sulla soluzione Elemento",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.faq.title",
+      "en": "Hybrid & Multi-Cloud FAQ",
+      "it": "FAQ Ibrido e multi-Cloud",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.hero.primaryCTA.text",
+      "en": "Map Your Infrastructure Estate",
+      "it": "Mappa il tuo patrimonio infrastrutturale",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.hero.secondaryCTA.text",
+      "en": "View Platform",
+      "it": "Vedi la piattaforma",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.hero.subtitle",
+      "en": "Manage public Cloud, private infrastructure, hypervisors, and edge environments without separate toolchains.",
+      "it": "Gestisci Cloud pubblico, infrastruttura privata, hypervisor e edge senza toolchain separate.",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.hero.tagline",
+      "en": "Hybrid Operations",
+      "it": "Operazioni ibride",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.hero.title",
+      "en": "One Operating Model for Hybrid Infrastructure",
+      "it": "Un modello operativo per l'infrastruttura ibrida",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.painPoints.items.0.description",
+      "en": "Each environment brings its own console, APIs, and operational practices.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.painPoints.items.0.title",
+      "en": "Separate Toolchains",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.painPoints.items.1.description",
+      "en": "Spend and utilisation are scattered across providers with no unified view.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.painPoints.items.1.title",
+      "en": "Cost Opacity",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.painPoints.items.2.description",
+      "en": "Cross-provider automation requires brittle custom integrations.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.painPoints.items.2.title",
+      "en": "Orchestration Gaps",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.painPoints.items.3.description",
+      "en": "Edge, on-premises, and Cloud resources operate as disconnected silos.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.painPoints.items.3.title",
+      "en": "Edge Fragmentation",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.painPoints.subtitle",
+      "en": "Common pain points that limit your hybrid & multi-cloud goals",
+      "it": "Punti critici che limitano la modernizzazione dell'infrastruttura",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.painPoints.title",
+      "en": "Hybrid & Multi-Cloud Challenges You Face",
+      "it": "Le sfide di Ibrido e multi-Cloud",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.solution.cta.text",
+      "en": "Map Your Infrastructure Estate",
+      "it": "Mappa il tuo patrimonio infrastrutturale",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.solution.description",
+      "en": "Unified dashboard, orchestration, and governance for hybrid and multi-Cloud infrastructure.",
+      "it": "Dashboard, orchestrazione e governance unificate per infrastruttura ibrida e multi-Cloud.",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.solution.items.0.description",
+      "en": "Unified dashboard for governance, cost visibility, automation, and remote access.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.solution.items.1.description",
+      "en": "Cross-provider orchestration and resource abstraction across public and sovereign Cloud.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.solution.items.2.description",
+      "en": "Integrate private hypervisors and legacy platforms into the same operating model.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.solution.items.3.description",
+      "en": "Consistent execution layer for on-premises and edge workloads.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.solution.title",
+      "en": "One Operating Model",
+      "it": "Un modello operativo",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.stats.items.0.label",
+      "en": "Consoles Replaced",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.stats.items.1.label",
+      "en": "Environments",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.stats.items.2.label",
+      "en": "Automation",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.stats.subtitle",
+      "en": "Real outcomes with the Metacloud platform",
+      "it": "Risultati concreti con la piattaforma Metacloud",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.stats.title",
+      "en": "Hybrid & Multi-Cloud Impact",
+      "it": "Impatto Ibrido e multi-Cloud",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.useCase.items.0.description",
+      "en": "Onboard public Cloud, private infrastructure, hypervisors, and edge into Electros.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.useCase.items.0.title",
+      "en": "Connect Estates",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.useCase.items.1.description",
+      "en": "Use Atomosphere to normalise provider APIs behind a single operational model.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.useCase.items.1.title",
+      "en": "Abstract Resources",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.useCase.items.2.description",
+      "en": "Deploy, scale, and govern workloads with consistent automation across environments.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.useCase.items.2.title",
+      "en": "Automate Operations",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.useCase.items.3.description",
+      "en": "Track cost, utilisation, and governance from one dashboard with remote access built in.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.useCase.items.3.title",
+      "en": "Optimise Continuously",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.useCase.subtitle",
+      "en": "A structured approach with Elemento's Metacloud platform",
+      "it": "Un approccio strutturato con il Metacloud Elemento",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.hybrid-multi-cloud.useCase.title",
+      "en": "Hybrid & Multi-Cloud Journey",
+      "it": "Percorso Ibrido e multi-Cloud",
+      "fr": "",
+      "source": "CMS/solutions/hybrid-multi-cloud.json",
       "context": ""
     },
     {
@@ -4019,6 +5651,822 @@
       "context": ""
     },
     {
+      "id": "CMS.solutions.service-providers.ctaFinal.primaryCTA.text",
+      "en": "Launch Your Metacloud Offering",
+      "it": "Lancia la tua offerta Metacloud",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.ctaFinal.secondaryCTA.text",
+      "en": "Schedule a Demo",
+      "it": "Pianifica una demo",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.ctaFinal.subtitle",
+      "en": "Discover how Elemento can transform your infrastructure operating model.",
+      "it": "Scopri come Elemento può trasformare il tuo modello operativo infrastrutturale.",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.ctaFinal.title",
+      "en": "Ready for Service Providers?",
+      "it": "Pronto per Service Provider?",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.faq.items.0.answer",
+      "en": "Yes. You operate under your brand with dedicated portals, governance boundaries, and independent identity systems for your customers.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.faq.items.0.question",
+      "en": "Is Electros truly white-label for service providers?",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.faq.items.1.answer",
+      "en": "Atomosphere federates supported service classes so you broker capacity without building each provider integration individually.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.faq.items.1.question",
+      "en": "Do we need to build integrations with every upstream provider?",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.faq.items.2.answer",
+      "en": "Atomosquare connects customer hypervisor estates into your Metacloud offering while you retain governance and operational control.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.faq.items.2.question",
+      "en": "Can customers bring their own infrastructure?",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.faq.items.3.answer",
+      "en": "Electros is licensed at the organisation level. Infrastructure consumption is billed separately and transparently—see our pricing page for the full model.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.faq.items.3.question",
+      "en": "How does billing work?",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.faq.subtitle",
+      "en": "Common questions about Elemento's service providers solution",
+      "it": "Domande frequenti sulla soluzione Elemento",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.faq.title",
+      "en": "Service Providers FAQ",
+      "it": "FAQ Service Provider",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.hero.primaryCTA.text",
+      "en": "Launch Your Metacloud Offering",
+      "it": "Lancia la tua offerta Metacloud",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.hero.secondaryCTA.text",
+      "en": "View Pricing",
+      "it": "Vedi i prezzi",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.hero.subtitle",
+      "en": "Use Elemento as your Metacloud control plane to broker third-party infrastructure and services under your own governance model.",
+      "it": "Usa Elemento come control plane Metacloud per intermediare infrastruttura e servizi di terze parti sotto il tuo modello di governance.",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.hero.tagline",
+      "en": "White Label",
+      "it": "White label",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.hero.title",
+      "en": "Expand Your Cloud Portfolio Without Building Every Service",
+      "it": "Espandi il tuo portfolio Cloud senza costruire ogni servizio",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.painPoints.items.0.description",
+      "en": "Launching a Cloud offering means building portals, billing, governance, and integrations from scratch.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.painPoints.items.0.title",
+      "en": "Build Everything",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.painPoints.items.1.description",
+      "en": "Customers expect independent identity systems and operational boundaries.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.painPoints.items.1.title",
+      "en": "Identity Fragmentation",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.painPoints.items.2.description",
+      "en": "Connecting to multiple upstream providers multiplies engineering and maintenance effort.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.painPoints.items.2.title",
+      "en": "Provider Integration Cost",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.painPoints.items.3.description",
+      "en": "Building every service layer delays revenue from your Cloud portfolio.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.painPoints.items.3.title",
+      "en": "Slow Time to Market",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.painPoints.subtitle",
+      "en": "Common pain points that limit your service providers goals",
+      "it": "Punti critici che limitano la modernizzazione dell'infrastruttura",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.painPoints.title",
+      "en": "Service Providers Challenges You Face",
+      "it": "Le sfide di Service Provider",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.solution.cta.text",
+      "en": "Launch Your Metacloud Offering",
+      "it": "Lancia la tua offerta Metacloud",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.solution.description",
+      "en": "Broker third-party infrastructure and services under your brand with dedicated governance.",
+      "it": "Intermedia infrastruttura e servizi di terze parti sotto il tuo brand con governance dedicata.",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.solution.items.0.description",
+      "en": "White-label Metacloud control plane with dedicated governance and independent identity systems.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.solution.items.1.description",
+      "en": "Federation layer to broker third-party infrastructure and Cloud service classes.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.solution.items.2.description",
+      "en": "Onboard customer hypervisor estates and hybrid endpoints into your offering.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.solution.items.3.description",
+      "en": "Sovereign execution engine for provider-hosted or customer-managed infrastructure.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.solution.title",
+      "en": "Your Metacloud Platform",
+      "it": "La tua piattaforma Metacloud",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.stats.items.0.label",
+      "en": "Time to Market",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.stats.items.1.label",
+      "en": "Brand Control",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.stats.items.2.label",
+      "en": "Provider Federation",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.stats.subtitle",
+      "en": "Real outcomes with the Metacloud platform",
+      "it": "Risultati concreti con la piattaforma Metacloud",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.stats.title",
+      "en": "Service Providers Impact",
+      "it": "Impatto Service Provider",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.useCase.items.0.description",
+      "en": "Deploy a dedicated customer portal with white-label Electros under your brand.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.useCase.items.0.title",
+      "en": "Launch Portal",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.useCase.items.1.description",
+      "en": "Set independent identity, operational control, and policy boundaries per tenant.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.useCase.items.1.title",
+      "en": "Configure Governance",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.useCase.items.2.description",
+      "en": "Federate upstream infrastructure through Atomosphere without building each integration.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.useCase.items.2.title",
+      "en": "Broker Providers",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.useCase.items.3.description",
+      "en": "Expand service classes and providers as your Metacloud offering grows.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.useCase.items.3.title",
+      "en": "Scale Portfolio",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.useCase.subtitle",
+      "en": "A structured approach with Elemento's Metacloud platform",
+      "it": "Un approccio strutturato con il Metacloud Elemento",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.service-providers.useCase.title",
+      "en": "Service Providers Journey",
+      "it": "Percorso Service Provider",
+      "fr": "",
+      "source": "CMS/solutions/service-providers.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.ctaFinal.primaryCTA.text",
+      "en": "Assess Your Sovereignty Posture",
+      "it": "Valuta il tuo stato di sovranità",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.ctaFinal.secondaryCTA.text",
+      "en": "Schedule a Demo",
+      "it": "Pianifica una demo",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.ctaFinal.subtitle",
+      "en": "Discover how Elemento can transform your infrastructure operating model.",
+      "it": "Scopri come Elemento può trasformare il tuo modello operativo infrastrutturale.",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.ctaFinal.title",
+      "en": "Ready for Sovereign Cloud Governance?",
+      "it": "Pronto per Governance Cloud sovrano?",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.faq.items.0.answer",
+      "en": "Yes. Electros defines policies at the workload level and enforces them across public Cloud, sovereign providers, and on-premises infrastructure via Atomosphere and Atomosquare.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.faq.items.0.question",
+      "en": "Can sovereignty policies apply across different cloud providers?",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.faq.items.1.answer",
+      "en": "You set residency rules per workload. Placement and migration decisions respect those rules automatically across connected providers.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.faq.items.1.question",
+      "en": "How is data residency controlled?",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.faq.items.2.answer",
+      "en": "Elemento provides governance, audit visibility, and policy enforcement across infrastructure. It complements GRC platforms by operating at the workload and provider layer.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.faq.items.2.question",
+      "en": "Does this replace our compliance tooling?",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.faq.items.3.answer",
+      "en": "Electros centralises operational visibility and audit trails across all connected endpoints, regardless of underlying provider or hypervisor.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.faq.items.3.question",
+      "en": "Can we audit access across hybrid environments?",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.faq.subtitle",
+      "en": "Common questions about Elemento's sovereign cloud governance solution",
+      "it": "Domande frequenti sulla soluzione Elemento",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.faq.title",
+      "en": "Sovereign Cloud Governance FAQ",
+      "it": "FAQ Governance Cloud sovrano",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.hero.primaryCTA.text",
+      "en": "Assess Your Sovereignty Posture",
+      "it": "Valuta il tuo stato di sovranità",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.hero.secondaryCTA.text",
+      "en": "Read Sovereignty Guide",
+      "it": "Guida alla sovranità",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.hero.subtitle",
+      "en": "Apply jurisdiction, residency, and audit policies across clouds, hypervisors, and sovereign providers from one control plane.",
+      "it": "Applica policy di giurisdizione, residenza e audit su Cloud, hypervisor e provider sovrani da un unico control plane.",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.hero.tagline",
+      "en": "Sovereign Governance",
+      "it": "Governance sovrana",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.hero.title",
+      "en": "Sovereignty as a Workload Policy",
+      "it": "Sovranità come policy di workload",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.painPoints.items.0.description",
+      "en": "Regulatory requirements differ by region, workload, and data classification across your estate.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.painPoints.items.0.title",
+      "en": "Jurisdiction Complexity",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.painPoints.items.1.description",
+      "en": "Data can drift across providers without per-workload residency enforcement.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.painPoints.items.1.title",
+      "en": "Residency Blind Spots",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.painPoints.items.2.description",
+      "en": "Fragmented tooling makes it hard to prove where workloads run and who accessed them.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.painPoints.items.2.title",
+      "en": "Audit Gaps",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.painPoints.items.3.description",
+      "en": "Separate governance models per cloud and hypervisor multiply compliance overhead.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.painPoints.items.3.title",
+      "en": "Policy Sprawl",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.painPoints.subtitle",
+      "en": "Common pain points that limit your sovereign cloud governance goals",
+      "it": "Punti critici che limitano la modernizzazione dell'infrastruttura",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.painPoints.title",
+      "en": "Sovereign Cloud Governance Challenges You Face",
+      "it": "Le sfide di Governance Cloud sovrano",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.solution.cta.text",
+      "en": "Assess Your Sovereignty Posture",
+      "it": "Valuta il tuo stato di sovranità",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.solution.description",
+      "en": "One governance model for jurisdiction, residency, and audit across every Cloud and hypervisor.",
+      "it": "Un modello di governance per giurisdizione, residenza e audit su ogni Cloud e hypervisor.",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.solution.items.0.description",
+      "en": "Organisation-wide control plane for sovereignty policies, audit visibility, and enforcement.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.solution.items.1.description",
+      "en": "Cross-provider orchestration with residency-aware placement across sovereign and public Cloud.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.solution.items.2.description",
+      "en": "Extend governance to VMware, OpenStack, Proxmox, and other hypervisor endpoints.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.solution.items.3.description",
+      "en": "Sovereign execution engine for workloads that must run on infrastructure you control.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.solution.title",
+      "en": "Sovereignty as Workload Policy",
+      "it": "Sovranità come policy di workload",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.stats.items.0.label",
+      "en": "Policy Scope",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.stats.items.1.label",
+      "en": "Provider Coverage",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.stats.items.2.label",
+      "en": "Audit Trail",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.stats.subtitle",
+      "en": "Real outcomes with the Metacloud platform",
+      "it": "Risultati concreti con la piattaforma Metacloud",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.stats.title",
+      "en": "Sovereign Cloud Governance Impact",
+      "it": "Impatto Governance Cloud sovrano",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.useCase.items.0.description",
+      "en": "Set jurisdiction, residency, and audit requirements as workload-level policies in Electros.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.useCase.items.0.title",
+      "en": "Define Policies",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.useCase.items.1.description",
+      "en": "Connect sovereign, public, and private providers through Atomosphere and Atomosquare.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.useCase.items.1.title",
+      "en": "Map Providers",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.useCase.items.2.description",
+      "en": "Apply policies across clouds and hypervisors with automated enforcement and visibility.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.useCase.items.2.title",
+      "en": "Enforce Continuously",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.useCase.items.3.description",
+      "en": "Maintain audit trails and compliance reporting from a single governance layer.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.useCase.items.3.title",
+      "en": "Audit & Report",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.useCase.subtitle",
+      "en": "A structured approach with Elemento's Metacloud platform",
+      "it": "Un approccio strutturato con il Metacloud Elemento",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.sovereign-cloud-governance.useCase.title",
+      "en": "Sovereign Cloud Governance Journey",
+      "it": "Percorso Governance Cloud sovrano",
+      "fr": "",
+      "source": "CMS/solutions/sovereign-cloud-governance.json",
+      "context": ""
+    },
+    {
       "id": "CMS.solutions.system-integrators.codeExample.cta.text",
       "en": "View Multi-Tenant Config",
       "it": "Visualizza configurazione multi-tenant",
@@ -5056,6 +7504,414 @@
       "it": "Processo di migrazione di VMware",
       "fr": "",
       "source": "CMS/solutions/vmware-alternative.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.ctaFinal.primaryCTA.text",
+      "en": "Run a VMware Exit Assessment",
+      "it": "Avvia una valutazione di uscita da VMware",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.ctaFinal.secondaryCTA.text",
+      "en": "Schedule a Demo",
+      "it": "Pianifica una demo",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.ctaFinal.subtitle",
+      "en": "Discover how Elemento can transform your infrastructure operating model.",
+      "it": "Scopri come Elemento può trasformare il tuo modello operativo infrastrutturale.",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.ctaFinal.title",
+      "en": "Ready for VMware Exit?",
+      "it": "Pronto per Uscita da VMware?",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.faq.items.0.answer",
+      "en": "No. Elemento is designed for side-by-side operation. Govern VMware and AtomOS together, then migrate workload by workload at your own pace.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.faq.items.0.question",
+      "en": "Do we need a forklift migration from VMware?",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.faq.items.1.answer",
+      "en": "Atomosquare connects VMware and other third-party hypervisors to Electros so you apply the same policies, monitoring, and access controls across all environments.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.faq.items.1.question",
+      "en": "How does Atomosquare help during VMware exit?",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.faq.items.2.answer",
+      "en": "You keep running VMware where needed while gradually shifting execution to AtomOS. No forced rip-and-replace timeline.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.faq.items.2.question",
+      "en": "What happens to existing VMware investments during transition?",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.faq.items.3.answer",
+      "en": "Electros provides an organisation-wide control plane that is not tied to a single hypervisor or cloud. You gain portability instead of trading one lock-in for another.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.faq.items.3.question",
+      "en": "How is this different from switching to another proprietary hypervisor?",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.faq.subtitle",
+      "en": "Common questions about Elemento's vmware exit solution",
+      "it": "Domande frequenti sulla soluzione Elemento",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.faq.title",
+      "en": "VMware Exit FAQ",
+      "it": "FAQ Uscita da VMware",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.hero.primaryCTA.text",
+      "en": "Run a VMware Exit Assessment",
+      "it": "Avvia una valutazione di uscita da VMware",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.hero.secondaryCTA.text",
+      "en": "Explore Platform",
+      "it": "Esplora la piattaforma",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.hero.subtitle",
+      "en": "Govern VMware and AtomOS side by side. Migrate workload by workload with no forklift, no downtime windows, and no new dependency cycle.",
+      "it": "Gestisci VMware e AtomOS fianco a fianco. Migra workload per workload senza forklift, senza finestre di downtime e senza un nuovo ciclo di dipendenza.",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.hero.tagline",
+      "en": "VMware Exit",
+      "it": "Uscita da VMware",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.hero.title",
+      "en": "Exit VMware Without Entering Another Lock-In",
+      "it": "Uscire da VMware senza un nuovo lock-in",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.painPoints.items.0.description",
+      "en": "Replacing VMware with another hypervisor addresses licensing but not the underlying dependency model.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.painPoints.items.0.title",
+      "en": "Hypervisor Swap Only",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.painPoints.items.1.description",
+      "en": "Big-bang migrations create downtime windows and operational risk across critical workloads.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.painPoints.items.1.title",
+      "en": "Forklift Migration Risk",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.painPoints.items.2.description",
+      "en": "Switching vendors without a governance layer simply restarts the dependency cycle elsewhere.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.painPoints.items.2.title",
+      "en": "New Lock-In Cycle",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.painPoints.items.3.description",
+      "en": "Running mixed hypervisors without a unified control plane multiplies operational overhead.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.painPoints.items.3.title",
+      "en": "Fragmented Control",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.painPoints.subtitle",
+      "en": "Common pain points that limit your vmware exit goals",
+      "it": "Punti critici che limitano la modernizzazione dell'infrastruttura",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.painPoints.title",
+      "en": "VMware Exit Challenges You Face",
+      "it": "Le sfide di Uscita da VMware",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.solution.cta.text",
+      "en": "Run a VMware Exit Assessment",
+      "it": "Avvia una valutazione di uscita da VMware",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.solution.description",
+      "en": "Govern mixed hypervisor estates and migrate incrementally without entering a new dependency cycle.",
+      "it": "Gestisci ambienti multi-hypervisor e migra in modo incrementale senza entrare in un nuovo ciclo di dipendenza.",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.solution.items.0.description",
+      "en": "Consistent control plane governing VMware, AtomOS, and third-party hypervisors from one console.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.solution.items.1.description",
+      "en": "Broker cloud and sovereign provider capacity without binding workloads to a single vendor.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.solution.items.2.description",
+      "en": "Operate legacy VMware, AtomOS, and third-party hypervisors under the same governance model.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.solution.items.3.description",
+      "en": "Native sovereign execution engine for workloads ready to leave VMware behind.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.solution.title",
+      "en": "Elemento's VMware Exit Path",
+      "it": "Il percorso di uscita da VMware di Elemento",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.stats.items.0.label",
+      "en": "Downtime Windows",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.stats.items.1.label",
+      "en": "Migration Model",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.stats.items.2.label",
+      "en": "Vendor Lock-In",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.stats.subtitle",
+      "en": "Real outcomes with the Metacloud platform",
+      "it": "Risultati concreti con la piattaforma Metacloud",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.stats.title",
+      "en": "VMware Exit Impact",
+      "it": "Impatto Uscita da VMware",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.useCase.items.0.description",
+      "en": "Inventory VMware estates and classify workloads by migration readiness and sovereignty requirements.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.useCase.items.0.title",
+      "en": "Assess",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.useCase.items.1.description",
+      "en": "Connect VMware and AtomOS endpoints under Electros with Atomosquare bridging legacy environments.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.useCase.items.1.title",
+      "en": "Govern Side by Side",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.useCase.items.2.description",
+      "en": "Move workloads one at a time with consistent policies, monitoring, and rollback paths.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.useCase.items.2.title",
+      "en": "Migrate Incrementally",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.useCase.items.3.description",
+      "en": "Retire VMware capacity as governance and operations fully shift to the Metacloud model.",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.useCase.items.3.title",
+      "en": "Decommission Safely",
+      "it": "",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.useCase.subtitle",
+      "en": "A structured approach with Elemento's Metacloud platform",
+      "it": "Un approccio strutturato con il Metacloud Elemento",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
+      "context": ""
+    },
+    {
+      "id": "CMS.solutions.vmware-exit.useCase.title",
+      "en": "VMware Exit Journey",
+      "it": "Percorso Uscita da VMware",
+      "fr": "",
+      "source": "CMS/solutions/vmware-exit.json",
       "context": ""
     },
     {

@@ -1,0 +1,414 @@
+{
+  "page": "deployment",
+  "count": 51,
+  "strings": [
+    {
+      "id": "body.deployment.h1.1",
+      "en": "Deploy the Metacloud Your Way",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "<h1>"
+    },
+    {
+      "id": "body.deployment.h2.1",
+      "en": "SaaS Metacloud",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.deployment.h2.2",
+      "en": "Self-Hosted Metacloud",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.deployment.h2.3",
+      "en": "Federated Metacloud",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.deployment.h2.4",
+      "en": "Choose Your Path",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.deployment.h2.5",
+      "en": "Plan a Sovereign Deployment",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.deployment.h3.1",
+      "en": "Centralised Platform",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.deployment.h3.2",
+      "en": "Customer-Hosted Platform",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.deployment.h3.3",
+      "en": "Federated Provider Deployment",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.deployment.h3.4",
+      "en": "Connect",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.deployment.h3.5",
+      "en": "Manage",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.deployment.h3.6",
+      "en": "Optimise",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.deployment.li.1",
+      "en": "Home",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.deployment.li.10",
+      "en": "Full operational control",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.deployment.li.11",
+      "en": "Data, governance and operations remain inside the organisational boundary",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.deployment.li.12",
+      "en": "Operational independence",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.deployment.li.13",
+      "en": "Shared interoperability",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.deployment.li.14",
+      "en": "No central authority",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.deployment.li.15",
+      "en": "Peer-to-peer federation",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.deployment.li.2",
+      "en": "Platform",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.deployment.li.3",
+      "en": "Deployment",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.deployment.li.4",
+      "en": "Fastest time to value",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.deployment.li.5",
+      "en": "No platform deployment required",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.deployment.li.6",
+      "en": "Elemento-operated control plane",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.deployment.li.7",
+      "en": "Infrastructure stays yours",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.deployment.li.8",
+      "en": "Maximum sovereignty",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.deployment.li.9",
+      "en": "Compliance by design",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.deployment.p.1",
+      "en": "Deployment Models",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.deployment.p.10",
+      "en": "Multiple providers participate in a common federation while preserving operational independence.",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.deployment.p.11",
+      "en": "Ideal for neoclouds, sovereign providers and service providers who need to broker third-party infrastructure under their own governance model.",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.deployment.p.12",
+      "en": "Organisations can enter at Stage 1 and progress at their own pace. There is no requirement to transform the estate upfront.",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.deployment.p.13",
+      "en": "Connect existing infrastructures, clouds and services without replacement.",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.deployment.p.14",
+      "en": "Introduce visibility, governance, policy enforcement and federation controls.",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.deployment.p.15",
+      "en": "Enable workload mobility, brokerage, sovereignty policies and intelligent placement.",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.deployment.p.2",
+      "en": "Choose SaaS for fastest time to value, self-hosted for maximum sovereignty, or federated deployment for providers and sovereign federations.",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.deployment.p.3",
+      "en": "For enterprises that want fast time to value.",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.deployment.p.4",
+      "en": "Elemento operates Electros. You retain ownership of infrastructure and workloads.",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.deployment.p.5",
+      "en": "A shared Elemento environment operated as a common governance layer. Ideal for organisations entering at Stage 1 — connect existing infrastructure without deploying a control plane.",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.deployment.p.6",
+      "en": "Portal, Electros, C4 and connectors run inside the customer boundary — maximum control over data, governance and operations.",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.deployment.p.7",
+      "en": "For regulated organisations.",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.deployment.p.8",
+      "en": "Portal, Electros, C4 and connectors run inside the customer boundary.",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.deployment.p.9",
+      "en": "For providers and sovereign federations.",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.deployment.ui.1",
+      "en": "Choose SaaS for fastest time to value, self-hosted for maximum sovereignty, or federated deployment for providers and sovereign federations.",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "class"
+    },
+    {
+      "id": "body.deployment.ui.2",
+      "en": "Plan a Sovereign Deployment",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "class"
+    },
+    {
+      "id": "body.deployment.ui.3",
+      "en": "Platform Overview",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "class"
+    },
+    {
+      "id": "body.deployment.ui.4",
+      "en": "View Pricing",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "class"
+    },
+    {
+      "id": "body.deployment.ui.5",
+      "en": "Service Providers",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "class"
+    },
+    {
+      "id": "body.deployment.ui.6",
+      "en": "Plan a Sovereign Deployment",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "class"
+    },
+    {
+      "id": "body.deployment.ui.7",
+      "en": "Contact Us",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "class"
+    },
+    {
+      "id": "meta.deployment.description",
+      "en": "Deploy the Elemento Metacloud as SaaS, self-hosted within your boundary, or as a federated provider model — SaaS, self-hosted and federated deployment options.",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.deployment.title",
+      "en": "Elemento | Deployment | Deploy the Metacloud Your Way",
+      "it": "",
+      "fr": "",
+      "source": "deployment.html",
+      "context": "meta title"
+    }
+  ]
+}

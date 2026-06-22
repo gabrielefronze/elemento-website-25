@@ -3,10 +3,12 @@ import MigratedPage from '../../../components/MigratedPage.astro';
 import { pagesByGroup } from '../../../lib/manifest';
 
 export function getStaticPaths() {
-  return pagesByGroup('solutions', 'it').map((entry) => ({
-    params: { slug: entry.slug },
-    props: { entry },
-  }));
+  return pagesByGroup('solutions', 'it')
+    .filter((entry) => entry.slug !== 'index')
+    .map((entry) => ({
+      params: { slug: entry.slug },
+      props: { entry },
+    }));
 }
 
 const { entry } = Astro.props;

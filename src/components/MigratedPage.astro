@@ -49,7 +49,7 @@ bodyHtml = prefixBodyAssets(bodyHtml, assetBase);
 const scripts =
   entry.extraScripts.length > 0 ? entry.extraScripts : extractLegacyScripts(localeLegacyPath);
 const isSolution = entry.type === 'solution' && entry.group === 'solutions';
-const solutionSlug = isSolution && entry.slug !== 'index' ? entry.slug : null;
+const solutionSlug = isSolution ? entry.slug : null;
 ---
 
 <BaseLayout

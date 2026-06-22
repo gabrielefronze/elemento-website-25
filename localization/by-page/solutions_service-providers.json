@@ -1,0 +1,22 @@
+{
+  "page": "solutions_service-providers",
+  "count": 2,
+  "strings": [
+    {
+      "id": "meta.solutions_service-providers.description",
+      "en": "Use Elemento as your Metacloud control plane to broker third-party infrastructure and services under your own governance model.",
+      "it": "Usa Elemento come control plane Metacloud per intermediare infrastruttura e servizi di terze parti sotto il tuo modello di governance.",
+      "fr": "Utilisez Elemento comme plan de contrôle Metacloud pour intermédier infrastructure et services tiers sous votre modèle de gouvernance.",
+      "source": "solutions/service-providers.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.solutions_service-providers.title",
+      "en": "Expand Your Cloud Portfolio Without Building Every Service | Elemento",
+      "it": "Espandi il portfolio Cloud senza costruire ogni servizio | Elemento",
+      "fr": "Élargissez votre portefeuille Cloud sans tout construire | Elemento",
+      "source": "solutions/service-providers.html",
+      "context": "meta title"
+    }
+  ]
+}

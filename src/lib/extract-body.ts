@@ -19,6 +19,18 @@ function readHtml(relativeHtmlPath: string): string {
 }
 
 /**
+ * Index of the opening tag for an element identified by id="…".
+ */
+function findElementStart(html: string, id: string): number {
+  const marker = `id="${id}"`;
+  const markerIdx = html.indexOf(marker);
+  if (markerIdx === -1) return -1;
+  let start = markerIdx;
+  while (start > 0 && html[start] !== '<') start--;
+  return start;
+}
+
+/**
  * Extract main page markup between navbar and footer placeholders from legacy HTML.
  */
 export function extractLegacyBody(relativeHtmlPath: string): string {
@@ -27,15 +39,15 @@ export function extractLegacyBody(relativeHtmlPath: string): string {
   const navMarker = 'id="navbar-placeholder"';
   const footerMarker = 'id="footer-placeholder"';
   const navIdx = html.indexOf(navMarker);
-  const footerIdx = html.indexOf(footerMarker);
+  const footerStart = findElementStart(html, 'footer-placeholder');
 
-  if (navIdx === -1 || footerIdx === -1) {
+  if (navIdx === -1 || footerStart === -1) {
     const bodyMatch = html.match(/<body[^>]*>([\s\S]*)<\/body>/i);
     return bodyMatch?.[1]?.trim() ?? html;
   }
 
   const afterNav = html.indexOf('>', navIdx) + 1;
-  return html.slice(afterNav, footerIdx).trim();
+  return html.slice(afterNav, footerStart).trim();
 }
 
 /** Scripts after footer placeholder (page-specific), excluding layout defaults. */

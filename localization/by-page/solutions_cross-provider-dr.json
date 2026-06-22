@@ -1,0 +1,22 @@
+{
+  "page": "solutions_cross-provider-dr",
+  "count": 2,
+  "strings": [
+    {
+      "id": "meta.solutions_cross-provider-dr.description",
+      "en": "Use one control plane to coordinate primary, DR, and fallback environments across providers.",
+      "it": "Usa un unico control plane per coordinare ambienti primari, DR e fallback tra provider.",
+      "fr": "Utilisez un plan de contrôle unique pour coordonner environnements primaires, DR et secours entre fournisseurs.",
+      "source": "solutions/cross-provider-dr.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.solutions_cross-provider-dr.title",
+      "en": "Disaster Recovery Without Provider Dependency | Elemento",
+      "it": "Disaster recovery senza dipendenza dal provider | Elemento",
+      "fr": "Reprise après sinistre sans dépendance fournisseur | Elemento",
+      "source": "solutions/cross-provider-dr.html",
+      "context": "meta title"
+    }
+  ]
+}

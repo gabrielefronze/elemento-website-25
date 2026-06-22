@@ -1,10 +1,10 @@
 {
   "page": "solutions_index",
-  "count": 30,
+  "count": 32,
   "strings": [
     {
       "id": "body.solutions_index.h2.1",
-      "en": "Explore Our Solutions",
+      "en": "Metacloud Solutions",
       "it": "",
       "fr": "",
       "source": "solutions/index.html",
@@ -12,7 +12,7 @@
     },
     {
       "id": "body.solutions_index.h2.2",
-      "en": "Powered by Elemento's Unified Platform",
+      "en": "Powered by Elemento's Metacloud Stack",
       "it": "",
       "fr": "",
       "source": "solutions/index.html",
@@ -28,7 +28,7 @@
     },
     {
       "id": "body.solutions_index.h3.1",
-      "en": "AI/Data Science",
+      "en": "Exit VMware Without Another Lock-In",
       "it": "",
       "fr": "",
       "source": "solutions/index.html",
@@ -36,62 +36,14 @@
     },
     {
       "id": "body.solutions_index.h3.10",
-      "en": "Atomosphere",
+      "en": "Atomosquare",
       "it": "",
       "fr": "",
       "source": "solutions/index.html",
       "context": "<h3>"
     },
     {
-      "id": "body.solutions_index.h3.2",
-      "en": "DevOps & CI/CD",
-      "it": "",
-      "fr": "",
-      "source": "solutions/index.html",
-      "context": "<h3>"
-    },
-    {
-      "id": "body.solutions_index.h3.3",
-      "en": "Manufacturing & Industrial",
-      "it": "",
-      "fr": "",
-      "source": "solutions/index.html",
-      "context": "<h3>"
-    },
-    {
-      "id": "body.solutions_index.h3.4",
-      "en": "Public Sector",
-      "it": "",
-      "fr": "",
-      "source": "solutions/index.html",
-      "context": "<h3>"
-    },
-    {
-      "id": "body.solutions_index.h3.5",
-      "en": "Regulated Industries",
-      "it": "",
-      "fr": "",
-      "source": "solutions/index.html",
-      "context": "<h3>"
-    },
-    {
-      "id": "body.solutions_index.h3.6",
-      "en": "System Integrators",
-      "it": "",
-      "fr": "",
-      "source": "solutions/index.html",
-      "context": "<h3>"
-    },
-    {
-      "id": "body.solutions_index.h3.7",
-      "en": "VMware Alternative",
-      "it": "",
-      "fr": "",
-      "source": "solutions/index.html",
-      "context": "<h3>"
-    },
-    {
-      "id": "body.solutions_index.h3.8",
+      "id": "body.solutions_index.h3.11",
       "en": "AtomOS",
       "it": "",
       "fr": "",
@@ -99,7 +51,55 @@
       "context": "<h3>"
     },
     {
-      "id": "body.solutions_index.h3.9",
+      "id": "body.solutions_index.h3.2",
+      "en": "Sovereignty as a Workload Policy",
+      "it": "",
+      "fr": "",
+      "source": "solutions/index.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_index.h3.3",
+      "en": "One Operating Model for Hybrid Infrastructure",
+      "it": "",
+      "fr": "",
+      "source": "solutions/index.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_index.h3.4",
+      "en": "Govern AI Infrastructure Across Providers",
+      "it": "",
+      "fr": "",
+      "source": "solutions/index.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_index.h3.5",
+      "en": "Expand Your Cloud Portfolio",
+      "it": "",
+      "fr": "",
+      "source": "solutions/index.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_index.h3.6",
+      "en": "Disaster Recovery Without Provider Dependency",
+      "it": "",
+      "fr": "",
+      "source": "solutions/index.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_index.h3.7",
+      "en": "Move Workloads When Sovereignty Changes",
+      "it": "",
+      "fr": "",
+      "source": "solutions/index.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.solutions_index.h3.8",
       "en": "Electros",
       "it": "",
       "fr": "",
@@ -107,8 +107,16 @@
       "context": "<h3>"
     },
     {
+      "id": "body.solutions_index.h3.9",
+      "en": "Atomosphere",
+      "it": "",
+      "fr": "",
+      "source": "solutions/index.html",
+      "context": "<h3>"
+    },
+    {
       "id": "body.solutions_index.p.1",
-      "en": "Tailored solutions for different industries, roles, and business scenarios",
+      "en": "Executive pain points solved with one operating model — Electros, Atomosphere, Atomosquare, and AtomOS",
       "it": "",
       "fr": "",
       "source": "solutions/index.html",
@@ -116,7 +124,7 @@
     },
     {
       "id": "body.solutions_index.p.10",
-      "en": "The operating system for your cloud infrastructure. Unified management across all environments.",
+      "en": "Organisation-wide Metacloud control plane for governance, policy, and operations.",
       "it": "",
       "fr": "",
       "source": "solutions/index.html",
@@ -124,7 +132,7 @@
     },
     {
       "id": "body.solutions_index.p.11",
-      "en": "High-performance computing and GPU management. Perfect for AI/ML and scientific workloads.",
+      "en": "Cross-provider Cloud federation and service-class orchestration.",
       "it": "",
       "fr": "",
       "source": "solutions/index.html",
@@ -132,7 +140,7 @@
     },
     {
       "id": "body.solutions_index.p.12",
-      "en": "Multi-cloud orchestration and management. Seamlessly connect and manage across providers.",
+      "en": "Bridge VMware, OpenStack, Proxmox, and other hypervisors into one governance model.",
       "it": "",
       "fr": "",
       "source": "solutions/index.html",
@@ -140,6 +148,14 @@
     },
     {
       "id": "body.solutions_index.p.13",
+      "en": "Sovereign execution engine for on-premises and edge workloads.",
+      "it": "",
+      "fr": "",
+      "source": "solutions/index.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.solutions_index.p.14",
       "en": "Join thousands of organizations already using Elemento to build more efficient, secure, and scalable cloud environments.",
       "it": "",
       "fr": "",
@@ -148,7 +164,7 @@
     },
     {
       "id": "body.solutions_index.p.2",
-      "en": "Train, deploy, and scale AI workloads seamlessly across clouds and on-prem nodes. GPU cluster management and multi-cloud AI environments.",
+      "en": "Govern VMware and AtomOS side by side. Migrate workload by workload with no forklift, no downtime windows, and no new dependency cycle.",
       "it": "",
       "fr": "",
       "source": "solutions/index.html",
@@ -156,7 +172,7 @@
     },
     {
       "id": "body.solutions_index.p.3",
-      "en": "Build cloud-agnostic CI/CD pipelines. Deploy faster, scale efficiently, and maintain consistency across all environments.",
+      "en": "Apply jurisdiction, residency, and audit policies across clouds, hypervisors, and sovereign providers from one control plane.",
       "it": "",
       "fr": "",
       "source": "solutions/index.html",
@@ -164,7 +180,7 @@
     },
     {
       "id": "body.solutions_index.p.4",
-      "en": "Integrate factory data from PLCs to ERP in one secure, vendor-free cloud ecosystem. Transform legacy MES/ERP systems with modern analytics.",
+      "en": "Manage public Cloud, private infrastructure, hypervisors, and edge environments without separate toolchains.",
       "it": "",
       "fr": "",
       "source": "solutions/index.html",
@@ -172,7 +188,7 @@
     },
     {
       "id": "body.solutions_index.p.5",
-      "en": "Empowering public institutions with sovereign, interoperable, and auditable cloud infrastructure for government and smart city initiatives.",
+      "en": "Provision, monitor, and govern GPU resources across local, private, and federated infrastructure using the same operational model as conventional infrastructure.",
       "it": "",
       "fr": "",
       "source": "solutions/index.html",
@@ -180,7 +196,7 @@
     },
     {
       "id": "body.solutions_index.p.6",
-      "en": "Run sensitive workloads across private and public clouds with full data governance. Enterprise-grade security with built-in compliance.",
+      "en": "Use Elemento as your Metacloud control plane to broker third-party infrastructure and services under your own governance model — white-label ready.",
       "it": "",
       "fr": "",
       "source": "solutions/index.html",
@@ -188,7 +204,7 @@
     },
     {
       "id": "body.solutions_index.p.7",
-      "en": "Empower system integrators to deliver sovereign, elastic cloud environments under their own brand. Build recurring-revenue models around infrastructure.",
+      "en": "Use one control plane to coordinate primary, DR, and fallback environments across providers with unified RPO/RTO governance.",
       "it": "",
       "fr": "",
       "source": "solutions/index.html",
@@ -196,7 +212,7 @@
     },
     {
       "id": "body.solutions_index.p.8",
-      "en": "Replace VMware with modern virtualization platform. Get better performance, lower costs, and cloud-native architecture with our unified infrastructure solution.",
+      "en": "Make repatriation a policy decision instead of a re-engineering project. Move workloads between US and EU providers or back on-premises.",
       "it": "",
       "fr": "",
       "source": "solutions/index.html",
@@ -204,7 +220,7 @@
     },
     {
       "id": "body.solutions_index.p.9",
-      "en": "All solutions are built on our core products: AtomOS, Electros, and Atomosphere",
+      "en": "Electros governs. Atomosphere federates. Atomosquare bridges. AtomOS executes.",
       "it": "",
       "fr": "",
       "source": "solutions/index.html",
@@ -228,7 +244,7 @@
     },
     {
       "id": "meta.solutions_index.description",
-      "en": "Discover how Elemento's unified cloud platform serves different industries and use cases. From AI/ML workloads to regulated environments, find your perfect solution.",
+      "en": "Executive solutions for VMware exit, sovereign cloud governance, hybrid operations, AI infrastructure, service providers, cross-provider DR, and data repatriation.",
       "it": "",
       "fr": "",
       "source": "solutions/index.html",
@@ -236,7 +252,7 @@
     },
     {
       "id": "meta.solutions_index.title",
-      "en": "Solutions Hub | Elemento Cloud Platform",
+      "en": "Metacloud Solutions | Elemento",
       "it": "",
       "fr": "",
       "source": "solutions/index.html",

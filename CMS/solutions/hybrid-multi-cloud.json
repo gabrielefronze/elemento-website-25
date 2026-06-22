@@ -1,0 +1,479 @@
+{
+  "en": {
+    "hero": {
+      "tagline": "Hybrid Operations",
+      "title": "One Operating Model for Hybrid Infrastructure",
+      "subtitle": "Manage public Cloud, private infrastructure, hypervisors, and edge environments without separate toolchains.",
+      "primaryCTA": {
+        "text": "Map Your Infrastructure Estate",
+        "link": "../contact.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "View Platform",
+        "link": "../platform.html",
+        "icon": "fas fa-layer-group"
+      }
+    },
+    "painPoints": {
+      "title": "Hybrid & Multi-Cloud Challenges You Face",
+      "subtitle": "Why separate consoles, cost views, and automation models multiply hybrid operations overhead",
+      "items": [
+        {
+          "icon": "fas fa-toolbox",
+          "title": "Separate Toolchains",
+          "description": "Each environment brings its own console, APIs, and operational practices."
+        },
+        {
+          "icon": "fas fa-chart-pie",
+          "title": "Cost Opacity",
+          "description": "Spend and utilisation are scattered across providers with no unified view."
+        },
+        {
+          "icon": "fas fa-random",
+          "title": "Orchestration Gaps",
+          "description": "Cross-provider automation requires brittle custom integrations."
+        },
+        {
+          "icon": "fas fa-network-wired",
+          "title": "Edge Fragmentation",
+          "description": "Edge, on-premises, and Cloud resources operate as disconnected silos."
+        }
+      ]
+    },
+    "solution": {
+      "title": "One Operating Model",
+      "description": "Unified dashboard, orchestration, and governance for hybrid and multi-Cloud infrastructure.",
+      "items": [
+        {
+          "logo": "../assets/logos/Electros.svg",
+          "name": "Electros",
+          "description": "Unified dashboard for governance, cost visibility, automation, and remote access."
+        },
+        {
+          "logo": "../assets/logos/Atomosphere.svg",
+          "name": "Atomosphere",
+          "description": "Cross-provider orchestration and resource abstraction across public and sovereign Cloud."
+        },
+        {
+          "logo": "../assets/logos/Atomosquare.svg",
+          "name": "Atomosquare",
+          "description": "Integrate private hypervisors and legacy platforms into the same operating model."
+        },
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Consistent execution layer for on-premises and edge workloads."
+        }
+      ],
+      "cta": {
+        "text": "Map Your Infrastructure Estate",
+        "link": "../contact.html"
+      }
+    },
+    "useCase": {
+      "title": "Hybrid & Multi-Cloud Journey",
+      "subtitle": "A structured approach with Elemento's Metacloud platform",
+      "items": [
+        {
+          "number": "1",
+          "title": "Connect Estates",
+          "description": "Onboard public Cloud, private infrastructure, hypervisors, and edge into Electros."
+        },
+        {
+          "number": "2",
+          "title": "Abstract Resources",
+          "description": "Use Atomosphere to normalise provider APIs behind a single operational model."
+        },
+        {
+          "number": "3",
+          "title": "Automate Operations",
+          "description": "Deploy, scale, and govern workloads with consistent automation across environments."
+        },
+        {
+          "number": "4",
+          "title": "Optimise Continuously",
+          "description": "Track cost, utilisation, and governance from one dashboard with remote access built in."
+        }
+      ]
+    },
+    "stats": {
+      "title": "Hybrid & Multi-Cloud Impact",
+      "subtitle": "Real outcomes with the Metacloud platform",
+      "items": [
+        {
+          "label": "Consoles Replaced",
+          "value": "Many → One",
+          "icon": "fas fa-desktop",
+          "color": "green"
+        },
+        {
+          "label": "Environments",
+          "value": "Unified",
+          "icon": "fas fa-sitemap",
+          "color": "orange"
+        },
+        {
+          "label": "Automation",
+          "value": "Cross-Provider",
+          "icon": "fas fa-robot",
+          "color": "blue"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Hybrid & Multi-Cloud FAQ",
+      "subtitle": "Frequently asked questions about hybrid and multi-cloud operations with the Metacloud",
+      "items": [
+        {
+          "question": "Do we still need provider-native consoles?",
+          "answer": "For deep provider-specific tasks, yes. But day-to-day operations—deployment, monitoring, governance, and cost visibility—happen in Electros."
+        },
+        {
+          "question": "Which providers are supported?",
+          "answer": "Atomosphere connects supported public and sovereign Cloud service classes. Atomosquare extends coverage to private hypervisors and on-premises infrastructure."
+        },
+        {
+          "question": "How does remote access work?",
+          "answer": "Electros provides secure remote access to infrastructure across environments without VPN sprawl or per-provider jump hosts."
+        },
+        {
+          "question": "Can we automate across Cloud and on-premises?",
+          "answer": "Yes. The same automation and policy model applies whether workloads run in public Cloud, private data centres, or at the edge."
+        }
+      ]
+    },
+    "ctaFinal": {
+      "title": "Ready for Hybrid & Multi-Cloud?",
+      "subtitle": "Replace tool sprawl with one operating model for public Cloud, private infrastructure, and edge.",
+      "primaryCTA": {
+        "text": "Map Your Infrastructure Estate",
+        "link": "../contact.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Schedule a Demo",
+        "link": "../contact.html",
+        "icon": "fas fa-calendar"
+      }
+    }
+  },
+  "it": {
+    "hero": {
+      "tagline": "Operazioni ibride",
+      "title": "Un modello operativo per l'infrastruttura ibrida",
+      "subtitle": "Gestisci Cloud pubblico, infrastruttura privata, hypervisor e edge senza toolchain separate.",
+      "primaryCTA": {
+        "text": "Mappa il tuo patrimonio infrastrutturale",
+        "link": "../contact.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Vedi la piattaforma",
+        "link": "../platform.html",
+        "icon": "fas fa-layer-group"
+      }
+    },
+    "painPoints": {
+      "title": "Le sfide di Ibrido e multi-Cloud",
+      "subtitle": "Perché console, viste costi e modelli di automazione separati moltiplicano il carico operativo ibrido",
+      "items": [
+        {
+          "icon": "fas fa-toolbox",
+          "title": "Toolchain separate",
+          "description": "Ogni ambiente porta la propria console, API e pratiche operative."
+        },
+        {
+          "icon": "fas fa-chart-pie",
+          "title": "Opacità dei costi",
+          "description": "Spesa e utilizzo sono dispersi tra provider senza una vista unificata."
+        },
+        {
+          "icon": "fas fa-random",
+          "title": "Lacune di orchestrazione",
+          "description": "L'automazione cross-provider richiede integrazioni custom fragili."
+        },
+        {
+          "icon": "fas fa-network-wired",
+          "title": "Frammentazione edge",
+          "description": "Risorse edge, on-premises e Cloud operano come silos disconnessi."
+        }
+      ]
+    },
+    "solution": {
+      "title": "Un modello operativo",
+      "description": "Dashboard, orchestrazione e governance unificate per infrastruttura ibrida e multi-Cloud.",
+      "items": [
+        {
+          "logo": "../assets/logos/Electros.svg",
+          "name": "Electros",
+          "description": "Dashboard unificata per governance, visibilità dei costi, automazione e accesso remoto."
+        },
+        {
+          "logo": "../assets/logos/Atomosphere.svg",
+          "name": "Atomosphere",
+          "description": "Orchestrazione cross-provider e astrazione delle risorse su Cloud pubblici e sovrani."
+        },
+        {
+          "logo": "../assets/logos/Atomosquare.svg",
+          "name": "Atomosquare",
+          "description": "Integra hypervisor privati e piattaforme legacy nello stesso modello operativo."
+        },
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Layer di esecuzione coerente per workload on-premises e edge."
+        }
+      ],
+      "cta": {
+        "text": "Mappa il tuo patrimonio infrastrutturale",
+        "link": "../contact.html"
+      }
+    },
+    "useCase": {
+      "title": "Percorso Ibrido e multi-Cloud",
+      "subtitle": "Un approccio strutturato con il Metacloud Elemento",
+      "items": [
+        {
+          "number": "1",
+          "title": "Collega gli ambienti",
+          "description": "Onboarda Cloud pubblico, infrastruttura privata, hypervisor e edge in Electros."
+        },
+        {
+          "number": "2",
+          "title": "Astrai le risorse",
+          "description": "Usa Atomosphere per normalizzare le API dei provider dietro un unico modello operativo."
+        },
+        {
+          "number": "3",
+          "title": "Automatizza le operazioni",
+          "description": "Distribuisci, scala e governa i workload con automazione coerente tra ambienti."
+        },
+        {
+          "number": "4",
+          "title": "Ottimizza in continuo",
+          "description": "Monitora costi, utilizzo e governance da un'unica dashboard con accesso remoto integrato."
+        }
+      ]
+    },
+    "stats": {
+      "title": "Impatto Ibrido e multi-Cloud",
+      "subtitle": "Risultati concreti con la piattaforma Metacloud",
+      "items": [
+        {
+          "label": "Console sostituite",
+          "value": "Molte → Una",
+          "icon": "fas fa-desktop",
+          "color": "green"
+        },
+        {
+          "label": "Ambienti",
+          "value": "Unificati",
+          "icon": "fas fa-sitemap",
+          "color": "orange"
+        },
+        {
+          "label": "Automazione",
+          "value": "Cross-provider",
+          "icon": "fas fa-robot",
+          "color": "blue"
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ Ibrido e multi-Cloud",
+      "subtitle": "Domande frequenti sulle operazioni ibride e multi-Cloud con il Metacloud",
+      "items": [
+        {
+          "question": "Servono ancora le console native dei provider?",
+          "answer": "Per task specifici del provider, sì. Ma le operazioni quotidiane avvengono in Electros."
+        },
+        {
+          "question": "Quali provider sono supportati?",
+          "answer": "Atomosphere collega le classi di servizio Cloud supportate. Atomosquare estende la copertura agli hypervisor privati."
+        },
+        {
+          "question": "Come funziona l'accesso remoto?",
+          "answer": "Electros fornisce accesso remoto sicuro senza proliferazione di VPN o jump host per provider."
+        },
+        {
+          "question": "Possiamo automatizzare tra Cloud e on-premises?",
+          "answer": "Sì. Lo stesso modello di automazione e policy si applica in Cloud pubblico, data center privati o edge."
+        }
+      ]
+    },
+    "ctaFinal": {
+      "title": "Pronto per Ibrido e multi-Cloud?",
+      "subtitle": "Sostituisci la proliferazione di strumenti con un modello operativo unico per Cloud, privato ed edge.",
+      "primaryCTA": {
+        "text": "Mappa il tuo patrimonio infrastrutturale",
+        "link": "../contact.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Pianifica una demo",
+        "link": "../contact.html",
+        "icon": "fas fa-calendar"
+      }
+    }
+  },
+  "fr": {
+    "hero": {
+      "tagline": "Opérations hybrides",
+      "title": "Un modèle opérationnel pour l'infrastructure hybride",
+      "subtitle": "Gérez Cloud public, infrastructure privée, hyperviseurs et edge sans chaînes d'outils séparées.",
+      "primaryCTA": {
+        "text": "Cartographier votre patrimoine infrastructure",
+        "link": "../contact.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Voir la plateforme",
+        "link": "../platform.html",
+        "icon": "fas fa-layer-group"
+      }
+    },
+    "painPoints": {
+      "title": "Les défis Hybride et multi-Cloud",
+      "subtitle": "Pourquoi consoles, vues de coûts et modèles d'automatisation séparés multiplient la charge opérationnelle hybride",
+      "items": [
+        {
+          "icon": "fas fa-toolbox",
+          "title": "Chaînes d'outils séparées",
+          "description": "Chaque environnement apporte sa console, ses API et ses pratiques opérationnelles."
+        },
+        {
+          "icon": "fas fa-chart-pie",
+          "title": "Opacité des coûts",
+          "description": "Dépenses et utilisation sont dispersées entre fournisseurs sans vue unifiée."
+        },
+        {
+          "icon": "fas fa-random",
+          "title": "Lacunes d'orchestration",
+          "description": "L'automatisation cross-fournisseur nécessite des intégrations fragiles."
+        },
+        {
+          "icon": "fas fa-network-wired",
+          "title": "Fragmentation edge",
+          "description": "Ressources edge, on-premises et Cloud opèrent en silos déconnectés."
+        }
+      ]
+    },
+    "solution": {
+      "title": "Un modèle opérationnel",
+      "description": "Tableau de bord, orchestration et gouvernance unifiés pour infrastructure hybride et multi-Cloud.",
+      "items": [
+        {
+          "logo": "../assets/logos/Electros.svg",
+          "name": "Electros",
+          "description": "Tableau de bord unifié pour gouvernance, visibilité des coûts, automatisation et accès distant."
+        },
+        {
+          "logo": "../assets/logos/Atomosphere.svg",
+          "name": "Atomosphere",
+          "description": "Orchestration cross-fournisseur et abstraction des ressources sur Cloud publics et souverains."
+        },
+        {
+          "logo": "../assets/logos/Atomosquare.svg",
+          "name": "Atomosquare",
+          "description": "Intégrez hyperviseurs privés et plateformes existantes dans le même modèle opérationnel."
+        },
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Couche d'exécution cohérente pour charges on-premises et edge."
+        }
+      ],
+      "cta": {
+        "text": "Cartographier votre patrimoine infrastructure",
+        "link": "../contact.html"
+      }
+    },
+    "useCase": {
+      "title": "Parcours Hybride et multi-Cloud",
+      "subtitle": "Une approche structurée avec le Metacloud Elemento",
+      "items": [
+        {
+          "number": "1",
+          "title": "Connecter les environnements",
+          "description": "Intégrez Cloud public, infrastructure privée, hyperviseurs et edge dans Electros."
+        },
+        {
+          "number": "2",
+          "title": "Abstraire les ressources",
+          "description": "Utilisez Atomosphere pour normaliser les API fournisseurs derrière un modèle opérationnel unique."
+        },
+        {
+          "number": "3",
+          "title": "Automatiser les opérations",
+          "description": "Déployez, scalez et gouvernez les charges avec une automatisation cohérente entre environnements."
+        },
+        {
+          "number": "4",
+          "title": "Optimiser en continu",
+          "description": "Suivez coûts, utilisation et gouvernance depuis un tableau de bord unique avec accès distant intégré."
+        }
+      ]
+    },
+    "stats": {
+      "title": "Impact Hybride et multi-Cloud",
+      "subtitle": "Résultats concrets avec la plateforme Metacloud",
+      "items": [
+        {
+          "label": "Consoles remplacées",
+          "value": "Plusieurs → Une",
+          "icon": "fas fa-desktop",
+          "color": "green"
+        },
+        {
+          "label": "Environnements",
+          "value": "Unifiés",
+          "icon": "fas fa-sitemap",
+          "color": "orange"
+        },
+        {
+          "label": "Automatisation",
+          "value": "Cross-fournisseur",
+          "icon": "fas fa-robot",
+          "color": "blue"
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ Hybride et multi-Cloud",
+      "subtitle": "Questions fréquentes sur les opérations hybrides et multi-Cloud avec le Metacloud",
+      "items": [
+        {
+          "question": "Faut-il encore les consoles natives des fournisseurs ?",
+          "answer": "Pour les tâches spécifiques au fournisseur, oui. Mais les opérations quotidiennes se font dans Electros."
+        },
+        {
+          "question": "Quels fournisseurs sont pris en charge ?",
+          "answer": "Atomosphere connecte les classes de service Cloud prises en charge. Atomosquare étend la couverture aux hyperviseurs privés."
+        },
+        {
+          "question": "Comment fonctionne l'accès distant ?",
+          "answer": "Electros fournit un accès distant sécurisé sans prolifération de VPN ou bastions par fournisseur."
+        },
+        {
+          "question": "Peut-on automatiser entre Cloud et on-premises ?",
+          "answer": "Oui. Le même modèle d'automatisation et de politiques s'applique en Cloud public, data centers privés ou edge."
+        }
+      ]
+    },
+    "ctaFinal": {
+      "title": "Prêt pour Hybride et multi-Cloud ?",
+      "subtitle": "Remplacez la prolifération d'outils par un modèle opérationnel unique pour Cloud public, privé et edge.",
+      "primaryCTA": {
+        "text": "Cartographier votre patrimoine infrastructure",
+        "link": "../contact.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Planifier une démo",
+        "link": "../contact.html",
+        "icon": "fas fa-calendar"
+      }
+    }
+  }
+}

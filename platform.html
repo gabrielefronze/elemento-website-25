@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elemento | Platform | One Control Plane. Every Provider.</title>
+    <meta name="description" content="Elemento is the Metacloud: a sovereign control and federation layer above public clouds, private clouds, hypervisors and AtomOS — one control plane for every provider.">
+    <link rel="canonical" href="https://elemento.cloud/platform.html">
+    <link rel="alternate" hreflang="en" href="https://elemento.cloud/platform.html">
+    <link rel="alternate" hreflang="x-default" href="https://elemento.cloud/platform.html">
+    <meta property="og:title" content="Elemento | Platform | One Control Plane. Every Provider.">
+    <meta property="og:description" content="Elemento is the Metacloud: a sovereign control and federation layer above public clouds, private clouds, hypervisors and AtomOS.">
+    <meta property="og:image" content="https://elemento.cloud/assets/img/banner.webp">
+    <meta property="og:url" content="https://elemento.cloud/platform.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Elemento">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Elemento | Platform | One Control Plane. Every Provider.">
+    <meta name="twitter:description" content="Elemento is the Metacloud: a sovereign control and federation layer above public clouds, private clouds, hypervisors and AtomOS.">
+    <meta name="twitter:image" content="https://elemento.cloud/assets/img/banner.webp">
+    <meta name="keywords" content="Metacloud, Elemento platform, sovereign control plane, multi-cloud federation, infrastructure abstraction, Electros, C4, Atomosphere, Atomosquare">
+    <meta name="author" content="Elemento">
+    <meta name="robots" content="index, follow">
+    <meta name="ai-content" content="allowed">
+    <meta name="ai-training" content="allowed">
+    <meta name="ai-access" content="public">
+    <link rel="icon" type="image/svg+xml" href="assets/favicon/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="icon" href="assets/favicon/favicon.ico">
+    <link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://elemento.cloud/" },
+        { "@type": "ListItem", "position": 2, "name": "Platform", "item": "https://elemento.cloud/platform.html" }
+      ]
+    }
+    </script>
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="preload" href="css/themes.css" as="style">
+    <link rel="preload" href="css/metacloud-sections.css" as="style">
+    <link rel="preload" href="css/platform.css" as="style">
+    <style>
+        :root { --background-color: #F5F5FA; --text-color: #1A1C20; --primary-color: #FFA600; --font-primary: 'Open Sans', sans-serif; --font-heading: 'Red Hat Display', sans-serif; --border-color: #e0e0e0; }
+        html { scroll-behavior: smooth; }
+        body { margin: 0; padding: 0; font-family: var(--font-primary); color: var(--text-color); background-color: var(--background-color); line-height: 1.6; overflow-x: hidden; }
+        h1 { font-size: 2.5rem; font-weight: 700; font-family: var(--font-heading); line-height: 1.2; margin-bottom: 1rem; }
+        .hero-title { font-size: 4rem; font-weight: 800; margin-bottom: 1.5rem; font-family: var(--font-heading); line-height: 1.2; }
+        .hero-tagline { font-size: 1.1rem; color: var(--primary-color); font-weight: 600; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 1px; }
+        .splash-screen { position: fixed; inset: 0; background: var(--background-color); display: flex; align-items: center; justify-content: center; z-index: 9999; opacity: 1; visibility: visible; transition: opacity 0.25s ease-out, visibility 0.25s ease-out; }
+        .splash-screen.hidden { opacity: 0; visibility: hidden; }
+        .splash-logo-img { width: 120px; height: 120px; background-color: var(--accent-color); mask-image: url(assets/logos/Elemento.svg); mask-size: contain; mask-repeat: no-repeat; mask-position: center; -webkit-mask-image: url(assets/logos/Elemento.svg); -webkit-mask-size: contain; -webkit-mask-repeat: no-repeat; -webkit-mask-position: center; }
+    </style>
+    <link rel="stylesheet" href="css/themes.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="css/style.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="css/atmosphere.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="css/planet-styles/planet-index.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="css/metacloud-sections.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="css/breadcrumb.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="css/platform.css" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="css/themes.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/atmosphere.css">
+        <link rel="stylesheet" href="css/planet-styles/planet-index.css">
+        <link rel="stylesheet" href="css/metacloud-sections.css">
+        <link rel="stylesheet" href="css/breadcrumb.css">
+        <link rel="stylesheet" href="css/platform.css">
+    </noscript>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Red+Hat+Display:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/font/PixelIconLibrary/iconfont.css">
+    <script type="text/plain" class="_iub_cs_activate" data-iub-purposes="4" src="js/matomo-tracking.js"></script>
+</head>
+<body class="platform-page">
+
+    <div id="splash-screen" class="splash-screen">
+        <div class="splash-content">
+            <div class="splash-logo"><div class="splash-logo-img"></div></div>
+        </div>
+    </div>
+
+    <div id="navbar-placeholder"></div>
+
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+        <div class="container">
+            <ol class="breadcrumb-list">
+                <li class="breadcrumb-item"><a href="/" class="breadcrumb-link">Home</a></li>
+                <li class="breadcrumb-item breadcrumb-current" aria-current="page">Platform</li>
+            </ol>
+        </div>
+    </nav>
+
+    <main id="main-content">
+        <section class="hero">
+            <div id="atmosphere-hero-placeholder"></div>
+            <div class="hero-container hero-vert-center">
+                <div class="hero-content">
+                    <div class="hero-buttons fade-in">
+                        <p class="hero-tagline">Elemento Metacloud</p>
+                        <h1 class="hero-title">One Control Plane.<br><span class="pixel-accent">Every Provider.</span></h1>
+                        <div class="hero-subtitle">
+                            <p>Elemento introduces a sovereign control and federation layer above public clouds, private clouds, sovereign providers, hypervisors and native AtomOS infrastructure.</p>
+                        </div>
+                        <div class="quick-contact-options hero-cta">
+                            <a href="https://book.elemento.cloud/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-calendar"></i> Book a Metacloud Assessment
+                            </a>
+                            <a href="#architecture" class="btn btn-secondary">
+                                <i class="fas fa-layer-group"></i> View Architecture
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="what-is-elemento">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">What is <span class="highlight-pixel">Elemento</span>?</h2>
+                </div>
+                <div class="grid grid-2 grid-centered">
+                    <div class="fade-in">
+                        <p>Elemento is a Metacloud platform. Rather than replacing existing infrastructure, Elemento introduces a control and federation layer above private clouds, public clouds, sovereign clouds, hypervisors and Kubernetes environments.</p>
+                        <p>The platform enables organisations to discover, govern, broker and orchestrate resources across heterogeneous providers through a unified operational model.</p>
+                    </div>
+                    <div class="fade-in">
+                        <div class="abstraction-progression">
+                            <blockquote>Elemento is the Metacloud: a sovereign control plane that lets organisations govern, orchestrate and optimise infrastructure across public clouds, private clouds, sovereign providers, hypervisors and native AtomOS environments without replacing what already exists.</blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Core <span class="highlight-pixel">Principle</span></h2>
+                    <p class="section-subtitle">Governance is decoupled from infrastructure ownership. Elemento federates what exists — it does not replace it.</p>
+                </div>
+                <div class="pillar-grid">
+                    <div class="pillar-card scroll-animate"><h3>Infrastructure independence</h3><p>Retain ownership of workloads and data while governing across providers.</p></div>
+                    <div class="pillar-card scroll-animate"><h3>Vendor neutrality</h3><p>No dependency on a single cloud, hypervisor or sovereign provider.</p></div>
+                    <div class="pillar-card scroll-animate"><h3>Digital sovereignty</h3><p>Sovereignty becomes a workload policy, not a provider decision.</p></div>
+                    <div class="pillar-card scroll-animate"><h3>Workload portability</h3><p>Move and broker workloads without application re-architecture.</p></div>
+                    <div class="pillar-card scroll-animate"><h3>Federation over standardisation</h3><p>Join existing environments without forcing replatforming.</p></div>
+                    <div class="pillar-card scroll-animate"><h3>Incremental adoption</h3><p>Connect first, govern next, optimise when ready.</p></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="architecture">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Metacloud <span class="highlight-pixel">Architecture</span></h2>
+                    <p class="section-subtitle">Four functional zones: user access, control plane, interoperability and infrastructure.</p>
+                </div>
+                <div class="platform-zone-grid" style="margin-bottom: var(--space-xl);">
+                    <div class="platform-zone-card scroll-animate"><strong>1. User access</strong><p>Admins, developers and operations teams interact through Electros.</p></div>
+                    <div class="platform-zone-card scroll-animate"><strong>2. Control plane</strong><p>Electros federates resources through one governance and orchestration model.</p></div>
+                    <div class="platform-zone-card scroll-animate"><strong>3. Interoperability</strong><p>C4 translates federation operations into provider-specific actions.</p></div>
+                    <div class="platform-zone-card scroll-animate"><strong>4. Infrastructure</strong><p>Atomosphere and Atomosquare connect clouds, hypervisors and AtomOS.</p></div>
+                </div>
+                <div class="metacloud-architecture">
+                    <div class="metacloud-arch-layer metacloud-arch-layer--users">Users / Admins / Developers / Operations</div>
+                    <div class="metacloud-arch-arrow" aria-hidden="true">↓</div>
+                    <div class="metacloud-arch-layer">
+                        <div class="metacloud-arch-node metacloud-arch-node--primary">
+                            <img src="assets/logos/Electros.svg" alt="" width="40" height="40">
+                            <h4>Electros™</h4>
+                            <p>Metacloud Control Plane</p>
+                        </div>
+                    </div>
+                    <div class="metacloud-arch-arrow" aria-hidden="true">↓</div>
+                    <div class="metacloud-arch-layer">
+                        <div class="metacloud-arch-node">
+                            <h4>C4 Protocol</h4>
+                            <p>Interoperability Layer</p>
+                        </div>
+                    </div>
+                    <div class="metacloud-arch-arrow" aria-hidden="true">↙ ↘</div>
+                    <div class="metacloud-arch-fabrics">
+                        <div class="metacloud-arch-layer">
+                            <div class="metacloud-arch-node">
+                                <img src="assets/logos/Atomosphere.svg" alt="" width="40" height="40">
+                                <h4>Atomosphere™</h4>
+                                <p>Cloud Provider Fabric</p>
+                                <div class="metacloud-arch-endpoints">AWS · Azure · GCP · OVHcloud · Scaleway · IONOS · more</div>
+                            </div>
+                        </div>
+                        <div class="metacloud-arch-layer">
+                            <div class="metacloud-arch-node">
+                                <img src="assets/logos/Atomosquare.svg" alt="" width="40" height="40">
+                                <h4>Atomosquare™</h4>
+                                <p>Hypervisor Fabric</p>
+                                <div class="metacloud-arch-endpoints">
+                                    VMware · Proxmox · Nutanix · Hyper-V · OpenStack
+                                    <div class="metacloud-arch-endpoints--nested">
+                                        <img src="assets/logos/Atomos.svg" alt="" width="20" height="20" style="vertical-align: middle;">
+                                        AtomOS® — native sovereign endpoint
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-hierarchy-mini">
+                    <a href="electros.html"><img src="assets/logos/Electros.svg" alt=""> Electros</a>
+                    <a href="c4-protocol.html">C4 Protocol</a>
+                    <a href="atomosphere.html"><img src="assets/logos/Atomosphere.svg" alt=""> Atomosphere</a>
+                    <a href="atomosquare.html"><img src="assets/logos/Atomosquare.svg" alt=""> Atomosquare</a>
+                    <a href="atomos.html"><img src="assets/logos/Atomos.svg" alt=""> AtomOS</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="how-it-works">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">How It <span class="highlight-pixel">Works</span></h2>
+                    <p class="section-subtitle">Elemento discovers existing infrastructure, normalises capabilities through C4, exposes them through Electros and allows teams to govern, broker, orchestrate and optimise resources through one operational model.</p>
+                </div>
+                <ul class="verb-list" style="justify-content: center; margin-bottom: var(--space-xl);">
+                    <li>Discover</li>
+                    <li>Govern</li>
+                    <li>Broker</li>
+                    <li>Orchestrate</li>
+                    <li>Optimise</li>
+                </ul>
+                <div class="adoption-journey">
+                    <div class="adoption-step scroll-animate">
+                        <div class="adoption-step-number">1</div>
+                        <h3>Connect</h3>
+                        <p>Connect existing infrastructures, clouds and services without replacement.</p>
+                    </div>
+                    <div class="adoption-step scroll-animate">
+                        <div class="adoption-step-number">2</div>
+                        <h3>Manage</h3>
+                        <p>Introduce visibility, governance, policy enforcement and federation controls.</p>
+                    </div>
+                    <div class="adoption-step scroll-animate">
+                        <div class="adoption-step-number">3</div>
+                        <h3>Optimise</h3>
+                        <p>Enable workload mobility, brokerage, sovereignty policies and intelligent placement.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="deployment">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Deployment <span class="highlight-pixel">Flexibility</span></h2>
+                    <p class="section-subtitle">Deploy the Metacloud your way — centralised, customer-hosted or federated.</p>
+                </div>
+                <div class="grid grid-3">
+                    <a href="deployment.html#saas" class="solution-map-card scroll-animate">
+                        <h3>Centralised Platform</h3>
+                        <p>A shared Elemento environment operated as a common governance layer. Fastest time to value with Elemento-operated Electros.</p>
+                    </a>
+                    <a href="deployment.html#self-hosted" class="solution-map-card scroll-animate">
+                        <h3>Customer-Hosted Platform</h3>
+                        <p>Elemento deployed within the customer's own environment. Maximum sovereignty and compliance by design.</p>
+                    </a>
+                    <a href="deployment.html#federated" class="solution-map-card scroll-animate">
+                        <h3>Federated Provider Deployment</h3>
+                        <p>Multiple providers participating within a common federation while preserving operational independence.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Ready to <span class="highlight-pixel">Federate</span> Your Infrastructure?</h2>
+                    <p class="section-subtitle">Book a Metacloud Assessment to map your estate and identify the fastest path to sovereign control.</p>
+                </div>
+                <div class="text-center">
+                    <a href="https://book.elemento.cloud/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-calendar"></i> Book a Metacloud Assessment
+                    </a>
+                    <a href="pricing.html" class="btn btn-secondary" style="margin-left: var(--space-sm);">
+                        <i class="fas fa-tags"></i> View Pricing
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="js/splash-screen.js" defer></script>
+    <script src="js/navbar.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="js/footer.js" defer></script>
+    <script src="js/atmosphere_hero.js" defer></script>
+    <script src="js/themes.js" defer></script>
+</body>
+</html>

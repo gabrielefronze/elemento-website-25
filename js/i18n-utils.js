@@ -98,11 +98,18 @@
   function pageHref(filename, locale) {
     const loc = locale ?? getPageLocale();
     const stem = filename.replace(/\.html$/, '') || 'index';
+    const isNestedIndex = stem.endsWith('/index') && stem !== 'index';
     let path;
     if (loc === 'en') {
-      path = stem === 'index' ? '/' : `/${filename}`;
+      if (stem === 'index') path = '/';
+      else if (isNestedIndex) path = `/${stem.slice(0, -'/index'.length)}`;
+      else path = `/${filename}`;
+    } else if (stem === 'index') {
+      path = `/${loc}/index.html`;
+    } else if (isNestedIndex) {
+      path = `/${loc}/${stem.slice(0, -'/index'.length)}`;
     } else {
-      path = stem === 'index' ? `/${loc}/index.html` : `/${loc}/${filename}`;
+      path = `/${loc}/${filename}`;
     }
     return withSiteBase(path);
   }

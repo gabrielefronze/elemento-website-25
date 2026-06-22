@@ -1,0 +1,479 @@
+{
+  "en": {
+    "hero": {
+      "tagline": "White Label",
+      "title": "Expand Your Cloud Portfolio Without Building Every Service",
+      "subtitle": "Use Elemento as your Metacloud control plane to broker third-party infrastructure and services under your own governance model.",
+      "primaryCTA": {
+        "text": "Launch Your Metacloud Offering",
+        "link": "../contact.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "View Pricing",
+        "link": "../pricing.html",
+        "icon": "fas fa-tags"
+      }
+    },
+    "painPoints": {
+      "title": "Service Providers Challenges You Face",
+      "subtitle": "Why building every portal, integration, and governance layer delays neocloud and MSP revenue",
+      "items": [
+        {
+          "icon": "fas fa-hammer",
+          "title": "Build Everything",
+          "description": "Launching a Cloud offering means building portals, billing, governance, and integrations from scratch."
+        },
+        {
+          "icon": "fas fa-id-badge",
+          "title": "Identity Fragmentation",
+          "description": "Customers expect independent identity systems and operational boundaries."
+        },
+        {
+          "icon": "fas fa-link",
+          "title": "Provider Integration Cost",
+          "description": "Connecting to multiple upstream providers multiplies engineering and maintenance effort."
+        },
+        {
+          "icon": "fas fa-chart-line",
+          "title": "Slow Time to Market",
+          "description": "Building every service layer delays revenue from your Cloud portfolio."
+        }
+      ]
+    },
+    "solution": {
+      "title": "Your Metacloud Platform",
+      "description": "Broker third-party infrastructure and services under your brand with dedicated governance.",
+      "items": [
+        {
+          "logo": "../assets/logos/Electros.svg",
+          "name": "Electros",
+          "description": "White-label Metacloud control plane with dedicated governance and independent identity systems."
+        },
+        {
+          "logo": "../assets/logos/Atomosphere.svg",
+          "name": "Atomosphere",
+          "description": "Federation layer to broker third-party infrastructure and Cloud service classes."
+        },
+        {
+          "logo": "../assets/logos/Atomosquare.svg",
+          "name": "Atomosquare",
+          "description": "Onboard customer hypervisor estates and hybrid endpoints into your offering."
+        },
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Sovereign execution engine for provider-hosted or customer-managed infrastructure."
+        }
+      ],
+      "cta": {
+        "text": "Launch Your Metacloud Offering",
+        "link": "../contact.html"
+      }
+    },
+    "useCase": {
+      "title": "Service Providers Journey",
+      "subtitle": "A structured approach with Elemento's Metacloud platform",
+      "items": [
+        {
+          "number": "1",
+          "title": "Launch Portal",
+          "description": "Deploy a dedicated customer portal with white-label Electros under your brand."
+        },
+        {
+          "number": "2",
+          "title": "Configure Governance",
+          "description": "Set independent identity, operational control, and policy boundaries per tenant."
+        },
+        {
+          "number": "3",
+          "title": "Broker Providers",
+          "description": "Federate upstream infrastructure through Atomosphere without building each integration."
+        },
+        {
+          "number": "4",
+          "title": "Scale Portfolio",
+          "description": "Expand service classes and providers as your Metacloud offering grows."
+        }
+      ]
+    },
+    "stats": {
+      "title": "Service Providers Impact",
+      "subtitle": "Real outcomes with the Metacloud platform",
+      "items": [
+        {
+          "label": "Time to Market",
+          "value": "Faster",
+          "icon": "fas fa-rocket",
+          "color": "green"
+        },
+        {
+          "label": "Brand Control",
+          "value": "White Label",
+          "icon": "fas fa-palette",
+          "color": "orange"
+        },
+        {
+          "label": "Provider Federation",
+          "value": "Built-In",
+          "icon": "fas fa-network-wired",
+          "color": "blue"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Service Providers FAQ",
+      "subtitle": "Frequently asked questions about launching a Metacloud offering as a service provider",
+      "items": [
+        {
+          "question": "Is Electros truly white-label for service providers?",
+          "answer": "Yes. You operate under your brand with dedicated portals, governance boundaries, and independent identity systems for your customers."
+        },
+        {
+          "question": "Do we need to build integrations with every upstream provider?",
+          "answer": "Atomosphere federates supported service classes so you broker capacity without building each provider integration individually."
+        },
+        {
+          "question": "Can customers bring their own infrastructure?",
+          "answer": "Atomosquare connects customer hypervisor estates into your Metacloud offering while you retain governance and operational control."
+        },
+        {
+          "question": "How does billing work?",
+          "answer": "Electros is licensed at the organisation level. Infrastructure consumption is billed separately and transparently—see our pricing page for the full model."
+        }
+      ]
+    },
+    "ctaFinal": {
+      "title": "Ready for Service Providers?",
+      "subtitle": "Broker third-party infrastructure under your brand without building every service layer from scratch.",
+      "primaryCTA": {
+        "text": "Launch Your Metacloud Offering",
+        "link": "../contact.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Schedule a Demo",
+        "link": "../contact.html",
+        "icon": "fas fa-calendar"
+      }
+    }
+  },
+  "it": {
+    "hero": {
+      "tagline": "White label",
+      "title": "Espandi il tuo portfolio Cloud senza costruire ogni servizio",
+      "subtitle": "Usa Elemento come control plane Metacloud per intermediare infrastruttura e servizi di terze parti sotto il tuo modello di governance.",
+      "primaryCTA": {
+        "text": "Lancia la tua offerta Metacloud",
+        "link": "../contact.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Vedi i prezzi",
+        "link": "../pricing.html",
+        "icon": "fas fa-tags"
+      }
+    },
+    "painPoints": {
+      "title": "Le sfide di Service Provider",
+      "subtitle": "Perché costruire ogni portale, integrazione e layer di governance ritarda i ricavi neocloud e MSP",
+      "items": [
+        {
+          "icon": "fas fa-hammer",
+          "title": "Costruire tutto",
+          "description": "Lanciare un'offerta Cloud significa costruire portali, billing, governance e integrazioni da zero."
+        },
+        {
+          "icon": "fas fa-id-badge",
+          "title": "Frammentazione identità",
+          "description": "I clienti si aspettano sistemi di identità e confini operativi indipendenti."
+        },
+        {
+          "icon": "fas fa-link",
+          "title": "Costo integrazione provider",
+          "description": "Collegarsi a più provider upstream moltiplica sforzo ingegneristico e manutenzione."
+        },
+        {
+          "icon": "fas fa-chart-line",
+          "title": "Lento time to market",
+          "description": "Costruire ogni layer di servizio ritarda i ricavi dal portfolio Cloud."
+        }
+      ]
+    },
+    "solution": {
+      "title": "La tua piattaforma Metacloud",
+      "description": "Intermedia infrastruttura e servizi di terze parti sotto il tuo brand con governance dedicata.",
+      "items": [
+        {
+          "logo": "../assets/logos/Electros.svg",
+          "name": "Electros",
+          "description": "Control plane Metacloud white-label con governance dedicata e sistemi di identità indipendenti."
+        },
+        {
+          "logo": "../assets/logos/Atomosphere.svg",
+          "name": "Atomosphere",
+          "description": "Layer di federazione per intermediare infrastruttura e classi di servizio Cloud di terze parti."
+        },
+        {
+          "logo": "../assets/logos/Atomosquare.svg",
+          "name": "Atomosquare",
+          "description": "Onboarda patrimoni hypervisor clienti e endpoint ibridi nella tua offerta."
+        },
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Motore di esecuzione sovrano per infrastruttura hostata dal provider o gestita dal cliente."
+        }
+      ],
+      "cta": {
+        "text": "Lancia la tua offerta Metacloud",
+        "link": "../contact.html"
+      }
+    },
+    "useCase": {
+      "title": "Percorso Service Provider",
+      "subtitle": "Un approccio strutturato con il Metacloud Elemento",
+      "items": [
+        {
+          "number": "1",
+          "title": "Lancia il portale",
+          "description": "Distribuisci un portale clienti dedicato con Electros white-label sotto il tuo brand."
+        },
+        {
+          "number": "2",
+          "title": "Configura la governance",
+          "description": "Imposta identità, controllo operativo e confini di policy indipendenti per tenant."
+        },
+        {
+          "number": "3",
+          "title": "Intermedia i provider",
+          "description": "Federare infrastruttura upstream tramite Atomosphere senza costruire ogni integrazione."
+        },
+        {
+          "number": "4",
+          "title": "Scala il portfolio",
+          "description": "Espandi classi di servizio e provider man mano che cresce la tua offerta Metacloud."
+        }
+      ]
+    },
+    "stats": {
+      "title": "Impatto Service Provider",
+      "subtitle": "Risultati concreti con la piattaforma Metacloud",
+      "items": [
+        {
+          "label": "Time to market",
+          "value": "Più rapido",
+          "icon": "fas fa-rocket",
+          "color": "green"
+        },
+        {
+          "label": "Controllo brand",
+          "value": "White label",
+          "icon": "fas fa-palette",
+          "color": "orange"
+        },
+        {
+          "label": "Federazione provider",
+          "value": "Integrata",
+          "icon": "fas fa-network-wired",
+          "color": "blue"
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ Service Provider",
+      "subtitle": "Domande frequenti sul lancio di un'offerta Metacloud come service provider",
+      "items": [
+        {
+          "question": "Electros è davvero white-label per i service provider?",
+          "answer": "Sì. Operi sotto il tuo brand con portali dedicati, confini di governance e identità indipendenti."
+        },
+        {
+          "question": "Dobbiamo costruire integrazioni con ogni provider upstream?",
+          "answer": "Atomosphere federer le classi di servizio supportate, permettendoti di intermediare capacità senza integrazioni individuali."
+        },
+        {
+          "question": "I clienti possono portare la propria infrastruttura?",
+          "answer": "Atomosquare collega patrimoni hypervisor clienti nella tua offerta Metacloud mantenendo governance e controllo."
+        },
+        {
+          "question": "Come funziona il billing?",
+          "answer": "Electros è licenziato a livello di organizzazione. Il consumo infrastrutturale è fatturato separatamente—vedi la pagina prezzi."
+        }
+      ]
+    },
+    "ctaFinal": {
+      "title": "Pronto per Service Provider?",
+      "subtitle": "Intermedia infrastruttura di terze parti sotto il tuo brand senza costruire ogni layer da zero.",
+      "primaryCTA": {
+        "text": "Lancia la tua offerta Metacloud",
+        "link": "../contact.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Pianifica una demo",
+        "link": "../contact.html",
+        "icon": "fas fa-calendar"
+      }
+    }
+  },
+  "fr": {
+    "hero": {
+      "tagline": "Marque blanche",
+      "title": "Élargissez votre portefeuille Cloud sans tout construire",
+      "subtitle": "Utilisez Elemento comme plan de contrôle Metacloud pour intermédier infrastructure et services tiers sous votre propre modèle de gouvernance.",
+      "primaryCTA": {
+        "text": "Lancer votre offre Metacloud",
+        "link": "../contact.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Voir les tarifs",
+        "link": "../pricing.html",
+        "icon": "fas fa-tags"
+      }
+    },
+    "painPoints": {
+      "title": "Les défis Fournisseurs de services",
+      "subtitle": "Pourquoi construire chaque portail, intégration et couche de gouvernance retarde les revenus neocloud et MSP",
+      "items": [
+        {
+          "icon": "fas fa-hammer",
+          "title": "Tout construire",
+          "description": "Lancer une offre Cloud signifie construire portails, facturation, gouvernance et intégrations from scratch."
+        },
+        {
+          "icon": "fas fa-id-badge",
+          "title": "Fragmentation d'identité",
+          "description": "Les clients attendent des systèmes d'identité et des frontières opérationnelles indépendants."
+        },
+        {
+          "icon": "fas fa-link",
+          "title": "Coût d'intégration fournisseurs",
+          "description": "Se connecter à plusieurs fournisseurs upstream multiplie l'effort d'ingénierie et de maintenance."
+        },
+        {
+          "icon": "fas fa-chart-line",
+          "title": "Time to market lent",
+          "description": "Construire chaque couche de service retarde les revenus du portefeuille Cloud."
+        }
+      ]
+    },
+    "solution": {
+      "title": "Votre plateforme Metacloud",
+      "description": "Intermédiez infrastructure et services tiers sous votre marque avec gouvernance dédiée.",
+      "items": [
+        {
+          "logo": "../assets/logos/Electros.svg",
+          "name": "Electros",
+          "description": "Plan de contrôle Metacloud en marque blanche avec gouvernance dédiée et systèmes d'identité indépendants."
+        },
+        {
+          "logo": "../assets/logos/Atomosphere.svg",
+          "name": "Atomosphere",
+          "description": "Couche de fédération pour intermédier infrastructure et classes de service Cloud tiers."
+        },
+        {
+          "logo": "../assets/logos/Atomosquare.svg",
+          "name": "Atomosquare",
+          "description": "Intégrez patrimoines hyperviseur clients et endpoints hybrides dans votre offre."
+        },
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Moteur d'exécution souverain pour infrastructure hébergée ou gérée par le client."
+        }
+      ],
+      "cta": {
+        "text": "Lancer votre offre Metacloud",
+        "link": "../contact.html"
+      }
+    },
+    "useCase": {
+      "title": "Parcours Fournisseurs de services",
+      "subtitle": "Une approche structurée avec le Metacloud Elemento",
+      "items": [
+        {
+          "number": "1",
+          "title": "Lancer le portail",
+          "description": "Déployez un portail client dédié avec Electros en marque blanche sous votre marque."
+        },
+        {
+          "number": "2",
+          "title": "Configurer la gouvernance",
+          "description": "Définissez identité, contrôle opérationnel et frontières de politiques indépendants par tenant."
+        },
+        {
+          "number": "3",
+          "title": "Intermédier les fournisseurs",
+          "description": "Fédérez l'infrastructure upstream via Atomosphere sans construire chaque intégration."
+        },
+        {
+          "number": "4",
+          "title": "Développer le portefeuille",
+          "description": "Élargissez classes de service et fournisseurs au fil de la croissance de votre offre Metacloud."
+        }
+      ]
+    },
+    "stats": {
+      "title": "Impact Fournisseurs de services",
+      "subtitle": "Résultats concrets avec la plateforme Metacloud",
+      "items": [
+        {
+          "label": "Time to market",
+          "value": "Plus rapide",
+          "icon": "fas fa-rocket",
+          "color": "green"
+        },
+        {
+          "label": "Contrôle de marque",
+          "value": "Marque blanche",
+          "icon": "fas fa-palette",
+          "color": "orange"
+        },
+        {
+          "label": "Fédération fournisseurs",
+          "value": "Intégrée",
+          "icon": "fas fa-network-wired",
+          "color": "blue"
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ Fournisseurs de services",
+      "subtitle": "Questions fréquentes sur le lancement d'une offre Metacloud en tant que fournisseur de services",
+      "items": [
+        {
+          "question": "Electros est-il vraiment en marque blanche pour les fournisseurs de services ?",
+          "answer": "Oui. Vous opérez sous votre marque avec portails dédiés, frontières de gouvernance et identités indépendantes."
+        },
+        {
+          "question": "Faut-il construire des intégrations avec chaque fournisseur upstream ?",
+          "answer": "Atomosphere fédère les classes de service prises en charge pour intermédier la capacité sans intégrations individuelles."
+        },
+        {
+          "question": "Les clients peuvent-ils apporter leur infrastructure ?",
+          "answer": "Atomosquare connecte les patrimoines hyperviseur clients dans votre offre Metacloud en conservant gouvernance et contrôle."
+        },
+        {
+          "question": "Comment fonctionne la facturation ?",
+          "answer": "Electros est licencié au niveau organisation. La consommation infrastructure est facturée séparément — voir la page tarifs."
+        }
+      ]
+    },
+    "ctaFinal": {
+      "title": "Prêt pour Fournisseurs de services ?",
+      "subtitle": "Intermédiez l'infrastructure tierce sous votre marque sans tout construire from scratch.",
+      "primaryCTA": {
+        "text": "Lancer votre offre Metacloud",
+        "link": "../contact.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Planifier une démo",
+        "link": "../contact.html",
+        "icon": "fas fa-calendar"
+      }
+    }
+  }
+}

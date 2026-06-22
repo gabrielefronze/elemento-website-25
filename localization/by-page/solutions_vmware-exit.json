@@ -1,0 +1,22 @@
+{
+  "page": "solutions_vmware-exit",
+  "count": 2,
+  "strings": [
+    {
+      "id": "meta.solutions_vmware-exit.description",
+      "en": "Govern VMware and AtomOS side by side. Migrate workload by workload with no forklift, no downtime windows, and no new dependency cycle.",
+      "it": "Gestisci VMware e AtomOS fianco a fianco. Migra workload per workload senza forklift, downtime o nuovo ciclo di dipendenza.",
+      "fr": "Gouvernez VMware et AtomOS côte à côte. Migrez charge par charge sans migration massive, fenêtres d'arrêt ni nouveau cycle de dépendance.",
+      "source": "solutions/vmware-exit.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.solutions_vmware-exit.title",
+      "en": "Exit VMware Without Entering Another Lock-In | Elemento",
+      "it": "Uscire da VMware senza un nuovo lock-in | Elemento",
+      "fr": "Quitter VMware sans nouveau verrouillage | Elemento",
+      "source": "solutions/vmware-exit.html",
+      "context": "meta title"
+    }
+  ]
+}

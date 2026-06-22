@@ -1,23 +1,23 @@
 {
   "en": {
     "hero": {
-      "tagline": "AI & Data Science",
-      "title": "Train, Deploy, and Scale AI Workloads",
-      "subtitle": "Seamlessly run AI workloads across clouds and on-prem nodes with GPU cluster management and multi-cloud AI environments.",
+      "tagline": "AI & Research Teams",
+      "title": "Scale AI Workloads Without GPU Lock-In",
+      "subtitle": "Train, deploy, and govern AI workloads across Cloud, sovereign, and on-premises GPU capacity through one Metacloud control plane.",
       "primaryCTA": {
-        "text": "Start Now",
-        "link": "../signup.html",
+        "text": "Plan AI Infrastructure",
+        "link": "../contact.html",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
-        "text": "Explore GPU Platform",
-        "link": "../products.html",
+        "text": "GPU Infrastructure Solution",
+        "link": "../solutions/ai-gpu-infrastructure.html",
         "icon": "fas fa-microchip"
       }
     },
     "painPoints": {
       "title": "AI/ML Challenges You Face",
-      "subtitle": "Common pain points that limit your ability to scale AI workloads and research",
+      "subtitle": "Why AI teams hit GPU scarcity, data silos, and operational divergence as workloads scale",
       "items": [
         {
           "icon": "fas fa-microchip",
@@ -68,28 +68,33 @@
       ]
     },
     "solution": {
-      "title": "Elemento's AI Solution",
-      "description": "Complete infrastructure platform designed for AI/ML workloads with GPU cluster management",
+      "title": "AI Workloads on the Metacloud",
+      "description": "Govern GPU allocation, data pipelines, and deployment targets without a separate AI infrastructure stack.",
       "items": [
-        {
-          "logo": "../assets/logos/Atomos.svg",
-          "name": "AtomOS",
-          "description": "GPU-optimized hypervisor for consistent AI/ML environments"
-        },
         {
           "logo": "../assets/logos/Electros.svg",
           "name": "Electros",
-          "description": "Unified dashboard for managing GPU clusters and AI workloads"
+          "description": "Unified governance for GPU clusters, policies, and workload placement."
         },
         {
           "logo": "../assets/logos/Atomosphere.svg",
           "name": "Atomosphere",
-          "description": "API layer for seamless integration with AI/ML frameworks and tools"
+          "description": "Federate GPU consumption across public, sovereign, and neocloud providers."
+        },
+        {
+          "logo": "../assets/logos/Atomosquare.svg",
+          "name": "Atomosquare",
+          "description": "Connect on-premises and hypervisor-hosted GPU environments."
+        },
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Sovereign GPU passthrough for private training and inference workloads."
         }
       ],
       "cta": {
-        "text": "See AI Infrastructure",
-        "link": "../products.html"
+        "text": "Plan AI Infrastructure",
+        "link": "../contact.html"
       }
     },
     "features": {
@@ -184,33 +189,33 @@
       ]
     },
     "ctaFinal": {
-      "title": "Ready to Scale Your AI Research?",
-      "subtitle": "Join leading AI startups and research labs already using Elemento to accelerate their AI/ML workloads and research.",
+      "title": "Ready to Scale AI Research?",
+      "subtitle": "Join teams using the Metacloud to accelerate training, inference, and MLOps without provider dependency.",
       "primaryCTA": {
-        "text": "Launch AI Environment",
-        "link": "../signup.html",
+        "text": "Plan AI Infrastructure",
+        "link": "../contact.html",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
-        "text": "Explore GPU Solutions",
-        "link": "../products.html",
-        "icon": "fas fa-microchip"
+        "text": "Explore the Platform",
+        "link": "../platform.html",
+        "icon": "fas fa-layer-group"
       }
     }
   },
   "it": {
     "hero": {
-      "tagline": "Intelligenza artificiale e scienza dei dati",
-      "title": "Addestra, distribuisci e scala carichi AI",
-      "subtitle": "Esegui carichi AI senza attriti across clouds and on-prem nodes with GPU cluster management and multi-cloud AI environments.",
+      "tagline": "Team AI e ricerca",
+      "title": "Scala carichi AI senza lock-in GPU",
+      "subtitle": "Addestra, distribuisci e governa workload AI su capacità GPU Cloud, sovrana e on-premises tramite un unico control plane Metacloud.",
       "primaryCTA": {
-        "text": "Inizia ora",
-        "link": "../signup.html",
+        "text": "Pianifica infrastruttura AI",
+        "link": "../contact.html",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
-        "text": "Esplora GPU Platform",
-        "link": "../products.html",
+        "text": "Soluzione infrastruttura GPU",
+        "link": "../solutions/ai-gpu-infrastructure.html",
         "icon": "fas fa-microchip"
       }
     },
@@ -267,28 +272,33 @@
       ]
     },
     "solution": {
-      "title": "Elemento's AI Soluzione",
-      "description": "Piattaforma infrastrutturale completa progettata per carichi di lavoro AI/ML con gestione del cluster GPU",
+      "title": "Workload AI sul Metacloud",
+      "description": "Governare allocazione GPU, pipeline dati e target di deployment senza uno stack infrastrutturale AI separato.",
       "items": [
-        {
-          "logo": "../assets/logos/Atomos.svg",
-          "name": "AtomOS",
-          "description": "Hypervisor ottimizzato per GPU per ambienti AI/ML coerenti"
-        },
         {
           "logo": "../assets/logos/Electros.svg",
           "name": "Electros",
-          "description": "Dashboard unificato per la gestione di cluster GPU e carichi di lavoro AI"
+          "description": "Governance unificata per cluster GPU, policy e placement dei workload."
         },
         {
           "logo": "../assets/logos/Atomosphere.svg",
           "name": "Atomosphere",
-          "description": "Livello API per un'integrazione perfetta con framework e strumenti AI/ML"
+          "description": "Federare il consumo GPU su provider pubblici, sovrani e neocloud."
+        },
+        {
+          "logo": "../assets/logos/Atomosquare.svg",
+          "name": "Atomosquare",
+          "description": "Collega ambienti GPU on-premises e su hypervisor."
+        },
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "GPU passthrough sovrano per training e inferenza privati."
         }
       ],
       "cta": {
-        "text": "Vedi AI Infrastructure",
-        "link": "../products.html"
+        "text": "Pianifica infrastruttura AI",
+        "link": "../contact.html"
       }
     },
     "features": {
@@ -383,33 +393,33 @@
       ]
     },
     "ctaFinal": {
-      "title": "Pronto per Scale Your AI Research?",
-      "subtitle": "Unisciti alle principali startup e laboratori di ricerca AI che già utilizzano Elemento per accelerare i carichi di lavoro e la ricerca AI/ML.",
+      "title": "Pronto per scalare la ricerca AI?",
+      "subtitle": "Unisciti ai team che usano il Metacloud per accelerare training, inferenza e MLOps senza dipendenza dal provider.",
       "primaryCTA": {
-        "text": "Avvia AI Environment",
-        "link": "../signup.html",
+        "text": "Pianifica infrastruttura AI",
+        "link": "../contact.html",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
-        "text": "Esplora GPU Soluziones",
-        "link": "../products.html",
-        "icon": "fas fa-microchip"
+        "text": "Esplora la piattaforma",
+        "link": "../platform.html",
+        "icon": "fas fa-layer-group"
       }
     }
   },
   "fr": {
     "hero": {
-      "tagline": "IA et science des données",
-      "title": "Former, déployer et faire évoluer les charges de travail d'IA",
-      "subtitle": "Exécutez en toute transparence des charges de travail d'IA sur les cloud et les nœuds sur site grâce à la gestion des clusters GPU et aux environnements d'IA multi-cloud.",
+      "tagline": "Équipes IA et recherche",
+      "title": "Faites évoluer les charges IA sans verrouillage GPU",
+      "subtitle": "Formez, déployez et gouvernez les charges IA sur capacité GPU Cloud, souveraine et on-premises via un plan de contrôle Metacloud unique.",
       "primaryCTA": {
-        "text": "Commencez maintenant",
-        "link": "../signup.html",
+        "text": "Planifier l'infrastructure IA",
+        "link": "../contact.html",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
-        "text": "Explorez la plateforme GPU",
-        "link": "../products.html",
+        "text": "Solution infrastructure GPU",
+        "link": "../solutions/ai-gpu-infrastructure.html",
         "icon": "fas fa-microchip"
       }
     },
@@ -466,28 +476,33 @@
       ]
     },
     "solution": {
-      "title": "La solution d'IA d'Elemento",
-      "description": "Plateforme d'infrastructure complète conçue pour les charges de travail IA/ML avec gestion de cluster GPU",
+      "title": "Charges IA sur le Metacloud",
+      "description": "Gouvernez allocation GPU, pipelines de données et cibles de déploiement sans stack infrastructure IA séparée.",
       "items": [
-        {
-          "logo": "../assets/logos/Atomos.svg",
-          "name": "AtomOS",
-          "description": "Hyperviseur optimisé par GPU pour des environnements IA/ML cohérents"
-        },
         {
           "logo": "../assets/logos/Electros.svg",
           "name": "Electros",
-          "description": "Tableau de bord unifié pour la gestion des clusters GPU et des charges de travail d'IA"
+          "description": "Gouvernance unifiée pour clusters GPU, politiques et placement des charges."
         },
         {
           "logo": "../assets/logos/Atomosphere.svg",
           "name": "Atomosphere",
-          "description": "Couche API pour une intégration transparente avec les frameworks et outils AI/ML"
+          "description": "Fédérez la consommation GPU sur fournisseurs publics, souverains et neocloud."
+        },
+        {
+          "logo": "../assets/logos/Atomosquare.svg",
+          "name": "Atomosquare",
+          "description": "Connectez environnements GPU on-premises et sur hyperviseur."
+        },
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "GPU passthrough souverain pour entraînement et inférence privés."
         }
       ],
       "cta": {
-        "text": "Voir l'infrastructure d'IA",
-        "link": "../products.html"
+        "text": "Planifier l'infrastructure IA",
+        "link": "../contact.html"
       }
     },
     "features": {
@@ -582,17 +597,17 @@
       ]
     },
     "ctaFinal": {
-      "title": "Prêt à faire évoluer votre recherche sur l'IA ?",
-      "subtitle": "Rejoignez les principales startups et laboratoires de recherche en IA qui utilisent déjà Elemento pour accélérer leurs charges de travail et leurs recherches en IA/ML.",
+      "title": "Prêt à faire évoluer votre recherche IA ?",
+      "subtitle": "Rejoignez les équipes qui utilisent le Metacloud pour accélérer entraînement, inférence et MLOps sans dépendance fournisseur.",
       "primaryCTA": {
-        "text": "Lancer l'environnement IA",
-        "link": "../signup.html",
+        "text": "Planifier l'infrastructure IA",
+        "link": "../contact.html",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
-        "text": "Explorez les solutions GPU",
-        "link": "../products.html",
-        "icon": "fas fa-microchip"
+        "text": "Explorer la plateforme",
+        "link": "../platform.html",
+        "icon": "fas fa-layer-group"
       }
     }
   }

@@ -1,0 +1,22 @@
+{
+  "page": "solutions_sovereign-cloud-governance",
+  "count": 2,
+  "strings": [
+    {
+      "id": "meta.solutions_sovereign-cloud-governance.description",
+      "en": "Apply jurisdiction, residency, and audit policies across clouds, hypervisors, and sovereign providers from one control plane.",
+      "it": "Applica policy di giurisdizione, residenza e audit su Cloud, hypervisor e provider sovrani da un unico control plane.",
+      "fr": "Appliquez juridiction, résidence et audit sur Cloud, hyperviseurs et fournisseurs souverains depuis un plan de contrôle unique.",
+      "source": "solutions/sovereign-cloud-governance.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.solutions_sovereign-cloud-governance.title",
+      "en": "Sovereignty as a Workload Policy | Elemento",
+      "it": "Sovranità come policy di workload | Elemento",
+      "fr": "La souveraineté comme politique de charge | Elemento",
+      "source": "solutions/sovereign-cloud-governance.html",
+      "context": "meta title"
+    }
+  ]
+}

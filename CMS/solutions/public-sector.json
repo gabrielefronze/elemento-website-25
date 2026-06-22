@@ -2,22 +2,22 @@
   "en": {
     "hero": {
       "tagline": "Public Sector",
-      "title": "Empowering Public Institutions with Sovereign Cloud Infrastructure",
-      "subtitle": "Elemento provides compliance-ready infrastructure for government and smart city initiatives with full sovereignty and audit capabilities.",
+      "title": "Sovereign Infrastructure for Government Services",
+      "subtitle": "Deliver citizen services and critical systems with jurisdiction, residency, and audit controls enforced from one Metacloud control plane.",
       "primaryCTA": {
-        "text": "Start Now",
-        "link": "../signup.html",
+        "text": "Assess Sovereignty Posture",
+        "link": "../contact.html",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
-        "text": "Explore Government Platform",
-        "link": "../products.html",
-        "icon": "fas fa-city"
+        "text": "Public Sector Resources",
+        "link": "../resources.html",
+        "icon": "fas fa-book"
       }
     },
     "painPoints": {
       "title": "Public Sector Challenges",
-      "subtitle": "Common pain points that limit your ability to leverage cloud technology while maintaining sovereignty",
+      "subtitle": "Why public institutions need sovereign cloud without building every integration and governance layer",
       "items": [
         {
           "icon": "fas fa-shield-alt",
@@ -68,28 +68,33 @@
       ]
     },
     "solution": {
-      "title": "Elemento's Public Sector Solution",
-      "description": "Complete infrastructure platform designed for government and smart city initiatives",
+      "title": "Government Infrastructure on the Metacloud",
+      "description": "Govern public sector workloads across sovereign Cloud, private data centres, and edge with consistent policy enforcement.",
       "items": [
-        {
-          "logo": "../assets/logos/Atomos.svg",
-          "name": "AtomOS",
-          "description": "Sovereign hypervisor environment with government-grade security"
-        },
         {
           "logo": "../assets/logos/Electros.svg",
           "name": "Electros",
-          "description": "Government dashboard with audit trails and compliance reporting"
+          "description": "Unified governance for jurisdiction, residency, and operational visibility across agencies."
         },
         {
           "logo": "../assets/logos/Atomosphere.svg",
           "name": "Atomosphere",
-          "description": "Secure API layer for government system integration"
+          "description": "Federate sovereign and public Cloud capacity under national policy constraints."
+        },
+        {
+          "logo": "../assets/logos/Atomosquare.svg",
+          "name": "Atomosquare",
+          "description": "Connect legacy government hypervisors and on-premises estates into one model."
+        },
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Sovereign execution layer for classified and citizen-facing workloads."
         }
       ],
       "cta": {
-        "text": "See Government Stack",
-        "link": "../products.html"
+        "text": "Assess Sovereignty Posture",
+        "link": "../contact.html"
       }
     },
     "features": {
@@ -184,34 +189,34 @@
       ]
     },
     "ctaFinal": {
-      "title": "Ready to Transform Your Public Infrastructure?",
-      "subtitle": "Join leading government organizations already using Elemento to modernize their infrastructure and deliver better citizen services.",
+      "title": "Ready for Sovereign Government Infrastructure?",
+      "subtitle": "Modernise public services while keeping data residency, audit trails, and operational control under national policy.",
       "primaryCTA": {
-        "text": "Deploy Government Cloud",
-        "link": "../signup.html",
+        "text": "Assess Sovereignty Posture",
+        "link": "../contact.html",
         "icon": "fas fa-landmark"
       },
       "secondaryCTA": {
-        "text": "Explore Public Solutions",
-        "link": "../products.html",
-        "icon": "fas fa-chart-bar"
+        "text": "Explore the Platform",
+        "link": "../platform.html",
+        "icon": "fas fa-layer-group"
       }
     }
   },
   "it": {
     "hero": {
       "tagline": "Settore pubblico",
-      "title": "Potenziare le istituzioni pubbliche con un'infrastruttura cloud sovrana",
-      "subtitle": "Elemento fornisce un'infrastruttura pronta per la conformità per iniziative governative e di città intelligenti con piena sovranità e capacità di audit.",
+      "title": "Infrastruttura sovrana per i servizi pubblici",
+      "subtitle": "Eroga servizi ai cittadini e sistemi critici con controlli di giurisdizione, residenza e audit da un unico control plane Metacloud.",
       "primaryCTA": {
-        "text": "Inizia ora",
-        "link": "../signup.html",
+        "text": "Valuta la postura di sovranità",
+        "link": "../contact.html",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
-        "text": "Esplora Government Platform",
-        "link": "../products.html",
-        "icon": "fas fa-city"
+        "text": "Risorse settore pubblico",
+        "link": "../resources.html",
+        "icon": "fas fa-book"
       }
     },
     "painPoints": {
@@ -267,28 +272,33 @@
       ]
     },
     "solution": {
-      "title": "Elemento's Public Sector Soluzione",
-      "description": "Piattaforma infrastrutturale completa progettata per iniziative governative e di città intelligenti",
+      "title": "Infrastruttura governativa sul Metacloud",
+      "description": "Governare workload del settore pubblico su Cloud sovrano, data center privati ed edge con enforcement coerente delle policy.",
       "items": [
-        {
-          "logo": "../assets/logos/Atomos.svg",
-          "name": "AtomOS",
-          "description": "Ambiente hypervisor sovrano con sicurezza di livello governativo"
-        },
         {
           "logo": "../assets/logos/Electros.svg",
           "name": "Electros",
-          "description": "Dashboard governativo con percorsi di controllo e reporting di conformità"
+          "description": "Governance unificata per giurisdizione, residenza e visibilità operativa tra le agenzie."
         },
         {
           "logo": "../assets/logos/Atomosphere.svg",
           "name": "Atomosphere",
-          "description": "Livello API sicuro per l'integrazione dei sistemi governativi"
+          "description": "Federare capacità Cloud sovrana e pubblica sotto vincoli di policy nazionale."
+        },
+        {
+          "logo": "../assets/logos/Atomosquare.svg",
+          "name": "Atomosquare",
+          "description": "Collega hypervisor governativi legacy e patrimoni on-premises in un unico modello."
+        },
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Layer di esecuzione sovrano per workload classificati e rivolti ai cittadini."
         }
       ],
       "cta": {
-        "text": "Vedi Government Stack",
-        "link": "../products.html"
+        "text": "Valuta la postura di sovranità",
+        "link": "../contact.html"
       }
     },
     "features": {
@@ -383,34 +393,34 @@
       ]
     },
     "ctaFinal": {
-      "title": "Pronto per Transform Your Public Infrastructure?",
-      "subtitle": "Unisciti alle principali organizzazioni governative che già utilizzano Elemento per modernizzare la propria infrastruttura e fornire migliori servizi ai cittadini.",
+      "title": "Pronto per un'infrastruttura governativa sovrana?",
+      "subtitle": "Modernizza i servizi pubblici mantenendo residenza dati, audit trail e controllo operativo sotto policy nazionale.",
       "primaryCTA": {
-        "text": "Distribuisci il cloud governativo",
-        "link": "../signup.html",
+        "text": "Valuta la postura di sovranità",
+        "link": "../contact.html",
         "icon": "fas fa-landmark"
       },
       "secondaryCTA": {
-        "text": "Esplora Public Soluziones",
-        "link": "../products.html",
-        "icon": "fas fa-chart-bar"
+        "text": "Esplora la piattaforma",
+        "link": "../platform.html",
+        "icon": "fas fa-layer-group"
       }
     }
   },
   "fr": {
     "hero": {
       "tagline": "Secteur public",
-      "title": "Donner aux institutions publiques les moyens d’une infrastructure cloud souveraine",
-      "subtitle": "Elemento fournit une infrastructure prête à la conformité pour les initiatives gouvernementales et de villes intelligentes avec des capacités complètes de souveraineté et d'audit.",
+      "title": "Infrastructure souveraine pour les services publics",
+      "subtitle": "Délivrez services aux citoyens et systèmes critiques avec contrôles de juridiction, résidence et audit depuis un plan de contrôle Metacloud unique.",
       "primaryCTA": {
-        "text": "Commencez maintenant",
-        "link": "../signup.html",
+        "text": "Évaluer votre posture de souveraineté",
+        "link": "../contact.html",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
-        "text": "Explorez la plateforme gouvernementale",
-        "link": "../products.html",
-        "icon": "fas fa-city"
+        "text": "Ressources secteur public",
+        "link": "../resources.html",
+        "icon": "fas fa-book"
       }
     },
     "painPoints": {
@@ -466,28 +476,33 @@
       ]
     },
     "solution": {
-      "title": "La solution pour le secteur public d'Elemento",
-      "description": "Plateforme d'infrastructure complète conçue pour les initiatives gouvernementales et de villes intelligentes",
+      "title": "Infrastructure gouvernementale sur le Metacloud",
+      "description": "Gouvernez les charges du secteur public sur Cloud souverain, data centers privés et edge avec application cohérente des politiques.",
       "items": [
-        {
-          "logo": "../assets/logos/Atomos.svg",
-          "name": "AtomOS",
-          "description": "Environnement d'hyperviseur souverain avec une sécurité de niveau gouvernemental"
-        },
         {
           "logo": "../assets/logos/Electros.svg",
           "name": "Electros",
-          "description": "Tableau de bord du gouvernement avec pistes d'audit et rapports de conformité"
+          "description": "Gouvernance unifiée pour juridiction, résidence et visibilité opérationnelle entre agences."
         },
         {
           "logo": "../assets/logos/Atomosphere.svg",
           "name": "Atomosphere",
-          "description": "Couche API sécurisée pour l'intégration des systèmes gouvernementaux"
+          "description": "Fédérez capacité Cloud souveraine et publique sous contraintes de politique nationale."
+        },
+        {
+          "logo": "../assets/logos/Atomosquare.svg",
+          "name": "Atomosquare",
+          "description": "Connectez hyperviseurs gouvernementaux existants et patrimoines on-premises dans un modèle unique."
+        },
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Couche d'exécution souveraine pour charges classifiées et services aux citoyens."
         }
       ],
       "cta": {
-        "text": "Voir la pile gouvernementale",
-        "link": "../products.html"
+        "text": "Évaluer votre posture de souveraineté",
+        "link": "../contact.html"
       }
     },
     "features": {
@@ -582,17 +597,17 @@
       ]
     },
     "ctaFinal": {
-      "title": "Prêt à transformer votre infrastructure publique ?",
-      "subtitle": "Rejoignez les principales organisations gouvernementales qui utilisent déjà Elemento pour moderniser leur infrastructure et offrir de meilleurs services aux citoyens.",
+      "title": "Prêt pour une infrastructure gouvernementale souveraine ?",
+      "subtitle": "Modernisez les services publics en conservant résidence des données, pistes d'audit et contrôle opérationnel sous politique nationale.",
       "primaryCTA": {
-        "text": "Déployer le Cloud gouvernemental",
-        "link": "../signup.html",
+        "text": "Évaluer votre posture de souveraineté",
+        "link": "../contact.html",
         "icon": "fas fa-landmark"
       },
       "secondaryCTA": {
-        "text": "Explorer les solutions publiques",
-        "link": "../products.html",
-        "icon": "fas fa-chart-bar"
+        "text": "Explorer la plateforme",
+        "link": "../platform.html",
+        "icon": "fas fa-layer-group"
       }
     }
   }

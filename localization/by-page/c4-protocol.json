@@ -1,0 +1,390 @@
+{
+  "page": "c4-protocol",
+  "count": 48,
+  "strings": [
+    {
+      "id": "body.c4-protocol.blockquote.1",
+      "en": "Contracts, not clouds.",
+      "it": "",
+      "fr": "",
+      "source": "c4-protocol.html",
+      "context": "<blockquote>"
+    },
+    {
+      "id": "body.c4-protocol.h1.1",
+      "en": "C4 Protocol",
+      "it": "",
+      "fr": "",
+      "source": "c4-protocol.html",
+      "context": "<h1>"
+    },
+    {
+      "id": "body.c4-protocol.h2.1",
+      "en": "Why C4 Exists",
+      "it": "",
+      "fr": "",
+      "source": "c4-protocol.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.c4-protocol.h2.2",
+      "en": "Core Functions",
+      "it": "",
+      "fr": "",
+      "source": "c4-protocol.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.c4-protocol.h2.3",
+      "en": "Design Principle",
+      "it": "",
+      "fr": "",
+      "source": "c4-protocol.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.c4-protocol.h2.4",
+      "en": "Future Roadmap",
+      "it": "",
+      "fr": "",
+      "source": "c4-protocol.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.c4-protocol.h2.5",
+      "en": "Explore the Metacloud",
+      "it": "",
+      "fr": "",
+      "source": "c4-protocol.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.c4-protocol.h3.1",
+      "en": "Resource abstraction",
+      "it": "",
+      "fr": "",
+      "source": "c4-protocol.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.c4-protocol.h3.2",
+      "en": "Service discovery",
+      "it": "",
+      "fr": "",
+      "source": "c4-protocol.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.c4-protocol.h3.3",
+      "en": "Endpoint registration",
+      "it": "",
+      "fr": "",
+      "source": "c4-protocol.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.c4-protocol.h3.4",
+      "en": "Capability exposure",
+      "it": "",
+      "fr": "",
+      "source": "c4-protocol.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.c4-protocol.h3.5",
+      "en": "Common API model",
+      "it": "",
+      "fr": "",
+      "source": "c4-protocol.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.c4-protocol.h3.6",
+      "en": "Workload operations",
+      "it": "",
+      "fr": "",
+      "source": "c4-protocol.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.c4-protocol.h4.1",
+      "en": "Electros™",
+      "it": "",
+      "fr": "",
+      "source": "c4-protocol.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.c4-protocol.h4.2",
+      "en": "C4 Protocol",
+      "it": "",
+      "fr": "",
+      "source": "c4-protocol.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.c4-protocol.li.1",
+      "en": "Home",
+      "it": "",
+      "fr": "",
+      "source": "c4-protocol.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.c4-protocol.li.10",
+      "en": "Provider exchange network",
+      "it": "",
+      "fr": "",
+      "source": "c4-protocol.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.c4-protocol.li.2",
+      "en": "Platform",
+      "it": "",
+      "fr": "",
+      "source": "c4-protocol.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.c4-protocol.li.3",
+      "en": "C4 Protocol",
+      "it": "",
+      "fr": "",
+      "source": "c4-protocol.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.c4-protocol.li.4",
+      "en": "Intent layer",
+      "it": "",
+      "fr": "",
+      "source": "c4-protocol.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.c4-protocol.li.5",
+      "en": "Provider federation",
+      "it": "",
+      "fr": "",
+      "source": "c4-protocol.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.c4-protocol.li.6",
+      "en": "Service catalog federation",
+      "it": "",
+      "fr": "",
+      "source": "c4-protocol.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.c4-protocol.li.7",
+      "en": "Autonomous rebalancing",
+      "it": "",
+      "fr": "",
+      "source": "c4-protocol.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.c4-protocol.li.8",
+      "en": "Carbon-aware placement",
+      "it": "",
+      "fr": "",
+      "source": "c4-protocol.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.c4-protocol.li.9",
+      "en": "Sovereign intelligence",
+      "it": "",
+      "fr": "",
+      "source": "c4-protocol.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.c4-protocol.p.1",
+      "en": "Common Cloud Compute Connector Protocol",
+      "it": "",
+      "fr": "",
+      "source": "c4-protocol.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.c4-protocol.p.10",
+      "en": "One operational language for Electros across all connected environments.",
+      "it": "",
+      "fr": "",
+      "source": "c4-protocol.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.c4-protocol.p.11",
+      "en": "Provision, move and govern workloads through federation contracts.",
+      "it": "",
+      "fr": "",
+      "source": "c4-protocol.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.c4-protocol.p.12",
+      "en": "C4 acts as a translation layer between Electros and provider-specific APIs.",
+      "it": "",
+      "fr": "",
+      "source": "c4-protocol.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.c4-protocol.p.13",
+      "en": "Each provider exposes its capabilities through C4, allowing Electros to issue common federation operations without requiring knowledge of the underlying provider implementation.",
+      "it": "",
+      "fr": "",
+      "source": "c4-protocol.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.c4-protocol.p.14",
+      "en": "Metacloud Control Plane",
+      "it": "",
+      "fr": "",
+      "source": "c4-protocol.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.c4-protocol.p.15",
+      "en": "Translation Layer",
+      "it": "",
+      "fr": "",
+      "source": "c4-protocol.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.c4-protocol.p.16",
+      "en": "C4 evolves toward intent-driven infrastructure and autonomous federation.",
+      "it": "",
+      "fr": "",
+      "source": "c4-protocol.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.c4-protocol.p.2",
+      "en": "The Common Language of the Metacloud. C4 is the interoperability framework that allows heterogeneous infrastructure platforms to participate in one federation model.",
+      "it": "",
+      "fr": "",
+      "source": "c4-protocol.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.c4-protocol.p.3",
+      "en": "C4 does not replace provider APIs.",
+      "it": "",
+      "fr": "",
+      "source": "c4-protocol.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.c4-protocol.p.4",
+      "en": "It provides a common language that translates federation operations into provider-specific operations, preserving existing technology choices while enabling a unified operational framework.",
+      "it": "",
+      "fr": "",
+      "source": "c4-protocol.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.c4-protocol.p.5",
+      "en": "Declare an outcome through portable C4 contracts. The Metacloud identifies and activates the most suitable implementation.",
+      "it": "",
+      "fr": "",
+      "source": "c4-protocol.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.c4-protocol.p.6",
+      "en": "Normalise heterogeneous provider capabilities into a common model.",
+      "it": "",
+      "fr": "",
+      "source": "c4-protocol.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.c4-protocol.p.7",
+      "en": "Make infrastructure and services discoverable across the federation.",
+      "it": "",
+      "fr": "",
+      "source": "c4-protocol.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.c4-protocol.p.8",
+      "en": "Register providers, hypervisors and services into the Metacloud.",
+      "it": "",
+      "fr": "",
+      "source": "c4-protocol.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.c4-protocol.p.9",
+      "en": "Expose provider-specific features through a unified interface.",
+      "it": "",
+      "fr": "",
+      "source": "c4-protocol.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.c4-protocol.ui.1",
+      "en": "The Common Language of the Metacloud. C4 is the interoperability framework that allows heterogeneous infrastructure platforms to participate in one federation model.",
+      "it": "",
+      "fr": "",
+      "source": "c4-protocol.html",
+      "context": "class"
+    },
+    {
+      "id": "body.c4-protocol.ui.2",
+      "en": "Read the C4 Technical Brief",
+      "it": "",
+      "fr": "",
+      "source": "c4-protocol.html",
+      "context": "class"
+    },
+    {
+      "id": "body.c4-protocol.ui.3",
+      "en": "View Architecture",
+      "it": "",
+      "fr": "",
+      "source": "c4-protocol.html",
+      "context": "class"
+    },
+    {
+      "id": "body.c4-protocol.ui.4",
+      "en": "Read the C4 Technical Brief",
+      "it": "",
+      "fr": "",
+      "source": "c4-protocol.html",
+      "context": "class"
+    },
+    {
+      "id": "body.c4-protocol.ui.5",
+      "en": "Learn about Electros",
+      "it": "",
+      "fr": "",
+      "source": "c4-protocol.html",
+      "context": "class"
+    },
+    {
+      "id": "meta.c4-protocol.description",
+      "en": "C4 is the interoperability framework that allows heterogeneous infrastructure platforms to participate in one federation model — the common language of the Metacloud.",
+      "it": "",
+      "fr": "",
+      "source": "c4-protocol.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.c4-protocol.title",
+      "en": "C4 Protocol | Common Language of the Metacloud | Elemento",
+      "it": "",
+      "fr": "",
+      "source": "c4-protocol.html",
+      "context": "meta title"
+    }
+  ]
+}

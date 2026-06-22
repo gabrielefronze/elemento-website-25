@@ -94,21 +94,32 @@ document.addEventListener('DOMContentLoaded', function() {
                     <p>${f.tagline}</p>
                 </div>
                 <div class="footer-section">
-                    <h3>${f.products}</h3>
+                    <h3>${f.platform}</h3>
                     <ul>
-                        <li><a href="${localizedHref('atomos.html')}">Atomos</a></li>
+                        <li><a href="${localizedHref('platform.html')}">${f.platformOverview}</a></li>
                         <li><a href="${localizedHref('electros.html')}">Electros</a></li>
+                        <li><a href="${localizedHref('c4-protocol.html')}">C4 Protocol</a></li>
                         <li><a href="${localizedHref('atomosphere.html')}">Atomosphere</a></li>
-                        <li><a href="${localizedHref('products.html')}">${f.allProducts}</a></li>
+                        <li><a href="${localizedHref('atomosquare.html')}">Atomosquare</a></li>
+                        <li><a href="${localizedHref('atomos.html')}">AtomOS</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>${f.solutions}</h3>
+                    <ul>
+                        <li><a href="${localizedHref('solutions/vmware-exit.html')}">${f.solVmwareExit}</a></li>
+                        <li><a href="${localizedHref('solutions/sovereign-cloud-governance.html')}">${f.solSovereign}</a></li>
+                        <li><a href="${localizedHref('solutions/hybrid-multi-cloud.html')}">${f.solHybrid}</a></li>
+                        <li><a href="${localizedHref('solutions/index.html')}">${f.allSolutions}</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
                     <h3>${f.company}</h3>
                     <ul>
                         <li><a href="${localizedHref('about.html')}">${f.aboutUs}</a></li>
-                        <li><a href="${localizedHref('technology.html')}">${ui.nav.technology}</a></li>
+                        <li><a href="${localizedHref('about.html')}#team">${f.team}</a></li>
                         <li><a href="${localizedHref('contact.html')}">${ui.nav.contact}</a></li>
-                        <li><a href="${localizedHref('careers.html')}">${f.careers}</a></li>
+                        <li><a href="${localizedHref('pricing.html')}">${ui.nav.pricing}</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">

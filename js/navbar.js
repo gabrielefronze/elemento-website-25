@@ -195,16 +195,29 @@ class Navbar {
             </div>`;
     }
 
-    // Add method to check if current page is a product page
-    isProductPage() {
-        const productStems = ['atomos', 'electros', 'atomosphere', 'products'];
-        const productPages = ['atomos.html', 'electros.html', 'atomosphere.html', 'products.html'];
-        return productStems.includes(this.getPageStem()) || productPages.includes(this.currentPage);
+    // Platform pages (Metacloud product hierarchy)
+    isPlatformPage() {
+        const platformStems = ['platform', 'electros', 'c4-protocol', 'atomosphere', 'atomosquare', 'atomos', 'products', 'technology'];
+        return platformStems.includes(this.getPageStem());
+    }
+
+    isSolutionsPage() {
+        const stem = this.getPageStem();
+        return stem.startsWith('solutions/') || stem === 'solutions';
+    }
+
+    isPricingPage() {
+        return this.getPageStem() === 'pricing' || this.getPageStem() === 'deployment';
+    }
+
+    isCompanyPage() {
+        const companyStems = ['about', 'contact', 'careers'];
+        return companyStems.includes(this.getPageStem());
     }
 
     isResourcesPage() {
-        const resourceStems = ['blog', 'videos'];
-        const resourcePages = ['blog.html', 'videos.html'];
+        const resourceStems = ['blog', 'videos', 'resources', 'brand-guidelines'];
+        const resourcePages = ['blog.html', 'videos.html', 'resources.html'];
         return resourceStems.includes(this.getPageStem()) || resourcePages.includes(this.currentPage);
     }
 
@@ -213,9 +226,45 @@ class Navbar {
     }
 
     getSectionNavActiveClass(section) {
-        if (section === 'products' && this.isProductPage()) return 'active';
+        if (section === 'platform' && this.isPlatformPage()) return 'active';
+        if (section === 'solutions' && this.isSolutionsPage()) return 'active';
+        if (section === 'pricing' && this.isPricingPage()) return 'active';
         if (section === 'resources' && this.isResourcesPage()) return 'active';
+        if (section === 'company' && this.isCompanyPage()) return 'active';
         return '';
+    }
+
+    renderPlatformDropdownLinks(basePath) {
+        const items = [
+            { stem: 'platform', file: 'platform.html', label: this.t('nav.platformOverview', 'Overview'), icon: null },
+            { stem: 'electros', file: 'electros.html', label: 'Electros', icon: 'Electros.svg' },
+            { stem: 'c4-protocol', file: 'c4-protocol.html', label: 'C4 Protocol', icon: null },
+            { stem: 'atomosphere', file: 'atomosphere.html', label: 'Atomosphere', icon: 'Atomosphere.svg' },
+            { stem: 'atomosquare', file: 'atomosquare.html', label: 'Atomosquare', icon: 'Atomosquare.svg' },
+            { stem: 'atomos', file: 'atomos.html', label: 'AtomOS', icon: 'Atomos.svg' },
+        ];
+        return items.map((item) => {
+            const iconHtml = item.icon
+                ? `<img src="${basePath}assets/logos/${item.icon}" alt="" class="dropdown-product-icon" width="20" height="20">`
+                : '';
+            return `<li><a href="${this.getLocalizedHref(item.file)}" class="dropdown-link ${this.getActiveClassByStem(item.stem)}">${iconHtml}<span>${item.label}</span></a></li>`;
+        }).join('');
+    }
+
+    renderSolutionsDropdownLinks() {
+        const items = [
+            { slug: 'solutions/vmware-exit.html', stem: 'solutions/vmware-exit', label: this.t('nav.solVmwareExit', 'VMware Exit') },
+            { slug: 'solutions/sovereign-cloud-governance.html', stem: 'solutions/sovereign-cloud-governance', label: this.t('nav.solSovereign', 'Sovereign Governance') },
+            { slug: 'solutions/hybrid-multi-cloud.html', stem: 'solutions/hybrid-multi-cloud', label: this.t('nav.solHybrid', 'Hybrid & Multi-Cloud') },
+            { slug: 'solutions/ai-gpu-infrastructure.html', stem: 'solutions/ai-gpu-infrastructure', label: this.t('nav.solAiGpu', 'AI / GPU') },
+            { slug: 'solutions/service-providers.html', stem: 'solutions/service-providers', label: this.t('nav.solProviders', 'Service Providers') },
+            { slug: 'solutions/cross-provider-dr.html', stem: 'solutions/cross-provider-dr', label: this.t('nav.solDr', 'Cross-Provider DR') },
+            { slug: 'solutions/data-repatriation.html', stem: 'solutions/data-repatriation', label: this.t('nav.solRepatriation', 'Data Repatriation') },
+            { slug: 'solutions/index.html', stem: 'solutions', label: this.t('nav.allSolutions', 'All Solutions') },
+        ];
+        return items.map((item) =>
+            `<li><a href="${this.getLocalizedHref(item.slug)}" class="dropdown-link ${this.getActiveClassByStem(item.stem)}">${item.label}</a></li>`
+        ).join('');
     }
 
     getBasePath() {
@@ -315,58 +364,64 @@ class Navbar {
                     </a>
                     
                     <ul class="nav-menu">
-                        <li class="dropdown" data-nav-dropdown="products">
-                            <a href="${this.getLocalizedHref('products.html')}" class="nav-link ${this.getSectionNavActiveClass('products')}">${this.t('nav.products', 'Products')} <span class="dropdown-arrow">▼</span></a>
+                        <li class="dropdown" data-nav-dropdown="platform">
+                            <a href="${this.getLocalizedHref('platform.html')}" class="nav-link ${this.getSectionNavActiveClass('platform')}">${this.t('nav.platform', 'Platform')} <span class="dropdown-arrow">▼</span></a>
                             <div class="dropdown-menu mobile-dropdown">
                                 <ul>
-                                    <li><a href="${this.getLocalizedHref('atomos.html')}" class="dropdown-link ${this.getActiveClassByStem('atomos')}">
-                                        <img src="${basePath}assets/logos/Atomos.svg" alt="AtomOS icon" class="product-icon" width="20" height="20">
-                                        <span class="">AtomOS</span>
-                                    </a></li>
-                                    <li><a href="${this.getLocalizedHref('electros.html')}" class="dropdown-link ${this.getActiveClassByStem('electros')}">
-                                        <img src="${basePath}assets/logos/Electros.svg" alt="Electros icon" class="product-icon" width="20" height="20">
-                                        <span class="">Electros</span>
-                                    </a></li>
-                                    <li><a href="${this.getLocalizedHref('atomosphere.html')}" class="dropdown-link ${this.getActiveClassByStem('atomosphere')}">
-                                        <img src="${basePath}assets/logos/Atomosphere.svg" alt="Atomosphere icon" class="product-icon" width="20" height="20">
-                                        <span class="">Atomosphere</span>
-                                    </a></li>
+                                    ${this.renderPlatformDropdownLinks(basePath)}
                                 </ul>
                             </div>
                         </li>
-                        <li><a href="${this.getLocalizedHref('technology.html')}" class="nav-link ${this.getActiveClass('technology.html')}">${this.t('nav.technology', 'Technology')}</a></li>
-                        <li><a href="${this.getLocalizedHref('about.html')}" class="nav-link ${this.getActiveClass('about.html')}">${this.t('nav.about', 'About')}</a></li>
-                        <li><a href="${this.getLocalizedHref('contact.html')}" class="nav-link ${this.getActiveClass('contact.html')}">${this.t('nav.contact', 'Contact')}</a></li>
+                        <li class="dropdown" data-nav-dropdown="solutions">
+                            <a href="${this.getLocalizedHref('solutions/index.html')}" class="nav-link ${this.getSectionNavActiveClass('solutions')}">${this.t('nav.solutions', 'Solutions')} <span class="dropdown-arrow">▼</span></a>
+                            <div class="dropdown-menu mobile-dropdown">
+                                <ul>
+                                    ${this.renderSolutionsDropdownLinks()}
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="${this.getLocalizedHref('pricing.html')}" class="nav-link ${this.getSectionNavActiveClass('pricing')}">${this.t('nav.pricing', 'Pricing')}</a></li>
                         <li class="dropdown" data-nav-dropdown="resources">
                             <a href="${this.getLocalizedHref('blog.html')}" class="nav-link ${this.getSectionNavActiveClass('resources')}">${this.t('nav.resources', 'Resources')} <span class="dropdown-arrow">▼</span></a>
                             <div class="dropdown-menu mobile-dropdown">
                                 <ul>
                                     <li><a href="${this.getLocalizedHref('blog.html')}" class="dropdown-link ${this.getActiveClassByStem('blog')}">${this.t('nav.blog', 'Blog')}</a></li>
                                     <li><a href="${this.getLocalizedHref('videos.html')}" class="dropdown-link ${this.getActiveClassByStem('videos')}">${this.t('nav.videos', 'Videos')}</a></li>
+                                    <li><a href="${this.getLocalizedHref('resources.html')}" class="dropdown-link ${this.getActiveClassByStem('resources')}">${this.t('nav.productBriefs', 'Product Briefs')}</a></li>
+                                    <li><a href="https://bookstack.elemento.cloud" class="dropdown-link" target="_blank" rel="noopener noreferrer">${this.t('nav.documentation', 'Documentation')}</a></li>
                                 </ul>
                             </div>
                         </li>
-                        <li class="nav-cta-group">
-                            <a href="${this.getLocalizedHref('signup.html')}" class="nav-link nav-cta-link">${this.t('nav.signup', 'Signup')}</a>
-                            <a href="https://book.elemento.cloud/" class="nav-link nav-cta-link nav-cta-link--book" target="_blank" rel="noopener noreferrer">${this.t('nav.bookCall', 'Book a Call')}</a>
+                        <li class="dropdown" data-nav-dropdown="company">
+                            <a href="${this.getLocalizedHref('about.html')}" class="nav-link ${this.getSectionNavActiveClass('company')}">${this.t('nav.company', 'Company')} <span class="dropdown-arrow">▼</span></a>
+                            <div class="dropdown-menu mobile-dropdown">
+                                <ul>
+                                    <li><a href="${this.getLocalizedHref('about.html')}" class="dropdown-link ${this.getActiveClassByStem('about')}">${this.t('nav.about', 'About')}</a></li>
+                                    <li><a href="${this.getLocalizedHref('about.html')}#team" class="dropdown-link">${this.t('nav.team', 'Team')}</a></li>
+                                    <li><a href="${this.getLocalizedHref('contact.html')}" class="dropdown-link ${this.getActiveClassByStem('contact')}">${this.t('nav.contact', 'Contact')}</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-cta-group nav-cta-group--mobile">
+                            <a href="https://book.elemento.cloud/" class="nav-link nav-cta-link nav-cta-link--book" target="_blank" rel="noopener noreferrer">${this.t('nav.bookAssessment', 'Book Assessment')}</a>
                         </li>
                     </ul>
 
-                    <div class="dropdown-menu desktop-dropdown" data-nav-dropdown-panel="products">
+                    <div class="nav-cta">
+                        <a href="https://book.elemento.cloud/" class="nav-link nav-cta-link nav-cta-link--book" target="_blank" rel="noopener noreferrer">${this.t('nav.bookAssessment', 'Book Assessment')}</a>
+                    </div>
+
+                    <div class="dropdown-menu desktop-dropdown" data-nav-dropdown-panel="platform">
                         <div class="container">
                             <ul>
-                                <li><a href="${this.getLocalizedHref('atomos.html')}" class="dropdown-link ${this.getActiveClassByStem('atomos')}">
-                                    <img src="${basePath}assets/logos/Atomos.svg" alt="AtomOS icon" class="product-icon" width="20" height="20">
-                                    <span class="">AtomOS</span>
-                                </a></li>
-                                <li><a href="${this.getLocalizedHref('electros.html')}" class="dropdown-link ${this.getActiveClassByStem('electros')}">
-                                    <img src="${basePath}assets/logos/Electros.svg" alt="Electros icon" class="product-icon" width="20" height="20">
-                                    <span class="">Electros</span>
-                                </a></li>
-                                <li><a href="${this.getLocalizedHref('atomosphere.html')}" class="dropdown-link ${this.getActiveClassByStem('atomosphere')}">
-                                    <img src="${basePath}assets/logos/Atomosphere.svg" alt="Atomosphere icon" class="product-icon" width="20" height="20">
-                                    <span class="">Atomosphere</span>
-                                </a></li>
+                                ${this.renderPlatformDropdownLinks(basePath)}
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="dropdown-menu desktop-dropdown dropdown-menu--solutions" data-nav-dropdown-panel="solutions">
+                        <div class="container">
+                            <ul class="dropdown-solutions-grid">
+                                ${this.renderSolutionsDropdownLinks()}
                             </ul>
                         </div>
                     </div>
@@ -375,6 +430,17 @@ class Navbar {
                             <ul>
                                 <li><a href="${this.getLocalizedHref('blog.html')}" class="dropdown-link ${this.getActiveClassByStem('blog')}">${this.t('nav.blog', 'Blog')}</a></li>
                                 <li><a href="${this.getLocalizedHref('videos.html')}" class="dropdown-link ${this.getActiveClassByStem('videos')}">${this.t('nav.videos', 'Videos')}</a></li>
+                                <li><a href="${this.getLocalizedHref('resources.html')}" class="dropdown-link ${this.getActiveClassByStem('resources')}">${this.t('nav.productBriefs', 'Product Briefs')}</a></li>
+                                <li><a href="https://bookstack.elemento.cloud" class="dropdown-link" target="_blank" rel="noopener noreferrer">${this.t('nav.documentation', 'Documentation')}</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="dropdown-menu desktop-dropdown" data-nav-dropdown-panel="company">
+                        <div class="container">
+                            <ul>
+                                <li><a href="${this.getLocalizedHref('about.html')}" class="dropdown-link ${this.getActiveClassByStem('about')}">${this.t('nav.about', 'About')}</a></li>
+                                <li><a href="${this.getLocalizedHref('about.html')}#team" class="dropdown-link">${this.t('nav.team', 'Team')}</a></li>
+                                <li><a href="${this.getLocalizedHref('contact.html')}" class="dropdown-link ${this.getActiveClassByStem('contact')}">${this.t('nav.contact', 'Contact')}</a></li>
                             </ul>
                         </div>
                     </div>
@@ -479,17 +545,45 @@ class Navbar {
     }
 
     showSectionDropdowns() {
-        if (this.isProductPage()) {
-            document.querySelector('[data-nav-dropdown-panel="products"]')?.classList.add('show');
+        if (this.isPlatformPage()) {
+            document.querySelector('[data-nav-dropdown-panel="platform"]')?.classList.add('show');
+        }
+        if (this.isSolutionsPage()) {
+            document.querySelector('[data-nav-dropdown-panel="solutions"]')?.classList.add('show');
         }
         if (this.isResourcesPage()) {
             document.querySelector('[data-nav-dropdown-panel="resources"]')?.classList.add('show');
         }
+        if (this.isCompanyPage()) {
+            document.querySelector('[data-nav-dropdown-panel="company"]')?.classList.add('show');
+        }
+        this.restoreDropdownLayers();
+    }
+
+    setDropdownFront(panelId) {
+        document.querySelectorAll('.desktop-dropdown').forEach((menu) => {
+            const id = menu.getAttribute('data-nav-dropdown-panel');
+            menu.classList.toggle('is-front', id === panelId && menu.classList.contains('show'));
+        });
+    }
+
+    restoreDropdownLayers() {
+        document.querySelectorAll('.desktop-dropdown.is-front').forEach((menu) => {
+            menu.classList.remove('is-front');
+        });
+        const shown = [...document.querySelectorAll('.desktop-dropdown.show')];
+        if (shown.length === 0) return;
+        const pinned = shown.find((menu) =>
+            this.shouldKeepDropdownOpen(menu.getAttribute('data-nav-dropdown-panel'))
+        );
+        (pinned || shown[shown.length - 1]).classList.add('is-front');
     }
 
     shouldKeepDropdownOpen(panelId) {
-        if (panelId === 'products') return this.isProductPage();
+        if (panelId === 'platform') return this.isPlatformPage();
+        if (panelId === 'solutions') return this.isSolutionsPage();
         if (panelId === 'resources') return this.isResourcesPage();
+        if (panelId === 'company') return this.isCompanyPage();
         return false;
     }
 
@@ -498,7 +592,7 @@ class Navbar {
             const panelId = menu.getAttribute('data-nav-dropdown-panel');
             if (exceptPanelId && panelId === exceptPanelId) return;
             if (this.shouldKeepDropdownOpen(panelId)) return;
-            menu.classList.remove('show');
+            menu.classList.remove('show', 'is-front');
         });
     }
 
@@ -520,13 +614,15 @@ class Navbar {
                     clearTimeout(hideTimeout);
                     this.hideAllDesktopDropdowns(panelId);
                     desktopDropdownMenu.classList.add('show');
+                    this.setDropdownFront(panelId);
                 }
             });
 
             dropdown.addEventListener('mouseleave', () => {
                 if (window.innerWidth > 768 && !this.shouldKeepDropdownOpen(panelId)) {
                     hideTimeout = setTimeout(() => {
-                        desktopDropdownMenu.classList.remove('show');
+                        desktopDropdownMenu.classList.remove('show', 'is-front');
+                        this.restoreDropdownLayers();
                     }, 300);
                 }
             });
@@ -534,13 +630,15 @@ class Navbar {
             desktopDropdownMenu.addEventListener('mouseenter', () => {
                 if (window.innerWidth > 768) {
                     clearTimeout(hideTimeout);
+                    this.setDropdownFront(panelId);
                 }
             });
 
             desktopDropdownMenu.addEventListener('mouseleave', () => {
                 if (window.innerWidth > 768 && !this.shouldKeepDropdownOpen(panelId)) {
                     hideTimeout = setTimeout(() => {
-                        desktopDropdownMenu.classList.remove('show');
+                        desktopDropdownMenu.classList.remove('show', 'is-front');
+                        this.restoreDropdownLayers();
                     }, 300);
                 }
             });

@@ -1,0 +1,22 @@
+{
+  "page": "solutions_data-repatriation",
+  "count": 2,
+  "strings": [
+    {
+      "id": "meta.solutions_data-repatriation.description",
+      "en": "Make repatriation a policy decision instead of a re-engineering project.",
+      "it": "Rendi la repatriazione una decisione di policy invece di un progetto di re-ingegnerizzazione.",
+      "fr": "Faites du rapatriement une décision de politique plutôt qu'un projet de ré-ingénierie.",
+      "source": "solutions/data-repatriation.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.solutions_data-repatriation.title",
+      "en": "Move Workloads When Sovereignty Changes | Elemento",
+      "it": "Sposta i workload quando la sovranità cambia | Elemento",
+      "fr": "Déplacer les charges quand la souveraineté change | Elemento",
+      "source": "solutions/data-repatriation.html",
+      "context": "meta title"
+    }
+  ]
+}

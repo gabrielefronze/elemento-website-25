@@ -1,0 +1,479 @@
+{
+  "en": {
+    "hero": {
+      "tagline": "AI Infrastructure",
+      "title": "Govern AI Infrastructure Across Providers",
+      "subtitle": "Provision, monitor, and govern GPU resources across local, private, and federated infrastructure using the same operational model as conventional infrastructure.",
+      "primaryCTA": {
+        "text": "Plan an AI Infrastructure Strategy",
+        "link": "../contact.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Explore Electros",
+        "link": "../electros.html",
+        "icon": "fas fa-bolt"
+      }
+    },
+    "painPoints": {
+      "title": "AI & GPU Infrastructure Challenges You Face",
+      "subtitle": "Why GPU silos, idle capacity, and separate AI ops stacks slow regulated AI programmes",
+      "items": [
+        {
+          "icon": "fas fa-memory",
+          "title": "GPU Silos",
+          "description": "AI teams juggle separate tools for on-premises, Cloud, and federated GPU capacity."
+        },
+        {
+          "icon": "fas fa-balance-scale",
+          "title": "Allocation Inefficiency",
+          "description": "Expensive GPU resources sit idle while demand shifts between environments."
+        },
+        {
+          "icon": "fas fa-shield-alt",
+          "title": "Sovereign AI Constraints",
+          "description": "Regulated workloads cannot use public Cloud GPU without governance controls."
+        },
+        {
+          "icon": "fas fa-project-diagram",
+          "title": "Operational Divergence",
+          "description": "AI infrastructure runs on a different operational model than the rest of IT."
+        }
+      ]
+    },
+    "solution": {
+      "title": "AI Infrastructure Governance",
+      "description": "Provision, monitor, and govern GPU resources across local, private, and federated infrastructure.",
+      "items": [
+        {
+          "logo": "../assets/logos/Electros.svg",
+          "name": "Electros",
+          "description": "Govern GPU allocation, monitoring, and policy across all AI infrastructure endpoints."
+        },
+        {
+          "logo": "../assets/logos/Atomosphere.svg",
+          "name": "Atomosphere",
+          "description": "Federate GPU consumption across public, sovereign, and neocloud providers."
+        },
+        {
+          "logo": "../assets/logos/Atomosquare.svg",
+          "name": "Atomosquare",
+          "description": "Connect third-party hypervisor environments hosting GPU workloads into one model."
+        },
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Private AI infrastructure with GPU passthrough for sovereign and on-premises deployment."
+        }
+      ],
+      "cta": {
+        "text": "Plan an AI Infrastructure Strategy",
+        "link": "../contact.html"
+      }
+    },
+    "useCase": {
+      "title": "AI & GPU Infrastructure Journey",
+      "subtitle": "A structured approach with Elemento's Metacloud platform",
+      "items": [
+        {
+          "number": "1",
+          "title": "Inventory GPU Capacity",
+          "description": "Discover and catalogue GPU resources across local, private, and federated providers."
+        },
+        {
+          "number": "2",
+          "title": "Allocate by Policy",
+          "description": "Assign GPU resources with sovereignty, residency, and cost policies via Electros."
+        },
+        {
+          "number": "3",
+          "title": "Orchestrate Hybrid AI",
+          "description": "Run training and inference across environments with Atomosphere and AtomOS GPU passthrough."
+        },
+        {
+          "number": "4",
+          "title": "Govern & Optimise",
+          "description": "Monitor utilisation, enforce policies, and federate consumption without separate AI ops stacks."
+        }
+      ]
+    },
+    "stats": {
+      "title": "AI & GPU Infrastructure Impact",
+      "subtitle": "Real outcomes with the Metacloud platform",
+      "items": [
+        {
+          "label": "GPU Governance",
+          "value": "Unified",
+          "icon": "fas fa-microchip",
+          "color": "green"
+        },
+        {
+          "label": "Deployment Model",
+          "value": "Hybrid AI",
+          "icon": "fas fa-brain",
+          "color": "orange"
+        },
+        {
+          "label": "Sovereign AI",
+          "value": "Supported",
+          "icon": "fas fa-shield-alt",
+          "color": "blue"
+        }
+      ]
+    },
+    "faq": {
+      "title": "AI & GPU Infrastructure FAQ",
+      "subtitle": "Frequently asked questions about governing AI infrastructure with the Metacloud",
+      "items": [
+        {
+          "question": "Can Electros manage GPUs the same way as conventional infrastructure?",
+          "answer": "Yes. GPU resources are provisioned, monitored, and governed through the same Electros control plane as the rest of your infrastructure."
+        },
+        {
+          "question": "How does sovereign AI deployment work?",
+          "answer": "AtomOS provides GPU passthrough on infrastructure you control. Electros applies residency and access policies so regulated AI workloads stay compliant."
+        },
+        {
+          "question": "Can we federate GPU consumption across providers?",
+          "answer": "Atomosphere enables federated access to GPU capacity across connected providers while Electros maintains allocation and governance."
+        },
+        {
+          "question": "Do we need a separate MLOps platform?",
+          "answer": "Elemento governs the infrastructure layer. It integrates with your existing ML tooling while providing unified GPU operations and policy enforcement."
+        }
+      ]
+    },
+    "ctaFinal": {
+      "title": "Ready for AI & GPU Infrastructure?",
+      "subtitle": "Unify GPU governance across sovereign, private, and federated providers without a separate AI ops stack.",
+      "primaryCTA": {
+        "text": "Plan an AI Infrastructure Strategy",
+        "link": "../contact.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Schedule a Demo",
+        "link": "../contact.html",
+        "icon": "fas fa-calendar"
+      }
+    }
+  },
+  "it": {
+    "hero": {
+      "tagline": "Infrastruttura AI",
+      "title": "Governare l'infrastruttura AI tra i provider",
+      "subtitle": "Provisiona, monitora e governa risorse GPU su infrastruttura locale, privata e federata con lo stesso modello operativo dell'infrastruttura convenzionale.",
+      "primaryCTA": {
+        "text": "Pianifica una strategia infrastruttura AI",
+        "link": "../contact.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Esplora Electros",
+        "link": "../electros.html",
+        "icon": "fas fa-bolt"
+      }
+    },
+    "painPoints": {
+      "title": "Le sfide di Infrastruttura AI e GPU",
+      "subtitle": "Perché silos GPU, capacità inattiva e stack AI ops separati rallentano i programmi AI regolamentati",
+      "items": [
+        {
+          "icon": "fas fa-memory",
+          "title": "Silos GPU",
+          "description": "I team AI gestiscono strumenti separati per GPU on-premises, Cloud e federate."
+        },
+        {
+          "icon": "fas fa-balance-scale",
+          "title": "Inefficienza di allocazione",
+          "description": "Risorse GPU costose restano inattive mentre la domanda si sposta tra ambienti."
+        },
+        {
+          "icon": "fas fa-shield-alt",
+          "title": "Vincoli AI sovrana",
+          "description": "Workload regolamentati non possono usare GPU Cloud pubblico senza controlli di governance."
+        },
+        {
+          "icon": "fas fa-project-diagram",
+          "title": "Divergenza operativa",
+          "description": "L'infrastruttura AI gira su un modello operativo diverso dal resto dell'IT."
+        }
+      ]
+    },
+    "solution": {
+      "title": "Governance infrastruttura AI",
+      "description": "Provisiona, monitora e governa risorse GPU su infrastruttura locale, privata e federata.",
+      "items": [
+        {
+          "logo": "../assets/logos/Electros.svg",
+          "name": "Electros",
+          "description": "Governare allocazione, monitoraggio e policy GPU su tutti gli endpoint infrastruttura AI."
+        },
+        {
+          "logo": "../assets/logos/Atomosphere.svg",
+          "name": "Atomosphere",
+          "description": "Federare il consumo GPU su provider Cloud pubblici, sovrani e neocloud."
+        },
+        {
+          "logo": "../assets/logos/Atomosquare.svg",
+          "name": "Atomosquare",
+          "description": "Collega ambienti hypervisor di terze parti con workload GPU in un unico modello."
+        },
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Infrastruttura AI privata con GPU passthrough per deployment sovrano e on-premises."
+        }
+      ],
+      "cta": {
+        "text": "Pianifica una strategia infrastruttura AI",
+        "link": "../contact.html"
+      }
+    },
+    "useCase": {
+      "title": "Percorso Infrastruttura AI e GPU",
+      "subtitle": "Un approccio strutturato con il Metacloud Elemento",
+      "items": [
+        {
+          "number": "1",
+          "title": "Inventaria capacità GPU",
+          "description": "Scopri e cataloga risorse GPU su provider locali, privati e federati."
+        },
+        {
+          "number": "2",
+          "title": "Alloca per policy",
+          "description": "Assegna risorse GPU con policy di sovranità, residenza e costo via Electros."
+        },
+        {
+          "number": "3",
+          "title": "Orchestra AI ibrida",
+          "description": "Esegui training e inferenza tra ambienti con Atomosphere e GPU passthrough su AtomOS."
+        },
+        {
+          "number": "4",
+          "title": "Governare e ottimizzare",
+          "description": "Monitora utilizzo, applica policy e federazione del consumo senza stack AI ops separati."
+        }
+      ]
+    },
+    "stats": {
+      "title": "Impatto Infrastruttura AI e GPU",
+      "subtitle": "Risultati concreti con la piattaforma Metacloud",
+      "items": [
+        {
+          "label": "Governance GPU",
+          "value": "Unificata",
+          "icon": "fas fa-microchip",
+          "color": "green"
+        },
+        {
+          "label": "Modello di deployment",
+          "value": "AI ibrida",
+          "icon": "fas fa-brain",
+          "color": "orange"
+        },
+        {
+          "label": "AI sovrana",
+          "value": "Supportata",
+          "icon": "fas fa-shield-alt",
+          "color": "blue"
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ Infrastruttura AI e GPU",
+      "subtitle": "Domande frequenti sulla governance dell'infrastruttura AI con il Metacloud",
+      "items": [
+        {
+          "question": "Electros gestisce le GPU come l'infrastruttura convenzionale?",
+          "answer": "Sì. Le risorse GPU sono provisionate, monitorate e governate tramite lo stesso control plane Electros."
+        },
+        {
+          "question": "Come funziona il deployment AI sovrano?",
+          "answer": "AtomOS fornisce GPU passthrough su infrastruttura sotto il tuo controllo. Electros applica policy di residenza e accesso."
+        },
+        {
+          "question": "Possiamo federare il consumo GPU tra provider?",
+          "answer": "Atomosphere abilita accesso federato alla capacità GPU mantenendo allocazione e governance in Electros."
+        },
+        {
+          "question": "Serve una piattaforma MLOps separata?",
+          "answer": "Elemento governa il layer infrastrutturale e si integra con i tuoi strumenti ML esistenti."
+        }
+      ]
+    },
+    "ctaFinal": {
+      "title": "Pronto per Infrastruttura AI e GPU?",
+      "subtitle": "Unifica la governance GPU su provider sovrani, privati e federati senza uno stack AI ops separato.",
+      "primaryCTA": {
+        "text": "Pianifica una strategia infrastruttura AI",
+        "link": "../contact.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Pianifica una demo",
+        "link": "../contact.html",
+        "icon": "fas fa-calendar"
+      }
+    }
+  },
+  "fr": {
+    "hero": {
+      "tagline": "Infrastructure IA",
+      "title": "Gouverner l'infrastructure IA entre les fournisseurs",
+      "subtitle": "Provisionnez, supervisez et gouvernez les ressources GPU sur infrastructure locale, privée et fédérée avec le même modèle opérationnel que l'infrastructure conventionnelle.",
+      "primaryCTA": {
+        "text": "Planifier une stratégie infrastructure IA",
+        "link": "../contact.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Explorer Electros",
+        "link": "../electros.html",
+        "icon": "fas fa-bolt"
+      }
+    },
+    "painPoints": {
+      "title": "Les défis Infrastructure IA et GPU",
+      "subtitle": "Pourquoi les silos GPU, la capacité inactive et les stacks AI ops séparées freinent les programmes IA réglementés",
+      "items": [
+        {
+          "icon": "fas fa-memory",
+          "title": "Silos GPU",
+          "description": "Les équipes IA jonglent avec des outils séparés pour GPU on-premises, Cloud et fédérés."
+        },
+        {
+          "icon": "fas fa-balance-scale",
+          "title": "Inefficacité d'allocation",
+          "description": "Des GPU coûteux restent inactifs tandis que la demande se déplace entre environnements."
+        },
+        {
+          "icon": "fas fa-shield-alt",
+          "title": "Contraintes IA souveraine",
+          "description": "Les charges réglementées ne peuvent pas utiliser des GPU Cloud public sans contrôles de gouvernance."
+        },
+        {
+          "icon": "fas fa-project-diagram",
+          "title": "Divergence opérationnelle",
+          "description": "L'infrastructure IA fonctionne sur un modèle opérationnel différent du reste de l'IT."
+        }
+      ]
+    },
+    "solution": {
+      "title": "Gouvernance infrastructure IA",
+      "description": "Provisionnez, supervisez et gouvernez les ressources GPU sur infrastructure locale, privée et fédérée.",
+      "items": [
+        {
+          "logo": "../assets/logos/Electros.svg",
+          "name": "Electros",
+          "description": "Gouvernez allocation, supervision et politiques GPU sur tous les endpoints infrastructure IA."
+        },
+        {
+          "logo": "../assets/logos/Atomosphere.svg",
+          "name": "Atomosphere",
+          "description": "Fédérez la consommation GPU sur fournisseurs Cloud publics, souverains et neocloud."
+        },
+        {
+          "logo": "../assets/logos/Atomosquare.svg",
+          "name": "Atomosquare",
+          "description": "Connectez environnements hyperviseur tiers hébergeant des charges GPU dans un modèle unique."
+        },
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Infrastructure IA privée avec GPU passthrough pour déploiement souverain et on-premises."
+        }
+      ],
+      "cta": {
+        "text": "Planifier une stratégie infrastructure IA",
+        "link": "../contact.html"
+      }
+    },
+    "useCase": {
+      "title": "Parcours Infrastructure IA et GPU",
+      "subtitle": "Une approche structurée avec le Metacloud Elemento",
+      "items": [
+        {
+          "number": "1",
+          "title": "Inventorier la capacité GPU",
+          "description": "Découvrez et cataloguez les ressources GPU sur fournisseurs locaux, privés et fédérés."
+        },
+        {
+          "number": "2",
+          "title": "Allouer par politique",
+          "description": "Attribuez des ressources GPU avec politiques de souveraineté, résidence et coût via Electros."
+        },
+        {
+          "number": "3",
+          "title": "Orchestrer l'IA hybride",
+          "description": "Exécutez entraînement et inférence entre environnements avec Atomosphere et GPU passthrough sur AtomOS."
+        },
+        {
+          "number": "4",
+          "title": "Gouverner et optimiser",
+          "description": "Supervisez l'utilisation, appliquez les politiques et fédérez la consommation sans stack AI ops séparée."
+        }
+      ]
+    },
+    "stats": {
+      "title": "Impact Infrastructure IA et GPU",
+      "subtitle": "Résultats concrets avec la plateforme Metacloud",
+      "items": [
+        {
+          "label": "Gouvernance GPU",
+          "value": "Unifiée",
+          "icon": "fas fa-microchip",
+          "color": "green"
+        },
+        {
+          "label": "Modèle de déploiement",
+          "value": "IA hybride",
+          "icon": "fas fa-brain",
+          "color": "orange"
+        },
+        {
+          "label": "IA souveraine",
+          "value": "Prise en charge",
+          "icon": "fas fa-shield-alt",
+          "color": "blue"
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ Infrastructure IA et GPU",
+      "subtitle": "Questions fréquentes sur la gouvernance de l'infrastructure IA avec le Metacloud",
+      "items": [
+        {
+          "question": "Electros gère-t-il les GPU comme l'infrastructure conventionnelle ?",
+          "answer": "Oui. Les ressources GPU sont provisionnées, supervisées et gouvernées via le même plan de contrôle Electros."
+        },
+        {
+          "question": "Comment fonctionne le déploiement IA souverain ?",
+          "answer": "AtomOS fournit le GPU passthrough sur infrastructure sous votre contrôle. Electros applique résidence et accès."
+        },
+        {
+          "question": "Peut-on fédérer la consommation GPU entre fournisseurs ?",
+          "answer": "Atomosphere permet l'accès fédéré à la capacité GPU tout en maintenant allocation et gouvernance dans Electros."
+        },
+        {
+          "question": "Faut-il une plateforme MLOps séparée ?",
+          "answer": "Elemento gouverne la couche infrastructure et s'intègre à vos outils ML existants."
+        }
+      ]
+    },
+    "ctaFinal": {
+      "title": "Prêt pour Infrastructure IA et GPU ?",
+      "subtitle": "Unifiez la gouvernance GPU sur fournisseurs souverains, privés et fédérés sans stack AI ops séparée.",
+      "primaryCTA": {
+        "text": "Planifier une stratégie infrastructure IA",
+        "link": "../contact.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Planifier une démo",
+        "link": "../contact.html",
+        "icon": "fas fa-calendar"
+      }
+    }
+  }
+}

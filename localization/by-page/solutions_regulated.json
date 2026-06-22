@@ -284,17 +284,17 @@
     },
     {
       "id": "meta.solutions_regulated.description",
-      "en": "Run sensitive workloads across private and public clouds with full data governance. Elemento provides enterprise-grade security with built-in compliance for regulated industries.",
-      "it": "",
-      "fr": "",
+      "en": "Apply sovereignty, residency, and audit policies to healthcare, finance, and regulated workloads from one Metacloud control plane.",
+      "it": "Applica policy di sovranità, residenza e audit a workload sanitari, finanziari e regolamentati da un unico control plane Metacloud.",
+      "fr": "Appliquez souveraineté, résidence et audit aux charges santé, finance et réglementées depuis un plan de contrôle Metacloud unique.",
       "source": "solutions/regulated.html",
       "context": "meta description"
     },
     {
       "id": "meta.solutions_regulated.title",
-      "en": "Healthcare, Finance & Regulated Environments | Elemento",
-      "it": "",
-      "fr": "",
+      "en": "Compliance Without Hyperscaler Lock-In | Elemento",
+      "it": "Compliance senza lock-in degli hyperscaler | Elemento",
+      "fr": "Conformité sans verrouillage hyperscaler | Elemento",
       "source": "solutions/regulated.html",
       "context": "meta title"
     }

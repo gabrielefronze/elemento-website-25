@@ -1,0 +1,22 @@
+{
+  "page": "solutions_hybrid-multi-cloud",
+  "count": 2,
+  "strings": [
+    {
+      "id": "meta.solutions_hybrid-multi-cloud.description",
+      "en": "Manage public Cloud, private infrastructure, hypervisors, and edge environments without separate toolchains.",
+      "it": "Gestisci Cloud pubblico, infrastruttura privata, hypervisor ed edge senza toolchain separate.",
+      "fr": "Gérez Cloud public, infrastructure privée, hyperviseurs et edge sans chaînes d'outils séparées.",
+      "source": "solutions/hybrid-multi-cloud.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.solutions_hybrid-multi-cloud.title",
+      "en": "One Operating Model for Hybrid Infrastructure | Elemento",
+      "it": "Un modello operativo per l'infrastruttura ibrida | Elemento",
+      "fr": "Un modèle opérationnel pour l'infrastructure hybride | Elemento",
+      "source": "solutions/hybrid-multi-cloud.html",
+      "context": "meta title"
+    }
+  ]
+}

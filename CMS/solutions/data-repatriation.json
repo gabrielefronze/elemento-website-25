@@ -1,0 +1,479 @@
+{
+  "en": {
+    "hero": {
+      "tagline": "Data Repatriation",
+      "title": "Move Workloads When Sovereignty Changes",
+      "subtitle": "Make repatriation a policy decision instead of a re-engineering project.",
+      "primaryCTA": {
+        "text": "Build a Repatriation Plan",
+        "link": "../contact.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Sovereignty Resources",
+        "link": "../resources.html",
+        "icon": "fas fa-book"
+      }
+    },
+    "painPoints": {
+      "title": "Data Repatriation Challenges You Face",
+      "subtitle": "Why sovereignty shifts turn into re-engineering projects when placement is not policy-driven",
+      "items": [
+        {
+          "icon": "fas fa-globe-americas",
+          "title": "Regulatory Shifts",
+          "description": "Geopolitical and regulatory changes force workload relocation with little warning."
+        },
+        {
+          "icon": "fas fa-code",
+          "title": "Re-Architecture Burden",
+          "description": "Traditional repatriation requires application redesign and months of engineering."
+        },
+        {
+          "icon": "fas fa-eye-slash",
+          "title": "Governance Loss",
+          "description": "Moving workloads between providers often breaks audit trails and policy continuity."
+        },
+        {
+          "icon": "fas fa-random",
+          "title": "US ↔ EU Complexity",
+          "description": "Shifting workloads between US and EU providers involves incompatible operational models."
+        }
+      ]
+    },
+    "solution": {
+      "title": "Policy-Driven Repatriation",
+      "description": "Move workloads when sovereignty changes without re-engineering or losing governance.",
+      "items": [
+        {
+          "logo": "../assets/logos/Electros.svg",
+          "name": "Electros",
+          "description": "Policy-driven repatriation with governance preserved throughout migration."
+        },
+        {
+          "logo": "../assets/logos/Atomosphere.svg",
+          "name": "Atomosphere",
+          "description": "Move workloads between US, EU, and sovereign Cloud providers under one model."
+        },
+        {
+          "logo": "../assets/logos/Atomosquare.svg",
+          "name": "Atomosquare",
+          "description": "Repatriate from public Cloud to on-premises hypervisor estates seamlessly."
+        },
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Sovereign on-premises execution target for repatriated workloads."
+        }
+      ],
+      "cta": {
+        "text": "Build a Repatriation Plan",
+        "link": "../contact.html"
+      }
+    },
+    "useCase": {
+      "title": "Data Repatriation Journey",
+      "subtitle": "A structured approach with Elemento's Metacloud platform",
+      "items": [
+        {
+          "number": "1",
+          "title": "Assess Exposure",
+          "description": "Identify workloads affected by sovereignty, residency, or geopolitical policy changes."
+        },
+        {
+          "number": "2",
+          "title": "Plan Repatriation",
+          "description": "Define target environments and migration paths without application re-architecture."
+        },
+        {
+          "number": "3",
+          "title": "Migrate with Governance",
+          "description": "Move workloads between US and EU providers or from public Cloud to on-premises while preserving policies."
+        },
+        {
+          "number": "4",
+          "title": "Validate Compliance",
+          "description": "Confirm residency, audit, and operational continuity in the target environment."
+        }
+      ]
+    },
+    "stats": {
+      "title": "Data Repatriation Impact",
+      "subtitle": "Real outcomes with the Metacloud platform",
+      "items": [
+        {
+          "label": "Migration Driver",
+          "value": "Policy",
+          "icon": "fas fa-gavel",
+          "color": "green"
+        },
+        {
+          "label": "Re-Architecture",
+          "value": "Avoided",
+          "icon": "fas fa-code",
+          "color": "orange"
+        },
+        {
+          "label": "Governance",
+          "value": "Preserved",
+          "icon": "fas fa-shield-alt",
+          "color": "blue"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Data Repatriation FAQ",
+      "subtitle": "Frequently asked questions about data and workload repatriation with the Metacloud",
+      "items": [
+        {
+          "question": "Can we repatriate without re-architecting applications?",
+          "answer": "Yes. Elemento treats repatriation as a policy and placement decision. Workloads move between providers while governance and operational models stay consistent."
+        },
+        {
+          "question": "How do we move workloads from US to EU providers?",
+          "answer": "Atomosphere orchestrates placement across regions and providers. Electros enforces residency and jurisdiction policies throughout the migration."
+        },
+        {
+          "question": "Can we move from public Cloud back to on-premises?",
+          "answer": "Atomosquare and AtomOS provide the on-premises target. Migration preserves governance rather than requiring a new operational stack."
+        },
+        {
+          "question": "What triggers a repatriation plan?",
+          "answer": "Regulatory changes, geopolitical shifts, cost optimisation, or internal sovereignty policies. Elemento lets you react with a plan instead of a re-engineering project."
+        }
+      ]
+    },
+    "ctaFinal": {
+      "title": "Ready for Data Repatriation?",
+      "subtitle": "React to regulatory and geopolitical change with a repatriation plan, not a rebuild.",
+      "primaryCTA": {
+        "text": "Build a Repatriation Plan",
+        "link": "../contact.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Schedule a Demo",
+        "link": "../contact.html",
+        "icon": "fas fa-calendar"
+      }
+    }
+  },
+  "it": {
+    "hero": {
+      "tagline": "Repatriazione dati",
+      "title": "Sposta i workload quando la sovranità cambia",
+      "subtitle": "Rendi la repatriazione una decisione di policy invece di un progetto di re-ingegnerizzazione.",
+      "primaryCTA": {
+        "text": "Costruisci un piano di repatriazione",
+        "link": "../contact.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Risorse sovranità",
+        "link": "../resources.html",
+        "icon": "fas fa-book"
+      }
+    },
+    "painPoints": {
+      "title": "Le sfide di Repatriazione dati",
+      "subtitle": "Perché i cambiamenti di sovranità diventano progetti di re-ingegnerizzazione senza placement guidato da policy",
+      "items": [
+        {
+          "icon": "fas fa-globe-americas",
+          "title": "Cambiamenti normativi",
+          "description": "Cambiamenti geopolitici e normativi forzano relocation dei workload con poco preavviso."
+        },
+        {
+          "icon": "fas fa-code",
+          "title": "Carico di re-architettura",
+          "description": "La repatriazione tradizionale richiede redesign applicativo e mesi di ingegneria."
+        },
+        {
+          "icon": "fas fa-eye-slash",
+          "title": "Perdita di governance",
+          "description": "Spostare workload tra provider spesso interrompe audit trail e continuità delle policy."
+        },
+        {
+          "icon": "fas fa-random",
+          "title": "Complessità US ↔ EU",
+          "description": "Spostare workload tra provider US e EU comporta modelli operativi incompatibili."
+        }
+      ]
+    },
+    "solution": {
+      "title": "Repatriazione guidata da policy",
+      "description": "Sposta workload quando la sovranità cambia senza re-ingegnerizzazione o perdita di governance.",
+      "items": [
+        {
+          "logo": "../assets/logos/Electros.svg",
+          "name": "Electros",
+          "description": "Repatriazione guidata da policy con governance preservata durante la migrazione."
+        },
+        {
+          "logo": "../assets/logos/Atomosphere.svg",
+          "name": "Atomosphere",
+          "description": "Sposta workload tra provider Cloud US, EU e sovrani sotto un unico modello."
+        },
+        {
+          "logo": "../assets/logos/Atomosquare.svg",
+          "name": "Atomosquare",
+          "description": "Repatria da Cloud pubblico a patrimoni hypervisor on-premises senza attrito."
+        },
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Target di esecuzione sovrano on-premises per workload repatriati."
+        }
+      ],
+      "cta": {
+        "text": "Costruisci un piano di repatriazione",
+        "link": "../contact.html"
+      }
+    },
+    "useCase": {
+      "title": "Percorso Repatriazione dati",
+      "subtitle": "Un approccio strutturato con il Metacloud Elemento",
+      "items": [
+        {
+          "number": "1",
+          "title": "Valuta l'esposizione",
+          "description": "Identifica workload colpiti da cambiamenti di sovranità, residenza o policy geopolitiche."
+        },
+        {
+          "number": "2",
+          "title": "Pianifica la repatriazione",
+          "description": "Definisci ambienti target e percorsi di migrazione senza re-architettura applicativa."
+        },
+        {
+          "number": "3",
+          "title": "Migra con governance",
+          "description": "Sposta workload tra provider US/EU o da Cloud pubblico a on-premises preservando le policy."
+        },
+        {
+          "number": "4",
+          "title": "Valida la compliance",
+          "description": "Conferma residenza, audit e continuità operativa nell'ambiente target."
+        }
+      ]
+    },
+    "stats": {
+      "title": "Impatto Repatriazione dati",
+      "subtitle": "Risultati concreti con la piattaforma Metacloud",
+      "items": [
+        {
+          "label": "Driver migrazione",
+          "value": "Policy",
+          "icon": "fas fa-gavel",
+          "color": "green"
+        },
+        {
+          "label": "Re-architettura",
+          "value": "Evitata",
+          "icon": "fas fa-code",
+          "color": "orange"
+        },
+        {
+          "label": "Governance",
+          "value": "Preservata",
+          "icon": "fas fa-shield-alt",
+          "color": "blue"
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ Repatriazione dati",
+      "subtitle": "Domande frequenti sulla repatriazione di dati e workload con il Metacloud",
+      "items": [
+        {
+          "question": "Possiamo repatriare senza re-architettare le applicazioni?",
+          "answer": "Sì. Elemento tratta la repatriazione come decisione di placement. I workload si spostano mantenendo modelli operativi coerenti."
+        },
+        {
+          "question": "Come spostiamo workload da provider US a EU?",
+          "answer": "Atomosphere orchestra il placement tra regioni e provider. Electros applica policy di residenza e giurisdizione."
+        },
+        {
+          "question": "Possiamo tornare da Cloud pubblico a on-premises?",
+          "answer": "Atomosquare e AtomOS forniscono il target on-premises preservando la governance."
+        },
+        {
+          "question": "Cosa attiva un piano di repatriazione?",
+          "answer": "Cambiamenti normativi, geopolitici, costi o policy interne. Elemento ti permette di reagire con un piano."
+        }
+      ]
+    },
+    "ctaFinal": {
+      "title": "Pronto per Repatriazione dati?",
+      "subtitle": "Reagisci ai cambiamenti normativi e geopolitici con un piano di repatriazione, non una ricostruzione.",
+      "primaryCTA": {
+        "text": "Costruisci un piano di repatriazione",
+        "link": "../contact.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Pianifica una demo",
+        "link": "../contact.html",
+        "icon": "fas fa-calendar"
+      }
+    }
+  },
+  "fr": {
+    "hero": {
+      "tagline": "Rapatriement des données",
+      "title": "Déplacer les charges quand la souveraineté change",
+      "subtitle": "Faites du rapatriement une décision de politique plutôt qu'un projet de ré-ingénierie.",
+      "primaryCTA": {
+        "text": "Élaborer un plan de rapatriement",
+        "link": "../contact.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Ressources souveraineté",
+        "link": "../resources.html",
+        "icon": "fas fa-book"
+      }
+    },
+    "painPoints": {
+      "title": "Les défis Rapatriement des données",
+      "subtitle": "Pourquoi les changements de souveraineté deviennent des projets de ré-ingénierie sans placement piloté par politique",
+      "items": [
+        {
+          "icon": "fas fa-globe-americas",
+          "title": "Évolutions réglementaires",
+          "description": "Changements géopolitiques et réglementaires imposent des relocations de charges avec peu de préavis."
+        },
+        {
+          "icon": "fas fa-code",
+          "title": "Charge de ré-architecture",
+          "description": "Le rapatriement traditionnel exige une refonte applicative et des mois d'ingénierie."
+        },
+        {
+          "icon": "fas fa-eye-slash",
+          "title": "Perte de gouvernance",
+          "description": "Déplacer des charges entre fournisseurs interrompt souvent pistes d'audit et continuité des politiques."
+        },
+        {
+          "icon": "fas fa-random",
+          "title": "Complexité US ↔ EU",
+          "description": "Basculer entre fournisseurs US et EU implique des modèles opérationnels incompatibles."
+        }
+      ]
+    },
+    "solution": {
+      "title": "Rapatriement piloté par politique",
+      "description": "Déplacez les charges quand la souveraineté change sans ré-ingénierie ni perte de gouvernance.",
+      "items": [
+        {
+          "logo": "../assets/logos/Electros.svg",
+          "name": "Electros",
+          "description": "Rapatriement piloté par politique avec gouvernance préservée tout au long de la migration."
+        },
+        {
+          "logo": "../assets/logos/Atomosphere.svg",
+          "name": "Atomosphere",
+          "description": "Déplacez charges entre fournisseurs Cloud US, EU et souverains sous un modèle unique."
+        },
+        {
+          "logo": "../assets/logos/Atomosquare.svg",
+          "name": "Atomosquare",
+          "description": "Rapatriez du Cloud public vers patrimoines hyperviseur on-premises sans friction."
+        },
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Cible d'exécution souveraine on-premises pour charges rapatriées."
+        }
+      ],
+      "cta": {
+        "text": "Élaborer un plan de rapatriement",
+        "link": "../contact.html"
+      }
+    },
+    "useCase": {
+      "title": "Parcours Rapatriement des données",
+      "subtitle": "Une approche structurée avec le Metacloud Elemento",
+      "items": [
+        {
+          "number": "1",
+          "title": "Évaluer l'exposition",
+          "description": "Identifiez les charges affectées par changements de souveraineté, résidence ou politiques géopolitiques."
+        },
+        {
+          "number": "2",
+          "title": "Planifier le rapatriement",
+          "description": "Définissez environnements cibles et chemins de migration sans ré-architecture applicative."
+        },
+        {
+          "number": "3",
+          "title": "Migrer avec gouvernance",
+          "description": "Déplacez charges entre fournisseurs US/EU ou du Cloud public vers on-premises en préservant les politiques."
+        },
+        {
+          "number": "4",
+          "title": "Valider la conformité",
+          "description": "Confirmez résidence, audit et continuité opérationnelle dans l'environnement cible."
+        }
+      ]
+    },
+    "stats": {
+      "title": "Impact Rapatriement des données",
+      "subtitle": "Résultats concrets avec la plateforme Metacloud",
+      "items": [
+        {
+          "label": "Moteur de migration",
+          "value": "Politique",
+          "icon": "fas fa-gavel",
+          "color": "green"
+        },
+        {
+          "label": "Ré-architecture",
+          "value": "Évitée",
+          "icon": "fas fa-code",
+          "color": "orange"
+        },
+        {
+          "label": "Gouvernance",
+          "value": "Préservée",
+          "icon": "fas fa-shield-alt",
+          "color": "blue"
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ Rapatriement des données",
+      "subtitle": "Questions fréquentes sur le rapatriement de données et charges avec le Metacloud",
+      "items": [
+        {
+          "question": "Peut-on rapatrier sans ré-architecturer les applications ?",
+          "answer": "Oui. Elemento traite le rapatriement comme une décision de placement. Les charges se déplacent avec des modèles opérationnels cohérents."
+        },
+        {
+          "question": "Comment déplacer des charges de fournisseurs US vers EU ?",
+          "answer": "Atomosphere orchestre le placement entre régions et fournisseurs. Electros applique résidence et juridiction."
+        },
+        {
+          "question": "Peut-on revenir du Cloud public vers on-premises ?",
+          "answer": "Atomosquare et AtomOS fournissent la cible on-premises en préservant la gouvernance."
+        },
+        {
+          "question": "Qu'est-ce qui déclenche un plan de rapatriement ?",
+          "answer": "Changements réglementaires, géopolitiques, coûts ou politiques internes. Elemento permet de réagir avec un plan."
+        }
+      ]
+    },
+    "ctaFinal": {
+      "title": "Prêt pour Rapatriement des données ?",
+      "subtitle": "Réagissez aux changements réglementaires et géopolitiques avec un plan de rapatriement, pas une reconstruction.",
+      "primaryCTA": {
+        "text": "Élaborer un plan de rapatriement",
+        "link": "../contact.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Planifier une démo",
+        "link": "../contact.html",
+        "icon": "fas fa-calendar"
+      }
+    }
+  }
+}

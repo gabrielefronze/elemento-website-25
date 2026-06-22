@@ -1,10 +1,18 @@
 {
   "page": "index",
-  "count": 161,
+  "count": 105,
   "strings": [
     {
+      "id": "body.index.blockquote.1",
+      "en": "VMware abstracted servers. Kubernetes abstracted containers. Elemento abstracts infrastructure providers.",
+      "it": "",
+      "fr": "",
+      "source": "index.html",
+      "context": "<blockquote>"
+    },
+    {
       "id": "body.index.button.1",
-      "en": "How does Elemento differ from traditional cloud providers? ▼",
+      "en": "What is the Metacloud? ▼",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -68,7 +76,7 @@
     },
     {
       "id": "body.index.faq.q.1",
-      "en": "How does Elemento differ from traditional cloud providers?",
+      "en": "What is the Metacloud?",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -132,7 +140,7 @@
     },
     {
       "id": "body.index.h1.1",
-      "en": "Build and Run Your Own Cloud Infrastructure with No Lock-In",
+      "en": "The Infrastructure Layer After Cloud.",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -156,7 +164,7 @@
     },
     {
       "id": "body.index.h2.2",
-      "en": "Your Cloud , Your Control",
+      "en": "Why Now ?",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -164,7 +172,7 @@
     },
     {
       "id": "body.index.h2.3",
-      "en": "Meet the Cloud Factory Components",
+      "en": "The Metacloud Architecture",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -172,7 +180,7 @@
     },
     {
       "id": "body.index.h2.4",
-      "en": "Inside the Elemento Cloud Architecture",
+      "en": "Adopt the Metacloud at Your Own Pace",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -180,7 +188,7 @@
     },
     {
       "id": "body.index.h2.5",
-      "en": "Technical Specifications",
+      "en": "How the Metacloud Works",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -188,7 +196,7 @@
     },
     {
       "id": "body.index.h2.6",
-      "en": "Why choose us",
+      "en": "Built in Europe. Designed for Sovereignty.",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -196,7 +204,7 @@
     },
     {
       "id": "body.index.h2.7",
-      "en": "Perfect For Your Use Case",
+      "en": "Solutions for Every Infrastructure Challenge",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -212,7 +220,7 @@
     },
     {
       "id": "body.index.h2.9",
-      "en": "Ready to Transform Your Infrastructure?",
+      "en": "Ready to Federate Your Infrastructure?",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -220,7 +228,7 @@
     },
     {
       "id": "body.index.h3.1",
-      "en": "Escape vendor lock-in",
+      "en": "Infrastructure Dependency Crisis",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -228,7 +236,7 @@
     },
     {
       "id": "body.index.h3.10",
-      "en": "AtomOS Host Requirements",
+      "en": "Contracts, not clouds",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -236,7 +244,7 @@
     },
     {
       "id": "body.index.h3.11",
-      "en": "Supported Guests",
+      "en": "Operational control",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -244,7 +252,7 @@
     },
     {
       "id": "body.index.h3.12",
-      "en": "Cloud Providers & Federation",
+      "en": "VMware Exit",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -252,7 +260,7 @@
     },
     {
       "id": "body.index.h3.13",
-      "en": "Clustering & Networking",
+      "en": "Sovereign Cloud Governance",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -260,7 +268,7 @@
     },
     {
       "id": "body.index.h3.14",
-      "en": "Storage",
+      "en": "Hybrid & Multi-Cloud",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -268,7 +276,7 @@
     },
     {
       "id": "body.index.h3.15",
-      "en": "Security & Compliance",
+      "en": "AI / GPU Infrastructure",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -276,7 +284,7 @@
     },
     {
       "id": "body.index.h3.16",
-      "en": "Management & Tooling",
+      "en": "Service Providers & Neoclouds",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -284,7 +292,7 @@
     },
     {
       "id": "body.index.h3.17",
-      "en": "Performance",
+      "en": "Cross-Provider DR",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -292,15 +300,7 @@
     },
     {
       "id": "body.index.h3.18",
-      "en": "Startups & Scale-ups",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<h3>"
-    },
-    {
-      "id": "body.index.h3.19",
-      "en": "Enterprise Migration",
+      "en": "Data Repatriation",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -308,39 +308,7 @@
     },
     {
       "id": "body.index.h3.2",
-      "en": "Spin up your cloud everywhere",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<h3>"
-    },
-    {
-      "id": "body.index.h3.20",
-      "en": "DevOps Teams",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<h3>"
-    },
-    {
-      "id": "body.index.h3.21",
-      "en": "Data Science & AI",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<h3>"
-    },
-    {
-      "id": "body.index.h3.22",
-      "en": "Global Applications",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<h3>"
-    },
-    {
-      "id": "body.index.h3.23",
-      "en": "Compliance & Security",
+      "en": "Digital Sovereignty Imperative",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -348,7 +316,7 @@
     },
     {
       "id": "body.index.h3.3",
-      "en": "Unified management & total control",
+      "en": "AI Infrastructure Fragmentation",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -356,7 +324,7 @@
     },
     {
       "id": "body.index.h3.4",
-      "en": "Composable cloud infrastructure",
+      "en": "Connect",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -364,7 +332,7 @@
     },
     {
       "id": "body.index.h3.5",
-      "en": "Cost efficiency",
+      "en": "Manage",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -372,7 +340,7 @@
     },
     {
       "id": "body.index.h3.6",
-      "en": "Sovereignty , Security, Compliance",
+      "en": "Optimise",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -380,7 +348,7 @@
     },
     {
       "id": "body.index.h3.7",
-      "en": "AtomOS",
+      "en": "Provider abstraction",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -388,7 +356,7 @@
     },
     {
       "id": "body.index.h3.8",
-      "en": "Electros",
+      "en": "Sovereignty without isolation",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -396,7 +364,7 @@
     },
     {
       "id": "body.index.h3.9",
-      "en": "Atomosphere",
+      "en": "Integration by symmetry",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -404,7 +372,7 @@
     },
     {
       "id": "body.index.h4.1",
-      "en": "The Hypervisor That Works Like a Cloud Kernel",
+      "en": "Electros™",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -412,7 +380,7 @@
     },
     {
       "id": "body.index.h4.2",
-      "en": "Your Cloud Control Center",
+      "en": "C4 Protocol",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -420,7 +388,15 @@
     },
     {
       "id": "body.index.h4.3",
-      "en": "The API Layer for Federated Cloud",
+      "en": "Atomosphere™",
+      "it": "",
+      "fr": "",
+      "source": "index.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.index.h4.4",
+      "en": "Atomosquare™",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -428,87 +404,7 @@
     },
     {
       "id": "body.index.li.1",
-      "en": "64-bit x86_64 CPU with Intel VT-x or AMD-V",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<li>"
-    },
-    {
-      "id": "body.index.li.10",
-      "en": "Nested virtualization (GCP, AWS, Azure bare metal)",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<li>"
-    },
-    {
-      "id": "body.index.li.11",
-      "en": "GPU-accelerated guests via automatic passthrough",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<li>"
-    },
-    {
-      "id": "body.index.li.12",
-      "en": "AWS EC2, EBS & Bare Metal",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<li>"
-    },
-    {
-      "id": "body.index.li.13",
-      "en": "Azure VMs, Disks & Bare Metal",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<li>"
-    },
-    {
-      "id": "body.index.li.14",
-      "en": "Google Cloud Compute & Persistent Disk",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<li>"
-    },
-    {
-      "id": "body.index.li.15",
-      "en": "10+ CSPs unified via Atomosphere",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<li>"
-    },
-    {
-      "id": "body.index.li.16",
-      "en": "235+ data centers reachable through Atomosphere",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<li>"
-    },
-    {
-      "id": "body.index.li.17",
-      "en": "On-premises, colocation and edge nodes",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<li>"
-    },
-    {
-      "id": "body.index.li.18",
-      "en": "Autonomous clustering with C4 protocol",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<li>"
-    },
-    {
-      "id": "body.index.li.19",
-      "en": "Zero centralized services — no controller VM required",
+      "en": "Operating since 2021",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -516,87 +412,7 @@
     },
     {
       "id": "body.index.li.2",
-      "en": "4 GB RAM minimum (8 GB+ recommended)",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<li>"
-    },
-    {
-      "id": "body.index.li.20",
-      "en": "Live VM migration across nodes",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<li>"
-    },
-    {
-      "id": "body.index.li.21",
-      "en": "Software-defined networking & VLAN segmentation",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<li>"
-    },
-    {
-      "id": "body.index.li.22",
-      "en": "Multi-region & hybrid (public + private) deployments",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<li>"
-    },
-    {
-      "id": "body.index.li.23",
-      "en": "Local block storage on compute nodes",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<li>"
-    },
-    {
-      "id": "body.index.li.24",
-      "en": "Distributed storage via ZFS and GlusterFS modules",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<li>"
-    },
-    {
-      "id": "body.index.li.25",
-      "en": "Dedicated storage-only nodes (AlmaLinux 9 / Ubuntu &ge;24)",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<li>"
-    },
-    {
-      "id": "body.index.li.26",
-      "en": "Snapshotting, thin provisioning and live resize",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<li>"
-    },
-    {
-      "id": "body.index.li.27",
-      "en": "Integration with cloud block storage (EBS, Azure Disks, GCP PD)",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<li>"
-    },
-    {
-      "id": "body.index.li.28",
-      "en": "Secure Boot and ECC memory support",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<li>"
-    },
-    {
-      "id": "body.index.li.29",
-      "en": "GPU passthrough with IOMMU isolation",
+      "en": "10 published patents",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -604,87 +420,7 @@
     },
     {
       "id": "body.index.li.3",
-      "en": "20 GB+ free disk space",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<li>"
-    },
-    {
-      "id": "body.index.li.30",
-      "en": "Upstream Linux security updates (no vendor backports)",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<li>"
-    },
-    {
-      "id": "body.index.li.31",
-      "en": "Data sovereignty via self-hostable deployments",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<li>"
-    },
-    {
-      "id": "body.index.li.32",
-      "en": "Role-based access control through Electros",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<li>"
-    },
-    {
-      "id": "body.index.li.33",
-      "en": "Electros desktop: Linux AppImage, macOS (Intel / Apple Silicon), Windows 10/11 x64, .deb packages",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<li>"
-    },
-    {
-      "id": "body.index.li.34",
-      "en": "Electros CLI via pip install elemento-cli (Python 3.9+)",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<li>"
-    },
-    {
-      "id": "body.index.li.35",
-      "en": "Local Cockpit-based Web UI on :9090",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<li>"
-    },
-    {
-      "id": "body.index.li.36",
-      "en": "Unified REST API through the Elemento gateway",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<li>"
-    },
-    {
-      "id": "body.index.li.37",
-      "en": "Terraform / IaC-ready for DevOps pipelines",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<li>"
-    },
-    {
-      "id": "body.index.li.38",
-      "en": "Sub-second VM provisioning",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<li>"
-    },
-    {
-      "id": "body.index.li.39",
-      "en": "+70% VM CPU performance vs. legacy stacks",
+      "en": "30+ enterprise customers",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -692,39 +428,7 @@
     },
     {
       "id": "body.index.li.4",
-      "en": "AlmaLinux 9 / Rocky Linux 9 (compute & full)",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<li>"
-    },
-    {
-      "id": "body.index.li.40",
-      "en": "1000+ VMs per host at scale",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<li>"
-    },
-    {
-      "id": "body.index.li.41",
-      "en": "99.9% uptime SLA with autonomous failover",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<li>"
-    },
-    {
-      "id": "body.index.li.42",
-      "en": "Real-time cross-CSP cost comparison",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<li>"
-    },
-    {
-      "id": "body.index.li.43",
-      "en": "Dynamic auto-scaling & multi-region deployment",
+      "en": "Backed by CDP Venture Capital",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -732,39 +436,7 @@
     },
     {
       "id": "body.index.li.5",
-      "en": "AlmaLinux 9, Rocky 9 or Ubuntu &ge;24 (storage nodes)",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<li>"
-    },
-    {
-      "id": "body.index.li.6",
-      "en": "Mainline Linux kernel, RHEL-compliant userspace",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<li>"
-    },
-    {
-      "id": "body.index.li.7",
-      "en": "Linux: Ubuntu, AlmaLinux, Rocky, RHEL, Debian, CentOS",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<li>"
-    },
-    {
-      "id": "body.index.li.8",
-      "en": "Windows Server 2019 / 2022, Windows 10 / 11",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<li>"
-    },
-    {
-      "id": "body.index.li.9",
-      "en": "BSD family and custom KVM-compatible images",
+      "en": "Strategic technology partners across cloud infrastructure",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -772,7 +444,7 @@
     },
     {
       "id": "body.index.p.1",
-      "en": "Ready. Set. Cloud.",
+      "en": "Elemento. The Metacloud.",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -780,7 +452,7 @@
     },
     {
       "id": "body.index.p.10",
-      "en": "Operate where you need with enterprise-grade security and full control - complete freedom to choose your deployment strategy",
+      "en": "Metacloud Control Plane",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -788,7 +460,7 @@
     },
     {
       "id": "body.index.p.11",
-      "en": "Production-grade, KVM-based hypervisor for running VMs on bare metal, edge, or enterprise clusters. Deploy in minutes with enterprise-grade security, GPU passthrough support, and full RHEL compatibility.",
+      "en": "Interoperability Layer",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -796,7 +468,7 @@
     },
     {
       "id": "body.index.p.12",
-      "en": "Unified GUI and CLI to deploy, monitor, and orchestrate virtual machines across any cloud or infrastructure. Control your entire cloud environment from one intuitive interface with real-time insights, automated scaling, and cross-platform compatibility.",
+      "en": "Cloud Provider Fabric",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -804,7 +476,7 @@
     },
     {
       "id": "body.index.p.13",
-      "en": "Unified API that maps every cloud provider into a single programmable interface for seamless orchestration. Access 235+ data centers worldwide with intelligent cost optimization and dynamic failover capabilities.",
+      "en": "Hypervisor Fabric",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -812,7 +484,7 @@
     },
     {
       "id": "body.index.p.14",
-      "en": "From hypervisors to APIs, every layer is programmable and vendor-neutral.",
+      "en": "Organisations can enter at Stage 1 and progress at their own pace. There is no requirement to transform the estate upfront, replatform applications or standardise every provider before realising value.",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -820,7 +492,7 @@
     },
     {
       "id": "body.index.p.15",
-      "en": "Loading diagram...",
+      "en": "Connect existing infrastructures, clouds and services without replacement.",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -828,7 +500,7 @@
     },
     {
       "id": "body.index.p.16",
-      "en": "Enterprise-grade infrastructure designed for modern cloud-native applications. Full reference available in our technical documentation .",
+      "en": "Introduce visibility, governance, policy enforcement and federation controls.",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -836,7 +508,7 @@
     },
     {
       "id": "body.index.p.17",
-      "en": "How AtomOS compares to the industry-leading virtualization platform",
+      "en": "Enable workload mobility, brokerage, sovereignty policies and intelligent placement.",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -844,7 +516,7 @@
     },
     {
       "id": "body.index.p.18",
-      "en": "Whether you're a startup scaling rapidly or an enterprise modernizing legacy systems, Elemento adapts to your needs. Discover our advanced technology stack and read success stories on our blog .",
+      "en": "Elemento abstracts providers themselves — cloud, hypervisors and CMPs — through one sovereign control plane.",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -852,7 +524,7 @@
     },
     {
       "id": "body.index.p.19",
-      "en": "Launch quickly without vendor lock-in. Scale efficiently as you grow with predictable costs and full control over your infrastructure. Set your rules for deployment and enjoy complete freedom from vendor constraints. Perfect for rapid prototyping and MVP development.",
+      "en": "Sovereignty becomes a workload policy, not a provider decision.",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -860,7 +532,7 @@
     },
     {
       "id": "body.index.p.2",
-      "en": "Elemento lets you build and run your own cloud infrastructure with complete freedom. You choose where it runs and we automate everything for you. Your cloud. Your rules, Your freedom.",
+      "en": "Govern, orchestrate and optimise infrastructure across public clouds, private clouds, sovereign providers, hypervisors and native AtomOS environments — through one sovereign control plane.",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -868,7 +540,7 @@
     },
     {
       "id": "body.index.p.20",
-      "en": "Modernize legacy applications with minimal disruption. Migrate to cloud-native architecture while maintaining compliance and security. Define your rules for governance and enjoy the freedom to choose your cloud strategy. Support for hybrid and multi-cloud strategies.",
+      "en": "Elemento conforms to provider APIs while preserving existing investments. No forced replatforming.",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -876,7 +548,7 @@
     },
     {
       "id": "body.index.p.21",
-      "en": "Streamline CI/CD pipelines with infrastructure as code. Deploy faster with automated provisioning and monitoring. Integrate with existing tools and workflows seamlessly.",
+      "en": "Declare outcomes through portable C4 contracts. The Metacloud activates the best implementation.",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -884,7 +556,7 @@
     },
     {
       "id": "body.index.p.22",
-      "en": "Accelerate machine learning workflows with GPU-optimized infrastructure. Scale compute resources on-demand and manage data pipelines efficiently across multiple environments.",
+      "en": "Electros provides one interface, one operational model and one control surface across all infrastructure.",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -892,7 +564,7 @@
     },
     {
       "id": "body.index.p.23",
-      "en": "Deploy applications globally with edge computing capabilities. Reduce latency and improve user experience with intelligent workload distribution across 235+ data centers.",
+      "en": "Executive pain points mapped to the Metacloud — Electros at the centre, fabrics on each side.",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -900,7 +572,7 @@
     },
     {
       "id": "body.index.p.24",
-      "en": "Meet strict regulatory requirements with compliance-ready infrastructure. Deploy in sovereign regions with end-to-end encryption and comprehensive audit trails.",
+      "en": "Exit VMware without entering another lock-in cycle.",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -908,7 +580,7 @@
     },
     {
       "id": "body.index.p.25",
-      "en": "See how organizations are transforming their cloud infrastructure with Elemento",
+      "en": "Sovereignty as a workload policy across every provider.",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -916,7 +588,7 @@
     },
     {
       "id": "body.index.p.26",
-      "en": "Join hundreds of organizations that have revolutionized their cloud operations with Elemento. Learn about our company mission and explore our product solutions .",
+      "en": "One operating model for hybrid infrastructure.",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -924,7 +596,7 @@
     },
     {
       "id": "body.index.p.27",
-      "en": "Everything you need to know about Elemento Cloud Platform.",
+      "en": "Govern GPU resources across local, private and federated infrastructure.",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -932,7 +604,7 @@
     },
     {
       "id": "body.index.p.28",
-      "en": "Elemento is a vendor-neutral cloud platform that abstracts away the differences between cloud providers. Unlike traditional providers that lock you into their ecosystem, Elemento gives you a unified interface to deploy and manage workloads across AWS, Azure, Google Cloud, and your own infrastructure. This means you can move workloads freely without rewriting applications or changing your deployment processes.",
+      "en": "Broker third-party infrastructure under your governance model.",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -940,7 +612,7 @@
     },
     {
       "id": "body.index.p.29",
-      "en": "Customers typically save 60-80% on cloud costs through intelligent workload placement, real-time pricing optimization, and the ability to run workloads on your own hardware. Elemento enables real-time arbitrage across cloud providers and can automatically move workloads to the most cost-effective infrastructure while maintaining performance and reliability.",
+      "en": "Disaster recovery without provider dependency.",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -948,7 +620,7 @@
     },
     {
       "id": "body.index.p.3",
-      "en": "Loading trusted companies...",
+      "en": "The Internet connected networks. Cloud connected computing. The Metacloud connects infrastructure.",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -956,7 +628,7 @@
     },
     {
       "id": "body.index.p.30",
-      "en": "Elemento provides bank-grade security with end-to-end encryption, compliance-ready architecture, and the ability to run in your own data center for maximum control. We support SOC 2, GDPR, and industry-specific compliance requirements. All data is encrypted in transit and at rest, with optional customer-managed encryption keys. Learn more about our security and compliance features .",
+      "en": "Move workloads when sovereignty requirements change.",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -964,7 +636,7 @@
     },
     {
       "id": "body.index.p.31",
-      "en": "Yes! Elemento supports migration from existing cloud providers and on-premises infrastructure. Our platform is compatible with standard virtualization technologies and container platforms. We provide migration tools and support to help you move workloads with minimal downtime. Most applications require no code changes.",
+      "en": "Compare AtomOS with VMware · View all solutions",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -972,7 +644,7 @@
     },
     {
       "id": "body.index.p.32",
-      "en": "We provide comprehensive documentation, video tutorials, and a knowledge base. Enterprise customers get dedicated support with SLAs, while community users can access our active community forum and GitHub repositories. We also offer training programs and workshops for teams.",
+      "en": "See how organizations are transforming their cloud infrastructure with Elemento",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -980,7 +652,7 @@
     },
     {
       "id": "body.index.p.33",
-      "en": "Elemento offers a generous free tier that includes up to 2 VMs on AtomOS, basic Electros features, and access to Atomosphere API. This is perfect for testing, development, and small projects. You can upgrade to paid plans anytime for additional features, support, and higher usage limits.",
+      "en": "Govern every infrastructure through one sovereign Metacloud control plane. Learn our mission or explore the architecture .",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -988,7 +660,7 @@
     },
     {
       "id": "body.index.p.34",
-      "en": "Yes! Elemento fully supports Kubernetes and container workloads. You can deploy and manage Kubernetes clusters across any cloud provider, and our platform provides additional orchestration capabilities on top of Kubernetes. We also support Docker containers, Helm charts, and other container-native tools.",
+      "en": "Everything you need to know about the Elemento Metacloud.",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -996,7 +668,39 @@
     },
     {
       "id": "body.index.p.35",
-      "en": "Elemento supports 235+ data centers worldwide across all major cloud providers. This includes AWS regions, Azure regions, Google Cloud regions, and numerous edge locations. You can deploy workloads in any region and easily move them between regions for optimal performance and compliance. Explore our deployment options and global infrastructure .",
+      "en": "Elemento is the Metacloud: a sovereign control plane that abstracts infrastructure providers — public clouds, hypervisors, sovereign providers and native AtomOS — through Electros, C4, Atomosphere and Atomosquare. Unlike a single cloud or hypervisor vendor, Elemento federates what already exists without forcing replatforming.",
+      "it": "",
+      "fr": "",
+      "source": "index.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.index.p.36",
+      "en": "Customers typically save 60-80% on cloud costs through intelligent workload placement, real-time pricing optimization, and the ability to run workloads on your own hardware. Elemento enables real-time arbitrage across cloud providers and can automatically move workloads to the most cost-effective infrastructure while maintaining performance and reliability.",
+      "it": "",
+      "fr": "",
+      "source": "index.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.index.p.37",
+      "en": "Elemento provides bank-grade security with end-to-end encryption, compliance-ready architecture, and the ability to run in your own data center for maximum control. We support SOC 2, GDPR, and industry-specific compliance requirements. All data is encrypted in transit and at rest, with optional customer-managed encryption keys. Learn more about our security and compliance features .",
+      "it": "",
+      "fr": "",
+      "source": "index.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.index.p.38",
+      "en": "Yes! Elemento supports migration from existing cloud providers and on-premises infrastructure. Our platform is compatible with standard virtualization technologies and container platforms. We provide migration tools and support to help you move workloads with minimal downtime. Most applications require no code changes.",
+      "it": "",
+      "fr": "",
+      "source": "index.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.index.p.39",
+      "en": "We provide comprehensive documentation, video tutorials, and a knowledge base. Enterprise customers get dedicated support with SLAs, while community users can access our active community forum and GitHub repositories. We also offer training programs and workshops for teams.",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -1004,7 +708,31 @@
     },
     {
       "id": "body.index.p.4",
-      "en": "We unify all Clouds into a universal platform that gives you freedom of choice, the best prices and the flexibility to move seamlessly between public and private Clouds. With Elemento, you set your rules for how your infrastructure operates, ensuring complete freedom from vendor lock-in. Learn more about our mission and values or explore our complete product suite .",
+      "en": "Loading trusted companies...",
+      "it": "",
+      "fr": "",
+      "source": "index.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.index.p.40",
+      "en": "Elemento offers a generous free tier that includes up to 2 VMs on AtomOS, basic Electros features, and access to Atomosphere API. This is perfect for testing, development, and small projects. You can upgrade to paid plans anytime for additional features, support, and higher usage limits.",
+      "it": "",
+      "fr": "",
+      "source": "index.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.index.p.41",
+      "en": "Yes! Elemento fully supports Kubernetes and container workloads. You can deploy and manage Kubernetes clusters across any cloud provider, and our platform provides additional orchestration capabilities on top of Kubernetes. We also support Docker containers, Helm charts, and other container-native tools.",
+      "it": "",
+      "fr": "",
+      "source": "index.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.index.p.42",
+      "en": "Elemento supports 235+ data centers worldwide across all major cloud providers. This includes AWS regions, Azure regions, Google Cloud regions, and numerous edge locations. You can deploy workloads in any region and easily move them between regions for optimal performance and compliance. Explore our deployment options and global infrastructure .",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -1012,7 +740,7 @@
     },
     {
       "id": "body.index.p.5",
-      "en": "Full portability of workloads across any cloud provider",
+      "en": "Every cloud solved infrastructure. None solved dependency. Organisations now need the freedom to govern, move and procure infrastructure independently from any single provider. The Metacloud is the missing layer.",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -1020,7 +748,7 @@
     },
     {
       "id": "body.index.p.6",
-      "en": "Deploy workloads quickly on public or private clouds",
+      "en": "The Broadcom acquisition exposed the cost and risk of single-vendor infrastructure dependency. Organisations own workloads, but not always their freedom to move them.",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -1028,7 +756,7 @@
     },
     {
       "id": "body.index.p.7",
-      "en": "Manage all resources from a single interface or via CLI - your rules, your way",
+      "en": "NIS2, DORA, the EU Data Act and the EU AI Act are making infrastructure jurisdiction, data residency and operational control board-level concerns.",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -1036,7 +764,7 @@
     },
     {
       "id": "body.index.p.8",
-      "en": "Assemble and scale VMs, storage, and networking as needed",
+      "en": "AI workloads require access to GPUs, specialised infrastructure, sovereign environments and multiple providers. No single provider delivers it all.",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -1044,183 +772,15 @@
     },
     {
       "id": "body.index.p.9",
-      "en": "Optimize expenses and maximize ROI across multiple clouds",
+      "en": "One control plane. Two connector fabrics. One native sovereign execution layer.",
       "it": "",
       "fr": "",
       "source": "index.html",
       "context": "<p>"
     },
     {
-      "id": "body.index.td.1",
-      "en": "Hypervisor Class",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<td>"
-    },
-    {
-      "id": "body.index.td.10",
-      "en": "Management",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<td>"
-    },
-    {
-      "id": "body.index.td.11",
-      "en": "vCenter Server VM",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<td>"
-    },
-    {
-      "id": "body.index.td.12",
-      "en": "Electros orchestration dashboard (Web UI + CLI) & REST API",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<td>"
-    },
-    {
-      "id": "body.index.td.13",
-      "en": "Licensing",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<td>"
-    },
-    {
-      "id": "body.index.td.14",
-      "en": "Commercial, CPU-based",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<td>"
-    },
-    {
-      "id": "body.index.td.15",
-      "en": "Server-based (not CPU cores or VM count)",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<td>"
-    },
-    {
-      "id": "body.index.td.16",
-      "en": "Cluster Setup",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<td>"
-    },
-    {
-      "id": "body.index.td.17",
-      "en": "Manual w/ License",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<td>"
-    },
-    {
-      "id": "body.index.td.18",
-      "en": "Auto-discovery w/ License (with our C4 patented protocol)",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<td>"
-    },
-    {
-      "id": "body.index.td.2",
-      "en": "Type 1",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<td>"
-    },
-    {
-      "id": "body.index.td.3",
-      "en": "Type 1",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<td>"
-    },
-    {
-      "id": "body.index.td.4",
-      "en": "Operating System",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<td>"
-    },
-    {
-      "id": "body.index.td.5",
-      "en": "Proprietary Kernel",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<td>"
-    },
-    {
-      "id": "body.index.td.6",
-      "en": "Almalinux (RHEL binary compatible)",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<td>"
-    },
-    {
-      "id": "body.index.td.7",
-      "en": "Virtualization Engine",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<td>"
-    },
-    {
-      "id": "body.index.td.8",
-      "en": "Proprietary Closed-Source",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<td>"
-    },
-    {
-      "id": "body.index.td.9",
-      "en": "Upstream \"Vanilla\" KVM/QEMU",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<td>"
-    },
-    {
-      "id": "body.index.th.1",
-      "en": "Feature",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<th>"
-    },
-    {
-      "id": "body.index.th.2",
-      "en": "Vmware VSphere",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<th>"
-    },
-    {
-      "id": "body.index.th.3",
-      "en": "Elemento AtomOS",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "<th>"
-    },
-    {
       "id": "body.index.ui.1",
-      "en": "Elemento lets you build and run your own cloud infrastructure with complete freedom. You choose where it runs and we automate everything for you. Your cloud. Your rules, Your freedom.",
+      "en": "Govern, orchestrate and optimise infrastructure across public clouds, private clouds, sovereign providers, hypervisors and native AtomOS environments — through one sovereign control plane. The Internet connected networks. Cloud connected computing. The Metacloud connects infrastructure.",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -1228,7 +788,7 @@
     },
     {
       "id": "body.index.ui.2",
-      "en": "Book a call",
+      "en": "Book a Metacloud Assessment",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -1236,7 +796,7 @@
     },
     {
       "id": "body.index.ui.3",
-      "en": "Learn About AtomOS",
+      "en": "Explore the Platform",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -1244,7 +804,7 @@
     },
     {
       "id": "body.index.ui.4",
-      "en": "Learn About Electros",
+      "en": "VMware Exit Assessment",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -1252,7 +812,7 @@
     },
     {
       "id": "body.index.ui.5",
-      "en": "Learn About Atomosphere",
+      "en": "Book a Metacloud Assessment",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -1260,15 +820,7 @@
     },
     {
       "id": "body.index.ui.6",
-      "en": "Start Free Trial",
-      "it": "",
-      "fr": "",
-      "source": "index.html",
-      "context": "class"
-    },
-    {
-      "id": "body.index.ui.7",
-      "en": "Book a call",
+      "en": "Explore the Platform",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -1276,7 +828,7 @@
     },
     {
       "id": "meta.index.description",
-      "en": "Elemento is a vendor-neutral, cost-saving, green, high-performance, self-hostable cloud platform with infrastructure-as-code readiness.",
+      "en": "Elemento is the Metacloud: a sovereign control plane to govern, orchestrate and optimise public clouds, private clouds, hypervisors, sovereign providers and native AtomOS infrastructure.",
       "it": "",
       "fr": "",
       "source": "index.html",
@@ -1284,7 +836,7 @@
     },
     {
       "id": "meta.index.title",
-      "en": "Elemento | Unified private and public Cloud platform",
+      "en": "Elemento | The Metacloud Control Plane for Sovereign Infrastructure",
       "it": "",
       "fr": "",
       "source": "index.html",

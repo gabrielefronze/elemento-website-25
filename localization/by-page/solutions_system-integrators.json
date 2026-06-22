@@ -284,17 +284,17 @@
     },
     {
       "id": "meta.solutions_system-integrators.description",
-      "en": "Elemento Cloud empowers system integrators to deliver sovereign, elastic cloud environments under their own brand. Build recurring-revenue models around infrastructure.",
-      "it": "",
-      "fr": "",
+      "en": "Use Electros as your control plane to deliver sovereign, multi-cloud, and white-label infrastructure projects under your brand.",
+      "it": "Usa Electros come control plane per consegnare progetti infrastrutturali sovrani, multi-Cloud e white-label sotto il tuo brand.",
+      "fr": "Utilisez Electros comme plan de contrôle pour livrer des projets d'infrastructure souverains, multi-Cloud et marque blanche sous votre marque.",
       "source": "solutions/system-integrators.html",
       "context": "meta description"
     },
     {
       "id": "meta.solutions_system-integrators.title",
-      "en": "System Integrators & Cloud Consultants | Elemento",
-      "it": "",
-      "fr": "",
+      "en": "Deliver Metacloud Projects Without Building Every Layer | Elemento",
+      "it": "Progetti Metacloud senza costruire ogni layer | Elemento",
+      "fr": "Projets Metacloud sans tout construire | Elemento",
       "source": "solutions/system-integrators.html",
       "context": "meta title"
     }

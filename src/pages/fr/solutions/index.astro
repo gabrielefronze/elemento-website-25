@@ -1,0 +1,9 @@
+---
+import MigratedPage from '../../../components/MigratedPage.astro';
+import { pageByStem } from '../../../lib/manifest';
+
+const entry = pageByStem('solutions/index', 'fr');
+if (!entry) throw new Error('Missing manifest entry: solutions/index (fr)');
+---
+
+<MigratedPage entry={entry} locale="fr" />

@@ -1,0 +1,30 @@
+:root {
+    --atomosquare-brand: rgb(0, 104, 156);
+    --atomosquare-brand-dark: rgb(0, 72, 108);
+    --hero-logo-color: var(--atomosquare-brand);
+    --gradient-inner: var(--atomosquare-brand-dark);
+    --planet-glow-blue: rgba(0, 104, 156, 0.574);
+    --planet-glow-light: rgba(44, 165, 255, 0.4);
+    --planet-glow-dark: rgba(0, 40, 60, 0.3);
+    --planet-surface: rgb(0, 52, 78);
+    --planet-inset-glow: rgb(0, 132, 198);
+    --planet-atmosphere: rgba(0, 104, 156, 0.674);
+
+    /* Atmosphere colors */
+    --atmosphere-cyan: rgba(0, 170, 220, 0.3);
+    --atmosphere-purple: rgba(0, 120, 180, 0.3);
+    --atmosphere-pink: rgba(0, 150, 200, 0.602);
+    --atmosphere-orange: rgba(0, 104, 156, 0.3);
+    --atmosphere-green: rgba(0, 132, 198, 0.3);
+}
+
+.hero-logo, .hero-logo-contrast {
+    mask: url('../../assets/logos/Atomosquare.svg');
+    -webkit-mask: url('../../assets/logos/Atomosquare.svg');
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    -webkit-mask-size: 100% 100%;
+    mask-position: center;
+    -webkit-mask-position: center;
+}

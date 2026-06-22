@@ -6537,7 +6537,7 @@
       },
       {
         "en": "Manage all resources from a single interface or via CLI - your rules, your way",
-        "fr": "Gérez toutes les ressources depuis une interface graphique (GUI) ou via CLI - vos règles, à votre manière"
+        "fr": "Gérez toutes les ressources depuis une seule interface ou via CLI - vos règles, à votre manière"
       },
       {
         "en": "From hypervisors to APIs, every layer is programmable and vendor-neutral.",
@@ -9530,24 +9530,6 @@
       {
         "en": "Back to homepage",
         "fr": "Retour à la page d'accueil"
-      }
-    ],
-    "videos": [
-      {
-        "en": "Videos",
-        "fr": "Vidéos"
-      },
-      {
-        "en": "Watch. Learn. Explore.",
-        "fr": "Regardez. Apprenez. Explorez."
-      },
-      {
-        "en": "Keynotes, webinars, and product recordings from the Elemento team. Read deeper dives on our blog or get in touch.",
-        "fr": "Keynotes, webinaires et enregistrements produits de l'équipe Elemento. Approfondissements sur notre <a href=\"blog.html\">blogue</a> ou <a href=\"contact.html\">contactez-nous</a>."
-      },
-      {
-        "en": "get in touch",
-        "fr": "contactez-nous"
       }
     ]
   }

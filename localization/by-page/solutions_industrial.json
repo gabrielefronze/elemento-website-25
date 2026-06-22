@@ -284,17 +284,17 @@
     },
     {
       "id": "meta.solutions_industrial.description",
-      "en": "Integrate your factory data from PLCs to ERP in one secure, vendor-free cloud ecosystem. Transform legacy MES/ERP systems with modern analytics and AI pipelines.",
-      "it": "",
-      "fr": "",
+      "en": "Bridge OT data gravity with modern analytics and AI using one Metacloud operating model across edge, factory, and Cloud.",
+      "it": "Collega la gravità dei dati OT ad analytics e AI moderne con un unico modello operativo Metacloud tra edge, fabbrica e Cloud.",
+      "fr": "Reliez la gravité des données OT à l'analytics et l'IA modernes avec un modèle opérationnel Metacloud unique entre edge, usine et Cloud.",
       "source": "solutions/industrial.html",
       "context": "meta description"
     },
     {
       "id": "meta.solutions_industrial.title",
-      "en": "Manufacturing & Industrial Innovation | Elemento",
-      "it": "",
-      "fr": "",
+      "en": "Unify Shop Floor, Edge, and Cloud Operations | Elemento",
+      "it": "Unifica operazioni shop floor, edge e Cloud | Elemento",
+      "fr": "Unifiez shop floor, edge et opérations Cloud | Elemento",
       "source": "solutions/industrial.html",
       "context": "meta title"
     }

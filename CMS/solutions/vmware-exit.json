@@ -1,0 +1,479 @@
+{
+  "en": {
+    "hero": {
+      "tagline": "VMware Exit",
+      "title": "Exit VMware Without Entering Another Lock-In",
+      "subtitle": "Govern VMware and AtomOS side by side. Migrate workload by workload with no forklift, no downtime windows, and no new dependency cycle.",
+      "primaryCTA": {
+        "text": "Run a VMware Exit Assessment",
+        "link": "../contact.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Explore Platform",
+        "link": "../platform.html",
+        "icon": "fas fa-layer-group"
+      }
+    },
+    "painPoints": {
+      "title": "VMware Exit Challenges You Face",
+      "subtitle": "Why hypervisor swaps alone do not break the dependency cycle organisations face after Broadcom",
+      "items": [
+        {
+          "icon": "fas fa-sync-alt",
+          "title": "Hypervisor Swap Only",
+          "description": "Replacing VMware with another hypervisor addresses licensing but not the underlying dependency model."
+        },
+        {
+          "icon": "fas fa-truck-loading",
+          "title": "Forklift Migration Risk",
+          "description": "Big-bang migrations create downtime windows and operational risk across critical workloads."
+        },
+        {
+          "icon": "fas fa-lock",
+          "title": "New Lock-In Cycle",
+          "description": "Switching vendors without a governance layer simply restarts the dependency cycle elsewhere."
+        },
+        {
+          "icon": "fas fa-random",
+          "title": "Fragmented Control",
+          "description": "Running mixed hypervisors without a unified control plane multiplies operational overhead."
+        }
+      ]
+    },
+    "solution": {
+      "title": "Elemento's VMware Exit Path",
+      "description": "Govern mixed hypervisor estates and migrate incrementally without entering a new dependency cycle.",
+      "items": [
+        {
+          "logo": "../assets/logos/Electros.svg",
+          "name": "Electros",
+          "description": "Consistent control plane governing VMware, AtomOS, and third-party hypervisors from one console."
+        },
+        {
+          "logo": "../assets/logos/Atomosphere.svg",
+          "name": "Atomosphere",
+          "description": "Broker cloud and sovereign provider capacity without binding workloads to a single vendor."
+        },
+        {
+          "logo": "../assets/logos/Atomosquare.svg",
+          "name": "Atomosquare",
+          "description": "Operate legacy VMware, AtomOS, and third-party hypervisors under the same governance model."
+        },
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Native sovereign execution engine for workloads ready to leave VMware behind."
+        }
+      ],
+      "cta": {
+        "text": "Run a VMware Exit Assessment",
+        "link": "../contact.html"
+      }
+    },
+    "useCase": {
+      "title": "VMware Exit Journey",
+      "subtitle": "A structured approach with Elemento's Metacloud platform",
+      "items": [
+        {
+          "number": "1",
+          "title": "Assess",
+          "description": "Inventory VMware estates and classify workloads by migration readiness and sovereignty requirements."
+        },
+        {
+          "number": "2",
+          "title": "Govern Side by Side",
+          "description": "Connect VMware and AtomOS endpoints under Electros with Atomosquare bridging legacy environments."
+        },
+        {
+          "number": "3",
+          "title": "Migrate Incrementally",
+          "description": "Move workloads one at a time with consistent policies, monitoring, and rollback paths."
+        },
+        {
+          "number": "4",
+          "title": "Decommission Safely",
+          "description": "Retire VMware capacity as governance and operations fully shift to the Metacloud model."
+        }
+      ]
+    },
+    "stats": {
+      "title": "VMware Exit Impact",
+      "subtitle": "Real outcomes with the Metacloud platform",
+      "items": [
+        {
+          "label": "Downtime Windows",
+          "value": "Zero",
+          "icon": "fas fa-clock",
+          "color": "green"
+        },
+        {
+          "label": "Migration Model",
+          "value": "Incremental",
+          "icon": "fas fa-shoe-prints",
+          "color": "orange"
+        },
+        {
+          "label": "Vendor Lock-In",
+          "value": "Avoided",
+          "icon": "fas fa-unlock",
+          "color": "blue"
+        }
+      ]
+    },
+    "faq": {
+      "title": "VMware Exit FAQ",
+      "subtitle": "Frequently asked questions about exiting VMware with the Metacloud",
+      "items": [
+        {
+          "question": "Do we need a forklift migration from VMware?",
+          "answer": "No. Elemento is designed for side-by-side operation. Govern VMware and AtomOS together, then migrate workload by workload at your own pace."
+        },
+        {
+          "question": "How does Atomosquare help during VMware exit?",
+          "answer": "Atomosquare connects VMware and other third-party hypervisors to Electros so you apply the same policies, monitoring, and access controls across all environments."
+        },
+        {
+          "question": "What happens to existing VMware investments during transition?",
+          "answer": "You keep running VMware where needed while gradually shifting execution to AtomOS. No forced rip-and-replace timeline."
+        },
+        {
+          "question": "How is this different from switching to another proprietary hypervisor?",
+          "answer": "Electros provides an organisation-wide control plane that is not tied to a single hypervisor or cloud. You gain portability instead of trading one lock-in for another."
+        }
+      ]
+    },
+    "ctaFinal": {
+      "title": "Ready for VMware Exit?",
+      "subtitle": "Govern VMware and AtomOS side by side, then migrate workload by workload at your own pace.",
+      "primaryCTA": {
+        "text": "Run a VMware Exit Assessment",
+        "link": "../contact.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Schedule a Demo",
+        "link": "../contact.html",
+        "icon": "fas fa-calendar"
+      }
+    }
+  },
+  "it": {
+    "hero": {
+      "tagline": "Uscita da VMware",
+      "title": "Uscire da VMware senza un nuovo lock-in",
+      "subtitle": "Gestisci VMware e AtomOS fianco a fianco. Migra workload per workload senza forklift, senza finestre di downtime e senza un nuovo ciclo di dipendenza.",
+      "primaryCTA": {
+        "text": "Avvia una valutazione di uscita da VMware",
+        "link": "../contact.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Esplora la piattaforma",
+        "link": "../platform.html",
+        "icon": "fas fa-layer-group"
+      }
+    },
+    "painPoints": {
+      "title": "Le sfide di Uscita da VMware",
+      "subtitle": "Perché il solo cambio hypervisor non rompe il ciclo di dipendenza dopo Broadcom",
+      "items": [
+        {
+          "icon": "fas fa-sync-alt",
+          "title": "Solo cambio hypervisor",
+          "description": "Sostituire VMware con un altro hypervisor risolve le licenze ma non il modello di dipendenza sottostante."
+        },
+        {
+          "icon": "fas fa-truck-loading",
+          "title": "Rischio migrazione forklift",
+          "description": "Le migrazioni big-bang creano finestre di downtime e rischio operativo sui workload critici."
+        },
+        {
+          "icon": "fas fa-lock",
+          "title": "Nuovo ciclo di lock-in",
+          "description": "Cambiare vendor senza un layer di governance riavvia semplicemente il ciclo di dipendenza altrove."
+        },
+        {
+          "icon": "fas fa-random",
+          "title": "Controllo frammentato",
+          "description": "Eseguire hypervisor misti senza un control plane unificato moltiplica il carico operativo."
+        }
+      ]
+    },
+    "solution": {
+      "title": "Il percorso di uscita da VMware di Elemento",
+      "description": "Gestisci ambienti multi-hypervisor e migra in modo incrementale senza entrare in un nuovo ciclo di dipendenza.",
+      "items": [
+        {
+          "logo": "../assets/logos/Electros.svg",
+          "name": "Electros",
+          "description": "Control plane coerente che governa VMware, AtomOS e hypervisor di terze parti da un'unica console."
+        },
+        {
+          "logo": "../assets/logos/Atomosphere.svg",
+          "name": "Atomosphere",
+          "description": "Intermedia capacità Cloud e provider sovrani senza legare i workload a un singolo vendor."
+        },
+        {
+          "logo": "../assets/logos/Atomosquare.svg",
+          "name": "Atomosquare",
+          "description": "Opera VMware legacy, AtomOS e hypervisor di terze parti sotto lo stesso modello di governance."
+        },
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Motore di esecuzione sovrano nativo per i workload pronti a lasciare VMware."
+        }
+      ],
+      "cta": {
+        "text": "Avvia una valutazione di uscita da VMware",
+        "link": "../contact.html"
+      }
+    },
+    "useCase": {
+      "title": "Percorso Uscita da VMware",
+      "subtitle": "Un approccio strutturato con il Metacloud Elemento",
+      "items": [
+        {
+          "number": "1",
+          "title": "Valutazione",
+          "description": "Inventaria gli ambienti VMware e classifica i workload per readiness e requisiti di sovranità."
+        },
+        {
+          "number": "2",
+          "title": "Governance fianco a fianco",
+          "description": "Collega endpoint VMware e AtomOS in Electros con Atomosquare come ponte per gli ambienti legacy."
+        },
+        {
+          "number": "3",
+          "title": "Migrazione incrementale",
+          "description": "Sposta i workload uno alla volta con policy, monitoraggio e percorsi di rollback coerenti."
+        },
+        {
+          "number": "4",
+          "title": "Decommissioning sicuro",
+          "description": "Ritira la capacità VMware man mano che governance e operazioni passano al modello Metacloud."
+        }
+      ]
+    },
+    "stats": {
+      "title": "Impatto Uscita da VMware",
+      "subtitle": "Risultati concreti con la piattaforma Metacloud",
+      "items": [
+        {
+          "label": "Finestre di downtime",
+          "value": "Zero",
+          "icon": "fas fa-clock",
+          "color": "green"
+        },
+        {
+          "label": "Modello di migrazione",
+          "value": "Incrementale",
+          "icon": "fas fa-shoe-prints",
+          "color": "orange"
+        },
+        {
+          "label": "Vendor lock-in",
+          "value": "Evitato",
+          "icon": "fas fa-unlock",
+          "color": "blue"
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ Uscita da VMware",
+      "subtitle": "Domande frequenti sull'uscita da VMware con il Metacloud",
+      "items": [
+        {
+          "question": "Serve una migrazione forklift da VMware?",
+          "answer": "No. Elemento è progettato per l'operatività fianco a fianco. Gestisci VMware e AtomOS insieme, poi migra workload per workload al tuo ritmo."
+        },
+        {
+          "question": "Come aiuta Atomosquare durante l'uscita da VMware?",
+          "answer": "Atomosquare collega VMware e altri hypervisor di terze parti a Electros per applicare le stesse policy, monitoraggio e controlli di accesso."
+        },
+        {
+          "question": "Cosa succede agli investimenti VMware esistenti?",
+          "answer": "Continui a usare VMware dove serve mentre sposti gradualmente l'esecuzione su AtomOS. Nessuna timeline di rip-and-replace forzata."
+        },
+        {
+          "question": "In cosa differisce dal passare a un altro hypervisor proprietario?",
+          "answer": "Electros fornisce un control plane a livello di organizzazione non legato a un singolo hypervisor o Cloud. Ottieni portabilità invece di scambiare un lock-in con un altro."
+        }
+      ]
+    },
+    "ctaFinal": {
+      "title": "Pronto per Uscita da VMware?",
+      "subtitle": "Gestisci VMware e AtomOS fianco a fianco, poi migra workload per workload al tuo ritmo.",
+      "primaryCTA": {
+        "text": "Avvia una valutazione di uscita da VMware",
+        "link": "../contact.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Pianifica una demo",
+        "link": "../contact.html",
+        "icon": "fas fa-calendar"
+      }
+    }
+  },
+  "fr": {
+    "hero": {
+      "tagline": "Sortie VMware",
+      "title": "Quitter VMware sans nouveau verrouillage",
+      "subtitle": "Gouvernez VMware et AtomOS côte à côte. Migrez charge de travail par charge de travail sans migration massive, sans fenêtres d'arrêt ni nouveau cycle de dépendance.",
+      "primaryCTA": {
+        "text": "Lancer une évaluation de sortie VMware",
+        "link": "../contact.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Explorer la plateforme",
+        "link": "../platform.html",
+        "icon": "fas fa-layer-group"
+      }
+    },
+    "painPoints": {
+      "title": "Les défis Sortie VMware",
+      "subtitle": "Pourquoi le simple remplacement d'hyperviseur ne brise pas le cycle de dépendance post-Broadcom",
+      "items": [
+        {
+          "icon": "fas fa-sync-alt",
+          "title": "Simple remplacement d'hyperviseur",
+          "description": "Remplacer VMware par un autre hyperviseur règle les licences mais pas le modèle de dépendance sous-jacent."
+        },
+        {
+          "icon": "fas fa-truck-loading",
+          "title": "Risque de migration massive",
+          "description": "Les migrations massives créent des fenêtres d'arrêt et des risques opérationnels sur les charges critiques."
+        },
+        {
+          "icon": "fas fa-lock",
+          "title": "Nouveau cycle de verrouillage",
+          "description": "Changer de fournisseur sans couche de gouvernance relance simplement le cycle de dépendance ailleurs."
+        },
+        {
+          "icon": "fas fa-random",
+          "title": "Contrôle fragmenté",
+          "description": "Faire coexister des hyperviseurs sans plan de contrôle unifié multiplie la charge opérationnelle."
+        }
+      ]
+    },
+    "solution": {
+      "title": "Le parcours de sortie VMware d'Elemento",
+      "description": "Gouvernez des environnements multi-hyperviseurs et migrez progressivement sans nouveau cycle de dépendance.",
+      "items": [
+        {
+          "logo": "../assets/logos/Electros.svg",
+          "name": "Electros",
+          "description": "Plan de contrôle cohérent gouvernant VMware, AtomOS et les hyperviseurs tiers depuis une seule console."
+        },
+        {
+          "logo": "../assets/logos/Atomosphere.svg",
+          "name": "Atomosphere",
+          "description": "Intermédiez la capacité Cloud et les fournisseurs souverains sans lier les charges à un seul fournisseur."
+        },
+        {
+          "logo": "../assets/logos/Atomosquare.svg",
+          "name": "Atomosquare",
+          "description": "Faites coexister VMware existant, AtomOS et hyperviseurs tiers sous le même modèle de gouvernance."
+        },
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Moteur d'exécution souverain natif pour les charges prêtes à quitter VMware."
+        }
+      ],
+      "cta": {
+        "text": "Lancer une évaluation de sortie VMware",
+        "link": "../contact.html"
+      }
+    },
+    "useCase": {
+      "title": "Parcours Sortie VMware",
+      "subtitle": "Une approche structurée avec le Metacloud Elemento",
+      "items": [
+        {
+          "number": "1",
+          "title": "Évaluation",
+          "description": "Inventoriez les environnements VMware et classez les charges selon leur préparation et exigences de souveraineté."
+        },
+        {
+          "number": "2",
+          "title": "Gouvernance côte à côte",
+          "description": "Connectez les endpoints VMware et AtomOS dans Electros avec Atomosquare comme pont vers les environnements existants."
+        },
+        {
+          "number": "3",
+          "title": "Migration incrémentale",
+          "description": "Déplacez les charges une par une avec des politiques, une supervision et des chemins de retour cohérents."
+        },
+        {
+          "number": "4",
+          "title": "Décommissionnement sécurisé",
+          "description": "Retirez la capacité VMware au fur et à mesure que la gouvernance passe au modèle Metacloud."
+        }
+      ]
+    },
+    "stats": {
+      "title": "Impact Sortie VMware",
+      "subtitle": "Résultats concrets avec la plateforme Metacloud",
+      "items": [
+        {
+          "label": "Fenêtres d'arrêt",
+          "value": "Zéro",
+          "icon": "fas fa-clock",
+          "color": "green"
+        },
+        {
+          "label": "Modèle de migration",
+          "value": "Incrémentale",
+          "icon": "fas fa-shoe-prints",
+          "color": "orange"
+        },
+        {
+          "label": "Verrouillage fournisseur",
+          "value": "Évité",
+          "icon": "fas fa-unlock",
+          "color": "blue"
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ Sortie VMware",
+      "subtitle": "Questions fréquentes sur la sortie VMware avec le Metacloud",
+      "items": [
+        {
+          "question": "Faut-il une migration massive depuis VMware ?",
+          "answer": "Non. Elemento est conçu pour une exploitation côte à côte. Gouvernez VMware et AtomOS ensemble, puis migrez charge par charge à votre rythme."
+        },
+        {
+          "question": "Comment Atomosquare aide-t-il lors de la sortie VMware ?",
+          "answer": "Atomosquare connecte VMware et d'autres hyperviseurs tiers à Electros pour appliquer les mêmes politiques, supervision et contrôles d'accès."
+        },
+        {
+          "question": "Qu'advient-il des investissements VMware existants ?",
+          "answer": "Vous continuez VMware là où c'est nécessaire tout en déplaçant progressivement l'exécution vers AtomOS."
+        },
+        {
+          "question": "En quoi est-ce différent d'un autre hyperviseur propriétaire ?",
+          "answer": "Electros fournit un plan de contrôle à l'échelle de l'organisation, indépendant d'un hyperviseur ou Cloud unique. Vous gagnez en portabilité."
+        }
+      ]
+    },
+    "ctaFinal": {
+      "title": "Prêt pour Sortie VMware ?",
+      "subtitle": "Gouvernez VMware et AtomOS côte à côte, puis migrez charge par charge à votre rythme.",
+      "primaryCTA": {
+        "text": "Lancer une évaluation de sortie VMware",
+        "link": "../contact.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Planifier une démo",
+        "link": "../contact.html",
+        "icon": "fas fa-calendar"
+      }
+    }
+  }
+}

@@ -9,6 +9,25 @@
     "frAria": "French"
   },
   "nav": {
+    "platform": "Platform",
+    "platformOverview": "Overview",
+    "solutions": "Solutions",
+    "pricing": "Pricing",
+    "company": "Company",
+    "team": "Team",
+    "architecture": "Architecture",
+    "documentation": "Documentation",
+    "productBriefs": "Product Briefs",
+    "explorePlatform": "Explore Platform",
+    "bookAssessment": "Book",
+    "solVmwareExit": "VMware Exit",
+    "solSovereign": "Sovereign Governance",
+    "solHybrid": "Hybrid & Multi-Cloud",
+    "solAiGpu": "AI / GPU",
+    "solProviders": "Service Providers",
+    "solDr": "Cross-Provider DR",
+    "solRepatriation": "Data Repatriation",
+    "allSolutions": "All Solutions",
     "products": "Products",
     "technology": "Technology",
     "about": "About",
@@ -21,11 +40,19 @@
     "homeAria": "Elemento home"
   },
   "banner": {
-    "atomosDiscountText": "Grab today AtomOS - 150€ off the first purchase",
-    "atomosDiscountAria": "Grab today AtomOS: 150 euros off the first purchase"
+    "metacloudAssessmentText": "Book a Metacloud Assessment",
+    "metacloudAssessmentAria": "Book a Metacloud Assessment"
   },
   "footer": {
-    "tagline": "Vendor-neutral, high-performance cloud platform that's cost-effective, green, and self-hostable.",
+    "tagline": "The Metacloud: a sovereign control plane to govern, orchestrate and optimise infrastructure across every provider.",
+    "platform": "Platform",
+    "platformOverview": "Platform Overview",
+    "solutions": "Solutions",
+    "solVmwareExit": "VMware Exit",
+    "solSovereign": "Sovereign Governance",
+    "solHybrid": "Hybrid & Multi-Cloud",
+    "allSolutions": "All Solutions",
+    "team": "Team",
     "products": "Products",
     "allProducts": "All Products",
     "company": "Company",
@@ -74,10 +101,10 @@
   },
   "pages": {
     "index": {
-      "title": "Elemento | Unified private and public Cloud platform",
-      "description": "Elemento is a vendor-neutral, cost-saving, green, high-performance, self-hostable cloud platform with infrastructure-as-code readiness.",
-      "heroTitle": "Unified private and public Cloud platform",
-      "heroSubtitle": "Vendor-neutral, cost-saving, green, high-performance, self-hostable cloud with infrastructure-as-code readiness."
+      "title": "Elemento | The Metacloud Control Plane for Sovereign Infrastructure",
+      "description": "Elemento is the Metacloud: a sovereign control plane to govern, orchestrate and optimise public clouds, private clouds, hypervisors, sovereign providers and native AtomOS infrastructure.",
+      "heroTitle": "Elemento. The Metacloud.",
+      "heroSubtitle": "The Infrastructure Layer After Cloud."
     },
     "about": {
       "title": "Elemento | About | Cloud Platform Mission & Team",

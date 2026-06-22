@@ -4,7 +4,7 @@
   "strings": [
     {
       "id": "body.about.h1.1",
-      "en": "About Elemento",
+      "en": "Building the Metacloud",
       "it": "",
       "fr": "",
       "source": "about.html",
@@ -172,7 +172,7 @@
     },
     {
       "id": "body.about.p.1",
-      "en": "Learn about our mission , values , and the innovative team powering the future of cloud computing.",
+      "en": "Elemento builds the Metacloud: a sovereign control plane that enables organisations to govern, migrate and procure infrastructure through intent and portable contracts, without lock-in.",
       "it": "",
       "fr": "",
       "source": "about.html",
@@ -260,7 +260,7 @@
     },
     {
       "id": "body.about.p.2",
-      "en": "At Elemento , we believe that cloud infrastructure should be accessible , affordable , and environmentally responsible . Our mission is to democratize cloud computing by providing vendor-neutral solutions that give organizations complete control over their infrastructure while reducing costs and environmental impact. Explore our complete product suite and learn about our innovative technology .",
+      "en": "At Elemento , we believe infrastructure should remain where it is, workloads should run where they make the most sense, and governance should be decoupled from infrastructure ownership. Our vision: a world where infrastructure is as open and interoperable as the Internet. Explore the Metacloud platform and our control plane .",
       "it": "",
       "fr": "",
       "source": "about.html",
@@ -332,7 +332,7 @@
     },
     {
       "id": "body.about.ui.1",
-      "en": "Our Story. Our Mission. Our passion.",
+      "en": "European DNA. Sovereignty native.",
       "it": "",
       "fr": "",
       "source": "about.html",
@@ -340,7 +340,7 @@
     },
     {
       "id": "body.about.ui.2",
-      "en": "Learn about our mission",
+      "en": "Elemento builds the Metacloud: a sovereign control plane that enables organisations to govern, migrate and procure infrastructure through intent and portable contracts, without lock-in.",
       "it": "",
       "fr": "",
       "source": "about.html",

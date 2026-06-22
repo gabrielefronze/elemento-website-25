@@ -1,0 +1,479 @@
+{
+  "en": {
+    "hero": {
+      "tagline": "Sovereign Governance",
+      "title": "Sovereignty as a Workload Policy",
+      "subtitle": "Apply jurisdiction, residency, and audit policies across clouds, hypervisors, and sovereign providers from one control plane.",
+      "primaryCTA": {
+        "text": "Assess Your Sovereignty Posture",
+        "link": "../contact.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Read Sovereignty Guide",
+        "link": "../resources.html",
+        "icon": "fas fa-book"
+      }
+    },
+    "painPoints": {
+      "title": "Sovereign Cloud Governance Challenges You Face",
+      "subtitle": "How fragmented governance across clouds and hypervisors creates residency and audit risk",
+      "items": [
+        {
+          "icon": "fas fa-globe-europe",
+          "title": "Jurisdiction Complexity",
+          "description": "Regulatory requirements differ by region, workload, and data classification across your estate."
+        },
+        {
+          "icon": "fas fa-database",
+          "title": "Residency Blind Spots",
+          "description": "Data can drift across providers without per-workload residency enforcement."
+        },
+        {
+          "icon": "fas fa-eye-slash",
+          "title": "Audit Gaps",
+          "description": "Fragmented tooling makes it hard to prove where workloads run and who accessed them."
+        },
+        {
+          "icon": "fas fa-code-branch",
+          "title": "Policy Sprawl",
+          "description": "Separate governance models per cloud and hypervisor multiply compliance overhead."
+        }
+      ]
+    },
+    "solution": {
+      "title": "Sovereignty as Workload Policy",
+      "description": "One governance model for jurisdiction, residency, and audit across every Cloud and hypervisor.",
+      "items": [
+        {
+          "logo": "../assets/logos/Electros.svg",
+          "name": "Electros",
+          "description": "Organisation-wide control plane for sovereignty policies, audit visibility, and enforcement."
+        },
+        {
+          "logo": "../assets/logos/Atomosphere.svg",
+          "name": "Atomosphere",
+          "description": "Cross-provider orchestration with residency-aware placement across sovereign and public Cloud."
+        },
+        {
+          "logo": "../assets/logos/Atomosquare.svg",
+          "name": "Atomosquare",
+          "description": "Extend governance to VMware, OpenStack, Proxmox, and other hypervisor endpoints."
+        },
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Sovereign execution engine for workloads that must run on infrastructure you control."
+        }
+      ],
+      "cta": {
+        "text": "Assess Your Sovereignty Posture",
+        "link": "../contact.html"
+      }
+    },
+    "useCase": {
+      "title": "Sovereign Cloud Governance Journey",
+      "subtitle": "A structured approach with Elemento's Metacloud platform",
+      "items": [
+        {
+          "number": "1",
+          "title": "Define Policies",
+          "description": "Set jurisdiction, residency, and audit requirements as workload-level policies in Electros."
+        },
+        {
+          "number": "2",
+          "title": "Map Providers",
+          "description": "Connect sovereign, public, and private providers through Atomosphere and Atomosquare."
+        },
+        {
+          "number": "3",
+          "title": "Enforce Continuously",
+          "description": "Apply policies across clouds and hypervisors with automated enforcement and visibility."
+        },
+        {
+          "number": "4",
+          "title": "Audit & Report",
+          "description": "Maintain audit trails and compliance reporting from a single governance layer."
+        }
+      ]
+    },
+    "stats": {
+      "title": "Sovereign Cloud Governance Impact",
+      "subtitle": "Real outcomes with the Metacloud platform",
+      "items": [
+        {
+          "label": "Policy Scope",
+          "value": "Per-Workload",
+          "icon": "fas fa-tasks",
+          "color": "green"
+        },
+        {
+          "label": "Provider Coverage",
+          "value": "Cross-Cloud",
+          "icon": "fas fa-cloud",
+          "color": "orange"
+        },
+        {
+          "label": "Audit Trail",
+          "value": "Unified",
+          "icon": "fas fa-clipboard-check",
+          "color": "blue"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Sovereign Cloud Governance FAQ",
+      "subtitle": "Frequently asked questions about sovereign cloud governance with Elemento",
+      "items": [
+        {
+          "question": "Can sovereignty policies apply across different cloud providers?",
+          "answer": "Yes. Electros defines policies at the workload level and enforces them across public Cloud, sovereign providers, and on-premises infrastructure via Atomosphere and Atomosquare."
+        },
+        {
+          "question": "How is data residency controlled?",
+          "answer": "You set residency rules per workload. Placement and migration decisions respect those rules automatically across connected providers."
+        },
+        {
+          "question": "Does this replace our compliance tooling?",
+          "answer": "Elemento provides governance, audit visibility, and policy enforcement across infrastructure. It complements GRC platforms by operating at the workload and provider layer."
+        },
+        {
+          "question": "Can we audit access across hybrid environments?",
+          "answer": "Electros centralises operational visibility and audit trails across all connected endpoints, regardless of underlying provider or hypervisor."
+        }
+      ]
+    },
+    "ctaFinal": {
+      "title": "Ready for Sovereign Cloud Governance?",
+      "subtitle": "Apply jurisdiction, residency, and audit policies as workload-level rules across every provider.",
+      "primaryCTA": {
+        "text": "Assess Your Sovereignty Posture",
+        "link": "../contact.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Schedule a Demo",
+        "link": "../contact.html",
+        "icon": "fas fa-calendar"
+      }
+    }
+  },
+  "it": {
+    "hero": {
+      "tagline": "Governance sovrana",
+      "title": "Sovranità come policy di workload",
+      "subtitle": "Applica policy di giurisdizione, residenza e audit su Cloud, hypervisor e provider sovrani da un unico control plane.",
+      "primaryCTA": {
+        "text": "Valuta il tuo stato di sovranità",
+        "link": "../contact.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Guida alla sovranità",
+        "link": "../resources.html",
+        "icon": "fas fa-book"
+      }
+    },
+    "painPoints": {
+      "title": "Le sfide di Governance Cloud sovrano",
+      "subtitle": "Come la governance frammentata tra Cloud e hypervisor crea rischi di residenza e audit",
+      "items": [
+        {
+          "icon": "fas fa-globe-europe",
+          "title": "Complessità giurisdizionale",
+          "description": "I requisiti normativi differiscono per regione, workload e classificazione dei dati."
+        },
+        {
+          "icon": "fas fa-database",
+          "title": "Punti ciechi sulla residenza",
+          "description": "I dati possono migrare tra provider senza enforcement della residenza per workload."
+        },
+        {
+          "icon": "fas fa-eye-slash",
+          "title": "Lacune di audit",
+          "description": "Strumenti frammentati rendono difficile dimostrare dove girano i workload e chi vi ha accesso."
+        },
+        {
+          "icon": "fas fa-code-branch",
+          "title": "Proliferazione delle policy",
+          "description": "Modelli di governance separati per Cloud e hypervisor moltiplicano il carico di compliance."
+        }
+      ]
+    },
+    "solution": {
+      "title": "Sovranità come policy di workload",
+      "description": "Un modello di governance per giurisdizione, residenza e audit su ogni Cloud e hypervisor.",
+      "items": [
+        {
+          "logo": "../assets/logos/Electros.svg",
+          "name": "Electros",
+          "description": "Control plane a livello di organizzazione per policy di sovranità, visibilità audit e enforcement."
+        },
+        {
+          "logo": "../assets/logos/Atomosphere.svg",
+          "name": "Atomosphere",
+          "description": "Orchestrazione cross-provider con placement consapevole della residenza su Cloud sovrani e pubblici."
+        },
+        {
+          "logo": "../assets/logos/Atomosquare.svg",
+          "name": "Atomosquare",
+          "description": "Estendi la governance a VMware, OpenStack, Proxmox e altri endpoint hypervisor."
+        },
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Motore di esecuzione sovrano per workload che devono girare su infrastruttura sotto il tuo controllo."
+        }
+      ],
+      "cta": {
+        "text": "Valuta il tuo stato di sovranità",
+        "link": "../contact.html"
+      }
+    },
+    "useCase": {
+      "title": "Percorso Governance Cloud sovrano",
+      "subtitle": "Un approccio strutturato con il Metacloud Elemento",
+      "items": [
+        {
+          "number": "1",
+          "title": "Definisci le policy",
+          "description": "Imposta requisiti di giurisdizione, residenza e audit come policy a livello di workload in Electros."
+        },
+        {
+          "number": "2",
+          "title": "Mappa i provider",
+          "description": "Collega provider sovrani, pubblici e privati tramite Atomosphere e Atomosquare."
+        },
+        {
+          "number": "3",
+          "title": "Applica in continuo",
+          "description": "Applica policy su Cloud e hypervisor con enforcement automatizzato e visibilità."
+        },
+        {
+          "number": "4",
+          "title": "Audita e riporta",
+          "description": "Mantieni audit trail e reporting di compliance da un unico layer di governance."
+        }
+      ]
+    },
+    "stats": {
+      "title": "Impatto Governance Cloud sovrano",
+      "subtitle": "Risultati concreti con la piattaforma Metacloud",
+      "items": [
+        {
+          "label": "Ambito policy",
+          "value": "Per workload",
+          "icon": "fas fa-tasks",
+          "color": "green"
+        },
+        {
+          "label": "Copertura provider",
+          "value": "Cross-Cloud",
+          "icon": "fas fa-cloud",
+          "color": "orange"
+        },
+        {
+          "label": "Audit trail",
+          "value": "Unificato",
+          "icon": "fas fa-clipboard-check",
+          "color": "blue"
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ Governance Cloud sovrano",
+      "subtitle": "Domande frequenti sulla governance Cloud sovrano con Elemento",
+      "items": [
+        {
+          "question": "Le policy di sovranità si applicano su provider Cloud diversi?",
+          "answer": "Sì. Electros definisce policy a livello di workload e le applica su Cloud pubblico, provider sovrani e infrastruttura on-premises."
+        },
+        {
+          "question": "Come si controlla la residenza dei dati?",
+          "answer": "Imposti regole di residenza per workload. Le decisioni di placement e migrazione le rispettano automaticamente."
+        },
+        {
+          "question": "Sostituisce i nostri strumenti di compliance?",
+          "answer": "Elemento fornisce governance, visibilità audit e enforcement a livello infrastrutturale. Complementa le piattaforme GRC."
+        },
+        {
+          "question": "Possiamo auditare l'accesso in ambienti ibridi?",
+          "answer": "Electros centralizza visibilità operativa e audit trail su tutti gli endpoint collegati, indipendentemente dal provider."
+        }
+      ]
+    },
+    "ctaFinal": {
+      "title": "Pronto per Governance Cloud sovrano?",
+      "subtitle": "Applica policy di giurisdizione, residenza e audit come regole per workload su ogni provider.",
+      "primaryCTA": {
+        "text": "Valuta il tuo stato di sovranità",
+        "link": "../contact.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Pianifica una demo",
+        "link": "../contact.html",
+        "icon": "fas fa-calendar"
+      }
+    }
+  },
+  "fr": {
+    "hero": {
+      "tagline": "Gouvernance souveraine",
+      "title": "La souveraineté comme politique de charge de travail",
+      "subtitle": "Appliquez des politiques de juridiction, de résidence et d'audit sur les Cloud, hyperviseurs et fournisseurs souverains depuis un seul plan de contrôle.",
+      "primaryCTA": {
+        "text": "Évaluer votre posture de souveraineté",
+        "link": "../contact.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Guide souveraineté",
+        "link": "../resources.html",
+        "icon": "fas fa-book"
+      }
+    },
+    "painPoints": {
+      "title": "Les défis Gouvernance Cloud souverain",
+      "subtitle": "Comment la gouvernance fragmentée entre Cloud et hyperviseurs crée des risques de résidence et d'audit",
+      "items": [
+        {
+          "icon": "fas fa-globe-europe",
+          "title": "Complexité juridictionnelle",
+          "description": "Les exigences réglementaires varient selon la région, la charge et la classification des données."
+        },
+        {
+          "icon": "fas fa-database",
+          "title": "Angles morts de résidence",
+          "description": "Les données peuvent migrer entre fournisseurs sans application de la résidence par charge."
+        },
+        {
+          "icon": "fas fa-eye-slash",
+          "title": "Lacunes d'audit",
+          "description": "Des outils fragmentés rendent difficile la preuve de l'emplacement des charges et des accès."
+        },
+        {
+          "icon": "fas fa-code-branch",
+          "title": "Prolifération des politiques",
+          "description": "Des modèles de gouvernance séparés par Cloud et hyperviseur multiplient la charge de conformité."
+        }
+      ]
+    },
+    "solution": {
+      "title": "Souveraineté comme politique de charge",
+      "description": "Un modèle de gouvernance pour juridiction, résidence et audit sur chaque Cloud et hyperviseur.",
+      "items": [
+        {
+          "logo": "../assets/logos/Electros.svg",
+          "name": "Electros",
+          "description": "Plan de contrôle organisationnel pour politiques de souveraineté, visibilité d'audit et application."
+        },
+        {
+          "logo": "../assets/logos/Atomosphere.svg",
+          "name": "Atomosphere",
+          "description": "Orchestration cross-fournisseur avec placement tenant compte de la résidence sur Cloud souverains et publics."
+        },
+        {
+          "logo": "../assets/logos/Atomosquare.svg",
+          "name": "Atomosquare",
+          "description": "Étendez la gouvernance à VMware, OpenStack, Proxmox et autres endpoints hyperviseur."
+        },
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Moteur d'exécution souverain pour les charges devant tourner sur une infrastructure sous votre contrôle."
+        }
+      ],
+      "cta": {
+        "text": "Évaluer votre posture de souveraineté",
+        "link": "../contact.html"
+      }
+    },
+    "useCase": {
+      "title": "Parcours Gouvernance Cloud souverain",
+      "subtitle": "Une approche structurée avec le Metacloud Elemento",
+      "items": [
+        {
+          "number": "1",
+          "title": "Définir les politiques",
+          "description": "Définissez juridiction, résidence et audit comme politiques par charge dans Electros."
+        },
+        {
+          "number": "2",
+          "title": "Cartographier les fournisseurs",
+          "description": "Connectez fournisseurs souverains, publics et privés via Atomosphere et Atomosquare."
+        },
+        {
+          "number": "3",
+          "title": "Appliquer en continu",
+          "description": "Appliquez les politiques sur Cloud et hyperviseurs avec application automatisée et visibilité."
+        },
+        {
+          "number": "4",
+          "title": "Auditer et rapporter",
+          "description": "Maintenez pistes d'audit et rapports de conformité depuis une couche de gouvernance unique."
+        }
+      ]
+    },
+    "stats": {
+      "title": "Impact Gouvernance Cloud souverain",
+      "subtitle": "Résultats concrets avec la plateforme Metacloud",
+      "items": [
+        {
+          "label": "Portée des politiques",
+          "value": "Par charge",
+          "icon": "fas fa-tasks",
+          "color": "green"
+        },
+        {
+          "label": "Couverture fournisseurs",
+          "value": "Cross-Cloud",
+          "icon": "fas fa-cloud",
+          "color": "orange"
+        },
+        {
+          "label": "Piste d'audit",
+          "value": "Unifiée",
+          "icon": "fas fa-clipboard-check",
+          "color": "blue"
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ Gouvernance Cloud souverain",
+      "subtitle": "Questions fréquentes sur la gouvernance Cloud souverain avec Elemento",
+      "items": [
+        {
+          "question": "Les politiques de souveraineté s'appliquent-elles sur différents fournisseurs Cloud ?",
+          "answer": "Oui. Electros définit des politiques par charge et les applique sur Cloud public, fournisseurs souverains et infrastructure on-premises."
+        },
+        {
+          "question": "Comment la résidence des données est-elle contrôlée ?",
+          "answer": "Vous définissez des règles de résidence par charge. Placement et migration les respectent automatiquement."
+        },
+        {
+          "question": "Cela remplace-t-il nos outils de conformité ?",
+          "answer": "Elemento fournit gouvernance, visibilité d'audit et application à la couche infrastructure. Il complète les plateformes GRC."
+        },
+        {
+          "question": "Peut-on auditer l'accès en environnement hybride ?",
+          "answer": "Electros centralise la visibilité opérationnelle et les pistes d'audit sur tous les endpoints connectés."
+        }
+      ]
+    },
+    "ctaFinal": {
+      "title": "Prêt pour Gouvernance Cloud souverain ?",
+      "subtitle": "Appliquez juridiction, résidence et audit comme règles par charge sur chaque fournisseur.",
+      "primaryCTA": {
+        "text": "Évaluer votre posture de souveraineté",
+        "link": "../contact.html",
+        "icon": "fas fa-rocket"
+      },
+      "secondaryCTA": {
+        "text": "Planifier une démo",
+        "link": "../contact.html",
+        "icon": "fas fa-calendar"
+      }
+    }
+  }
+}

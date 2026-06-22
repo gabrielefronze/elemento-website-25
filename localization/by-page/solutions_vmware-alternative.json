@@ -436,17 +436,17 @@
     },
     {
       "id": "meta.solutions_vmware-alternative.description",
-      "en": "Replace VMware with Elemento's modern virtualization platform. Get better performance, lower costs, and cloud-native architecture with our unified infrastructure solution.",
-      "it": "",
-      "fr": "",
+      "en": "Run AtomOS as your sovereign hypervisor while Electros governs mixed VMware and AtomOS estates through Atomosquare.",
+      "it": "Esegui AtomOS come hypervisor sovrano mentre Electros governa patrimoni misti VMware e AtomOS tramite Atomosquare.",
+      "fr": "Exécutez AtomOS comme hyperviseur souverain tandis qu'Electros gouverne des patrimoines mixtes VMware et AtomOS via Atomosquare.",
       "source": "solutions/vmware-alternative.html",
       "context": "meta description"
     },
     {
       "id": "meta.solutions_vmware-alternative.title",
-      "en": "VMware Alternative - Modern Virtualization Platform | Elemento",
-      "it": "",
-      "fr": "",
+      "en": "Replace vSphere Without Replacing Your Operating Model | Elemento",
+      "it": "Sostituisci vSphere senza cambiare il modello operativo | Elemento",
+      "fr": "Remplacez vSphere sans changer votre modèle opérationnel | Elemento",
       "source": "solutions/vmware-alternative.html",
       "context": "meta title"
     }

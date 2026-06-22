@@ -12,6 +12,21 @@
     const componentCache = {};
 
     /**
+     * Solution components live at /solutions/components/ (never under /it/ or /fr/).
+     */
+    function resolveComponentUrl(componentName) {
+        const relativePath = `solutions/components/${componentName}.html`;
+        if (window.ElementoI18n?.assetUrl) {
+            return window.ElementoI18n.assetUrl(relativePath);
+        }
+        if (window.location.pathname.includes('/solutions')) {
+            const siteBase = window.ElementoI18n?.getSiteBase?.() ?? '';
+            return `${siteBase}/${relativePath}`;
+        }
+        return `components/${componentName}.html`;
+    }
+
+    /**
      * Load an HTML component from /solutions/components/
      */
     async function loadComponent(componentName) {
@@ -20,7 +35,7 @@
             return componentCache[componentName];
         }
 
-        const componentUrl = `components/${componentName}.html`;
+        const componentUrl = resolveComponentUrl(componentName);
         console.log(`Fetching component: ${componentUrl}`);
         
         try {
@@ -282,7 +297,7 @@
     }
 
     // Wait for async solution config when using solution-config-loader.js
-    if (document.querySelector('script[data-solution-config]') && typeof window.pageConfig === 'undefined') {
+    if (document.querySelector('script[data-solution-config]')) {
         document.addEventListener('pageConfigReady', start, { once: true });
         setTimeout(start, 3000);
     } else {

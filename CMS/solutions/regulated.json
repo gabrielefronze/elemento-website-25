@@ -1,23 +1,23 @@
 {
   "en": {
     "hero": {
-      "tagline": "Regulated Environments",
-      "title": "Run Sensitive Workloads with Full Data Governance",
-      "subtitle": "Elemento provides enterprise-grade security with built-in compliance for healthcare, finance, and other regulated industries.",
+      "tagline": "Regulated Industries",
+      "title": "Compliance Without Hyperscaler Lock-In",
+      "subtitle": "Apply sovereignty, residency, and audit policies to healthcare, finance, and regulated workloads from one Metacloud control plane.",
       "primaryCTA": {
-        "text": "Start Now",
-        "link": "../signup.html",
+        "text": "Assess Compliance Posture",
+        "link": "../contact.html",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
-        "text": "Explore Security Platform",
-        "link": "../products.html",
+        "text": "Sovereign Governance",
+        "link": "../solutions/sovereign-cloud-governance.html",
         "icon": "fas fa-shield-alt"
       }
     },
     "painPoints": {
       "title": "Regulated Environment Challenges",
-      "subtitle": "Common pain points that limit your ability to leverage cloud technology while maintaining compliance",
+      "subtitle": "Why regulated organisations struggle to adopt cloud without losing control of data and audit trails",
       "items": [
         {
           "icon": "fas fa-shield-alt",
@@ -68,33 +68,38 @@
       ]
     },
     "solution": {
-      "title": "Elemento's Compliance Solution",
-      "description": "Complete infrastructure platform designed for regulated environments with built-in compliance and security",
+      "title": "Regulated Workloads on the Metacloud",
+      "description": "Govern sensitive workloads across public Cloud, sovereign providers, and on-premises infrastructure with consistent compliance controls.",
       "items": [
-        {
-          "logo": "../assets/logos/Atomos.svg",
-          "name": "AtomOS",
-          "description": "Secure hypervisor environment with built-in compliance controls"
-        },
         {
           "logo": "../assets/logos/Electros.svg",
           "name": "Electros",
-          "description": "Compliance-ready dashboard with audit and reporting capabilities"
+          "description": "Organisation-wide control plane for compliance policies, audit visibility, and enforcement."
         },
         {
           "logo": "../assets/logos/Atomosphere.svg",
           "name": "Atomosphere",
-          "description": "Secure API layer with encryption and access controls"
+          "description": "Residency-aware placement across public and sovereign Cloud providers."
+        },
+        {
+          "logo": "../assets/logos/Atomosquare.svg",
+          "name": "Atomosquare",
+          "description": "Extend governance to private hypervisors hosting regulated workloads."
+        },
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Sovereign execution engine for workloads that must stay on infrastructure you control."
         }
       ],
       "cta": {
-        "text": "See Compliance Stack",
-        "link": "../products.html"
+        "text": "Assess Compliance Posture",
+        "link": "../contact.html"
       }
     },
     "features": {
       "title": "Compliance Features",
-      "subtitle": "Everything you need to meet regulatory requirements and maintain data sovereignty",
+      "subtitle": "Per-workload policies, cross-provider governance, and audit visibility for regulated industries",
       "items": [
         {
           "icon": "fas fa-shield-alt",
@@ -184,39 +189,39 @@
       ]
     },
     "ctaFinal": {
-      "title": "Ready to Secure Your Regulated Workloads?",
-      "subtitle": "Join leading healthcare, finance, and government organizations already using Elemento to meet compliance requirements while leveraging cloud technology.",
+      "title": "Ready to Govern Regulated Workloads?",
+      "subtitle": "Meet GDPR, HIPAA, DORA, and sector requirements without trading sovereignty for convenience.",
       "primaryCTA": {
-        "text": "Start Secure Deployment",
-        "link": "../signup.html",
+        "text": "Assess Compliance Posture",
+        "link": "../contact.html",
         "icon": "fas fa-calendar-check"
       },
       "secondaryCTA": {
-        "text": "Explore Compliance Solutions",
-        "link": "../products.html",
-        "icon": "fas fa-certificate"
+        "text": "Explore the Platform",
+        "link": "../platform.html",
+        "icon": "fas fa-layer-group"
       }
     }
   },
   "it": {
     "hero": {
-      "tagline": "Ambienti regolamentati",
-      "title": "Esegui carichi di lavoro sensibili con la governance completa dei dati",
-      "subtitle": "Elemento fornisce sicurezza di livello enterprise con conformità integrata per i settori sanitario, finanziario e altri settori regolamentati.",
+      "tagline": "Settori regolamentati",
+      "title": "Compliance senza lock-in degli hyperscaler",
+      "subtitle": "Applica policy di sovranità, residenza e audit a workload sanitari, finanziari e regolamentati da un unico control plane Metacloud.",
       "primaryCTA": {
-        "text": "Inizia ora",
-        "link": "../signup.html",
+        "text": "Valuta la postura di compliance",
+        "link": "../contact.html",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
-        "text": "Esplora Security Platform",
-        "link": "../products.html",
+        "text": "Governance sovrana",
+        "link": "../solutions/sovereign-cloud-governance.html",
         "icon": "fas fa-shield-alt"
       }
     },
     "painPoints": {
       "title": "Sfide ambientali regolamentate",
-      "subtitle": "Punti critici comuni che limitano la capacità di sfruttare la tecnologia cloud mantenendo la conformità",
+      "subtitle": "Perché le organizzazioni regolamentate faticano ad adottare il Cloud senza perdere il controllo di dati e audit trail",
       "items": [
         {
           "icon": "fas fa-shield-alt",
@@ -267,28 +272,33 @@
       ]
     },
     "solution": {
-      "title": "Elemento's Compliance Soluzione",
-      "description": "Piattaforma infrastrutturale completa progettata per ambienti regolamentati con conformità e sicurezza integrate",
+      "title": "Workload regolamentati sul Metacloud",
+      "description": "Governare workload sensibili su Cloud pubblico, provider sovrani e infrastruttura on-premises con controlli di compliance coerenti.",
       "items": [
-        {
-          "logo": "../assets/logos/Atomos.svg",
-          "name": "AtomOS",
-          "description": "Ambiente hypervisor sicuro con controlli di conformità integrati"
-        },
         {
           "logo": "../assets/logos/Electros.svg",
           "name": "Electros",
-          "description": "Dashboard pronto per la conformità con funzionalità di audit e reporting"
+          "description": "Control plane a livello di organizzazione per policy di compliance, visibilità audit e enforcement."
         },
         {
           "logo": "../assets/logos/Atomosphere.svg",
           "name": "Atomosphere",
-          "description": "Livello API sicuro con crittografia e controlli di accesso"
+          "description": "Placement consapevole della residenza su provider Cloud pubblici e sovrani."
+        },
+        {
+          "logo": "../assets/logos/Atomosquare.svg",
+          "name": "Atomosquare",
+          "description": "Estendi la governance agli hypervisor privati che ospitano workload regolamentati."
+        },
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Motore di esecuzione sovrano per workload che devono restare su infrastruttura sotto il tuo controllo."
         }
       ],
       "cta": {
-        "text": "Vedi Compliance Stack",
-        "link": "../products.html"
+        "text": "Valuta la postura di compliance",
+        "link": "../contact.html"
       }
     },
     "features": {
@@ -383,39 +393,39 @@
       ]
     },
     "ctaFinal": {
-      "title": "Pronto per Secure Your Regulated Workloads?",
-      "subtitle": "Unisciti alle principali organizzazioni sanitarie, finanziarie e governative che già utilizzano Elemento per soddisfare i requisiti di conformità sfruttando al tempo stesso la tecnologia cloud.",
+      "title": "Pronto per governare workload regolamentati?",
+      "subtitle": "Rispetta GDPR, HIPAA, DORA e requisiti di settore senza scambiare sovranità per convenienza.",
       "primaryCTA": {
-        "text": "Avvia la distribuzione sicura",
-        "link": "../signup.html",
+        "text": "Valuta la postura di compliance",
+        "link": "../contact.html",
         "icon": "fas fa-calendar-check"
       },
       "secondaryCTA": {
-        "text": "Esplora Compliance Soluziones",
-        "link": "../products.html",
-        "icon": "fas fa-certificate"
+        "text": "Esplora la piattaforma",
+        "link": "../platform.html",
+        "icon": "fas fa-layer-group"
       }
     }
   },
   "fr": {
     "hero": {
-      "tagline": "Environnements réglementés",
-      "title": "Exécutez des charges de travail sensibles avec une gouvernance complète des données",
-      "subtitle": "Elemento offre une sécurité de niveau entreprise avec une conformité intégrée pour les soins de santé, la finance et d'autres secteurs réglementés.",
+      "tagline": "Secteurs réglementés",
+      "title": "Conformité sans verrouillage hyperscaler",
+      "subtitle": "Appliquez souveraineté, résidence et audit aux charges santé, finance et réglementées depuis un plan de contrôle Metacloud unique.",
       "primaryCTA": {
-        "text": "Commencez maintenant",
-        "link": "../signup.html",
+        "text": "Évaluer votre posture de conformité",
+        "link": "../contact.html",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
-        "text": "Explorez la plateforme de sécurité",
-        "link": "../products.html",
+        "text": "Gouvernance souveraine",
+        "link": "../solutions/sovereign-cloud-governance.html",
         "icon": "fas fa-shield-alt"
       }
     },
     "painPoints": {
       "title": "Les défis de l’environnement réglementé",
-      "subtitle": "Problèmes courants qui limitent votre capacité à tirer parti de la technologie cloud tout en garantissant la conformité",
+      "subtitle": "Pourquoi les organisations réglementées peinent à adopter le Cloud sans perdre le contrôle des données et des pistes d'audit",
       "items": [
         {
           "icon": "fas fa-shield-alt",
@@ -466,28 +476,33 @@
       ]
     },
     "solution": {
-      "title": "La solution de conformité d'Elemento",
-      "description": "Plateforme d'infrastructure complète conçue pour les environnements réglementés avec conformité et sécurité intégrées",
+      "title": "Charges réglementées sur le Metacloud",
+      "description": "Gouvernez les charges sensibles sur Cloud public, fournisseurs souverains et on-premises avec des contrôles de conformité cohérents.",
       "items": [
-        {
-          "logo": "../assets/logos/Atomos.svg",
-          "name": "AtomOS",
-          "description": "Environnement d'hyperviseur sécurisé avec contrôles de conformité intégrés"
-        },
         {
           "logo": "../assets/logos/Electros.svg",
           "name": "Electros",
-          "description": "Tableau de bord prêt pour la conformité avec des capacités d'audit et de reporting"
+          "description": "Plan de contrôle organisationnel pour politiques de conformité, visibilité d'audit et application."
         },
         {
           "logo": "../assets/logos/Atomosphere.svg",
           "name": "Atomosphere",
-          "description": "Couche API sécurisée avec cryptage et contrôles d'accès"
+          "description": "Placement tenant compte de la résidence sur fournisseurs Cloud publics et souverains."
+        },
+        {
+          "logo": "../assets/logos/Atomosquare.svg",
+          "name": "Atomosquare",
+          "description": "Étendez la gouvernance aux hyperviseurs privés hébergeant des charges réglementées."
+        },
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Moteur d'exécution souverain pour charges devant rester sur infrastructure sous votre contrôle."
         }
       ],
       "cta": {
-        "text": "Voir la pile de conformité",
-        "link": "../products.html"
+        "text": "Évaluer votre posture de conformité",
+        "link": "../contact.html"
       }
     },
     "features": {
@@ -582,17 +597,17 @@
       ]
     },
     "ctaFinal": {
-      "title": "Prêt à sécuriser vos charges de travail réglementées ?",
-      "subtitle": "Rejoignez les principales organisations de santé, de finance et gouvernementales qui utilisent déjà Elemento pour répondre aux exigences de conformité tout en tirant parti de la technologie cloud.",
+      "title": "Prêt à gouverner des charges réglementées ?",
+      "subtitle": "Respectez RGPD, HIPAA, DORA et exigences sectorielles sans échanger souveraineté contre commodité.",
       "primaryCTA": {
-        "text": "Démarrer le déploiement sécurisé",
-        "link": "../signup.html",
+        "text": "Évaluer votre posture de conformité",
+        "link": "../contact.html",
         "icon": "fas fa-calendar-check"
       },
       "secondaryCTA": {
-        "text": "Explorez les solutions de conformité",
-        "link": "../products.html",
-        "icon": "fas fa-certificate"
+        "text": "Explorer la plateforme",
+        "link": "../platform.html",
+        "icon": "fas fa-layer-group"
       }
     }
   }

@@ -32,13 +32,13 @@ const BASE_SCRIPTS = new Set([
 ]);
 
 const SOLUTION_SLUGS = new Set([
-  'ai',
-  'industrial',
-  'devops',
-  'public-sector',
-  'regulated',
-  'system-integrators',
-  'vmware-alternative',
+  'vmware-exit',
+  'sovereign-cloud-governance',
+  'hybrid-multi-cloud',
+  'ai-gpu-infrastructure',
+  'service-providers',
+  'cross-provider-dr',
+  'data-repatriation',
   'products',
   'index',
 ]);

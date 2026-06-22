@@ -1,0 +1,6 @@
+/* Platform overview page — page-specific overrides */
+
+.platform-page .hero-container {
+  position: relative;
+  z-index: 1002;
+}

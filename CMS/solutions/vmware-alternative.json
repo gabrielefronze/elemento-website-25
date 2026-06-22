@@ -2,22 +2,22 @@
   "en": {
     "hero": {
       "tagline": "VMware Alternative",
-      "title": "Replace VMware with Modern Infrastructure",
-      "subtitle": "Upgrade from legacy VMware to Elemento's cloud-native platform. Get better performance, lower costs, and seamless cloud integration.",
+      "title": "Replace vSphere Without Replacing Your Operating Model",
+      "subtitle": "Run AtomOS as your sovereign hypervisor while Electros governs mixed VMware and AtomOS estates through Atomosquare.",
       "primaryCTA": {
-        "text": "Start Migration",
-        "link": "../signup.html",
+        "text": "Compare VMware Paths",
+        "link": "../contact.html",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
-        "text": "Compare Solutions",
-        "link": "#vmware-comparison",
-        "icon": "fas fa-balance-scale"
+        "text": "VMware Exit Strategy",
+        "link": "../solutions/vmware-exit.html",
+        "icon": "fas fa-sign-out-alt"
       }
     },
     "painPoints": {
       "title": "VMware Challenges You Face",
-      "subtitle": "Common pain points with legacy VMware infrastructure that limit your modernization efforts",
+      "subtitle": "Why swapping hypervisors alone does not solve licensing cost, cloud integration, or vendor dependency",
       "items": [
         {
           "icon": "fas fa-dollar-sign",
@@ -68,23 +68,33 @@
       ]
     },
     "solution": {
-      "title": "Elemento's VMware Alternative",
-      "description": "Complete platform designed to replace VMware with modern, cloud-native infrastructure",
+      "title": "AtomOS as Your VMware Alternative",
+      "description": "Modern sovereign hypervisor with a Metacloud control plane—not another proprietary lock-in cycle.",
       "items": [
-        {
-          "logo": "../assets/logos/Atomos.svg",
-          "name": "AtomOS",
-          "description": "Modern hypervisor replacing VMware vSphere with better performance"
-        },
         {
           "logo": "../assets/logos/Electros.svg",
           "name": "Electros",
-          "description": "Unified management console replacing VMware vCenter"
+          "description": "Consistent control plane governing VMware, AtomOS, and third-party hypervisors."
+        },
+        {
+          "logo": "../assets/logos/Atomosquare.svg",
+          "name": "Atomosquare",
+          "description": "Operate legacy VMware alongside AtomOS under the same governance model."
+        },
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Production-grade hypervisor replacing vSphere with better cost and cloud integration."
+        },
+        {
+          "logo": "../assets/logos/Atomosphere.svg",
+          "name": "Atomosphere",
+          "description": "Extend workloads to public and sovereign Cloud without re-platforming."
         }
       ],
       "cta": {
-        "text": "Get AtomOS now!",
-        "link": "../atomos.html"
+        "text": "Compare VMware Paths",
+        "link": "../contact.html"
       }
     },
     "features": {
@@ -170,15 +180,15 @@
       ]
     },
     "ctaFinal": {
-      "title": "Ready to Replace VMware?",
-      "subtitle": "Join organizations already using Elemento to modernize their infrastructure and reduce costs.",
+      "title": "Ready to Move Beyond VMware?",
+      "subtitle": "Choose incremental exit or direct replacement—both governed from the same Metacloud control plane.",
       "primaryCTA": {
-        "text": "Start Migration",
-        "link": "../signup.html",
+        "text": "Compare VMware Paths",
+        "link": "../contact.html",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
-        "text": "Schedule Migration Demo",
+        "text": "Run VMware Exit Assessment",
         "link": "../contact.html",
         "icon": "fas fa-calendar"
       }
@@ -187,17 +197,17 @@
   "it": {
     "hero": {
       "tagline": "Alternativa a VMware",
-      "title": "Sostituisci VMware con un'infrastruttura moderna",
-      "subtitle": "Esegui l'upgrade da VMware legacy alla piattaforma nativa del cloud di Elemento. Ottieni prestazioni migliori, costi inferiori e integrazione cloud perfetta.",
+      "title": "Sostituisci vSphere senza cambiare il modello operativo",
+      "subtitle": "Esegui AtomOS come hypervisor sovrano mentre Electros governa patrimoni misti VMware e AtomOS tramite Atomosquare.",
       "primaryCTA": {
-        "text": "Avvia la migrazione",
-        "link": "../signup.html",
+        "text": "Confronta i percorsi VMware",
+        "link": "../contact.html",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
-        "text": "Compare Soluziones",
-        "link": "#vmware-comparison",
-        "icon": "fas fa-balance-scale"
+        "text": "Strategia uscita VMware",
+        "link": "../solutions/vmware-exit.html",
+        "icon": "fas fa-sign-out-alt"
       }
     },
     "painPoints": {
@@ -253,23 +263,33 @@
       ]
     },
     "solution": {
-      "title": "L'alternativa VMware di Elemento",
-      "description": "Piattaforma completa progettata per sostituire VMware con un'infrastruttura moderna e nativa del cloud",
+      "title": "AtomOS come alternativa a VMware",
+      "description": "Hypervisor sovrano moderno con control plane Metacloud — non un altro ciclo di lock-in proprietario.",
       "items": [
-        {
-          "logo": "../assets/logos/Atomos.svg",
-          "name": "AtomOS",
-          "description": "Hypervisor moderno che sostituisce VMware vSphere con prestazioni migliori"
-        },
         {
           "logo": "../assets/logos/Electros.svg",
           "name": "Electros",
-          "description": "Console di gestione unificata che sostituisce VMware vCenter"
+          "description": "Control plane coerente che governa VMware, AtomOS e hypervisor di terze parti."
+        },
+        {
+          "logo": "../assets/logos/Atomosquare.svg",
+          "name": "Atomosquare",
+          "description": "Opera VMware legacy fianco a fianco ad AtomOS sotto lo stesso modello di governance."
+        },
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Hypervisor production-grade che sostituisce vSphere con costi migliori e integrazione Cloud."
+        },
+        {
+          "logo": "../assets/logos/Atomosphere.svg",
+          "name": "Atomosphere",
+          "description": "Estendi i workload a Cloud pubblici e sovrani senza re-platforming."
         }
       ],
       "cta": {
-        "text": "Ottieni AtomOS adesso!",
-        "link": "../atomos.html"
+        "text": "Confronta i percorsi VMware",
+        "link": "../contact.html"
       }
     },
     "features": {
@@ -355,15 +375,15 @@
       ]
     },
     "ctaFinal": {
-      "title": "Pronto per Replace VMware?",
-      "subtitle": "Unisciti alle organizzazioni che già utilizzano Elemento per modernizzare la propria infrastruttura e ridurre i costi.",
+      "title": "Pronto per andare oltre VMware?",
+      "subtitle": "Scegli uscita incrementale o sostituzione diretta — entrambe governate dallo stesso control plane Metacloud.",
       "primaryCTA": {
-        "text": "Avvia la migrazione",
-        "link": "../signup.html",
+        "text": "Confronta i percorsi VMware",
+        "link": "../contact.html",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
-        "text": "Pianifica demo di migrazione",
+        "text": "Valutazione uscita VMware",
         "link": "../contact.html",
         "icon": "fas fa-calendar"
       }
@@ -372,17 +392,17 @@
   "fr": {
     "hero": {
       "tagline": "Alternative VMware",
-      "title": "Remplacez VMware par une infrastructure moderne",
-      "subtitle": "Passez de l'ancien VMware à la plateforme cloud native d'Elemento. Obtenez de meilleures performances, des coûts réduits et une intégration transparente dans le cloud.",
+      "title": "Remplacez vSphere sans changer votre modèle opérationnel",
+      "subtitle": "Exécutez AtomOS comme hyperviseur souverain tandis qu'Electros gouverne des patrimoines mixtes VMware et AtomOS via Atomosquare.",
       "primaryCTA": {
-        "text": "Démarrer la migration",
-        "link": "../signup.html",
+        "text": "Comparer les parcours VMware",
+        "link": "../contact.html",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
-        "text": "Comparez les solutions",
-        "link": "#vmware-comparison",
-        "icon": "fas fa-balance-scale"
+        "text": "Stratégie de sortie VMware",
+        "link": "../solutions/vmware-exit.html",
+        "icon": "fas fa-sign-out-alt"
       }
     },
     "painPoints": {
@@ -438,23 +458,33 @@
       ]
     },
     "solution": {
-      "title": "L'alternative VMware d'Elemento",
-      "description": "Plateforme complète conçue pour remplacer VMware par une infrastructure cloud native moderne",
+      "title": "AtomOS comme alternative VMware",
+      "description": "Hyperviseur souverain moderne avec plan de contrôle Metacloud — pas un autre cycle de verrouillage propriétaire.",
       "items": [
-        {
-          "logo": "../assets/logos/Atomos.svg",
-          "name": "AtomOS",
-          "description": "Hyperviseur moderne remplaçant VMware vSphere avec de meilleures performances"
-        },
         {
           "logo": "../assets/logos/Electros.svg",
           "name": "Electros",
-          "description": "Console de gestion unifiée remplaçant VMware vCenter"
+          "description": "Plan de contrôle cohérent gouvernant VMware, AtomOS et hyperviseurs tiers."
+        },
+        {
+          "logo": "../assets/logos/Atomosquare.svg",
+          "name": "Atomosquare",
+          "description": "Faites coexister VMware existant et AtomOS sous le même modèle de gouvernance."
+        },
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Hyperviseur production remplaçant vSphere avec meilleurs coûts et intégration Cloud."
+        },
+        {
+          "logo": "../assets/logos/Atomosphere.svg",
+          "name": "Atomosphere",
+          "description": "Étendez les charges vers Cloud publics et souverains sans re-platforming."
         }
       ],
       "cta": {
-        "text": "Obtenez AtomOS maintenant !",
-        "link": "../atomos.html"
+        "text": "Comparer les parcours VMware",
+        "link": "../contact.html"
       }
     },
     "features": {
@@ -540,15 +570,15 @@
       ]
     },
     "ctaFinal": {
-      "title": "Prêt à remplacer VMware ?",
-      "subtitle": "Rejoignez les organisations qui utilisent déjà Elemento pour moderniser leur infrastructure et réduire leurs coûts.",
+      "title": "Prêt à dépasser VMware ?",
+      "subtitle": "Choisissez sortie incrémentale ou remplacement direct — les deux gouvernés depuis le même plan de contrôle Metacloud.",
       "primaryCTA": {
-        "text": "Démarrer la migration",
-        "link": "../signup.html",
+        "text": "Comparer les parcours VMware",
+        "link": "../contact.html",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
-        "text": "Planifier une démo de migration",
+        "text": "Évaluation de sortie VMware",
         "link": "../contact.html",
         "icon": "fas fa-calendar"
       }

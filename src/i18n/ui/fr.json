@@ -9,6 +9,25 @@
     "frAria": "Français"
   },
   "nav": {
+    "platform": "Plateforme",
+    "platformOverview": "Vue d'ensemble",
+    "solutions": "Solutions",
+    "pricing": "Tarification",
+    "company": "Entreprise",
+    "team": "Équipe",
+    "architecture": "Architecture",
+    "documentation": "Documentation",
+    "productBriefs": "Fiches produit",
+    "explorePlatform": "Explorer la plateforme",
+    "bookAssessment": "Réserver",
+    "solVmwareExit": "Sortie VMware",
+    "solSovereign": "Gouvernance souveraine",
+    "solHybrid": "Hybride et multi-cloud",
+    "solAiGpu": "IA / GPU",
+    "solProviders": "Fournisseurs",
+    "solDr": "PRA multi-fournisseurs",
+    "solRepatriation": "Rapatriement",
+    "allSolutions": "Toutes les solutions",
     "products": "Produits",
     "technology": "Technologie",
     "about": "À propos",
@@ -21,11 +40,19 @@
     "homeAria": "Accueil Elemento"
   },
   "banner": {
-    "atomosDiscountText": "Profitez d'AtomOS aujourd'hui : 150 € de réduction sur le premier achat",
-    "atomosDiscountAria": "Profitez d'AtomOS aujourd'hui : 150 euros de réduction sur le premier achat"
+    "metacloudAssessmentText": "Réservez une évaluation Metacloud — gouvernez l'infrastructure sans la remplacer",
+    "metacloudAssessmentAria": "Réservez une évaluation Metacloud"
   },
   "footer": {
     "tagline": "Plateforme cloud neutre vis-à-vis des fournisseurs, performante, économique, durable et auto-hébergeable.",
+    "platform": "Plateforme",
+    "platformOverview": "Vue d'ensemble",
+    "solutions": "Solutions",
+    "solVmwareExit": "Sortie VMware",
+    "solSovereign": "Gouvernance souveraine",
+    "solHybrid": "Hybride et multi-cloud",
+    "allSolutions": "Toutes les solutions",
+    "team": "Équipe",
     "products": "Produits",
     "allProducts": "Tous les produits",
     "company": "Entreprise",

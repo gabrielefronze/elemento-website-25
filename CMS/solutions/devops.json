@@ -1,23 +1,23 @@
 {
   "en": {
     "hero": {
-      "tagline": "DevOps Infrastructure",
-      "title": "Build Cloud-Agnostic CI/CD Pipelines",
-      "subtitle": "Deploy faster, scale efficiently, and maintain consistency across all environments with our unified platform.",
+      "tagline": "DevOps & Platform Teams",
+      "title": "One Pipeline Model Across Every Environment",
+      "subtitle": "Eliminate environment drift and vendor-specific deployment logic with consistent infrastructure governance from Electros.",
       "primaryCTA": {
-        "text": "Start Now",
-        "link": "../signup.html",
+        "text": "Map Your Delivery Estate",
+        "link": "../contact.html",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
-        "text": "Explore DevOps Platform",
-        "link": "../products.html",
-        "icon": "hn hn-lightbulb"
+        "text": "Hybrid Operations",
+        "link": "../solutions/hybrid-multi-cloud.html",
+        "icon": "fas fa-layer-group"
       }
     },
     "painPoints": {
       "title": "DevOps Challenges You Face",
-      "subtitle": "Common pain points that slow down your development and deployment processes",
+      "subtitle": "Why CI/CD breaks down when staging, production, and Cloud targets run on different operational models",
       "items": [
         {
           "icon": "fas fa-clock",
@@ -42,28 +42,33 @@
       ]
     },
     "solution": {
-      "title": "Elemento's DevOps Solution",
-      "description": "Unified infrastructure management that eliminates environment drift and accelerates your CI/CD pipelines",
+      "title": "DevOps on the Metacloud",
+      "description": "Deploy and govern workloads across Cloud, hypervisor, and edge targets with one policy and automation model.",
       "items": [
-        {
-          "logo": "../assets/logos/Atomos.svg",
-          "name": "AtomOS",
-          "description": "Consistent hypervisor environment across all deployments"
-        },
         {
           "logo": "../assets/logos/Electros.svg",
           "name": "Electros",
-          "description": "Unified dashboard for managing all your infrastructure"
+          "description": "Unified control plane for environments, policies, remote access, and deployment governance."
         },
         {
           "logo": "../assets/logos/Atomosphere.svg",
           "name": "Atomosphere",
-          "description": "API layer for seamless cloud provider integration"
+          "description": "Cloud-agnostic orchestration across public and sovereign providers."
+        },
+        {
+          "logo": "../assets/logos/Atomosquare.svg",
+          "name": "Atomosquare",
+          "description": "Consistent deployment targets across VMware, Proxmox, and other hypervisors."
+        },
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Native sovereign endpoint for on-premises and edge execution."
         }
       ],
       "cta": {
-        "text": "See DevOps Stack",
-        "link": "../products.html"
+        "text": "Map Your Delivery Estate",
+        "link": "../contact.html"
       }
     },
     "features": {
@@ -168,19 +173,19 @@
         {
           "logo": "../assets/logos/Atomos.svg",
           "name": "AtomOS",
-          "description": "Production-grade hypervisor for consistent environments",
+          "description": "Sovereign execution endpoint for consistent environments",
           "link": "../atomos.html"
         },
         {
           "logo": "../assets/logos/Electros.svg",
           "name": "Electros",
-          "description": "Unified dashboard for infrastructure management",
+          "description": "Control plane for infrastructure governance and automation",
           "link": "../electros.html"
         },
         {
           "logo": "../assets/logos/Atomosphere.svg",
           "name": "Atomosphere",
-          "description": "API layer for multi-cloud orchestration",
+          "description": "Cloud provider fabric for multi-cloud orchestration",
           "link": "../atomosphere.html"
         }
       ]
@@ -208,15 +213,15 @@
       ]
     },
     "ctaFinal": {
-      "title": "Ready to Transform Your DevOps?",
-      "subtitle": "Join thousands of teams already using Elemento to streamline their CI/CD pipelines and accelerate development.",
+      "title": "Ready to Unify Your DevOps Estate?",
+      "subtitle": "Keep your existing CI/CD tools while gaining consistent infrastructure across every deployment target.",
       "primaryCTA": {
-        "text": "Deploy First Pipeline",
-        "link": "../signup.html",
+        "text": "Map Your Delivery Estate",
+        "link": "../contact.html",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
-        "text": "Schedule DevOps Demo",
+        "text": "Schedule a Demo",
         "link": "../contact.html",
         "icon": "fas fa-phone"
       }
@@ -224,18 +229,18 @@
   },
   "it": {
     "hero": {
-      "tagline": "Infrastruttura DevOps",
-      "title": "Crea pipeline CI/CD indipendenti dal cloud",
-      "subtitle": "Distribuisci più velocemente, scala in modo efficiente e mantieni la coerenza in tutti gli ambienti con la nostra piattaforma unificata.",
+      "tagline": "DevOps e team di piattaforma",
+      "title": "Un modello di pipeline per ogni ambiente",
+      "subtitle": "Elimina la deriva ambientale e la logica di deployment specifica per vendor con governance infrastrutturale coerente da Electros.",
       "primaryCTA": {
-        "text": "Inizia ora",
-        "link": "../signup.html",
+        "text": "Mappa l'estate di delivery",
+        "link": "../contact.html",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
-        "text": "Esplora DevOps Platform",
-        "link": "../products.html",
-        "icon": "hn hn-lightbulb"
+        "text": "Operazioni ibride",
+        "link": "../solutions/hybrid-multi-cloud.html",
+        "icon": "fas fa-layer-group"
       }
     },
     "painPoints": {
@@ -265,28 +270,33 @@
       ]
     },
     "solution": {
-      "title": "Elemento's DevOps Soluzione",
-      "description": "Gestione unificata dell'infrastruttura che elimina la deriva ambientale e accelera le pipeline CI/CD",
+      "title": "DevOps sul Metacloud",
+      "description": "Distribuisci e governa workload su target Cloud, hypervisor ed edge con un unico modello di policy e automazione.",
       "items": [
-        {
-          "logo": "../assets/logos/Atomos.svg",
-          "name": "AtomOS",
-          "description": "Ambiente hypervisor coerente in tutte le distribuzioni"
-        },
         {
           "logo": "../assets/logos/Electros.svg",
           "name": "Electros",
-          "description": "Dashboard unificato per la gestione di tutta la tua infrastruttura"
+          "description": "Control plane unificato per ambienti, policy, accesso remoto e governance del deployment."
         },
         {
           "logo": "../assets/logos/Atomosphere.svg",
           "name": "Atomosphere",
-          "description": "Livello API per un'integrazione perfetta del provider cloud"
+          "description": "Orchestrazione cloud-agnostica su provider pubblici e sovrani."
+        },
+        {
+          "logo": "../assets/logos/Atomosquare.svg",
+          "name": "Atomosquare",
+          "description": "Target di deployment coerenti su VMware, Proxmox e altri hypervisor."
+        },
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Endpoint sovrano nativo per esecuzione on-premises ed edge."
         }
       ],
       "cta": {
-        "text": "Vedi DevOps Stack",
-        "link": "../products.html"
+        "text": "Mappa l'estate di delivery",
+        "link": "../contact.html"
       }
     },
     "features": {
@@ -431,15 +441,15 @@
       ]
     },
     "ctaFinal": {
-      "title": "Pronto per Transform Your DevOps?",
-      "subtitle": "Unisciti a migliaia di team che già utilizzano Elemento per semplificare le pipeline CI/CD e accelerare lo sviluppo.",
+      "title": "Pronto per unificare l'estate DevOps?",
+      "subtitle": "Mantieni i tuoi strumenti CI/CD esistenti ottenendo infrastruttura coerente su ogni target di deployment.",
       "primaryCTA": {
-        "text": "Distribuire la prima pipeline",
-        "link": "../signup.html",
+        "text": "Mappa l'estate di delivery",
+        "link": "../contact.html",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
-        "text": "Pianifica la demo DevOps",
+        "text": "Pianifica una demo",
         "link": "../contact.html",
         "icon": "fas fa-phone"
       }
@@ -447,18 +457,18 @@
   },
   "fr": {
     "hero": {
-      "tagline": "Infrastructure DevOps",
-      "title": "Créez des pipelines CI/CD indépendants du cloud",
-      "subtitle": "Déployez plus rapidement, évoluez efficacement et maintenez la cohérence dans tous les environnements grâce à notre plateforme unifiée.",
+      "tagline": "DevOps et équipes plateforme",
+      "title": "Un modèle de pipeline pour chaque environnement",
+      "subtitle": "Éliminez la dérive d'environnement et la logique de déploiement spécifique aux fournisseurs avec une gouvernance infrastructure cohérente via Electros.",
       "primaryCTA": {
-        "text": "Commencez maintenant",
-        "link": "../signup.html",
+        "text": "Cartographier votre patrimoine de delivery",
+        "link": "../contact.html",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
-        "text": "Explorez la plateforme DevOps",
-        "link": "../products.html",
-        "icon": "hn hn-lightbulb"
+        "text": "Opérations hybrides",
+        "link": "../solutions/hybrid-multi-cloud.html",
+        "icon": "fas fa-layer-group"
       }
     },
     "painPoints": {
@@ -488,28 +498,33 @@
       ]
     },
     "solution": {
-      "title": "La solution DevOps d'Elemento",
-      "description": "Gestion unifiée de l'infrastructure qui élimine la dérive de l'environnement et accélère vos pipelines CI/CD",
+      "title": "DevOps sur le Metacloud",
+      "description": "Déployez et gouvernez les charges sur cibles Cloud, hyperviseur et edge avec un modèle unique de politiques et d'automatisation.",
       "items": [
-        {
-          "logo": "../assets/logos/Atomos.svg",
-          "name": "AtomOS",
-          "description": "Environnement d'hyperviseur cohérent dans tous les déploiements"
-        },
         {
           "logo": "../assets/logos/Electros.svg",
           "name": "Electros",
-          "description": "Tableau de bord unifié pour gérer toute votre infrastructure"
+          "description": "Plan de contrôle unifié pour environnements, politiques, accès distant et gouvernance des déploiements."
         },
         {
           "logo": "../assets/logos/Atomosphere.svg",
           "name": "Atomosphere",
-          "description": "Couche API pour une intégration transparente des fournisseurs de cloud"
+          "description": "Orchestration indépendante du cloud sur fournisseurs publics et souverains."
+        },
+        {
+          "logo": "../assets/logos/Atomosquare.svg",
+          "name": "Atomosquare",
+          "description": "Cibles de déploiement cohérentes sur VMware, Proxmox et autres hyperviseurs."
+        },
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Endpoint souverain natif pour exécution on-premises et edge."
         }
       ],
       "cta": {
-        "text": "Voir la pile DevOps",
-        "link": "../products.html"
+        "text": "Cartographier votre patrimoine de delivery",
+        "link": "../contact.html"
       }
     },
     "features": {
@@ -654,15 +669,15 @@
       ]
     },
     "ctaFinal": {
-      "title": "Prêt à transformer votre DevOps ?",
-      "subtitle": "Rejoignez des milliers d'équipes qui utilisent déjà Elemento pour rationaliser leurs pipelines CI/CD et accélérer le développement.",
+      "title": "Prêt à unifier votre patrimoine DevOps ?",
+      "subtitle": "Conservez vos outils CI/CD existants tout en obtenant une infrastructure cohérente sur chaque cible de déploiement.",
       "primaryCTA": {
-        "text": "Déployer le premier pipeline",
-        "link": "../signup.html",
+        "text": "Cartographier votre patrimoine de delivery",
+        "link": "../contact.html",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
-        "text": "Planifier une démo DevOps",
+        "text": "Planifier une démo",
         "link": "../contact.html",
         "icon": "fas fa-phone"
       }

@@ -92,17 +92,17 @@
     },
     {
       "id": "meta.solutions_devops.description",
-      "en": "Build cloud-agnostic CI/CD pipelines with Elemento. Deploy faster, scale efficiently, and maintain consistency across all environments with our unified platform.",
-      "it": "",
-      "fr": "",
+      "en": "Eliminate environment drift and vendor-specific deployment logic with consistent infrastructure governance from Electros.",
+      "it": "Elimina la deriva ambientale e la logica di deployment specifica per vendor con governance infrastrutturale coerente da Electros.",
+      "fr": "Éliminez la dérive d'environnement et la logique de déploiement spécifique aux fournisseurs avec une gouvernance infrastructure cohérente via Electros.",
       "source": "solutions/devops.html",
       "context": "meta description"
     },
     {
       "id": "meta.solutions_devops.title",
-      "en": "DevOps Infrastructure for CI/CD Pipelines | Elemento",
-      "it": "",
-      "fr": "",
+      "en": "One Pipeline Model Across Every Environment | Elemento",
+      "it": "Un modello di pipeline per ogni ambiente | Elemento",
+      "fr": "Un modèle de pipeline pour chaque environnement | Elemento",
       "source": "solutions/devops.html",
       "context": "meta title"
     }

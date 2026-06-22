@@ -4,7 +4,7 @@
   "strings": [
     {
       "id": "body.atomosphere.h1.1",
-      "en": "Atomosphere: The Gateway to +235 data centers",
+      "en": "Atomosphere ™",
       "it": "",
       "fr": "",
       "source": "atomosphere.html",
@@ -348,7 +348,7 @@
     },
     {
       "id": "body.atomosphere.p.1",
-      "en": "Instead of learning separate APIs for AWS, Azure, Google Cloud, and other CSPs, Atomosphere provides one API to rule them all while you continue using your existing cloud accounts.",
+      "en": "Atomosphere connects cloud providers and sovereign cloud services to the Elemento Metacloud through a common interoperability model — one service-class connection, all compatible providers.",
       "it": "",
       "fr": "",
       "source": "atomosphere.html",
@@ -676,7 +676,7 @@
     },
     {
       "id": "body.atomosphere.ui.1",
-      "en": "Connect. Unify. Control.",
+      "en": "Universal Cloud Provider Fabric",
       "it": "",
       "fr": "",
       "source": "atomosphere.html",
@@ -684,7 +684,7 @@
     },
     {
       "id": "body.atomosphere.ui.2",
-      "en": "Instead of learning separate APIs for AWS, Azure, Google Cloud, and other CSPs, Atomosphere provides one API to rule them all while you continue using your existing cloud accounts.",
+      "en": "Atomosphere connects cloud providers and sovereign cloud services to the Elemento Metacloud through a common interoperability model — one service-class connection, all compatible providers.",
       "it": "",
       "fr": "",
       "source": "atomosphere.html",
@@ -692,7 +692,7 @@
     },
     {
       "id": "body.atomosphere.ui.3",
-      "en": "Discover the platform",
+      "en": "Connect a Cloud Provider",
       "it": "",
       "fr": "",
       "source": "atomosphere.html",
@@ -700,7 +700,7 @@
     },
     {
       "id": "body.atomosphere.ui.4",
-      "en": "Join as a Provider",
+      "en": "Explore Service Classes",
       "it": "",
       "fr": "",
       "source": "atomosphere.html",
@@ -748,7 +748,7 @@
     },
     {
       "id": "meta.atomosphere.description",
-      "en": "Elemento's multicloud API gateway connects 235+ clouds and on-prem nodes into one programmable network. Unified control, seamless portability.",
+      "en": "Atomosphere connects cloud providers and sovereign cloud services to the Elemento Metacloud through a common interoperability model.",
       "it": "",
       "fr": "",
       "source": "atomosphere.html",
@@ -756,7 +756,7 @@
     },
     {
       "id": "meta.atomosphere.title",
-      "en": "Atomosphere — Federated Multicloud Gateway | Elemento",
+      "en": "Atomosphere™ | Universal Cloud Provider Fabric | Elemento",
       "it": "",
       "fr": "",
       "source": "atomosphere.html",

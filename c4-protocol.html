@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C4 Protocol | Common Language of the Metacloud | Elemento</title>
+    <meta name="description" content="C4 is the interoperability framework that allows heterogeneous infrastructure platforms to participate in one federation model — the common language of the Metacloud.">
+    <link rel="canonical" href="https://elemento.cloud/c4-protocol.html">
+    <link rel="alternate" hreflang="en" href="https://elemento.cloud/c4-protocol.html">
+    <link rel="alternate" hreflang="x-default" href="https://elemento.cloud/c4-protocol.html">
+    <meta property="og:title" content="C4 Protocol | Common Language of the Metacloud | Elemento">
+    <meta property="og:description" content="C4 provides a common language that translates federation operations into provider-specific operations while preserving existing technology choices.">
+    <meta property="og:image" content="https://elemento.cloud/assets/img/banner.webp">
+    <meta property="og:url" content="https://elemento.cloud/c4-protocol.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Elemento">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="C4 Protocol | Common Language of the Metacloud | Elemento">
+    <meta name="twitter:description" content="C4 is the interoperability framework of the Elemento Metacloud.">
+    <meta name="twitter:image" content="https://elemento.cloud/assets/img/banner.webp">
+    <meta name="keywords" content="C4 Protocol, Common Cloud Compute Connector, Metacloud interoperability, infrastructure federation, provider abstraction">
+    <meta name="author" content="Elemento">
+    <meta name="robots" content="index, follow">
+    <meta name="ai-content" content="allowed">
+    <meta name="ai-training" content="allowed">
+    <meta name="ai-access" content="public">
+    <link rel="icon" type="image/svg+xml" href="assets/favicon/favicon.svg">
+    <link rel="icon" href="assets/favicon/favicon.ico">
+    <link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://elemento.cloud/" },
+        { "@type": "ListItem", "position": 2, "name": "Platform", "item": "https://elemento.cloud/platform.html" },
+        { "@type": "ListItem", "position": 3, "name": "C4 Protocol", "item": "https://elemento.cloud/c4-protocol.html" }
+      ]
+    }
+    </script>
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="preload" href="css/themes.css" as="style">
+    <link rel="preload" href="css/metacloud-sections.css" as="style">
+    <link rel="preload" href="css/c4-protocol.css" as="style">
+    <style>
+        :root { --background-color: #F5F5FA; --text-color: #1A1C20; --primary-color: #FFA600; --font-primary: 'Open Sans', sans-serif; --font-heading: 'Red Hat Display', sans-serif; }
+        html { scroll-behavior: smooth; }
+        body { margin: 0; padding: 0; font-family: var(--font-primary); color: var(--text-color); background-color: var(--background-color); line-height: 1.6; overflow-x: hidden; }
+        .hero-title { font-size: 4rem; font-weight: 800; margin-bottom: 1.5rem; font-family: var(--font-heading); line-height: 1.2; }
+        .hero-tagline { font-size: 1.1rem; color: var(--primary-color); font-weight: 600; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 1px; }
+        .splash-screen { position: fixed; inset: 0; background: var(--background-color); display: flex; align-items: center; justify-content: center; z-index: 9999; }
+        .splash-screen.hidden { opacity: 0; visibility: hidden; }
+        .splash-logo-img { width: 120px; height: 120px; background-color: var(--accent-color); mask-image: url(assets/logos/Elemento.svg); mask-size: contain; mask-repeat: no-repeat; mask-position: center; -webkit-mask-image: url(assets/logos/Elemento.svg); -webkit-mask-size: contain; -webkit-mask-repeat: no-repeat; -webkit-mask-position: center; }
+    </style>
+    <link rel="stylesheet" href="css/themes.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="css/style.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="css/atmosphere.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="css/planet-styles/planet-index.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="css/metacloud-sections.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="css/breadcrumb.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="css/c4-protocol.css" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="css/themes.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/atmosphere.css">
+        <link rel="stylesheet" href="css/planet-styles/planet-index.css">
+        <link rel="stylesheet" href="css/metacloud-sections.css">
+        <link rel="stylesheet" href="css/breadcrumb.css">
+        <link rel="stylesheet" href="css/c4-protocol.css">
+    </noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Red+Hat+Display:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/font/PixelIconLibrary/iconfont.css">
+    <script type="text/plain" class="_iub_cs_activate" data-iub-purposes="4" src="js/matomo-tracking.js"></script>
+</head>
+<body class="c4-protocol-page">
+
+    <div id="splash-screen" class="splash-screen">
+        <div class="splash-content"><div class="splash-logo"><div class="splash-logo-img"></div></div></div>
+    </div>
+
+    <div id="navbar-placeholder"></div>
+
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+        <div class="container">
+            <ol class="breadcrumb-list">
+                <li class="breadcrumb-item"><a href="/" class="breadcrumb-link">Home</a></li>
+                <li class="breadcrumb-item"><a href="platform.html" class="breadcrumb-link">Platform</a></li>
+                <li class="breadcrumb-item breadcrumb-current" aria-current="page">C4 Protocol</li>
+            </ol>
+        </div>
+    </nav>
+
+    <main id="main-content">
+        <section class="hero">
+            <div id="atmosphere-hero-placeholder"></div>
+            <div class="hero-container hero-vert-center">
+                <div class="hero-content">
+                    <div class="hero-buttons fade-in">
+                        <p class="hero-tagline">Cloud Compute Common Connector Protocol</p>
+                        <h1 class="hero-title">C4 <span class="pixel-accent">Protocol</span></h1>
+                        <div class="hero-subtitle">
+                            <p>The Common Language of the Metacloud. C4 is the interoperability framework that allows heterogeneous infrastructure platforms to participate in one federation model.</p>
+                        </div>
+                        <div class="quick-contact-options hero-cta">
+                            <a href="resources.html" class="btn btn-primary">
+                                <i class="fas fa-book"></i> Read the C4 Technical Brief
+                            </a>
+                            <a href="platform.html#architecture" class="btn btn-secondary">
+                                <i class="fas fa-layer-group"></i> View Architecture
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Why C4 <span class="highlight-pixel">Exists</span></h2>
+                </div>
+                <div class="grid grid-2 grid-centered">
+                    <div class="fade-in">
+                        <p>C4 does not replace provider APIs.</p>
+                        <p>It provides a common language that translates federation operations into provider-specific operations, preserving existing technology choices while enabling a unified operational framework.</p>
+                    </div>
+                    <div class="fade-in">
+                        <div class="abstraction-progression">
+                            <p>Declare an outcome through portable C4 contracts. The Metacloud identifies and activates the most suitable implementation.</p>
+                            <blockquote>Contracts, not clouds.</blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Core <span class="highlight-pixel">Functions</span></h2>
+                </div>
+                <div class="pillar-grid">
+                    <div class="pillar-card scroll-animate"><h3>Resource abstraction</h3><p>Normalise heterogeneous provider capabilities into a common model.</p></div>
+                    <div class="pillar-card scroll-animate"><h3>Service discovery</h3><p>Make infrastructure and services discoverable across the federation.</p></div>
+                    <div class="pillar-card scroll-animate"><h3>Endpoint registration</h3><p>Register providers, hypervisors and services into the Metacloud.</p></div>
+                    <div class="pillar-card scroll-animate"><h3>Capability exposure</h3><p>Expose provider-specific features through a unified interface.</p></div>
+                    <div class="pillar-card scroll-animate"><h3>Common API model</h3><p>One operational language for Electros across all connected environments.</p></div>
+                    <div class="pillar-card scroll-animate"><h3>Workload operations</h3><p>Provision, move and govern workloads through federation contracts.</p></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Design <span class="highlight-pixel">Principle</span></h2>
+                </div>
+                <div class="grid grid-2 c4-content">
+                    <div class="fade-in">
+                        <p>C4 acts as a translation layer between Electros and provider-specific APIs.</p>
+                        <p>Each provider exposes its capabilities through C4, allowing Electros to issue common federation operations without requiring knowledge of the underlying provider implementation.</p>
+                    </div>
+                    <div class="fade-in">
+                        <div class="metacloud-architecture" style="max-width: 400px;">
+                            <div class="metacloud-arch-layer">
+                                <div class="metacloud-arch-node metacloud-arch-node--primary">
+                                    <img src="assets/logos/Electros.svg" alt="" width="40" height="40">
+                                    <h4>Electros™</h4>
+                                    <p>Metacloud Control Plane</p>
+                                </div>
+                            </div>
+                            <div class="metacloud-arch-arrow" aria-hidden="true">↓</div>
+                            <div class="metacloud-arch-layer">
+                                <div class="metacloud-arch-node">
+                                    <h4>C4 Protocol</h4>
+                                    <p>Translation Layer</p>
+                                </div>
+                            </div>
+                            <div class="metacloud-arch-arrow" aria-hidden="true">↓</div>
+                            <div class="metacloud-arch-endpoints" style="text-align: center;">Provider APIs · Hypervisor APIs · AtomOS</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Future <span class="highlight-pixel">Roadmap</span></h2>
+                    <p class="section-subtitle">C4 evolves toward intent-driven infrastructure and autonomous federation.</p>
+                </div>
+                <ul class="roadmap-list">
+                    <li>Intent layer</li>
+                    <li>Provider federation</li>
+                    <li>Service catalog federation</li>
+                    <li>Autonomous rebalancing</li>
+                    <li>Carbon-aware placement</li>
+                    <li>Sovereign intelligence</li>
+                    <li>Provider exchange network</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Explore the <span class="highlight-pixel">Metacloud</span></h2>
+                </div>
+                <div class="text-center">
+                    <a href="resources.html" class="btn btn-primary">
+                        <i class="fas fa-book"></i> Read the C4 Technical Brief
+                    </a>
+                    <a href="electros.html" class="btn btn-secondary" style="margin-left: var(--space-sm);">
+                        <i class="fas fa-bolt"></i> Learn about Electros
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="js/splash-screen.js" defer></script>
+    <script src="js/navbar.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="js/footer.js" defer></script>
+    <script src="js/atmosphere_hero.js" defer></script>
+    <script src="js/themes.js" defer></script>
+</body>
+</html>

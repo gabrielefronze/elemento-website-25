@@ -1,0 +1,53 @@
+{
+  "en": {
+    "hero": {
+      "tagline": "Metacloud Solutions",
+      "title": "Executive Solutions for Sovereign Infrastructure",
+      "subtitle": "VMware exit, sovereign governance, hybrid operations, AI infrastructure, service providers, cross-provider DR, and data repatriation — one operating model.",
+      "primaryCTA": {
+        "text": "Book Assessment",
+        "link": "../contact.html",
+        "icon": "fas fa-calendar"
+      },
+      "secondaryCTA": {
+        "text": "Explore Platform",
+        "link": "../platform.html",
+        "icon": "fas fa-layer-group"
+      }
+    }
+  },
+  "it": {
+    "hero": {
+      "tagline": "Soluzioni Metacloud",
+      "title": "Soluzioni executive per infrastrutture sovrane",
+      "subtitle": "Uscita da VMware, governance sovrana, operazioni ibride, infrastruttura AI, service provider, DR cross-provider e repatriazione dati — un unico modello operativo.",
+      "primaryCTA": {
+        "text": "Prenota una valutazione",
+        "link": "../contact.html",
+        "icon": "fas fa-calendar"
+      },
+      "secondaryCTA": {
+        "text": "Esplora la piattaforma",
+        "link": "../platform.html",
+        "icon": "fas fa-layer-group"
+      }
+    }
+  },
+  "fr": {
+    "hero": {
+      "tagline": "Solutions Metacloud",
+      "title": "Solutions exécutives pour une infrastructure souveraine",
+      "subtitle": "Sortie VMware, gouvernance souveraine, opérations hybrides, infrastructure IA, fournisseurs de services, PRA multi-fournisseur et rapatriement de données — un seul modèle opérationnel.",
+      "primaryCTA": {
+        "text": "Réserver une évaluation",
+        "link": "../contact.html",
+        "icon": "fas fa-calendar"
+      },
+      "secondaryCTA": {
+        "text": "Explorer la plateforme",
+        "link": "../platform.html",
+        "icon": "fas fa-layer-group"
+      }
+    }
+  }
+}

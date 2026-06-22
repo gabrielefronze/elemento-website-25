@@ -1,0 +1,294 @@
+{
+  "page": "pricing",
+  "count": 36,
+  "strings": [
+    {
+      "id": "body.pricing.h1.1",
+      "en": "Simple Software Cost. Transparent Infrastructure Cost.",
+      "it": "",
+      "fr": "",
+      "source": "pricing.html",
+      "context": "<h1>"
+    },
+    {
+      "id": "body.pricing.h2.1",
+      "en": "Pricing Concepts",
+      "it": "",
+      "fr": "",
+      "source": "pricing.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.pricing.h2.2",
+      "en": "The Cost Equation",
+      "it": "",
+      "fr": "",
+      "source": "pricing.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.pricing.h2.3",
+      "en": "Get a Custom Quote",
+      "it": "",
+      "fr": "",
+      "source": "pricing.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.pricing.h3.1",
+      "en": "Electros Subscription",
+      "it": "",
+      "fr": "",
+      "source": "pricing.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.pricing.h3.2",
+      "en": "Connection Credits",
+      "it": "",
+      "fr": "",
+      "source": "pricing.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.pricing.h3.3",
+      "en": "AtomOS Endpoint",
+      "it": "",
+      "fr": "",
+      "source": "pricing.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.pricing.h3.4",
+      "en": "Atomosquare Third-Party Endpoints",
+      "it": "",
+      "fr": "",
+      "source": "pricing.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.pricing.h3.5",
+      "en": "Atomosphere Cloud Service Classes",
+      "it": "",
+      "fr": "",
+      "source": "pricing.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.pricing.li.1",
+      "en": "Home",
+      "it": "",
+      "fr": "",
+      "source": "pricing.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.pricing.li.2",
+      "en": "Pricing",
+      "it": "",
+      "fr": "",
+      "source": "pricing.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.pricing.li.3",
+      "en": "Not per VM",
+      "it": "",
+      "fr": "",
+      "source": "pricing.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.pricing.li.4",
+      "en": "Not per core",
+      "it": "",
+      "fr": "",
+      "source": "pricing.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.pricing.li.5",
+      "en": "Not per socket",
+      "it": "",
+      "fr": "",
+      "source": "pricing.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.pricing.li.6",
+      "en": "Not per resource",
+      "it": "",
+      "fr": "",
+      "source": "pricing.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.pricing.li.7",
+      "en": "Not per seat",
+      "it": "",
+      "fr": "",
+      "source": "pricing.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.pricing.li.8",
+      "en": "Not per user",
+      "it": "",
+      "fr": "",
+      "source": "pricing.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.pricing.p.1",
+      "en": "Metacloud Commercial Model",
+      "it": "",
+      "fr": "",
+      "source": "pricing.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.pricing.p.10",
+      "en": "One connection. All compatible providers.",
+      "it": "",
+      "fr": "",
+      "source": "pricing.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.pricing.p.11",
+      "en": "Software licensing, connection allocations and infrastructure usage — clearly separated.",
+      "it": "",
+      "fr": "",
+      "source": "pricing.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.pricing.p.12",
+      "en": "Predictable software cost. Transparent infrastructure cost.",
+      "it": "",
+      "fr": "",
+      "source": "pricing.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.pricing.p.2",
+      "en": "Electros is licensed at the organisation level. Connections activate integrations between Electros and infrastructure services. Infrastructure consumption remains billed separately and transparently.",
+      "it": "",
+      "fr": "",
+      "source": "pricing.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.pricing.p.3",
+      "en": "Predictable software cost. Transparent infrastructure cost.",
+      "it": "",
+      "fr": "",
+      "source": "pricing.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.pricing.p.4",
+      "en": "Organisation-wide licensing for the Metacloud control plane.",
+      "it": "",
+      "fr": "",
+      "source": "pricing.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.pricing.p.5",
+      "en": "Connections activate integrations between Electros and infrastructure services.",
+      "it": "",
+      "fr": "",
+      "source": "pricing.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.pricing.p.6",
+      "en": "Connection credits are included in each subscription tier and can be topped up.",
+      "it": "",
+      "fr": "",
+      "source": "pricing.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.pricing.p.7",
+      "en": "Connections to AtomOS infrastructure are included in all subscription tiers at no additional cost.",
+      "it": "",
+      "fr": "",
+      "source": "pricing.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.pricing.p.8",
+      "en": "VMware, Proxmox, OpenStack and other hypervisor environments consume one connection allocation per endpoint.",
+      "it": "",
+      "fr": "",
+      "source": "pricing.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.pricing.p.9",
+      "en": "One service-class connection enables access to all supported providers implementing that service class.",
+      "it": "",
+      "fr": "",
+      "source": "pricing.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.pricing.ui.1",
+      "en": "Electros is licensed at the organisation level. Connections activate integrations between Electros and infrastructure services. Infrastructure consumption remains billed separately and transparently.",
+      "it": "",
+      "fr": "",
+      "source": "pricing.html",
+      "context": "class"
+    },
+    {
+      "id": "body.pricing.ui.2",
+      "en": "Request a Quote",
+      "it": "",
+      "fr": "",
+      "source": "pricing.html",
+      "context": "class"
+    },
+    {
+      "id": "body.pricing.ui.3",
+      "en": "ROI Calculator",
+      "it": "",
+      "fr": "",
+      "source": "pricing.html",
+      "context": "class"
+    },
+    {
+      "id": "body.pricing.ui.4",
+      "en": "Book a Metacloud Assessment",
+      "it": "",
+      "fr": "",
+      "source": "pricing.html",
+      "context": "class"
+    },
+    {
+      "id": "body.pricing.ui.5",
+      "en": "Deployment Options",
+      "it": "",
+      "fr": "",
+      "source": "pricing.html",
+      "context": "class"
+    },
+    {
+      "id": "meta.pricing.description",
+      "en": "Electros is licensed at the organisation level. Connection credits activate integrations. Infrastructure consumption remains billed separately and transparently.",
+      "it": "",
+      "fr": "",
+      "source": "pricing.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.pricing.title",
+      "en": "Elemento | Pricing | Simple Software Cost. Transparent Infrastructure Cost.",
+      "it": "",
+      "fr": "",
+      "source": "pricing.html",
+      "context": "meta title"
+    }
+  ]
+}

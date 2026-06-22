@@ -10,7 +10,7 @@
       "services": [
         {
           "name": "vmManagement",
-          "display_name": "VM Management",
+          "display_name": "Gestion des machines virtuelles",
           "type": "matcher",
           "sub_type": "vm",
           "regions": {},
@@ -34,7 +34,7 @@
         },
         {
           "name": "networking",
-          "display_name": "Networking",
+          "display_name": "Reté",
           "type": "network",
           "sub_type": "network",
           "regions": {},
@@ -50,7 +50,7 @@
         },
         {
           "name": "costApi",
-          "display_name": "Cost API",
+          "display_name": "API des coûts",
           "type": "matcher",
           "sub_type": "billing",
           "regions": {},
@@ -58,7 +58,7 @@
         },
         {
           "name": "bareMetal",
-          "display_name": "Bare metal",
+          "display_name": "Métal nu",
           "type": "service",
           "sub_type": "bare_metal",
           "regions": {},
@@ -76,7 +76,7 @@
       "services": [
         {
           "name": "vmManagement",
-          "display_name": "VM Management",
+          "display_name": "Gestion des machines virtuelles",
           "type": "matcher",
           "sub_type": "vm",
           "regions": {
@@ -291,7 +291,7 @@
         },
         {
           "name": "networking",
-          "display_name": "Networking",
+          "display_name": "Reté",
           "type": "network",
           "sub_type": "network",
           "regions": {},
@@ -307,7 +307,7 @@
         },
         {
           "name": "costApi",
-          "display_name": "Cost API",
+          "display_name": "API des coûts",
           "type": "matcher",
           "sub_type": "billing",
           "regions": {},
@@ -315,7 +315,7 @@
         },
         {
           "name": "bareMetal",
-          "display_name": "Bare metal",
+          "display_name": "Métal nu",
           "type": "service",
           "sub_type": "bare_metal",
           "regions": {},
@@ -333,7 +333,7 @@
       "services": [
         {
           "name": "vmManagement",
-          "display_name": "VM Management",
+          "display_name": "Gestion des machines virtuelles",
           "type": "matcher",
           "sub_type": "vm",
           "regions": {
@@ -468,7 +468,7 @@
         },
         {
           "name": "networking",
-          "display_name": "Networking",
+          "display_name": "Reté",
           "type": "network",
           "sub_type": "network",
           "regions": {},
@@ -484,7 +484,7 @@
         },
         {
           "name": "costApi",
-          "display_name": "Cost API",
+          "display_name": "API des coûts",
           "type": "matcher",
           "sub_type": "billing",
           "regions": {},
@@ -492,7 +492,7 @@
         },
         {
           "name": "bareMetal",
-          "display_name": "Bare metal",
+          "display_name": "Métal nu",
           "type": "service",
           "sub_type": "bare_metal",
           "regions": {},
@@ -510,7 +510,7 @@
       "services": [
         {
           "name": "vmManagement",
-          "display_name": "VM Management",
+          "display_name": "Gestion des machines virtuelles",
           "type": "matcher",
           "sub_type": "vm",
           "regions": {},
@@ -534,7 +534,7 @@
         },
         {
           "name": "networking",
-          "display_name": "Networking",
+          "display_name": "Reté",
           "type": "network",
           "sub_type": "network",
           "regions": {},
@@ -550,7 +550,7 @@
         },
         {
           "name": "costApi",
-          "display_name": "Cost API",
+          "display_name": "API des coûts",
           "type": "matcher",
           "sub_type": "billing",
           "regions": {},
@@ -558,7 +558,7 @@
         },
         {
           "name": "bareMetal",
-          "display_name": "Bare metal",
+          "display_name": "Métal nu",
           "type": "service",
           "sub_type": "bare_metal",
           "regions": {},
@@ -576,7 +576,7 @@
       "services": [
         {
           "name": "vmManagement",
-          "display_name": "VM Management",
+          "display_name": "Gestion des machines virtuelles",
           "type": "matcher",
           "sub_type": "vm",
           "regions": {
@@ -660,7 +660,7 @@
         },
         {
           "name": "networking",
-          "display_name": "Networking",
+          "display_name": "Reté",
           "type": "network",
           "sub_type": "network",
           "regions": {},
@@ -676,7 +676,7 @@
         },
         {
           "name": "costApi",
-          "display_name": "Cost API",
+          "display_name": "API des coûts",
           "type": "matcher",
           "sub_type": "billing",
           "regions": {},
@@ -684,7 +684,7 @@
         },
         {
           "name": "bareMetal",
-          "display_name": "Bare metal",
+          "display_name": "Métal nu",
           "type": "service",
           "sub_type": "bare_metal",
           "regions": {},
@@ -702,7 +702,7 @@
       "services": [
         {
           "name": "vmManagement",
-          "display_name": "VM Management",
+          "display_name": "Gestion des machines virtuelles",
           "type": "matcher",
           "sub_type": "vm",
           "regions": {},
@@ -726,7 +726,7 @@
         },
         {
           "name": "networking",
-          "display_name": "Networking",
+          "display_name": "Reté",
           "type": "network",
           "sub_type": "network",
           "regions": {},
@@ -742,7 +742,7 @@
         },
         {
           "name": "costApi",
-          "display_name": "Cost API",
+          "display_name": "API des coûts",
           "type": "matcher",
           "sub_type": "billing",
           "regions": {},
@@ -750,7 +750,7 @@
         },
         {
           "name": "bareMetal",
-          "display_name": "Bare metal",
+          "display_name": "Métal nu",
           "type": "service",
           "sub_type": "bare_metal",
           "regions": {},
@@ -768,7 +768,7 @@
       "services": [
         {
           "name": "vmManagement",
-          "display_name": "VM Management",
+          "display_name": "Gestion des machines virtuelles",
           "type": "matcher",
           "sub_type": "vm",
           "regions": {},
@@ -792,7 +792,7 @@
         },
         {
           "name": "networking",
-          "display_name": "Networking",
+          "display_name": "Reté",
           "type": "network",
           "sub_type": "network",
           "regions": {},
@@ -808,7 +808,7 @@
         },
         {
           "name": "costApi",
-          "display_name": "Cost API",
+          "display_name": "API des coûts",
           "type": "matcher",
           "sub_type": "billing",
           "regions": {},
@@ -816,7 +816,7 @@
         },
         {
           "name": "bareMetal",
-          "display_name": "Bare metal",
+          "display_name": "Métal nu",
           "type": "service",
           "sub_type": "bare_metal",
           "regions": {},
@@ -834,7 +834,7 @@
       "services": [
         {
           "name": "vmManagement",
-          "display_name": "VM Management",
+          "display_name": "Gestion des machines virtuelles",
           "type": "matcher",
           "sub_type": "vm",
           "regions": {},
@@ -858,7 +858,7 @@
         },
         {
           "name": "networking",
-          "display_name": "Networking",
+          "display_name": "Reté",
           "type": "network",
           "sub_type": "network",
           "regions": {},
@@ -874,7 +874,7 @@
         },
         {
           "name": "costApi",
-          "display_name": "Cost API",
+          "display_name": "API des coûts",
           "type": "matcher",
           "sub_type": "billing",
           "regions": {},
@@ -882,7 +882,7 @@
         },
         {
           "name": "bareMetal",
-          "display_name": "Bare metal",
+          "display_name": "Métal nu",
           "type": "service",
           "sub_type": "bare_metal",
           "regions": {},
@@ -900,7 +900,7 @@
       "services": [
         {
           "name": "vmManagement",
-          "display_name": "VM Management",
+          "display_name": "Gestion des machines virtuelles",
           "type": "matcher",
           "sub_type": "vm",
           "regions": {},
@@ -924,7 +924,7 @@
         },
         {
           "name": "networking",
-          "display_name": "Networking",
+          "display_name": "Reté",
           "type": "network",
           "sub_type": "network",
           "regions": {},
@@ -940,7 +940,7 @@
         },
         {
           "name": "costApi",
-          "display_name": "Cost API",
+          "display_name": "API des coûts",
           "type": "matcher",
           "sub_type": "billing",
           "regions": {},
@@ -948,7 +948,7 @@
         },
         {
           "name": "bareMetal",
-          "display_name": "Bare metal",
+          "display_name": "Métal nu",
           "type": "service",
           "sub_type": "bare_metal",
           "regions": {},
@@ -966,7 +966,7 @@
       "services": [
         {
           "name": "vmManagement",
-          "display_name": "VM Management",
+          "display_name": "Gestion des machines virtuelles",
           "type": "matcher",
           "sub_type": "vm",
           "regions": {
@@ -1101,7 +1101,7 @@
         },
         {
           "name": "networking",
-          "display_name": "Networking",
+          "display_name": "Reté",
           "type": "network",
           "sub_type": "network",
           "regions": {},
@@ -1117,7 +1117,7 @@
         },
         {
           "name": "costApi",
-          "display_name": "Cost API",
+          "display_name": "API des coûts",
           "type": "matcher",
           "sub_type": "billing",
           "regions": {},
@@ -1125,7 +1125,7 @@
         },
         {
           "name": "bareMetal",
-          "display_name": "Bare metal",
+          "display_name": "Métal nu",
           "type": "service",
           "sub_type": "bare_metal",
           "regions": {},
@@ -1143,7 +1143,7 @@
       "services": [
         {
           "name": "vmManagement",
-          "display_name": "VM Management",
+          "display_name": "Gestion des machines virtuelles",
           "type": "matcher",
           "sub_type": "vm",
           "regions": {},
@@ -1167,7 +1167,7 @@
         },
         {
           "name": "networking",
-          "display_name": "Networking",
+          "display_name": "Reté",
           "type": "network",
           "sub_type": "network",
           "regions": {},
@@ -1231,7 +1231,7 @@
         },
         {
           "name": "costApi",
-          "display_name": "Cost API",
+          "display_name": "API des coûts",
           "type": "matcher",
           "sub_type": "billing",
           "regions": {},
@@ -1239,7 +1239,7 @@
         },
         {
           "name": "bareMetal",
-          "display_name": "Bare metal",
+          "display_name": "Métal nu",
           "type": "service",
           "sub_type": "bare_metal",
           "regions": {},
@@ -1257,7 +1257,7 @@
       "services": [
         {
           "name": "vmManagement",
-          "display_name": "VM Management",
+          "display_name": "Gestion des machines virtuelles",
           "type": "matcher",
           "sub_type": "vm",
           "regions": {},
@@ -1281,7 +1281,7 @@
         },
         {
           "name": "networking",
-          "display_name": "Networking",
+          "display_name": "Reté",
           "type": "network",
           "sub_type": "network",
           "regions": {},
@@ -1297,7 +1297,7 @@
         },
         {
           "name": "costApi",
-          "display_name": "Cost API",
+          "display_name": "API des coûts",
           "type": "matcher",
           "sub_type": "billing",
           "regions": {},
@@ -1305,7 +1305,7 @@
         },
         {
           "name": "bareMetal",
-          "display_name": "Bare metal",
+          "display_name": "Métal nu",
           "type": "service",
           "sub_type": "bare_metal",
           "regions": {},
@@ -1323,7 +1323,7 @@
       "services": [
         {
           "name": "vmManagement",
-          "display_name": "VM Management",
+          "display_name": "Gestion des machines virtuelles",
           "type": "matcher",
           "sub_type": "vm",
           "regions": {},
@@ -1347,7 +1347,7 @@
         },
         {
           "name": "networking",
-          "display_name": "Networking",
+          "display_name": "Reté",
           "type": "network",
           "sub_type": "network",
           "regions": {},
@@ -1363,7 +1363,7 @@
         },
         {
           "name": "costApi",
-          "display_name": "Cost API",
+          "display_name": "API des coûts",
           "type": "matcher",
           "sub_type": "billing",
           "regions": {},
@@ -1371,7 +1371,7 @@
         },
         {
           "name": "bareMetal",
-          "display_name": "Bare metal",
+          "display_name": "Métal nu",
           "type": "service",
           "sub_type": "bare_metal",
           "regions": {},
@@ -1389,7 +1389,7 @@
       "services": [
         {
           "name": "vmManagement",
-          "display_name": "VM Management",
+          "display_name": "Gestion des machines virtuelles",
           "type": "matcher",
           "sub_type": "vm",
           "regions": {},
@@ -1413,7 +1413,7 @@
         },
         {
           "name": "networking",
-          "display_name": "Networking",
+          "display_name": "Reté",
           "type": "network",
           "sub_type": "network",
           "regions": {},
@@ -1429,7 +1429,7 @@
         },
         {
           "name": "costApi",
-          "display_name": "Cost API",
+          "display_name": "API des coûts",
           "type": "matcher",
           "sub_type": "billing",
           "regions": {},
@@ -1437,7 +1437,7 @@
         },
         {
           "name": "bareMetal",
-          "display_name": "Bare metal",
+          "display_name": "Métal nu",
           "type": "service",
           "sub_type": "bare_metal",
           "regions": {},
@@ -1455,7 +1455,7 @@
       "services": [
         {
           "name": "vmManagement",
-          "display_name": "VM Management",
+          "display_name": "Gestion des machines virtuelles",
           "type": "matcher",
           "sub_type": "vm",
           "regions": {},
@@ -1479,7 +1479,7 @@
         },
         {
           "name": "networking",
-          "display_name": "Networking",
+          "display_name": "Reté",
           "type": "network",
           "sub_type": "network",
           "regions": {},
@@ -1495,7 +1495,7 @@
         },
         {
           "name": "costApi",
-          "display_name": "Cost API",
+          "display_name": "API des coûts",
           "type": "matcher",
           "sub_type": "billing",
           "regions": {},
@@ -1503,7 +1503,7 @@
         },
         {
           "name": "bareMetal",
-          "display_name": "Bare metal",
+          "display_name": "Métal nu",
           "type": "service",
           "sub_type": "bare_metal",
           "regions": {},
@@ -1521,7 +1521,7 @@
       "services": [
         {
           "name": "vmManagement",
-          "display_name": "VM Management",
+          "display_name": "Gestion des machines virtuelles",
           "type": "matcher",
           "sub_type": "vm",
           "regions": {
@@ -1701,7 +1701,7 @@
         },
         {
           "name": "networking",
-          "display_name": "Networking",
+          "display_name": "Reté",
           "type": "network",
           "sub_type": "network",
           "regions": {},
@@ -1717,7 +1717,7 @@
         },
         {
           "name": "costApi",
-          "display_name": "Cost API",
+          "display_name": "API des coûts",
           "type": "matcher",
           "sub_type": "billing",
           "regions": {},
@@ -1725,7 +1725,7 @@
         },
         {
           "name": "bareMetal",
-          "display_name": "Bare metal",
+          "display_name": "Métal nu",
           "type": "service",
           "sub_type": "bare_metal",
           "regions": {},
@@ -1743,7 +1743,7 @@
       "services": [
         {
           "name": "vmManagement",
-          "display_name": "VM Management",
+          "display_name": "Gestion des machines virtuelles",
           "type": "matcher",
           "sub_type": "vm",
           "regions": {},
@@ -1767,7 +1767,7 @@
         },
         {
           "name": "networking",
-          "display_name": "Networking",
+          "display_name": "Reté",
           "type": "network",
           "sub_type": "network",
           "regions": {},
@@ -1783,7 +1783,7 @@
         },
         {
           "name": "costApi",
-          "display_name": "Cost API",
+          "display_name": "API des coûts",
           "type": "matcher",
           "sub_type": "billing",
           "regions": {},
@@ -1791,7 +1791,7 @@
         },
         {
           "name": "bareMetal",
-          "display_name": "Bare metal",
+          "display_name": "Métal nu",
           "type": "service",
           "sub_type": "bare_metal",
           "regions": {},
@@ -1809,7 +1809,7 @@
       "services": [
         {
           "name": "vmManagement",
-          "display_name": "VM Management",
+          "display_name": "Gestion des machines virtuelles",
           "type": "matcher",
           "sub_type": "vm",
           "regions": {},
@@ -1833,7 +1833,7 @@
         },
         {
           "name": "networking",
-          "display_name": "Networking",
+          "display_name": "Reté",
           "type": "network",
           "sub_type": "network",
           "regions": {},
@@ -1849,7 +1849,7 @@
         },
         {
           "name": "costApi",
-          "display_name": "Cost API",
+          "display_name": "API des coûts",
           "type": "matcher",
           "sub_type": "billing",
           "regions": {},
@@ -1857,7 +1857,7 @@
         },
         {
           "name": "bareMetal",
-          "display_name": "Bare metal",
+          "display_name": "Métal nu",
           "type": "service",
           "sub_type": "bare_metal",
           "regions": {},

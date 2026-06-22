@@ -1,0 +1,422 @@
+{
+  "page": "resources",
+  "count": 52,
+  "strings": [
+    {
+      "id": "body.resources.h1.1",
+      "en": "Product Briefs & Architecture",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "<h1>"
+    },
+    {
+      "id": "body.resources.h2.1",
+      "en": "Public Assets",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.resources.h2.2",
+      "en": "Need a Deeper Brief ?",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.resources.h3.1",
+      "en": "Platform & Architecture",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.resources.h3.10",
+      "en": "Atomosquare Explainer",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.resources.h3.11",
+      "en": "AtomOS",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.resources.h3.12",
+      "en": "Solutions & Guides",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.resources.h3.13",
+      "en": "VMware Exit Checklist",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.resources.h3.14",
+      "en": "Sovereign Cloud Governance Guide",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.resources.h3.15",
+      "en": "AI / GPU Infrastructure Guide",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.resources.h3.16",
+      "en": "All Solutions",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.resources.h3.17",
+      "en": "Tools & Insights",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.resources.h3.18",
+      "en": "AtomOS ROI Calculator",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.resources.h3.19",
+      "en": "Elemento Blog",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.resources.h3.2",
+      "en": "Platform Architecture Overview",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.resources.h3.20",
+      "en": "Technical Documentation",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.resources.h3.21",
+      "en": "Technology Overview",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.resources.h3.3",
+      "en": "Metacloud Architecture Diagram",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.resources.h3.4",
+      "en": "Deployment Models",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.resources.h3.5",
+      "en": "Pricing Model",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.resources.h3.6",
+      "en": "Product Briefs",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.resources.h3.7",
+      "en": "Electros",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.resources.h3.8",
+      "en": "C4 Protocol Explainer",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.resources.h3.9",
+      "en": "Atomosphere",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.resources.li.1",
+      "en": "Home",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.resources.li.2",
+      "en": "Resources",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.resources.p.1",
+      "en": "Metacloud Resources",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.resources.p.10",
+      "en": "Universal cloud provider fabric — public clouds, sovereign providers and neoclouds.",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.resources.p.11",
+      "en": "Universal hypervisor fabric — VMware, Proxmox, Nutanix, Hyper-V, OpenStack and AtomOS.",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.resources.p.12",
+      "en": "Native sovereign virtualization for the Atomosquare fabric.",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.resources.p.13",
+      "en": "Exit VMware without entering another lock-in cycle.",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.resources.p.14",
+      "en": "Apply jurisdiction, residency and audit policies from one control plane.",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.resources.p.15",
+      "en": "Govern GPU resources across local, private and federated infrastructure.",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.resources.p.16",
+      "en": "Executive pain points mapped to the Metacloud.",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.resources.p.17",
+      "en": "Compare infrastructure costs and evaluate VMware replacement economics.",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.resources.p.18",
+      "en": "Insights on cloud sovereignty, infrastructure abstraction and the Metacloud.",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.resources.p.19",
+      "en": "Guides, tutorials and API documentation on BookStack.",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.resources.p.2",
+      "en": "Explore platform architecture, product pages, calculators and insights to evaluate the Elemento Metacloud for your organisation.",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.resources.p.20",
+      "en": "Technical capabilities and platform foundations.",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.resources.p.21",
+      "en": "Book a Metacloud Assessment for tailored architecture guidance, ROI analysis and deployment planning.",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.resources.p.3",
+      "en": "Architecture overviews, product briefs and guides available on the website.",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.resources.p.4",
+      "en": "Canonical explanation of the Elemento Metacloud — control plane, C4, fabrics and deployment models.",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.resources.p.5",
+      "en": "Visual map of Electros, C4, Atomosphere, Atomosquare and AtomOS.",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.resources.p.6",
+      "en": "SaaS, self-hosted and federated Metacloud deployment options.",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.resources.p.7",
+      "en": "Electros subscription, connection credits and transparent infrastructure cost.",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.resources.p.8",
+      "en": "The Metacloud control plane — governance, orchestration and brokerage across all infrastructure.",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.resources.p.9",
+      "en": "The common language of the Metacloud — interoperability without replacing provider APIs.",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.resources.ui.1",
+      "en": "Explore platform architecture, product pages, calculators and insights to evaluate the Elemento Metacloud for your organisation.",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "class"
+    },
+    {
+      "id": "body.resources.ui.2",
+      "en": "Book a Metacloud Assessment",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "class"
+    },
+    {
+      "id": "body.resources.ui.3",
+      "en": "Contact Us",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "class"
+    },
+    {
+      "id": "meta.resources.description",
+      "en": "Elemento Metacloud resources: platform architecture, product briefs, ROI calculator, blog and documentation for sovereign infrastructure control.",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.resources.title",
+      "en": "Elemento | Resources | Product Briefs & Architecture",
+      "it": "",
+      "fr": "",
+      "source": "resources.html",
+      "context": "meta title"
+    }
+  ]
+}

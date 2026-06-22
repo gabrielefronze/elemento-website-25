@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atomosquare | Universal Hypervisor Fabric | Elemento</title>
+    <meta name="description" content="Atomosquare connects hypervisors, virtualization platforms and private cloud infrastructures to the Elemento Metacloud through a common interoperability model.">
+    <link rel="canonical" href="https://elemento.cloud/atomosquare.html">
+    <link rel="alternate" hreflang="en" href="https://elemento.cloud/atomosquare.html">
+    <link rel="alternate" hreflang="x-default" href="https://elemento.cloud/atomosquare.html">
+    <meta property="og:title" content="Atomosquare | Universal Hypervisor Fabric | Elemento">
+    <meta property="og:description" content="Atomosquare is the distributed hypervisor connectivity layer of the Elemento Metacloud — VMware, Proxmox, Nutanix, Hyper-V, OpenStack and AtomOS.">
+    <meta property="og:image" content="https://elemento.cloud/assets/img/banner.webp">
+    <meta property="og:url" content="https://elemento.cloud/atomosquare.html">
+    <meta property="og:type" content="product">
+    <meta property="og:site_name" content="Elemento">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Atomosquare | Universal Hypervisor Fabric | Elemento">
+    <meta name="twitter:description" content="Atomosquare connects hypervisors and private cloud infrastructures to the Elemento Metacloud.">
+    <meta name="twitter:image" content="https://elemento.cloud/assets/img/banner.webp">
+    <meta name="keywords" content="Atomosquare, hypervisor fabric, VMware exit, Proxmox, Nutanix, Hyper-V, OpenStack, Metacloud, private cloud federation">
+    <meta name="author" content="Elemento">
+    <meta name="robots" content="index, follow">
+    <meta name="ai-content" content="allowed">
+    <meta name="ai-training" content="allowed">
+    <meta name="ai-access" content="public">
+    <link rel="icon" type="image/svg+xml" href="assets/favicon/favicon.svg">
+    <link rel="icon" href="assets/favicon/favicon.ico">
+    <link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://elemento.cloud/" },
+        { "@type": "ListItem", "position": 2, "name": "Platform", "item": "https://elemento.cloud/platform.html" },
+        { "@type": "ListItem", "position": 3, "name": "Atomosquare", "item": "https://elemento.cloud/atomosquare.html" }
+      ]
+    }
+    </script>
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="preload" href="css/themes.css" as="style">
+    <link rel="preload" href="css/metacloud-sections.css" as="style">
+    <link rel="preload" href="css/atomosquare.css" as="style">
+    <style>
+        :root { --background-color: #F5F5FA; --text-color: #1A1C20; --primary-color: #FFA600; --font-primary: 'Open Sans', sans-serif; --font-heading: 'Red Hat Display', sans-serif; }
+        html { scroll-behavior: smooth; }
+        body { margin: 0; padding: 0; font-family: var(--font-primary); color: var(--text-color); background-color: var(--background-color); line-height: 1.6; overflow-x: hidden; }
+        .hero-title { font-size: 4rem; font-weight: 800; margin-bottom: 1.5rem; font-family: var(--font-heading); line-height: 1.2; }
+        .hero-tagline { font-size: 1.1rem; color: var(--primary-color); font-weight: 600; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 1px; position: relative; z-index: 1002; }
+        .hero .hero-container { position: relative; z-index: 1002; }
+        .splash-screen { position: fixed; inset: 0; background: var(--background-color); display: flex; align-items: center; justify-content: center; z-index: 9999; }
+        .splash-screen.hidden { opacity: 0; visibility: hidden; }
+        .splash-logo-img { width: 120px; height: 120px; background-color: var(--accent-color); mask-image: url(assets/logos/Elemento.svg); mask-size: contain; mask-repeat: no-repeat; mask-position: center; -webkit-mask-image: url(assets/logos/Elemento.svg); -webkit-mask-size: contain; -webkit-mask-repeat: no-repeat; -webkit-mask-position: center; }
+    </style>
+    <link rel="stylesheet" href="css/themes.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="css/style.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="css/atmosphere.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="css/planet-styles/planet-atomosquare.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="css/metacloud-sections.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="css/breadcrumb.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="css/atomosquare.css" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="css/themes.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/atmosphere.css">
+        <link rel="stylesheet" href="css/planet-styles/planet-atomosquare.css">
+        <link rel="stylesheet" href="css/metacloud-sections.css">
+        <link rel="stylesheet" href="css/breadcrumb.css">
+        <link rel="stylesheet" href="css/atomosquare.css">
+    </noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Red+Hat+Display:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/font/PixelIconLibrary/iconfont.css">
+    <script type="text/plain" class="_iub_cs_activate" data-iub-purposes="4" src="js/matomo-tracking.js"></script>
+</head>
+<body class="atomosquare-page">
+
+    <div id="splash-screen" class="splash-screen">
+        <div class="splash-content"><div class="splash-logo"><div class="splash-logo-img"></div></div></div>
+    </div>
+
+    <div id="navbar-placeholder"></div>
+
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+        <div class="container">
+            <ol class="breadcrumb-list">
+                <li class="breadcrumb-item"><a href="/" class="breadcrumb-link">Home</a></li>
+                <li class="breadcrumb-item"><a href="platform.html" class="breadcrumb-link">Platform</a></li>
+                <li class="breadcrumb-item breadcrumb-current" aria-current="page">Atomosquare</li>
+            </ol>
+        </div>
+    </nav>
+
+    <main id="main-content">
+        <section class="hero">
+            <div id="atmosphere-hero-with-logo-placeholder"></div>
+
+            <div class="hero-container hero-left">
+                <div class="hero-content">
+                    <div class="hero-buttons fade-in">
+                        <div class="hero-tagline">Universal Hypervisor Fabric</div>
+                        <h1 class="hero-title">Atomosquare<span class="pixel-accent">™</span></h1>
+                        <div class="hero-subtitle">
+                            <p>Atomosquare connects hypervisors, virtualization platforms and private cloud infrastructures to the Elemento Metacloud.</p>
+                        </div>
+                        <div class="hero-cta">
+                            <a href="https://book.elemento.cloud/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-calendar"></i> Assess Your Hypervisor Estate
+                            </a>
+                            <a href="solutions/vmware-exit.html" class="btn btn-secondary">
+                                <i class="fas fa-route"></i> Plan a VMware Exit
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="floating-features">
+                <div class="floating-box floating-box-1">
+                    <div class="floating-box-icon">
+                        <i class="hn hn-link"></i>
+                    </div>
+                    <div class="floating-box-content">
+                        <h3>Hypervisor Integration</h3>
+                        <p>Connect VMware, Proxmox, Nutanix, Hyper-V and OpenStack without replacing existing platforms</p>
+                    </div>
+                </div>
+
+                <div class="floating-box floating-box-2">
+                    <div class="floating-box-icon">
+                        <i class="hn hn-globe"></i>
+                    </div>
+                    <div class="floating-box-content">
+                        <h3>Federation Enablement</h3>
+                        <p>Expose private virtualization estates to Electros through a common interoperability model</p>
+                    </div>
+                </div>
+
+                <div class="floating-box floating-box-3">
+                    <div class="floating-box-icon">
+                        <i class="hn hn-management"></i>
+                    </div>
+                    <div class="floating-box-content">
+                        <h3>Unified Operations</h3>
+                        <p>Govern, discover and orchestrate resources across heterogeneous hypervisor environments</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">What Atomosquare <span class="highlight-pixel">Is</span></h2>
+                </div>
+                <div class="grid grid-2 grid-centered">
+                    <div class="fade-in">
+                        <p>Atomosquare is the distributed hypervisor connectivity layer of the Elemento platform.</p>
+                        <p>It consists of hypervisor-side connectors and federation endpoints that expose virtualization platforms and private cloud infrastructures to the Metacloud through a common interoperability model.</p>
+                        <p>Rather than replacing existing virtualization environments, Atomosquare enables heterogeneous hypervisors to participate in a common federation while preserving operational independence.</p>
+                    </div>
+                    <div class="fade-in text-center">
+                        <img src="assets/logos/Atomosquare.svg" alt="Atomosquare" width="120" height="120" style="margin-bottom: var(--space-md);">
+                        <p class="section-subtitle">Atomosquare is <strong>not</strong> itself a hypervisor — it is the connectivity fabric that joins hypervisors to Electros.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">What Atomosquare <span class="highlight-pixel">Connects</span></h2>
+                </div>
+                <ul class="proof-list">
+                    <li>AtomOS</li>
+                    <li>VMware</li>
+                    <li>Proxmox</li>
+                    <li>Nutanix</li>
+                    <li>Hyper-V</li>
+                    <li>OpenStack</li>
+                    <li>Additional hypervisors and private cloud platforms</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section features">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Capabilities</h2>
+                    <p class="section-subtitle">Common governance, orchestration and resource discovery across multiple virtualization platforms.</p>
+                </div>
+                <div class="grid grid-2 capability-grid">
+                    <div class="card fade-in">
+                        <div class="card-icon"><i class="hn hn-link" style="color: var(--blue);"></i></div>
+                        <h3>Hypervisor Integration</h3>
+                        <p>Connect heterogeneous virtualization platforms into the federation.</p>
+                    </div>
+                    <div class="card fade-in">
+                        <div class="card-icon"><i class="hn hn-globe" style="color: var(--green);"></i></div>
+                        <h3>Federation Enablement</h3>
+                        <p>Allow hypervisors and private cloud environments to participate without changing internal operations.</p>
+                    </div>
+                    <div class="card fade-in">
+                        <div class="card-icon"><i class="hn hn-grid" style="color: var(--purple);"></i></div>
+                        <h3>Distributed Architecture</h3>
+                        <p>Hypervisor-side components operate independently while exposing common capabilities.</p>
+                    </div>
+                    <div class="card fade-in">
+                        <div class="card-icon"><i class="hn hn-management" style="color: var(--orange);"></i></div>
+                        <h3>Unified Operations</h3>
+                        <p>Enable common governance, orchestration and resource discovery across multiple virtualization platforms.</p>
+                    </div>
+                    <div class="card fade-in">
+                        <div class="card-icon"><i class="hn hn-search" style="color: var(--blue);"></i></div>
+                        <h3>Resource Discovery</h3>
+                        <p>Expose private infrastructure resources to Electros.</p>
+                    </div>
+                    <div class="card fade-in">
+                        <div class="card-icon"><i class="hn hn-cloud" style="color: var(--green);"></i></div>
+                        <h3>Service Exposure</h3>
+                        <p>Make hypervisor-backed capabilities available through the Metacloud operating model.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Why It <span class="highlight-pixel">Matters</span></h2>
+                </div>
+                <div class="abstraction-progression scroll-animate">
+                    <p>Atomosquare prevents VMware exit from becoming another lock-in cycle.</p>
+                    <p>Instead of forcing a one-time migration into a new hypervisor silo, Atomosquare allows legacy and new environments to be governed under the same control plane.</p>
+                    <blockquote>Migration becomes incremental, governed and reversible.</blockquote>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">AtomOS Inside <span class="highlight-pixel">Atomosquare</span></h2>
+                </div>
+                <div class="grid grid-2 grid-centered">
+                    <div class="fade-in">
+                        <p>AtomOS is Elemento's native sovereign virtualization endpoint inside Atomosquare.</p>
+                        <p>VMware, Proxmox, Nutanix, Hyper-V and OpenStack are third-party endpoints inside the same fabric.</p>
+                        <p>Electros governs both native and third-party environments through the same operational model.</p>
+                        <a href="atomos.html" class="btn btn-secondary" style="margin-top: var(--space-md);">
+                            <img src="assets/logos/Atomos.svg" alt="" width="20" height="20" style="vertical-align: middle;"> Learn about AtomOS
+                        </a>
+                    </div>
+                    <div class="fade-in">
+                        <div class="metacloud-arch-node" style="display: flex; width: 100%; max-width: 320px; margin: 0 auto;">
+                            <img src="assets/logos/Atomosquare.svg" alt="" width="40" height="40">
+                            <h4>Atomosquare™</h4>
+                            <p>Hypervisor Fabric</p>
+                            <div class="metacloud-arch-endpoints">
+                                VMware · Proxmox · Nutanix · Hyper-V · OpenStack
+                                <div class="metacloud-arch-endpoints--nested">
+                                    <img src="assets/logos/Atomos.svg" alt="" width="20" height="20" style="vertical-align: middle;">
+                                    AtomOS® — native sovereign endpoint
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Assess Your <span class="highlight-pixel">Hypervisor Estate</span></h2>
+                </div>
+                <div class="text-center">
+                    <a href="https://book.elemento.cloud/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-calendar"></i> Assess Your Hypervisor Estate
+                    </a>
+                    <a href="solutions/vmware-exit.html" class="btn btn-secondary" style="margin-left: var(--space-sm);">
+                        <i class="fas fa-route"></i> Plan a VMware Exit
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="js/splash-screen.js" defer></script>
+    <script src="js/navbar.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="js/footer.js" defer></script>
+    <script src="js/atmosphere_hero_with_logo.js" defer></script>
+    <script src="js/themes.js" defer></script>
+</body>
+</html>

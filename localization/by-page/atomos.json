@@ -1,10 +1,10 @@
 {
   "page": "atomos",
-  "count": 186,
+  "count": 185,
   "strings": [
     {
       "id": "body.atomos.h1.1",
-      "en": "AtomOS: The Hypervisor for your infrastructure",
+      "en": "AtomOS ®",
       "it": "",
       "fr": "",
       "source": "atomos.html",
@@ -20,14 +20,6 @@
     },
     {
       "id": "body.atomos.h2.10",
-      "en": "Choose Your AtomOS Edition",
-      "it": "",
-      "fr": "",
-      "source": "atomos.html",
-      "context": "<h2>"
-    },
-    {
-      "id": "body.atomos.h2.11",
       "en": "Server-Based Pricing Drives Green Economy",
       "it": "",
       "fr": "",
@@ -35,7 +27,7 @@
       "context": "<h2>"
     },
     {
-      "id": "body.atomos.h2.12",
+      "id": "body.atomos.h2.11",
       "en": "Frequently Asked Questions",
       "it": "",
       "fr": "",
@@ -43,7 +35,7 @@
       "context": "<h2>"
     },
     {
-      "id": "body.atomos.h2.13",
+      "id": "body.atomos.h2.12",
       "en": "Complete Your Cloud Infrastructure",
       "it": "",
       "fr": "",
@@ -51,7 +43,7 @@
       "context": "<h2>"
     },
     {
-      "id": "body.atomos.h2.14",
+      "id": "body.atomos.h2.13",
       "en": "Transform any machine into a production-ready hypervisor with AtomOS.",
       "it": "",
       "fr": "",
@@ -84,14 +76,6 @@
     },
     {
       "id": "body.atomos.h2.5",
-      "en": "You-Know-Who vs AtomOS — Hypervisor Showdown",
-      "it": "",
-      "fr": "",
-      "source": "atomos.html",
-      "context": "<h2>"
-    },
-    {
-      "id": "body.atomos.h2.6",
       "en": "Compare Costs — AtomOS vs VMware",
       "it": "",
       "fr": "",
@@ -99,7 +83,7 @@
       "context": "<h2>"
     },
     {
-      "id": "body.atomos.h2.7",
+      "id": "body.atomos.h2.6",
       "en": "Compatible Guest Operating Systems",
       "it": "",
       "fr": "",
@@ -107,7 +91,7 @@
       "context": "<h2>"
     },
     {
-      "id": "body.atomos.h2.8",
+      "id": "body.atomos.h2.7",
       "en": "Filesystem & Disk Format Compatibility",
       "it": "",
       "fr": "",
@@ -115,8 +99,16 @@
       "context": "<h2>"
     },
     {
-      "id": "body.atomos.h2.9",
+      "id": "body.atomos.h2.8",
       "en": "Self-Healing Clusters with C4 Protocol",
+      "it": "",
+      "fr": "",
+      "source": "atomos.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.atomos.h2.9",
+      "en": "Choose Your AtomOS Edition",
       "it": "",
       "fr": "",
       "source": "atomos.html",
@@ -644,7 +636,7 @@
     },
     {
       "id": "body.atomos.p.1",
-      "en": "AtomOS is a next-gen Linux hypervisor built for bare-metal, GPU-enabled, and autonomous infrastructure. RHEL-compatible, lightweight, and clustering-native — no central controller required.",
+      "en": "AtomOS is Elemento's native Linux-based virtualization platform for sovereign private cloud, edge, AI infrastructure and VMware replacement scenarios. VMware, Proxmox and other hypervisors are third-party endpoints in the same Atomosquare fabric.",
       "it": "",
       "fr": "",
       "source": "atomos.html",
@@ -1356,7 +1348,7 @@
     },
     {
       "id": "body.atomos.ui.1",
-      "en": "Deploy. Virtualize. Scale.",
+      "en": "Native Sovereign Virtualization for the Atomosquare Fabric",
       "it": "",
       "fr": "",
       "source": "atomos.html",
@@ -1412,7 +1404,7 @@
     },
     {
       "id": "body.atomos.ui.2",
-      "en": "AtomOS is a next-gen Linux hypervisor built for bare-metal, GPU-enabled, and autonomous infrastructure. RHEL-compatible, lightweight, and clustering-native — no central controller required.",
+      "en": "AtomOS is Elemento's native Linux-based virtualization platform for sovereign private cloud, edge, AI infrastructure and VMware replacement scenarios. VMware, Proxmox and other hypervisors are third-party endpoints in the same Atomosquare fabric.",
       "it": "",
       "fr": "",
       "source": "atomos.html",
@@ -1420,7 +1412,7 @@
     },
     {
       "id": "body.atomos.ui.3",
-      "en": "Deploy in Minutes",
+      "en": "Deploy Sovereign Infrastructure",
       "it": "",
       "fr": "",
       "source": "atomos.html",
@@ -1428,7 +1420,7 @@
     },
     {
       "id": "body.atomos.ui.4",
-      "en": "Buy Now",
+      "en": "Compare with VMware",
       "it": "",
       "fr": "",
       "source": "atomos.html",
@@ -1476,7 +1468,7 @@
     },
     {
       "id": "meta.atomos.description",
-      "en": "AtomOS is a lightweight, high-performance Linux hypervisor for bare metal and on-premise clouds. RHEL-compatible, GPU-ready, and clustering-enabled.",
+      "en": "AtomOS is Elemento's native Linux-based virtualization platform for sovereign private cloud, edge, AI infrastructure and VMware replacement — the native endpoint inside Atomosquare.",
       "it": "",
       "fr": "",
       "source": "atomos.html",
@@ -1484,7 +1476,7 @@
     },
     {
       "id": "meta.atomos.title",
-      "en": "AtomOS — Powering Your Cloud with Linux Hypervisor | Elemento Cloud",
+      "en": "AtomOS® | Native Sovereign Virtualization | Elemento",
       "it": "",
       "fr": "",
       "source": "atomos.html",

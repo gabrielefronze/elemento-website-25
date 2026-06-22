@@ -41,7 +41,7 @@ export function prefixAssetPath(path: string, assetBase: string): string {
   return assetBase + clean;
 }
 
-function resolvePageStem(href: string): string | null {
+function resolvePageStem(href: string, pageStem?: string): string | null {
   if (href.startsWith('/')) {
     const rootFile = href.match(/^\/([^/?#]+\.html)$/);
     if (rootFile) return rootFile[1].replace(/\.html$/, '') || 'index';
@@ -52,9 +52,24 @@ function resolvePageStem(href: string): string | null {
     return null;
   }
 
-  const clean = href.replace(/^\.\//, '').replace(/^(\.\.\/)+/, '');
+  const clean = href.replace(/^\.\//, '');
+  const pageDir = pageStem?.includes('/') ? pageStem.slice(0, pageStem.lastIndexOf('/')) : '';
+
+  if (clean.startsWith('../')) {
+    const parts = pageDir ? pageDir.split('/') : [];
+    let rest = clean;
+    while (rest.startsWith('../')) {
+      parts.pop();
+      rest = rest.slice(3);
+    }
+    const stem = rest.replace(/\.html$/, '');
+    if (!stem || stem.includes('/')) return parts.length ? `${parts.join('/')}/${stem}` : stem;
+    return parts.length ? `${parts.join('/')}/${stem}` : stem;
+  }
+
   if (/^[^/?#]+\.html$/.test(clean)) {
-    return clean.replace(/\.html$/, '') || 'index';
+    const name = clean.replace(/\.html$/, '') || 'index';
+    return pageDir ? `${pageDir}/${name}` : name;
   }
   const nested = clean.match(/^([\w.-]+\/[\w./-]+)\.html$/);
   if (nested) return nested[1];
@@ -64,14 +79,14 @@ function resolvePageStem(href: string): string | null {
 /** Rewrite internal *.html links to site-root paths (e.g. /blog.html), safe under /videos/ in dev. */
 export function prefixBodyPageLinks(
   html: string,
-  _stem: string,
+  pageStem: string,
   locale: Locale = 'en'
 ): string {
   const rewrite = (match: string, open: string, href: string, close: string) => {
     if (/^(https?:|\/\/|mailto:|tel:|#|javascript:)/i.test(href)) return match;
-    const pageStem = resolvePageStem(href);
-    if (!pageStem) return match;
-    return `${open}${localePath(locale, pageStem)}${close}`;
+    const resolvedStem = resolvePageStem(href, pageStem);
+    if (!resolvedStem) return match;
+    return `${open}${localePath(locale, resolvedStem)}${close}`;
   };
 
   return html.replace(/(\shref=["'])([^"'#]+)(["'])/gi, rewrite);

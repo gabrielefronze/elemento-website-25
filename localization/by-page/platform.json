@@ -1,0 +1,542 @@
+{
+  "page": "platform",
+  "count": 67,
+  "strings": [
+    {
+      "id": "body.platform.blockquote.1",
+      "en": "Elemento is the Metacloud: a sovereign control plane that lets organisations govern, orchestrate and optimise infrastructure across public clouds, private clouds, sovereign providers, hypervisors and native AtomOS environments without replacing what already exists.",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<blockquote>"
+    },
+    {
+      "id": "body.platform.h1.1",
+      "en": "One Control Plane. Every Provider.",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<h1>"
+    },
+    {
+      "id": "body.platform.h2.1",
+      "en": "What is Elemento ?",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.platform.h2.2",
+      "en": "Core Principle",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.platform.h2.3",
+      "en": "Metacloud Architecture",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.platform.h2.4",
+      "en": "How It Works",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.platform.h2.5",
+      "en": "Deployment Flexibility",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.platform.h2.6",
+      "en": "Ready to Federate Your Infrastructure?",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.platform.h3.1",
+      "en": "Infrastructure independence",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.platform.h3.10",
+      "en": "Centralised Platform",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.platform.h3.11",
+      "en": "Customer-Hosted Platform",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.platform.h3.12",
+      "en": "Federated Provider Deployment",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.platform.h3.2",
+      "en": "Vendor neutrality",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.platform.h3.3",
+      "en": "Digital sovereignty",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.platform.h3.4",
+      "en": "Workload portability",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.platform.h3.5",
+      "en": "Federation over standardisation",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.platform.h3.6",
+      "en": "Incremental adoption",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.platform.h3.7",
+      "en": "Connect",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.platform.h3.8",
+      "en": "Manage",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.platform.h3.9",
+      "en": "Optimise",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.platform.h4.1",
+      "en": "Electros™",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.platform.h4.2",
+      "en": "C4 Protocol",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.platform.h4.3",
+      "en": "Atomosphere™",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.platform.h4.4",
+      "en": "Atomosquare™",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.platform.li.1",
+      "en": "Home",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.platform.li.2",
+      "en": "Platform",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.platform.li.3",
+      "en": "Discover",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.platform.li.4",
+      "en": "Govern",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.platform.li.5",
+      "en": "Broker",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.platform.li.6",
+      "en": "Orchestrate",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.platform.li.7",
+      "en": "Optimise",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.platform.p.1",
+      "en": "Elemento Metacloud",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.platform.p.10",
+      "en": "Join existing environments without forcing replatforming.",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.platform.p.11",
+      "en": "Connect first, govern next, optimise when ready.",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.platform.p.12",
+      "en": "Four functional zones: user access, control plane, interoperability and infrastructure.",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.platform.p.13",
+      "en": "Admins, developers and operations teams interact through Electros.",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.platform.p.14",
+      "en": "Electros federates resources through one governance and orchestration model.",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.platform.p.15",
+      "en": "C4 translates federation operations into provider-specific actions.",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.platform.p.16",
+      "en": "Atomosphere and Atomosquare connect clouds, hypervisors and AtomOS.",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.platform.p.17",
+      "en": "Metacloud Control Plane",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.platform.p.18",
+      "en": "Interoperability Layer",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.platform.p.19",
+      "en": "Cloud Provider Fabric",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.platform.p.2",
+      "en": "Elemento introduces a sovereign control and federation layer above public clouds, private clouds, sovereign providers, hypervisors and native AtomOS infrastructure.",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.platform.p.20",
+      "en": "Hypervisor Fabric",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.platform.p.21",
+      "en": "Elemento discovers existing infrastructure, normalises capabilities through C4, exposes them through Electros and allows teams to govern, broker, orchestrate and optimise resources through one operational model.",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.platform.p.22",
+      "en": "Connect existing infrastructures, clouds and services without replacement.",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.platform.p.23",
+      "en": "Introduce visibility, governance, policy enforcement and federation controls.",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.platform.p.24",
+      "en": "Enable workload mobility, brokerage, sovereignty policies and intelligent placement.",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.platform.p.25",
+      "en": "Deploy the Metacloud your way — centralised, customer-hosted or federated.",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.platform.p.26",
+      "en": "A shared Elemento environment operated as a common governance layer. Fastest time to value with Elemento-operated Electros.",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.platform.p.27",
+      "en": "Elemento deployed within the customer's own environment. Maximum sovereignty and compliance by design.",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.platform.p.28",
+      "en": "Multiple providers participating within a common federation while preserving operational independence.",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.platform.p.29",
+      "en": "Book a Metacloud Assessment to map your estate and identify the fastest path to sovereign control.",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.platform.p.3",
+      "en": "Elemento is a Metacloud platform. Rather than replacing existing infrastructure, Elemento introduces a control and federation layer above private clouds, public clouds, sovereign clouds, hypervisors and Kubernetes environments.",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.platform.p.4",
+      "en": "The platform enables organisations to discover, govern, broker and orchestrate resources across heterogeneous providers through a unified operational model.",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.platform.p.5",
+      "en": "Governance is decoupled from infrastructure ownership. Elemento federates what exists — it does not replace it.",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.platform.p.6",
+      "en": "Retain ownership of workloads and data while governing across providers.",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.platform.p.7",
+      "en": "No dependency on a single cloud, hypervisor or sovereign provider.",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.platform.p.8",
+      "en": "Sovereignty becomes a workload policy, not a provider decision.",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.platform.p.9",
+      "en": "Move and broker workloads without application re-architecture.",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.platform.ui.1",
+      "en": "Elemento introduces a sovereign control and federation layer above public clouds, private clouds, sovereign providers, hypervisors and native AtomOS infrastructure.",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "class"
+    },
+    {
+      "id": "body.platform.ui.2",
+      "en": "Book a Metacloud Assessment",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "class"
+    },
+    {
+      "id": "body.platform.ui.3",
+      "en": "View Architecture",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "class"
+    },
+    {
+      "id": "body.platform.ui.4",
+      "en": "Book a Metacloud Assessment",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "class"
+    },
+    {
+      "id": "body.platform.ui.5",
+      "en": "View Pricing",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "class"
+    },
+    {
+      "id": "meta.platform.description",
+      "en": "Elemento is the Metacloud: a sovereign control and federation layer above public clouds, private clouds, hypervisors and AtomOS — one control plane for every provider.",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.platform.title",
+      "en": "Elemento | Platform | One Control Plane. Every Provider.",
+      "it": "",
+      "fr": "",
+      "source": "platform.html",
+      "context": "meta title"
+    }
+  ]
+}

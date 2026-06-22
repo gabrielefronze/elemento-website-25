@@ -1,0 +1,22 @@
+{
+  "page": "solutions_ai-gpu-infrastructure",
+  "count": 2,
+  "strings": [
+    {
+      "id": "meta.solutions_ai-gpu-infrastructure.description",
+      "en": "Provision, monitor, and govern GPU resources across local, private, and federated infrastructure using the same operational model as conventional infrastructure.",
+      "it": "Provisiona, monitora e governa risorse GPU su infrastruttura locale, privata e federata con lo stesso modello operativo dell'infrastruttura convenzionale.",
+      "fr": "Provisionnez, supervisez et gouvernez les ressources GPU sur infrastructure locale, privée et fédérée avec le même modèle opérationnel.",
+      "source": "solutions/ai-gpu-infrastructure.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.solutions_ai-gpu-infrastructure.title",
+      "en": "Govern AI Infrastructure Across Providers | Elemento",
+      "it": "Governare l'infrastruttura AI tra i provider | Elemento",
+      "fr": "Gouverner l'infrastructure IA entre les fournisseurs | Elemento",
+      "source": "solutions/ai-gpu-infrastructure.html",
+      "context": "meta title"
+    }
+  ]
+}

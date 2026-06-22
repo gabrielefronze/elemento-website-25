@@ -32,8 +32,6 @@
         return `${prefix}CMS/solutions/${slug}.json`;
       })();
 
-  window.pageConfig = window.pageConfig || {};
-
   fetch(url)
     .then((r) => {
       if (!r.ok) throw new Error(r.status);
@@ -48,10 +46,10 @@
             return localized ? '../../signup.html' : '../signup.html';
           }
           if (link.startsWith('../products')) {
-            return localized ? '../../products.html' : '../products.html';
+            return localized ? '../../platform.html' : '../platform.html';
           }
           if (link.startsWith('../technology')) {
-            return localized ? '../../technology.html' : '../technology.html';
+            return localized ? '../../platform.html' : '../platform.html';
           }
           if (link.startsWith('../') && localized) return `../../${link.slice(3)}`;
           return link;

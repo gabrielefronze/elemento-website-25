@@ -1,0 +1,422 @@
+{
+  "page": "atomosquare",
+  "count": 52,
+  "strings": [
+    {
+      "id": "body.atomosquare.blockquote.1",
+      "en": "Migration becomes incremental, governed and reversible.",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "<blockquote>"
+    },
+    {
+      "id": "body.atomosquare.h1.1",
+      "en": "Atomosquare ™",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "<h1>"
+    },
+    {
+      "id": "body.atomosquare.h2.1",
+      "en": "What Atomosquare Is",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.atomosquare.h2.2",
+      "en": "What Atomosquare Connects",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.atomosquare.h2.3",
+      "en": "Capabilities",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.atomosquare.h2.4",
+      "en": "Why It Matters",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.atomosquare.h2.5",
+      "en": "AtomOS Inside Atomosquare",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.atomosquare.h2.6",
+      "en": "Assess Your Hypervisor Estate",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "<h2>"
+    },
+    {
+      "id": "body.atomosquare.h3.1",
+      "en": "Hypervisor Integration",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.atomosquare.h3.2",
+      "en": "Federation Enablement",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.atomosquare.h3.3",
+      "en": "Distributed Architecture",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.atomosquare.h3.4",
+      "en": "Unified Operations",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.atomosquare.h3.5",
+      "en": "Resource Discovery",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.atomosquare.h3.6",
+      "en": "Service Exposure",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "<h3>"
+    },
+    {
+      "id": "body.atomosquare.h4.1",
+      "en": "Atomosquare™",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "<h4>"
+    },
+    {
+      "id": "body.atomosquare.li.1",
+      "en": "Home",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomosquare.li.10",
+      "en": "Additional hypervisors and private cloud platforms",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomosquare.li.2",
+      "en": "Platform",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomosquare.li.3",
+      "en": "Atomosquare",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomosquare.li.4",
+      "en": "AtomOS",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomosquare.li.5",
+      "en": "VMware",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomosquare.li.6",
+      "en": "Proxmox",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomosquare.li.7",
+      "en": "Nutanix",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomosquare.li.8",
+      "en": "Hyper-V",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomosquare.li.9",
+      "en": "OpenStack",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "<li>"
+    },
+    {
+      "id": "body.atomosquare.p.1",
+      "en": "Universal Hypervisor Fabric",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosquare.p.10",
+      "en": "Hypervisor-side components operate independently while exposing common capabilities.",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosquare.p.11",
+      "en": "Enable common governance, orchestration and resource discovery across multiple virtualization platforms.",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosquare.p.12",
+      "en": "Expose private infrastructure resources to Electros.",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosquare.p.13",
+      "en": "Make hypervisor-backed capabilities available through the Metacloud operating model.",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosquare.p.14",
+      "en": "Atomosquare prevents VMware exit from becoming another lock-in cycle.",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosquare.p.15",
+      "en": "Instead of forcing a one-time migration into a new hypervisor silo, Atomosquare allows legacy and new environments to be governed under the same control plane.",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosquare.p.16",
+      "en": "AtomOS is Elemento's native sovereign virtualization endpoint inside Atomosquare.",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosquare.p.17",
+      "en": "VMware, Proxmox, Nutanix, Hyper-V and OpenStack are third-party endpoints inside the same fabric.",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosquare.p.18",
+      "en": "Electros governs both native and third-party environments through the same operational model.",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosquare.p.19",
+      "en": "Hypervisor Fabric",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosquare.p.2",
+      "en": "Atomosquare connects hypervisors, virtualization platforms and private cloud infrastructures to the Elemento Metacloud.",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosquare.p.3",
+      "en": "Atomosquare is the distributed hypervisor connectivity layer of the Elemento platform.",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosquare.p.4",
+      "en": "It consists of hypervisor-side connectors and federation endpoints that expose virtualization platforms and private cloud infrastructures to the Metacloud through a common interoperability model.",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosquare.p.5",
+      "en": "Rather than replacing existing virtualization environments, Atomosquare enables heterogeneous hypervisors to participate in a common federation while preserving operational independence.",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosquare.p.6",
+      "en": "Atomosquare is not itself a hypervisor — it is the connectivity fabric that joins hypervisors to Electros.",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosquare.p.7",
+      "en": "Common governance, orchestration and resource discovery across multiple virtualization platforms.",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosquare.p.8",
+      "en": "Connect heterogeneous virtualization platforms into the federation.",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosquare.p.9",
+      "en": "Allow hypervisors and private cloud environments to participate without changing internal operations.",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "<p>"
+    },
+    {
+      "id": "body.atomosquare.ui.1",
+      "en": "Atomosquare connects hypervisors, virtualization platforms and private cloud infrastructures to the Elemento Metacloud.",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "class"
+    },
+    {
+      "id": "body.atomosquare.ui.2",
+      "en": "Assess Your Hypervisor Estate",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "class"
+    },
+    {
+      "id": "body.atomosquare.ui.3",
+      "en": "Plan a VMware Exit",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "class"
+    },
+    {
+      "id": "body.atomosquare.ui.4",
+      "en": "Learn about AtomOS",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "class"
+    },
+    {
+      "id": "body.atomosquare.ui.5",
+      "en": "Assess Your Hypervisor Estate",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "class"
+    },
+    {
+      "id": "body.atomosquare.ui.6",
+      "en": "Plan a VMware Exit",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "class"
+    },
+    {
+      "id": "meta.atomosquare.description",
+      "en": "Atomosquare connects hypervisors, virtualization platforms and private cloud infrastructures to the Elemento Metacloud through a common interoperability model.",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "meta description"
+    },
+    {
+      "id": "meta.atomosquare.title",
+      "en": "Atomosquare | Universal Hypervisor Fabric | Elemento",
+      "it": "",
+      "fr": "",
+      "source": "atomosquare.html",
+      "context": "meta title"
+    }
+  ]
+}

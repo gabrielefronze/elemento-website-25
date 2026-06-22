@@ -1,20 +1,20 @@
 {
   "page": "_ui",
-  "count": 90,
+  "count": 116,
   "strings": [
     {
-      "id": "ui.banner.atomosDiscountAria",
-      "en": "Grab today AtomOS: 150 euros off the first purchase",
-      "it": "Approfitta oggi di AtomOS: 150 euro di sconto sul primo acquisto",
-      "fr": "Profitez d'AtomOS aujourd'hui : 150 euros de réduction sur le premier achat",
+      "id": "ui.banner.metacloudAssessmentAria",
+      "en": "Book a Metacloud Assessment",
+      "it": "Prenota una Metacloud Assessment",
+      "fr": "Réservez une évaluation Metacloud",
       "source": "src/i18n/ui",
       "context": ""
     },
     {
-      "id": "ui.banner.atomosDiscountText",
-      "en": "Grab today AtomOS - 150€ off the first purchase",
-      "it": "Approfitta oggi di AtomOS: 150€ di sconto sul primo acquisto",
-      "fr": "Profitez d'AtomOS aujourd'hui : 150 € de réduction sur le premier achat",
+      "id": "ui.banner.metacloudAssessmentText",
+      "en": "Book a Metacloud Assessment — govern infrastructure without replacing it",
+      "it": "Prenota una Metacloud Assessment — governa l'infrastruttura senza sostituirla",
+      "fr": "Réservez une évaluation Metacloud — gouvernez l'infrastructure sans la remplacer",
       "source": "src/i18n/ui",
       "context": ""
     },
@@ -235,6 +235,14 @@
       "context": ""
     },
     {
+      "id": "ui.footer.allSolutions",
+      "en": "All Solutions",
+      "it": "Tutte le soluzioni",
+      "fr": "Toutes les solutions",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
       "id": "ui.footer.brandGuidelines",
       "en": "Brand guidelines",
       "it": "Linee guida del marchio",
@@ -299,6 +307,22 @@
       "context": ""
     },
     {
+      "id": "ui.footer.platform",
+      "en": "Platform",
+      "it": "Piattaforma",
+      "fr": "Plateforme",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.footer.platformOverview",
+      "en": "Platform Overview",
+      "it": "Panoramica piattaforma",
+      "fr": "Vue d'ensemble",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
       "id": "ui.footer.privacy",
       "en": "Privacy Policy",
       "it": "Informativa sulla privacy",
@@ -323,10 +347,50 @@
       "context": ""
     },
     {
+      "id": "ui.footer.solHybrid",
+      "en": "Hybrid & Multi-Cloud",
+      "it": "Hybrid e multi-cloud",
+      "fr": "Hybride et multi-cloud",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.footer.solSovereign",
+      "en": "Sovereign Governance",
+      "it": "Governance sovrana",
+      "fr": "Gouvernance souveraine",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.footer.solutions",
+      "en": "Solutions",
+      "it": "Soluzioni",
+      "fr": "Solutions",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.footer.solVmwareExit",
+      "en": "VMware Exit",
+      "it": "Exit da VMware",
+      "fr": "Sortie VMware",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
       "id": "ui.footer.tagline",
-      "en": "Vendor-neutral, high-performance cloud platform that's cost-effective, green, and self-hostable.",
-      "it": "Piattaforma cloud indipendente dal fornitore, ad alte prestazioni, conveniente, sostenibile e auto-ospitabile.",
-      "fr": "Plateforme cloud neutre vis-à-vis des fournisseurs, performante, économique, durable et auto-hébergeable.",
+      "en": "The Metacloud: a sovereign control plane to govern, orchestrate and optimise infrastructure across every provider.",
+      "it": "Il Metacloud: un control plane sovrano per governare, orchestrare e ottimizzare l'infrastruttura su ogni provider.",
+      "fr": "Le Metacloud : un plan de contrôle souverain pour gouverner, orchestrer et optimiser l'infrastructure sur chaque fournisseur.",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.footer.team",
+      "en": "Team",
+      "it": "Team",
+      "fr": "Équipe",
       "source": "src/i18n/ui",
       "context": ""
     },
@@ -395,10 +459,26 @@
       "context": ""
     },
     {
+      "id": "ui.nav.architecture",
+      "en": "Architecture",
+      "it": "Architettura",
+      "fr": "Architecture",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
       "id": "ui.nav.blog",
       "en": "Blog",
       "it": "Blog",
       "fr": "Blogue",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.nav.bookAssessment",
+      "en": "Book Assessment",
+      "it": "Prenota assessment",
+      "fr": "Réserver une évaluation",
       "source": "src/i18n/ui",
       "context": ""
     },
@@ -411,6 +491,14 @@
       "context": ""
     },
     {
+      "id": "ui.nav.company",
+      "en": "Company",
+      "it": "Azienda",
+      "fr": "Entreprise",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
       "id": "ui.nav.contact",
       "en": "Contact",
       "it": "Contatti",
@@ -419,10 +507,58 @@
       "context": ""
     },
     {
+      "id": "ui.nav.documentation",
+      "en": "Documentation",
+      "it": "Documentazione",
+      "fr": "Documentation",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.nav.explorePlatform",
+      "en": "Explore Platform",
+      "it": "Esplora la piattaforma",
+      "fr": "Explorer la plateforme",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
       "id": "ui.nav.homeAria",
       "en": "Elemento home",
       "it": "Home Elemento",
       "fr": "Accueil Elemento",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.nav.platform",
+      "en": "Platform",
+      "it": "Piattaforma",
+      "fr": "Plateforme",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.nav.platformOverview",
+      "en": "Overview",
+      "it": "Panoramica",
+      "fr": "Vue d'ensemble",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.nav.pricing",
+      "en": "Pricing",
+      "it": "Prezzi",
+      "fr": "Tarification",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.nav.productBriefs",
+      "en": "Product Briefs",
+      "it": "Product Brief",
+      "fr": "Fiches produit",
       "source": "src/i18n/ui",
       "context": ""
     },
@@ -447,6 +583,78 @@
       "en": "Signup",
       "it": "Registrati",
       "fr": "S'inscrire",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.nav.solAiGpu",
+      "en": "AI / GPU Infrastructure",
+      "it": "Infrastruttura AI / GPU",
+      "fr": "Infrastructure IA / GPU",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.nav.solDr",
+      "en": "Cross-Provider DR",
+      "it": "DR cross-provider",
+      "fr": "PRA multi-fournisseurs",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.nav.solHybrid",
+      "en": "Hybrid & Multi-Cloud",
+      "it": "Hybrid e multi-cloud",
+      "fr": "Hybride et multi-cloud",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.nav.solProviders",
+      "en": "Service Providers",
+      "it": "Service provider",
+      "fr": "Fournisseurs de services",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.nav.solRepatriation",
+      "en": "Data Repatriation",
+      "it": "Repatriazione dati",
+      "fr": "Rapatriement des données",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.nav.solSovereign",
+      "en": "Sovereign Cloud Governance",
+      "it": "Governance cloud sovrano",
+      "fr": "Gouvernance cloud souverain",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.nav.solutions",
+      "en": "Solutions",
+      "it": "Soluzioni",
+      "fr": "Solutions",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.nav.solVmwareExit",
+      "en": "VMware Exit",
+      "it": "Exit da VMware",
+      "fr": "Sortie VMware",
+      "source": "src/i18n/ui",
+      "context": ""
+    },
+    {
+      "id": "ui.nav.team",
+      "en": "Team",
+      "it": "Team",
+      "fr": "Équipe",
       "source": "src/i18n/ui",
       "context": ""
     },
@@ -532,7 +740,7 @@
     },
     {
       "id": "ui.pages.index.description",
-      "en": "Elemento is a vendor-neutral, cost-saving, green, high-performance, self-hostable cloud platform with infrastructure-as-code readiness.",
+      "en": "Elemento is the Metacloud: a sovereign control plane to govern, orchestrate and optimise public clouds, private clouds, hypervisors, sovereign providers and native AtomOS infrastructure.",
       "it": "Elemento è una piattaforma cloud indipendente dal fornitore, economica, ecologica, ad alte prestazioni e auto-ospitabili con predisposizione per l'infrastruttura come codice.",
       "fr": "Elemento est une plate-forme cloud indépendante du fournisseur, économique, écologique, hautes performances et auto-hébergable avec une préparation à l'infrastructure en tant que code.",
       "source": "src/i18n/ui",
@@ -540,7 +748,7 @@
     },
     {
       "id": "ui.pages.index.heroSubtitle",
-      "en": "Vendor-neutral, cost-saving, green, high-performance, self-hostable cloud with infrastructure-as-code readiness.",
+      "en": "The Infrastructure Layer After Cloud.",
       "it": "Cloud indipendente dal fornitore, conveniente, sostenibile, ad alte prestazioni e auto-ospitabile, pronto per l'infrastructure as code.",
       "fr": "Cloud neutre, économique, durable, performant et auto-hébergeable, prêt pour l'infrastructure as code.",
       "source": "src/i18n/ui",
@@ -548,7 +756,7 @@
     },
     {
       "id": "ui.pages.index.heroTitle",
-      "en": "Unified private and public Cloud platform",
+      "en": "Elemento. The Metacloud.",
       "it": "Piattaforma cloud privata e pubblica unificata",
       "fr": "Plateforme Cloud privée et publique unifiée",
       "source": "src/i18n/ui",
@@ -556,7 +764,7 @@
     },
     {
       "id": "ui.pages.index.title",
-      "en": "Elemento | Unified private and public Cloud platform",
+      "en": "Elemento | The Metacloud Control Plane for Sovereign Infrastructure",
       "it": "Elemento | Piattaforma cloud privata e pubblica unificata",
       "fr": "Elemento | Plateforme Cloud privée et publique unifiée",
       "source": "src/i18n/ui",

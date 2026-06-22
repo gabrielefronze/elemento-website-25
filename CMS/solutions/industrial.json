@@ -1,23 +1,23 @@
 {
   "en": {
     "hero": {
-      "tagline": "Manufacturing Innovation",
-      "title": "Integrate Your Factory Data, From PLCs to ERP",
-      "subtitle": "Transform legacy MES/ERP systems with modern analytics and AI pipelines in one secure, vendor-free cloud ecosystem.",
+      "tagline": "Industrial & Manufacturing",
+      "title": "Unify Shop Floor, Edge, and Cloud Operations",
+      "subtitle": "Bridge OT data gravity with modern analytics and AI using one Metacloud operating model across edge, factory, and Cloud.",
       "primaryCTA": {
-        "text": "Start Now",
-        "link": "../signup.html",
+        "text": "Map Your Industrial Estate",
+        "link": "../contact.html",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
-        "text": "Explore Industrial Platform",
-        "link": "../products.html",
-        "icon": "fas fa-cogs"
+        "text": "AI Infrastructure",
+        "link": "../solutions/ai-gpu-infrastructure.html",
+        "icon": "fas fa-microchip"
       }
     },
     "painPoints": {
       "title": "Manufacturing Challenges You Face",
-      "subtitle": "Common pain points that slow down your digital transformation and operational efficiency",
+      "subtitle": "Why manufacturing teams struggle when shop floor, edge, and Cloud run on disconnected operational models",
       "items": [
         {
           "icon": "fas fa-cogs",
@@ -68,28 +68,33 @@
       ]
     },
     "solution": {
-      "title": "Elemento's Manufacturing Solution",
-      "description": "Unified infrastructure that bridges legacy systems with modern cloud analytics",
+      "title": "Industrial Operations on the Metacloud",
+      "description": "Govern PLCs, edge nodes, and Cloud analytics from one control plane without vendor lock-in.",
       "items": [
-        {
-          "logo": "../assets/logos/Atomos.svg",
-          "name": "AtomOS",
-          "description": "Consistent hypervisor environment for edge and cloud processing"
-        },
         {
           "logo": "../assets/logos/Electros.svg",
           "name": "Electros",
-          "description": "Unified dashboard for monitoring all manufacturing systems"
+          "description": "Unified visibility and governance across factory, edge, and Cloud environments."
         },
         {
           "logo": "../assets/logos/Atomosphere.svg",
           "name": "Atomosphere",
-          "description": "API layer for seamless integration with existing MES/ERP systems"
+          "description": "Orchestrate analytics and AI workloads across Cloud providers and regions."
+        },
+        {
+          "logo": "../assets/logos/Atomosquare.svg",
+          "name": "Atomosquare",
+          "description": "Integrate legacy MES/ERP and hypervisor estates into the same operating model."
+        },
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Consistent execution layer for edge processing and on-premises industrial workloads."
         }
       ],
       "cta": {
-        "text": "See Manufacturing Stack",
-        "link": "../products.html"
+        "text": "Map Your Industrial Estate",
+        "link": "../contact.html"
       }
     },
     "features": {
@@ -184,34 +189,34 @@
       ]
     },
     "ctaFinal": {
-      "title": "Ready to Transform Your Manufacturing?",
-      "subtitle": "Join leading manufacturers already using Elemento to modernize their operations and unlock the power of industrial data.",
+      "title": "Ready to Modernise Industrial Operations?",
+      "subtitle": "Connect shop floor telemetry to Cloud analytics without multiplying toolchains or vendor dependencies.",
       "primaryCTA": {
-        "text": "Start Digital Transformation",
-        "link": "../signup.html",
-        "icon": "fas fa-clipboard-check"
+        "text": "Map Your Industrial Estate",
+        "link": "../contact.html",
+        "icon": "fas fa-industry"
       },
       "secondaryCTA": {
-        "text": "Explore Industrial Solutions",
-        "link": "../products.html",
-        "icon": "fas fa-chart-bar"
+        "text": "Explore the Platform",
+        "link": "../platform.html",
+        "icon": "fas fa-layer-group"
       }
     }
   },
   "it": {
     "hero": {
-      "tagline": "Innovazione produttiva",
-      "title": "Integra i tuoi dati di fabbrica, dai PLC all'ERP",
-      "subtitle": "Trasforma i sistemi MES/ERP legacy con analisi moderne e pipeline di intelligenza artificiale in un unico ecosistema cloud sicuro e privo di fornitori.",
+      "tagline": "Industria e manifattura",
+      "title": "Unifica operazioni shop floor, edge e Cloud",
+      "subtitle": "Collega la gravità dei dati OT ad analytics e AI moderne con un unico modello operativo Metacloud tra edge, fabbrica e Cloud.",
       "primaryCTA": {
-        "text": "Inizia ora",
-        "link": "../signup.html",
+        "text": "Mappa il patrimonio industriale",
+        "link": "../contact.html",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
-        "text": "Esplora Industrial Platform",
-        "link": "../products.html",
-        "icon": "fas fa-cogs"
+        "text": "Infrastruttura AI",
+        "link": "../solutions/ai-gpu-infrastructure.html",
+        "icon": "fas fa-microchip"
       }
     },
     "painPoints": {
@@ -267,28 +272,33 @@
       ]
     },
     "solution": {
-      "title": "Elemento's Manufacturing Soluzione",
-      "description": "Infrastruttura unificata che collega i sistemi legacy con la moderna analisi cloud",
+      "title": "Operazioni industriali sul Metacloud",
+      "description": "Governare PLC, nodi edge e analytics Cloud da un unico control plane senza vendor lock-in.",
       "items": [
-        {
-          "logo": "../assets/logos/Atomos.svg",
-          "name": "AtomOS",
-          "description": "Ambiente hypervisor coerente per l'elaborazione edge e cloud"
-        },
         {
           "logo": "../assets/logos/Electros.svg",
           "name": "Electros",
-          "description": "Dashboard unificato per il monitoraggio di tutti i sistemi di produzione"
+          "description": "Visibilità e governance unificate tra fabbrica, edge e ambienti Cloud."
         },
         {
           "logo": "../assets/logos/Atomosphere.svg",
           "name": "Atomosphere",
-          "description": "Livello API per una perfetta integrazione con i sistemi MES/ERP esistenti"
+          "description": "Orchestrare workload analytics e AI tra provider Cloud e regioni."
+        },
+        {
+          "logo": "../assets/logos/Atomosquare.svg",
+          "name": "Atomosquare",
+          "description": "Integra MES/ERP legacy e patrimoni hypervisor nello stesso modello operativo."
+        },
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Layer di esecuzione coerente per edge e workload industriali on-premises."
         }
       ],
       "cta": {
-        "text": "Vedi Manufacturing Stack",
-        "link": "../products.html"
+        "text": "Mappa il patrimonio industriale",
+        "link": "../contact.html"
       }
     },
     "features": {
@@ -383,34 +393,34 @@
       ]
     },
     "ctaFinal": {
-      "title": "Pronto per Transform Your Manufacturing?",
-      "subtitle": "Unisciti ai produttori leader che già utilizzano Elemento per modernizzare le loro operazioni e sfruttare la potenza dei dati industriali.",
+      "title": "Pronto per modernizzare le operazioni industriali?",
+      "subtitle": "Collega la telemetria dello shop floor all'analytics Cloud senza moltiplicare toolchain o dipendenze vendor.",
       "primaryCTA": {
-        "text": "Avvia la trasformazione digitale",
-        "link": "../signup.html",
-        "icon": "fas fa-clipboard-check"
+        "text": "Mappa il patrimonio industriale",
+        "link": "../contact.html",
+        "icon": "fas fa-industry"
       },
       "secondaryCTA": {
-        "text": "Esplora Industrial Soluziones",
-        "link": "../products.html",
-        "icon": "fas fa-chart-bar"
+        "text": "Esplora la piattaforma",
+        "link": "../platform.html",
+        "icon": "fas fa-layer-group"
       }
     }
   },
   "fr": {
     "hero": {
-      "tagline": "Innovation manufacturière",
-      "title": "Intégrez vos données d'usine, des automates à l'ERP",
-      "subtitle": "Transformez les anciens systèmes MES/ERP avec des pipelines d'analyse et d'IA modernes dans un écosystème cloud sécurisé et sans fournisseur.",
+      "tagline": "Industrie et manufacturing",
+      "title": "Unifiez shop floor, edge et opérations Cloud",
+      "subtitle": "Reliez la gravité des données OT à l'analytics et l'IA modernes avec un modèle opérationnel Metacloud unique entre edge, usine et Cloud.",
       "primaryCTA": {
-        "text": "Commencez maintenant",
-        "link": "../signup.html",
+        "text": "Cartographier votre patrimoine industriel",
+        "link": "../contact.html",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
-        "text": "Explorez la plateforme industrielle",
-        "link": "../products.html",
-        "icon": "fas fa-cogs"
+        "text": "Infrastructure IA",
+        "link": "../solutions/ai-gpu-infrastructure.html",
+        "icon": "fas fa-microchip"
       }
     },
     "painPoints": {
@@ -466,28 +476,33 @@
       ]
     },
     "solution": {
-      "title": "La solution de fabrication d'Elemento",
-      "description": "Infrastructure unifiée qui relie les systèmes existants aux analyses cloud modernes",
+      "title": "Opérations industrielles sur le Metacloud",
+      "description": "Gouvernez PLC, nœuds edge et analytics Cloud depuis un plan de contrôle unique sans verrouillage fournisseur.",
       "items": [
-        {
-          "logo": "../assets/logos/Atomos.svg",
-          "name": "AtomOS",
-          "description": "Environnement d'hyperviseur cohérent pour le traitement en périphérie et dans le cloud"
-        },
         {
           "logo": "../assets/logos/Electros.svg",
           "name": "Electros",
-          "description": "Tableau de bord unifié pour surveiller tous les systèmes de fabrication"
+          "description": "Visibilité et gouvernance unifiées entre usine, edge et environnements Cloud."
         },
         {
           "logo": "../assets/logos/Atomosphere.svg",
           "name": "Atomosphere",
-          "description": "Couche API pour une intégration transparente avec les systèmes MES/ERP existants"
+          "description": "Orchestrez charges analytics et IA entre fournisseurs Cloud et régions."
+        },
+        {
+          "logo": "../assets/logos/Atomosquare.svg",
+          "name": "Atomosquare",
+          "description": "Intégrez MES/ERP existants et patrimoines hyperviseur dans le même modèle opérationnel."
+        },
+        {
+          "logo": "../assets/logos/Atomos.svg",
+          "name": "AtomOS",
+          "description": "Couche d'exécution cohérente pour edge et charges industrielles on-premises."
         }
       ],
       "cta": {
-        "text": "Voir la pile de fabrication",
-        "link": "../products.html"
+        "text": "Cartographier votre patrimoine industriel",
+        "link": "../contact.html"
       }
     },
     "features": {
@@ -582,17 +597,17 @@
       ]
     },
     "ctaFinal": {
-      "title": "Prêt à transformer votre fabrication ?",
-      "subtitle": "Rejoignez les principaux fabricants qui utilisent déjà Elemento pour moderniser leurs opérations et libérer la puissance des données industrielles.",
+      "title": "Prêt à moderniser les opérations industrielles ?",
+      "subtitle": "Connectez la télémétrie shop floor à l'analytics Cloud sans multiplier les chaînes d'outils ni les dépendances fournisseurs.",
       "primaryCTA": {
-        "text": "Démarrer la transformation numérique",
-        "link": "../signup.html",
-        "icon": "fas fa-clipboard-check"
+        "text": "Cartographier votre patrimoine industriel",
+        "link": "../contact.html",
+        "icon": "fas fa-industry"
       },
       "secondaryCTA": {
-        "text": "Explorez les solutions industrielles",
-        "link": "../products.html",
-        "icon": "fas fa-chart-bar"
+        "text": "Explorer la plateforme",
+        "link": "../platform.html",
+        "icon": "fas fa-layer-group"
       }
     }
   }
