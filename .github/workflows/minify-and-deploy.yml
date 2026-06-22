@@ -39,8 +39,20 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Set Astro base path for GitHub Pages
+        run: |
+          if [ -n "${ASTRO_BASE}" ]; then
+            echo "ASTRO_BASE=${ASTRO_BASE}" >> "$GITHUB_ENV"
+          elif [ -f CNAME ]; then
+            echo "ASTRO_BASE=/" >> "$GITHUB_ENV"
+          else
+            echo "ASTRO_BASE=/${{ github.event.repository.name }}/" >> "$GITHUB_ENV"
+          fi
+
       - name: Build static site
         run: npm run build
+        env:
+          ASTRO_BASE: ${{ env.ASTRO_BASE }}
 
       - name: Setup Pages
         uses: actions/configure-pages@v4

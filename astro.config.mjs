@@ -2,10 +2,12 @@ import { defineConfig } from 'astro/config';
 import { localeDevRoutes } from './scripts/vite-locale-dev-routes.mjs';
 
 const SITE = 'https://elemento.cloud';
+const astroBase = process.env.ASTRO_BASE || '/';
 
 /** @type {import('astro').AstroUserConfig} */
 export default defineConfig({
   site: SITE,
+  base: astroBase,
   output: 'static',
   trailingSlash: 'never',
   build: {

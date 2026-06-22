@@ -1,5 +1,6 @@
 import type { Locale } from '../i18n/config';
 import { localePath } from '../i18n/config';
+import { withSitePath } from './asset-base';
 
 /**
  * Rewrite root-relative asset paths in legacy HTML body for nested locales (e.g. /it/).
@@ -86,7 +87,7 @@ export function prefixBodyPageLinks(
     if (/^(https?:|\/\/|mailto:|tel:|#|javascript:)/i.test(href)) return match;
     const resolvedStem = resolvePageStem(href, pageStem);
     if (!resolvedStem) return match;
-    return `${open}${localePath(locale, resolvedStem)}${close}`;
+    return `${open}${withSitePath(localePath(locale, resolvedStem))}${close}`;
   };
 
   return html.replace(/(\shref=["'])([^"'#]+)(["'])/gi, rewrite);

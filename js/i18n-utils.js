@@ -7,11 +7,11 @@
   const NON_EN_LOCALES = ['it', 'fr'];
   /** First path segments that are site routes, not a GitHub Pages project prefix. */
   const KNOWN_SITE_ROOTS = new Set([
-    'about', 'atomos', 'atomosphere', 'blog', 'blog-posts', 'bookings', 'brand-guidelines',
-    'careers', 'compare-costs', 'contact', 'editor', 'electros', 'forms', 'getintouch',
-    'grazie', 'install-atomos', 'orbital', 'products', 'provider-candidature', 'provider-success',
-    'signup', 'signup-success', 'solutions', 'technology', 'thank-you', 'videos', '404',
-    'assets', 'css', 'js', 'CMS', 'components',
+    'about', 'atomos', 'atomosquare', 'atomosphere', 'blog', 'blog-posts', 'bookings', 'brand-guidelines',
+    'c4-protocol', 'careers', 'compare-costs', 'contact', 'deployment', 'editor', 'electros', 'forms',
+    'getintouch', 'grazie', 'install-atomos', 'orbital', 'platform', 'pricing', 'products',
+    'provider-candidature', 'provider-success', 'resources', 'signup', 'signup-success', 'solutions',
+    'technology', 'thank-you', 'videos', '404', 'assets', 'css', 'js', 'CMS', 'components',
   ]);
 
   /** GitHub Pages project sites live under /repo-name/; custom domains do not. */
