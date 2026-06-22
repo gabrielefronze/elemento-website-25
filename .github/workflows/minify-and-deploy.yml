@@ -2,7 +2,7 @@ name: Minify and Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [ rewamp-26 ]
   workflow_dispatch:
 
 permissions:
