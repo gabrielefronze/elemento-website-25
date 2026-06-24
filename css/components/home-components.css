@@ -232,27 +232,211 @@
     justify-content: center;
 }
 
+/* Hero Metacloud constellation */
 .hero-wow {
     position: absolute;
     inset: 0;
-    z-index: 0;
+    z-index: 1;
     pointer-events: none;
     overflow: hidden;
 }
 
-.hero-wow__graph {
+.hero-providers {
+    position: absolute;
+    inset: 0;
+}
+
+/* Soft glow behind the Metacloud word acting as the hub */
+.hero-providers__glow {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    width: 52vw;
+    max-width: 640px;
+    height: 36vh;
+    max-height: 420px;
+    transform: translate(-50%, -50%);
+    background: radial-gradient(
+        ellipse at center,
+        rgba(255, 166, 0, 0.18) 0%,
+        rgba(255, 166, 0, 0.06) 40%,
+        rgba(0, 0, 0, 0) 72%
+    );
+    filter: blur(10px);
+    pointer-events: none;
+}
+
+/* Make the headline the visual hub: a boxed node that covers where every
+   connection line terminates. */
+.hero-home .hero-metacloud {
+    position: relative;
+    display: inline-block;
+    padding: 0.02em 0.2em;
+    border-radius: 14px;
+    color: #1b1303;
+    -webkit-text-fill-color: #1b1303;
+}
+
+.hero-home .hero-metacloud::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    background: linear-gradient(
+        180deg,
+        color-mix(in srgb, var(--accent-color, #ffa600) 88%, #fff),
+        var(--accent-color, #ffa600)
+    );
+    border: 1px solid color-mix(in srgb, var(--accent-color, #ffa600) 60%, #fff);
+    box-shadow:
+        0 16px 52px rgba(0, 0, 0, 0.5),
+        0 0 46px rgba(255, 166, 0, 0.5);
+    z-index: -1;
+}
+
+.hero-home .hero-content {
+    position: relative;
+}
+
+.hero-home .hero-content::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 116%;
+    height: 150%;
+    transform: translate(-50%, -50%);
+    background: radial-gradient(
+        ellipse at center,
+        var(--background-color) 0%,
+        rgba(0, 0, 0, 0) 58%
+    );
+    opacity: 0.55;
+    z-index: -1;
+    pointer-events: none;
+}
+
+/* --- Connecting link lines (box -> Metacloud word) --- */
+.hero-link-svg {
+    position: absolute;
+    inset: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.35;
+    overflow: visible;
+    pointer-events: none;
+    z-index: 0;
 }
 
-.hero-wow--static .hero-wow__graph {
-    opacity: 0.25;
+.hero-link-base {
+    fill: none;
+    stroke-width: 1;
+    opacity: 0.12;
 }
 
-@media (max-width: 768px) {
-    .hero-wow__graph .hero-wow-animate {
+.hero-link {
+    fill: none;
+    stroke-width: 1.4;
+    stroke-linecap: round;
+    stroke-dasharray: 2 9;
+    opacity: 0;
+    animation: linkFlow 1.3s linear infinite;
+}
+
+@keyframes linkFlow {
+    to { stroke-dashoffset: -11; }
+}
+
+/* --- Provider cards (positioned by JS via left/top, centered) --- */
+.provider-float {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.5rem 0.8rem 0.5rem 0.5rem;
+    border-radius: 13px;
+    background: var(--glassmorphism-background);
+    -webkit-backdrop-filter: blur(16px);
+    backdrop-filter: blur(16px);
+    border: 1px solid var(--glassmorphism-border);
+    box-shadow: var(--glassmorphism-shadow);
+    pointer-events: auto;
+    white-space: nowrap;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.provider-float:hover {
+    border-color: color-mix(in srgb, var(--accent, var(--primary-color)) 65%, transparent);
+    box-shadow: 0 16px 44px rgba(0, 0, 0, 0.32);
+}
+
+.provider-float__logo {
+    flex: 0 0 auto;
+    width: 36px;
+    height: 36px;
+    display: grid;
+    place-items: center;
+    border-radius: 9px;
+    font-size: 1.05rem;
+    color: var(--accent, var(--primary-color));
+    background: color-mix(in srgb, var(--accent, var(--primary-color)) 16%, transparent);
+    border: 1px solid color-mix(in srgb, var(--accent, var(--primary-color)) 30%, transparent);
+}
+
+.provider-float__img {
+    width: 21px;
+    height: 21px;
+    object-fit: contain;
+    display: block;
+}
+
+.provider-float__text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.12;
+}
+
+.provider-float__text strong {
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.provider-float__text small {
+    font-size: 0.66rem;
+    color: var(--text-secondary);
+}
+
+/* Static / reduced-motion: JS sets a fixed opacity; kill the dash flow. */
+.hero-wow--static .hero-link {
+    opacity: 0.45;
+    animation: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .hero-link {
+        animation: none !important;
+    }
+}
+
+/* Narrow screens: keep the orbit but show compact icon-only chips and
+   disable pointer interaction so cards never block taps on the hero CTAs. */
+@media (max-width: 992px) {
+    .provider-float {
+        padding: 0.34rem;
+        gap: 0;
+        border-radius: 11px;
+        pointer-events: none;
+    }
+    .provider-float__text {
         display: none;
+    }
+    .provider-float__logo {
+        width: 32px;
+        height: 32px;
+        font-size: 0.95rem;
     }
 }
 
