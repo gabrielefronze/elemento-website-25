@@ -241,8 +241,31 @@
 
         // Density + margins scale down on narrow screens so the orbit still fits.
         var vw = window.innerWidth;
+        var vh = window.innerHeight;
         var compact = vw <= 992;
         var tiny = vw <= 560;
+        var dim = Math.min(vw, vh);
+
+        // Perspective scale range shrinks on smaller viewports so near cards
+        // never dominate the headline / subtitle (full range at ~1500px+).
+        var perspMax = Math.min(1.55, Math.max(0.82, 0.75 + (dim - 600) / 800 * 0.8));
+        if (vw < 1500) {
+            perspMax = Math.min(perspMax, 0.88 + Math.max(0, vw - 720) / 780 * 0.67);
+        }
+        var perspMin = Math.max(0.52, 0.58 + (perspMax - 0.82) * 0.15);
+        if (compact) {
+            perspMax = Math.min(perspMax, 0.92 + (perspMax - 0.92) * Math.max(0, (dim - 560) / 440));
+            perspMin = Math.min(perspMin, 0.62);
+        }
+        state.perspMin = perspMin;
+        state.perspMax = perspMax;
+
+        // Pull orbits in on smaller viewports / hero areas so bottom cards
+        // don't overlap the hero copy below the Metacloud word.
+        var orbitV = Math.min(1, dim / 980, H / 900);
+        var orbitH = Math.min(1, vw / 1350);
+        state.orbitV = orbitV;
+        state.orbitH = orbitH;
 
         var marginX = Math.max(20, Math.min(96, W * 0.08));
         var marginTop = Math.max(72, H * 0.12);
@@ -260,8 +283,8 @@
             card.style.display = hidden ? 'none' : '';
             line.base.style.display = hidden ? 'none' : '';
             line.flow.style.display = hidden ? 'none' : '';
-            it.rH = Math.min(RING_H[it.ring] * W, maxH);
-            it.rV = Math.min(RING_V[it.ring] * H, maxV);
+            it.rH = Math.min(RING_H[it.ring] * W * orbitH, maxH);
+            it.rV = Math.min(RING_V[it.ring] * H * orbitV, maxV);
         });
 
         if (state.reduced) render(0);
@@ -283,7 +306,9 @@
             // Perspective: bottom of the ellipse reads as "near" (bigger,
             // sharp, on top), the top as "far" (smaller, blurred, behind).
             var near = (Math.sin(ang) + 1) / 2; // 0 far (top) .. 1 near (bottom)
-            var persp = 0.7 + 0.85 * near;
+            var pMin = state.perspMin != null ? state.perspMin : 0.7;
+            var pMax = state.perspMax != null ? state.perspMax : 1.55;
+            var persp = pMin + (pMax - pMin) * near;
             var blur = (1 - near) * .9;
 
             var card = state.cards[i];
