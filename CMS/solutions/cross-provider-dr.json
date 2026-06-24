@@ -6,7 +6,7 @@
       "subtitle": "Use one control plane to coordinate primary, DR, and fallback environments across providers.",
       "primaryCTA": {
         "text": "Design Cross-Provider DR",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
@@ -68,7 +68,7 @@
       ],
       "cta": {
         "text": "Design Cross-Provider DR",
-        "link": "../contact.html"
+        "link": "https://book.elemento.cloud/"
       }
     },
     "useCase": {
@@ -148,12 +148,12 @@
       "subtitle": "Coordinate primary, DR, and fallback environments from one control plane across providers.",
       "primaryCTA": {
         "text": "Design Cross-Provider DR",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
         "text": "Schedule a Demo",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-calendar"
       }
     }
@@ -165,7 +165,7 @@
       "subtitle": "Usa un unico control plane per coordinare ambienti primari, DR e fallback tra provider.",
       "primaryCTA": {
         "text": "Progetta DR cross-provider",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
@@ -227,7 +227,7 @@
       ],
       "cta": {
         "text": "Progetta DR cross-provider",
-        "link": "../contact.html"
+        "link": "https://book.elemento.cloud/"
       }
     },
     "useCase": {
@@ -307,12 +307,12 @@
       "subtitle": "Coordina ambienti primari, DR e fallback da un unico control plane tra provider.",
       "primaryCTA": {
         "text": "Progetta DR cross-provider",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
         "text": "Pianifica una demo",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-calendar"
       }
     }
@@ -324,7 +324,7 @@
       "subtitle": "Utilisez un plan de contrôle unique pour coordonner environnements primaires, DR et secours entre fournisseurs.",
       "primaryCTA": {
         "text": "Concevoir un DR cross-fournisseur",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
@@ -386,7 +386,7 @@
       ],
       "cta": {
         "text": "Concevoir un DR cross-fournisseur",
-        "link": "../contact.html"
+        "link": "https://book.elemento.cloud/"
       }
     },
     "useCase": {
@@ -466,12 +466,12 @@
       "subtitle": "Coordonnez environnements primaires, DR et secours depuis un plan de contrôle unique entre fournisseurs.",
       "primaryCTA": {
         "text": "Concevoir un DR cross-fournisseur",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
         "text": "Planifier une démo",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-calendar"
       }
     }

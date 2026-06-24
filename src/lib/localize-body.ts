@@ -385,17 +385,17 @@ export function localizeBody(html: string, locale: Locale, stem: string): string
 
   const perPageIt: Record<string, Replacement[]> = {
     index: [
-      ['Elemento. The Metacloud.', 'Elemento. Il Metacloud.'],
       [
         /The Infrastructure Layer<br><span class="pixel-accent">After Cloud\.<\/span>/gi,
         'Il livello infrastrutturale<br><span class="pixel-accent">dopo il Cloud.</span>',
       ],
       [
-        /Govern, orchestrate and optimise infrastructure across public clouds, private clouds, sovereign providers, hypervisors and native AtomOS environments — through one sovereign control plane\./gi,
-        'Governa, orchestra e ottimizza l\'infrastruttura su public cloud, private cloud, provider sovrani, hypervisor e ambienti AtomOS nativi — attraverso un unico control plane sovrano.',
+        /Govern every infrastructure through one sovereign control plane\./gi,
+        'Governa ogni infrastruttura attraverso un unico control plane sovrano.',
       ],
       ['Book a Metacloud Assessment', 'Prenota una Metacloud Assessment'],
       ['Explore the Platform', 'Esplora la piattaforma'],
+      ['Planning a VMware exit? Take the assessment →', 'Stai pianificando un exit da VMware? Inizia dalla assessment →'],
       ['VMware Exit Assessment', 'Assessment exit da VMware'],
       ['Why Now?', 'Perché adesso?'],
       ['The Metacloud Architecture', 'Architettura Metacloud'],
@@ -493,17 +493,17 @@ export function localizeBody(html: string, locale: Locale, stem: string): string
 
   const perPageFr: Record<string, Replacement[]> = {
     index: [
-      ['Elemento. The Metacloud.', 'Elemento. Le Metacloud.'],
       [
         /The Infrastructure Layer<br><span class="pixel-accent">After Cloud\.<\/span>/gi,
         'La couche d\'infrastructure<br><span class="pixel-accent">après le Cloud.</span>',
       ],
       [
-        /Govern, orchestrate and optimise infrastructure across public clouds, private clouds, sovereign providers, hypervisors and native AtomOS environments — through one sovereign control plane\./gi,
-        'Gouvernez, orchestrez et optimisez l\'infrastructure sur clouds publics, clouds privés, fournisseurs souverains, hyperviseurs et environnements AtomOS natifs — via un plan de contrôle souverain unique.',
+        /Govern every infrastructure through one sovereign control plane\./gi,
+        'Gouvernez toute infrastructure via un plan de contrôle souverain unique.',
       ],
       ['Book a Metacloud Assessment', 'Réserver une évaluation Metacloud'],
       ['Explore the Platform', 'Explorer la plateforme'],
+      ['Planning a VMware exit? Take the assessment →', 'Vous prévoyez une sortie VMware ? Commencez par l\'évaluation →'],
       ['VMware Exit Assessment', 'Évaluation sortie VMware'],
       ['Why Now?', 'Pourquoi maintenant ?'],
       ['The Metacloud Architecture', 'Architecture Metacloud'],

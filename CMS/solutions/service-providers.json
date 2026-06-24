@@ -6,7 +6,7 @@
       "subtitle": "Use Elemento as your Metacloud control plane to broker third-party infrastructure and services under your own governance model.",
       "primaryCTA": {
         "text": "Launch Your Metacloud Offering",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
@@ -68,7 +68,7 @@
       ],
       "cta": {
         "text": "Launch Your Metacloud Offering",
-        "link": "../contact.html"
+        "link": "https://book.elemento.cloud/"
       }
     },
     "useCase": {
@@ -148,12 +148,12 @@
       "subtitle": "Broker third-party infrastructure under your brand without building every service layer from scratch.",
       "primaryCTA": {
         "text": "Launch Your Metacloud Offering",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
         "text": "Schedule a Demo",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-calendar"
       }
     }
@@ -165,7 +165,7 @@
       "subtitle": "Usa Elemento come control plane Metacloud per intermediare infrastruttura e servizi di terze parti sotto il tuo modello di governance.",
       "primaryCTA": {
         "text": "Lancia la tua offerta Metacloud",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
@@ -227,7 +227,7 @@
       ],
       "cta": {
         "text": "Lancia la tua offerta Metacloud",
-        "link": "../contact.html"
+        "link": "https://book.elemento.cloud/"
       }
     },
     "useCase": {
@@ -307,12 +307,12 @@
       "subtitle": "Intermedia infrastruttura di terze parti sotto il tuo brand senza costruire ogni layer da zero.",
       "primaryCTA": {
         "text": "Lancia la tua offerta Metacloud",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
         "text": "Pianifica una demo",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-calendar"
       }
     }
@@ -324,7 +324,7 @@
       "subtitle": "Utilisez Elemento comme plan de contrôle Metacloud pour intermédier infrastructure et services tiers sous votre propre modèle de gouvernance.",
       "primaryCTA": {
         "text": "Lancer votre offre Metacloud",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
@@ -386,7 +386,7 @@
       ],
       "cta": {
         "text": "Lancer votre offre Metacloud",
-        "link": "../contact.html"
+        "link": "https://book.elemento.cloud/"
       }
     },
     "useCase": {
@@ -466,12 +466,12 @@
       "subtitle": "Intermédiez l'infrastructure tierce sous votre marque sans tout construire from scratch.",
       "primaryCTA": {
         "text": "Lancer votre offre Metacloud",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
         "text": "Planifier une démo",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-calendar"
       }
     }

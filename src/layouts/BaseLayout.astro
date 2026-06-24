@@ -69,6 +69,7 @@ const hreflangStem = stem;
   <meta name="ai-content" content="allowed" />
   <meta name="ai-training" content="allowed" />
   <meta name="ai-access" content="public" />
+  <link rel="alternate" type="text/plain" href="/llms.txt" title="LLM-readable site summary" />
   <link rel="icon" type="image/svg+xml" href={`${assetBase}assets/favicon/favicon.svg`} />
   <link rel="icon" type="image/png" sizes="32x32" href={`${assetBase}assets/favicon/favicon-32x32.png`} />
   <link rel="icon" href={`${assetBase}assets/favicon/favicon.ico`} />
@@ -83,8 +84,20 @@ const hreflangStem = stem;
     <link rel="stylesheet" href={`${assetBase}${href}`} />
   ))}
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" />
-  {schemaJsonLd && (
+  {schemaJsonLd ? (
     <script type="application/ld+json" set:html={JSON.stringify(schemaJsonLd)} />
+  ) : (
+    <script type="application/ld+json" set:html={JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'Organization',
+      name: 'Elemento',
+      url: 'https://elemento.cloud',
+      description: 'The Metacloud control plane for sovereign infrastructure federation.',
+      sameAs: [
+        'https://github.com/elemento-modular-cloud',
+        'https://www.linkedin.com/company/elemento-modular-cloud/',
+      ],
+    })} />
   )}
   <Fragment set:html={extraHead} />
   <script define:vars={{ ui, locale, stem, base: assetBase, siteBase: siteBasePath() }}>
@@ -96,6 +109,8 @@ const hreflangStem = stem;
   <slot />
   <div id="footer-placeholder" data-locale={locale}></div>
   <script src={`${assetBase}js/i18n-utils.js`} defer></script>
+  <script src={`${assetBase}js/banners/config.js`} defer></script>
+  <script src={`${assetBase}js/cta-registry.js`} defer></script>
   {solutionSlug && (
     <>
       <script

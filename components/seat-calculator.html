@@ -1,0 +1,36 @@
+<div class="seat-calculator" data-seat-calculator>
+    <div class="seat-calculator__inputs">
+        <label>
+            <span>Number of organisations</span>
+            <input type="number" data-input="orgs" min="1" max="100" value="1">
+        </label>
+        <label>
+            <span>Users per organisation</span>
+            <input type="number" data-input="usersPerOrg" min="1" max="10000" value="10">
+        </label>
+        <label>
+            <span>Electros tier</span>
+            <select data-input="tier">
+                <option value="standard">Standard</option>
+                <option value="professional">Professional</option>
+                <option value="enterprise">Enterprise</option>
+            </select>
+        </label>
+        <label>
+            <span>AtomOS support plan</span>
+            <select data-input="support">
+                <option value="community">Community (free)</option>
+                <option value="standard">Standard</option>
+                <option value="production">Production</option>
+            </select>
+        </label>
+    </div>
+    <div class="seat-calculator__output">
+        <p><strong>Total seats:</strong> <span data-output="seats">10</span></p>
+        <p class="seat-calculator__note">One user in multiple organisations counts as one seat per organisation.</p>
+        <p><strong>Estimated monthly (Electros):</strong> <span data-output="monthly">Contact sales</span></p>
+        <p><strong>Estimated annual (Electros):</strong> <span data-output="annual">Contact sales</span></p>
+        <p><strong>AtomOS support:</strong> <span data-output="supportCost">€0</span>/year</p>
+        <p class="seat-calculator__disclaimer">Indicative estimates. Final pricing confirmed at quote.</p>
+    </div>
+</div>

@@ -1170,71 +1170,34 @@
         </div>
     </section>
 
-    <!-- Plans Section -->
+    <!-- Licensing Section -->
     <section class="section" id="prices">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Choose Your AtomOS Edition</h2>
-                <p class="section-subtitle">From free community use to enterprise production deployments</p>
+                <h2 class="section-title">AtomOS Licensing</h2>
+                <p class="section-subtitle">Free to use under BSL. Apache 2.0 after 3 years. Paid support when you need production assurance.</p>
             </div>
-            
             <div class="grid grid-2 plans-grid">
-                <div class="card fade-in" id="community">
-                    <div class="plan-card">
-                        <h3>AtomOS Community Edition — Free Forever</h3>
-                        <div class="plan-price">€0</div>
-                        <p class="plan-subtitle">Per server, regardless of CPU cores or VM count</p>
-                    </div>
+                <div class="card fade-in">
+                    <span class="license-badge license-badge--bsl">BSL → Apache 2.0</span>
+                    <h3>AtomOS — Free to use</h3>
+                    <p>AtomOS is free to use under the Business Source License, automatically transitioning to Apache 2.0 after three years.</p>
                     <ul class="plan-features">
-                        <li class="feature-list-item">
-                            <span class="feature-check">✓</span>
-                            Run up to 2 virtual machines per server
-                        </li>
-                        <li class="feature-list-item">
-                            <span class="feature-check">✓</span>
-                            CLI control only (virsh, qemu-img)
-                        </li>
-                        <li class="feature-list-item">
-                            <span class="feature-check">✓</span>
-                            Perfect for labs, makers, DevOps hobbyists
-                        </li>
+                        <li class="feature-list-item"><span class="feature-check">✓</span> No discounted license — software is free</li>
+                        <li class="feature-list-item"><span class="feature-check">✓</span> Native sovereign endpoint inside Atomosquare</li>
+                        <li class="feature-list-item"><span class="feature-check">✓</span> Community documentation and forum</li>
                     </ul>
-                    <div class="plan-cta">
-                        <a href="#installation" class="btn btn-primary"><i class="fas fa-download"></i> Download Now</a>
-                    </div>
+                    <a href="https://atomos.elemento.cloud" class="btn btn-primary" target="_blank" rel="noopener noreferrer" data-cta-id="getAtomos">Get AtomOS</a>
                 </div>
-                
-                <div class="card fade-in" id="enterprise">
-                    <div class="plan-card">
-                        <h3>AtomOS Enterprise — For Private Cloud Production</h3>
-                        <div class="plan-price">€600/year</div>
-                        <p class="plan-subtitle">Per server, regardless of CPU cores or VM count</p>
-                    </div>
+                <div class="card fade-in">
+                    <h3>Paid support plans</h3>
+                    <p>Production assurance through optional support tiers — not software license fees.</p>
                     <ul class="plan-features">
-                        <li class="feature-list-item">
-                            <span class="feature-check">✓</span>
-                            Unlimited VMs and nested virt
-                        </li>
-                        <li class="feature-list-item">
-                            <span class="feature-check">✓</span>
-                            Web GUI (Cockpit + Electros orchestration dashboard)
-                        </li>
-                        <li class="feature-list-item">
-                            <span class="feature-check">✓</span>
-                            Monitoring + Alerts (Grafana stack)
-                        </li>
-                        <li class="feature-list-item">
-                            <span class="feature-check">✓</span>
-                            Live migration
-                        </li>
-                        <li class="feature-list-item">
-                            <span class="feature-check">✓</span>
-                            Guaranteed upgrade path and support
-                        </li>
+                        <li class="feature-list-item"><span class="feature-check">✓</span> Community — free</li>
+                        <li class="feature-list-item"><span class="feature-check">✓</span> Standard — from €1,200/year</li>
+                        <li class="feature-list-item"><span class="feature-check">✓</span> Production — from €2,400/year</li>
                     </ul>
-                    <div class="plan-cta">
-                        <a href="https://atomos.elemento.cloud" class="btn btn-primary" target="_blank" rel="noopener noreferrer"><i class="fas fa-crown"></i> Get Enterprise License</a>
-                    </div>
+                    <a href="pricing.html" class="btn btn-secondary" data-cta-id="estimateCost">View support pricing</a>
                 </div>
             </div>
         </div>
@@ -1364,15 +1327,13 @@
             </div>
             
             <div class="text-center" style="display: flex; flex-wrap: wrap; gap: var(--space-md); justify-content: center; align-items: center;">
-                <a href="https://atomos.elemento.cloud" class="btn btn-primary" target="_blank" rel="noopener noreferrer"><i class="fas fa-cart-shopping"></i> Buy AtomOS</a>
-                <a href="#installation" class="btn btn-secondary"><i class="fas fa-download"></i> Download Free Edition</a>
-                <a href="https://book.elemento.cloud/" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
-                    <i class="fas fa-calendar"></i>
-                    Book a call
-                </a>
+                <a href="https://atomos.elemento.cloud" class="btn btn-primary" target="_blank" rel="noopener noreferrer" data-cta-id="getAtomos"><i class="fas fa-download"></i> Get AtomOS</a>
+                <a href="pricing.html" class="btn btn-secondary" data-cta-id="estimateCost"><i class="fas fa-tags"></i> View Support Plans</a>
             </div>
         </div>
     </section>
+
+    <section class="section"><div class="container" data-product-crosslinks="atomos"></div></section>
 
     <!-- Footer -->
     <div id="footer-placeholder"></div>
@@ -1387,6 +1348,7 @@
     <script src="js/atmosphere_hero_with_logo.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" defer></script>
     <script src="js/themes.js" defer></script>
+    <script src="js/product-crosslinks.js" defer></script>
     <script src="js/atomos-calculator.js" defer></script>
 </body>
 </html> 

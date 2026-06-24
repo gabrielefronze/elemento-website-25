@@ -6,7 +6,7 @@
       "subtitle": "Manage public Cloud, private infrastructure, hypervisors, and edge environments without separate toolchains.",
       "primaryCTA": {
         "text": "Map Your Infrastructure Estate",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
@@ -68,7 +68,7 @@
       ],
       "cta": {
         "text": "Map Your Infrastructure Estate",
-        "link": "../contact.html"
+        "link": "https://book.elemento.cloud/"
       }
     },
     "useCase": {
@@ -148,12 +148,12 @@
       "subtitle": "Replace tool sprawl with one operating model for public Cloud, private infrastructure, and edge.",
       "primaryCTA": {
         "text": "Map Your Infrastructure Estate",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
         "text": "Schedule a Demo",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-calendar"
       }
     }
@@ -165,7 +165,7 @@
       "subtitle": "Gestisci Cloud pubblico, infrastruttura privata, hypervisor e edge senza toolchain separate.",
       "primaryCTA": {
         "text": "Mappa il tuo patrimonio infrastrutturale",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
@@ -227,7 +227,7 @@
       ],
       "cta": {
         "text": "Mappa il tuo patrimonio infrastrutturale",
-        "link": "../contact.html"
+        "link": "https://book.elemento.cloud/"
       }
     },
     "useCase": {
@@ -307,12 +307,12 @@
       "subtitle": "Sostituisci la proliferazione di strumenti con un modello operativo unico per Cloud, privato ed edge.",
       "primaryCTA": {
         "text": "Mappa il tuo patrimonio infrastrutturale",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
         "text": "Pianifica una demo",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-calendar"
       }
     }
@@ -324,7 +324,7 @@
       "subtitle": "Gérez Cloud public, infrastructure privée, hyperviseurs et edge sans chaînes d'outils séparées.",
       "primaryCTA": {
         "text": "Cartographier votre patrimoine infrastructure",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
@@ -386,7 +386,7 @@
       ],
       "cta": {
         "text": "Cartographier votre patrimoine infrastructure",
-        "link": "../contact.html"
+        "link": "https://book.elemento.cloud/"
       }
     },
     "useCase": {
@@ -466,12 +466,12 @@
       "subtitle": "Remplacez la prolifération d'outils par un modèle opérationnel unique pour Cloud public, privé et edge.",
       "primaryCTA": {
         "text": "Cartographier votre patrimoine infrastructure",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
         "text": "Planifier une démo",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-calendar"
       }
     }

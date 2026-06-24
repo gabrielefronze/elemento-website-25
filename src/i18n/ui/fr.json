@@ -20,6 +20,10 @@
     "productBriefs": "Fiches produit",
     "explorePlatform": "Explorer la plateforme",
     "bookAssessment": "Réserver",
+    "tryElectros": "Essayer Electros",
+    "getAtomos": "Obtenir AtomOS",
+    "c4Sublabel": "Protocole d'interopérabilité ouvert",
+    "atomosSublabel": "Endpoint hyperviseur natif",
     "solVmwareExit": "Sortie VMware",
     "solSovereign": "Gouvernance souveraine",
     "solHybrid": "Hybride et multi-cloud",
@@ -40,13 +44,19 @@
     "homeAria": "Accueil Elemento"
   },
   "banner": {
-    "metacloudAssessmentText": "Réservez une évaluation Metacloud — gouvernez l'infrastructure sans la remplacer",
-    "metacloudAssessmentAria": "Réservez une évaluation Metacloud"
+    "defaultText": "Nouveau : AtomOS passe en BSL, gratuit, Apache 2.0 après 3 ans.",
+    "defaultCta": "Découvrir AtomOS",
+    "defaultAria": "Nouveau : AtomOS passe en BSL, gratuit, Apache 2.0 après 3 ans. Découvrir AtomOS.",
+    "enterpriseText": "Vous préparez une sortie VMware ? Gouvernez VMware et AtomOS ensemble.",
+    "enterpriseCta": "Évaluation sortie VMware",
+    "enterpriseAria": "Vous préparez une sortie VMware ? Gouvernez VMware et AtomOS ensemble."
   },
   "footer": {
     "tagline": "Plateforme cloud neutre vis-à-vis des fournisseurs, performante, économique, durable et auto-hébergeable.",
     "platform": "Plateforme",
     "platformOverview": "Vue d'ensemble",
+    "c4Sublabel": "Protocole d'interopérabilité ouvert",
+    "atomosSublabel": "Endpoint hyperviseur natif",
     "solutions": "Solutions",
     "solVmwareExit": "Sortie VMware",
     "solSovereign": "Gouvernance souveraine",

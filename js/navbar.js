@@ -234,21 +234,63 @@ class Navbar {
         return '';
     }
 
+  renderPlatformDropdownItem(item, basePath) {
+        const iconHtml = item.icon
+            ? `<img src="${basePath}assets/logos/${item.icon}" alt="" class="dropdown-product-icon" width="20" height="20">`
+            : '';
+        const featuredClass = item.featured ? ' dropdown-link--featured' : '';
+        const nestedClass = item.nested ? ' dropdown-platform-nested' : '';
+        const sublabelHtml = item.sublabel
+            ? `<span class="dropdown-link-sublabel">${item.sublabel}</span>`
+            : '';
+        const labelInner = item.sublabel
+            ? `<span class="dropdown-link-label"><span class="dropdown-link-title">${item.label}</span>${sublabelHtml}</span>`
+            : `<span>${item.label}</span>`;
+        return `<li class="${item.liClass || ''}${nestedClass}"><a href="${this.getLocalizedHref(item.file)}" class="dropdown-link${featuredClass} ${this.getActiveClassByStem(item.stem)}">${iconHtml}${labelInner}</a></li>`;
+    }
+
     renderPlatformDropdownLinks(basePath) {
+        const c4Sublabel = this.t('nav.c4Sublabel', 'Open interoperability protocol');
+        const atomosSublabel = this.t('nav.atomosSublabel', 'Native hypervisor endpoint');
         const items = [
             { stem: 'platform', file: 'platform.html', label: this.t('nav.platformOverview', 'Overview'), icon: null },
-            { stem: 'electros', file: 'electros.html', label: 'Electros', icon: 'Electros.svg' },
-            { stem: 'c4-protocol', file: 'c4-protocol.html', label: 'C4 Protocol', icon: null },
+            {
+                stem: 'electros',
+                file: 'electros.html',
+                label: 'Electros',
+                icon: 'Electros.svg',
+                featured: true,
+            },
+            { stem: 'c4-protocol', file: 'c4-protocol.html', label: 'C4 Protocol', icon: null, sublabel: c4Sublabel },
             { stem: 'atomosphere', file: 'atomosphere.html', label: 'Atomosphere', icon: 'Atomosphere.svg' },
             { stem: 'atomosquare', file: 'atomosquare.html', label: 'Atomosquare', icon: 'Atomosquare.svg' },
-            { stem: 'atomos', file: 'atomos.html', label: 'AtomOS', icon: 'Atomos.svg' },
+            {
+                stem: 'atomos',
+                file: 'atomos.html',
+                label: 'AtomOS',
+                icon: 'Atomos.svg',
+                sublabel: atomosSublabel,
+                nested: true,
+            },
         ];
-        return items.map((item) => {
-            const iconHtml = item.icon
-                ? `<img src="${basePath}assets/logos/${item.icon}" alt="" class="dropdown-product-icon" width="20" height="20">`
-                : '';
-            return `<li><a href="${this.getLocalizedHref(item.file)}" class="dropdown-link ${this.getActiveClassByStem(item.stem)}">${iconHtml}<span>${item.label}</span></a></li>`;
-        }).join('');
+        return items.map((item) => this.renderPlatformDropdownItem(item, basePath)).join('');
+    }
+
+    renderNavCta(id, extraClass) {
+        const navLabelKeys = {
+            tryElectros: 'nav.tryElectros',
+            getAtomos: 'nav.getAtomos',
+            bookMetacloudAssessment: 'nav.bookAssessment',
+        };
+        const cta = window.ElementoCTAs?.getCta(id, this.getLocale());
+        if (!cta) {
+            return '';
+        }
+        const label = navLabelKeys[id]
+            ? this.t(navLabelKeys[id], cta.label)
+            : cta.label;
+        const ext = cta.external ? ' target="_blank" rel="noopener noreferrer"' : '';
+        return `<a href="${cta.href}" class="nav-link nav-cta-link ${extraClass}" data-cta-id="${id}"${ext}>${label}</a>`;
     }
 
     renderSolutionsDropdownLinks() {
@@ -311,37 +353,79 @@ class Navbar {
         return false;
     }
 
-    getBannerStrings() {
-        const defaults = {
-            en: {
-                text: 'Grab today AtomOS - 150€ off the first purchase',
-                aria: 'Grab today AtomOS: 150 euros off the first purchase',
-            },
-            it: {
-                text: 'Approfitta oggi di AtomOS: 150€ di sconto sul primo acquisto',
-                aria: 'Approfitta oggi di AtomOS: 150 euro di sconto sul primo acquisto',
-            },
-            fr: {
-                text: "Profitez d'AtomOS aujourd'hui : 150 € de réduction sur le premier achat",
-                aria: "Profitez d'AtomOS aujourd'hui : 150 euros de réduction sur le premier achat",
-            },
-        };
-        const locale = this.getLocale();
-        const fb = defaults[locale] || defaults.en;
+    getBannerVariant() {
+        if (window.ElementoBanner?.resolveVariant) {
+            return window.ElementoBanner.resolveVariant();
+        }
         return {
-            text: this.t('banner.atomosDiscountText', fb.text),
-            aria: this.t('banner.atomosDiscountAria', fb.aria),
+            i18nTextKey: 'banner.defaultText',
+            i18nCtaKey: 'banner.defaultCta',
+            i18nAriaKey: 'banner.defaultAria',
+            ctaId: 'exploreAtomos',
+            href: 'atomos.html',
+            cssClass: 'announcement-banner--campaign-default',
         };
     }
 
-    // Site-wide top announcement banner. Archived copies: js/banners/archive/
+    getBannerStrings(variant) {
+        const locale = this.getLocale();
+        const fallbacks = {
+            default: {
+                en: {
+                    text: 'New: AtomOS is moving to BSL, free to use, Apache 2.0 after 3 years.',
+                    cta: 'Explore AtomOS',
+                    aria: 'New: AtomOS is moving to BSL, free to use, Apache 2.0 after 3 years. Explore AtomOS.',
+                },
+                it: {
+                    text: 'Novità: AtomOS passa a BSL, gratuito, Apache 2.0 dopo 3 anni.',
+                    cta: 'Scopri AtomOS',
+                    aria: 'Novità: AtomOS passa a BSL, gratuito, Apache 2.0 dopo 3 anni. Scopri AtomOS.',
+                },
+                fr: {
+                    text: 'Nouveau : AtomOS passe en BSL, gratuit, Apache 2.0 après 3 ans.',
+                    cta: 'Découvrir AtomOS',
+                    aria: 'Nouveau : AtomOS passe en BSL, gratuit, Apache 2.0 après 3 ans. Découvrir AtomOS.',
+                },
+            },
+            enterprise: {
+                en: {
+                    text: 'Planning a VMware exit? Govern VMware and AtomOS side by side.',
+                    cta: 'Run VMware Exit Assessment',
+                    aria: 'Planning a VMware exit? Govern VMware and AtomOS side by side. Run VMware Exit Assessment.',
+                },
+                it: {
+                    text: 'Stai pianificando un exit da VMware? Gestisci VMware e AtomOS insieme.',
+                    cta: 'Valutazione exit VMware',
+                    aria: 'Stai pianificando un exit da VMware? Gestisci VMware e AtomOS insieme.',
+                },
+                fr: {
+                    text: 'Vous préparez une sortie VMware ? Gouvernez VMware et AtomOS ensemble.',
+                    cta: 'Évaluation sortie VMware',
+                    aria: 'Vous préparez une sortie VMware ? Gouvernez VMware et AtomOS ensemble.',
+                },
+            },
+        };
+        const kind = variant.id === 'enterprise' ? 'enterprise' : 'default';
+        const fb = (fallbacks[kind][locale] || fallbacks[kind].en);
+        return {
+            text: this.t(variant.i18nTextKey, fb.text),
+            cta: this.t(variant.i18nCtaKey, fb.cta),
+            aria: this.t(variant.i18nAriaKey, fb.aria),
+        };
+    }
+
+    // Site-wide top announcement banner. Config: js/banners/config.js
     renderBanner() {
-        const atomosHref = 'https://atomos.elemento.cloud/?d=iIZZdBzT2fmscRvx2ULVwWyJDTNWV1g9MpFqG-tYeZc';
-        const { text: bannerText, aria: bannerAria } = this.getBannerStrings();
+        const variant = this.getBannerVariant();
+        const { text, cta, aria } = this.getBannerStrings(variant);
+        const ctaData = window.ElementoCTAs?.getCta(variant.ctaId, this.getLocale());
+        const href = ctaData?.href || this.getLocalizedHref(variant.href);
+        const ext = ctaData?.external ? ' target="_blank" rel="noopener noreferrer"' : '';
         return `
-            <a href="${atomosHref}" class="announcement-banner announcement-banner--atomos-discount" aria-label="${bannerAria}">
+            <a href="${href}" class="announcement-banner ${variant.cssClass}" aria-label="${aria}" data-cta-id="${variant.ctaId}"${ext}>
                 <div class="banner-content">
-                    <span class="banner-text">${bannerText}</span>
+                    <span class="banner-text">${text}</span>
+                    <span class="banner-cta">${cta} →</span>
                 </div>
             </a>
         `;
@@ -355,9 +439,13 @@ class Navbar {
         const indexHref = this.getLocalizedHref('index.html');
         const langSwitcher = this.renderLanguageSwitcher();
 
+        const hasBanner = Boolean(bannerHtml && bannerHtml.trim());
+        const siteHeaderClass = hasBanner ? 'site-header site-header--has-banner' : 'site-header';
+
         return `
+            <header class="${siteHeaderClass}" id="site-header">
             ${bannerHtml}
-            <nav class="navbar ${bannerHtml ? 'has-banner' : ''}">
+            <nav class="navbar ${hasBanner ? 'has-banner' : ''}">
                 <div class="nav-container">
                     <a href="${indexHref}" class="logo" aria-label="${this.t('nav.homeAria', 'Elemento home')}">
                         <span class="logo-lockup" aria-hidden="true"></span>
@@ -403,12 +491,16 @@ class Navbar {
                             </div>
                         </li>
                         <li class="nav-cta-group nav-cta-group--mobile">
-                            <a href="https://book.elemento.cloud/" class="nav-link nav-cta-link nav-cta-link--book" target="_blank" rel="noopener noreferrer">${this.t('nav.bookAssessment', 'Book Assessment')}</a>
+                            ${this.renderNavCta('tryElectros', 'nav-cta-link--electros')}
+                            ${this.renderNavCta('getAtomos', 'nav-cta-link--atomos')}
+                            ${this.renderNavCta('bookMetacloudAssessment', 'nav-cta-link--book')}
                         </li>
                     </ul>
 
                     <div class="nav-cta">
-                        <a href="https://book.elemento.cloud/" class="nav-link nav-cta-link nav-cta-link--book" target="_blank" rel="noopener noreferrer">${this.t('nav.bookAssessment', 'Book Assessment')}</a>
+                        ${this.renderNavCta('tryElectros', 'nav-cta-link--electros')}
+                        ${this.renderNavCta('getAtomos', 'nav-cta-link--atomos')}
+                        ${this.renderNavCta('bookMetacloudAssessment', 'nav-cta-link--book')}
                     </div>
 
                     <div class="dropdown-menu desktop-dropdown" data-nav-dropdown-panel="platform">
@@ -460,6 +552,7 @@ class Navbar {
                     </div>
                 </div>
             </nav>
+            </header>
         `;
     }
 
@@ -483,8 +576,10 @@ class Navbar {
         // Initialize theme toggle functionality
         this.initThemeToggle();
         this.initLangSwitcher();
+    }
 
-        this.showSectionDropdowns();
+    showSectionDropdowns() {
+        /* Dropdowns open on hover only — keeps navbar to a single line */
     }
 
     initLangSwitcher() {
@@ -544,22 +639,6 @@ class Navbar {
         });
     }
 
-    showSectionDropdowns() {
-        if (this.isPlatformPage()) {
-            document.querySelector('[data-nav-dropdown-panel="platform"]')?.classList.add('show');
-        }
-        if (this.isSolutionsPage()) {
-            document.querySelector('[data-nav-dropdown-panel="solutions"]')?.classList.add('show');
-        }
-        if (this.isResourcesPage()) {
-            document.querySelector('[data-nav-dropdown-panel="resources"]')?.classList.add('show');
-        }
-        if (this.isCompanyPage()) {
-            document.querySelector('[data-nav-dropdown-panel="company"]')?.classList.add('show');
-        }
-        this.restoreDropdownLayers();
-    }
-
     setDropdownFront(panelId) {
         document.querySelectorAll('.desktop-dropdown').forEach((menu) => {
             const id = menu.getAttribute('data-nav-dropdown-panel');
@@ -579,11 +658,7 @@ class Navbar {
         (pinned || shown[shown.length - 1]).classList.add('is-front');
     }
 
-    shouldKeepDropdownOpen(panelId) {
-        if (panelId === 'platform') return this.isPlatformPage();
-        if (panelId === 'solutions') return this.isSolutionsPage();
-        if (panelId === 'resources') return this.isResourcesPage();
-        if (panelId === 'company') return this.isCompanyPage();
+    shouldKeepDropdownOpen() {
         return false;
     }
 

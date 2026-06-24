@@ -5,8 +5,8 @@
       "title": "Govern AI Infrastructure Across Providers",
       "subtitle": "Provision, monitor, and govern GPU resources across local, private, and federated infrastructure using the same operational model as conventional infrastructure.",
       "primaryCTA": {
-        "text": "Plan an AI Infrastructure Strategy",
-        "link": "../contact.html",
+        "text": "Plan AI Infrastructure",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
@@ -67,8 +67,8 @@
         }
       ],
       "cta": {
-        "text": "Plan an AI Infrastructure Strategy",
-        "link": "../contact.html"
+        "text": "Plan AI Infrastructure",
+        "link": "https://book.elemento.cloud/"
       }
     },
     "useCase": {
@@ -147,13 +147,13 @@
       "title": "Ready for AI & GPU Infrastructure?",
       "subtitle": "Unify GPU governance across sovereign, private, and federated providers without a separate AI ops stack.",
       "primaryCTA": {
-        "text": "Plan an AI Infrastructure Strategy",
-        "link": "../contact.html",
+        "text": "Plan AI Infrastructure",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
         "text": "Schedule a Demo",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-calendar"
       }
     }
@@ -165,7 +165,7 @@
       "subtitle": "Provisiona, monitora e governa risorse GPU su infrastruttura locale, privata e federata con lo stesso modello operativo dell'infrastruttura convenzionale.",
       "primaryCTA": {
         "text": "Pianifica una strategia infrastruttura AI",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
@@ -227,7 +227,7 @@
       ],
       "cta": {
         "text": "Pianifica una strategia infrastruttura AI",
-        "link": "../contact.html"
+        "link": "https://book.elemento.cloud/"
       }
     },
     "useCase": {
@@ -307,12 +307,12 @@
       "subtitle": "Unifica la governance GPU su provider sovrani, privati e federati senza uno stack AI ops separato.",
       "primaryCTA": {
         "text": "Pianifica una strategia infrastruttura AI",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
         "text": "Pianifica una demo",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-calendar"
       }
     }
@@ -324,7 +324,7 @@
       "subtitle": "Provisionnez, supervisez et gouvernez les ressources GPU sur infrastructure locale, privée et fédérée avec le même modèle opérationnel que l'infrastructure conventionnelle.",
       "primaryCTA": {
         "text": "Planifier une stratégie infrastructure IA",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
@@ -386,7 +386,7 @@
       ],
       "cta": {
         "text": "Planifier une stratégie infrastructure IA",
-        "link": "../contact.html"
+        "link": "https://book.elemento.cloud/"
       }
     },
     "useCase": {
@@ -466,12 +466,12 @@
       "subtitle": "Unifiez la gouvernance GPU sur fournisseurs souverains, privés et fédérés sans stack AI ops séparée.",
       "primaryCTA": {
         "text": "Planifier une stratégie infrastructure IA",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
         "text": "Planifier une démo",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-calendar"
       }
     }

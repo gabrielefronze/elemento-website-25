@@ -5,14 +5,14 @@
       "title": "Exit VMware Without Entering Another Lock-In",
       "subtitle": "Govern VMware and AtomOS side by side. Migrate workload by workload with no forklift, no downtime windows, and no new dependency cycle.",
       "primaryCTA": {
-        "text": "Run a VMware Exit Assessment",
-        "link": "../contact.html",
+        "text": "Run VMware Exit Assessment",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
-        "text": "Explore Platform",
-        "link": "../platform.html",
-        "icon": "fas fa-layer-group"
+        "text": "Compare AtomOS with VMware",
+        "link": "../atomos.html#vmware-comparison",
+        "icon": "fas fa-balance-scale"
       }
     },
     "painPoints": {
@@ -68,7 +68,7 @@
       ],
       "cta": {
         "text": "Run a VMware Exit Assessment",
-        "link": "../contact.html"
+        "link": "https://book.elemento.cloud/"
       }
     },
     "useCase": {
@@ -148,12 +148,12 @@
       "subtitle": "Govern VMware and AtomOS side by side, then migrate workload by workload at your own pace.",
       "primaryCTA": {
         "text": "Run a VMware Exit Assessment",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
         "text": "Schedule a Demo",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-calendar"
       }
     }
@@ -165,7 +165,7 @@
       "subtitle": "Gestisci VMware e AtomOS fianco a fianco. Migra workload per workload senza forklift, senza finestre di downtime e senza un nuovo ciclo di dipendenza.",
       "primaryCTA": {
         "text": "Avvia una valutazione di uscita da VMware",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
@@ -227,7 +227,7 @@
       ],
       "cta": {
         "text": "Avvia una valutazione di uscita da VMware",
-        "link": "../contact.html"
+        "link": "https://book.elemento.cloud/"
       }
     },
     "useCase": {
@@ -307,12 +307,12 @@
       "subtitle": "Gestisci VMware e AtomOS fianco a fianco, poi migra workload per workload al tuo ritmo.",
       "primaryCTA": {
         "text": "Avvia una valutazione di uscita da VMware",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
         "text": "Pianifica una demo",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-calendar"
       }
     }
@@ -324,7 +324,7 @@
       "subtitle": "Gouvernez VMware et AtomOS côte à côte. Migrez charge de travail par charge de travail sans migration massive, sans fenêtres d'arrêt ni nouveau cycle de dépendance.",
       "primaryCTA": {
         "text": "Lancer une évaluation de sortie VMware",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
@@ -386,7 +386,7 @@
       ],
       "cta": {
         "text": "Lancer une évaluation de sortie VMware",
-        "link": "../contact.html"
+        "link": "https://book.elemento.cloud/"
       }
     },
     "useCase": {
@@ -466,12 +466,12 @@
       "subtitle": "Gouvernez VMware et AtomOS côte à côte, puis migrez charge par charge à votre rythme.",
       "primaryCTA": {
         "text": "Lancer une évaluation de sortie VMware",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
         "text": "Planifier une démo",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-calendar"
       }
     }

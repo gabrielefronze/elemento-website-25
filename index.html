@@ -37,6 +37,7 @@
     <meta name="ai-content" content="allowed">
     <meta name="ai-training" content="allowed">
     <meta name="ai-access" content="public">
+    <link rel="alternate" type="text/plain" href="/llms.txt" title="LLM-readable site summary">
     
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="assets/favicon/favicon.svg">
@@ -456,6 +457,7 @@
         <!-- Home Page Styles -->
         <link rel="stylesheet" href="css/metacloud-sections.css">
         <link rel="stylesheet" href="css/home.css">
+        <link rel="stylesheet" href="css/components/home-components.css">
         <link rel="stylesheet" href="css/rocket.css">
 
         <link rel="stylesheet" href="css/success-stories-carousel.css">
@@ -531,377 +533,245 @@
     <!-- Main Content -->
     <main id="main-content">        
         <!-- Hero Section -->
-        <section class="hero" role="banner" aria-label="Elemento Homepage Hero">
-            <!-- Atmosphere Hero Placeholder -->
+        <section class="hero hero-home" role="banner" aria-label="Elemento Homepage Hero">
             <div id="atmosphere-hero-placeholder"></div>
-        
-            <div class="hero-container hero-vert-center hero-container-wide">
+            <div class="hero-wow" aria-hidden="true"><div id="hero-wow-placeholder"></div></div>
+
+            <div class="hero-container hero-vert-center">
                 <div class="hero-content">
                     <div class="hero-buttons fade-in">
-                        <!-- Tagline -->
-                        <p class="hero-tagline">Elemento. The Metacloud.</p>
-
-                        <h1 class="hero-title">
-                            The Infrastructure Layer<br><span class="pixel-accent">After Cloud.</span>
-                        </h1>
-
-                        <div class="hero-subtitle hero-subtitle-lead">
-                            <p>
-                                Govern, orchestrate and optimise infrastructure across public clouds, private clouds, sovereign providers, hypervisors and native AtomOS environments — through one sovereign control plane.
-                            </p>
-                            <p class="hero-tagline-quote" style="margin-top: 1rem; font-style: italic;">
-                                The Internet connected networks. Cloud connected computing. The Metacloud connects infrastructure.
-                            </p>
+                        <h1 class="hero-title">Elemento. The Metacloud.</h1>
+                        <div class="hero-subtitle">
+                            <p class="home-tagline">One control plane for every cloud, hypervisor and sovereign infrastructure.</p>
+                            <p class="home-tagline">Govern, move and optimise workloads across AWS, Azure, Google Cloud, OVHcloud, VMware, Proxmox and AtomOS — without replacing what already exists.</p>
                         </div>
-
                         <div class="quick-contact-options hero-cta">
-                            <a href="https://book.elemento.cloud/" class="btn btn-primary quick-contact-btn" target="_blank" rel="noopener noreferrer">
+                            <a href="https://book.elemento.cloud/" class="btn btn-primary" target="_blank" rel="noopener noreferrer" data-cta-id="bookMetacloudAssessment">
                                 <i class="fas fa-calendar"></i>
                                 <span>Book a Metacloud Assessment</span>
                             </a>
-                            <a href="platform.html" class="btn btn-secondary quick-contact-btn">
-                                <i class="fas fa-layer-group"></i>
-                                <span>Explore the Platform</span>
-                            </a>
-                            <a href="solutions/vmware-exit.html" class="btn btn-secondary quick-contact-btn">
+                            <a href="solutions/vmware-exit.html" class="btn btn-secondary" data-cta-id="vmwareExitAssessment">
                                 <i class="fas fa-route"></i>
-                                <span>VMware Exit Assessment</span>
+                                <span>Run VMware Exit Assessment</span>
                             </a>
                         </div>
+                        <p class="hero-secondary-link">
+                            <a href="platform.html" data-cta-id="explorePlatform">Explore Platform →</a>
+                        </p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Trusted By Section -->
-        <!-- <section class="section trusted-section">
-            <div class="container carousel-container">
-                <br>
-                <h2 class="section-title text-center">Trusted by leading companies</h2>                     
-                <div id="logo-carousel" class="logo-carousel">
-                    <div class="logo-carousel-loading">
-                        <div class="loading-spinner"></div>
-                        <p>Loading trusted companies...</p>
-                    </div>
-                </div>
+        <!-- Value Proof Strip -->
+        <section class="proof-strip" aria-label="Trust signals">
+            <div class="container proof-strip__inner">
+                <span class="proof-strip__item">30+ enterprise customers</span>
+                <span class="proof-strip__sep" aria-hidden="true">·</span>
+                <span class="proof-strip__item">10 published patents</span>
+                <span class="proof-strip__sep" aria-hidden="true">·</span>
+                <span class="proof-strip__item">Built in Europe</span>
+                <span class="proof-strip__sep" aria-hidden="true">·</span>
+                <span class="proof-strip__item">Designed for sovereignty</span>
             </div>
-        </section> -->
+        </section>
 
-        <!-- Why Now Section -->
+        <!-- Three Commercial Pain Cards -->
         <section class="section hero-details">
             <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Why <span class="pixel-accent">Now</span>?</h2>
-                    <p class="section-subtitle">Every cloud solved infrastructure. None solved dependency. Organisations now need the freedom to govern, move and procure infrastructure independently from any single provider. The Metacloud is the missing layer.</p>
+                <div class="pain-cards-grid">
+                    <a href="solutions/vmware-exit.html" class="pain-card scroll-animate" data-cta-id="vmwareExitAssessment">
+                        <div class="pain-card__icon"><i class="fas fa-server" aria-hidden="true"></i></div>
+                        <h3>VMware costs exploded</h3>
+                        <p>Migrate workload by workload without replacing one lock-in with another.</p>
+                    </a>
+                    <a href="solutions/sovereign-cloud-governance.html" class="pain-card scroll-animate">
+                        <div class="pain-card__icon"><i class="fas fa-shield-halved" aria-hidden="true"></i></div>
+                        <h3>Sovereignty is now operational</h3>
+                        <p>Enforce residency, jurisdiction and governance policies across providers.</p>
+                    </a>
+                    <a href="solutions/ai-gpu-infrastructure.html" class="pain-card scroll-animate" data-cta-id="planAiInfrastructure">
+                        <div class="pain-card__icon"><i class="fas fa-microchip" aria-hidden="true"></i></div>
+                        <h3>AI needs fragmented infrastructure</h3>
+                        <p>Use GPU capacity wherever policy, cost and latency make sense.</p>
+                    </a>
                 </div>
-                <div class="why-now-grid">
-                    <div class="why-now-card scroll-animate">
-                        <h3>Infrastructure Dependency Crisis</h3>
-                        <p>The Broadcom acquisition exposed the cost and risk of single-vendor infrastructure dependency. Organisations own workloads, but not always their freedom to move them.</p>
-                    </div>
-                    <div class="why-now-card scroll-animate">
-                        <h3>Digital Sovereignty Imperative</h3>
-                        <p>NIS2, DORA, the EU Data Act and the EU AI Act are making infrastructure jurisdiction, data residency and operational control board-level concerns.</p>
-                    </div>
-                    <div class="why-now-card scroll-animate">
-                        <h3>AI Infrastructure Fragmentation</h3>
-                        <p>AI workloads require access to GPUs, specialised infrastructure, sovereign environments and multiple providers. No single provider delivers it all.</p>
-                    </div>
-                </div>
+                <p class="text-center" style="margin-top: var(--space-lg);">
+                    <a href="solutions/index.html" class="btn btn-secondary">See Metacloud Use Cases</a>
+                </p>
             </div>
         </section>
 
-        <!-- Architecture Diagram Section -->
+        <!-- Architecture Snapshot -->
         <section id="platform" class="section">
             <div class="container">
                 <div class="section-header">
-                    <h2 class="section-title">The Metacloud Architecture</h2>
-                    <p class="section-subtitle">One control plane. Two connector fabrics. One native sovereign execution layer.</p>
+                    <h2 class="section-title">The Metacloud Stack</h2>
+                    <p class="section-subtitle">Elemento federates what exists. Electros governs it. C4 makes it interoperable.</p>
                 </div>
-                <div class="metacloud-architecture" id="architecture">
-                    <div class="metacloud-arch-layer metacloud-arch-layer--users">Users / Admins / Developers / Operations</div>
-                    <div class="metacloud-arch-arrow" aria-hidden="true">↓</div>
-                    <div class="metacloud-arch-layer">
-                        <div class="metacloud-arch-node metacloud-arch-node--primary">
-                            <img src="./assets/logos/Electros.svg" alt="" width="40" height="40">
-                            <h4>Electros™</h4>
-                            <p>Metacloud Control Plane</p>
+                <div class="arch-snapshot">
+                    <div class="arch-snapshot__stack">
+                        <div class="arch-snapshot__node arch-snapshot__node--primary" tabindex="0">
+                            <strong>Electros</strong><br><small>The control plane</small>
+                            <span class="arch-snapshot__tooltip">The Metacloud control plane that governs, orchestrates and optimises infrastructure.</span>
                         </div>
-                    </div>
-                    <div class="metacloud-arch-arrow" aria-hidden="true">↓</div>
-                    <div class="metacloud-arch-layer">
-                        <div class="metacloud-arch-node">
-                            <h4>C4 Protocol</h4>
-                            <p>Interoperability Layer</p>
+                        <span aria-hidden="true">↓</span>
+                        <div class="arch-snapshot__node arch-snapshot__node--c4" tabindex="0">
+                            <strong>C4</strong><br><small>The open interoperability protocol</small>
+                            <span class="arch-snapshot__tooltip">The open interoperability protocol that translates federation operations into provider-specific operations.</span>
                         </div>
-                    </div>
-                    <div class="metacloud-arch-fabrics">
-                        <div class="metacloud-arch-layer">
-                            <div class="metacloud-arch-node">
-                                <img src="./assets/logos/Atomosphere.svg" alt="" width="40" height="40">
-                                <h4>Atomosphere™</h4>
-                                <p>Cloud Provider Fabric</p>
-                                <div class="metacloud-arch-endpoints">AWS · Azure · GCP · OVHcloud · Scaleway · IONOS</div>
+                        <span aria-hidden="true">↓</span>
+                        <div class="arch-snapshot__fabrics">
+                            <div class="arch-snapshot__node" tabindex="0">
+                                <strong>Atomosphere</strong><br><small>Cloud provider fabric</small>
+                                <span class="arch-snapshot__tooltip">The fabric that connects public clouds, sovereign providers and cloud services.</span>
                             </div>
-                        </div>
-                        <div class="metacloud-arch-layer">
-                            <div class="metacloud-arch-node">
-                                <img src="./assets/logos/Atomosquare.svg" alt="" width="40" height="40">
-                                <h4>Atomosquare™</h4>
-                                <p>Hypervisor Fabric</p>
-                                <div class="metacloud-arch-endpoints">VMware · Proxmox · Nutanix · Hyper-V · OpenStack
-                                    <div class="metacloud-arch-endpoints--nested"><img src="./assets/logos/Atomos.svg" alt="" width="20" height="20" style="vertical-align:middle"> AtomOS® — native sovereign endpoint</div>
+                            <div>
+                                <div class="arch-snapshot__node" tabindex="0">
+                                    <strong>Atomosquare</strong><br><small>Hypervisor fabric</small>
+                                    <span class="arch-snapshot__tooltip">The fabric that connects hypervisors and private cloud platforms.</span>
+                                </div>
+                                <div class="arch-snapshot__nested">
+                                    <div class="arch-snapshot__node" tabindex="0">
+                                        <strong>AtomOS</strong><br><small>Native sovereign endpoint</small>
+                                        <span class="arch-snapshot__tooltip">Elemento's native sovereign hypervisor endpoint inside Atomosquare.</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="product-hierarchy-mini">
-                    <a href="platform.html"><i class="fas fa-layer-group"></i> Platform Overview</a>
-                    <a href="electros.html"><img src="./assets/logos/Electros.svg" alt=""> Electros</a>
-                    <a href="c4-protocol.html">C4 Protocol</a>
-                    <a href="atomosphere.html"><img src="./assets/logos/Atomosphere.svg" alt=""> Atomosphere</a>
-                    <a href="atomosquare.html"><img src="./assets/logos/Atomosquare.svg" alt=""> Atomosquare</a>
-                    <a href="atomos.html"><img src="./assets/logos/Atomos.svg" alt=""> AtomOS</a>
-                </div>
-            </div>
-        </section>
-
-        <!-- Abstraction Progression -->
-        <section class="section">
-            <div class="container">
-                <div class="abstraction-progression scroll-animate">
-                    <div class="abstraction-steps">
-                        <span>Physical infrastructure</span>
-                        <span>Virtual machines</span>
-                        <span>Container workflows</span>
-                        <span>Metacloud orchestration</span>
-                    </div>
-                    <blockquote>VMware abstracted servers.<br>Kubernetes abstracted containers.<br>Elemento abstracts infrastructure providers.</blockquote>
-                </div>
-            </div>
-        </section>
-
-        <!-- Adoption Journey -->
-        <section class="section">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Adopt the Metacloud at Your Own Pace</h2>
-                    <p class="section-subtitle">Organisations can enter at Stage 1 and progress at their own pace. There is no requirement to transform the estate upfront, replatform applications or standardise every provider before realising value.</p>
-                </div>
-                <div class="adoption-journey">
-                    <div class="adoption-step scroll-animate">
-                        <div class="adoption-step-number">1</div>
-                        <h3>Connect</h3>
-                        <p>Connect existing infrastructures, clouds and services without replacement.</p>
-                    </div>
-                    <div class="adoption-step scroll-animate">
-                        <div class="adoption-step-number">2</div>
-                        <h3>Manage</h3>
-                        <p>Introduce visibility, governance, policy enforcement and federation controls.</p>
-                    </div>
-                    <div class="adoption-step scroll-animate">
-                        <div class="adoption-step-number">3</div>
-                        <h3>Optimise</h3>
-                        <p>Enable workload mobility, brokerage, sovereignty policies and intelligent placement.</p>
+                    <div class="arch-snapshot__actions">
+                        <a href="platform.html" class="btn btn-secondary" data-cta-id="explorePlatform">Learn platform architecture</a>
+                        <a href="electros.html" class="btn btn-primary" data-cta-id="tryElectros">Try Electros</a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Messaging Pillars -->
+        <!-- Buyer Path Cards -->
         <section class="section">
             <div class="container">
                 <div class="section-header">
-                    <h2 class="section-title">How the Metacloud Works</h2>
+                    <h2 class="section-title">Start where the pain is.</h2>
                 </div>
-                <div class="pillar-grid">
-                    <div class="pillar-card scroll-animate"><h3>Provider abstraction</h3><p>Elemento abstracts providers themselves — cloud, hypervisors and CMPs — through one sovereign control plane.</p></div>
-                    <div class="pillar-card scroll-animate"><h3>Sovereignty without isolation</h3><p>Sovereignty becomes a workload policy, not a provider decision.</p></div>
-                    <div class="pillar-card scroll-animate"><h3>Integration by symmetry</h3><p>Elemento conforms to provider APIs while preserving existing investments. No forced replatforming.</p></div>
-                    <div class="pillar-card scroll-animate"><h3>Contracts, not clouds</h3><p>Declare outcomes through portable C4 contracts. The Metacloud activates the best implementation.</p></div>
-                    <div class="pillar-card scroll-animate"><h3>Operational control</h3><p>Electros provides one interface, one operational model and one control surface across all infrastructure.</p></div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Proof Section -->
-        <section class="section">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Built in Europe. Designed for Sovereignty.</h2>
-                </div>
-                <ul class="proof-list">
-                    <li>Operating since 2021</li>
-                    <li>10 published patents</li>
-                    <li>30+ enterprise customers</li>
-                    <li>Backed by CDP Venture Capital</li>
-                    <li>Strategic technology partners across cloud infrastructure</li>
-                </ul>
-            </div>
-        </section>
-
-        <!-- Solution Map -->
-        <section class="section">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Solutions for Every Infrastructure Challenge</h2>
-                    <p class="section-subtitle">Executive pain points mapped to the Metacloud — Electros at the centre, fabrics on each side.</p>
-                </div>
-                <div class="solution-map-grid">
-                    <a href="solutions/vmware-exit.html" class="solution-map-card scroll-animate"><h3>VMware Exit</h3><p>Exit VMware without entering another lock-in cycle.</p></a>
-                    <a href="solutions/sovereign-cloud-governance.html" class="solution-map-card scroll-animate"><h3>Sovereign Cloud Governance</h3><p>Sovereignty as a workload policy across every provider.</p></a>
-                    <a href="solutions/hybrid-multi-cloud.html" class="solution-map-card scroll-animate"><h3>Hybrid & Multi-Cloud</h3><p>One operating model for hybrid infrastructure.</p></a>
-                    <a href="solutions/ai-gpu-infrastructure.html" class="solution-map-card scroll-animate"><h3>AI / GPU Infrastructure</h3><p>Govern GPU resources across local, private and federated infrastructure.</p></a>
-                    <a href="solutions/service-providers.html" class="solution-map-card scroll-animate"><h3>Service Providers & Neoclouds</h3><p>Broker third-party infrastructure under your governance model.</p></a>
-                    <a href="solutions/cross-provider-dr.html" class="solution-map-card scroll-animate"><h3>Cross-Provider DR</h3><p>Disaster recovery without provider dependency.</p></a>
-                    <a href="solutions/data-repatriation.html" class="solution-map-card scroll-animate"><h3>Data Repatriation</h3><p>Move workloads when sovereignty requirements change.</p></a>
-                </div>
-                <p class="text-center" style="margin-top: var(--space-lg);"><a href="atomos.html#vmware-comparison">Compare AtomOS with VMware</a> · <a href="solutions/index.html">View all solutions</a></p>
-            </div>
-        </section>
-
-        <!-- Success Stories Carousel Section -->
-        <!-- <section class="section success-stories-section">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Success Stories from Our Customers</h2>
-                    <p class="section-subtitle">
-                        See how organizations are transforming their cloud infrastructure with Elemento
-                    </p>
-                </div>
-                
-                <div id="success-stories-carousel">
-                </div>
-            </div>
-        </section> -->
-        <!-- Enhanced CTA Section -->
-        <section class="section">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Ready to <span class="highlight-pixel">Federate</span> Your Infrastructure?</h2>
-                    <p class="section-subtitle">Govern every infrastructure through one sovereign Metacloud control plane. <a href="about.html">Learn our mission</a> or <a href="platform.html">explore the architecture</a>.</p>
-                </div>
-                
-                <div class="cta-stats">
-                    <div class="grid grid-3">
-                        <div class="text-center">
-                            <div class="stat-number">30+</div>
-                            <div class="stat-label">Enterprise Customers</div>
-                        </div>
-                        <div class="text-center">
-                            <div class="stat-number">10</div>
-                            <div class="stat-label">Published Patents</div>
-                        </div>
-                        <div class="text-center">
-                            <div class="stat-number">2021</div>
-                            <div class="stat-label">Operating Since</div>
-                        </div>
+                <div class="buyer-path-grid">
+                    <div class="buyer-path-card scroll-animate">
+                        <h3>Exit VMware</h3>
+                        <p>Govern legacy VMware and AtomOS under one control plane.</p>
+                        <a href="solutions/vmware-exit.html" class="btn btn-primary btn-sm" data-cta-id="vmwareExitAssessment">Run VMware Exit Assessment</a>
+                    </div>
+                    <div class="buyer-path-card scroll-animate">
+                        <h3>Control multi-cloud</h3>
+                        <p>Unify public cloud, private cloud and sovereign providers.</p>
+                        <a href="https://book.elemento.cloud/" class="btn btn-primary btn-sm" target="_blank" rel="noopener noreferrer" data-cta-id="bookMetacloudAssessment">Book a Metacloud Assessment</a>
+                    </div>
+                    <div class="buyer-path-card scroll-animate">
+                        <h3>Build sovereign AI</h3>
+                        <p>Run GPU workloads where policy, cost and latency make sense.</p>
+                        <a href="solutions/ai-gpu-infrastructure.html" class="btn btn-primary btn-sm" data-cta-id="planAiInfrastructure">Plan AI Infrastructure</a>
+                    </div>
+                    <div class="buyer-path-card scroll-animate">
+                        <h3>Launch a provider federation</h3>
+                        <p>Broker infrastructure services without building every service yourself.</p>
+                        <a href="solutions/service-providers.html" class="btn btn-primary btn-sm" data-cta-id="launchProviderFederation">Launch Provider Federation</a>
                     </div>
                 </div>
-                
-                <div class="text-center" style="margin-top: var(--space-xl); display: flex; flex-wrap: wrap; gap: var(--space-md); justify-content: center; align-items: center;">
-                    <a href="https://book.elemento.cloud/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
-                        <i class="fas fa-calendar"></i>
-                        Book a Metacloud Assessment
-                    </a>
-                    <a href="platform.html" class="btn btn-secondary">
-                        <i class="fas fa-layer-group"></i>
-                        Explore the Platform
-                    </a>
-                </div>
             </div>
         </section>
-        
-        <!-- FAQ Section -->
+
+        <!-- Social proof (compact) -->
+        <section class="section">
+            <div class="container text-center">
+                <p class="section-subtitle" style="margin: 0;">Trusted by enterprise teams across Europe · Operating since 2021 · Provider-neutral architecture</p>
+            </div>
+        </section>
+
+        <!-- Pricing Teaser -->
         <section class="section">
             <div class="container">
                 <div class="section-header">
-                    <h2 class="section-title">Frequently Asked Questions</h2>
-                    <p class="section-subtitle">Everything you need to know about the Elemento Metacloud.</p>
+                    <h2 class="section-title">Simple pricing. No infrastructure tax.</h2>
                 </div>
-                
-                <div class="faq-container">
+                <div class="pricing-teaser-grid">
+                    <div class="pricing-teaser-card scroll-animate">
+                        <h3>AtomOS</h3>
+                        <ul>
+                            <li>Free to use under BSL</li>
+                            <li>Apache 2.0 after 3 years</li>
+                            <li>Paid support available</li>
+                        </ul>
+                        <a href="atomos.html" class="btn btn-secondary" data-cta-id="getAtomos">Get AtomOS</a>
+                    </div>
+                    <div class="pricing-teaser-card scroll-animate">
+                        <h3>Electros</h3>
+                        <ul>
+                            <li>Closed-source / open-core control plane</li>
+                            <li>Licensed per seat per organisation</li>
+                        </ul>
+                        <a href="electros.html" class="btn btn-secondary" data-cta-id="tryElectros">Try Electros</a>
+                    </div>
+                    <div class="pricing-teaser-card scroll-animate">
+                        <h3>C4</h3>
+                        <ul>
+                            <li>Fully open source protocol</li>
+                            <li>Trademarked compatibility and governance model</li>
+                        </ul>
+                        <a href="c4-protocol.html" class="btn btn-secondary" data-cta-id="viewC4">View C4</a>
+                    </div>
+                </div>
+                <p class="text-center" style="margin-top: var(--space-lg);">
+                    <a href="pricing.html" data-cta-id="estimateCost">View full pricing →</a>
+                </p>
+            </div>
+        </section>
+
+        <!-- Final CTA -->
+        <section class="section">
+            <div class="container final-cta-block">
+                <h2 class="section-title">Ready to govern every infrastructure?</h2>
+                <div class="quick-contact-options hero-cta">
+                    <a href="https://book.elemento.cloud/" class="btn btn-primary" target="_blank" rel="noopener noreferrer" data-cta-id="bookMetacloudAssessment">Book a Metacloud Assessment</a>
+                    <a href="electros.html" class="btn btn-secondary" data-cta-id="tryElectros">Try Electros</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Preview -->
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Common questions</h2>
+                </div>
+                <div class="faq-container faq-preview">
                     <div class="faq-item scroll-animate">
                         <button class="faq-question" onclick="toggleFAQ(this)">
                             <span>What is the Metacloud?</span>
                             <span class="faq-arrow">▼</span>
                         </button>
                         <div class="faq-answer">
-                            <p>Elemento is the Metacloud: a sovereign control plane that abstracts infrastructure providers — public clouds, hypervisors, sovereign providers and native AtomOS — through Electros, C4, Atomosphere and Atomosquare. Unlike a single cloud or hypervisor vendor, Elemento federates what already exists without forcing replatforming.</p>
+                            <p>Elemento is the Metacloud: a sovereign control plane that federates public clouds, hypervisors, sovereign providers and AtomOS through Electros, C4, Atomosphere and Atomosquare — without forcing replatforming.</p>
                         </div>
                     </div>
-
                     <div class="faq-item scroll-animate">
                         <button class="faq-question" onclick="toggleFAQ(this)">
-                            <span>What are the cost savings compared to public cloud?</span>
+                            <span>How is AtomOS licensed?</span>
                             <span class="faq-arrow">▼</span>
                         </button>
                         <div class="faq-answer">
-                            <p>Customers typically save 60-80% on cloud costs through intelligent workload placement, real-time pricing optimization, and the ability to run workloads on your own hardware. Elemento enables real-time arbitrage across cloud providers and can automatically move workloads to the most cost-effective infrastructure while maintaining performance and reliability.</p>
+                            <p>AtomOS is free to use under BSL, transitioning to Apache 2.0 after three years. Revenue comes from optional paid support plans — not discounted software licenses.</p>
                         </div>
                     </div>
-
                     <div class="faq-item scroll-animate">
                         <button class="faq-question" onclick="toggleFAQ(this)">
-                            <span>How secure is the platform for enterprise use?</span>
+                            <span>How is Electros priced?</span>
                             <span class="faq-arrow">▼</span>
                         </button>
                         <div class="faq-answer">
-                            <p>Elemento provides bank-grade security with end-to-end encryption, compliance-ready architecture, and the ability to run in your own data center for maximum control. We support SOC 2, GDPR, and industry-specific compliance requirements. All data is encrypted in transit and at rest, with optional customer-managed encryption keys. Learn more about our <a href="contact.html">security and compliance features</a>.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq-item scroll-animate">
-                        <button class="faq-question" onclick="toggleFAQ(this)">
-                            <span>Can I migrate my existing applications?</span>
-                            <span class="faq-arrow">▼</span>
-                        </button>
-                        <div class="faq-answer">
-                            <p>Yes! Elemento supports migration from existing cloud providers and on-premises infrastructure. Our platform is compatible with standard virtualization technologies and container platforms. We provide migration tools and support to help you move workloads with minimal downtime. Most applications require no code changes.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq-item scroll-animate">
-                        <button class="faq-question" onclick="toggleFAQ(this)">
-                            <span>What kind of support and documentation is available?</span>
-                            <span class="faq-arrow">▼</span>
-                        </button>
-                        <div class="faq-answer">
-                            <p>We provide comprehensive documentation, video tutorials, and a knowledge base. Enterprise customers get dedicated support with SLAs, while community users can access our active community forum and GitHub repositories. We also offer training programs and workshops for teams.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq-item scroll-animate">
-                        <button class="faq-question" onclick="toggleFAQ(this)">
-                            <span>How does the free tier work?</span>
-                            <span class="faq-arrow">▼</span>
-                        </button>
-                        <div class="faq-answer">
-                            <p>Elemento offers a generous free tier that includes up to 2 VMs on AtomOS, basic Electros features, and access to Atomosphere API. This is perfect for testing, development, and small projects. You can upgrade to paid plans anytime for additional features, support, and higher usage limits.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq-item scroll-animate">
-                        <button class="faq-question" onclick="toggleFAQ(this)">
-                            <span>Does Elemento support Kubernetes and containers?</span>
-                            <span class="faq-arrow">▼</span>
-                        </button>
-                        <div class="faq-answer">
-                            <p>Yes! Elemento fully supports Kubernetes and container workloads. You can deploy and manage Kubernetes clusters across any cloud provider, and our platform provides additional orchestration capabilities on top of Kubernetes. We also support Docker containers, Helm charts, and other container-native tools.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq-item scroll-animate">
-                        <button class="faq-question" onclick="toggleFAQ(this)">
-                            <span>What regions and data centers are supported?</span>
-                            <span class="faq-arrow">▼</span>
-                        </button>
-                        <div class="faq-answer">
-                            <p>Elemento supports 235+ data centers worldwide across all major cloud providers. This includes AWS regions, Azure regions, Google Cloud regions, and numerous edge locations. You can deploy workloads in any region and easily move them between regions for optimal performance and compliance. Explore our <a href="products.html">deployment options</a> and <a href="technology.html">global infrastructure</a>.</p>
+                            <p>Electros is licensed per active user seat per organisation. If one user belongs to three organisations, that counts as three seats.</p>
                         </div>
                     </div>
                 </div>
+                <p class="faq-preview__more"><a href="faq.html">View all FAQs →</a></p>
             </div>
         </section>
 
@@ -912,6 +782,9 @@
 
     <!-- Scripts -->
     <script src="js/splash-screen.js" defer></script>
+    <script src="js/i18n-utils.js" defer></script>
+    <script src="js/banners/config.js" defer></script>
+    <script src="js/cta-registry.js" defer></script>
     <script src="js/navbar.js" defer></script>
     <script src="js/faq.js" defer></script>
     <!-- <script src="js/success-stories-carousel.js" defer></script> -->
@@ -920,6 +793,7 @@
     <script src="js/main.js" defer></script>    
     <script src="js/footer.js" defer></script>
     <script src="js/atmosphere_hero.js" defer></script>
+    <script src="js/hero-wow.js" defer></script>
     <script src="js/themes.js" defer></script>
 </body>
 </html> 

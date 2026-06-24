@@ -65,6 +65,7 @@
       "js/faq.js",
       "js/atmosphere_hero_with_logo.js",
       "https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js",
+      "js/product-crosslinks.js",
       "js/atomos-calculator.js"
     ],
     "type": "legacy",
@@ -92,6 +93,7 @@
     "extraScripts": [
       "js/faq.js",
       "js/atmosphere_hero_with_logo.js",
+      "js/product-crosslinks.js",
       "js/provider-integrations.js"
     ],
     "type": "legacy",
@@ -118,7 +120,8 @@
       "css/atomosquare.css"
     ],
     "extraScripts": [
-      "js/atmosphere_hero_with_logo.js"
+      "js/atmosphere_hero_with_logo.js",
+      "js/product-crosslinks.js"
     ],
     "type": "legacy",
     "locales": [
@@ -1245,6 +1248,7 @@
       "css/c4-protocol.css"
     ],
     "extraScripts": [
+      "js/product-crosslinks.js",
       "js/atmosphere_hero.js"
     ],
     "type": "legacy",
@@ -1376,8 +1380,31 @@
     ],
     "extraScripts": [
       "js/faq.js",
+      "js/product-crosslinks.js",
       "js/atmosphere_hero_with_logo.js",
       "js/electros.js"
+    ],
+    "type": "legacy",
+    "locales": [
+      "en",
+      "it",
+      "fr"
+    ]
+  },
+  {
+    "stem": "faq",
+    "legacyPath": "faq.html",
+    "group": "root",
+    "slug": "faq",
+    "title": "Elemento | FAQ | Metacloud, Electros & AtomOS",
+    "description": "Frequently asked questions about the Elemento Metacloud, Electros licensing, AtomOS BSL, and C4 open-source protocol.",
+    "robots": "index, follow",
+    "ogType": "website",
+    "extraCss": [],
+    "extraScripts": [
+      "js/banners/config.js",
+      "js/cta-registry.js",
+      "js/faq.js"
     ],
     "type": "legacy",
     "locales": [
@@ -1527,13 +1554,17 @@
       "css/metacloud-sections.css",
       "css/rocket.css",
       "css/success-stories-carousel.css",
-      "css/home.css"
+      "css/home.css",
+      "css/components/home-components.css"
     ],
     "extraScripts": [
+      "js/banners/config.js",
+      "js/cta-registry.js",
       "js/faq.js",
       "js/success-stories-carousel.js",
       "js/logo-carousel.js",
-      "js/atmosphere_hero.js"
+      "js/atmosphere_hero.js",
+      "js/hero-wow.js"
     ],
     "type": "legacy",
     "locales": [
@@ -1667,10 +1698,15 @@
       "css/planet-styles/planet-index.css",
       "css/metacloud-sections.css",
       "css/breadcrumb.css",
-      "css/pricing.css"
+      "css/pricing.css",
+      "css/components/home-components.css"
     ],
     "extraScripts": [
-      "js/atmosphere_hero.js"
+      "js/banners/config.js",
+      "js/cta-registry.js",
+      "js/faq.js",
+      "js/atmosphere_hero.js",
+      "js/electros-seat-calculator.js"
     ],
     "type": "legacy",
     "locales": [
@@ -2266,6 +2302,9 @@
     ],
     "extraScripts": [
       "js/solution-config-loader.js",
+      "js/banners/config.js",
+      "js/solution-banner-intent.js",
+      "js/cta-registry.js",
       "js/faq.js",
       "js/logo-carousel.js",
       "js/landing-page-loader.js",

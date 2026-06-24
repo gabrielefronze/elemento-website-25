@@ -97,11 +97,11 @@ document.addEventListener('DOMContentLoaded', function() {
                     <h3>${f.platform}</h3>
                     <ul>
                         <li><a href="${localizedHref('platform.html')}">${f.platformOverview}</a></li>
-                        <li><a href="${localizedHref('electros.html')}">Electros</a></li>
-                        <li><a href="${localizedHref('c4-protocol.html')}">C4 Protocol</a></li>
+                        <li><a href="${localizedHref('electros.html')}" class="footer-link--featured">Electros</a></li>
+                        <li><a href="${localizedHref('c4-protocol.html')}">C4 Protocol <span class="footer-sublabel">${f.c4Sublabel || 'Open interoperability protocol'}</span></a></li>
                         <li><a href="${localizedHref('atomosphere.html')}">Atomosphere</a></li>
                         <li><a href="${localizedHref('atomosquare.html')}">Atomosquare</a></li>
-                        <li><a href="${localizedHref('atomos.html')}">AtomOS</a></li>
+                        <li><a href="${localizedHref('atomos.html')}">AtomOS <span class="footer-sublabel">${f.atomosSublabel || 'Native hypervisor endpoint'}</span></a></li>
                     </ul>
                 </div>
                 <div class="footer-section">

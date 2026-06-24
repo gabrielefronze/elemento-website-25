@@ -59,6 +59,7 @@
     <link rel="stylesheet" href="css/metacloud-sections.css" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="css/breadcrumb.css" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="css/pricing.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="css/components/home-components.css" media="print" onload="this.media='all'">
     <noscript>
         <link rel="stylesheet" href="css/themes.css">
         <link rel="stylesheet" href="css/style.css">
@@ -91,22 +92,27 @@
     </nav>
 
     <main id="main-content">
+        <section class="ai-summary" data-nosnippet aria-label="Summary for search agents">
+            <div class="container">
+                <p><strong>Pricing:</strong> AtomOS free under BSL (Apache 2.0 after 3 years). Electros per seat per organisation. C4 open source. Optional AtomOS support plans.</p>
+            </div>
+        </section>
         <section class="hero">
             <div id="atmosphere-hero-placeholder"></div>
             <div class="hero-container hero-vert-center">
                 <div class="hero-content">
                     <div class="hero-buttons fade-in">
-                        <p class="hero-tagline">Metacloud Commercial Model</p>
-                        <h1 class="hero-title">Simple Software Cost.<br><span class="pixel-accent">Transparent Infrastructure Cost.</span></h1>
+                        <p class="hero-tagline">Pricing</p>
+                        <h1 class="hero-title">Simple software pricing.<br><span class="pixel-accent">Transparent infrastructure cost.</span></h1>
                         <div class="hero-subtitle">
-                            <p>Electros is licensed at the organisation level. Connections activate integrations between Electros and infrastructure services. Infrastructure consumption remains billed separately and transparently.</p>
+                            <p>Use AtomOS freely. Pay for Electros seats. Add support when you need production assurance.</p>
                         </div>
                         <div class="quick-contact-options hero-cta">
-                            <a href="https://book.elemento.cloud/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
-                                <i class="fas fa-calendar"></i> Request a Quote
+                            <a href="https://book.elemento.cloud/" class="btn btn-primary" target="_blank" rel="noopener noreferrer" data-cta-id="bookMetacloudAssessment">
+                                <i class="fas fa-calendar"></i> Book a Metacloud Assessment
                             </a>
-                            <a href="compare-costs.html" class="btn btn-secondary">
-                                <i class="fas fa-calculator"></i> ROI Calculator
+                            <a href="#seat-calculator" class="btn btn-secondary" data-cta-id="estimateCost">
+                                <i class="fas fa-calculator"></i> Estimate Your Cost
                             </a>
                         </div>
                     </div>
@@ -116,45 +122,71 @@
 
         <section class="section">
             <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Pricing <span class="highlight-pixel">Concepts</span></h2>
-                    <p class="section-subtitle">Predictable software cost. Transparent infrastructure cost.</p>
-                </div>
-                <div class="grid grid-2">
-                    <div class="card pricing-concept-card fade-in">
-                        <div class="card-icon"><img src="assets/logos/Electros.svg" alt="" width="40" height="40"></div>
-                        <h3>Electros Subscription</h3>
-                        <p>Organisation-wide licensing for the Metacloud control plane.</p>
+                <div class="pricing-teaser-grid">
+                    <div class="pricing-block card fade-in">
+                        <span class="license-badge license-badge--bsl">BSL → Apache 2.0</span>
+                        <h3>AtomOS</h3>
+                        <p class="pricing-block__price">Free to use</p>
                         <ul>
-                            <li>Not per VM</li>
-                            <li>Not per core</li>
-                            <li>Not per socket</li>
-                            <li>Not per resource</li>
-                            <li>Not per seat</li>
-                            <li>Not per user</li>
+                            <li>License: BSL with 3-year transition to Apache 2.0</li>
+                            <li>Revenue model: paid support plans</li>
                         </ul>
+                        <a href="atomos.html" class="btn btn-secondary" data-cta-id="getAtomos">Get AtomOS</a>
                     </div>
-                    <div class="card pricing-concept-card fade-in">
-                        <div class="card-icon"><i class="hn hn-link" style="color: var(--blue); font-size: 2rem;"></i></div>
-                        <h3>Connection Credits</h3>
-                        <p>Connections activate integrations between Electros and infrastructure services.</p>
-                        <p>Connection credits are included in each subscription tier and can be topped up.</p>
+                    <div class="pricing-block card fade-in pricing-block--featured">
+                        <span class="license-badge license-badge--closed">Closed source / open core</span>
+                        <h3>Electros</h3>
+                        <p class="pricing-block__price">Per seat per organisation</p>
+                        <ul>
+                            <li>Subscription per active user seat inside each organisation</li>
+                            <li>Metacloud control plane</li>
+                        </ul>
+                        <a href="electros.html" class="btn btn-primary" data-cta-id="tryElectros">Try Electros</a>
                     </div>
-                    <div class="card pricing-concept-card fade-in">
-                        <div class="card-icon"><img src="assets/logos/Atomos.svg" alt="" width="40" height="40"></div>
-                        <h3>AtomOS Endpoint</h3>
-                        <p>Connections to AtomOS infrastructure are included in all subscription tiers at no additional cost.</p>
+                    <div class="pricing-block card fade-in">
+                        <span class="license-badge license-badge--oss">Open source</span>
+                        <h3>C4 Protocol</h3>
+                        <p class="pricing-block__price">Free and open source</p>
+                        <ul>
+                            <li>Registered trademarks and compatibility marks</li>
+                            <li>Interoperability protocol</li>
+                        </ul>
+                        <a href="c4-protocol.html" class="btn btn-secondary" data-cta-id="viewC4">View C4</a>
                     </div>
-                    <div class="card pricing-concept-card fade-in">
-                        <div class="card-icon"><img src="assets/logos/Atomosquare.svg" alt="" width="40" height="40"></div>
-                        <h3>Atomosquare Third-Party Endpoints</h3>
-                        <p>VMware, Proxmox, OpenStack and other hypervisor environments consume one connection allocation per endpoint.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="seat-calculator">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Electros <span class="highlight-pixel">Seat Calculator</span></h2>
+                    <p class="section-subtitle">Total seats = sum of active users inside each organisation.</p>
+                </div>
+                <div data-seat-calculator-mount></div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">AtomOS <span class="highlight-pixel">Support Plans</span></h2>
+                </div>
+                <div class="support-plan-grid">
+                    <div class="support-plan-card card">
+                        <h3>Community</h3>
+                        <p class="support-plan-card__price">Free</p>
+                        <ul><li>Community forum</li><li>Documentation</li><li>Best-effort community support</li></ul>
                     </div>
-                    <div class="card pricing-concept-card fade-in" style="grid-column: 1 / -1; max-width: 640px; margin: 0 auto; width: 100%;">
-                        <div class="card-icon"><img src="assets/logos/Atomosphere.svg" alt="" width="40" height="40"></div>
-                        <h3>Atomosphere Cloud Service Classes</h3>
-                        <p>One service-class connection enables access to all supported providers implementing that service class.</p>
-                        <p><strong>One connection. All compatible providers.</strong></p>
+                    <div class="support-plan-card card">
+                        <h3>Standard</h3>
+                        <p class="support-plan-card__price">From €1,200/year</p>
+                        <ul><li>Business-hours support</li><li>Security advisories</li><li>Upgrade guidance</li></ul>
+                    </div>
+                    <div class="support-plan-card card">
+                        <h3>Production</h3>
+                        <p class="support-plan-card__price">From €2,400/year</p>
+                        <ul><li>24/7 production support</li><li>SLA-backed response</li><li>Dedicated escalation path</li></ul>
                     </div>
                 </div>
             </div>
@@ -163,46 +195,57 @@
         <section class="section" id="cost-equation">
             <div class="container">
                 <div class="section-header">
-                    <h2 class="section-title">The Cost <span class="highlight-pixel">Equation</span></h2>
+                    <h2 class="section-title">Connection <span class="highlight-pixel">Model</span></h2>
                     <p class="section-subtitle">Software licensing, connection allocations and infrastructure usage — clearly separated.</p>
                 </div>
                 <div class="cost-equation">
-                    <span class="cost-equation-term">Electros Subscription</span>
+                    <span class="cost-equation-term">Electros seats</span>
                     <span class="cost-equation-op">+</span>
-                    <span class="cost-equation-term">Connection Allocations</span>
+                    <span class="cost-equation-term">Connection allocations</span>
                     <span class="cost-equation-op">+</span>
-                    <span class="cost-equation-term">Resource Usage</span>
+                    <span class="cost-equation-term">Infrastructure usage</span>
                     <span class="cost-equation-op">=</span>
-                    <span class="cost-equation-term">Total Cost</span>
+                    <span class="cost-equation-term">Total cost</span>
                 </div>
-                <p class="text-center" style="margin-top: var(--space-lg); color: var(--text-muted);">Predictable software cost. Transparent infrastructure cost.</p>
+                <p class="text-center" style="margin-top: var(--space-lg);">AtomOS endpoints are included. Third-party hypervisor and cloud service-class connections consume allocations.</p>
             </div>
         </section>
 
         <section class="section">
             <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Get a <span class="highlight-pixel">Custom Quote</span></h2>
+                <div class="section-header"><h2 class="section-title">Pricing FAQ</h2></div>
+                <div class="faq-container">
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="toggleFAQ(this)"><span>Is AtomOS free?</span><span class="faq-arrow">▼</span></button>
+                        <div class="faq-answer"><p>Yes. AtomOS is free to use under BSL, becoming Apache 2.0 after three years. Paid support is optional.</p></div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="toggleFAQ(this)"><span>How do Electros seats work?</span><span class="faq-arrow">▼</span></button>
+                        <div class="faq-answer"><p>Each active user inside each organisation counts as one seat. One user in three organisations = three seats.</p></div>
+                    </div>
                 </div>
-                <div class="text-center">
-                    <a href="https://book.elemento.cloud/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
-                        <i class="fas fa-calendar"></i> Book a Metacloud Assessment
-                    </a>
-                    <a href="deployment.html" class="btn btn-secondary" style="margin-left: var(--space-sm);">
-                        <i class="fas fa-server"></i> Deployment Options
-                    </a>
-                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container text-center">
+                <a href="https://book.elemento.cloud/" class="btn btn-primary" target="_blank" rel="noopener noreferrer" data-cta-id="bookMetacloudAssessment">Book a Metacloud Assessment</a>
             </div>
         </section>
     </main>
 
     <div id="footer-placeholder"></div>
 
+    <script src="js/i18n-utils.js" defer></script>
+    <script src="js/banners/config.js" defer></script>
+    <script src="js/cta-registry.js" defer></script>
     <script src="js/splash-screen.js" defer></script>
     <script src="js/navbar.js" defer></script>
+    <script src="js/faq.js" defer></script>
     <script src="js/main.js" defer></script>
     <script src="js/footer.js" defer></script>
     <script src="js/atmosphere_hero.js" defer></script>
+    <script src="js/electros-seat-calculator.js" defer></script>
     <script src="js/themes.js" defer></script>
 </body>
 </html>

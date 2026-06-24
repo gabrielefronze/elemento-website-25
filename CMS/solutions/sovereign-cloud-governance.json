@@ -6,7 +6,7 @@
       "subtitle": "Apply jurisdiction, residency, and audit policies across clouds, hypervisors, and sovereign providers from one control plane.",
       "primaryCTA": {
         "text": "Assess Your Sovereignty Posture",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
@@ -68,7 +68,7 @@
       ],
       "cta": {
         "text": "Assess Your Sovereignty Posture",
-        "link": "../contact.html"
+        "link": "https://book.elemento.cloud/"
       }
     },
     "useCase": {
@@ -148,12 +148,12 @@
       "subtitle": "Apply jurisdiction, residency, and audit policies as workload-level rules across every provider.",
       "primaryCTA": {
         "text": "Assess Your Sovereignty Posture",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
         "text": "Schedule a Demo",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-calendar"
       }
     }
@@ -165,7 +165,7 @@
       "subtitle": "Applica policy di giurisdizione, residenza e audit su Cloud, hypervisor e provider sovrani da un unico control plane.",
       "primaryCTA": {
         "text": "Valuta il tuo stato di sovranità",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
@@ -227,7 +227,7 @@
       ],
       "cta": {
         "text": "Valuta il tuo stato di sovranità",
-        "link": "../contact.html"
+        "link": "https://book.elemento.cloud/"
       }
     },
     "useCase": {
@@ -307,12 +307,12 @@
       "subtitle": "Applica policy di giurisdizione, residenza e audit come regole per workload su ogni provider.",
       "primaryCTA": {
         "text": "Valuta il tuo stato di sovranità",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
         "text": "Pianifica una demo",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-calendar"
       }
     }
@@ -324,7 +324,7 @@
       "subtitle": "Appliquez des politiques de juridiction, de résidence et d'audit sur les Cloud, hyperviseurs et fournisseurs souverains depuis un seul plan de contrôle.",
       "primaryCTA": {
         "text": "Évaluer votre posture de souveraineté",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
@@ -386,7 +386,7 @@
       ],
       "cta": {
         "text": "Évaluer votre posture de souveraineté",
-        "link": "../contact.html"
+        "link": "https://book.elemento.cloud/"
       }
     },
     "useCase": {
@@ -466,12 +466,12 @@
       "subtitle": "Appliquez juridiction, résidence et audit comme règles par charge sur chaque fournisseur.",
       "primaryCTA": {
         "text": "Évaluer votre posture de souveraineté",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-rocket"
       },
       "secondaryCTA": {
         "text": "Planifier une démo",
-        "link": "../contact.html",
+        "link": "https://book.elemento.cloud/",
         "icon": "fas fa-calendar"
       }
     }

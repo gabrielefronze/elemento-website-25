@@ -19,7 +19,11 @@
     "documentation": "Documentation",
     "productBriefs": "Product Briefs",
     "explorePlatform": "Explore Platform",
-    "bookAssessment": "Book",
+    "bookAssessment": "Book Assessment",
+    "tryElectros": "Try Electros",
+    "getAtomos": "Get AtomOS",
+    "c4Sublabel": "Open interoperability protocol",
+    "atomosSublabel": "Native hypervisor endpoint",
     "solVmwareExit": "VMware Exit",
     "solSovereign": "Sovereign Governance",
     "solHybrid": "Hybrid & Multi-Cloud",
@@ -40,13 +44,19 @@
     "homeAria": "Elemento home"
   },
   "banner": {
-    "metacloudAssessmentText": "Book a Metacloud Assessment",
-    "metacloudAssessmentAria": "Book a Metacloud Assessment"
+    "defaultText": "New: AtomOS is moving to BSL, free to use, Apache 2.0 after 3 years.",
+    "defaultCta": "Explore AtomOS",
+    "defaultAria": "New: AtomOS is moving to BSL, free to use, Apache 2.0 after 3 years. Explore AtomOS.",
+    "enterpriseText": "Planning a VMware exit? Govern VMware and AtomOS side by side.",
+    "enterpriseCta": "Run VMware Exit Assessment",
+    "enterpriseAria": "Planning a VMware exit? Govern VMware and AtomOS side by side. Run VMware Exit Assessment."
   },
   "footer": {
     "tagline": "The Metacloud: a sovereign control plane to govern, orchestrate and optimise infrastructure across every provider.",
     "platform": "Platform",
     "platformOverview": "Platform Overview",
+    "c4Sublabel": "Open interoperability protocol",
+    "atomosSublabel": "Native hypervisor endpoint",
     "solutions": "Solutions",
     "solVmwareExit": "VMware Exit",
     "solSovereign": "Sovereign Governance",
