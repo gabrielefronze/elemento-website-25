@@ -271,10 +271,12 @@
 }
 
 /* Split hero content into two stacking layers at the hero root:
-   headline (4) > cards (3) > lines (2) > CTAs (1). */
+   headline (10) > cards (3) > lines (2) > CTAs (1).
+   Cards orbit behind the headline copy — never over it. */
 .hero-home .hero-container.hero-home__headline {
     position: relative;
-    z-index: 4;
+    z-index: 10;
+    isolation: isolate;
 }
 
 .hero-home .hero-container.hero-home__cta {
@@ -358,6 +360,11 @@
     pointer-events: none;
 }
 
+.hero-home .hero-subtitle {
+    position: relative;
+    z-index: 1;
+}
+
 /* --- Connecting link lines (box -> Metacloud word) --- */
 .hero-link-svg {
     position: absolute;
@@ -409,7 +416,17 @@
     opacity: 0;
     will-change: transform, opacity;
     contain: layout style paint;
-    transition: border-color 0.25s ease, box-shadow 0.25s ease;
+    transition: border-color 0.25s ease, box-shadow 0.25s ease,
+        backdrop-filter 0.35s ease, -webkit-backdrop-filter 0.35s ease,
+        background 0.35s ease;
+}
+
+/* Gaussian glass when a card sweeps over the hero CTAs (toggled by JS). */
+.provider-float--cta-glass {
+    contain: layout style;
+    background: color-mix(in srgb, var(--glassmorphism-background) 78%, transparent);
+    -webkit-backdrop-filter: blur(16px);
+    backdrop-filter: blur(16px);
 }
 
 .provider-float:hover {
@@ -466,6 +483,37 @@
     }
 }
 
+/* Safari/WebKit: backdrop-filter + animated SVG dashes are very costly. */
+.hero-wow--safari .hero-cards,
+.hero-wow--safari .hero-links {
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+}
+
+.hero-wow--safari .provider-float {
+    will-change: auto;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.hero-wow--safari .hero-link {
+    animation: none;
+}
+
+.hero-wow--safari .provider-float--cta-glass {
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+    background: color-mix(in srgb, var(--glassmorphism-background) 92%, var(--background-color));
+    box-shadow:
+        var(--glassmorphism-shadow),
+        inset 0 1px 0 color-mix(in srgb, var(--white-light, #fff) 12%, transparent);
+}
+
+.hero-wow--safari .hero-providers__glow {
+    filter: none;
+    opacity: 0.85;
+}
+
 /* Narrow screens: keep the orbit but show compact icon-only chips and
    disable pointer interaction so cards never block taps on the hero CTAs. */
 @media (max-width: 992px) {
@@ -490,4 +538,11 @@
     opacity: 0.9;
     max-width: 42rem;
     line-height: 1.5;
+}
+
+.hero-home .home-tagline {
+    text-shadow:
+        0 0 10px var(--background-color),
+        0 0 22px var(--background-color),
+        0 1px 3px rgba(0, 0, 0, 0.4);
 }

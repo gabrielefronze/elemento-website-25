@@ -45,10 +45,21 @@
     var RING_V = [0.17, 0.27, 0.36];
     var RING_SCALE = [1, 0.94, 0.86];
     var RING_OP = [1, 0.92, 0.82];
-    // Orbital periods per ring, in ms (inner spins a touch faster).
-    var RING_PERIOD = [82000, 104000, 128000];
+    // Orbital period baselines per ring, in ms (inner faster, outer slower).
+    var RING_PERIOD = [72000, 98000, 138000];
+    // Per-card period jitter around the ring baseline (fraction of base).
+    var PERIOD_JITTER = 0.38;
     // Curve amount for the arched link lines (fraction of chord length).
     var ARCH = 0.16;
+    // Cap render rate — 60fps; Safari keeps separate path throttle below.
+    var FRAME_MS = 16;
+    // SVG path retessellation is costly in Safari — update lines less often.
+    var PATH_MS_SAFARI = 80;
+
+    var IS_SAFARI = (function () {
+        var ua = navigator.userAgent;
+        return /AppleWebKit/i.test(ua) && !/Chrome|CriOS|Chromium|Edg/i.test(ua);
+    })();
 
     function prefersReducedMotion() {
         return window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -93,6 +104,13 @@
         });
     }
 
+    /** Angular velocity (rad/ms) with ring baseline + per-card variation. */
+    function orbitOmega(ring) {
+        var base = RING_PERIOD[ring];
+        var period = base * (1 - PERIOD_JITTER + Math.random() * PERIOD_JITTER * 2);
+        return (2 * Math.PI) / period;
+    }
+
     var state = null;
 
     function buildCard(p) {
@@ -124,7 +142,13 @@
         return { base: baseLine, flow: flow };
     }
 
-    function archPath(x1, y1, x2, y2) {
+    function archPath(x1, y1, x2, y2, round) {
+        if (round) {
+            x1 = Math.round(x1);
+            y1 = Math.round(y1);
+            x2 = Math.round(x2);
+            y2 = Math.round(y2);
+        }
         var mx = (x1 + x2) / 2;
         var my = (y1 + y2) / 2;
         var dx = x2 - x1;
@@ -137,6 +161,48 @@
         return 'M ' + x1.toFixed(1) + ' ' + y1.toFixed(1) +
             ' Q ' + cxp.toFixed(1) + ' ' + cyp.toFixed(1) +
             ' ' + x2.toFixed(1) + ' ' + y2.toFixed(1);
+    }
+
+    function measureSubtitleZone(base) {
+        var el = document.querySelector('.hero-home .hero-subtitle');
+        if (!el) return null;
+        var r = el.getBoundingClientRect();
+        return {
+            left: r.left - base.left,
+            top: r.top - base.top,
+            right: r.right - base.left,
+            bottom: r.bottom - base.top
+        };
+    }
+
+    function measureCtaZone(base) {
+        var el = document.querySelector('.hero-home__cta');
+        if (!el) return null;
+        var r = el.getBoundingClientRect();
+        return {
+            left: r.left - base.left,
+            top: r.top - base.top,
+            right: r.right - base.left,
+            bottom: r.bottom - base.top
+        };
+    }
+
+    /** 0 outside zone; 1 at centre (smooth falloff within pad). */
+    function zoneInfluence(x, y, zone, pad) {
+        if (!zone) return 0;
+        var dx = Math.max(zone.left - x, 0, x - zone.right);
+        var dy = Math.max(zone.top - y, 0, y - zone.bottom);
+        var d = Math.hypot(dx, dy);
+        if (d >= pad) return 0;
+        return 1 - d / pad;
+    }
+
+    /** 1 outside subtitle; fades toward SUBTITLE_MIN_OP inside/near the copy block. */
+    var SUBTITLE_MIN_OP = 0.18;
+
+    function subtitleFadeFactor(x, y, zone, pad) {
+        var t = zoneInfluence(x, y, zone, pad);
+        return 1 - t * (1 - SUBTITLE_MIN_OP);
     }
 
     function init() {
@@ -184,7 +250,7 @@
             items.push({
                 ring: p.ring,
                 baseAngle: p.startAngle,
-                omega: (2 * Math.PI) / RING_PERIOD[p.ring],
+                omega: orbitOmega(p.ring),
                 scale: RING_SCALE[p.ring],
                 op: RING_OP[p.ring],
                 revealStart: 180 + Math.random() * 420 + i * 40,
@@ -201,12 +267,12 @@
             hero.appendChild(cardLayer);
         }
 
-        // Enforce stacking: headline (4) > cards (3) > lines (2) > CTAs (1).
+        // Enforce stacking: headline (10) > cards (3) > lines (2) > CTAs (1).
         var headline = document.querySelector('.hero-home__headline');
         var cta = document.querySelector('.hero-home__cta');
         if (headline) {
             headline.style.position = 'relative';
-            headline.style.zIndex = '4';
+            headline.style.zIndex = '10';
         }
         if (cta) {
             cta.style.position = 'relative';
@@ -219,6 +285,7 @@
         if (wrap) {
             wrap.classList.add('hero-wow--providers');
             if (reduced) wrap.classList.add('hero-wow--static');
+            if (IS_SAFARI) wrap.classList.add('hero-wow--safari');
         }
 
         state = {
@@ -226,7 +293,10 @@
             svg: svg, cards: cards, lines: lines,
             items: items, cx: 0, cy: 0, W: 0, reduced: reduced,
             inView: true, docVisible: !document.hidden,
-            running: false, rafId: null
+            running: false, rafId: null, lastFrame: 0, lastPath: 0,
+            frameMs: FRAME_MS,
+            pathMs: IS_SAFARI ? PATH_MS_SAFARI : 0,
+            roundPath: IS_SAFARI
         };
 
         layout();
@@ -247,7 +317,8 @@
         if (!reduced) {
             updateLoop();
         } else {
-            render(0);
+            renderCards(0);
+            renderLines(0);
         }
     }
 
@@ -281,6 +352,8 @@
     function startLoop() {
         if (!state || state.running) return;
         state.running = true;
+        state.lastFrame = 0;
+        state.lastPath = 0;
         state.rafId = window.requestAnimationFrame(frame);
     }
 
@@ -298,8 +371,14 @@
             stopLoop();
             return;
         }
-        render(now);
         state.rafId = window.requestAnimationFrame(frame);
+        if (now - state.lastFrame < state.frameMs) return;
+        state.lastFrame = now;
+        renderCards(now);
+        if (!state.pathMs || now - state.lastPath >= state.pathMs) {
+            state.lastPath = now;
+            renderLines(now);
+        }
     }
 
     function layout() {
@@ -332,6 +411,10 @@
         state.cx = cx;
         state.cy = cy;
         state.W = W;
+        state.subtitleZone = measureSubtitleZone(base);
+        state.subtitleFadePad = Math.max(36, Math.min(72, W * 0.05));
+        state.ctaZone = measureCtaZone(base);
+        state.ctaGlassPad = Math.max(44, Math.min(88, W * 0.065));
 
         state.svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
 
@@ -381,23 +464,27 @@
             line.flow.style.display = hidden ? 'none' : '';
             it.rH = Math.min(RING_H[it.ring] * W * orbitH, maxH);
             it.rV = Math.min(RING_V[it.ring] * H * orbitV, maxV);
-            it._path = it._transform = it._opacity = it._z = it._lineOp = undefined;
+            it._path = it._transform = it._opacity = it._z = it._lineOp = it._ctaGlass = undefined;
         });
 
         if (state.reduced) {
-            render(0);
+            renderCards(0);
+            renderLines(0);
         } else if (shouldAnimate()) {
-            render(performance.now());
+            var t = performance.now();
+            renderCards(t);
+            renderLines(t);
         }
     }
 
-    function render(now) {
+    function renderCards(now) {
         var items = state.items;
         if (!items.length || !state.W) return;
         var cx = state.cx;
         var cy = state.cy;
         var pMin = state.perspMin != null ? state.perspMin : 0.7;
         var pMax = state.perspMax != null ? state.perspMax : 1.55;
+        var roundPos = state.roundPath;
 
         for (var i = 0; i < items.length; i++) {
             var it = items[i];
@@ -406,32 +493,73 @@
             var ang = state.reduced ? it.baseAngle : it.baseAngle + now * it.omega;
             var x = cx + it.rH * Math.cos(ang);
             var y = cy + it.rV * Math.sin(ang);
+            if (roundPos) {
+                x = Math.round(x);
+                y = Math.round(y);
+            }
             var near = (Math.sin(ang) + 1) / 2;
             var persp = pMin + (pMax - pMin) * near;
             var farFade = 0.58 + 0.42 * near;
             var reveal = state.reduced ? 1 : Math.max(0, Math.min(1, (now - it.revealStart) / 500));
+            var subFade = subtitleFadeFactor(x, y, state.subtitleZone, state.subtitleFadePad);
+            var ctaGlass = zoneInfluence(x, y, state.ctaZone, state.ctaGlassPad) > 0.06;
 
             var scale = (it.scale * persp).toFixed(3);
-            var transform = 'translate3d(' + x.toFixed(1) + 'px,' + y.toFixed(1) + 'px,0) translate(-50%,-50%) scale(' + scale + ')';
+            var px = roundPos ? String(x) : x.toFixed(1);
+            var py = roundPos ? String(y) : y.toFixed(1);
+            var transform = 'translate3d(' + px + 'px,' + py + 'px,0) translate(-50%,-50%) scale(' + scale + ')';
             var card = state.cards[i];
             if (it._transform !== transform) {
                 card.style.transform = transform;
                 it._transform = transform;
             }
 
-            var z = String(Math.round(near * 100));
+            var z = String(1 + Math.round(near * 9));
             if (it._z !== z) {
                 card.style.zIndex = z;
                 it._z = z;
             }
 
-            var opacity = (it.op * reveal * farFade).toFixed(3);
+            var opacity = (it.op * reveal * farFade * subFade).toFixed(3);
             if (it._opacity !== opacity) {
                 card.style.opacity = opacity;
                 it._opacity = opacity;
             }
 
-            var d = archPath(x, y, cx, cy);
+            if (it._ctaGlass !== ctaGlass) {
+                card.classList.toggle('provider-float--cta-glass', ctaGlass);
+                it._ctaGlass = ctaGlass;
+            }
+
+            it._x = x;
+            it._y = y;
+            it._lineOpVal = 0.7 * reveal * farFade * subFade;
+        }
+    }
+
+    function renderLines(now) {
+        var items = state.items;
+        if (!items.length || !state.W) return;
+        var cx = state.cx;
+        var cy = state.cy;
+
+        for (var i = 0; i < items.length; i++) {
+            var it = items[i];
+            if (it.hidden) continue;
+
+            var x = it._x;
+            var y = it._y;
+            if (x == null) {
+                var ang = state.reduced ? it.baseAngle : it.baseAngle + now * it.omega;
+                x = cx + it.rH * Math.cos(ang);
+                y = cy + it.rV * Math.sin(ang);
+                if (state.roundPath) {
+                    x = Math.round(x);
+                    y = Math.round(y);
+                }
+            }
+
+            var d = archPath(x, y, cx, cy, state.roundPath);
             var line = state.lines[i];
             if (it._path !== d) {
                 line.base.setAttribute('d', d);
@@ -439,7 +567,7 @@
                 it._path = d;
             }
 
-            var lineOp = (0.7 * reveal * farFade).toFixed(3);
+            var lineOp = (it._lineOpVal != null ? it._lineOpVal : 0.7).toFixed(3);
             if (it._lineOp !== lineOp) {
                 line.flow.style.opacity = lineOp;
                 it._lineOp = lineOp;
