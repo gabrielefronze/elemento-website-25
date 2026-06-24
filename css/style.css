@@ -2325,8 +2325,37 @@ body:has(.site-header--has-banner) {
         border-left-color: var(--primary-color);
     }
     
-    .mobile-menu-btn {
-        display: flex;
+    .nav-controls {
+        margin-left: auto;
+        align-items: center;
+    }
+
+    .nav-controls .theme-toggle,
+    .nav-controls .mobile-menu-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 2.5rem;
+        height: 2.5rem;
+        padding: 0;
+        flex-shrink: 0;
+        box-sizing: border-box;
+    }
+
+    .mobile-menu-btn span {
+        left: 0.5rem;
+    }
+
+    .mobile-menu-btn span:nth-child(1) {
+        top: 0.6875rem;
+    }
+
+    .mobile-menu-btn span:nth-child(2) {
+        top: 1.1875rem;
+    }
+
+    .mobile-menu-btn span:nth-child(3) {
+        top: 1.6875rem;
     }
     
     /* Hide desktop dropdown on mobile */
@@ -2336,7 +2365,7 @@ body:has(.site-header--has-banner) {
     
     .mobile-menu-btn.active span:nth-child(1) {
         transform: rotate(45deg);
-        top: 8px;
+        top: 1.1875rem;
     }
     
     .mobile-menu-btn.active span:nth-child(2) {
@@ -2345,7 +2374,7 @@ body:has(.site-header--has-banner) {
     
     .mobile-menu-btn.active span:nth-child(3) {
         transform: rotate(-45deg);
-        top: 8px;
+        top: 1.1875rem;
     }
     
     /* Hero responsive */
