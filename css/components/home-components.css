@@ -233,6 +233,10 @@
 }
 
 /* Hero Metacloud constellation */
+.hero-home {
+    flex-direction: column;
+}
+
 .hero-wow {
     position: absolute;
     inset: 0;
@@ -244,6 +248,42 @@
 .hero-providers {
     position: absolute;
     inset: 0;
+}
+
+/* Link lines sit above CTAs but below cards and the headline hub. */
+.hero-links {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+/* Card layer sits above link lines and CTAs, below the headline/hub. */
+.hero-cards {
+    position: absolute;
+    inset: 0;
+    z-index: 3;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+/* Split hero content into two stacking layers at the hero root:
+   headline (4) > cards (3) > lines (2) > CTAs (1). */
+.hero-home .hero-container.hero-home__headline {
+    position: relative;
+    z-index: 4;
+}
+
+.hero-home .hero-container.hero-home__cta {
+    position: relative;
+    z-index: 1;
+    margin-top: calc(-1 * var(--space-md));
+}
+
+.hero-home__headline .hero-content,
+.hero-home__cta .hero-content {
+    gap: var(--space-md);
 }
 
 /* Soft glow behind the Metacloud word acting as the hub */
@@ -360,7 +400,7 @@
     backdrop-filter: blur(16px);
     border: 1px solid var(--glassmorphism-border);
     box-shadow: var(--glassmorphism-shadow);
-    pointer-events: auto;
+    pointer-events: none;
     white-space: nowrap;
     opacity: 0;
     transform: translate(-50%, -50%);
