@@ -5,7 +5,8 @@
  * in the headline along concentric ellipses (ring 0 closest), each joined to the
  * word by a smoothly arched, animated link line. The word is the shared orbit
  * center; rings rotate at different speeds for a galaxy feel. Cards on each
- * ring share a fixed radius and angular velocity so slots never collide.
+ * ring share a fixed radius and angular velocity so slots never collide. The far
+ * arc compresses vertically for forced perspective.
  * Disabled on small portrait viewports — phones get copy + CTAs only.
  */
 (function () {
@@ -14,9 +15,6 @@
     var SMALL_PORTRAIT_MQ = '(max-width: 768px) and (orientation: portrait)';
 
     var SVGNS = 'http://www.w3.org/2000/svg';
-
-    var LINE_CLOUD = 'var(--cloud-net-color, #DC3545)';
-    var LINE_HYPERVISOR = 'var(--atomos-color, #007bff)';
 
     // angle: optional fixed angle (degrees); slot: optional index on ring (default: array order).
     var PROVIDERS = [
@@ -55,8 +53,19 @@
     });
     // Fixed ring phase offsets (rad) so adjacent rings interleave rather than stack.
     var RING_PHASE = [0, Math.PI / 6, Math.PI / 8];
+    // Far arc (top of ellipse): squash vertical reach for forced perspective.
+    var FAR_V_COMPRESS = 0.38;
     // Curve amount for the arched link lines (fraction of chord length).
     var ARCH = 0.16;
+    // Link dash: near side full weight; far side thinner stroke + tighter dashes.
+    var LINE_DASH_FLOW_MS = 1300;
+    var LINE_DASH_NEAR = { len: 2, gap: 9, width: 1.4 };
+    var LINE_DASH_FAR = { len: 0.75, gap: 4.5, width: 0.7 };
+    var LINE_BASE_NEAR = 1;
+    var LINE_BASE_FAR = 0.5;
+    // Far-side depth cue: subtle gaussian blur instead of opacity fade.
+    var FAR_BLUR_MAX = 2;
+    var FAR_BLUR_MAX_SAFARI = 1.1;
     // Cap render rate — 60fps; Safari keeps separate path throttle below.
     var FRAME_MS = 16;
     // SVG path retessellation is costly in Safari — update lines less often.
@@ -127,7 +136,7 @@
     }
 
     function buildLine(p, index) {
-        var stroke = p.kind === 'cloud' ? LINE_CLOUD : LINE_HYPERVISOR;
+        var stroke = p.accent;
         var baseLine = document.createElementNS(SVGNS, 'path');
         baseLine.setAttribute('class', 'hero-link-base');
         baseLine.style.stroke = stroke;
@@ -159,6 +168,42 @@
         return 'M ' + x1.toFixed(1) + ' ' + y1.toFixed(1) +
             ' Q ' + cxp.toFixed(1) + ' ' + cyp.toFixed(1) +
             ' ' + x2.toFixed(1) + ' ' + y2.toFixed(1);
+    }
+
+    /** Ellipse position with forced perspective: far arc (sin < 0) has reduced vertical reach. */
+    function orbitXY(cx, cy, rH, rV, ang) {
+        var sinRaw = Math.sin(ang);
+        var sinV = sinRaw < 0 ? sinRaw * FAR_V_COMPRESS : sinRaw;
+        return {
+            x: cx + rH * Math.cos(ang),
+            y: cy + rV * sinV
+        };
+    }
+
+    /** Interpolate dash geometry by orbital depth (0 = far, 1 = near). */
+    function lineDashStyle(near) {
+        var t = Math.max(0, Math.min(1, near));
+        var len = LINE_DASH_FAR.len + (LINE_DASH_NEAR.len - LINE_DASH_FAR.len) * t;
+        var gap = LINE_DASH_FAR.gap + (LINE_DASH_NEAR.gap - LINE_DASH_FAR.gap) * t;
+        var flowW = LINE_DASH_FAR.width + (LINE_DASH_NEAR.width - LINE_DASH_FAR.width) * t;
+        var baseW = LINE_BASE_FAR + (LINE_BASE_NEAR - LINE_BASE_FAR) * t;
+        return {
+            dashArray: len.toFixed(2) + ' ' + gap.toFixed(2),
+            period: len + gap,
+            flowWidth: flowW.toFixed(2),
+            baseWidth: baseW.toFixed(2)
+        };
+    }
+
+    /** Blur ramps up on the far arc; none at the near side. */
+    function farPerspectiveBlur(near) {
+        var far = 1 - Math.max(0, Math.min(1, near));
+        var max = IS_SAFARI ? FAR_BLUR_MAX_SAFARI : FAR_BLUR_MAX;
+        return far * far * max;
+    }
+
+    function blurFilter(px) {
+        return px < 0.05 ? 'none' : 'blur(' + px.toFixed(2) + 'px)';
     }
 
     function measureSubtitleZone(base) {
@@ -453,7 +498,7 @@
             line.flow.style.display = hidden ? 'none' : '';
             it.rH = Math.min(RING_H[it.ring] * W * orbitH, maxH);
             it.rV = Math.min(RING_V[it.ring] * H * orbitV, maxV);
-            it._path = it._transform = it._opacity = it._z = it._lineOp = undefined;
+            it._path = it._transform = it._opacity = it._z = it._lineOp = it._lineDash = it._lineDashOff = it._near = it._farBlur = undefined;
         });
 
         if (state.reduced) {
@@ -480,17 +525,19 @@
             if (it.hidden) continue;
 
             var ang = state.reduced ? it.baseAngle : it.baseAngle + now * it.omega;
-            var x = cx + it.rH * Math.cos(ang);
-            var y = cy + it.rV * Math.sin(ang);
+            var pos = orbitXY(cx, cy, it.rH, it.rV, ang);
+            var x = pos.x;
+            var y = pos.y;
             if (roundPos) {
                 x = Math.round(x);
                 y = Math.round(y);
             }
             var near = (Math.sin(ang) + 1) / 2;
             var persp = pMin + (pMax - pMin) * near;
-            var farFade = 0.58 + 0.42 * near;
             var reveal = state.reduced ? 1 : Math.max(0, Math.min(1, (now - it.revealStart) / 500));
             var subFade = subtitleFadeFactor(x, y, state.subtitleZone, state.subtitleFadePad);
+            var line = state.lines[i];
+            var blur = blurFilter(farPerspectiveBlur(near));
 
             var scale = (it.scale * persp).toFixed(3);
             var px = roundPos ? String(x) : x.toFixed(1);
@@ -508,15 +555,46 @@
                 it._z = z;
             }
 
-            var opacity = (it.op * reveal * farFade * subFade).toFixed(3);
+            var opacity = (it.op * reveal * subFade).toFixed(3);
             if (it._opacity !== opacity) {
                 card.style.opacity = opacity;
                 it._opacity = opacity;
             }
 
+            if (it._farBlur !== blur) {
+                card.style.filter = blur;
+                line.flow.style.filter = blur;
+                line.base.style.filter = blur;
+                it._farBlur = blur;
+            }
+
             it._x = x;
             it._y = y;
-            it._lineOpVal = 0.7 * reveal * farFade * subFade;
+            it._near = near;
+            it._lineOpVal = 0.7 * reveal * subFade;
+
+            var dash = lineDashStyle(near);
+            var dashKey = dash.dashArray + '|' + dash.flowWidth;
+            if (it._lineDash !== dashKey) {
+                line.flow.style.strokeDasharray = dash.dashArray;
+                line.flow.style.strokeWidth = dash.flowWidth;
+                line.base.style.strokeWidth = dash.baseWidth;
+                it._lineDash = dashKey;
+                it._lineDashPeriod = dash.period;
+            }
+            if (!state.reduced && shouldAnimate()) {
+                line.flow.style.animation = 'none';
+                var period = it._lineDashPeriod || 11;
+                var off = -((now % LINE_DASH_FLOW_MS) / LINE_DASH_FLOW_MS) * period;
+                var offStr = off.toFixed(2);
+                if (it._lineDashOff !== offStr) {
+                    line.flow.style.strokeDashoffset = offStr;
+                    it._lineDashOff = offStr;
+                }
+            } else if (it._lineDashOff !== '0') {
+                line.flow.style.strokeDashoffset = '0';
+                it._lineDashOff = '0';
+            }
         }
     }
 
@@ -534,8 +612,9 @@
             var y = it._y;
             if (x == null) {
                 var ang = state.reduced ? it.baseAngle : it.baseAngle + now * it.omega;
-                x = cx + it.rH * Math.cos(ang);
-                y = cy + it.rV * Math.sin(ang);
+                var pos = orbitXY(cx, cy, it.rH, it.rV, ang);
+                x = pos.x;
+                y = pos.y;
                 if (state.roundPath) {
                     x = Math.round(x);
                     y = Math.round(y);
