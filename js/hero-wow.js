@@ -16,10 +16,18 @@
 
     var SVGNS = 'http://www.w3.org/2000/svg';
 
+    function assetUrl(path) {
+        var normalized = String(path).replace(/^\//, '').replace(/^\.\//, '');
+        if (window.ElementoI18n && window.ElementoI18n.assetUrl) {
+            return window.ElementoI18n.assetUrl(normalized);
+        }
+        return normalized;
+    }
+
     // angle: optional fixed angle (degrees); slot: optional index on ring (default: array order).
     var PROVIDERS = [
         // Hypervisors / virtualization
-        { name: 'AtomOS', tag: 'Sovereign hypervisor', img: '/assets/logos/Atomos.svg', accent: 'var(--atomos-color, #007bff)', kind: 'hypervisor', ring: 0 },
+        { name: 'AtomOS', tag: 'Sovereign hypervisor', img: 'assets/logos/Atomos.svg', accent: 'var(--atomos-color, #007bff)', kind: 'hypervisor', ring: 0 },
         { name: 'Proxmox', tag: 'Hypervisor', icon: 'fas fa-box', accent: '#E57000', kind: 'hypervisor', ring: 0 },
         { name: 'VMware', tag: 'Hypervisor', icon: 'fas fa-layer-group', accent: '#9AAEC0', kind: 'hypervisor', ring: 0 },
         { name: 'KVM', tag: 'Virtualization', icon: 'fas fa-microchip', accent: '#D33', kind: 'hypervisor', ring: 1 },
@@ -135,7 +143,7 @@
 
     function buildCard(p) {
         var media = p.img
-            ? '<img class="provider-float__img" src="' + p.img + '" alt="" aria-hidden="true">'
+            ? '<img class="provider-float__img" src="' + assetUrl(p.img) + '" alt="" aria-hidden="true">'
             : '<i class="' + p.icon + '"></i>';
         var el = document.createElement('div');
         el.className = 'provider-float provider-float--r' + p.ring;
