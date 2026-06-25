@@ -1564,7 +1564,8 @@
       "js/success-stories-carousel.js",
       "js/logo-carousel.js",
       "js/atmosphere_hero.js",
-      "js/hero-wow.js"
+      "js/hero-wow.js",
+      "js/metacloud-stack.js"
     ],
     "type": "legacy",
     "locales": [
