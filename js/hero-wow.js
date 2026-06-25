@@ -546,7 +546,6 @@
         if (!container) return;
         if (isSmallPortraitViewport()) {
             resetHeroBlocks();
-            bindScrollParallax(container.closest('.hero') || document.querySelector('.hero.hero-home'));
             return;
         }
 

@@ -189,14 +189,17 @@
     .hero-home .quick-contact-options {
         flex-direction: column;
         align-items: stretch;
+        gap: 0.625rem;
     }
 
     .hero-home .quick-contact-options .btn {
         width: 100%;
+        padding: 0.8125rem 1rem;
+        font-size: 0.875rem;
     }
 
     .hero-home .hero-subtitle {
-        font-size: 1.1rem;
+        font-size: 0.9375rem;
     }
 }
 
