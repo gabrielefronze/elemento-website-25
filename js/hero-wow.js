@@ -34,11 +34,11 @@
         { name: 'Google Cloud', tag: 'Public cloud', icon: 'fab fa-google', accent: '#4285F4', kind: 'cloud', ring: 1 },
         { name: 'OVHcloud', tag: 'Sovereign cloud', icon: 'fas fa-cloud', accent: '#2272C9', kind: 'cloud', ring: 1 },
         { name: 'Scaleway', tag: 'Sovereign cloud', icon: 'fas fa-server', accent: '#8C52FF', kind: 'cloud', ring: 1 },
+        { name: 'Wasabi', tag: 'Object storage', icon: 'fas fa-database', accent: '#00C65E', kind: 'cloud', ring: 1 },
         { name: 'Oracle', tag: 'Public cloud', icon: 'fas fa-database', accent: '#C74634', kind: 'cloud', ring: 2 },
         { name: 'IBM Cloud', tag: 'Public cloud', icon: 'fas fa-cloud', accent: '#0F62FE', kind: 'cloud', ring: 2 },
         { name: 'Alibaba', tag: 'Public cloud', icon: 'fas fa-cloud', accent: '#FF6A00', kind: 'cloud', ring: 2 },
         { name: 'DigitalOcean', tag: 'Public cloud', icon: 'fab fa-digital-ocean', accent: '#0080FF', kind: 'cloud', ring: 2 },
-        { name: 'Wasabi', tag: 'Object storage', icon: 'fas fa-database', accent: '#00C65E', kind: 'cloud', ring: 2 },
         { name: 'Impossible Cloud', tag: 'Sovereign cloud', icon: 'fas fa-cloud', accent: '#00C65E', kind: 'cloud', ring: 2 },
         { name: 'UpCloud', tag: 'Sovereign cloud', icon: 'fas fa-cloud', accent: '#7B68EE', kind: 'cloud', ring: 2 }
     ];
@@ -56,8 +56,6 @@
     var RING_PHASE = [0, Math.PI / 6, Math.PI / 8];
     // Far arc (top of ellipse): squash vertical reach for forced perspective.
     var FAR_V_COMPRESS = 0.38;
-    // Near-arc card scale (1.5× at closest; far arc zooms out toward perspMin).
-    var PERSP_NEAR_SCALE = 1.5;
     // Curve amount for the arched link lines (fraction of chord length).
     var ARCH = 0.16;
     // Link dash: near side full weight; far side thinner stroke + tighter dashes.
@@ -199,10 +197,11 @@
     }
 
     /** Scale at the near arc (1); far arc zooms out toward perspMin. Ring size fades in only on the far side. */
+    /** Near arc = 1 (base CSS size, never upscaled). Far arc zooms out toward perspMin. */
     function cardPerspectiveScale(near, ringScale, pMin) {
-        var depth = pMin + (PERSP_NEAR_SCALE - pMin) * near;
+        var depth = pMin + (1 - pMin) * near;
         var ringBlend = 1 - (1 - ringScale) * (1 - near);
-        return depth * ringBlend;
+        return Math.min(1, depth * ringBlend);
     }
 
     /** Ellipse position with forced perspective: far arc (sin < 0) has reduced vertical reach. */
@@ -656,7 +655,7 @@
             perspMin = Math.max(0.52, perspMin);
         }
         state.perspMin = perspMin;
-        state.perspMax = PERSP_NEAR_SCALE;
+        state.perspMax = 1;
 
         // Pull orbits in on smaller viewports / hero areas so bottom cards
         // don't overlap the hero copy below the Metacloud word.

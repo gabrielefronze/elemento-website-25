@@ -389,32 +389,6 @@
 }
 
 /* --- Provider cards (positioned by JS via transform) --- */
-.hero-wow .provider-float {
-    padding: 0.58rem 0.92rem 0.58rem 0.58rem;
-    gap: 0.65rem;
-    border-radius: 14px;
-}
-
-.hero-wow .provider-float__logo {
-    width: 40px;
-    height: 40px;
-    border-radius: 10px;
-    font-size: 1.12rem;
-}
-
-.hero-wow .provider-float__img {
-    width: 24px;
-    height: 24px;
-}
-
-.hero-wow .provider-float__text strong {
-    font-size: 0.94rem;
-}
-
-.hero-wow .provider-float__text small {
-    font-size: 0.7rem;
-}
-
 .provider-float {
     position: absolute;
     left: 0;
@@ -477,6 +451,33 @@
 .provider-float__text small {
     font-size: 0.66rem;
     color: var(--text-secondary);
+}
+
+/* Hero orbit: 1.5× base card size in CSS only — JS never scales above 1. */
+.hero-wow .provider-float {
+    gap: 0.9rem;
+    padding: 0.75rem 1.2rem 0.75rem 0.75rem;
+    border-radius: 20px;
+}
+
+.hero-wow .provider-float__logo {
+    width: 54px;
+    height: 54px;
+    border-radius: 14px;
+    font-size: 1.58rem;
+}
+
+.hero-wow .provider-float__img {
+    width: 32px;
+    height: 32px;
+}
+
+.hero-wow .provider-float__text strong {
+    font-size: 1.32rem;
+}
+
+.hero-wow .provider-float__text small {
+    font-size: 0.99rem;
 }
 
 /* Static / reduced-motion: JS sets a fixed opacity; kill the dash flow. */
