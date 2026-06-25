@@ -56,6 +56,8 @@
     var RING_PHASE = [0, Math.PI / 6, Math.PI / 8];
     // Far arc (top of ellipse): squash vertical reach for forced perspective.
     var FAR_V_COMPRESS = 0.38;
+    // Near-arc card scale (1.5× at closest; far arc zooms out toward perspMin).
+    var PERSP_NEAR_SCALE = 1.5;
     // Curve amount for the arched link lines (fraction of chord length).
     var ARCH = 0.16;
     // Link dash: near side full weight; far side thinner stroke + tighter dashes.
@@ -194,6 +196,13 @@
         else if (uy < 0) t = Math.min(t, -halfH / uy);
         if (!isFinite(t)) t = 0;
         return { x: cx + ux * t, y: cy + uy * t };
+    }
+
+    /** Scale at the near arc (1); far arc zooms out toward perspMin. Ring size fades in only on the far side. */
+    function cardPerspectiveScale(near, ringScale, pMin) {
+        var depth = pMin + (PERSP_NEAR_SCALE - pMin) * near;
+        var ringBlend = 1 - (1 - ringScale) * (1 - near);
+        return depth * ringBlend;
     }
 
     /** Ellipse position with forced perspective: far arc (sin < 0) has reduced vertical reach. */
@@ -641,19 +650,13 @@
         var tiny = vw <= 560;
         var dim = Math.min(vw, vh);
 
-        // Perspective scale range shrinks on smaller viewports so near cards
-        // never dominate the headline / subtitle (full range at ~1500px+).
-        var perspMax = Math.min(1.55, Math.max(0.82, 0.75 + (dim - 600) / 800 * 0.8));
-        if (vw < 1500) {
-            perspMax = Math.min(perspMax, 0.88 + Math.max(0, vw - 720) / 780 * 0.67);
-        }
-        var perspMin = Math.max(0.52, 0.58 + (perspMax - 0.82) * 0.15);
+        // Near arc = scale 1 (sharp); far arc zooms out toward perspMin.
+        var perspMin = Math.max(0.48, 0.56 - (dim - 720) / 1400 * 0.06);
         if (compact) {
-            perspMax = Math.min(perspMax, 0.92 + (perspMax - 0.92) * Math.max(0, (dim - 560) / 440));
-            perspMin = Math.min(perspMin, 0.62);
+            perspMin = Math.max(0.52, perspMin);
         }
         state.perspMin = perspMin;
-        state.perspMax = perspMax;
+        state.perspMax = PERSP_NEAR_SCALE;
 
         // Pull orbits in on smaller viewports / hero areas so bottom cards
         // don't overlap the hero copy below the Metacloud word.
@@ -698,8 +701,7 @@
     function renderCards(now) {
         var items = state.items;
         if (!items.length || !state.W) return;
-        var pMin = state.perspMin != null ? state.perspMin : 0.7;
-        var pMax = state.perspMax != null ? state.perspMax : 1.55;
+        var pMin = state.perspMin != null ? state.perspMin : 0.52;
         var roundPos = state.roundPath;
 
         for (var i = 0; i < items.length; i++) {
@@ -716,13 +718,13 @@
                 y = Math.round(y);
             }
             var near = (Math.sin(ang) + 1) / 2;
-            var persp = pMin + (pMax - pMin) * near;
+            var scaleNum = cardPerspectiveScale(near, it.scale, pMin);
             var reveal = state.reduced ? 1 : Math.max(0, Math.min(1, (now - it.revealStart) / 500));
             var subFade = subtitleFadeFactor(x, y, state.subtitleZone, state.subtitleFadePad);
             var line = state.lines[i];
             var blur = blurFilter(farPerspectiveBlur(near));
 
-            var scale = (it.scale * persp).toFixed(3);
+            var scale = scaleNum.toFixed(3);
             var px = roundPos ? String(x) : x.toFixed(1);
             var py = roundPos ? String(y) : y.toFixed(1);
             var transform = 'translate3d(' + px + 'px,' + py + 'px,0) translate(-50%,-50%) scale(' + scale + ')';
@@ -732,7 +734,6 @@
                 it._transform = transform;
             }
 
-            var scaleNum = it.scale * persp;
             var cardW = card.offsetWidth || 150;
             var cardH = card.offsetHeight || 48;
             it._halfW = cardW * 0.5 * scaleNum;
