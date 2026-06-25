@@ -67,8 +67,8 @@
     var FAR_BLUR_MAX = 2;
     var FAR_BLUR_MAX_SAFARI = 1.1;
     // Mouse parallax (pointer: fine only; disabled with reduced motion). Orbit only — hero copy stays fixed.
-    var PARALLAX_ORBIT_MAX = 30;
-    var PARALLAX_LERP = 0.09;
+    var PARALLAX_ORBIT_MAX = 14;
+    var PARALLAX_LERP = 0.065;
     var PARALLAX_RING_FACTOR = [1, 0.68, 0.42];
     // Scroll parallax — headline + orbit exit the fold faster than the page scroll.
     var SCROLL_PARALLAX_RATE = 0.42;
