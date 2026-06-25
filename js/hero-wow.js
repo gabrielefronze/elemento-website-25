@@ -177,6 +177,25 @@
             ' ' + x2.toFixed(1) + ' ' + y2.toFixed(1);
     }
 
+    /** Point on a card's axis-aligned bounds along the ray toward (tx, ty). */
+    function rectEdgeToward(cx, cy, tx, ty, halfW, halfH) {
+        var dx = tx - cx;
+        var dy = ty - cy;
+        var len = Math.hypot(dx, dy);
+        if (len < 0.001 || !halfW || !halfH) {
+            return { x: cx, y: cy };
+        }
+        var ux = dx / len;
+        var uy = dy / len;
+        var t = Infinity;
+        if (ux > 0) t = Math.min(t, halfW / ux);
+        else if (ux < 0) t = Math.min(t, -halfW / ux);
+        if (uy > 0) t = Math.min(t, halfH / uy);
+        else if (uy < 0) t = Math.min(t, -halfH / uy);
+        if (!isFinite(t)) t = 0;
+        return { x: cx + ux * t, y: cy + uy * t };
+    }
+
     /** Ellipse position with forced perspective: far arc (sin < 0) has reduced vertical reach. */
     function orbitXY(cx, cy, rH, rV, ang) {
         var sinRaw = Math.sin(ang);
@@ -713,6 +732,12 @@
                 it._transform = transform;
             }
 
+            var scaleNum = it.scale * persp;
+            var cardW = card.offsetWidth || 150;
+            var cardH = card.offsetHeight || 48;
+            it._halfW = cardW * 0.5 * scaleNum;
+            it._halfH = cardH * 0.5 * scaleNum;
+
             var z = String(1 + Math.round(near * 9));
             if (it._z !== z) {
                 card.style.zIndex = z;
@@ -786,7 +811,15 @@
                 }
             }
 
-            var d = archPath(x, y, hubX, hubY, state.roundPath);
+            var edge = rectEdgeToward(x, y, hubX, hubY, it._halfW || 70, it._halfH || 22);
+            var ex = edge.x;
+            var ey = edge.y;
+            if (state.roundPath) {
+                ex = Math.round(ex);
+                ey = Math.round(ey);
+            }
+
+            var d = archPath(ex, ey, hubX, hubY, state.roundPath);
             var line = state.lines[i];
             if (it._path !== d) {
                 line.base.setAttribute('d', d);
