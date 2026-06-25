@@ -66,6 +66,10 @@
     // Far-side depth cue: subtle gaussian blur instead of opacity fade.
     var FAR_BLUR_MAX = 2;
     var FAR_BLUR_MAX_SAFARI = 1.1;
+    // Mouse parallax (pointer: fine only; disabled with reduced motion). Orbit only — hero copy stays fixed.
+    var PARALLAX_ORBIT_MAX = 30;
+    var PARALLAX_LERP = 0.09;
+    var PARALLAX_RING_FACTOR = [1, 0.68, 0.42];
     // Cap render rate — 60fps; Safari keeps separate path throttle below.
     var FRAME_MS = 16;
     // SVG path retessellation is costly in Safari — update lines less often.
@@ -206,6 +210,85 @@
         return px < 0.05 ? 'none' : 'blur(' + px.toFixed(2) + 'px)';
     }
 
+    function canUseParallax() {
+        return window.matchMedia('(pointer: fine)').matches;
+    }
+
+    function orbitCenter(ring) {
+        var f = PARALLAX_RING_FACTOR[ring] || 1;
+        if (!state || !state.parallaxEnabled) {
+            return { x: state.cx, y: state.cy };
+        }
+        return {
+            x: state.cx + state.parallaxX * f,
+            y: state.cy + state.parallaxY * f
+        };
+    }
+
+    function applyHeadlineShift() {
+        if (!state) return;
+        var shiftY = state.headlineShiftY || 0;
+        var t = shiftY
+            ? 'translate3d(0,' + shiftY.toFixed(1) + 'px,0)'
+            : '';
+        document.querySelectorAll('.hero-home__headline, .hero-home__cta').forEach(function (el) {
+            if (el.style.transform !== t) {
+                el.style.transform = t;
+            }
+        });
+    }
+
+    function updateParallax() {
+        if (!state || !state.parallaxEnabled) return;
+        var lerp = PARALLAX_LERP;
+        state.parallaxX += (state.pointerNX * PARALLAX_ORBIT_MAX - state.parallaxX) * lerp;
+        state.parallaxY += (state.pointerNY * PARALLAX_ORBIT_MAX - state.parallaxY) * lerp;
+        state.items.forEach(function (it) {
+            it._path = undefined;
+        });
+    }
+
+    function parallaxNeedsFrame() {
+        if (!state || !state.parallaxEnabled) return false;
+        return Math.abs(state.parallaxX) > 0.15
+            || Math.abs(state.parallaxY) > 0.15
+            || Math.abs(state.pointerNX) > 0.002
+            || Math.abs(state.pointerNY) > 0.002;
+    }
+
+    function bindParallax(hero) {
+        if (!hero || !state || state.reduced || !canUseParallax()) return;
+
+        state.parallaxEnabled = true;
+        state.pointerNX = 0;
+        state.pointerNY = 0;
+        state.parallaxX = 0;
+        state.parallaxY = 0;
+        state.headlineShiftY = 0;
+
+        function onMove(e) {
+            var r = hero.getBoundingClientRect();
+            if (!r.width || !r.height) return;
+            var nx = ((e.clientX - r.left) / r.width - 0.5) * 2;
+            var ny = ((e.clientY - r.top) / r.height - 0.5) * 2;
+            state.pointerNX = Math.max(-1, Math.min(1, nx));
+            state.pointerNY = Math.max(-1, Math.min(1, ny));
+            updateLoop();
+        }
+
+        function onLeave() {
+            state.pointerNX = 0;
+            state.pointerNY = 0;
+            updateLoop();
+        }
+
+        hero.addEventListener('mousemove', onMove);
+        hero.addEventListener('mouseleave', onLeave);
+        state._parallaxHero = hero;
+        state._onParallaxMove = onMove;
+        state._onParallaxLeave = onLeave;
+    }
+
     function measureSubtitleZone(base) {
         var el = document.querySelector('.hero-home .hero-subtitle');
         if (!el) return null;
@@ -337,6 +420,7 @@
 
         layout();
         bindVisibility(hero || wrap);
+        bindParallax(hero);
 
         var resizeTimer = null;
         window.addEventListener('resize', function () {
@@ -380,8 +464,12 @@
         return state && !state.reduced && state.inView && state.docVisible;
     }
 
+    function shouldRenderFrame() {
+        return shouldAnimate() || (state && state.inView && state.docVisible && parallaxNeedsFrame());
+    }
+
     function updateLoop() {
-        if (shouldAnimate()) startLoop();
+        if (shouldRenderFrame()) startLoop();
         else stopLoop();
     }
 
@@ -403,11 +491,12 @@
     }
 
     function frame(now) {
-        if (!shouldAnimate()) {
+        if (!shouldRenderFrame()) {
             stopLoop();
             return;
         }
         state.rafId = window.requestAnimationFrame(frame);
+        updateParallax();
         if (now - state.lastFrame < state.frameMs) return;
         state.lastFrame = now;
         renderCards(now);
@@ -434,9 +523,8 @@
             var nat = word.getBoundingClientRect();
             var deltaY = window.innerHeight / 2 - (nat.top + nat.height / 2);
             deltaY = Math.max(-160, Math.min(220, deltaY));
-            blocks.forEach(function (el) {
-                el.style.transform = 'translateY(' + deltaY.toFixed(1) + 'px)';
-            });
+            state.headlineShiftY = deltaY;
+            applyHeadlineShift();
             var r = word.getBoundingClientRect();
             cx = r.left - base.left + r.width / 2;
             cy = r.top - base.top + r.height / 2;
@@ -514,8 +602,6 @@
     function renderCards(now) {
         var items = state.items;
         if (!items.length || !state.W) return;
-        var cx = state.cx;
-        var cy = state.cy;
         var pMin = state.perspMin != null ? state.perspMin : 0.7;
         var pMax = state.perspMax != null ? state.perspMax : 1.55;
         var roundPos = state.roundPath;
@@ -525,7 +611,8 @@
             if (it.hidden) continue;
 
             var ang = state.reduced ? it.baseAngle : it.baseAngle + now * it.omega;
-            var pos = orbitXY(cx, cy, it.rH, it.rV, ang);
+            var center = orbitCenter(it.ring);
+            var pos = orbitXY(center.x, center.y, it.rH, it.rV, ang);
             var x = pos.x;
             var y = pos.y;
             if (roundPos) {
@@ -601,8 +688,8 @@
     function renderLines(now) {
         var items = state.items;
         if (!items.length || !state.W) return;
-        var cx = state.cx;
-        var cy = state.cy;
+        var hubX = state.cx;
+        var hubY = state.cy;
 
         for (var i = 0; i < items.length; i++) {
             var it = items[i];
@@ -612,7 +699,8 @@
             var y = it._y;
             if (x == null) {
                 var ang = state.reduced ? it.baseAngle : it.baseAngle + now * it.omega;
-                var pos = orbitXY(cx, cy, it.rH, it.rV, ang);
+                var center = orbitCenter(it.ring);
+                var pos = orbitXY(center.x, center.y, it.rH, it.rV, ang);
                 x = pos.x;
                 y = pos.y;
                 if (state.roundPath) {
@@ -621,7 +709,7 @@
                 }
             }
 
-            var d = archPath(x, y, cx, cy, state.roundPath);
+            var d = archPath(x, y, hubX, hubY, state.roundPath);
             var line = state.lines[i];
             if (it._path !== d) {
                 line.base.setAttribute('d', d);
