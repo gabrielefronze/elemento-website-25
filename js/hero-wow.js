@@ -4,8 +4,9 @@
  * Provider + hypervisor glassmorphism cards revolve around the word "Metacloud"
  * in the headline along concentric ellipses (ring 0 closest), each joined to the
  * word by a smoothly arched, animated link line. The word is the shared orbit
- * center; rings rotate at different speeds for a galaxy feel. Cards dim as they
- * sweep behind the headline. Disabled on small portrait viewports — phones get copy + CTAs only.
+ * center; rings rotate at different speeds for a galaxy feel. Cards on each
+ * ring share a fixed radius and angular velocity so slots never collide.
+ * Disabled on small portrait viewports — phones get copy + CTAs only.
  */
 (function () {
     'use strict';
@@ -17,7 +18,7 @@
     var LINE_CLOUD = 'var(--cloud-net-color, #DC3545)';
     var LINE_HYPERVISOR = 'var(--atomos-color, #007bff)';
 
-    // angle: optional hint (degrees); omitted angles are assigned randomly per ring at init.
+    // angle: optional fixed angle (degrees); slot: optional index on ring (default: array order).
     var PROVIDERS = [
         // Hypervisors / virtualization
         { name: 'AtomOS', tag: 'Sovereign hypervisor', img: '/assets/logos/Atomos.svg', accent: 'var(--atomos-color, #007bff)', kind: 'hypervisor', ring: 0 },
@@ -47,10 +48,13 @@
     var RING_V = [0.17, 0.27, 0.36];
     var RING_SCALE = [1, 0.94, 0.86];
     var RING_OP = [1, 0.92, 0.82];
-    // Orbital period baselines per ring, in ms (inner faster, outer slower).
+    // Orbital period per ring, in ms (inner faster, outer slower). All cards on a ring share this period.
     var RING_PERIOD = [72000, 98000, 138000];
-    // Per-card period jitter around the ring baseline (fraction of base).
-    var PERIOD_JITTER = 0.38;
+    var RING_OMEGA = RING_PERIOD.map(function (period) {
+        return (2 * Math.PI) / period;
+    });
+    // Fixed ring phase offsets (rad) so adjacent rings interleave rather than stack.
+    var RING_PHASE = [0, Math.PI / 6, Math.PI / 8];
     // Curve amount for the arched link lines (fraction of chord length).
     var ARCH = 0.16;
     // Cap render rate — 60fps; Safari keeps separate path throttle below.
@@ -79,21 +83,9 @@
         });
     }
 
-    /** Fisher–Yates shuffle (mutates array). */
-    function shuffle(arr) {
-        for (var i = arr.length - 1; i > 0; i--) {
-            var j = Math.floor(Math.random() * (i + 1));
-            var tmp = arr[i];
-            arr[i] = arr[j];
-            arr[j] = tmp;
-        }
-        return arr;
-    }
-
     /**
-     * Assign a random starting angle (radians) to each provider.
-     * Cards on the same ring are evenly spaced with a random ring phase,
-     * shuffled order, and light jitter so layouts differ on every load.
+     * Assign a fixed angular slot to each provider on its ring.
+     * Cards on the same ring are evenly spaced; optional p.angle (degrees) or p.slot overrides.
      */
     function assignStartAngles(providers) {
         var byRing = [[], [], []];
@@ -105,24 +97,16 @@
             byRing[p.ring].push(p);
         });
 
-        byRing.forEach(function (group) {
+        byRing.forEach(function (group, ring) {
             if (!group.length) return;
-            shuffle(group);
-            var phase = Math.random() * Math.PI * 2;
-            var step = (Math.PI * 2) / group.length;
-            var jitterMax = step * 0.28;
+            var n = group.length;
+            var step = (Math.PI * 2) / n;
+            var phase = RING_PHASE[ring] || 0;
             group.forEach(function (p, i) {
-                var jitter = (Math.random() - 0.5) * jitterMax;
-                p.startAngle = phase + step * i + jitter;
+                var slot = typeof p.slot === 'number' ? p.slot : i;
+                p.startAngle = phase + step * slot;
             });
         });
-    }
-
-    /** Angular velocity (rad/ms) with ring baseline + per-card variation. */
-    function orbitOmega(ring) {
-        var base = RING_PERIOD[ring];
-        var period = base * (1 - PERIOD_JITTER + Math.random() * PERIOD_JITTER * 2);
-        return (2 * Math.PI) / period;
     }
 
     var state = null;
@@ -207,39 +191,6 @@
         return 1 - t * (1 - SUBTITLE_MIN_OP);
     }
 
-    /** Measure one visible card at scale 1 for overlap bounds (opacity 0 still lays out). */
-    function measureCardBaseSize(cards) {
-        for (var i = 0; i < cards.length; i++) {
-            if (cards[i].style.display === 'none') continue;
-            var prev = cards[i].style.transform;
-            cards[i].style.transform = 'translate3d(0,0,0) translate(-50%,-50%) scale(1)';
-            var r = cards[i].getBoundingClientRect();
-            cards[i].style.transform = prev;
-            if (r.width > 4 && r.height > 4) {
-                return { w: r.width, h: r.height };
-            }
-        }
-        return { w: 200, h: 52 };
-    }
-
-    function cardHalfExtents(scale) {
-        var compact = state.compact;
-        var w = compact ? 44 : (state.cardBaseW || 200);
-        var h = compact ? 44 : (state.cardBaseH || 52);
-        return { hw: w * scale * 0.48, hh: h * scale * 0.48 };
-    }
-
-    function boxesOverlap(a, b) {
-        return Math.abs(a.x - b.x) < a.hw + b.hw &&
-            Math.abs(a.y - b.y) < a.hh + b.hh;
-    }
-
-    /** True when card a stacks in front of card b (higher orbit z / nearer in depth). */
-    function isAboveCard(a, b) {
-        if (a.z !== b.z) return a.z > b.z;
-        return a.near > b.near;
-    }
-
     function init() {
         var container = document.getElementById('hero-wow-placeholder');
         if (!container) return;
@@ -267,7 +218,8 @@
         svg.setAttribute('preserveAspectRatio', 'none');
         linkLayer.appendChild(svg);
 
-        // Cards orbit above link lines; CTAs sit above the card layer (z-index in CSS/JS).
+        // Cards live in their own layer above the CTAs; lines sit between
+        // CTAs and cards so both render over the buttons but under the hub.
         var cardLayer = document.createElement('div');
         cardLayer.className = 'hero-cards';
         cardLayer.setAttribute('aria-hidden', 'true');
@@ -289,10 +241,10 @@
             items.push({
                 ring: p.ring,
                 baseAngle: p.startAngle,
-                omega: orbitOmega(p.ring),
+                omega: RING_OMEGA[p.ring],
                 scale: RING_SCALE[p.ring],
                 op: RING_OP[p.ring],
-                revealStart: 180 + Math.random() * 420 + i * 40,
+                revealStart: 180 + i * 40,
                 rH: 0,
                 rV: 0
             });
@@ -482,11 +434,6 @@
         var orbitH = Math.min(1, vw / 1350);
         state.orbitV = orbitV;
         state.orbitH = orbitH;
-        state.compact = compact;
-
-        var baseSize = measureCardBaseSize(state.cards);
-        state.cardBaseW = baseSize.w;
-        state.cardBaseH = baseSize.h;
 
         var marginX = Math.max(20, Math.min(96, W * 0.08));
         var marginTop = Math.max(72, H * 0.12);
@@ -506,7 +453,7 @@
             line.flow.style.display = hidden ? 'none' : '';
             it.rH = Math.min(RING_H[it.ring] * W * orbitH, maxH);
             it.rV = Math.min(RING_V[it.ring] * H * orbitV, maxV);
-            it._path = it._transform = it._opacity = it._z = it._lineOp = it._stackGlass = undefined;
+            it._path = it._transform = it._opacity = it._z = it._lineOp = undefined;
         });
 
         if (state.reduced) {
@@ -527,7 +474,6 @@
         var pMin = state.perspMin != null ? state.perspMin : 0.7;
         var pMax = state.perspMax != null ? state.perspMax : 1.55;
         var roundPos = state.roundPath;
-        var frame = [];
 
         for (var i = 0; i < items.length; i++) {
             var it = items[i];
@@ -545,9 +491,8 @@
             var farFade = 0.58 + 0.42 * near;
             var reveal = state.reduced ? 1 : Math.max(0, Math.min(1, (now - it.revealStart) / 500));
             var subFade = subtitleFadeFactor(x, y, state.subtitleZone, state.subtitleFadePad);
-            var scaleNum = it.scale * persp;
 
-            var scale = scaleNum.toFixed(3);
+            var scale = (it.scale * persp).toFixed(3);
             var px = roundPos ? String(x) : x.toFixed(1);
             var py = roundPos ? String(y) : y.toFixed(1);
             var transform = 'translate3d(' + px + 'px,' + py + 'px,0) translate(-50%,-50%) scale(' + scale + ')';
@@ -569,40 +514,9 @@
                 it._opacity = opacity;
             }
 
-            var extents = cardHalfExtents(scaleNum);
-            frame.push({
-                i: i,
-                x: x,
-                y: y,
-                near: near,
-                z: parseInt(z, 10),
-                hw: extents.hw,
-                hh: extents.hh
-            });
-
             it._x = x;
             it._y = y;
             it._lineOpVal = 0.7 * reveal * farFade * subFade;
-        }
-
-        for (var a = 0; a < frame.length; a++) {
-            var fa = frame[a];
-            var overlapGlass = false;
-            for (var b = 0; b < frame.length; b++) {
-                if (a === b) continue;
-                var fb = frame[b];
-                if (boxesOverlap(fa, fb) && isAboveCard(fa, fb)) {
-                    overlapGlass = true;
-                    break;
-                }
-            }
-            var useGlass = overlapGlass;
-            var item = items[fa.i];
-            var cardEl = state.cards[fa.i];
-            if (item._stackGlass !== useGlass) {
-                cardEl.classList.toggle('provider-float--cta-glass', useGlass);
-                item._stackGlass = useGlass;
-            }
         }
     }
 

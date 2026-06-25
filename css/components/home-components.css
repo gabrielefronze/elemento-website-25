@@ -416,17 +416,7 @@
     opacity: 0;
     will-change: transform, opacity;
     contain: layout style paint;
-    transition: border-color 0.25s ease, box-shadow 0.25s ease,
-        backdrop-filter 0.35s ease, -webkit-backdrop-filter 0.35s ease,
-        background 0.35s ease;
-}
-
-/* Gaussian glass on the front card when two orbit cards overlap (toggled by JS). */
-.provider-float--cta-glass {
-    contain: layout style;
-    background: color-mix(in srgb, var(--glassmorphism-background) 78%, transparent);
-    -webkit-backdrop-filter: blur(16px);
-    backdrop-filter: blur(16px);
+    transition: border-color 0.25s ease, box-shadow 0.25s ease;
 }
 
 .provider-float:hover {
@@ -498,15 +488,6 @@
 
 .hero-wow--safari .hero-link {
     animation: none;
-}
-
-.hero-wow--safari .provider-float--cta-glass {
-    -webkit-backdrop-filter: none;
-    backdrop-filter: none;
-    background: color-mix(in srgb, var(--glassmorphism-background) 92%, var(--background-color));
-    box-shadow:
-        var(--glassmorphism-shadow),
-        inset 0 1px 0 color-mix(in srgb, var(--white-light, #fff) 12%, transparent);
 }
 
 .hero-wow--safari .hero-providers__glow {
