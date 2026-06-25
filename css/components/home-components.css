@@ -271,8 +271,8 @@
 }
 
 /* Split hero content into two stacking layers at the hero root:
-   headline (10) > cards (3) > lines (2) > CTAs (1).
-   Cards orbit behind the headline copy — never over it. */
+   headline (10) > CTAs (5) > cards (3) > lines (2) > wow (1).
+   Cards orbit behind the headline copy — never over it; CTAs stay tappable above the orbit. */
 .hero-home .hero-container.hero-home__headline {
     position: relative;
     z-index: 10;
@@ -281,7 +281,7 @@
 
 .hero-home .hero-container.hero-home__cta {
     position: relative;
-    z-index: 1;
+    z-index: 5;
     margin-top: calc(-1 * var(--space-md));
 }
 
@@ -514,22 +514,51 @@
     opacity: 0.85;
 }
 
-/* Narrow screens: keep the orbit but show compact icon-only chips and
-   disable pointer interaction so cards never block taps on the hero CTAs. */
+/* Mobile / narrow: skip the constellation — copy and CTAs only. */
 @media (max-width: 992px) {
-    .provider-float {
-        padding: 0.34rem;
-        gap: 0;
-        border-radius: 11px;
-        pointer-events: none;
+    .hero-wow,
+    .hero-links,
+    .hero-cards {
+        display: none !important;
     }
-    .provider-float__text {
-        display: none;
+
+    .hero.hero-home {
+        min-height: auto;
+        height: auto;
+        align-items: stretch;
+        justify-content: flex-start;
+        overflow: visible;
+        padding-top: calc(var(--header-offset) + var(--space-md));
+        padding-bottom: var(--space-xl);
     }
-    .provider-float__logo {
-        width: 32px;
-        height: 32px;
+
+    .hero-home .hero-container.hero-home__headline,
+    .hero-home .hero-container.hero-home__cta {
+        transform: none !important;
+        margin-top: 0;
+    }
+
+    .hero-home .hero-container.hero-home__cta {
+        padding-top: 0;
+    }
+
+    .hero-home .hero-title {
+        font-size: clamp(2rem, 9vw, 2.75rem);
+        margin-bottom: var(--space-md);
+    }
+
+    .hero-home .hero-subtitle {
+        font-size: 1rem;
+        margin-bottom: var(--space-lg);
+    }
+
+    .hero-home .home-tagline {
         font-size: 0.95rem;
+    }
+
+    #atmosphere-hero-placeholder .orbit-object,
+    #atmosphere-hero-placeholder .particles-container {
+        opacity: 0.45;
     }
 }
 

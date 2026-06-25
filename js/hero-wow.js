@@ -5,10 +5,12 @@
  * in the headline along concentric ellipses (ring 0 closest), each joined to the
  * word by a smoothly arched, animated link line. The word is the shared orbit
  * center; rings rotate at different speeds for a galaxy feel. Cards dim as they
- * sweep behind the headline. Hidden on small / portrait screens via CSS.
+ * sweep behind the headline. Disabled below 992px — mobile gets copy + CTAs only.
  */
 (function () {
     'use strict';
+
+    var MOBILE_MQ = '(max-width: 992px)';
 
     var SVGNS = 'http://www.w3.org/2000/svg';
 
@@ -63,6 +65,18 @@
 
     function prefersReducedMotion() {
         return window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    }
+
+    function isMobileViewport() {
+        return window.matchMedia(MOBILE_MQ).matches;
+    }
+
+    function resetHeroBlocks() {
+        document.querySelectorAll('.hero-home__headline, .hero-home__cta').forEach(function (el) {
+            el.style.transform = '';
+            el.style.position = '';
+            el.style.zIndex = '';
+        });
     }
 
     /** Fisher–Yates shuffle (mutates array). */
@@ -208,6 +222,11 @@
     function init() {
         var container = document.getElementById('hero-wow-placeholder');
         if (!container) return;
+        if (isMobileViewport()) {
+            resetHeroBlocks();
+            return;
+        }
+
         var wrap = container.closest('.hero-wow');
 
         var providers = document.createElement('div');
@@ -267,7 +286,7 @@
             hero.appendChild(cardLayer);
         }
 
-        // Enforce stacking: headline (10) > cards (3) > lines (2) > CTAs (1).
+        // Enforce stacking: headline (10) > CTAs (5) > cards (3) > lines (2).
         var headline = document.querySelector('.hero-home__headline');
         var cta = document.querySelector('.hero-home__cta');
         if (headline) {
@@ -276,7 +295,7 @@
         }
         if (cta) {
             cta.style.position = 'relative';
-            cta.style.zIndex = '1';
+            cta.style.zIndex = '5';
         }
         linkLayer.style.zIndex = '2';
         cardLayer.style.zIndex = '3';

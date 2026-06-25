@@ -1551,11 +1551,11 @@
     "extraCss": [
       "css/atmosphere.css",
       "css/planet-styles/planet-index.css",
+      "css/home.css",
+      "css/components/home-components.css",
       "css/metacloud-sections.css",
       "css/rocket.css",
-      "css/success-stories-carousel.css",
-      "css/home.css",
-      "css/components/home-components.css"
+      "css/success-stories-carousel.css"
     ],
     "extraScripts": [
       "js/banners/config.js",

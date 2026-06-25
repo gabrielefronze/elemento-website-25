@@ -212,13 +212,15 @@ body {
 
 /* Announcement Banner */
 :root {
+    --safe-area-top: env(safe-area-inset-top, 0px);
     --announcement-banner-height: 40px;
     --navbar-height: 80px;
-    --header-offset: var(--navbar-height);
+    --header-offset: calc(var(--safe-area-top) + var(--navbar-height));
 }
 
+body.site-has-banner,
 body:has(.site-header--has-banner) {
-    --header-offset: calc(var(--navbar-height) + var(--announcement-banner-height));
+    --header-offset: calc(var(--safe-area-top) + var(--navbar-height) + var(--announcement-banner-height));
 }
 
 /* Fixed header chrome — banner + navbar share one stacking context */
@@ -230,6 +232,7 @@ body:has(.site-header--has-banner) {
     z-index: 10000;
     isolation: isolate;
     background-color: transparent;
+    padding-top: var(--safe-area-top);
 }
 
 .announcement-banner {
@@ -431,24 +434,46 @@ body:has(.site-header--has-banner) {
 
 /* Responsive banner styles */
 @media (max-width: 768px) {
+    body.site-has-banner,
+    body:has(.site-header--has-banner) {
+        --announcement-banner-height: 52px;
+    }
+
     .announcement-banner {
-        padding: 0.2rem 0.75rem;
+        height: auto;
+        min-height: var(--announcement-banner-height);
+        padding: 0.35rem 0.75rem;
         font-size: 0.85rem;
     }
 
+    .banner-content {
+        flex-direction: column;
+        gap: 0.1rem;
+        line-height: 1.2;
+    }
+
     .banner-text {
-        font-size: 0.9rem;
+        font-size: 0.82rem;
+    }
+
+    .banner-cta {
+        font-size: 0.78rem;
     }
 }
 
 @media (max-width: 480px) {
+    body.site-has-banner,
+    body:has(.site-header--has-banner) {
+        --announcement-banner-height: 68px;
+    }
+
     .announcement-banner {
-        padding: 0.15rem 0.625rem;
+        padding: 0.3rem 0.625rem;
         font-size: 0.8rem;
     }
 
     .banner-text {
-        font-size: 0.85rem;
+        font-size: 0.78rem;
     }
 }
 

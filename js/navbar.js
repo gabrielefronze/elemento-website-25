@@ -576,6 +576,11 @@ class Navbar {
         // Initialize theme toggle functionality
         this.initThemeToggle();
         this.initLangSwitcher();
+
+        document.body.classList.toggle(
+            'site-has-banner',
+            Boolean(document.querySelector('.announcement-banner'))
+        );
     }
 
     showSectionDropdowns() {
