@@ -112,7 +112,7 @@
     width: 3px;
     height: 20px;
     /* border: 1px solid var(--blue); */
-    background: linear-gradient(to bottom, var(--accent-color), transparent);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.95), transparent);
     transform-origin: top center;
     transform: translate(-7px, 7px) rotate(45deg);
     opacity: 0;
