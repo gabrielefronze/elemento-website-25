@@ -119,6 +119,18 @@
     text-decoration: underline;
 }
 
+.hero-home .home-tagline-link--electros {
+    color: var(--primary-color, #ffa600);
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.hero-home .home-tagline-link--electros:hover {
+    color: var(--accent-color-dark, #f28e00);
+    text-decoration: underline;
+}
+
 .hero-home .quick-contact-options {
     display: flex;
     flex-direction: row;
