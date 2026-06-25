@@ -491,21 +491,31 @@
     }
 }
 
-/* Safari/WebKit: backdrop-filter + animated SVG dashes are very costly. */
-.hero-wow--safari .hero-cards,
+/* Safari/WebKit: isolate SVG repaints from card layer; skip costly filters. */
 .hero-wow--safari .hero-links {
+    isolation: isolate;
+    contain: layout style paint;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+}
+
+.hero-wow--safari .hero-cards {
+    isolation: isolate;
+    contain: layout style;
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
 
 .hero-wow--safari .provider-float {
-    will-change: auto;
+    contain: layout style;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+    -webkit-font-smoothing: antialiased;
 }
 
 .hero-wow--safari .hero-link {
     animation: none;
+    will-change: auto;
 }
 
 .hero-wow--safari .hero-providers__glow {

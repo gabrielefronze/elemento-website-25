@@ -73,10 +73,10 @@
     var PARALLAX_RING_FACTOR = [1, 0.68, 0.42];
     // Scroll parallax — headline + orbit exit the fold faster than the page scroll.
     var SCROLL_PARALLAX_RATE = 0.42;
-    // Cap render rate — 60fps; Safari keeps separate path throttle below.
+    // Cap render rate — 60fps.
     var FRAME_MS = 16;
-    // SVG path retessellation is costly in Safari — update lines less often.
-    var PATH_MS_SAFARI = 80;
+    // Safari: synced frames, integer paths, batched SVG writes (see renderLines).
+    var FRAME_MS_SAFARI = 32;
 
     var IS_SAFARI = (function () {
         var ua = navigator.userAgent;
@@ -168,10 +168,13 @@
         var dx = x2 - x1;
         var dy = y2 - y1;
         var len = Math.hypot(dx, dy) || 1;
-        // Always bow the control point upward so every arch curves toward
-        // the top, regardless of the line's radial direction.
         var cxp = mx;
         var cyp = my - len * ARCH;
+        if (round) {
+            return 'M' + x1 + ' ' + y1 +
+                ' Q' + Math.round(cxp) + ' ' + Math.round(cyp) +
+                ' ' + x2 + ' ' + y2;
+        }
         return 'M ' + x1.toFixed(1) + ' ' + y1.toFixed(1) +
             ' Q ' + cxp.toFixed(1) + ' ' + cyp.toFixed(1) +
             ' ' + x2.toFixed(1) + ' ' + y2.toFixed(1);
@@ -196,7 +199,6 @@
         return { x: cx + ux * t, y: cy + uy * t };
     }
 
-    /** Scale at the near arc (1); far arc zooms out toward perspMin. Ring size fades in only on the far side. */
     /** Near arc = 1 (base CSS size, never upscaled). Far arc zooms out toward perspMin. */
     function cardPerspectiveScale(near, ringScale, pMin) {
         var depth = pMin + (1 - pMin) * near;
@@ -509,9 +511,8 @@
             svg: svg, cards: cards, lines: lines,
             items: items, cx: 0, cy: 0, W: 0, reduced: reduced,
             inView: true, docVisible: !document.hidden,
-            running: false, rafId: null, lastFrame: 0, lastPath: 0,
-            frameMs: FRAME_MS,
-            pathMs: IS_SAFARI ? PATH_MS_SAFARI : 0,
+            running: false, rafId: null, lastFrame: 0,
+            frameMs: IS_SAFARI ? FRAME_MS_SAFARI : FRAME_MS,
             roundPath: IS_SAFARI,
             _hero: hero, scrollParallaxY: 0, headlineShiftY: 0
         };
@@ -577,7 +578,6 @@
         if (!state || state.running) return;
         state.running = true;
         state.lastFrame = 0;
-        state.lastPath = 0;
         state.rafId = window.requestAnimationFrame(frame);
     }
 
@@ -601,10 +601,7 @@
         if (now - state.lastFrame < state.frameMs) return;
         state.lastFrame = now;
         renderCards(now);
-        if (!state.pathMs || now - state.lastPath >= state.pathMs) {
-            state.lastPath = now;
-            renderLines(now);
-        }
+        renderLines(now);
     }
 
     function layout() {
@@ -682,7 +679,17 @@
             line.flow.style.display = hidden ? 'none' : '';
             it.rH = Math.min(RING_H[it.ring] * W * orbitH, maxH);
             it.rV = Math.min(RING_V[it.ring] * H * orbitV, maxV);
+            it._baseHalfW = it._baseHalfH = undefined;
             it._path = it._transform = it._opacity = it._z = it._lineOp = it._lineDash = it._lineDashOff = it._near = it._farBlur = undefined;
+        });
+
+        state.items.forEach(function (it, idx) {
+            if (it.hidden) return;
+            var card = state.cards[idx];
+            if (card.offsetWidth) {
+                it._baseHalfW = card.offsetWidth * 0.5;
+                it._baseHalfH = card.offsetHeight * 0.5;
+            }
         });
 
         if (state.reduced) {
@@ -720,7 +727,6 @@
             var scaleNum = cardPerspectiveScale(near, it.scale, pMin);
             var reveal = state.reduced ? 1 : Math.max(0, Math.min(1, (now - it.revealStart) / 500));
             var subFade = subtitleFadeFactor(x, y, state.subtitleZone, state.subtitleFadePad);
-            var line = state.lines[i];
             var blur = blurFilter(farPerspectiveBlur(near));
 
             var scale = scaleNum.toFixed(3);
@@ -733,10 +739,10 @@
                 it._transform = transform;
             }
 
-            var cardW = card.offsetWidth || 150;
-            var cardH = card.offsetHeight || 48;
-            it._halfW = cardW * 0.5 * scaleNum;
-            it._halfH = cardH * 0.5 * scaleNum;
+            var baseW = it._baseHalfW || 105;
+            var baseH = it._baseHalfH || 36;
+            it._halfW = baseW * scaleNum;
+            it._halfH = baseH * scaleNum;
 
             var z = String(1 + Math.round(near * 9));
             if (it._z !== z) {
@@ -752,8 +758,6 @@
 
             if (it._farBlur !== blur) {
                 card.style.filter = blur;
-                line.flow.style.filter = blur;
-                line.base.style.filter = blur;
                 it._farBlur = blur;
             }
 
@@ -761,29 +765,49 @@
             it._y = y;
             it._near = near;
             it._lineOpVal = 0.7 * reveal * subFade;
+        }
+    }
 
-            var dash = lineDashStyle(near);
-            var dashKey = dash.dashArray + '|' + dash.flowWidth;
-            if (it._lineDash !== dashKey) {
-                line.flow.style.strokeDasharray = dash.dashArray;
-                line.flow.style.strokeWidth = dash.flowWidth;
-                line.base.style.strokeWidth = dash.baseWidth;
-                it._lineDash = dashKey;
-                it._lineDashPeriod = dash.period;
+    function applyLineStyles(now, it, line) {
+        var near = it._near != null ? it._near : 0.5;
+        var blur = blurFilter(farPerspectiveBlur(near));
+
+        if (it._lineFarBlur !== blur) {
+            line.flow.style.filter = blur;
+            line.base.style.filter = blur;
+            it._lineFarBlur = blur;
+        }
+
+        var dash = lineDashStyle(near);
+        var dashKey = dash.dashArray + '|' + dash.flowWidth;
+        if (it._lineDash !== dashKey) {
+            line.flow.style.strokeDasharray = dash.dashArray;
+            line.flow.style.strokeWidth = dash.flowWidth;
+            line.base.style.strokeWidth = dash.baseWidth;
+            it._lineDash = dashKey;
+            it._lineDashPeriod = dash.period;
+        }
+
+        if (!state.reduced && shouldAnimate() && !IS_SAFARI) {
+            line.flow.style.animation = 'none';
+            var period = it._lineDashPeriod || 11;
+            var off = -((now % LINE_DASH_FLOW_MS) / LINE_DASH_FLOW_MS) * period;
+            var offStr = state.roundPath
+                ? String(Math.round(off))
+                : off.toFixed(2);
+            if (it._lineDashOff !== offStr) {
+                line.flow.style.strokeDashoffset = offStr;
+                it._lineDashOff = offStr;
             }
-            if (!state.reduced && shouldAnimate()) {
-                line.flow.style.animation = 'none';
-                var period = it._lineDashPeriod || 11;
-                var off = -((now % LINE_DASH_FLOW_MS) / LINE_DASH_FLOW_MS) * period;
-                var offStr = off.toFixed(2);
-                if (it._lineDashOff !== offStr) {
-                    line.flow.style.strokeDashoffset = offStr;
-                    it._lineDashOff = offStr;
-                }
-            } else if (it._lineDashOff !== '0') {
-                line.flow.style.strokeDashoffset = '0';
-                it._lineDashOff = '0';
-            }
+        } else if (it._lineDashOff !== '0') {
+            line.flow.style.strokeDashoffset = '0';
+            it._lineDashOff = '0';
+        }
+
+        var lineOp = (it._lineOpVal != null ? it._lineOpVal : 0.7).toFixed(3);
+        if (it._lineOp !== lineOp) {
+            line.flow.style.opacity = lineOp;
+            it._lineOp = lineOp;
         }
     }
 
@@ -827,11 +851,7 @@
                 it._path = d;
             }
 
-            var lineOp = (it._lineOpVal != null ? it._lineOpVal : 0.7).toFixed(3);
-            if (it._lineOp !== lineOp) {
-                line.flow.style.opacity = lineOp;
-                it._lineOp = lineOp;
-            }
+            applyLineStyles(now, it, line);
         }
     }
 
