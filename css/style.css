@@ -484,17 +484,16 @@ body:has(.site-header--has-banner) {
     left: auto;
     right: auto;
     z-index: 2;
-    background-color: var(--background-color);
-    border-bottom: none;
-    box-shadow: 0 1px 0 var(--glassmorphism-border);
-    transition: background-color 0.2s ease;
+    background: transparent;
+    border-bottom: 1px solid var(--glassmorphism-border);
+    box-shadow: var(--glassmorphism-shadow);
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .navbar.has-banner {
     top: auto;
 }
 
-/* Opaque bar — prevents page content bleeding through on scroll */
 .navbar::after {
     content: '';
     position: absolute;
@@ -502,13 +501,11 @@ body:has(.site-header--has-banner) {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: var(--background-color);
+    background: var(--glassmorphism-background);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     z-index: -1;
     pointer-events: none;
-}
-
-.theme-dark .navbar::after {
-    background-color: var(--black);
 }
 
 .nav-container {
@@ -744,7 +741,9 @@ body:has(.site-header--has-banner) {
     right: 0;
     margin: auto;
     border-radius: 0 0 var(--radius-lg) var(--radius-lg);
-    background-color: var(--background-color);
+    background: var(--glassmorphism-background);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     border-top: 1px solid var(--glassmorphism-border);
     border-bottom: 1px solid var(--glassmorphism-border);
     box-shadow: var(--glassmorphism-shadow);
@@ -2214,11 +2213,10 @@ body:has(.site-header--has-banner) {
         right: auto;
         margin: 0;
         border-radius: var(--radius-none);
-        background: rgba(255, 255, 255, 0.95);
+        background: var(--glassmorphism-background);
         backdrop-filter: blur(20px);
-        box-shadow: 
-            0 8px 32px rgba(0, 0, 0, 0.15),
-            inset 0 1px 0 rgba(255, 255, 255, 0.25);
+        -webkit-backdrop-filter: blur(20px);
+        box-shadow: var(--glassmorphism-shadow);
         border-top: 1px solid var(--glassmorphism-border);
         border-bottom: 1px solid var(--glassmorphism-border);
         opacity: 1;
@@ -2227,21 +2225,13 @@ body:has(.site-header--has-banner) {
         width: 100%;
         max-width: none;
     }
-    
-    .theme-dark .dropdown-menu {
-        background: rgba(26, 28, 32, 0.95);
-        backdrop-filter: blur(20px);
-        box-shadow: 
-            0 8px 32px rgba(0, 0, 0, 0.3),
-            inset 0 1px 0 rgba(255, 255, 255, 0.1);
-    }
-    
+
     .theme-high-contrast .dropdown-menu {
-        background: rgba(0, 0, 0, 0.98);
         backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
         border-top: 2px solid var(--primary-color);
         border-bottom: 2px solid var(--primary-color);
-        box-shadow: 
+        box-shadow:
             0 8px 32px rgba(0, 0, 0, 0.5),
             inset 0 1px 0 rgba(255, 166, 0, 0.2);
     }
