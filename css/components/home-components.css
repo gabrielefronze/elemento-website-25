@@ -338,6 +338,17 @@
     z-index: -1;
 }
 
+.hero-home .hero-metacloud--hub-pulse::before {
+    border-color: color-mix(
+        in srgb,
+        #fff calc(var(--hub-pulse, 1) * 14%),
+        color-mix(in srgb, var(--accent-color, #ffa600) 60%, #fff)
+    );
+    box-shadow:
+        0 16px 52px rgba(0, 0, 0, 0.5),
+        0 0 calc(44px + 7px * var(--hub-pulse, 1)) rgba(255, 166, 0, calc(0.46 + 0.1 * var(--hub-pulse, 1)));
+}
+
 .hero-home .hero-content {
     position: relative;
 }
@@ -414,6 +425,18 @@
 .provider-float:hover {
     border-color: color-mix(in srgb, var(--accent, var(--primary-color)) 65%, transparent);
     box-shadow: 0 16px 44px rgba(0, 0, 0, 0.32);
+}
+
+/* Metacloud hub pulse — yellow highlight on card + connector. */
+.provider-float--hub-pulse {
+    border-color: color-mix(
+        in srgb,
+        var(--primary-color, #ffa600) calc(40% + var(--hub-pulse, 1) * 60%),
+        var(--glassmorphism-border)
+    );
+    box-shadow:
+        0 0 calc(16px + 22px * var(--hub-pulse, 1)) rgba(255, 166, 0, calc(0.28 + 0.32 * var(--hub-pulse, 1))),
+        var(--glassmorphism-shadow);
 }
 
 .provider-float__logo {

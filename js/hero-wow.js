@@ -77,6 +77,12 @@
     var FRAME_MS = 16;
     // Safari: synced frames, integer paths, batched SVG writes (see renderLines).
     var FRAME_MS_SAFARI = 32;
+    // Metacloud hub pulse — every 2s, 1–2 foreground cards; each highlight decays over 7s.
+    var HUB_PULSE_COLOR = '#ffa600';
+    var HUB_PULSE_INTERVAL = 2000;
+    var HUB_PULSE_DECAY = 7000;
+    var HUB_PULSE_FADE_IN = 400;
+    var METACLOUD_PULSE_SCALE = 0.38;
 
     var IS_SAFARI = (function () {
         var ua = navigator.userAgent;
@@ -204,6 +210,124 @@
         var depth = pMin + (1 - pMin) * near;
         var ringBlend = 1 - (1 - ringScale) * (1 - near);
         return Math.min(1, depth * ringBlend);
+    }
+
+    function hubPulseEnvelope(now) {
+        var pulse = state && state.hubPulse;
+        if (!pulse || !pulse.metacloudStart) return 0;
+        return hubPulseStrengthAt(now, pulse.metacloudStart);
+    }
+
+    function hubPulseStrengthAt(now, start) {
+        if (!start) return 0;
+        var t = now - start;
+        if (t < 0 || t > HUB_PULSE_DECAY) return 0;
+        if (t < HUB_PULSE_FADE_IN) return t / HUB_PULSE_FADE_IN;
+        var decayLen = HUB_PULSE_DECAY - HUB_PULSE_FADE_IN;
+        if (decayLen <= 0) return 0;
+        return Math.max(0, 1 - (t - HUB_PULSE_FADE_IN) / decayLen);
+    }
+
+    function hubPulseStrength(now, index) {
+        var it = state && state.items && state.items[index];
+        if (!it || it.hidden || !it._hubPulseStart) return 0;
+        var start = it._hubPulseStart;
+        var strength = hubPulseStrengthAt(now, start);
+        if (now - start >= HUB_PULSE_DECAY) it._hubPulseStart = 0;
+        return strength;
+    }
+
+    function isForegroundOrbit(index, now) {
+        var it = state && state.items && state.items[index];
+        if (!it || it.hidden) return false;
+        var ang = state.reduced ? it.baseAngle : it.baseAngle + now * it.omega;
+        return Math.sin(ang) >= 0;
+    }
+
+    function pickHubPulseIndices(visible, now) {
+        var foreground = visible.filter(function (i) {
+            return isForegroundOrbit(i, now);
+        });
+        var pool = foreground.length ? foreground : visible;
+        var count = Math.min(pool.length, 1 + Math.floor(Math.random() * 2));
+        pool = pool.slice();
+        for (var j = pool.length - 1; j > 0; j--) {
+            var k = Math.floor(Math.random() * (j + 1));
+            var tmp = pool[j];
+            pool[j] = pool[k];
+            pool[k] = tmp;
+        }
+        return pool.slice(0, count);
+    }
+
+    function triggerHubPulse(now, indices) {
+        for (var i = 0; i < indices.length; i++) {
+            state.items[indices[i]]._hubPulseStart = now;
+        }
+        state.hubPulse.metacloudStart = now;
+    }
+
+    function tickHubPulse(now) {
+        if (!state || state.reduced || !shouldAnimate()) return;
+        var pulse = state.hubPulse;
+        if (!pulse) return;
+        if (now < pulse.nextAt) return;
+
+        var visible = [];
+        state.items.forEach(function (it, i) {
+            if (!it.hidden) visible.push(i);
+        });
+        if (!visible.length) return;
+
+        triggerHubPulse(now, pickHubPulseIndices(visible, now));
+        pulse.nextAt = now + HUB_PULSE_INTERVAL;
+    }
+
+    function applyCardHubPulse(card, it, pulse) {
+        if (pulse > 0) {
+            card.style.setProperty('--hub-pulse', pulse.toFixed(3));
+            if (!it._hubPulseOn) {
+                card.classList.add('provider-float--hub-pulse');
+                it._hubPulseOn = true;
+            }
+        } else if (it._hubPulseOn) {
+            card.classList.remove('provider-float--hub-pulse');
+            card.style.removeProperty('--hub-pulse');
+            it._hubPulseOn = false;
+        }
+    }
+
+    function applyMetacloudHubPulse(now) {
+        var el = state._metacloudEl || document.getElementById('hero-metacloud');
+        if (!el || !state.hubPulse) return;
+        state._metacloudEl = el;
+
+        var start = state.hubPulse.metacloudStart;
+        if (!start) {
+            if (state._metacloudPulseOn) {
+                el.classList.remove('hero-metacloud--hub-pulse');
+                el.style.removeProperty('--hub-pulse');
+                state._metacloudPulseOn = false;
+            }
+            return;
+        }
+
+        var wave = hubPulseStrengthAt(now, start);
+        if (now - start >= HUB_PULSE_DECAY) {
+            state.hubPulse.metacloudStart = 0;
+            el.classList.remove('hero-metacloud--hub-pulse');
+            el.style.removeProperty('--hub-pulse');
+            state._metacloudPulseOn = false;
+            return;
+        }
+
+        if (wave > 0) {
+            el.style.setProperty('--hub-pulse', (wave * METACLOUD_PULSE_SCALE).toFixed(3));
+            if (!state._metacloudPulseOn) {
+                el.classList.add('hero-metacloud--hub-pulse');
+                state._metacloudPulseOn = true;
+            }
+        }
     }
 
     /** Ellipse position with forced perspective: far arc (sin < 0) has reduced vertical reach. */
@@ -467,6 +591,7 @@
 
             items.push({
                 ring: p.ring,
+                accent: p.accent,
                 baseAngle: p.startAngle,
                 omega: RING_OMEGA[p.ring],
                 scale: RING_SCALE[p.ring],
@@ -514,7 +639,11 @@
             running: false, rafId: null, lastFrame: 0,
             frameMs: IS_SAFARI ? FRAME_MS_SAFARI : FRAME_MS,
             roundPath: IS_SAFARI,
-            _hero: hero, scrollParallaxY: 0, headlineShiftY: 0
+            _hero: hero, scrollParallaxY: 0, headlineShiftY: 0,
+            hubPulse: reduced ? null : {
+                nextAt: performance.now() + 900,
+                metacloudStart: 0
+            }
         };
 
         layout();
@@ -598,6 +727,8 @@
         state.rafId = window.requestAnimationFrame(frame);
         updateParallax();
         updateScrollParallax();
+        tickHubPulse(now);
+        applyMetacloudHubPulse(now);
         if (now - state.lastFrame < state.frameMs) return;
         state.lastFrame = now;
         renderCards(now);
@@ -765,11 +896,14 @@
             it._y = y;
             it._near = near;
             it._lineOpVal = 0.7 * reveal * subFade;
+            it._hubPulse = hubPulseStrength(now, i);
+            applyCardHubPulse(card, it, it._hubPulse);
         }
     }
 
     function applyLineStyles(now, it, line) {
         var near = it._near != null ? it._near : 0.5;
+        var pulse = it._hubPulse || 0;
         var blur = blurFilter(farPerspectiveBlur(near));
 
         if (it._lineFarBlur !== blur) {
@@ -778,12 +912,21 @@
             it._lineFarBlur = blur;
         }
 
+        var stroke = pulse > 0 ? HUB_PULSE_COLOR : it.accent;
+        if (it._lineStroke !== stroke) {
+            line.flow.style.stroke = stroke;
+            line.base.style.stroke = stroke;
+            it._lineStroke = stroke;
+        }
+
         var dash = lineDashStyle(near);
-        var dashKey = dash.dashArray + '|' + dash.flowWidth;
+        var flowW = (parseFloat(dash.flowWidth) * (1 + pulse * 0.55)).toFixed(2);
+        var baseW = (parseFloat(dash.baseWidth) * (1 + pulse * 0.9)).toFixed(2);
+        var dashKey = dash.dashArray + '|' + flowW + '|' + baseW + '|' + pulse.toFixed(2);
         if (it._lineDash !== dashKey) {
             line.flow.style.strokeDasharray = dash.dashArray;
-            line.flow.style.strokeWidth = dash.flowWidth;
-            line.base.style.strokeWidth = dash.baseWidth;
+            line.flow.style.strokeWidth = flowW;
+            line.base.style.strokeWidth = baseW;
             it._lineDash = dashKey;
             it._lineDashPeriod = dash.period;
         }
@@ -804,10 +947,22 @@
             it._lineDashOff = '0';
         }
 
-        var lineOp = (it._lineOpVal != null ? it._lineOpVal : 0.7).toFixed(3);
+        var baseOp = it._lineOpVal != null ? it._lineOpVal : 0.7;
+        var lineOp = Math.min(1, baseOp * (1 + pulse * 0.45)).toFixed(3);
         if (it._lineOp !== lineOp) {
             line.flow.style.opacity = lineOp;
             it._lineOp = lineOp;
+        }
+
+        if (pulse > 0.02) {
+            var baseLineOp = (0.12 + pulse * 0.3).toFixed(3);
+            if (it._lineBaseOp !== baseLineOp) {
+                line.base.style.opacity = baseLineOp;
+                it._lineBaseOp = baseLineOp;
+            }
+        } else if (it._lineBaseOp != null) {
+            line.base.style.opacity = '';
+            it._lineBaseOp = null;
         }
     }
 
