@@ -369,6 +369,58 @@ class ElementoWebsite {
         this.setupPerformanceOptimizations();
         this.setupAccessibility();
         this.setupiubendaScripts();
+        this.setupRocketButtons();
+    }
+
+    setupRocketButtons() {
+        const boundButtons = new WeakSet();
+
+        const ensureBound = (btn) => {
+            if (boundButtons.has(btn)) {
+                return;
+            }
+
+            const flyaway = btn.querySelector('.rocket-flyaway');
+            if (!flyaway) {
+                return;
+            }
+
+            boundButtons.add(btn);
+            flyaway.addEventListener('animationend', (event) => {
+                if (event.animationName !== 'rocket-fly' || event.target !== flyaway) {
+                    return;
+                }
+                btn.classList.remove('rocket-btn--flying');
+            });
+        };
+
+        const startAnimation = (btn) => {
+            ensureBound(btn);
+            if (btn.classList.contains('rocket-btn--flying')) {
+                return;
+            }
+            btn.classList.add('rocket-btn--flying');
+        };
+
+        document.addEventListener('pointerover', (event) => {
+            const btn = event.target.closest('.rocket-btn');
+            if (!btn) {
+                return;
+            }
+            if (event.relatedTarget && btn.contains(event.relatedTarget)) {
+                return;
+            }
+            startAnimation(btn);
+        });
+
+        document.addEventListener('focusin', (event) => {
+            const btn = event.target.closest('.rocket-btn');
+            if (btn) {
+                startAnimation(btn);
+            }
+        });
+
+        document.querySelectorAll('.rocket-btn').forEach(ensureBound);
     }
 
     // setupTheme method removed - now handled by themes.js

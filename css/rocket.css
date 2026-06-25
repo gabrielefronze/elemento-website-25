@@ -30,14 +30,15 @@
     transform: translate(-50%, -50%);
 }
 
-.rocket-btn:hover .rocket-icon {
+.rocket-btn:hover .rocket-icon,
+.rocket-btn.rocket-btn--flying .rocket-icon {
     opacity: 0;
 }
 
-.rocket-btn:hover .rocket-flyaway {
+.rocket-btn.rocket-btn--flying .rocket-flyaway {
     opacity: 1;
     transform: translate(-50%, -50%) translateX(-12px) translateY(-2px);
-    animation: rocket-fly 5s linear infinite;
+    animation: rocket-fly 5s linear 1 forwards;
 }
 
 @keyframes rocket-fly {
@@ -124,9 +125,9 @@
     z-index: 1;
 }
 
-.rocket-btn:hover .rocket-flyaway::before {
+.rocket-btn.rocket-btn--flying .rocket-flyaway::before {
     opacity: 1;
-    animation: rocket-trail 5s linear infinite;
+    animation: rocket-trail 5s linear 1 forwards;
 }
 
 @keyframes rocket-trail {
