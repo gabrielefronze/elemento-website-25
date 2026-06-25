@@ -70,6 +70,8 @@
     var PARALLAX_ORBIT_MAX = 30;
     var PARALLAX_LERP = 0.09;
     var PARALLAX_RING_FACTOR = [1, 0.68, 0.42];
+    // Scroll parallax — headline + orbit exit the fold faster than the page scroll.
+    var SCROLL_PARALLAX_RATE = 0.42;
     // Cap render rate — 60fps; Safari keeps separate path throttle below.
     var FRAME_MS = 16;
     // SVG path retessellation is costly in Safari — update lines less often.
@@ -227,7 +229,7 @@
 
     function applyHeadlineShift() {
         if (!state) return;
-        var shiftY = state.headlineShiftY || 0;
+        var shiftY = (state.headlineShiftY || 0) + (state.scrollParallaxY || 0);
         var t = shiftY
             ? 'translate3d(0,' + shiftY.toFixed(1) + 'px,0)'
             : '';
@@ -236,6 +238,68 @@
                 el.style.transform = t;
             }
         });
+    }
+
+    function applyOrbitScrollShift() {
+        if (!state || !state.linkLayer) return;
+        var y = state.scrollParallaxY || 0;
+        var t = y
+            ? 'translate3d(0,' + y.toFixed(1) + 'px,0)'
+            : '';
+        [state.providers, state.linkLayer, state.cardLayer].forEach(function (el) {
+            if (el && el.style.transform !== t) {
+                el.style.transform = t;
+            }
+        });
+    }
+
+    function computeScrollParallaxY(hero) {
+        if (!hero) return 0;
+        var scrollY = window.scrollY || window.pageYOffset || 0;
+        var max = Math.min(hero.offsetHeight * 0.45, window.innerHeight * 0.55);
+        return -Math.min(scrollY * SCROLL_PARALLAX_RATE, max);
+    }
+
+    function updateScrollParallax() {
+        if (!state || !state._hero || prefersReducedMotion()) return false;
+        var y = computeScrollParallaxY(state._hero);
+        if (state.scrollParallaxY === y) return false;
+        state.scrollParallaxY = y;
+        applyHeadlineShift();
+        applyOrbitScrollShift();
+        if (state.items) {
+            state.items.forEach(function (it) {
+                it._path = undefined;
+            });
+        }
+        return true;
+    }
+
+    function scrollParallaxNeedsFrame() {
+        if (!state || !state._hero || prefersReducedMotion()) return false;
+        var target = computeScrollParallaxY(state._hero);
+        return Math.abs((state.scrollParallaxY || 0) - target) > 0.1;
+    }
+
+    function bindScrollParallax(hero) {
+        if (!hero || prefersReducedMotion() || (state && state._scrollParallaxBound)) return;
+
+        if (!state) {
+            state = { _hero: hero, scrollParallaxY: 0, headlineShiftY: 0 };
+        } else {
+            state._hero = hero;
+        }
+        state.scrollParallaxY = state.scrollParallaxY || 0;
+
+        function onScroll() {
+            updateScrollParallax();
+            updateLoop();
+        }
+
+        window.addEventListener('scroll', onScroll, { passive: true });
+        state._onScrollParallax = onScroll;
+        state._scrollParallaxBound = true;
+        updateScrollParallax();
     }
 
     function updateParallax() {
@@ -254,6 +318,10 @@
             || Math.abs(state.parallaxY) > 0.15
             || Math.abs(state.pointerNX) > 0.002
             || Math.abs(state.pointerNY) > 0.002;
+    }
+
+    function motionNeedsFrame() {
+        return parallaxNeedsFrame() || scrollParallaxNeedsFrame();
     }
 
     function bindParallax(hero) {
@@ -324,6 +392,7 @@
         if (!container) return;
         if (isSmallPortraitViewport()) {
             resetHeroBlocks();
+            bindScrollParallax(container.closest('.hero') || document.querySelector('.hero.hero-home'));
             return;
         }
 
@@ -415,12 +484,14 @@
             running: false, rafId: null, lastFrame: 0, lastPath: 0,
             frameMs: FRAME_MS,
             pathMs: IS_SAFARI ? PATH_MS_SAFARI : 0,
-            roundPath: IS_SAFARI
+            roundPath: IS_SAFARI,
+            _hero: hero, scrollParallaxY: 0, headlineShiftY: 0
         };
 
         layout();
         bindVisibility(hero || wrap);
         bindParallax(hero);
+        bindScrollParallax(hero);
 
         var resizeTimer = null;
         window.addEventListener('resize', function () {
@@ -465,7 +536,8 @@
     }
 
     function shouldRenderFrame() {
-        return shouldAnimate() || (state && state.inView && state.docVisible && parallaxNeedsFrame());
+        return shouldAnimate()
+            || (state && state.inView && state.docVisible && motionNeedsFrame());
     }
 
     function updateLoop() {
@@ -497,6 +569,7 @@
         }
         state.rafId = window.requestAnimationFrame(frame);
         updateParallax();
+        updateScrollParallax();
         if (now - state.lastFrame < state.frameMs) return;
         state.lastFrame = now;
         renderCards(now);
@@ -525,6 +598,7 @@
             deltaY = Math.max(-160, Math.min(220, deltaY));
             state.headlineShiftY = deltaY;
             applyHeadlineShift();
+            applyOrbitScrollShift();
             var r = word.getBoundingClientRect();
             cx = r.left - base.left + r.width / 2;
             cy = r.top - base.top + r.height / 2;
@@ -597,6 +671,8 @@
             renderCards(t);
             renderLines(t);
         }
+
+        updateScrollParallax();
     }
 
     function renderCards(now) {
