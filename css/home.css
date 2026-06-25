@@ -87,6 +87,13 @@
 }
 
 /* Homepage hero */
+.hero-home .hero-title,
+.hero-home .hero-subtitle,
+.hero-home .home-tagline,
+.hero-home .hero-secondary-link {
+    font-family: var(--font-heading, 'Red Hat Display', sans-serif);
+}
+
 .hero-home .hero-title {
     margin-bottom: var(--space-md);
 }

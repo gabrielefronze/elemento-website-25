@@ -91,6 +91,14 @@
     var HUB_PULSE_DECAY = 7000;
     var HUB_PULSE_FADE_IN = 400;
     var METACLOUD_PULSE_SCALE = 0.38;
+    // Ephemeral migration segments — cloud↔cloud and workloads moving toward AtomOS.
+    var MIGRATION_MAX = 3;
+    var MIGRATION_POOL = 4;
+    var MIGRATION_SPAWN_MIN = 2200;
+    var MIGRATION_SPAWN_JITTER = 1800;
+    var MIGRATION_DURATION_MIN = 1600;
+    var MIGRATION_DURATION_JITTER = 900;
+    var MIGRATION_SPARK_LEN = 9;
 
     var IS_SAFARI = (function () {
         var ua = navigator.userAgent;
@@ -194,6 +202,268 @@
             ' ' + x2.toFixed(1) + ' ' + y2.toFixed(1);
     }
 
+    /** Curved bridge between two orbiting cards — always bows inward toward Metacloud. */
+    function bridgePath(x1, y1, x2, y2, hubX, hubY, round) {
+        var mx = (x1 + x2) * 0.5;
+        var my = (y1 + y2) * 0.5;
+        var dx = x2 - x1;
+        var dy = y2 - y1;
+        var len = Math.hypot(dx, dy) || 1;
+        var tx = hubX - mx;
+        var ty = hubY - my;
+        var tLen = Math.hypot(tx, ty) || 1;
+        var bow = len * ARCH;
+        var cxp = mx + (tx / tLen) * bow;
+        var cyp = my + (ty / tLen) * bow;
+        if (round) {
+            return 'M' + Math.round(x1) + ' ' + Math.round(y1) +
+                ' Q' + Math.round(cxp) + ' ' + Math.round(cyp) +
+                ' ' + Math.round(x2) + ' ' + Math.round(y2);
+        }
+        return 'M ' + x1.toFixed(1) + ' ' + y1.toFixed(1) +
+            ' Q ' + cxp.toFixed(1) + ' ' + cyp.toFixed(1) +
+            ' ' + x2.toFixed(1) + ' ' + y2.toFixed(1);
+    }
+
+    function migrationEnvelope(t) {
+        if (t <= 0 || t >= 1) return 0;
+        if (t < 0.14) return t / 0.14;
+        if (t > 0.78) return (1 - t) / 0.22;
+        return 1;
+    }
+
+    function migrationEase(t) {
+        return t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2;
+    }
+
+    function migrationEndpoints(fromIt, toIt) {
+        var x1 = fromIt._x;
+        var y1 = fromIt._y;
+        var x2 = toIt._x;
+        var y2 = toIt._y;
+        var e1 = rectEdgeToward(x1, y1, x2, y2, fromIt._halfW || 70, fromIt._halfH || 22);
+        var e2 = rectEdgeToward(x2, y2, x1, y1, toIt._halfW || 70, toIt._halfH || 22);
+        return { x1: e1.x, y1: e1.y, x2: e2.x, y2: e2.y };
+    }
+
+    function initMigrationPool(svg) {
+        var migGroup = document.createElementNS(SVGNS, 'g');
+        migGroup.setAttribute('class', 'hero-migrations');
+        svg.appendChild(migGroup);
+
+        var pool = [];
+        for (var m = 0; m < MIGRATION_POOL; m++) {
+            var trail = document.createElementNS(SVGNS, 'path');
+            trail.setAttribute('class', 'hero-migration-trail');
+            trail.style.display = 'none';
+            var spark = document.createElementNS(SVGNS, 'path');
+            spark.setAttribute('class', 'hero-migration-spark');
+            spark.style.display = 'none';
+            migGroup.appendChild(trail);
+            migGroup.appendChild(spark);
+            pool.push({ trail: trail, spark: spark, active: false });
+        }
+        return pool;
+    }
+
+    function acquireMigrationPaths() {
+        if (!state || !state.migrationPool) return null;
+        for (var i = 0; i < state.migrationPool.length; i++) {
+            if (!state.migrationPool[i].active) return state.migrationPool[i];
+        }
+        return null;
+    }
+
+    function releaseMigrationPaths(paths) {
+        paths.active = false;
+        paths.trail.style.display = 'none';
+        paths.spark.style.display = 'none';
+        paths.trail.removeAttribute('d');
+        paths.spark.removeAttribute('d');
+    }
+
+    function showMigrationPaths(paths) {
+        paths.trail.style.display = '';
+        paths.spark.style.display = '';
+    }
+
+    function setMigrationPathD(paths, d) {
+        paths.trail.setAttribute('d', d);
+        paths.spark.setAttribute('d', d);
+    }
+
+    /** Growing yellow trail + bright spark head along path progress (0–1). */
+    function applyMigrationStroke(paths, pathLen, progress, alpha) {
+        var progressLen = Math.max(1, pathLen * progress);
+        var sparkLen = Math.min(MIGRATION_SPARK_LEN, progressLen);
+        var trailDash = progressLen.toFixed(1) + ' ' + pathLen.toFixed(1);
+        var sparkOff = Math.max(0, progressLen - sparkLen);
+
+        if (paths._trailDash !== trailDash) {
+            paths.trail.setAttribute('stroke-dasharray', trailDash);
+            paths.trail.setAttribute('stroke-dashoffset', '0');
+            paths._trailDash = trailDash;
+        }
+
+        var sparkDash = sparkLen.toFixed(1) + ' ' + (pathLen + sparkLen).toFixed(1);
+        var sparkDashOff = String(-sparkOff);
+        if (paths._sparkDash !== sparkDash + '|' + sparkDashOff) {
+            paths.spark.setAttribute('stroke-dasharray', sparkDash);
+            paths.spark.setAttribute('stroke-dashoffset', sparkDashOff);
+            paths._sparkDash = sparkDash + '|' + sparkDashOff;
+        }
+
+        var trailOp = (0.62 * alpha).toFixed(3);
+        var sparkOp = alpha.toFixed(3);
+        if (paths._trailOp !== trailOp) {
+            paths.trail.style.opacity = trailOp;
+            paths._trailOp = trailOp;
+        }
+        if (paths._sparkOp !== sparkOp) {
+            paths.spark.style.opacity = sparkOp;
+            paths._sparkOp = sparkOp;
+        }
+    }
+
+    function activeMigrationIndices(now) {
+        var out = [];
+        state.items.forEach(function (it, i) {
+            if (it.hidden || it._x == null) return;
+            if (!isForegroundOrbit(i, now)) return;
+            if ((it._lineOpVal || 0) < 0.32) return;
+            out.push(i);
+        });
+        return out;
+    }
+
+    function pickMigrationPair(now) {
+        var active = activeMigrationIndices(now);
+        if (active.length < 2) return null;
+
+        var atomos = state.atomosIdx;
+        var atomosActive = atomos >= 0 && active.indexOf(atomos) !== -1;
+
+        if (atomosActive && Math.random() < 0.58) {
+            var sources = active.filter(function (i) {
+                return i !== atomos && state.items[i].kind === 'hypervisor';
+            });
+            if (!sources.length) {
+                sources = active.filter(function (i) {
+                    return i !== atomos && state.items[i].kind === 'cloud';
+                });
+            }
+            if (!sources.length) {
+                sources = active.filter(function (i) { return i !== atomos; });
+            }
+            if (!sources.length) return null;
+            return {
+                from: sources[Math.floor(Math.random() * sources.length)],
+                to: atomos,
+                type: 'atomos'
+            };
+        }
+
+        var clouds = active.filter(function (i) {
+            return state.items[i].kind === 'cloud';
+        });
+        if (clouds.length >= 2) {
+            var c1 = clouds[Math.floor(Math.random() * clouds.length)];
+            var c2 = clouds.filter(function (i) { return i !== c1; });
+            c2 = c2[Math.floor(Math.random() * c2.length)];
+            return { from: c1, to: c2, type: 'cloud' };
+        }
+
+        var hypervisors = active.filter(function (i) {
+            return state.items[i].kind === 'hypervisor' && i !== atomos;
+        });
+        if (hypervisors.length < 2) return null;
+        var h1 = hypervisors[Math.floor(Math.random() * hypervisors.length)];
+        var h2 = hypervisors.filter(function (i) { return i !== h1; });
+        h2 = h2[Math.floor(Math.random() * h2.length)];
+        return { from: h1, to: h2, type: 'bridge' };
+    }
+
+    function trySpawnMigration(now) {
+        var paths = acquireMigrationPaths();
+        if (!paths) return null;
+
+        var pair = pickMigrationPair(now);
+        if (!pair) return null;
+
+        paths.active = true;
+        paths._trailDash = null;
+        paths._sparkDash = null;
+        paths._trailOp = null;
+        paths._sparkOp = null;
+        showMigrationPaths(paths);
+        pulseMigrationCard(pair.from, now);
+
+        return {
+            from: pair.from,
+            to: pair.to,
+            type: pair.type,
+            start: now,
+            duration: MIGRATION_DURATION_MIN + Math.random() * MIGRATION_DURATION_JITTER,
+            paths: paths,
+            _pathD: null,
+            _pathLen: 0,
+            _toPulsed: false
+        };
+    }
+
+    function tickMigrations(now) {
+        if (!state || state.reduced || !shouldAnimate() || !state.migrations) return;
+
+        state.migrations = state.migrations.filter(function (m) {
+            if (now - m.start >= m.duration) {
+                releaseMigrationPaths(m.paths);
+                return false;
+            }
+            return true;
+        });
+
+        if (now < state.migrationNextAt) return;
+        if (state.migrations.length >= MIGRATION_MAX) return;
+
+        var mig = trySpawnMigration(now);
+        if (mig) state.migrations.push(mig);
+        state.migrationNextAt = now + MIGRATION_SPAWN_MIN + Math.random() * MIGRATION_SPAWN_JITTER;
+    }
+
+    function renderMigrations(now) {
+        if (!state || !state.migrations || !state.migrations.length) return;
+
+        state.migrations.forEach(function (m) {
+            var fromIt = state.items[m.from];
+            var toIt = state.items[m.to];
+            if (!fromIt || !toIt || fromIt.hidden || toIt.hidden || fromIt._x == null || toIt._x == null) {
+                return;
+            }
+
+            var t = (now - m.start) / m.duration;
+            var alpha = migrationEnvelope(t);
+            if (alpha <= 0) return;
+
+            var ep = migrationEndpoints(fromIt, toIt);
+            var d = bridgePath(ep.x1, ep.y1, ep.x2, ep.y2, state.cx, state.cy, state.roundPath);
+            if (m._pathD !== d) {
+                setMigrationPathD(m.paths, d);
+                m._pathD = d;
+                m._pathLen = m.paths.spark.getTotalLength();
+            }
+
+            var eased = migrationEase(Math.min(1, Math.max(0, t)));
+            var pathLen = m._pathLen || 1;
+            applyMigrationStroke(m.paths, pathLen, eased, alpha);
+
+            if (!m._toPulsed && eased >= 0.95) {
+                clearMigrationCardPulse(m.from);
+                pulseMigrationCard(m.to, now);
+                m._toPulsed = true;
+            }
+        });
+    }
+
     /** Point on a card's axis-aligned bounds along the ray toward (tx, ty). */
     function rectEdgeToward(cx, cy, tx, ty, halfW, halfH) {
         var dx = tx - cx;
@@ -250,6 +520,27 @@
         if (!it || it.hidden) return false;
         var ang = state.reduced ? it.baseAngle : it.baseAngle + now * it.omega;
         return Math.sin(ang) >= 0;
+    }
+
+    /** Yellow hub-style highlight on a provider card (migration source/destination). */
+    function pulseMigrationCard(index, now) {
+        if (!state || !state.items || !state.items[index]) return;
+        var it = state.items[index];
+        if (it.hidden) return;
+        it._hubPulseStart = now;
+    }
+
+    function clearMigrationCardPulse(index) {
+        if (!state || !state.items || !state.items[index]) return;
+        var it = state.items[index];
+        it._hubPulseStart = 0;
+        var card = state.cards && state.cards[index];
+        if (!card) return;
+        if (it._hubPulseOn) {
+            card.classList.remove('provider-float--hub-pulse');
+            card.style.removeProperty('--hub-pulse');
+            it._hubPulseOn = false;
+        }
     }
 
     function pickHubPulseIndices(visible, now) {
@@ -598,6 +889,8 @@
 
             items.push({
                 ring: p.ring,
+                kind: p.kind,
+                name: p.name,
                 accent: p.accent,
                 baseAngle: p.startAngle,
                 omega: RING_OMEGA[p.ring],
@@ -608,6 +901,13 @@
                 rV: 0
             });
         });
+
+        var atomosIdx = -1;
+        PROVIDERS.forEach(function (p, i) {
+            if (p.name === 'AtomOS') atomosIdx = i;
+        });
+
+        var migrationPool = initMigrationPool(svg);
 
         container.innerHTML = '';
         container.appendChild(providers);
@@ -650,7 +950,11 @@
             hubPulse: reduced ? null : {
                 nextAt: performance.now() + 900,
                 metacloudStart: 0
-            }
+            },
+            atomosIdx: atomosIdx,
+            migrationPool: migrationPool,
+            migrations: [],
+            migrationNextAt: performance.now() + 1400
         };
 
         layout();
@@ -736,10 +1040,12 @@
         updateScrollParallax();
         tickHubPulse(now);
         applyMetacloudHubPulse(now);
+        tickMigrations(now);
         if (now - state.lastFrame < state.frameMs) return;
         state.lastFrame = now;
         renderCards(now);
         renderLines(now);
+        renderMigrations(now);
     }
 
     function layout() {

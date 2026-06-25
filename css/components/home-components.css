@@ -428,6 +428,31 @@
     will-change: stroke-dashoffset;
 }
 
+/* Ephemeral workload migration segments (hero orbit). */
+.hero-migration-trail,
+.hero-migration-spark,
+.metacloud-migration-trail,
+.metacloud-migration-spark {
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    pointer-events: none;
+}
+
+.hero-migration-trail,
+.metacloud-migration-trail {
+    stroke: var(--primary-color, #ffa600);
+    stroke-width: 1.6;
+    will-change: stroke-dasharray, opacity;
+}
+
+.hero-migration-spark,
+.metacloud-migration-spark {
+    stroke: #ffe566;
+    stroke-width: 2.2;
+    will-change: stroke-dashoffset, opacity;
+}
+
 /* --- Provider cards (positioned by JS via transform) --- */
 .provider-float {
     position: absolute;
@@ -844,6 +869,13 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
+    .metacloud-migration-trail,
+    .metacloud-migration-spark,
+    .hero-migration-trail,
+    .hero-migration-spark {
+        display: none !important;
+    }
+
     .metacloud-stack .hero-link--branch,
     .metacloud-stack .hero-link--spine {
         animation: none;
