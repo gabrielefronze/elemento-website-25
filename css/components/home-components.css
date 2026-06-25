@@ -421,7 +421,7 @@
         background 0.35s ease;
 }
 
-/* Gaussian glass when a card sweeps over the hero CTAs (toggled by JS). */
+/* Gaussian glass on the front card when two orbit cards overlap (toggled by JS). */
 .provider-float--cta-glass {
     contain: layout style;
     background: color-mix(in srgb, var(--glassmorphism-background) 78%, transparent);
@@ -514,14 +514,17 @@
     opacity: 0.85;
 }
 
-/* Mobile / narrow: skip the constellation — copy and CTAs only. */
-@media (max-width: 992px) {
+/* Small portrait phones: hide the constellation — copy and CTAs only. */
+@media (max-width: 768px) and (orientation: portrait) {
     .hero-wow,
     .hero-links,
     .hero-cards {
         display: none !important;
     }
+}
 
+/* Mobile / narrow: hero layout tuning */
+@media (max-width: 992px) {
     .hero.hero-home {
         min-height: auto;
         height: auto;

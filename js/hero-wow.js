@@ -5,12 +5,12 @@
  * in the headline along concentric ellipses (ring 0 closest), each joined to the
  * word by a smoothly arched, animated link line. The word is the shared orbit
  * center; rings rotate at different speeds for a galaxy feel. Cards dim as they
- * sweep behind the headline. Disabled below 992px — mobile gets copy + CTAs only.
+ * sweep behind the headline. Disabled on small portrait viewports — phones get copy + CTAs only.
  */
 (function () {
     'use strict';
 
-    var MOBILE_MQ = '(max-width: 992px)';
+    var SMALL_PORTRAIT_MQ = '(max-width: 768px) and (orientation: portrait)';
 
     var SVGNS = 'http://www.w3.org/2000/svg';
 
@@ -67,8 +67,8 @@
         return window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     }
 
-    function isMobileViewport() {
-        return window.matchMedia(MOBILE_MQ).matches;
+    function isSmallPortraitViewport() {
+        return window.matchMedia(SMALL_PORTRAIT_MQ).matches;
     }
 
     function resetHeroBlocks() {
@@ -189,18 +189,6 @@
         };
     }
 
-    function measureCtaZone(base) {
-        var el = document.querySelector('.hero-home__cta');
-        if (!el) return null;
-        var r = el.getBoundingClientRect();
-        return {
-            left: r.left - base.left,
-            top: r.top - base.top,
-            right: r.right - base.left,
-            bottom: r.bottom - base.top
-        };
-    }
-
     /** 0 outside zone; 1 at centre (smooth falloff within pad). */
     function zoneInfluence(x, y, zone, pad) {
         if (!zone) return 0;
@@ -219,10 +207,43 @@
         return 1 - t * (1 - SUBTITLE_MIN_OP);
     }
 
+    /** Measure one visible card at scale 1 for overlap bounds (opacity 0 still lays out). */
+    function measureCardBaseSize(cards) {
+        for (var i = 0; i < cards.length; i++) {
+            if (cards[i].style.display === 'none') continue;
+            var prev = cards[i].style.transform;
+            cards[i].style.transform = 'translate3d(0,0,0) translate(-50%,-50%) scale(1)';
+            var r = cards[i].getBoundingClientRect();
+            cards[i].style.transform = prev;
+            if (r.width > 4 && r.height > 4) {
+                return { w: r.width, h: r.height };
+            }
+        }
+        return { w: 200, h: 52 };
+    }
+
+    function cardHalfExtents(scale) {
+        var compact = state.compact;
+        var w = compact ? 44 : (state.cardBaseW || 200);
+        var h = compact ? 44 : (state.cardBaseH || 52);
+        return { hw: w * scale * 0.48, hh: h * scale * 0.48 };
+    }
+
+    function boxesOverlap(a, b) {
+        return Math.abs(a.x - b.x) < a.hw + b.hw &&
+            Math.abs(a.y - b.y) < a.hh + b.hh;
+    }
+
+    /** True when card a stacks in front of card b (higher orbit z / nearer in depth). */
+    function isAboveCard(a, b) {
+        if (a.z !== b.z) return a.z > b.z;
+        return a.near > b.near;
+    }
+
     function init() {
         var container = document.getElementById('hero-wow-placeholder');
         if (!container) return;
-        if (isMobileViewport()) {
+        if (isSmallPortraitViewport()) {
             resetHeroBlocks();
             return;
         }
@@ -246,8 +267,7 @@
         svg.setAttribute('preserveAspectRatio', 'none');
         linkLayer.appendChild(svg);
 
-        // Cards live in their own layer above the CTAs; lines sit between
-        // CTAs and cards so both render over the buttons but under the hub.
+        // Cards orbit above link lines; CTAs sit above the card layer (z-index in CSS/JS).
         var cardLayer = document.createElement('div');
         cardLayer.className = 'hero-cards';
         cardLayer.setAttribute('aria-hidden', 'true');
@@ -432,8 +452,6 @@
         state.W = W;
         state.subtitleZone = measureSubtitleZone(base);
         state.subtitleFadePad = Math.max(36, Math.min(72, W * 0.05));
-        state.ctaZone = measureCtaZone(base);
-        state.ctaGlassPad = Math.max(44, Math.min(88, W * 0.065));
 
         state.svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
 
@@ -464,6 +482,11 @@
         var orbitH = Math.min(1, vw / 1350);
         state.orbitV = orbitV;
         state.orbitH = orbitH;
+        state.compact = compact;
+
+        var baseSize = measureCardBaseSize(state.cards);
+        state.cardBaseW = baseSize.w;
+        state.cardBaseH = baseSize.h;
 
         var marginX = Math.max(20, Math.min(96, W * 0.08));
         var marginTop = Math.max(72, H * 0.12);
@@ -483,7 +506,7 @@
             line.flow.style.display = hidden ? 'none' : '';
             it.rH = Math.min(RING_H[it.ring] * W * orbitH, maxH);
             it.rV = Math.min(RING_V[it.ring] * H * orbitV, maxV);
-            it._path = it._transform = it._opacity = it._z = it._lineOp = it._ctaGlass = undefined;
+            it._path = it._transform = it._opacity = it._z = it._lineOp = it._stackGlass = undefined;
         });
 
         if (state.reduced) {
@@ -504,6 +527,7 @@
         var pMin = state.perspMin != null ? state.perspMin : 0.7;
         var pMax = state.perspMax != null ? state.perspMax : 1.55;
         var roundPos = state.roundPath;
+        var frame = [];
 
         for (var i = 0; i < items.length; i++) {
             var it = items[i];
@@ -521,9 +545,9 @@
             var farFade = 0.58 + 0.42 * near;
             var reveal = state.reduced ? 1 : Math.max(0, Math.min(1, (now - it.revealStart) / 500));
             var subFade = subtitleFadeFactor(x, y, state.subtitleZone, state.subtitleFadePad);
-            var ctaGlass = zoneInfluence(x, y, state.ctaZone, state.ctaGlassPad) > 0.06;
+            var scaleNum = it.scale * persp;
 
-            var scale = (it.scale * persp).toFixed(3);
+            var scale = scaleNum.toFixed(3);
             var px = roundPos ? String(x) : x.toFixed(1);
             var py = roundPos ? String(y) : y.toFixed(1);
             var transform = 'translate3d(' + px + 'px,' + py + 'px,0) translate(-50%,-50%) scale(' + scale + ')';
@@ -545,14 +569,40 @@
                 it._opacity = opacity;
             }
 
-            if (it._ctaGlass !== ctaGlass) {
-                card.classList.toggle('provider-float--cta-glass', ctaGlass);
-                it._ctaGlass = ctaGlass;
-            }
+            var extents = cardHalfExtents(scaleNum);
+            frame.push({
+                i: i,
+                x: x,
+                y: y,
+                near: near,
+                z: parseInt(z, 10),
+                hw: extents.hw,
+                hh: extents.hh
+            });
 
             it._x = x;
             it._y = y;
             it._lineOpVal = 0.7 * reveal * farFade * subFade;
+        }
+
+        for (var a = 0; a < frame.length; a++) {
+            var fa = frame[a];
+            var overlapGlass = false;
+            for (var b = 0; b < frame.length; b++) {
+                if (a === b) continue;
+                var fb = frame[b];
+                if (boxesOverlap(fa, fb) && isAboveCard(fa, fb)) {
+                    overlapGlass = true;
+                    break;
+                }
+            }
+            var useGlass = overlapGlass;
+            var item = items[fa.i];
+            var cardEl = state.cards[fa.i];
+            if (item._stackGlass !== useGlass) {
+                cardEl.classList.toggle('provider-float--cta-glass', useGlass);
+                item._stackGlass = useGlass;
+            }
         }
     }
 
