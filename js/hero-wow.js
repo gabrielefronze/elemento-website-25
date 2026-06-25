@@ -24,10 +24,8 @@
         { name: 'VMware', tag: 'Hypervisor', icon: 'fas fa-layer-group', accent: '#9AAEC0', kind: 'hypervisor', ring: 0 },
         { name: 'KVM', tag: 'Virtualization', icon: 'fas fa-microchip', accent: '#D33', kind: 'hypervisor', ring: 1 },
         { name: 'Hyper-V', tag: 'Hypervisor', icon: 'fab fa-windows', accent: '#2E8DEF', kind: 'hypervisor', ring: 1 },
-        { name: 'Nutanix', tag: 'Hypervisor', icon: 'fas fa-cubes', accent: '#3B82C4', kind: 'hypervisor', ring: 1 },
-        { name: 'Citrix', tag: 'Hypervisor', icon: 'fas fa-server', accent: '#7A52C7', kind: 'hypervisor', ring: 2 },
+        { name: 'Nutanix', tag: 'Hypervisor', icon: 'fas fa-cubes', accent: '#3B82C4', kind: 'hypervisor', ring: 2 },
         { name: 'Red Hat', tag: 'Virtualization', icon: 'fab fa-redhat', accent: '#EE0000', kind: 'hypervisor', ring: 2 },
-        { name: 'XCP-ng', tag: 'Hypervisor', icon: 'fas fa-server', accent: '#1BA0E2', kind: 'hypervisor', ring: 2 },
         { name: 'OpenStack', tag: 'Private cloud', icon: 'fas fa-server', accent: '#E0408A', kind: 'hypervisor', ring: 2 },
 
         // Clouds
@@ -39,7 +37,10 @@
         { name: 'Oracle', tag: 'Public cloud', icon: 'fas fa-database', accent: '#C74634', kind: 'cloud', ring: 2 },
         { name: 'IBM Cloud', tag: 'Public cloud', icon: 'fas fa-cloud', accent: '#0F62FE', kind: 'cloud', ring: 2 },
         { name: 'Alibaba', tag: 'Public cloud', icon: 'fas fa-cloud', accent: '#FF6A00', kind: 'cloud', ring: 2 },
-        { name: 'DigitalOcean', tag: 'Public cloud', icon: 'fab fa-digital-ocean', accent: '#0080FF', kind: 'cloud', ring: 2 }
+        { name: 'DigitalOcean', tag: 'Public cloud', icon: 'fab fa-digital-ocean', accent: '#0080FF', kind: 'cloud', ring: 2 },
+        { name: 'Wasabi', tag: 'Object storage', icon: 'fas fa-database', accent: '#00C65E', kind: 'cloud', ring: 2 },
+        { name: 'Impossible Cloud', tag: 'Sovereign cloud', icon: 'fas fa-cloud', accent: '#00C65E', kind: 'cloud', ring: 2 },
+        { name: 'UpCloud', tag: 'Sovereign cloud', icon: 'fas fa-cloud', accent: '#7B68EE', kind: 'cloud', ring: 2 }
     ];
 
     var RING_H = [0.24, 0.33, 0.42];
